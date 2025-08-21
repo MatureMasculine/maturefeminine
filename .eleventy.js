@@ -27,16 +27,27 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
     const groups = [];
     for (const file of files) {
-      const raw = fs.readFileSync(path.join(dataDir, file), "utf8");
-      const obj = JSON.parse(raw);
-      // Map file schema to group schema
-      groups.push({
-        name: obj.name || obj.group || "",
-        slug: obj.slug || "",
-        summary: obj.summary || "",
-        essence: obj.essence || "",
-        items: Array.isArray(obj.items) ? obj.items : []
-      });
+      const full = path.join(dataDir, file);
+      let raw = "";
+      try {
+        raw = fs.readFileSync(full, "utf8");
+        if (!raw || !raw.trim()) {
+          console.warn(`[11ty] Skipping empty data file: ${file}`);
+          continue;
+        }
+        const obj = JSON.parse(raw);
+        // Map file schema to group schema
+        groups.push({
+          name: obj.name || obj.group || "",
+          slug: obj.slug || "",
+          summary: obj.summary || "",
+          essence: obj.essence || "",
+          items: Array.isArray(obj.items) ? obj.items : []
+        });
+      } catch (e) {
+        console.warn(`[11ty] Skipping invalid JSON in ${file}: ${e.message}`);
+        continue;
+      }
     }
     return groups;
   }

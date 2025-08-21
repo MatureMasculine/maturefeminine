@@ -1,0 +1,375 @@
+{
+    "title": "Queen Archetypes - Completely Revised",
+    "group": "Queen",
+    "slug": "queen",
+    "summary": "Sovereignty, blessing; task = rule without domination",
+    "essence": "Bestows order and blessing, sets clean boundaries, creates safety where life can flourish.",
+    "items": [
+      {
+        "name": "Queen / Hearth Keeper (Brigid)",
+        "slug": "queen-hearth-keeper",
+        "qualities": ["benevolent authority"],
+        "gifts": "Stewardship, warmth that organizes; dignifies people and place.",
+        "growthPath": "Practice benevolent \"yes\" and principled \"no.\" Share power; keep accountability.",
+        "practices": [
+          "Morning \"court\" (3 decisions + 1 blessing)",
+          "Weekly household rhythm",
+          "Boundary statement in one sentence"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Tyrannical Empress",
+              "type": "active",
+              "description": [
+                "When authority devours service, the Queen becomes a beautiful dictator who rules through fear disguised as care. She has confused leadership with control, stewardship with ownership. Her authority has become compulsive—she must manage every detail, control every outcome, make every decision. She's forgotten that true power serves others, not self.",
+                "She creates kingdoms of dependence where no one can function without her approval, no one can make decisions without her input, no one can succeed without her blessing. Her service has been murdered by her ego—she serves her own need to be needed, her own addiction to being indispensable. She rules through withholding approval, granting favor, and reminding everyone who's really in charge."
+              ],
+              "declarations": [
+                "If you want something done right, you have to do it yourself",
+                "I'm just trying to help everyone be their best",
+                "They need structure and guidance to succeed",
+                "I can see the big picture better than they can",
+                "I'm responsible for making sure everything runs smoothly",
+                "They should be grateful for all the opportunities I've given them"
+              ],
+              "balancing": [
+                "I ask for input before making decisions that affect others",
+                "I delegate real authority, not just tasks",
+                "I celebrate others' successes without taking credit",
+                "I admit when I'm wrong and apologize appropriately",
+                "I create systems that can function without my constant oversight",
+                "I serve others' growth rather than my own need to be needed"
+              ],
+              "gift": "When tempered, becomes extraordinary leadership that creates structures and systems that truly serve others' growth and success.",
+              "outOfBalance": [
+                "Controls through fear and withholding approval",
+                "Makes unilateral decisions that affect others",
+                "Creates dependency rather than empowerment",
+                "Takes credit for others' successes",
+                "Rules through manipulation rather than inspiration",
+                "Serves own ego needs rather than collective good"
+              ]
+            },
+            {
+              "name": "Abdicated Ruler",
+              "type": "passive",
+              "description": [
+                "When service drowns out authority, the Queen becomes a crown that's forgotten it has power. She has confused humility with powerlessness, service with invisibility. Her authority has atrophied from disuse—she can't make decisions, can't set boundaries, can't take the throne that's rightfully hers. She's forgotten that abdicating power doesn't serve anyone.",
+                "She defers to others who are less qualified, avoids making decisions that others are waiting for her to make, and apologizes for having opinions or preferences. Her service has become self-erasure—she serves by disappearing, leads by following, rules by refusing to rule. She's left her kingdom without a leader while everyone waits for her to remember who she is."
+              ],
+              "declarations": [
+                "I don't want to seem bossy or controlling",
+                "I'm sure someone else would be better at this",
+                "I don't want to impose my will on others",
+                "Everyone's opinion is equally valid",
+                "I'm just here to support whatever the group decides",
+                "I don't feel comfortable being in charge"
+              ],
+              "balancing": [
+                "I step into leadership when my gifts are needed",
+                "I make decisions promptly when others are waiting for direction",
+                "I express my vision clearly and invite others to join it",
+                "I take responsibility for outcomes in my domain",
+                "I use my authority to create structure that serves everyone",
+                "I remember that my power is meant to serve, not to be hidden"
+              ],
+              "gift": "When awakened, provides essential humility and collaborative leadership that makes authority trustworthy and inspiring.",
+              "outOfBalance": [
+                "Avoids necessary leadership responsibilities",
+                "Defers decisions to others who are less qualified",
+                "Apologizes for having authority or expertise",
+                "Confuses humility with powerlessness",
+                "Abandons others who need clear direction",
+                "Uses false modesty to avoid accountability"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Queen/Hearth Keeper",
+            "paragraphs": [
+              "The Mature Queen embodies authority in service of the collective good. She understands that true power creates rather than controls, serves rather than dominates, empowers rather than diminishes others. Her authority flows from wisdom and competence rather than position or force. She rules with both strength and humility, creating order that serves life.",
+              "She makes decisions with both confidence and consultation, sets boundaries with both firmness and kindness, and uses her power to create conditions where others can flourish. Her leadership inspires rather than intimidates, her authority liberates rather than constrains."
+            ]
+          },
+          "declarations": [
+            "I use my authority to serve the highest good of all",
+            "I lead with both strength and humility",
+            "I create order that serves life and growth",
+            "I make decisions with wisdom and accountability",
+            "I empower others while maintaining clear boundaries",
+            "I take responsibility for outcomes in my domain",
+            "I inspire others through example rather than force",
+            "I rule with justice, compassion, and wisdom"
+          ],
+          "balance": {
+            "balance": "Authority ↔ Service",
+            "shadow": "Tyrannical Empress ↔ Abdicated Ruler",
+            "powerAnimals": "Lioness, Swan, Regal Mare",
+            "qualities": "Sovereign, Nurturing, Wise, Generous, Protective, Creative, Gracious, Confident, Harmonious, Inspiring"
+          },
+          "virtues": [
+            {
+              "title": "Authority",
+              "quote": "\"The most courageous act is still to think for yourself. Aloud.\" — Coco Chanel",
+              "paragraphs": [
+                "Authority is the Queen's rightful power to make decisions, set direction, and create order within her domain. It's not domination but stewardship—power exercised in service of something greater than personal interest. This virtue creates the structure within which others can flourish.",
+                "True authority comes from competence, wisdom, and the willingness to take responsibility for outcomes. It's authority that creates safety, clarity, and direction for those who depend on her leadership."
+              ]
+            },
+            {
+              "title": "Service",
+              "quote": "\"Service is what life is all about.\" — Anonymous",
+              "paragraphs": [
+                "Service is the Queen's recognition that power exists to serve life, not to aggrandize ego. It's the commitment to use authority for the collective good, to create conditions where others can grow and succeed. This virtue ensures that leadership serves rather than oppresses.",
+                "Healthy service in leadership means making decisions based on what serves the whole rather than what serves the leader. It's service that makes authority trustworthy and leadership sustainable."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Justice (Ma'at)",
+        "slug": "justice",
+        "qualities": ["truth & balance"],
+        "gifts": "Balances scales, names truth without venom.",
+        "growthPath": "Speak truth with compassion; act on values consistently.",
+        "practices": [
+          "Fact—feeling—value—request script",
+          "Truth circle with time-boxed shares"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Merciless Judge",
+              "type": "active",
+              "description": [
+                "When truth devours mercy, Justice becomes a beautiful executioner who kills relationships in the name of righteousness. She has confused being right with being righteous, accuracy with wisdom. Her truth has become a sword that cuts everyone down to size, including herself. She's lost the ability to distinguish between consequences and punishment, between accountability and vengeance.",
+                "She keeps meticulous records of everyone's failures, builds airtight cases against human imperfection, and delivers verdicts with surgical precision. Her mercy has been murdered by her need for moral clarity—she can't forgive because forgiveness feels like lying, can't show compassion because compassion feels like enabling. She's become the hanging judge of her own heart."
+              ],
+              "declarations": [
+                "I'm just stating the facts as they are",
+                "Someone has to be willing to tell the truth",
+                "They made their choices—now they can live with the consequences",
+                "I can't pretend something is okay when it's clearly wrong",
+                "Justice isn't supposed to be comfortable",
+                "If they can't handle honesty, that's their problem"
+              ],
+              "balancing": [
+                "I speak truth with kindness and timing that others can receive",
+                "I focus on what needs to change rather than what went wrong",
+                "I remember that being right isn't more important than being kind",
+                "I offer solutions alongside problems I identify",
+                "I practice forgiveness as an act of strength, not weakness",
+                "I consider the impact of my words as well as their accuracy"
+              ],
+              "gift": "When softened, becomes powerful moral clarity that can see through deception and create real accountability while maintaining compassion.",
+              "outOfBalance": [
+                "Delivers truth like punishment rather than medicine",
+                "Focuses on being right rather than being helpful",
+                "Harsh in timing and delivery of difficult truths",
+                "Confuses consequences with vengeance",
+                "Unable to forgive or show mercy",
+                "Creates fear rather than respect for justice"
+              ]
+            },
+            {
+              "name": "Enabler Saint",
+              "type": "passive",
+              "description": [
+                "When mercy silences truth, Justice becomes a beautiful doormat who calls her bruises 'compassion.' She has confused kindness with enabling, mercy with denial. Her truth has gone underground, emerging only in safe, socially acceptable whispers. She can see clearly what's wrong but lacks the courage to name it, can feel the imbalance but won't risk correcting it.",
+                "She makes excuses for inexcusable behavior, finds compassionate explanations for harmful actions, and enables dysfunction in the name of understanding. Her mercy has become compulsive—she can't say no to anyone's sob story, can't hold anyone accountable for their impact, can't distinguish between temporary struggle and ongoing toxicity."
+              ],
+              "declarations": [
+                "Everyone is doing the best they can",
+                "I try to understand where they're coming from",
+                "It's not my place to judge others",
+                "They've been through so much already",
+                "Maybe they'll change if I'm patient enough",
+                "I don't want to add to their burden"
+              ],
+              "balancing": [
+                "I distinguish between explanation and excuse for harmful behavior",
+                "I speak truthfully about impact, even when I understand the intention",
+                "I hold people accountable while maintaining compassion",
+                "I stop making excuses for others' poor choices",
+                "I practice saying 'that's not okay' when boundaries are crossed",
+                "I remember that truth can be the most loving response"
+              ],
+              "gift": "When activated, provides essential compassion and understanding that makes justice healing rather than punitive.",
+              "outOfBalance": [
+                "Enables harmful behavior through excessive understanding",
+                "Avoids necessary confrontations to preserve peace",
+                "Makes excuses for others' poor choices",
+                "Confuses mercy with avoiding accountability",
+                "Allows injustice to continue in the name of kindness",
+                "Uses compassion to avoid difficult truths"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Justice",
+            "paragraphs": [
+              "The Mature Justice embodies truth in service of healing and restoration. She understands that real justice serves life, not punishment, that mercy and truth are partners rather than enemies. Her clarity cuts through deception and confusion while her compassion creates space for growth and change. She speaks truth that liberates rather than condemns.",
+              "She can see clearly what is and hold space for what could be. Her justice creates accountability that empowers rather than diminishes, consequences that teach rather than punish. She's learned that the highest truth often includes both the reality of harm and the possibility of healing."
+            ]
+          },
+          "declarations": [
+            "I speak truth in service of healing and growth",
+            "I balance accountability with compassion in all my relationships",
+            "I see clearly what is while holding space for what could be",
+            "I create consequences that teach rather than punish",
+            "I offer truth as medicine, not as weapon",
+            "I practice justice that restores rather than destroys",
+            "I distinguish between mercy and enabling harmful behavior",
+            "I stand for what's right while remaining open to what's possible"
+          ],
+          "balance": {
+            "balance": "Truth ↔ Mercy",
+            "shadow": "Merciless Judge ↔ Enabler Saint",
+            "powerAnimals": "Lioness, Crane, Elephant",
+            "qualities": "Fair, Clear, Steady, Principled, Courageous, Measured, Compassionate, Honest, Balanced, Resolute"
+          },
+          "virtues": [
+            {
+              "title": "Truth",
+              "quote": "\"The truth will set you free, but first it will piss you off.\" — Gloria Steinem",
+              "paragraphs": [
+                "Truth is Justice's commitment to reality over comfort, accuracy over politeness, honesty over harmony. It's the clarity that can see through deception, denial, and wishful thinking to what actually is. This virtue creates the foundation on which real solutions can be built.",
+                "True truth serves healing rather than ego. It's spoken with timing and kindness that others can receive, delivered as medicine rather than poison. It's truth that creates freedom through honest acknowledgment of what needs to change."
+              ]
+            },
+            {
+              "title": "Mercy",
+              "quote": "\"Forgiveness is a virtue of the brave.\" — Indira Gandhi",
+              "paragraphs": [
+                "Mercy is Justice's recognition that everyone is human, everyone makes mistakes, and everyone deserves the possibility of redemption. It's the compassion that sees both the harm and the humanity in every situation. This virtue ensures that justice serves healing rather than vengeance.",
+                "Healthy mercy doesn't excuse harmful behavior but creates space for accountability and growth. It's mercy that makes truth bearable, that transforms consequences into learning opportunities, that makes justice restorative rather than merely punitive."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Sky / Sun / Star Goddess (Nut, Amaterasu, Ishtar)",
+        "slug": "sky-sun-star-goddess",
+        "qualities": ["cosmic order & radiance"],
+        "gifts": "Vision from altitude; radiance that inspires.",
+        "growthPath": "Balance cosmic vision with earthly connection.",
+        "practices": [
+          "Balcony/ground alternation: 10 minutes aerial planning, 10 minutes embodied check-in."
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Blinding Sun",
+              "type": "active",
+              "description": [
+                "When radiance overwhelms humility, the Sky Goddess becomes a star that burns rather than illuminates. She has confused visibility with importance, brightness with truth. Her radiance has become compulsive—she must be the center of every constellation, the brightest light in every room, the most memorable presence in every gathering. She's forgotten that true light serves others' vision, not her own visibility.",
+                "She speaks in proclamations rather than conversations, performs wisdom rather than sharing it, and creates followers rather than peers. Her humility has been vaporized by her need to shine—she can't dim her light even when others need space to glow, can't step back even when others need to step forward. She's become a beautiful sun that blinds rather than guides."
+              ],
+              "declarations": [
+                "I have a vision that could change everything",
+                "People really look up to me for guidance",
+                "I can see the big picture that others miss",
+                "My insights have helped so many people",
+                "I feel called to share my wisdom with the world",
+                "People need to hear this message"
+              ],
+              "balancing": [
+                "I share insights as offerings rather than proclamations",
+                "I create space for others to shine and be seen",
+                "I ask questions as often as I make statements",
+                "I listen deeply before offering my perspective",
+                "I practice humility about the limits of my understanding",
+                "I use my platform to elevate others, not just myself"
+              ],
+              "gift": "When humbled, becomes genuinely inspiring radiance that illuminates possibilities while empowering others to find their own light.",
+              "outOfBalance": [
+                "Dominates conversations and gatherings",
+                "Performs wisdom rather than sharing authentically",
+                "Creates followers rather than peers",
+                "Can't tolerate others being more visible",
+                "Confuses being seen with being valuable",
+                "Burns others with excessive intensity"
+              ]
+            },
+            {
+              "name": "Hidden Star",
+              "type": "passive",
+              "description": [
+                "When humility dims radiance, the Sky Goddess becomes a star that's forgotten how to shine. She has confused modesty with invisibility, humility with self-diminishment. Her radiance has gone underground, emerging only in safe, controllable doses. She's learned to hide her light under every available bushel, to apologize for taking up space, to dim herself so others feel comfortable.",
+                "She has profound insights but shares them only in whispers, sees vast possibilities but mentions them only tentatively, possesses radiant gifts but offers them only when specifically asked. Her humility has become self-erasure—she serves by disappearing, leads by following, shines by hiding."
+              ],
+              "declarations": [
+                "I don't want to seem like I think I'm better than others",
+                "Other people probably have more important things to say",
+                "I should probably keep my opinions to myself",
+                "I don't want to take up too much space",
+                "Maybe I'm wrong about what I'm seeing",
+                "I'm sure someone else could explain this better"
+              ],
+              "balancing": [
+                "I share my gifts and insights generously",
+                "I take up appropriate space in conversations and gatherings",
+                "I speak my truth with confidence and humility",
+                "I remember that hiding my light doesn't serve anyone",
+                "I step into visibility when my gifts are needed",
+                "I practice shining brightly while supporting others' brilliance"
+              ],
+              "gift": "When illuminated, provides essential grounding and accessibility that makes cosmic wisdom practical and relatable.",
+              "outOfBalance": [
+                "Hides gifts and insights from others",
+                "Apologizes for having knowledge or wisdom",
+                "Minimizes own contributions and importance",
+                "Confuses humility with invisibility",
+                "Deprives others of needed guidance and inspiration",
+                "Uses modesty to avoid responsibility for impact"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Sky/Sun/Star Goddess",
+            "paragraphs": [
+              "The Mature Sky Goddess embodies radiance in service of collective illumination. She understands that true light reveals rather than blinds, inspires rather than intimidates, guides rather than dominates. Her cosmic perspective is grounded in earthly wisdom, her vast vision tempered by humble humanity. She shines brightly while making space for others to discover their own luminosity.",
+              "She can hold both the cosmic and the personal, both the eternal and the immediate, both the magnificent and the mundane. Her radiance creates more light rather than consuming it, her presence elevates others rather than diminishing them."
+            ]
+          },
+          "declarations": [
+            "I shine brightly while creating space for others to illuminate",
+            "I share cosmic wisdom with earthly humility",
+            "I use my visibility to elevate collective understanding",
+            "I balance my vast perspective with intimate presence",
+            "I radiate light that reveals rather than blinds",
+            "I hold both the magnificent and the mundane with equal reverence",
+            "I inspire others to discover their own luminosity",
+            "I serve the greater light through my individual brilliance"
+          ],
+          "balance": {
+            "balance": "Radiance ↔ Humility",
+            "shadow": "Blinding Sun ↔ Hidden Star",
+            "powerAnimals": "Eagle, Solar Horse, Swan",
+            "qualities": "Radiant, Visionary, Expansive, Humble, Noble, Illuminating, Uplifting, Grounded, Warm, Inspirational"
+          },
+          "virtues": [
+            {
+              "title": "Radiance",
+              "quote": "\"Your task is not to seek for love, but merely to seek and find all the barriers within yourself that you have built against it.\" — Rumi",
+              "paragraphs": [
+                "Radiance is the Sky Goddess's natural luminosity—the light that emanates from authentic self-expression and cosmic connection. It's not performance but presence, not seeking attention but naturally drawing it through the beauty of being fully herself. This virtue illuminates possibilities and inspires others to shine.",
+                "True radiance serves collective illumination rather than personal aggrandizement. It's light that reveals rather than blinds, that guides rather than dominates, that creates more light rather than consuming it."
+              ]
+            },
+            {
+              "title": "Humility",
+              "quote": "\"The best way to find yourself is to lose yourself in the service of others.\" — Mahatma Gandhi",
+              "paragraphs": [
+                "Humility is the Sky Goddess's recognition that her light comes from connection to something greater than herself. It's the grounding that keeps cosmic perspective accessible and relatable. This virtue ensures that her gifts serve others rather than inflating her ego.",
+                "Healthy humility doesn't dim her radiance but channels it wisely. It remembers that the goal is collective illumination, that true wisdom includes not-knowing, and that the most powerful light often shines most gently."
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

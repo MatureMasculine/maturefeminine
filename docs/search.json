@@ -426,5 +426,121 @@
         
       
     
+      
+        ,{
+          "type": "item",
+          "group": "Queen",
+          "groupSlug": "queen",
+          "name": "Queen / Hearth Keeper (Brigid)",
+          "slug": "queen-hearth-keeper",
+          "qualities": ["benevolent authority"],
+          "href": "/queen/queen-hearth-keeper/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Queen",
+              "groupSlug": "queen",
+              "name": "Tyrannical Empress",
+              "slug": "queen-hearth-keeper",
+              "qualities": "",
+              "href": "/queen/queen-hearth-keeper/#shadow-tyrannical-empress"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Queen",
+              "groupSlug": "queen",
+              "name": "Abdicated Ruler",
+              "slug": "queen-hearth-keeper",
+              "qualities": "",
+              "href": "/queen/queen-hearth-keeper/#shadow-abdicated-ruler"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Queen",
+          "groupSlug": "queen",
+          "name": "Justice (Ma&#39;at)",
+          "slug": "justice",
+          "qualities": ["truth & balance"],
+          "href": "/queen/justice/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Queen",
+              "groupSlug": "queen",
+              "name": "Merciless Judge",
+              "slug": "justice",
+              "qualities": "",
+              "href": "/queen/justice/#shadow-merciless-judge"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Queen",
+              "groupSlug": "queen",
+              "name": "Enabler Saint",
+              "slug": "justice",
+              "qualities": "",
+              "href": "/queen/justice/#shadow-enabler-saint"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Queen",
+          "groupSlug": "queen",
+          "name": "Sky / Sun / Star Goddess (Nut, Amaterasu, Ishtar)",
+          "slug": "sky-sun-star-goddess",
+          "qualities": ["cosmic order & radiance"],
+          "href": "/queen/sky-sun-star-goddess/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Queen",
+              "groupSlug": "queen",
+              "name": "Blinding Sun",
+              "slug": "sky-sun-star-goddess",
+              "qualities": "",
+              "href": "/queen/sky-sun-star-goddess/#shadow-blinding-sun"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Queen",
+              "groupSlug": "queen",
+              "name": "Hidden Star",
+              "slug": "sky-sun-star-goddess",
+              "qualities": "",
+              "href": "/queen/sky-sun-star-goddess/#shadow-hidden-star"
+            }
+            
+          
+        
+      
+    
   ]
 }
