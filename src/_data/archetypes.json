@@ -1464,7 +1464,7 @@
             ],
             "balance": {
               "balance": "Courage ↔ Restraint",
-              "shadow": "Bully Warrior ââ Victim Warrior",
+              "shadow": "Bully <-->Victim",
               "powerAnimals": "Wolf, Hawk, Jaguar",
               "qualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Competitive, Fierce"
             },
