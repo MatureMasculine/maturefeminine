@@ -30,6 +30,40 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 
 {# Legacy shadowFaces removed: migrated to extended.shadows #}
 
+  {% if item.extended.balance %}
+  <div class="mf-box section-yellow mb-3">
+    <h4 class="mb-2"><i class="fas fa-scale-balanced me-2"></i>Balance & Qualities</h4>
+    <div class="row g-2 small">
+      <div class="col-12 col-md-6">
+        <p class="mb-1"><strong>Balance:</strong> {{ item.extended.balance.balance | fixEncoding }}</p>
+        <p class="mb-0"><strong>Shadow:</strong> {{ item.extended.balance.shadow | fixEncoding }}</p>
+      </div>
+      <div class="col-12 col-md-6">
+        {% if item.extended.balance.powerAnimals %}<p class="mb-1"><strong>Power Animals:</strong> {{ item.extended.balance.powerAnimals | fixEncoding }}</p>{% endif %}
+        {% if item.extended.balance.qualities %}<p class="mb-0"><strong>Qualities:</strong> {{ item.extended.balance.qualities | fixEncoding }}</p>{% endif %}
+      </div>
+    </div>
+    {% if item.growthPath or item.practices %}
+    <div class="mt-3 mf-divider-top">
+      {% if item.growthPath %}
+      <h6 class="mb-1"><i class="fas fa-seedling me-2"></i>Growth Path</h6>
+      <p class="mb-2">{{ item.growthPath | fixEncoding }}</p>
+      {% endif %}
+      {% if item.practices %}
+      <h6 class="mb-1"><i class="fas fa-spa me-2"></i>Practices</h6>
+      {% if item.practices | safe and item.practices.push %}
+        <ul class="mb-0">
+          {% for p in item.practices %}<li>{{ p | fixEncoding }}</li>{% endfor %}
+        </ul>
+      {% else %}
+        <p class="mb-0">{{ item.practices | fixEncoding }}</p>
+      {% endif %}
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
 {% if item.growthPath and not (item.extended and item.extended.balance) %}
 <div class="mb-3">
   <h5>Growth path</h5>
@@ -60,6 +94,20 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
     {% endif %}
   </div>
   {% endif %}
+
+  {% if item.extended.virtues %}
+  <div class="virtue-card mb-3">
+    <h4 class="mb-3"><i class="fas fa-gem me-2"></i>Virtues</h4>
+    {% for v in item.extended.virtues %}
+      <div class="mb-3">
+        <h6 class="mb-2">{{ v.title }}</h6>
+        {% if v.quote %}<blockquote class="fst-italic border-start border-2 ps-3" style="border-color: rgba(255,255,255,.5)">“{{ v.quote }}”</blockquote>{% endif %}
+        {% if v.paragraphs %}{% for vp in v.paragraphs %}<p class="mb-2">{{ vp }}</p>{% endfor %}{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
 
   {% if item.extended.declarations %}
   <div class="mf-box section-blue mb-3">
@@ -134,52 +182,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
     {% endfor %}
   {% endif %}
 
-  {% if item.extended.virtues %}
-  <div class="virtue-card mb-3">
-    <h4 class="mb-3"><i class="fas fa-gem me-2"></i>Virtues</h4>
-    {% for v in item.extended.virtues %}
-      <div class="mb-3">
-        <h6 class="mb-2">{{ v.title }}</h6>
-        {% if v.quote %}<blockquote class="fst-italic border-start border-2 ps-3" style="border-color: rgba(255,255,255,.5)">“{{ v.quote }}”</blockquote>{% endif %}
-        {% if v.paragraphs %}{% for vp in v.paragraphs %}<p class="mb-2">{{ vp }}</p>{% endfor %}{% endif %}
-      </div>
-    {% endfor %}
-  </div>
-  {% endif %}
 
-  {% if item.extended.balance %}
-  <div class="mf-box section-yellow mb-3">
-    <h4 class="mb-2"><i class="fas fa-scale-balanced me-2"></i>Balance & Qualities</h4>
-    <div class="row g-2 small">
-      <div class="col-12 col-md-6">
-        <p class="mb-1"><strong>Balance:</strong> {{ item.extended.balance.balance | fixEncoding }}</p>
-        <p class="mb-0"><strong>Shadow:</strong> {{ item.extended.balance.shadow | fixEncoding }}</p>
-      </div>
-      <div class="col-12 col-md-6">
-        {% if item.extended.balance.powerAnimals %}<p class="mb-1"><strong>Power Animals:</strong> {{ item.extended.balance.powerAnimals | fixEncoding }}</p>{% endif %}
-        {% if item.extended.balance.qualities %}<p class="mb-0"><strong>Qualities:</strong> {{ item.extended.balance.qualities | fixEncoding }}</p>{% endif %}
-      </div>
-    </div>
-    {% if item.growthPath or item.practices %}
-    <div class="mt-3 mf-divider-top">
-      {% if item.growthPath %}
-      <h6 class="mb-1"><i class="fas fa-seedling me-2"></i>Growth Path</h6>
-      <p class="mb-2">{{ item.growthPath | fixEncoding }}</p>
-      {% endif %}
-      {% if item.practices %}
-      <h6 class="mb-1"><i class="fas fa-spa me-2"></i>Practices</h6>
-      {% if item.practices | safe and item.practices.push %}
-        <ul class="mb-0">
-          {% for p in item.practices %}<li>{{ p | fixEncoding }}</li>{% endfor %}
-        </ul>
-      {% else %}
-        <p class="mb-0">{{ item.practices | fixEncoding }}</p>
-      {% endif %}
-      {% endif %}
-    </div>
-    {% endif %}
-  </div>
-  {% endif %}
 {% endif %}
 
 {# Legacy shadow fields removed: now using extended.shadows #}
