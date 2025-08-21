@@ -37,30 +37,32 @@
       "lost-dreamer": "shadow/young-visionary-oracle--lost-dreamer.jpg"
     },
     "sacred-lover-love-goddess": {
-      "seductive-enchantress": "shadow/sacred-lover-love-goddess--seductive-enchantress.jpg",
-      "disconnected-performer": "shadow/sacred-lover-love-goddess--disconnected-performer.jpg"
+      "intoxicating-siren": "shadow/sacred-lover-love-goddess--seductive-enchantress.jpg",
+      "armored-heart": "shadow/sacred-lover-love-goddess--disconnected-performer.jpg"
     },
     "muse-song-goddess": {
       "chaotic-inspiration": "shadow/muse-song-goddess--chaotic-inspiration.jpg",
-      "fickle-wanderer": "shadow/muse-song-goddess--fickle-wanderer.jpg"
+      "silent-songbird": "shadow/muse-song-goddess--fickle-wanderer.jpg"
     },
     "creatrix-spider-weaver": {
-      "perfectionist-creator": "shadow/creatrix-spider-weaver--perfectionist-creator.jpg",
-      "blocked-artist": "shadow/creatrix-spider-weaver--blocked-artist.jpg"
+      "obsessive-perfectionist": "shadow/creatrix-spider-weaver--perfectionist-creator.jpg",
+      "scattered-creator": "shadow/creatrix-spider-weaver--blocked-artist.jpg"
     },
     "young-healer-priestess": {
-      "savior-complex": "shadow/young-healer-priestess--savior-complex.jpg",
-      "burned-out-healer": "shadow/young-healer-priestess--burned-out-healer.jpg"
+      "savior-priestess": "shadow/young-healer-priestess--savior-complex.jpg",
+      "wounded-healer": "shadow/young-healer-priestess--burned-out-healer.jpg"
     },
     "mother": {
-      "smothering-mother": "shadow/mother--smothering-mother.jpg",
+      "devouring-mother": "shadow/mother--smothering-mother.jpg",
       "absent-mother": "shadow/mother--absent-mother.jpg"
     },
     "wife-nurturer-hearth-goddess": {
-      "enabling-doormat": "shadow/wife-nurturer-hearth-goddess--enabling-doormat.jpg"
+      "martyr-homemaker": "shadow/wife-nurturer-hearth-goddess--enabling-doormat.jpg",
+      "withholding-hostess": "shadow/sage-wisdom--withholding-sage.jpg"
     },
     "guardian-buffalo-woman": {
-      "rigid-gatekeeper": "shadow/guardian-buffalo-woman--rigid-gatekeeper.jpg"
+      "rigid-sentinel": "shadow/guardian-buffalo-woman--rigid-gatekeeper.jpg",
+      "naive-pushover": "shadow/unmatched--boundaryless-protector.jpg"
     },
     "warrior-warrioress-huntress": {
       "aggressive-bully": "shadow/warrior-warrioress-huntress--aggressive-bully.jpg",
@@ -75,16 +77,16 @@
       "passive-enabler": "shadow/peacemaker-peace-bringer--passive-enabler.jpg"
     },
     "queen-hearth-keeper": {
-      "tyrannical-queen": "shadow/queen-hearth-keeper--tyrannical-queen.jpg",
-      "powerless-ruler": "shadow/queen-hearth-keeper--powerless-ruler.jpg"
+      "tyrannical-empress": "shadow/queen-hearth-keeper--tyrannical-queen.jpg",
+      "abdicated-ruler": "shadow/queen-hearth-keeper--powerless-ruler.jpg"
     },
     "justice": {
-      "harsh-judge": "shadow/justice--harsh-judge.jpg",
-      "passive-bystander": "shadow/justice--passive-bystander.jpg"
+      "merciless-judge": "shadow/justice--harsh-judge.jpg",
+      "enabler-saint": "shadow/justice--passive-bystander.jpg"
     },
     "sky-sun-star-goddess": {
-      "prideful-dominator": "shadow/sky-sun-star-goddess--prideful-dominator.jpg",
-      "disconnected-deity": "shadow/sky-sun-star-goddess--disconnected-deity.jpg"
+      "blinding-sun": "shadow/sky-sun-star-goddess--prideful-dominator.jpg",
+      "hidden-star": "shadow/sky-sun-star-goddess--disconnected-deity.jpg"
     },
     "sage-wisdom": {
       "withholding-sage": "shadow/sage-wisdom--withholding-sage.jpg"
@@ -97,16 +99,16 @@
       "exaggerating-dramatist": "shadow/storyteller--exaggerating-dramatist.jpg"
     },
     "crone-underworld-queen": {
-      "destructive-death-bringer": "shadow/crone-underworld-queen--destructive-death-bringer.jpg",
+      "destroying-angel": "shadow/crone-underworld-queen--destructive-death-bringer.jpg",
       "eternal-mourner": "shadow/crone-underworld-queen--eternal-mourner.jpg"
     },
     "elder-visionary-oracle-moon": {
-      "dogmatic-prophet": "shadow/elder-visionary-oracle-moon--dogmatic-prophet.jpg",
-      "escapist-dreamer": "shadow/elder-visionary-oracle-moon--escapist-dreamer.jpg"
+      "cryptic-oracle": "shadow/elder-visionary-oracle-moon--dogmatic-prophet.jpg",
+      "disconnected-hermit": "shadow/elder-visionary-oracle-moon--escapist-dreamer.jpg"
     },
     "rebel-revolutionary-trickster": {
       "chaotic-destroyer": "shadow/rebel-revolutionary-trickster--chaotic-destroyer.jpg",
-      "conformist-rebel": "shadow/rebel-revolutionary-trickster--conformist-rebel.jpg"
+      "conforming-complainer": "shadow/rebel-revolutionary-trickster--conformist-rebel.jpg"
     },
     "elder-healer-priestess": {
       "martyred-healer": "shadow/elder-healer-priestess--burned-out-wise-woman.jpg",
