@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://www.genspark.ai/api/page_private?id=wspbplfe -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feminine Archetypes Interactive Reference</title>
+    <link href="./sample_files/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./sample_files/all.min.css">
+    <style>
+         {
+            .no-print { display: none !important; }
+            .print-break { page-break-inside: avoid; }
+        }
+        .archetype-card { transition: all 0.3s ease; }
+        .shadow-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .virtue-card { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .collapsible-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+        .collapsible-content.expanded { max-height: 2000px; }
+    </style>
+<style>
+    .genspark-notice-dialog {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 10001;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .genspark-notice-content {
+      background-color: white;
+      border-radius: 8px;
+      max-width: 600px;
+      width: 90%;
+      box-sizing: border-box;
+      padding: 10px 30px 30px 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+    }
+
+    .genspark-notice-title {
+      color: #000;
+      font-family: Arial;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%; 
+    }
+
+    .genspark-notice-list {
+      margin: 24px 0;
+      
+      color: #606366;
+      font-family: Arial;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      padding-left: 12px;
+    }
+
+    .genspark-notice-list li {
+      margin-bottom: 12px;
+      list-style-type: disc;
+    }
+
+    .genspark-notice-list li a {
+      color: #606366;
+      text-decoration: underline;
+    }
+
+    .genspark-notice-checkbox {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      gap: 10px;
+
+      color: #232425;
+
+      font-family: Arial;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .genspark-notice-actions {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+      
+    .genspark-notice-ok {
+      color: #232425;
+
+      text-align: center;
+      font-family: Arial;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%; 
+
+      cursor: pointer;
+      display: flex;
+      height: 40px;
+      padding: 6px 14px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      align-self: stretch;
+      border-radius: 8px;
+      border: 1px solid #000;
+      box-sizing: border-box;
+      width: 100%;
+    }
+  </style></head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <!-- Header -->
+        <header class="mb-8 text-center">
+            <h1 class="text-4xl font-bold text-purple-900 mb-2">
+                <i class="fas fa-moon mr-3"></i>Feminine Archetypes Reference
+            </h1>
+            <p class="text-gray-600 text-lg">Explore the depth and wisdom of feminine psychological archetypes</p>
+        </header>
+
+        <!-- Controls -->
+        <div class="no-print bg-white rounded-lg shadow-md p-6 mb-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Search Archetypes</label>
+                    <input type="text" id="searchInput" placeholder="Search by name, essence, or shadow..." class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Filter by Group</label>
+                    <select id="groupFilter" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"><option value="">All Groups</option><option value="Maiden">Maiden</option></select>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Load JSON File</label>
+                    <input type="file" id="fileInput" accept=".json" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                </div>
+            </div>
+            <div class="mt-4 flex justify-center space-x-4">
+                <button id="loadSampleBtn" class="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition duration-300">
+                    <i class="fas fa-download mr-2"></i>Load Sample Data
+                </button>
+                <button id="expandAllBtn" class="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition duration-300">
+                    <i class="fas fa-expand mr-2"></i>Expand All
+                </button>
+                <button id="collapseAllBtn" class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition duration-300">
+                    <i class="fas fa-compress mr-2"></i>Collapse All
+                </button>
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loadingState" class="text-center py-12 hidden">
+            <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-purple-600"></div>
+            <p class="mt-4 text-gray-600">Load a JSON file or sample data to view archetypes</p>
+        </div>
+
+        <!-- Content Container -->
+        <div id="contentContainer" class="space-y-6"><div class="group-container print-break">
+                <div class="bg-gradient-to-r from-purple-600 to-pink-600 text-white p-6 rounded-t-lg">
+                    <h2 class="text-2xl font-bold mb-2">Maiden</h2>
+                    <p class="text-purple-100">Innocence, beginning; task = discernment &amp; choice</p>
+                </div>
+                <div class="bg-white rounded-b-lg shadow-lg p-6">
+                    
+                <div class="archetype-card mb-6 border border-gray-200 rounded-lg overflow-hidden" data-group="Maiden" data-archetype="Maiden">
+                    <div class="bg-gray-50 p-4 cursor-pointer hover:bg-gray-100 transition duration-200" onclick="toggleArchetype(&#39;Maiden-maiden&#39;)">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-xl font-semibold text-gray-800">Maiden</h3>
+                            <i class="fas fa-chevron-up text-gray-500" id="icon-Maiden-maiden"></i>
+                        </div>
+                        <p class="text-gray-600 mt-2">Freshness, trust, openness to life.</p>
+                    </div>
+                    
+                    <div class="collapsible-content expanded" id="content-Maiden-maiden">
+                        <div class="p-6 space-y-6">
+                            
+                <div class="bg-green-50 border-l-4 border-green-500 p-4 rounded">
+                    <h4 class="text-lg font-semibold text-green-800 mb-3">
+                        <i class="fas fa-crown mr-2"></i>Mature Maiden
+                    </h4>
+                    <p class="text-gray-700 mb-3">The Mature Maiden embodies the eternal feminine quality of fresh beginnings and innocent wisdom. She represents the part of every woman that remains eternally young, curious, and open to wonder. Unlike naive innocence, the Mature Maiden possesses street-wise innocence - she knows about the world's darkness but chooses to maintain her essential optimism and trust.</p><p class="text-gray-700 mb-3">She is the eternal student, always ready to learn and grow. Her innocence is not ignorance but a conscious choice to approach life with wonder and possibility. She knows how to protect herself while remaining open-hearted.</p>
+                </div>
+            
+                            
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+                    <h4 class="text-lg font-semibold text-blue-800 mb-3">
+                        <i class="fas fa-quote-left mr-2"></i>Mature Declarations
+                    </h4>
+                    <ul class="space-y-2">
+                        <li class="text-gray-700"><i class="fas fa-circle text-blue-400 text-xs mr-2"></i>I approach each day with fresh eyes and an open heart</li><li class="text-gray-700"><i class="fas fa-circle text-blue-400 text-xs mr-2"></i>My innocence is my strength, not my weakness</li><li class="text-gray-700"><i class="fas fa-circle text-blue-400 text-xs mr-2"></i>I choose wonder over cynicism</li><li class="text-gray-700"><i class="fas fa-circle text-blue-400 text-xs mr-2"></i>I trust my inner knowing to guide me safely</li><li class="text-gray-700"><i class="fas fa-circle text-blue-400 text-xs mr-2"></i>I embrace new beginnings with courage and curiosity</li><li class="text-gray-700"><i class="fas fa-circle text-blue-400 text-xs mr-2"></i>My youthful spirit is eternal and indestructible</li><li class="text-gray-700"><i class="fas fa-circle text-blue-400 text-xs mr-2"></i>I learn from experience while maintaining my sense of wonder</li><li class="text-gray-700"><i class="fas fa-circle text-blue-400 text-xs mr-2"></i>I say yes to life's adventures with wise discernment</li>
+                    </ul>
+                </div>
+            
+                            
+                <div class="shadow-card text-white p-4 rounded">
+                    <h4 class="text-lg font-semibold mb-3">
+                        <i class="fas fa-mask mr-2"></i>Shadow Aspects
+                    </h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                            <div class="bg-white bg-opacity-20 p-3 rounded">
+                                <h5 class="font-semibold mb-2">Manipulative Maiden (active)</h5>
+                                <p class="text-sm mb-2">Uses innocence and naivety as manipulation tools to get what she wants without taking responsibility.</p>
+                                
+                                    <div class="text-xs">
+                                        <strong>Balancing:</strong>
+                                        <ul class="mt-1 space-y-1">
+                                            <li>• Take responsibility for your actions and their consequences</li><li>• Practice honest communication instead of manipulation</li>
+                                        </ul>
+                                    </div>
+                                
+                            </div>
+                        
+                            <div class="bg-white bg-opacity-20 p-3 rounded">
+                                <h5 class="font-semibold mb-2">Naive Maiden (passive)</h5>
+                                <p class="text-sm mb-2">Lacks discernment and boundaries, easily taken advantage of due to excessive trust and inability to see danger.</p>
+                                
+                                    <div class="text-xs">
+                                        <strong>Balancing:</strong>
+                                        <ul class="mt-1 space-y-1">
+                                            <li>• Develop healthy skepticism and discernment skills</li><li>• Learn to trust your gut feelings about people and situations</li>
+                                        </ul>
+                                    </div>
+                                
+                            </div>
+                        
+                    </div>
+                </div>
+            
+                            
+                <div class="virtue-card text-white p-4 rounded">
+                    <h4 class="text-lg font-semibold mb-3">
+                        <i class="fas fa-gem mr-2"></i>Virtues
+                    </h4>
+                    
+                        <div class="mb-4">
+                            <h5 class="font-semibold mb-2">Sacred Innocence</h5>
+                            <blockquote class="text-sm italic mb-2 border-l-2 border-white border-opacity-50 pl-3">"The beginner's mind has many possibilities, but the expert's mind has few. - Zen saying"</blockquote>
+                            <p class="text-sm mb-2">Sacred innocence is the Maiden's greatest gift - the ability to approach life with fresh eyes and an open heart, regardless of past experiences. This is not naivety or ignorance, but a conscious choice to remain receptive to wonder, beauty, and new possibilities.</p><p class="text-sm mb-2">The woman who cultivates sacred innocence maintains her capacity for awe and curiosity even in the face of life's disappointments. She knows that each day offers new opportunities for growth, love, and discovery. This innocence becomes a source of renewal not just for herself, but for everyone around her.</p><p class="text-sm mb-2">Sacred innocence requires courage - the courage to remain vulnerable in a world that often rewards cynicism. It means choosing trust over suspicion, hope over despair, and wonder over jadedness.</p>
+                        </div>
+                    
+                </div>
+            
+                            
+                <div class="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded">
+                    <h4 class="text-lg font-semibold text-yellow-800 mb-3">
+                        <i class="fas fa-balance-scale mr-2"></i>Balance &amp; Qualities
+                    </h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                        <div>
+                            <strong>Balance:</strong> Mature Maiden
+                            <br><strong>Shadow:</strong> Manipulative Maiden ←→ Naive Maiden
+                        </div>
+                        <div>
+                            <strong>Power Animals:</strong> Butterfly, White Deer, Robin
+                            <br><strong>Qualities:</strong> Fresh, Open, Curious, Trusting, Optimistic, Innocent, Wise, Discerning
+                        </div>
+                    </div>
+                </div>
+            
+                        </div>
+                    </div>
+                </div>
+            
+                </div>
+            </div></div>
+    </div>
+
+    <script>
+        let archetypeData = null;
+        let expandedStates = {};
+
+        // Sample data structure for demonstration
+        const sampleData = {
+            "title": "Feminine Archetypes - Complete Reference",
+            "version": "1.0",
+            "groups": [
+                {
+                    "name": "Maiden",
+                    "essence": "Innocence, beginning; task = discernment & choice",
+                    "archetypes": [
+                        {
+                            "name": "Maiden",
+                            "slug": "maiden",
+                            "qualities": ["new beginnings", "innocence", "potential"],
+                            "gifts": "Freshness, trust, openness to life.",
+                            "extended": {
+                                "mature": {
+                                    "title": "Mature Maiden",
+                                    "paragraphs": [
+                                        "The Mature Maiden embodies the eternal feminine quality of fresh beginnings and innocent wisdom. She represents the part of every woman that remains eternally young, curious, and open to wonder. Unlike naive innocence, the Mature Maiden possesses street-wise innocence - she knows about the world's darkness but chooses to maintain her essential optimism and trust.",
+                                        "She is the eternal student, always ready to learn and grow. Her innocence is not ignorance but a conscious choice to approach life with wonder and possibility. She knows how to protect herself while remaining open-hearted."
+                                    ]
+                                },
+                                "declarations": [
+                                    "I approach each day with fresh eyes and an open heart",
+                                    "My innocence is my strength, not my weakness",
+                                    "I choose wonder over cynicism",
+                                    "I trust my inner knowing to guide me safely",
+                                    "I embrace new beginnings with courage and curiosity",
+                                    "My youthful spirit is eternal and indestructible",
+                                    "I learn from experience while maintaining my sense of wonder",
+                                    "I say yes to life's adventures with wise discernment"
+                                ],
+                                "balance": {
+                                    "balance": "Mature Maiden",
+                                    "shadow": "Manipulative Maiden ←→ Naive Maiden",
+                                    "powerAnimals": "Butterfly, White Deer, Robin",
+                                    "qualities": "Fresh, Open, Curious, Trusting, Optimistic, Innocent, Wise, Discerning"
+                                },
+                                "shadows": [
+                                    {
+                                        "name": "Manipulative Maiden",
+                                        "type": "active",
+                                        "description": "Uses innocence and naivety as manipulation tools to get what she wants without taking responsibility.",
+                                        "declarations": [
+                                            "I use my innocent appearance to get my way",
+                                            "Others should take care of me because I'm too pure for this world",
+                                            "I can do whatever I want because I'm just a child at heart"
+                                        ],
+                                        "balancing": [
+                                            "Take responsibility for your actions and their consequences",
+                                            "Practice honest communication instead of manipulation",
+                                            "Develop genuine skills and capabilities",
+                                            "Ask directly for what you need instead of using guilt or charm"
+                                        ],
+                                        "gift": "Teaches the importance of authentic vulnerability versus manipulative innocence"
+                                    },
+                                    {
+                                        "name": "Naive Maiden",
+                                        "type": "passive",
+                                        "description": "Lacks discernment and boundaries, easily taken advantage of due to excessive trust and inability to see danger.",
+                                        "declarations": [
+                                            "Everyone has good intentions if I just trust them enough",
+                                            "I shouldn't have to protect myself - others should just be good",
+                                            "Bad things won't happen to me if I stay pure and good"
+                                        ],
+                                        "balancing": [
+                                            "Develop healthy skepticism and discernment skills",
+                                            "Learn to trust your gut feelings about people and situations",
+                                            "Practice setting boundaries and saying no",
+                                            "Educate yourself about potential dangers while maintaining optimism"
+                                        ],
+                                        "gift": "Reminds us of the value of trust and the importance of protecting innocence"
+                                    }
+                                ],
+                                "virtues": [
+                                    {
+                                        "title": "Sacred Innocence",
+                                        "quote": "The beginner's mind has many possibilities, but the expert's mind has few. - Zen saying",
+                                        "paragraphs": [
+                                            "Sacred innocence is the Maiden's greatest gift - the ability to approach life with fresh eyes and an open heart, regardless of past experiences. This is not naivety or ignorance, but a conscious choice to remain receptive to wonder, beauty, and new possibilities.",
+                                            "The woman who cultivates sacred innocence maintains her capacity for awe and curiosity even in the face of life's disappointments. She knows that each day offers new opportunities for growth, love, and discovery. This innocence becomes a source of renewal not just for herself, but for everyone around her.",
+                                            "Sacred innocence requires courage - the courage to remain vulnerable in a world that often rewards cynicism. It means choosing trust over suspicion, hope over despair, and wonder over jadedness."
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        };
+
+        // Initialize page
+        document.addEventListener('DOMContentLoaded', function() {
+            setupEventListeners();
+        });
+
+        function setupEventListeners() {
+            document.getElementById('fileInput').addEventListener('change', handleFileLoad);
+            document.getElementById('loadSampleBtn').addEventListener('click', () => loadData(sampleData));
+            document.getElementById('searchInput').addEventListener('input', filterArchetypes);
+            document.getElementById('groupFilter').addEventListener('change', filterArchetypes);
+            document.getElementById('expandAllBtn').addEventListener('click', expandAll);
+            document.getElementById('collapseAllBtn').addEventListener('click', collapseAll);
+        }
+
+        function handleFileLoad(event) {
+            const file = event.target.files[0];
+            if (file && file.type === 'application/json') {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        const data = JSON.parse(e.target.result);
+                        loadData(data);
+                    } catch (error) {
+                        alert('Invalid JSON file. Please check the file format.');
+                    }
+                };
+                reader.readAsText(file);
+            }
+        }
+
+        function loadData(data) {
+            archetypeData = data;
+            populateGroupFilter();
+            renderArchetypes();
+            document.getElementById('loadingState').classList.add('hidden');
+            document.getElementById('contentContainer').classList.remove('hidden');
+        }
+
+        function populateGroupFilter() {
+            const select = document.getElementById('groupFilter');
+            select.innerHTML = '<option value="">All Groups</option>';
+            archetypeData.groups.forEach(group => {
+                const option = document.createElement('option');
+                option.value = group.name;
+                option.textContent = group.name;
+                select.appendChild(option);
+            });
+        }
+
+        function renderArchetypes() {
+            const container = document.getElementById('contentContainer');
+            container.innerHTML = '';
+
+            archetypeData.groups.forEach(group => {
+                const groupElement = createGroupElement(group);
+                container.appendChild(groupElement);
+            });
+        }
+
+        function createGroupElement(group) {
+            const groupDiv = document.createElement('div');
+            groupDiv.className = 'group-container print-break';
+            groupDiv.innerHTML = `
+                <div class="bg-gradient-to-r from-purple-600 to-pink-600 text-white p-6 rounded-t-lg">
+                    <h2 class="text-2xl font-bold mb-2">${group.name}</h2>
+                    <p class="text-purple-100">${group.essence || ''}</p>
+                </div>
+                <div class="bg-white rounded-b-lg shadow-lg p-6">
+                    ${(group.archetypes || group.items || []).map(archetype => createArchetypeElement(archetype, group.name)).join('')}
+                </div>
+            `;
+            return groupDiv;
+        }
+
+        function createArchetypeElement(archetype, groupName) {
+            const archetypeId = `${groupName}-${archetype.slug}`;
+            const isExpanded = expandedStates[archetypeId] || false;
+
+            return `
+                <div class="archetype-card mb-6 border border-gray-200 rounded-lg overflow-hidden" data-group="${groupName}" data-archetype="${archetype.name}">
+                    <div class="bg-gray-50 p-4 cursor-pointer hover:bg-gray-100 transition duration-200" onclick="toggleArchetype('${archetypeId}')">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-xl font-semibold text-gray-800">${archetype.name}</h3>
+                            <i class="fas fa-chevron-${isExpanded ? 'up' : 'down'} text-gray-500" id="icon-${archetypeId}"></i>
+                        </div>
+                        <p class="text-gray-600 mt-2">${archetype.gifts || archetype.essence || ''}</p>
+                    </div>
+                    
+                    <div class="collapsible-content ${isExpanded ? 'expanded' : ''}" id="content-${archetypeId}">
+                        <div class="p-6 space-y-6">
+                            ${createMatureSection(archetype)}
+                            ${createDeclarationsSection(archetype)}
+                            ${createShadowsSection(archetype)}
+                            ${createVirtuesSection(archetype)}
+                            ${createBalanceSection(archetype)}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function createMatureSection(archetype) {
+            if (!archetype.extended || !archetype.extended.mature) return '';
+            
+            const mature = archetype.extended.mature;
+            return `
+                <div class="bg-green-50 border-l-4 border-green-500 p-4 rounded">
+                    <h4 class="text-lg font-semibold text-green-800 mb-3">
+                        <i class="fas fa-crown mr-2"></i>${mature.title || 'Mature Aspect'}
+                    </h4>
+                    ${mature.paragraphs ? mature.paragraphs.map(p => `<p class="text-gray-700 mb-3">${p}</p>`).join('') : ''}
+                </div>
+            `;
+        }
+
+        function createDeclarationsSection(archetype) {
+            if (!archetype.extended || !archetype.extended.declarations) return '';
+            
+            const declarations = archetype.extended.declarations;
+            return `
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded">
+                    <h4 class="text-lg font-semibold text-blue-800 mb-3">
+                        <i class="fas fa-quote-left mr-2"></i>Mature Declarations
+                    </h4>
+                    <ul class="space-y-2">
+                        ${declarations.map(declaration => `<li class="text-gray-700"><i class="fas fa-circle text-blue-400 text-xs mr-2"></i>${declaration}</li>`).join('')}
+                    </ul>
+                </div>
+            `;
+        }
+
+        function createShadowsSection(archetype) {
+            if (!archetype.extended || !archetype.extended.shadows) return '';
+            
+            const shadows = archetype.extended.shadows;
+            return `
+                <div class="shadow-card text-white p-4 rounded">
+                    <h4 class="text-lg font-semibold mb-3">
+                        <i class="fas fa-mask mr-2"></i>Shadow Aspects
+                    </h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        ${shadows.map(shadow => `
+                            <div class="bg-white bg-opacity-20 p-3 rounded">
+                                <h5 class="font-semibold mb-2">${shadow.name} (${shadow.type})</h5>
+                                <p class="text-sm mb-2">${shadow.description || ''}</p>
+                                ${shadow.balancing ? `
+                                    <div class="text-xs">
+                                        <strong>Balancing:</strong>
+                                        <ul class="mt-1 space-y-1">
+                                            ${shadow.balancing.slice(0, 2).map(practice => `<li>• ${practice}</li>`).join('')}
+                                        </ul>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        function createVirtuesSection(archetype) {
+            if (!archetype.extended || !archetype.extended.virtues) return '';
+            
+            const virtues = archetype.extended.virtues;
+            return `
+                <div class="virtue-card text-white p-4 rounded">
+                    <h4 class="text-lg font-semibold mb-3">
+                        <i class="fas fa-gem mr-2"></i>Virtues
+                    </h4>
+                    ${virtues.map(virtue => `
+                        <div class="mb-4">
+                            <h5 class="font-semibold mb-2">${virtue.title}</h5>
+                            ${virtue.quote ? `<blockquote class="text-sm italic mb-2 border-l-2 border-white border-opacity-50 pl-3">"${virtue.quote}"</blockquote>` : ''}
+                            ${virtue.paragraphs ? virtue.paragraphs.map(p => `<p class="text-sm mb-2">${p}</p>`).join('') : ''}
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function createBalanceSection(archetype) {
+            if (!archetype.extended || !archetype.extended.balance) return '';
+            
+            const balance = archetype.extended.balance;
+            return `
+                <div class="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded">
+                    <h4 class="text-lg font-semibold text-yellow-800 mb-3">
+                        <i class="fas fa-balance-scale mr-2"></i>Balance & Qualities
+                    </h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                        <div>
+                            <strong>Balance:</strong> ${balance.balance || ''}
+                            <br><strong>Shadow:</strong> ${balance.shadow || ''}
+                        </div>
+                        <div>
+                            <strong>Power Animals:</strong> ${balance.powerAnimals || ''}
+                            <br><strong>Qualities:</strong> ${balance.qualities || ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function toggleArchetype(archetypeId) {
+            const content = document.getElementById(`content-${archetypeId}`);
+            const icon = document.getElementById(`icon-${archetypeId}`);
+            
+            expandedStates[archetypeId] = !expandedStates[archetypeId];
+            
+            if (expandedStates[archetypeId]) {
+                content.classList.add('expanded');
+                icon.className = 'fas fa-chevron-up text-gray-500';
+            } else {
+                content.classList.remove('expanded');
+                icon.className = 'fas fa-chevron-down text-gray-500';
+            }
+        }
+
+        function expandAll() {
+            document.querySelectorAll('.archetype-card').forEach(card => {
+                const archetypeId = card.querySelector('[id^="content-"]').id.replace('content-', '');
+                expandedStates[archetypeId] = true;
+                document.getElementById(`content-${archetypeId}`).classList.add('expanded');
+                document.getElementById(`icon-${archetypeId}`).className = 'fas fa-chevron-up text-gray-500';
+            });
+        }
+
+        function collapseAll() {
+            document.querySelectorAll('.archetype-card').forEach(card => {
+                const archetypeId = card.querySelector('[id^="content-"]').id.replace('content-', '');
+                expandedStates[archetypeId] = false;
+                document.getElementById(`content-${archetypeId}`).classList.remove('expanded');
+                document.getElementById(`icon-${archetypeId}`).className = 'fas fa-chevron-down text-gray-500';
+            });
+        }
+
+        function filterArchetypes() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const groupFilter = document.getElementById('groupFilter').value;
+            
+            document.querySelectorAll('.archetype-card').forEach(card => {
+                const archetypeName = card.dataset.archetype.toLowerCase();
+                const groupName = card.dataset.group;
+                const content = card.textContent.toLowerCase();
+                
+                const matchesSearch = searchTerm === '' || content.includes(searchTerm);
+                const matchesGroup = groupFilter === '' || groupName === groupFilter;
+                
+                if (matchesSearch && matchesGroup) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+<script defer="" src="./sample_files/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;972851c64f5edbc6&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfEdge&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2025.8.0&quot;,&quot;token&quot;:&quot;4edd5f8ec12a48cfa682ab8261b80a79&quot;}" crossorigin="anonymous"></script>
+
+
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDg7lvmvofv0dlVTehyIHWjsoXcgsR0N1TlSAffnvm1qu4nApfuY1KVWBiKYX241eJlxCamYnrpFnAmqvhUZ9%2BINo%2BmH2RV0IGLPY7%2F4eWh4Pm17Nq2rTZEY3VIp3IQpksXR4D6kGiypeXVCVSJxeQt6k5NVcFX4e976HlTG0u5ICR8krl3pDmX8SA2spcO1tjOcG8Yq2k90dyq1Ag3OZdW3Del9M87Leb5KqQYMsnJi7F2gcUkWjoeP78xLCmp9%2BBSUtZo1uD%2BfC%2FCpuzPUSnx1Gr3Wtr%2FIue52mz0ojnCocxgewQIhotAFpcPZxto0642jMmK%2BpB%2B32GIxcNVXDZx96iNpm%2BVreMAunCg93q9zgrQR0mqZKH7QAFq98%2FGsr05N50xy8lgLhQCiFb4R6SRDyLGK3518leMLtT%2FiY2rRwCunD6Xh4eaRIR5ddDCw9RAagiMJOh8wNPsN%2BpWu6CMj1zlHv8WZF0wj3kG7QH4K1A%2BXQj9Ix70rQwYehxL7MP03TFm%2BHpAUl2%2BTpHTDWnNg%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDg7lvmvofv0dlVTehyIHWjsoXcgsR0N1TlSAffnvm1qu4nApfuY1KVWBiKYX241eJlxCamYnrpFnAmqvhUZ9+INo+mH2RV0IGLPY7/4eWh4Pm17Nq2rTZEY3VIp3IQpksXR4D6kGiypeXVCVSJxeQt6k5NVcFX4e976HlTG0u5ICR8krl3pDmX8SA2spcO1tjOcG8Yq2k90dyq1Ag3OZdW3Del9M87Leb5KqQYMsnJi7F2gcUkWjoeP78xLCmp9+BSUtZo1uD+fC/CpuzPUSnx1Gr3Wtr/Iue52mz0ojnCocxgewQIhotAFpcPZxto0642jMmK+pB+32GIxcNVXDZx96iNpm+VreMAunCg93q9zgrQR0mqZKH7QAFq98/Gsr05N50xy8lgLhQCiFb4R6SRDyLGK3518leMLtT/iY2rRwCunD6Xh4eaRIR5ddDCw9RAagiMJOh8wNPsN+pWu6CMj1zlHv8WZF0wj3kG7QH4K1A+XQj9Ix70rQwYehxL7MP03TFm+HpAUl2+TpHTDWnNg=";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="./sample_files/notice_dialog.js"></script>
+    </body></html>

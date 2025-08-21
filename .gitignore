@@ -36,6 +36,32 @@ src/assets/images/wife-nurturer-hestia.jpeg
 src/assets/images/young-healer-priestess.jpeg
 src/assets/images/young-visionary-oracle.jpeg
 
+# Ignored docs images (explicit names)
+docs/assets/images/adventurer-storm.jpeg
+docs/assets/images/cover.jpeg
+docs/assets/images/creatrix-spider-weaver.jpeg
+docs/assets/images/crone-underworld-queen.jpeg
+docs/assets/images/elder-healer-priestess.jpeg
+docs/assets/images/elder-visionary-oracle-moon.jpeg
+docs/assets/images/guardian-buffalo-woman.jpeg
+docs/assets/images/justice-maat.jpeg
+docs/assets/images/magician-alchemist-witch-scribe.jpeg
+docs/assets/images/maiden.jpeg
+docs/assets/images/mother.jpeg
+docs/assets/images/muse-song-goddess.jpeg
+docs/assets/images/peacemaker-peace-bringer.jpeg
+docs/assets/images/queen-hearth-keeper.jpeg
+docs/assets/images/rebel-revolutionary-trickster.jpeg
+docs/assets/images/sacred-whore-love-goddess.jpeg
+docs/assets/images/sage-wisdom-athena.jpeg
+docs/assets/images/sky-sun-star-goddess.jpeg
+docs/assets/images/storyteller.jpeg
+docs/assets/images/warrior-warrioress-huntress.jpeg
+docs/assets/images/weaver-community-goddess.jpeg
+docs/assets/images/wife-nurturer-hestia.jpeg
+docs/assets/images/young-healer-priestess.jpeg
+docs/assets/images/young-visionary-oracle.jpeg
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
