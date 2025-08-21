@@ -37,6 +37,13 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
   {% set idx = items | findIndexBySlug(item.slug) %}
   {% set prev = items[idx - 1] %}
   {% set next = items[idx + 1] %}
+  {# Fallback to global neighbors across groups when at boundaries #}
+  {% if not prev or not next %}
+    {% set all = collections.items %}
+    {% set gidx = all | findIndexBySlug(item.slug) %}
+    {% if not prev %}{% set prev = all[gidx - 1] %}{% endif %}
+    {% if not next %}{% set next = all[gidx + 1] %}{% endif %}
+  {% endif %}
   <div>
   {% if prev %}
     <a class="btn btn-outline-secondary btn-sm" href="{{ prev.groupSlug }}/{{ prev.slug }}/">← {{ prev.name }}</a>
