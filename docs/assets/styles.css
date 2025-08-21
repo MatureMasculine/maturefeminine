@@ -1,4 +1,4 @@
-body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+body { font-family: var(--bs-body-font-family); }
 #sidebar { width: 320px; max-width: 100%; }
 @media (max-width: 991.98px) {
   #sidebar { width: 100%; }
@@ -8,6 +8,9 @@ main .container { max-width: 920px; }
 
 /* Color palette variables from provided theme */
 :root {
+  /* Fonts: keep consistent across light/dark */
+  --bs-font-sans-serif: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --bs-body-font-family: var(--bs-font-sans-serif);
   /* Platinum */
   --platinum-100: #27302e;
   --platinum-200: #4f605c;
@@ -64,6 +67,12 @@ main .container { max-width: 920px; }
   --eggplant-900: #e3d0d7;
 }
 
+/* Ensure dark mode uses same font stack */
+[data-bs-theme="dark"] {
+  --bs-font-sans-serif: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  --bs-body-font-family: var(--bs-font-sans-serif);
+}
+
 /* Archetype page styles inspired by sample.html */
 .mf-card { background: var(--platinum-900); border: 1px solid var(--platinum-400); border-radius: .75rem; box-shadow: 0 4px 10px rgba(0,0,0,.04); }
 /* Align Bootstrap cards with palette */
@@ -86,7 +95,14 @@ main .container { max-width: 920px; }
   .virtue-card { background: linear-gradient(135deg, var(--mountbatten-pink-500) 0%, var(--mountbatten-pink-400) 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
 .mf-declarations { list-style: none; padding-left: 0; margin: 0; }
 .mf-declarations li { display: flex; align-items: baseline; gap: .5rem; }
+  /* Mature Declarations bullets → neutral Platinum */
+  .section-blue .mf-declarations li i { color: var(--platinum-300) !important; }
 .mf-subtle { color: var(--timberwolf-400); }
+
+/* Dark mode: ensure readable text on light-toned section boxes */
+[data-bs-theme="dark"] .section-green,
+[data-bs-theme="dark"] .section-blue,
+[data-bs-theme="dark"] .section-yellow { color: var(--platinum-100); }
 
 /* Shadows: stacked items with sub-cards */
 .shadow-list { display: flex; flex-direction: column; gap: .75rem; }
