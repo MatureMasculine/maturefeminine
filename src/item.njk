@@ -75,7 +75,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
   {% if item.extended.shadows %}
     {% for sh in item.extended.shadows %}
     <div class="shadow-card mb-3">
-      <h4 class="mb-2"><i class="fas fa-mask me-2"></i>{{ sh.name }}{% if sh.type %} ({{ sh.type }}){% endif %}</h4>
+      <h4 class="mb-2"><i class="fas fa-mask me-2"></i>{{ sh.name }}{% if sh.type %} ({{ sh.type }} shadow){% endif %}</h4>
 
       {% if sh.description %}
       <div class="shadow-subcard mb-2">
