@@ -4,27 +4,45 @@
       "name": "Maiden",
       "slug": "maiden",
       "summary": "Innocence, beginning; task = discernment & choice",
+      "essence": "Freshness, trust, openness to life; learning discernment and choice.",
       "items": [
         {
           "name": "Maiden",
           "slug": "maiden",
           "qualities": ["new beginnings"],
-          "activeShadow": "manipulative ingenue",
-          "passiveShadow": "naive/fragile"
+          "gifts": "Freshness, trust, openness to life.",
+          "activeShadow": "Manipulator via naivete (coquette).",
+          "passiveShadow": "Fragility, gullibility.",
+          "growthPath": "Learn to choose and to say no; cultivate street-wise innocence.",
+          "practices": [
+            "\"Green/Yellow/Red\" body signals journal",
+            "Consent practice in everyday choices"
+          ]
         },
         {
           "name": "Adventurer / Storm (Tempest)",
           "slug": "adventurer-storm-tempest",
           "qualities": ["freedom", "risk"],
-          "activeShadow": "reckless",
-          "passiveShadow": "avoider"
+          "gifts": "Range, exploration, risk intelligence.",
+          "activeShadow": "Recklessness.",
+          "passiveShadow": "Avoidance of stakes.",
+          "growthPath": "Take calculated risks; explore with wisdom.",
+          "practices": [
+            "Risk ladder (tiny–small–medium)",
+            "Debrief the nervous system after pushes"
+          ]
         },
         {
           "name": "Young Visionary / Oracle",
           "slug": "young-visionary-oracle",
           "qualities": ["early intuitive gifts"],
-          "activeShadow": "impractical dreamer",
-          "passiveShadow": "unfocused"
+          "gifts": "Intuition, guidance by cycles, long view (early-phase).",
+          "activeShadow": "Fanatic certainty.",
+          "passiveShadow": "Fantasy with no feet.",
+          "growthPath": "Ground visions in action; prophecy with humility.",
+          "practices": [
+            "Translate each vision into one grounded next step"
+          ]
         }
       ]
     },
@@ -32,34 +50,59 @@
       "name": "Lover / Creatrix",
       "slug": "lover-creatrix",
       "summary": "Embodiment, pleasure, art; task = own desire & healthy reciprocity",
+      "essence": "Connection, sensuality, nurture, beauty, birth of life and culture.",
       "items": [
         {
           "name": "Sacred Whore / Love Goddess (Aphrodite, Hathor, Oshun)",
           "slug": "sacred-whore-love-goddess",
           "qualities": ["empowered sensuality"],
-          "activeShadow": "seducer",
-          "passiveShadow": "detached"
+          "gifts": "Erotic innocence, creativity, devotional play; intimacy as sacrament.",
+          "activeShadow": "Seducer (power-through-allure).",
+          "passiveShadow": "Detached performer.",
+          "growthPath": "Integrate desire with heart; honor both passion and boundaries.",
+          "practices": [
+            "5 senses ritual before difficult talks",
+            "Desire inventory (own and name)"
+          ]
         },
         {
           "name": "Muse / Song Goddess (Saraswati)",
           "slug": "muse-song-goddess",
           "qualities": ["inspiration"],
-          "activeShadow": "tempter",
-          "passiveShadow": "fickle"
+          "gifts": "Sparks expression in self/others.",
+          "activeShadow": "Inflames without grounding.",
+          "passiveShadow": "Drifts from project to project.",
+          "growthPath": "Inspire with responsibility; complete what you start.",
+          "practices": [
+            "\"One song a day\" micro-creation",
+            "Finish-line dates"
+          ]
         },
         {
           "name": "Creatrix / Spider Weaver (Spider Woman)",
           "slug": "creatrix-spider-weaver",
           "qualities": ["births ideas & art"],
-          "activeShadow": "perfectionist",
-          "passiveShadow": "stagnant"
+          "gifts": "Weaves ideas, systems, art; births forms.",
+          "activeShadow": "Perfectionism/control.",
+          "passiveShadow": "Hoarding ideas; fear to ship.",
+          "growthPath": "Create boldly; ship imperfectly.",
+          "practices": [
+            "70% rule (publish at 70%)",
+            "Two-week weave (start–ship–reflect)"
+          ]
         },
         {
           "name": "Young Healer / Priestess",
           "slug": "young-healer-priestess",
           "qualities": ["emerging healing gifts"],
-          "activeShadow": "savior complex",
-          "passiveShadow": "overwhelmed by others' pain"
+          "gifts": "Bridges sacred and ordinary; restores balance.",
+          "activeShadow": "Savior complex.",
+          "passiveShadow": "Compassion burnout.",
+          "growthPath": "Heal with boundaries; serve without depleting.",
+          "practices": [
+            "\"Three bowls\" (give, receive, rest) scheduled weekly",
+            "Clear energetic closure after sessions"
+          ]
         }
       ]
     },
@@ -236,34 +279,60 @@
       "name": "Crone",
       "slug": "crone",
       "summary": "Endings, wisdom; task = harvest and transmit",
+      "essence": "Composting, endings, fearless truth, rebirth midwifery.",
       "items": [
         {
           "name": "Crone / Underworld Queen (Morrigan, Persephone)",
           "slug": "crone-underworld-queen",
           "qualities": ["death/rebirth wisdom"],
-          "activeShadow": "destroyer",
-          "passiveShadow": "mourner"
+          "gifts": "Composting, endings, fearless truth, rebirth midwifery.",
+          "activeShadow": "Nihilistic destroyer/vengeance.",
+          "passiveShadow": "Perpetual mourner.",
+          "growthPath": "End with grace; destroy only what blocks new life.",
+          "practices": [
+            "Quarterly \"Good Death\" list (what ends now?)",
+            "Grief with a witness",
+            "Name the harvest"
+          ]
         },
         {
           "name": "Elder Visionary / Oracle / Moon (Artemis, Moon Woman)",
           "slug": "elder-visionary-oracle-moon",
           "qualities": ["far-sight & deep intuition"],
-          "activeShadow": "fanatic",
-          "passiveShadow": "withdrawn dreamer"
+          "gifts": "Intuition, guidance by cycles, long view.",
+          "activeShadow": "Fanatic certainty.",
+          "passiveShadow": "Fantasy with no feet.",
+          "growthPath": "Ground visions in action; prophecy with humility.",
+          "practices": [
+            "Lunar planning (new: set 1 seed; full: release 1 thing)",
+            "Translate each vision into one grounded next step"
+          ]
         },
         {
           "name": "Rebel / Revolutionary / Trickster (Eris)",
           "slug": "rebel-revolutionary-trickster",
           "qualities": ["wisdom that breaks old forms"],
-          "activeShadow": "anarchist",
-          "passiveShadow": "conformist"
+          "gifts": "Catalyzes change, exposes stale norms with wit.",
+          "activeShadow": "Destructive chaos.",
+          "passiveShadow": "Cosmetic dissent; blends in.",
+          "growthPath": "Rebel with purpose; change systems, not just oppose.",
+          "practices": [
+            "Purpose filter: (Harm ↓ / Freedom ↑ / Stewardship ↑)",
+            "Ship one harmless prank for truth"
+          ]
         },
         {
           "name": "Elder Healer / Priestess",
           "slug": "elder-healer-priestess",
           "qualities": ["master of restoration"],
-          "activeShadow": "controlling healer",
-          "passiveShadow": "burned out wise woman"
+          "gifts": "Bridges sacred and ordinary; restores balance (elder-phase).",
+          "activeShadow": "Controlling healer.",
+          "passiveShadow": "Burned out wise woman.",
+          "growthPath": "Heal with boundaries; serve without depleting.",
+          "practices": [
+            "\"Three bowls\" (give, receive, rest) scheduled weekly",
+            "Clear energetic closure after sessions"
+          ]
         }
       ]
     }
