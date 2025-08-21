@@ -1,15 +1,7 @@
 (function(){
-  // Dark mode toggle
-  const btn = document.getElementById('themeToggle');
-  const root = document.documentElement;
-  const saved = localStorage.getItem('theme');
-  if (saved) document.documentElement.setAttribute('data-bs-theme', saved);
-  btn && btn.addEventListener('click', ()=>{
-    const current = document.documentElement.getAttribute('data-bs-theme') || 'light';
-    const next = current === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-bs-theme', next);
-    localStorage.setItem('theme', next);
-  });
+  // Force dark mode by default and clear any saved preference
+  document.documentElement.setAttribute('data-bs-theme', 'dark');
+  try { localStorage.removeItem('theme'); } catch (e) {}
 
   // Search filter (client-side)
   async function initSearch(){
