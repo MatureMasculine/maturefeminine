@@ -92,27 +92,19 @@ main .container { max-width: 920px; }
 }
 .mf-box { border-radius: .5rem; padding: 1rem; }
 /* Mature → Timberwolf */
-.section-green { background-color: var(--timberwolf-900); border-left: 4px solid var(--timberwolf-300); }
+.section-green { background-color: var(--timberwolf-800); border-left: 4px solid var(--timberwolf-200); }
 .section-green h4 { color: var(--timberwolf-200); }
 /* Mature Declarations → Byzantium */
 .section-blue { background-color: var(--byzantium-900); border-left: 4px solid var(--byzantium-500); }
 .section-blue h4 { color: var(--byzantium-400); }
 /* Balance & Qualities → Platinum */
-.section-yellow { background-color: var(--platinum-900); border-left: 4px solid var(--platinum-400); }
-.section-yellow h4 { color: var(--platinum-300); }
+.section-yellow { background-color: var(--platinum-800); border-left: 4px solid var(--platinum-300); }
+.section-yellow h4 { color: var(--platinum-200); }
 /* Shadow → Eggplant */
 .shadow-card { background: linear-gradient(135deg, var(--eggplant-500) 0%, var(--eggplant-700) 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
 .shadow-card .shadow-panel { background: rgba(255,255,255,.2); border-radius: .5rem; padding: .75rem; }
 /* Virtues → Mountbatten Pink */
 .virtue-card { background: linear-gradient(135deg, var(--mountbatten-pink-500) 0%, var(--mountbatten-pink-400) 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
-  /* Balance & Qualities → Platinum */
-  .section-yellow { background-color: var(--platinum-900); border-left: 4px solid var(--platinum-400); }
-  .section-yellow h4 { color: var(--platinum-300); }
-  /* Shadow → Eggplant */
-  .shadow-card { background: linear-gradient(135deg, var(--eggplant-500) 0%, var(--eggplant-700) 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
-  .shadow-card .shadow-panel { background: rgba(255,255,255,.2); border-radius: .5rem; padding: .75rem; }
-  /* Virtues → Mountbatten Pink */
-  .virtue-card { background: linear-gradient(135deg, var(--mountbatten-pink-500) 0%, var(--mountbatten-pink-400) 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
 .mf-declarations { list-style: none; padding-left: 0; margin: 0; }
 .mf-declarations li { display: flex; align-items: baseline; gap: .5rem; }
   /* Mature Declarations bullets → neutral Platinum */

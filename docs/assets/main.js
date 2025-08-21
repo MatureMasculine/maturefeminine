@@ -84,7 +84,9 @@
       fuse = new Fuse(data.items, { keys: ['name','qualities','group'], threshold: 0.4 });
     } catch (err) {
       console.error('Search index failed to load (fallback to simple filter):', err);
+      // keep fallback behavior
     }
   }
   initSearch();
 })();
+
