@@ -1,5 +1,7 @@
 - add princes shadow
 -- add victim (and passive agressive)
+-- better search (include shadows in side menu?)
+
 
 -- Boundary-less Protector (passive shadow) missing image
 -- posessive shadow image? what's that about? 
