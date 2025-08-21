@@ -1,0 +1,27 @@
+---
+layout: layout.njk
+permalink: "/index.html"
+title: The Mature Feminine: A Field Guide
+---
+
+<h1 class="mb-3">The Mature Feminine: A Field Guide</h1>
+<p class="lead">A companion to the mature masculine framework.</p>
+<p class="text-muted">This site maps the feminine life arc across five groups and their sub-archetypes. Use the sidebar to browse, search, and explore qualities, shadows, and practices.</p>
+
+<div class="row g-3">
+  {% for group in archetypes.groups %}
+  <div class="col-12 col-md-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">{{ group.name }}</h5>
+        <p class="card-text small text-muted">{{ group.summary }}</p>
+        <ul class="small">
+          {% for item in group.items %}
+          <li><a href="/{{ group.slug }}/{{ item.slug }}/">{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

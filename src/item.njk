@@ -1,0 +1,50 @@
+---
+layout: layout.njk
+pagination:
+  data: collections.items
+  size: 1
+  alias: item
+permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
+---
+
+<a class="small" href="{{ item.groupSlug }}/">← Back to {{ item.groupName }}</a>
+<h1 class="mt-2">{{ item.name }}</h1>
+
+<p>
+  {% if item.qualities %}
+    {% for q in item.qualities %}
+      <span class="badge text-bg-primary chip">{{ q }}</span>
+    {% endfor %}
+  {% endif %}
+</p>
+
+{% if item.activeShadow or item.passiveShadow or item.shadows %}
+<div class="mb-3">
+  <h5>Shadows</h5>
+  <ul>
+    {% if item.shadows %}
+      {% for s in item.shadows %}<li>{{ s }}</li>{% endfor %}
+    {% else %}
+      {% if item.activeShadow %}<li><strong>Active:</strong> {{ item.activeShadow }}</li>{% endif %}
+      {% if item.passiveShadow %}<li><strong>Passive:</strong> {{ item.passiveShadow }}</li>{% endif %}
+    {% endif %}
+  </ul>
+</div>
+{% endif %}
+
+<div class="d-flex justify-content-between mt-4">
+  {% set items = collections.items | itemsByGroup(item.groupSlug) %}
+  {% set idx = items | findIndexBySlug(item.slug) %}
+  {% set prev = items[idx - 1] %}
+  {% set next = items[idx + 1] %}
+  <div>
+  {% if prev %}
+    <a class="btn btn-outline-secondary btn-sm" href="{{ prev.groupSlug }}/{{ prev.slug }}/">← {{ prev.name }}</a>
+  {% endif %}
+  </div>
+  <div>
+  {% if next %}
+    <a class="btn btn-outline-secondary btn-sm" href="{{ next.groupSlug }}/{{ next.slug }}/">{{ next.name }} →</a>
+  {% endif %}
+  </div>
+</div>

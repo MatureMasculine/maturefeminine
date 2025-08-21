@@ -1,0 +1,13 @@
+{
+  "name": "mature-feminine-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The Mature Feminine: static site (11ty) for GitHub Pages",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

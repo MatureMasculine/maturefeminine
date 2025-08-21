@@ -1,0 +1,199 @@
+{
+  "groups": [
+    {
+      "name": "Maiden",
+      "slug": "maiden",
+      "summary": "Innocence, beginning; task = discernment & choice",
+      "items": [
+        {
+          "name": "Maiden",
+          "slug": "maiden",
+          "qualities": ["new beginnings"],
+          "activeShadow": "manipulative ingenue",
+          "passiveShadow": "naive/fragile"
+        },
+        {
+          "name": "Adventurer / Storm (Tempest)",
+          "slug": "adventurer-storm-tempest",
+          "qualities": ["freedom", "risk"],
+          "activeShadow": "reckless",
+          "passiveShadow": "avoider"
+        },
+        {
+          "name": "Young Visionary / Oracle",
+          "slug": "young-visionary-oracle",
+          "qualities": ["early intuitive gifts"],
+          "activeShadow": "impractical dreamer",
+          "passiveShadow": "unfocused"
+        }
+      ]
+    },
+    {
+      "name": "Lover / Creatrix",
+      "slug": "lover-creatrix",
+      "summary": "Embodiment, pleasure, art; task = own desire & healthy reciprocity",
+      "items": [
+        {
+          "name": "Sacred Whore / Love Goddess (Aphrodite, Hathor, Oshun)",
+          "slug": "sacred-whore-love-goddess",
+          "qualities": ["empowered sensuality"],
+          "activeShadow": "seducer",
+          "passiveShadow": "detached"
+        },
+        {
+          "name": "Muse / Song Goddess (Saraswati)",
+          "slug": "muse-song-goddess",
+          "qualities": ["inspiration"],
+          "activeShadow": "tempter",
+          "passiveShadow": "fickle"
+        },
+        {
+          "name": "Creatrix / Spider Weaver (Spider Woman)",
+          "slug": "creatrix-spider-weaver",
+          "qualities": ["births ideas & art"],
+          "activeShadow": "perfectionist",
+          "passiveShadow": "stagnant"
+        },
+        {
+          "name": "Young Healer / Priestess",
+          "slug": "young-healer-priestess",
+          "qualities": ["emerging healing gifts"],
+          "activeShadow": "savior complex",
+          "passiveShadow": "overwhelmed by others' pain"
+        }
+      ]
+    },
+    {
+      "name": "Mother",
+      "slug": "mother",
+      "summary": "Nurture, protect, grow; task = love with boundaries",
+      "items": [
+        {
+          "name": "Mother (Isis, Gaia, Corn Mother, Sedna)",
+          "slug": "mother",
+          "qualities": ["unconditional nurture"],
+          "shadows": ["smotherer", "martyr", "absent", "narcissistic"]
+        },
+        {
+          "name": "Wife / Nurturer / Hearth Goddess (Hestia, Nephthys)",
+          "slug": "wife-nurturer-hearth-goddess",
+          "qualities": ["domestic stability"],
+          "activeShadow": "enabler",
+          "passiveShadow": "doormat"
+        },
+        {
+          "name": "Guardian / Buffalo Woman",
+          "slug": "guardian-buffalo-woman",
+          "qualities": ["sacred protection"],
+          "activeShadow": "gatekeeper",
+          "passiveShadow": "porous"
+        },
+        {
+          "name": "Warrior / Warrioress / Huntress (Sekhmet, Diana)",
+          "slug": "warrior-warrioress-huntress",
+          "qualities": ["fierce protective focus"],
+          "activeShadow": "bully",
+          "passiveShadow": "wimp"
+        },
+        {
+          "name": "Weaver / Community Goddess",
+          "slug": "weaver-community-goddess",
+          "qualities": ["sacred interdependence"],
+          "activeShadow": "fiercely independent",
+          "passiveShadow": "codependent"
+        },
+        {
+          "name": "Peacemaker / Peace Bringer (Whope)",
+          "slug": "peacemaker-peace-bringer",
+          "qualities": ["harmony for family/community"],
+          "activeShadow": "appeaser",
+          "passiveShadow": "bystander"
+        }
+      ]
+    },
+    {
+      "name": "Queen",
+      "slug": "queen",
+      "summary": "Sovereignty, blessing; task = rule without domination",
+      "items": [
+        {
+          "name": "Queen / Hearth Keeper (Brigid)",
+          "slug": "queen-hearth-keeper",
+          "qualities": ["benevolent authority"],
+          "activeShadow": "tyrant",
+          "passiveShadow": "recluse"
+        },
+        {
+          "name": "Justice (Ma'at)",
+          "slug": "justice",
+          "qualities": ["truth & balance"],
+          "activeShadow": "harsh judge",
+          "passiveShadow": "avoidant of imbalance"
+        },
+        {
+          "name": "Sky / Sun / Star Goddess (Nut, Amaterasu, Ishtar)",
+          "slug": "sky-sun-star-goddess",
+          "qualities": ["cosmic order & radiance"],
+          "activeShadow": "dominator",
+          "passiveShadow": "distant"
+        },
+        {
+          "name": "Sage / Wisdom (Athena)",
+          "slug": "sage-wisdom",
+          "qualities": ["strategy & clarity"],
+          "activeShadow": "know-it-all",
+          "passiveShadow": "aloof"
+        },
+        {
+          "name": "Magician / Alchemist / Witch / Scribe (Seshat)",
+          "slug": "magician-alchemist-witch-scribe",
+          "qualities": ["transformation & knowledge"],
+          "activeShadow": "manipulator",
+          "passiveShadow": "escapist"
+        },
+        {
+          "name": "Storyteller",
+          "slug": "storyteller",
+          "qualities": ["meaning-making from authority"],
+          "activeShadow": "exaggerator",
+          "passiveShadow": "silent"
+        }
+      ]
+    },
+    {
+      "name": "Crone",
+      "slug": "crone",
+      "summary": "Endings, wisdom; task = harvest and transmit",
+      "items": [
+        {
+          "name": "Crone / Underworld Queen (Morrigan, Persephone)",
+          "slug": "crone-underworld-queen",
+          "qualities": ["death/rebirth wisdom"],
+          "activeShadow": "destroyer",
+          "passiveShadow": "mourner"
+        },
+        {
+          "name": "Elder Visionary / Oracle / Moon (Artemis, Moon Woman)",
+          "slug": "elder-visionary-oracle-moon",
+          "qualities": ["far-sight & deep intuition"],
+          "activeShadow": "fanatic",
+          "passiveShadow": "withdrawn dreamer"
+        },
+        {
+          "name": "Rebel / Revolutionary / Trickster (Eris)",
+          "slug": "rebel-revolutionary-trickster",
+          "qualities": ["wisdom that breaks old forms"],
+          "activeShadow": "anarchist",
+          "passiveShadow": "conformist"
+        },
+        {
+          "name": "Elder Healer / Priestess",
+          "slug": "elder-healer-priestess",
+          "qualities": ["master of restoration"],
+          "activeShadow": "controlling healer",
+          "passiveShadow": "burned out wise woman"
+        }
+      ]
+    }
+  ]
+}

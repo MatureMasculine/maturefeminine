@@ -1,0 +1,18 @@
+---
+permalink: "/search.json"
+---
+{
+  "items": [
+    {% for group in archetypes.groups %}
+      {% for item in group.items %}
+      {
+        "group": "{{ group.name | escape }}",
+        "groupSlug": "{{ group.slug }}",
+        "name": "{{ item.name | escape }}",
+        "slug": "{{ item.slug }}",
+        "qualities": {{ (item.qualities or []) | dump | safe }}
+      }{% if not loop.last or not loop.parent.last %},{% endif %}
+      {% endfor %}
+    {% endfor %}
+  ]
+}

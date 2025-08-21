@@ -1,0 +1,16 @@
+# Node / Eleventy
+node_modules/
+.npm/
+.cache/
+.env
+
+# 11ty output
+_site/
+
+# macOS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
