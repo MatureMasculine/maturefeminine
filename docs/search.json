@@ -20,10 +20,22 @@
               "type": "shadow",
               "group": "Maiden",
               "groupSlug": "maiden",
-              "name": "Manipulative Maiden",
+              "name": "Cunning Innocent",
               "slug": "maiden",
               "qualities": "",
-              "href": "/maiden/maiden/#shadow-manipulative-maiden"
+              "href": "/maiden/maiden/#shadow-cunning-innocent"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Maiden",
+              "groupSlug": "maiden",
+              "name": "Paralyzed Perfectionist",
+              "slug": "maiden",
+              "qualities": "",
+              "href": "/maiden/maiden/#shadow-paralyzed-perfectionist"
             }
             
           

@@ -24,38 +24,73 @@
           "extended": {
             "shadows": [
               {
-                "name": "Manipulative Maiden",
+                "name": "Cunning Innocent",
                 "type": "active",
                 "description": [
-                  "The Manipulative Maiden is the overexpressed shadow of the Maiden. She pushes the archetype’s innocence and beginnings to an extreme—trying to manufacture certainty, safety, or admiration through control. What begins as curiosity, trust, wonder becomes performance and pressure. In this stance she overrides signals from body and relationships, doubles down when she should pause, and confuses intensity for truth. Often born from wounds of betrayal, overprotection, she learned to stay ahead of pain by taking charge.",
-                  "From the outside this shadow can look competent, charismatic, even selfless; inside there is a tightness and a fear that rest or honest contact will expose vulnerability. In relationships and learning she speeds up, takes over, and makes unilateral moves “for everyone’s good.” Integration begins when she tells the truth about impact, slows her pace, and lets reciprocity, feedback, and limits restore proportion."
+                  "The Cunning Innocent emerges when the Maiden's natural trust becomes weaponized while her discernment atrophies. She has learned to use her apparent vulnerability and wide-eyed wonder as tools for getting what she wants, while simultaneously avoiding the hard work of developing real wisdom. This shadow knows exactly how to play helpless to invoke others' protective instincts, then manipulates that care to avoid consequences or responsibility.",
+                  "She presents as sweet, naive, or overwhelmed—always just a little too fragile to be held accountable. Behind the innocent facade lies a calculating mind that has mapped every person's soft spots and knows precisely which tears, which confusion, which 'I didn't know better' will get her off the hook. She has traded the Maiden's authentic learning journey for a performance of perpetual beginner-hood that keeps her powerful through powerlessness."
                 ],
                 "declarations": [
-                  "I stay in control so I never have to feel small.",
-                  "I push harder when I feel doubt instead of slowing down.",
-                  "I confuse urgency with importance.",
-                  "I override my body’s signals to keep things on track.",
-                  "I decide what’s best and expect others to catch up.",
-                  "I use charm, logic, or pressure when I’m afraid."
+                  "I use my innocence as armor against real consequences.",
+                  "I play confused when I actually understand perfectly well.",
+                  "I let others rescue me instead of developing my own strength.",
+                  "I weaponize my vulnerability to get what I want.",
+                  "I avoid growing up because being 'young' gives me power.",
+                  "I make others feel guilty for expecting me to be responsible."
                 ],
                 "balancing": [
-                  "I pause and feel my body before acting; I let breath slow me down.",
-                  "I name the fear underneath my urgency and let someone I trust witness it.",
-                  "I ask for consent and co-create next steps instead of taking over as the Maiden.",
-                  "I replace pressure with clear requests and real timelines.",
-                  "I practice letting something be imperfect and still complete.",
-                  "I track impact, apologize where needed, and repair.",
-                  "I delegate in proportion to others’ capacity and trust their pace.",
-                  "I schedule regular rest so power can be sourced, not forced."
+                  "I own my intelligence and stop pretending to be less capable than I am.",
+                  "I take responsibility for my actions without hiding behind inexperience.",
+                  "I develop real skills instead of relying on others to solve my problems.",
+                  "I express my needs directly rather than through manipulation.",
+                  "I face consequences with dignity and learn from them genuinely.",
+                  "I practice authentic vulnerability that invites connection, not rescue.",
+                  "I honor others' boundaries even when it means I don't get my way.",
+                  "I cultivate real wisdom through experience rather than performing ignorance."
                 ],
-                "gift": "When owned, the Manipulative Maiden offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Maiden’s capacity to move things forward when it truly serves.",
+                "gift": "When integrated, the Cunning Innocent's strategic awareness becomes genuine emotional intelligence. Her ability to read people transforms into deep empathy and her survival skills become tools for creating authentic safety for herself and others.",
                 "outOfBalance": [
-                  "Oversteps boundaries; decides for others",
-                  "Mistakes speed for effectiveness",
-                  "Performs care or genius to avoid vulnerability",
-                  "Micromanages; cannot rest",
-                  "Seeks admiration or control over connection",
-                  "Ignores feedback, doubles down under stress"
+                  "Uses helplessness as manipulation",
+                  "Avoids accountability through performed confusion",
+                  "Creates drama to stay center of attention",
+                  "Exploits others' protective instincts",
+                  "Refuses to develop adult capabilities",
+                  "Weaponizes emotions to control situations"
+                ]
+              },
+              {
+                "name": "Paralyzed Perfectionist",
+                "type": "passive",
+                "description": [
+                  "The Paralyzed Perfectionist emerges when the Maiden's discernment becomes hyperactive while her natural trust and openness shut down completely. She has become so afraid of making the 'wrong' choice that she makes no choices at all, trapped in endless analysis and second-guessing. Every option feels dangerous, every step forward threatens some imagined catastrophe, so she freezes in place, disguising her terror as thoughtfulness.",
+                  "She researches obsessively but never acts, asks for advice she won't follow, and creates elaborate plans she abandons at the first sign of imperfection. Her discernment has become a prison guard rather than a guide—not protecting her from real harm, but from the messy, imperfect process of actually living. She has confused preparation with progress and convinced herself that if she just thinks hard enough, she can avoid all risk and pain."
+                ],
+                "declarations": [
+                  "I need more information before I can possibly decide.",
+                  "I'll wait until I'm completely sure before I act.",
+                  "If I can't do it perfectly, I shouldn't do it at all.",
+                  "Everyone else seems to know something I don't.",
+                  "I'd rather do nothing than risk doing the wrong thing.",
+                  "I need to have all the answers before I begin."
+                ],
+                "balancing": [
+                  "I take one imperfect action today, knowing I can course-correct later.",
+                  "I set a decision deadline and honor it, choosing from available options.",
+                  "I practice making small, low-stakes choices quickly to build decision muscle.",
+                  "I trust my body's wisdom alongside my mind's analysis.",
+                  "I remember that most decisions are reversible or adjustable.",
+                  "I seek advice but make my own choices based on my unique situation.",
+                  "I celebrate messy progress over pristine paralysis.",
+                  "I practice self-compassion when things don't go as planned."
+                ],
+                "gift": "When integrated, the Paralyzed Perfectionist's careful consideration becomes genuine wisdom. Her attention to detail and desire for excellence transform into discerning action that honors both quality and momentum.",
+                "outOfBalance": [
+                  "Endless research without action",
+                  "Seeks impossible certainty before deciding",
+                  "Abandons projects at first sign of imperfection",
+                  "Asks for advice but never follows it",
+                  "Confuses preparation with progress",
+                  "Uses 'being thoughtful' to avoid risk"
                 ]
               },
               {
