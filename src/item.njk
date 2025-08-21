@@ -73,70 +73,65 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
   {% endif %}
 
   {% if item.extended.shadows %}
-  <div class="shadow-card mb-3">
-    <h4 class="mb-3"><i class="fas fa-mask me-2"></i>Shadow Aspects</h4>
-    <div class="shadow-list">
-      {% for sh in item.extended.shadows %}
-      <div class="shadow-panel">
-        <h5 class="mb-2">{{ sh.name }}{% if sh.type %} ({{ sh.type }}){% endif %}</h5>
+    {% for sh in item.extended.shadows %}
+    <div class="shadow-card mb-3">
+      <h4 class="mb-2"><i class="fas fa-mask me-2"></i>{{ sh.name }}{% if sh.type %} ({{ sh.type }}){% endif %}</h4>
 
-        {% if sh.description %}
-        <div class="shadow-subcard mb-2">
-          <h6 class="mb-1"><i class="fas fa-align-left me-2"></i>Description</h6>
-          {% if sh.description.push %}
-            {% for para in sh.description %}<p class="mb-2">{{ para }}</p>{% endfor %}
-          {% else %}
-            <p class="mb-0">{{ sh.description }}</p>
-          {% endif %}
-        </div>
-        {% endif %}
-
-        {% if sh.declarations %}
-        <div class="shadow-subcard mb-2">
-          <h6 class="mb-1"><i class="fas fa-quote-left me-2"></i>Shadow Declarations</h6>
-          <ul class="mb-0 ps-3">
-            {% for sd in sh.declarations %}<li>{{ sd }}</li>{% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-
-        {% if sh.balancing %}
-        <div class="shadow-subcard mb-2">
-          <h6 class="mb-1"><i class="fas fa-scale-balanced me-2"></i>Balancing</h6>
-          <ul class="mb-0 ps-3">
-            {% for b in sh.balancing %}<li>{{ b }}</li>{% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-
-        {% if sh.gift %}
-        <div class="shadow-subcard mb-2">
-          <h6 class="mb-1"><i class="fas fa-gift me-2"></i>Gift</h6>
-          <p class="mb-0">{{ sh.gift }}</p>
-        </div>
-        {% endif %}
-
-        {% if sh.outOfBalance %}
-        <div class="shadow-subcard mb-2">
-          <h6 class="mb-1"><i class="fas fa-triangle-exclamation me-2"></i>Out of Balance</h6>
-          {% if sh.outOfBalance.push %}
-            <ul class="mb-0 ps-3">{% for ob in sh.outOfBalance %}<li>{{ ob }}</li>{% endfor %}</ul>
-          {% else %}
-            <p class="mb-0">{{ sh.outOfBalance }}</p>
-          {% endif %}
-        </div>
-        {% endif %}
-
-        {% if sh.qualities %}
-        <div class="shadow-subcard mb-0">
-          <h6 class="mb-1"><i class="fas fa-star me-2"></i>Qualities</h6>
-          <p class="mb-0">{{ sh.qualities }}</p>
-        </div>
+      {% if sh.description %}
+      <div class="shadow-subcard mb-2">
+        <h6 class="mb-1"><i class="fas fa-align-left me-2"></i>Description</h6>
+        {% if sh.description.push %}
+          {% for para in sh.description %}<p class="mb-2">{{ para }}</p>{% endfor %}
+        {% else %}
+          <p class="mb-0">{{ sh.description }}</p>
         {% endif %}
       </div>
-      {% endfor %}
+      {% endif %}
+
+      {% if sh.declarations %}
+      <div class="shadow-subcard mb-2">
+        <h6 class="mb-1"><i class="fas fa-quote-left me-2"></i>Shadow Declarations</h6>
+        <ul class="mb-0 ps-3">
+          {% for sd in sh.declarations %}<li>{{ sd }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if sh.balancing %}
+      <div class="shadow-subcard mb-2">
+        <h6 class="mb-1"><i class="fas fa-scale-balanced me-2"></i>Balancing</h6>
+        <ul class="mb-0 ps-3">
+          {% for b in sh.balancing %}<li>{{ b }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if sh.gift %}
+      <div class="shadow-subcard mb-2">
+        <h6 class="mb-1"><i class="fas fa-gift me-2"></i>Gift</h6>
+        <p class="mb-0">{{ sh.gift }}</p>
+      </div>
+      {% endif %}
+
+      {% if sh.outOfBalance %}
+      <div class="shadow-subcard mb-2">
+        <h6 class="mb-1"><i class="fas fa-triangle-exclamation me-2"></i>Out of Balance</h6>
+        {% if sh.outOfBalance.push %}
+          <ul class="mb-0 ps-3">{% for ob in sh.outOfBalance %}<li>{{ ob }}</li>{% endfor %}</ul>
+        {% else %}
+          <p class="mb-0">{{ sh.outOfBalance }}</p>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      {% if sh.qualities %}
+      <div class="shadow-subcard mb-0">
+        <h6 class="mb-1"><i class="fas fa-star me-2"></i>Qualities</h6>
+        <p class="mb-0">{{ sh.qualities }}</p>
+      </div>
+      {% endif %}
     </div>
-  </div>
+    {% endfor %}
   {% endif %}
 
   {% if item.extended.virtues %}
