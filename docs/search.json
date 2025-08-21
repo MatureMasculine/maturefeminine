@@ -1,0 +1,199 @@
+{
+  "items": [
+    
+      
+      {
+        "group": "Maiden",
+        "groupSlug": "maiden",
+        "name": "Maiden",
+        "slug": "maiden",
+        "qualities": ["new beginnings"]
+      },
+      
+      {
+        "group": "Maiden",
+        "groupSlug": "maiden",
+        "name": "Adventurer / Storm (Tempest)",
+        "slug": "adventurer-storm-tempest",
+        "qualities": ["freedom","risk"]
+      },
+      
+      {
+        "group": "Maiden",
+        "groupSlug": "maiden",
+        "name": "Young Visionary / Oracle",
+        "slug": "young-visionary-oracle",
+        "qualities": ["early intuitive gifts"]
+      },
+      
+    
+      
+      {
+        "group": "Lover / Creatrix",
+        "groupSlug": "lover-creatrix",
+        "name": "Sacred Whore / Love Goddess (Aphrodite, Hathor, Oshun)",
+        "slug": "sacred-whore-love-goddess",
+        "qualities": ["empowered sensuality"]
+      },
+      
+      {
+        "group": "Lover / Creatrix",
+        "groupSlug": "lover-creatrix",
+        "name": "Muse / Song Goddess (Saraswati)",
+        "slug": "muse-song-goddess",
+        "qualities": ["inspiration"]
+      },
+      
+      {
+        "group": "Lover / Creatrix",
+        "groupSlug": "lover-creatrix",
+        "name": "Creatrix / Spider Weaver (Spider Woman)",
+        "slug": "creatrix-spider-weaver",
+        "qualities": ["births ideas & art"]
+      },
+      
+      {
+        "group": "Lover / Creatrix",
+        "groupSlug": "lover-creatrix",
+        "name": "Young Healer / Priestess",
+        "slug": "young-healer-priestess",
+        "qualities": ["emerging healing gifts"]
+      },
+      
+    
+      
+      {
+        "group": "Mother",
+        "groupSlug": "mother",
+        "name": "Mother (Isis, Gaia, Corn Mother, Sedna)",
+        "slug": "mother",
+        "qualities": ["unconditional nurture"]
+      },
+      
+      {
+        "group": "Mother",
+        "groupSlug": "mother",
+        "name": "Wife / Nurturer / Hearth Goddess (Hestia, Nephthys)",
+        "slug": "wife-nurturer-hearth-goddess",
+        "qualities": ["domestic stability"]
+      },
+      
+      {
+        "group": "Mother",
+        "groupSlug": "mother",
+        "name": "Guardian / Buffalo Woman",
+        "slug": "guardian-buffalo-woman",
+        "qualities": ["sacred protection"]
+      },
+      
+      {
+        "group": "Mother",
+        "groupSlug": "mother",
+        "name": "Warrior / Warrioress / Huntress (Sekhmet, Diana)",
+        "slug": "warrior-warrioress-huntress",
+        "qualities": ["fierce protective focus"]
+      },
+      
+      {
+        "group": "Mother",
+        "groupSlug": "mother",
+        "name": "Weaver / Community Goddess",
+        "slug": "weaver-community-goddess",
+        "qualities": ["sacred interdependence"]
+      },
+      
+      {
+        "group": "Mother",
+        "groupSlug": "mother",
+        "name": "Peacemaker / Peace Bringer (Whope)",
+        "slug": "peacemaker-peace-bringer",
+        "qualities": ["harmony for family/community"]
+      },
+      
+    
+      
+      {
+        "group": "Queen",
+        "groupSlug": "queen",
+        "name": "Queen / Hearth Keeper (Brigid)",
+        "slug": "queen-hearth-keeper",
+        "qualities": ["benevolent authority"]
+      },
+      
+      {
+        "group": "Queen",
+        "groupSlug": "queen",
+        "name": "Justice (Ma&#39;at)",
+        "slug": "justice",
+        "qualities": ["truth & balance"]
+      },
+      
+      {
+        "group": "Queen",
+        "groupSlug": "queen",
+        "name": "Sky / Sun / Star Goddess (Nut, Amaterasu, Ishtar)",
+        "slug": "sky-sun-star-goddess",
+        "qualities": ["cosmic order & radiance"]
+      },
+      
+      {
+        "group": "Queen",
+        "groupSlug": "queen",
+        "name": "Sage / Wisdom (Athena)",
+        "slug": "sage-wisdom",
+        "qualities": ["strategy & clarity"]
+      },
+      
+      {
+        "group": "Queen",
+        "groupSlug": "queen",
+        "name": "Magician / Alchemist / Witch / Scribe (Seshat)",
+        "slug": "magician-alchemist-witch-scribe",
+        "qualities": ["transformation & knowledge"]
+      },
+      
+      {
+        "group": "Queen",
+        "groupSlug": "queen",
+        "name": "Storyteller",
+        "slug": "storyteller",
+        "qualities": ["meaning-making from authority"]
+      },
+      
+    
+      
+      {
+        "group": "Crone",
+        "groupSlug": "crone",
+        "name": "Crone / Underworld Queen (Morrigan, Persephone)",
+        "slug": "crone-underworld-queen",
+        "qualities": ["death/rebirth wisdom"]
+      },
+      
+      {
+        "group": "Crone",
+        "groupSlug": "crone",
+        "name": "Elder Visionary / Oracle / Moon (Artemis, Moon Woman)",
+        "slug": "elder-visionary-oracle-moon",
+        "qualities": ["far-sight & deep intuition"]
+      },
+      
+      {
+        "group": "Crone",
+        "groupSlug": "crone",
+        "name": "Rebel / Revolutionary / Trickster (Eris)",
+        "slug": "rebel-revolutionary-trickster",
+        "qualities": ["wisdom that breaks old forms"]
+      },
+      
+      {
+        "group": "Crone",
+        "groupSlug": "crone",
+        "name": "Elder Healer / Priestess",
+        "slug": "elder-healer-priestess",
+        "qualities": ["master of restoration"]
+      },
+      
+    
+  ]
+}

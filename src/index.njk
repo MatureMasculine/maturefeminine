@@ -1,7 +1,7 @@
 ---
 layout: layout.njk
 permalink: "/index.html"
-title: The Mature Feminine: A Field Guide
+title: "The Mature Feminine: A Field Guide"
 ---
 
 <h1 class="mb-3">The Mature Feminine: A Field Guide</h1>
@@ -17,7 +17,7 @@ title: The Mature Feminine: A Field Guide
         <p class="card-text small text-muted">{{ group.summary }}</p>
         <ul class="small">
           {% for item in group.items %}
-          <li><a href="/{{ group.slug }}/{{ item.slug }}/">{{ item.name }}</a></li>
+          <li><a href="{{ group.slug }}/{{ item.slug }}/">{{ item.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
