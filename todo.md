@@ -1,6 +1,13 @@
 - add princes shadow
 -- add victim (and passive agressive)
--- better search (include shadows in side menu?)
+
+-- pull in deida wisdom
+-- Submission as power: trusting her man more than he is trustworthy. enobling him. 
+-- Pain to pleasure (phedra)
+-- Jealousy. Vanity. Prostitution. 
+
+-- slightly animate images?!
+https://openart.ai/video/i2v/kling2.1?gad_source=1&gad_campaignid=22476167451&gclid=Cj0KCQjwh5vFBhCyARIsAHBx2wyYTe_Bwo6dWzmWgcEUxZC_JWmtdWAVQfLVBF2-GK2dqRTAighpKYYaAvzaEALw_wcB
 
 
 -- Boundary-less Protector (passive shadow) missing image

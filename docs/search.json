@@ -425,6 +425,120 @@
           
         
       
+        ,{
+          "type": "item",
+          "group": "Mother",
+          "groupSlug": "mother",
+          "name": "Warrior / Warrioress / Huntress (Sekhmet, Diana)",
+          "slug": "warrior-warrioress-huntress",
+          "qualities": ["fierce protective focus"],
+          "href": "/mother/warrior-warrioress-huntress/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Destructive Berserker",
+              "slug": "warrior-warrioress-huntress",
+              "qualities": "",
+              "href": "/mother/warrior-warrioress-huntress/#shadow-destructive-berserker"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Collapsed Victim",
+              "slug": "warrior-warrioress-huntress",
+              "qualities": "",
+              "href": "/mother/warrior-warrioress-huntress/#shadow-collapsed-victim"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Mother",
+          "groupSlug": "mother",
+          "name": "Weaver / Community Goddess",
+          "slug": "weaver-community-goddess",
+          "qualities": ["sacred interdependence"],
+          "href": "/mother/weaver-community-goddess/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Manipulative Networker",
+              "slug": "weaver-community-goddess",
+              "qualities": "",
+              "href": "/mother/weaver-community-goddess/#shadow-manipulative-networker"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Isolated Helper",
+              "slug": "weaver-community-goddess",
+              "qualities": "",
+              "href": "/mother/weaver-community-goddess/#shadow-isolated-helper"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Mother",
+          "groupSlug": "mother",
+          "name": "Peacemaker / Peace Bringer (Whope)",
+          "slug": "peacemaker-peace-bringer",
+          "qualities": ["harmony for family/community"],
+          "href": "/mother/peacemaker-peace-bringer/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Conflict Avoider",
+              "slug": "peacemaker-peace-bringer",
+              "qualities": "",
+              "href": "/mother/peacemaker-peace-bringer/#shadow-conflict-avoider"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Righteous Judge",
+              "slug": "peacemaker-peace-bringer",
+              "qualities": "",
+              "href": "/mother/peacemaker-peace-bringer/#shadow-righteous-judge"
+            }
+            
+          
+        
+      
     
       
         ,{

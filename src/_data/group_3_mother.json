@@ -368,6 +368,373 @@
             }
           ]
         }
+      },
+      {
+        "name": "Warrior / Warrioress / Huntress (Sekhmet, Diana)",
+        "slug": "warrior-warrioress-huntress",
+        "qualities": ["fierce protective focus"],
+        "gifts": "Focus, boundary enforcement, swift action.",
+        "growthPath": "Channel aggression constructively; fight for what matters.",
+        "practices": [
+          "\"Single target\" daily; 90-second boundary script (Observe–Impact–Request)."
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Destructive Berserker",
+              "type": "active",
+              "description": [
+                "When courage devours restraint, the Warrior becomes a wildfire that consumes friend and foe alike. She has confused intensity with effectiveness, force with power. Her courage has become compulsive—she fights everything and everyone, turning every conversation into a battle, every disagreement into a war. She's lost the ability to discern which battles are worth fighting.",
+                "She's addicted to the adrenaline of conflict, the clarity of having an enemy, the simplicity of problems that can be solved with force. Her restraint has been murdered by her rage, her wisdom strangled by her need to win. She destroys relationships in the name of truth, burns bridges in the name of justice, and leaves devastation in her wake while claiming it's all for the greater good."
+              ],
+              "declarations": [
+                "I'm just being honest about what needs to be said",
+                "Someone has to fight for what's right",
+                "I don't have time for people who can't handle the truth",
+                "If they can't take the heat, they shouldn't be in the kitchen",
+                "I'm not going to compromise my principles for anyone",
+                "Sometimes you have to break a few eggs to make an omelet"
+              ],
+              "balancing": [
+                "I pause and count to ten before responding in anger",
+                "I ask 'is this battle worth the relationship?' before engaging",
+                "I practice expressing anger without attacking character",
+                "I choose my battles based on impact, not just principle",
+                "I notice when I'm fighting to feel powerful rather than to create change",
+                "I seek to understand before seeking to be understood"
+              ],
+              "gift": "When channeled, becomes fierce advocacy for justice and protection that creates real positive change without destroying relationships.",
+              "outOfBalance": [
+                "Fights battles that don't need fighting",
+                "Uses force when finesse would be more effective",
+                "Destroys relationships in pursuit of being right",
+                "Confuses aggression with strength",
+                "Addicted to conflict and drama",
+                "Burns everything down and calls it justice"
+              ]
+            },
+            {
+              "name": "Collapsed Victim",
+              "type": "passive",
+              "description": [
+                "When restraint silences courage, the Warrior becomes a sword that's forgotten how to cut. She has confused peace with passivity, restraint with surrender. Her courage has gone underground, emerging only in safe, socially acceptable doses. She's learned to swallow her rage, suppress her power, and apologize for taking up space.",
+                "She watches injustice and does nothing, experiences boundary violations and says nothing, feels her power and hides it behind pleasing smiles and accommodating gestures. Her restraint has become a prison that keeps her small and others unchallenged. She's become a warrior without a cause, a fighter who's forgotten how to fight."
+              ],
+              "declarations": [
+                "I don't want to make waves or cause conflict",
+                "It's not my place to say anything",
+                "I should just let it go and move on",
+                "I don't want to seem aggressive or difficult",
+                "Maybe I'm overreacting",
+                "It's not worth the fight"
+              ],
+              "balancing": [
+                "I practice speaking up for myself in small situations",
+                "I notice when legitimate anger is arising and honor it",
+                "I set boundaries clearly and enforce them consistently",
+                "I remember that my voice and needs matter",
+                "I stand up for others who can't stand up for themselves",
+                "I channel my warrior energy toward causes that matter"
+              ],
+              "gift": "When awakened, provides essential wisdom about choosing battles wisely and fighting with strategy rather than just force.",
+              "outOfBalance": [
+                "Avoids necessary confrontations",
+                "Allows boundary violations to keep peace",
+                "Suppresses legitimate anger and power",
+                "Apologizes for existing and taking up space",
+                "Watches injustice without acting",
+                "Uses restraint to avoid responsibility for change"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Warrior/Huntress",
+            "paragraphs": [
+              "The Mature Warrior channels her fierce energy with precision and wisdom. She fights for what matters without destroying what she loves. Her courage is seasoned with restraint—she knows when to advance and when to withdraw, when to speak and when to listen, when to stand firm and when to yield. Her power serves justice rather than ego.",
+              "She's learned that true strength protects rather than dominates, that real courage sometimes looks like vulnerability, that the greatest battles are often fought with compassion rather than force. Her warrior energy creates safety for others to be themselves while maintaining clear boundaries about what behavior she will and won't accept."
+            ]
+          },
+          "declarations": [
+            "I fight for what matters with wisdom and precision",
+            "My courage serves justice, not ego or dominance",
+            "I choose battles that create positive change",
+            "I protect others while honoring their autonomy",
+            "I express anger constructively rather than destructively",
+            "I stand firm in my values while remaining open to growth",
+            "My strength creates safety, not fear",
+            "I balance fierce protection with compassionate understanding"
+          ],
+          "balance": {
+            "balance": "Courage ↔ Restraint",
+            "shadow": "Destructive Berserker ↔ Collapsed Victim",
+            "powerAnimals": "Wolf, Hawk, Jaguar",
+            "qualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Precise, Fierce"
+          },
+          "virtues": [
+            {
+              "title": "Courage",
+              "quote": "\"Courage is not the absence of fear, but action in spite of it.\" — Mark Twain",
+              "paragraphs": [
+                "Courage is the Warrior's willingness to face what must be faced, fight what must be fought, and stand for what must be protected. It's the force that moves her toward justice even when the odds are against her, that speaks truth even when it's unwelcome.",
+                "True courage serves something greater than self-interest. It's courage that protects the vulnerable, challenges injustice, and creates change even when the personal cost is high. It's what makes the warrior a force for good rather than just force."
+              ]
+            },
+            {
+              "title": "Restraint",
+              "quote": "\"He who controls others may be powerful, but he who has mastered himself is mightier still.\" — Lao Tzu",
+              "paragraphs": [
+                "Restraint is the Warrior's wisdom about when and how to use her power. It's the discernment that distinguishes between necessary battles and ego battles, between protective force and destructive aggression. This virtue makes her strength trustworthy rather than threatening.",
+                "Healthy restraint doesn't suppress the warrior's power but channels it wisely. It ensures that her courage serves justice rather than dominance, that her battles create positive change rather than just destruction."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Weaver / Community Goddess",
+        "slug": "weaver-community-goddess",
+        "qualities": ["sacred interdependence"],
+        "gifts": "Sacred interdependence; collaborative wisdom; community building.",
+        "growthPath": "Balance autonomy with connection; give and receive with equal grace.",
+        "practices": [
+          "Ask for help weekly; practice saying no with kindness; collaboration projects."
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Manipulative Networker",
+              "type": "active",
+              "description": [
+                "When inclusion devours accountability, the Community Goddess becomes a social spider who weaves webs to catch flies rather than build community. She has confused connection with collection, networking with manipulation. Her inclusion has become compulsive—she must know everyone, be invited to everything, have her finger in every pie. She's lost the ability to distinguish between authentic community and social acquisition.",
+                "She manages relationships like a stock portfolio, collecting people for what they can provide rather than who they are. Her community-building has become empire-building—she creates networks that serve her agenda while making others feel like they're part of something meaningful. She's the social butterfly who leaves everyone feeling somehow used, even while they're grateful for the introduction."
+              ],
+              "declarations": [
+                "I just love bringing people together",
+                "I know someone who could really help you with that",
+                "It's all about who you know in this business",
+                "I try to be a connector for everyone",
+                "I have contacts everywhere",
+                "You should really meet my friend who does exactly that"
+              ],
+              "balancing": [
+                "I build relationships for mutual benefit, not personal gain",
+                "I connect people without expecting anything in return",
+                "I ask what others need instead of assuming I know",
+                "I participate in community as member, not manager",
+                "I practice deep friendship over wide networking",
+                "I notice when I'm collecting people versus connecting with them"
+              ],
+              "gift": "When integrated, becomes genuine gift for creating meaningful connections and building communities where everyone can thrive.",
+              "outOfBalance": [
+                "Uses relationships as strategic resources",
+                "Creates networks that primarily serve her agenda",
+                "Manages people's social lives without permission",
+                "Collects contacts rather than building friendships",
+                "Makes everything about networking opportunities",
+                "Leaves others feeling somehow used despite grateful feelings"
+              ]
+            },
+            {
+              "name": "Isolated Helper",
+              "type": "passive",
+              "description": [
+                "When accountability walls out inclusion, the Community Goddess becomes a helpful hermit who serves others while avoiding real intimacy. She has confused independence with isolation, accountability with emotional unavailability. Her inclusion has withered from fear—she'll help anyone with anything, but don't ask her to actually be vulnerable or need anything herself.",
+                "She's the person everyone calls when they need something practical but no one calls when they need emotional support, because she's made it clear that she's not available for that kind of messiness. Her community work has become a way to connect without connecting, to be useful without being known."
+              ],
+              "declarations": [
+                "I prefer to be helpful rather than needy",
+                "I like to be the one people can count on",
+                "I don't really need much from others",
+                "I'm better at giving than receiving",
+                "I keep my personal problems to myself",
+                "I don't want to burden others with my issues"
+              ],
+              "balancing": [
+                "I practice asking for help with small things",
+                "I share my struggles as well as my successes",
+                "I allow others to care for me emotionally, not just practically",
+                "I participate in community as a whole person, not just a helper",
+                "I notice when service has become a way to avoid intimacy",
+                "I remember that vulnerability creates deeper connections than competence"
+              ],
+              "gift": "When welcomed, provides essential modeling of healthy boundaries and reliable service that makes community sustainable.",
+              "outOfBalance": [
+                "Serves others while avoiding real intimacy",
+                "Uses helpfulness to maintain emotional distance",
+                "Participates in community without being known",
+                "Gives practically but not emotionally",
+                "Avoids needing others to maintain sense of control",
+                "Creates one-way relationships based on utility"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Weaver/Community Goddess",
+            "paragraphs": [
+              "The Mature Weaver creates authentic community through the balance of generous inclusion and wise accountability. She understands that healthy community requires both welcome and boundaries, both support and responsibility. Her networks are woven from genuine care rather than strategic positioning, creating connections that serve mutual flourishing rather than personal agenda.",
+              "She participates as a whole person—both giver and receiver, both leader and follower, both strong and vulnerable. Her community-building creates spaces where everyone can contribute their gifts while being supported in their growth. She models interdependence rather than either independence or dependence."
+            ]
+          },
+          "declarations": [
+            "I create community through authentic connection and mutual care",
+            "I participate fully—both giving and receiving in relationships",
+            "I build networks that serve collective flourishing",
+            "I welcome others while maintaining healthy boundaries",
+            "I show up as my whole self, not just my helpful self",
+            "I trust in the wisdom and strength of interdependence",
+            "I create spaces where everyone can both contribute and be supported",
+            "I weave connections that honor individual autonomy within community"
+          ],
+          "balance": {
+            "balance": "Inclusion ↔ Accountability",
+            "shadow": "Manipulative Networker ↔ Isolated Helper",
+            "powerAnimals": "Spider, Ant, Dolphin",
+            "qualities": "Collaborative, Relational, Generous, Inclusive, Reciprocal, Attentive, Harmonizing, Strategic, Resilient, Joyful"
+          },
+          "virtues": [
+            {
+              "title": "Inclusion",
+              "quote": "\"Diversity is about embracing one another's uniqueness.\" — Ola Joseph",
+              "paragraphs": [
+                "Inclusion is the Weaver's ability to create space where everyone can belong and contribute. It's the generous spirit that welcomes others into community, that sees the gifts each person brings, that creates circles wide enough to hold difference and strong enough to support growth.",
+                "True inclusion builds bridges across difference while maintaining the integrity of what makes community valuable. It's inclusion that creates the conditions where authentic diversity can flourish."
+              ]
+            },
+            {
+              "title": "Accountability",
+              "quote": "\"You have power over your mind - not outside events. Realize this, and you will find strength.\" — Marcus Aurelius",
+              "paragraphs": [
+                "Accountability is the Weaver's commitment to mutual responsibility within community. It's the recognition that healthy relationships require both freedom and commitment, both support and expectations. This virtue ensures that inclusion doesn't become enabling.",
+                "Healthy accountability creates clear agreements about how community members will treat each other, what behaviors support the collective good, and how conflicts will be resolved. It makes inclusion sustainable by ensuring it serves growth rather than just comfort."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Peacemaker / Peace Bringer (Whope)",
+        "slug": "peacemaker-peace-bringer",
+        "qualities": ["harmony for family/community"],
+        "gifts": "Harmony, repair, reconciliation.",
+        "growthPath": "Peace through truth; harmony after honesty.",
+        "practices": [
+          "Conflict hygiene: name needs + non-negotiables."
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Conflict Avoider",
+              "type": "active",
+              "description": [
+                "When harmony devours justice, the Peacemaker becomes a beautiful bandage over festering wounds. She has confused peace with the absence of conflict, harmony with the suppression of truth. Her harmony has become compulsive—she smooths over every rough edge, deflects every difficult conversation, and maintains artificial calm while real problems rot beneath the surface.",
+                "She's addicted to being the peacemaker, the one who can make everything okay, the one who never adds to the drama. Her justice has been murdered by her need for everyone to get along. She creates false peace through denial, fake harmony through avoidance, and apparent calm through enabling dysfunction."
+              ],
+              "declarations": [
+                "Can't we all just get along?",
+                "I hate conflict—it makes everyone uncomfortable",
+                "Let's just focus on the positive",
+                "There's no point in rehashing old problems",
+                "I'm sure they didn't mean it that way",
+                "We should just move on and put this behind us"
+              ],
+              "balancing": [
+                "I address conflicts early before they become big problems",
+                "I speak truthfully even when it might create temporary discomfort",
+                "I distinguish between peace and avoiding difficult conversations",
+                "I remember that real harmony requires addressing real problems",
+                "I stop trying to manage everyone else's emotions",
+                "I allow others to experience the consequences of their choices"
+              ],
+              "gift": "When integrated, creates genuine peace through addressing problems honestly and finding solutions that serve everyone's needs.",
+              "outOfBalance": [
+                "Suppresses necessary conflicts to maintain false peace",
+                "Enables dysfunction in the name of harmony",
+                "Avoids difficult conversations that could solve problems",
+                "Takes responsibility for everyone else's emotional state",
+                "Creates artificial calm while real issues fester",
+                "Confuses peace with the absence of tension"
+              ]
+            },
+            {
+              "name": "Righteous Judge",
+              "type": "passive",
+              "description": [
+                "When justice silences harmony, the Peacemaker becomes a cold tribunal that values being right over being connected. She has confused truth with harshness, justice with punishment. Her harmony has been murdered by her righteousness—she's so focused on what's fair and right that she's forgotten about what's healing and connecting.",
+                "She's become the moral police of her relationships, keeping score of who owes what to whom, who was wrong when, who should apologize for what. Her justice has become a weapon that cuts rather than heals, that separates rather than reconciles. She's right about everything and connected to no one."
+              ],
+              "declarations": [
+                "I'm just pointing out the facts",
+                "Someone has to be willing to tell the truth around here",
+                "I can't pretend everything is fine when it's not",
+                "They need to take responsibility for what they did",
+                "I'm not going to sugarcoat reality",
+                "Justice is more important than keeping everyone comfortable"
+              ],
+              "balancing": [
+                "I speak truth with kindness and compassion",
+                "I focus on solutions rather than just identifying problems",
+                "I remember that being right isn't more important than being connected",
+                "I practice forgiveness as well as accountability",
+                "I look for win-win solutions rather than just fair ones",
+                "I lead with curiosity about others' perspectives before asserting my own"
+              ],
+              "gift": "When welcomed, provides essential commitment to truth and fairness that prevents peace from becoming enabling of harmful behavior.",
+              "outOfBalance": [
+                "Values being right over being connected",
+                "Uses truth as a weapon rather than a tool for healing",
+                "Focuses on punishment rather than restoration",
+                "Keeps score in relationships",
+                "Harsh in delivery of difficult truths",
+                "Rigid about fairness without consideration for compassion"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Peacemaker/Peace Bringer",
+            "paragraphs": [
+              "The Mature Peacemaker creates true peace through the integration of harmony and justice. She understands that lasting peace requires addressing real problems, not avoiding them, and that genuine harmony emerges from honest communication and fair resolution. Her peacemaking serves healing rather than just comfort.",
+              "She can hold space for difficult conversations while maintaining compassion for all parties. Her approach to conflict is both truthful and kind, both firm and gentle. She creates peace that includes everyone rather than peace that requires someone to be silent or invisible."
+            ]
+          },
+          "declarations": [
+            "I create true peace through honest communication and fair resolution",
+            "I address conflicts with both truth and compassion",
+            "I seek solutions that honor everyone's needs and dignity",
+            "I hold space for difficult conversations with love and patience",
+            "I distinguish between harmony and avoidance of necessary tensions",
+            "I build bridges while maintaining clear boundaries",
+            "I restore relationships through accountability and forgiveness",
+            "I create peace that includes rather than excludes"
+          ],
+          "balance": {
+            "balance": "Harmony ↔ Justice",
+            "shadow": "Conflict Avoider ↔ Righteous Judge",
+            "powerAnimals": "Dove, Elephant, Lamb",
+            "qualities": "Calm, Courageous, Honest, Restorative, Listening, Fair, Bridging, Patient, Rooted, Compassionate"
+          },
+          "virtues": [
+            {
+              "title": "Harmony",
+              "quote": "\"Where there is love, there is harmony.\" — Anonymous",
+              "paragraphs": [
+                "Harmony is the Peacemaker's vision of how relationships and communities can function when everyone's needs are met and conflicts are resolved with wisdom. It's the art of creating environments where people can coexist peacefully and productively.",
+                "True harmony doesn't suppress difference but orchestrates it. Like music, it creates beauty through the skillful combination of distinct elements. It's harmony that makes peace sustainable and relationships nourishing."
+              ]
+            },
+            {
+              "title": "Justice",
+              "quote": "\"If you want to go fast, go alone. If you want to go far, go together.\" — African Proverb",
+              "paragraphs": [
+                "Justice is the Peacemaker's commitment to fairness, truth, and accountability. It's the recognition that lasting peace requires addressing real problems, that harmony built on denial is ultimately fragile and temporary.",
+                "Healthy justice in peacemaking ensures that resolution serves everyone's wellbeing, not just those with the most power or the loudest voices. It creates peace with integrity rather than peace through suppression."
+              ]
+            }
+          ]
+        }
       }
     ]
   }
+
+
+
+  
