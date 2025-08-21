@@ -78,6 +78,19 @@ module.exports = function(eleventyConfig) {
     return str;
   });
 
+  // Strip outermost wrapping quotes (smart/straight, single/double)
+  eleventyConfig.addFilter("stripOuterQuotes", (value) => {
+    if (value === undefined || value === null) return value;
+    let str = String(value).trim();
+    const opens = ['"', '“', '„', '«', '‹', '‘', "'"];
+    const closes = ['"', '”', '‟', '»', '›', '’', "'"];
+    // Remove matching outer quote pairs iteratively to handle multiple layers
+    while (str.length >= 2 && opens.includes(str[0]) && closes.includes(str[str.length - 1])) {
+      str = str.slice(1, -1).trim();
+    }
+    return str;
+  });
+
   return {
     dir: {
       input: "src",
