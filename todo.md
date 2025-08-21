@@ -1,9 +1,8 @@
-- submission --- dignity archetype
-
-- double smother mother
 - add princes shadow
 -- add victim (and passive agressive)
 
+-- Boundary-less Protector (passive shadow) missing image
+-- posessive shadow image? what's that about? 
 
 
 -- Image style
