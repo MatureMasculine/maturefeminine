@@ -72,42 +72,78 @@
           "name": "Mother (Isis, Gaia, Corn Mother, Sedna)",
           "slug": "mother",
           "qualities": ["unconditional nurture"],
-          "shadows": ["smotherer", "martyr", "absent", "narcissistic"]
+          "gifts": "Unconditional love with wise limits; growth, provision.",
+          "shadowFaces": [
+            "Smotherer/Devouring: overprotects, engulfs.",
+            "Martyr: self-sacrifice that breeds guilt.",
+            "Absent/Ghost: emotionally detached.",
+            "Narcissistic: child as mirror for self."
+          ],
+          "growthPath": "Love + limits; empower, don't consume.",
+          "practices": [
+            "\"Am I doing this for them or instead of them?\"",
+            "Empowerment checklist (teach, trust, let go)."
+          ]
         },
         {
           "name": "Wife / Nurturer / Hearth Goddess (Hestia, Nephthys)",
           "slug": "wife-nurturer-hearth-goddess",
           "qualities": ["domestic stability"],
-          "activeShadow": "enabler",
-          "passiveShadow": "doormat"
+          "gifts": "Home as temple; quiet devotion; ennobling support.",
+          "activeShadow": "Enabler of dysfunction.",
+          "passiveShadow": "Self-erasure (doormat).",
+          "growthPath": "Nurture with boundaries; serve without self-abandonment.",
+          "practices": [
+            "Weekly \"hearth audit\": What nurtures me? What is reciprocal?"
+          ]
         },
         {
           "name": "Guardian / Buffalo Woman",
           "slug": "guardian-buffalo-woman",
           "qualities": ["sacred protection"],
-          "activeShadow": "gatekeeper",
-          "passiveShadow": "porous"
+          "gifts": "Threshold keeper; protects what is sacred.",
+          "activeShadow": "Rigid gatekeeper.",
+          "passiveShadow": "Porous boundaries.",
+          "growthPath": "Discern what deserves protection; guard with wisdom.",
+          "practices": [
+            "\"Doorframe test\": What enters? What leaves? Name criteria out loud."
+          ]
         },
         {
           "name": "Warrior / Warrioress / Huntress (Sekhmet, Diana)",
           "slug": "warrior-warrioress-huntress",
           "qualities": ["fierce protective focus"],
-          "activeShadow": "bully",
-          "passiveShadow": "wimp"
+          "gifts": "Focus, boundary enforcement, swift action.",
+          "activeShadow": "Bully/aggressor.",
+          "passiveShadow": "Collapsed compliance.",
+          "growthPath": "Channel aggression constructively; fight for what matters.",
+          "practices": [
+            "\"Single target\" daily; 90-second boundary script (Observe–Impact–Request)."
+          ]
         },
         {
           "name": "Weaver / Community Goddess",
           "slug": "weaver-community-goddess",
           "qualities": ["sacred interdependence"],
-          "activeShadow": "fiercely independent",
-          "passiveShadow": "codependent"
+          "gifts": "Sacred interdependence; collaborative wisdom; community building.",
+          "activeShadow": "Fiercely independent (isolation, refusing help).",
+          "passiveShadow": "Codependent (enmeshed, no boundaries).",
+          "growthPath": "Balance autonomy with connection; give and receive with equal grace.",
+          "practices": [
+            "Ask for help weekly; practice saying no with kindness; collaboration projects."
+          ]
         },
         {
           "name": "Peacemaker / Peace Bringer (Whope)",
           "slug": "peacemaker-peace-bringer",
           "qualities": ["harmony for family/community"],
-          "activeShadow": "appeaser",
-          "passiveShadow": "bystander"
+          "gifts": "Harmony, repair, reconciliation.",
+          "activeShadow": "Appeasement at cost of truth.",
+          "passiveShadow": "Bystanding to harm.",
+          "growthPath": "Peace through truth; harmony after honesty.",
+          "practices": [
+            "Conflict hygiene: name needs + non-negotiables."
+          ]
         }
       ]
     },
@@ -115,48 +151,84 @@
       "name": "Queen",
       "slug": "queen",
       "summary": "Sovereignty, blessing; task = rule without domination",
+      "essence": "Bestows order and blessing, sets clean boundaries, creates safety where life can flourish.",
       "items": [
         {
           "name": "Queen / Hearth Keeper (Brigid)",
           "slug": "queen-hearth-keeper",
           "qualities": ["benevolent authority"],
-          "activeShadow": "tyrant",
-          "passiveShadow": "recluse"
+          "gifts": "Stewardship, warmth that organizes; dignifies people and place.",
+          "activeShadow": "Tyrant (domineering, aloof).",
+          "passiveShadow": "Recluse (abdicates, self-neglect).",
+          "growthPath": "Practice benevolent \"yes\" and principled \"no.\" Share power; keep accountability.",
+          "practices": [
+            "Morning \"court\" (3 decisions + 1 blessing)",
+            "Weekly household rhythm",
+            "Boundary statement in one sentence"
+          ]
         },
         {
           "name": "Justice (Ma'at)",
           "slug": "justice",
           "qualities": ["truth & balance"],
-          "activeShadow": "harsh judge",
-          "passiveShadow": "avoidant of imbalance"
+          "gifts": "Balances scales, names truth without venom.",
+          "activeShadow": "Harsh judge; rigid purity.",
+          "passiveShadow": "Bystander to injustice.",
+          "growthPath": "Speak truth with compassion; act on values consistently.",
+          "practices": [
+            "Fact–feeling–value–request script",
+            "Truth circle with time-boxed shares"
+          ]
         },
         {
           "name": "Sky / Sun / Star Goddess (Nut, Amaterasu, Ishtar)",
           "slug": "sky-sun-star-goddess",
           "qualities": ["cosmic order & radiance"],
-          "activeShadow": "dominator",
-          "passiveShadow": "distant"
+          "gifts": "Vision from altitude; radiance that inspires.",
+          "activeShadow": "Prideful dominator.",
+          "passiveShadow": "Untouchable, \"above\" relationship.",
+          "growthPath": "Balance cosmic vision with earthly connection.",
+          "practices": [
+            "Balcony/ground alternation: 10 minutes aerial planning, 10 minutes embodied check-in."
+          ]
         },
         {
           "name": "Sage / Wisdom (Athena)",
           "slug": "sage-wisdom",
           "qualities": ["strategy & clarity"],
-          "activeShadow": "know-it-all",
-          "passiveShadow": "aloof"
+          "gifts": "Strategy, clear counsel, just timing.",
+          "activeShadow": "Arrogant detachment.",
+          "passiveShadow": "Withholding presence.",
+          "growthPath": "Wisdom with warmth; knowledge in service.",
+          "practices": [
+            "\"Ask three questions before one claim.\"",
+            "Pair logic with one embodied check."
+          ]
         },
         {
           "name": "Magician / Alchemist / Witch / Scribe (Seshat)",
           "slug": "magician-alchemist-witch-scribe",
           "qualities": ["transformation & knowledge"],
-          "activeShadow": "manipulator",
-          "passiveShadow": "escapist"
+          "gifts": "Pattern recognition, language, spell-craft (reframing reality).",
+          "activeShadow": "Gaslighting, manipulation.",
+          "passiveShadow": "Escapism, spiritual bypass.",
+          "growthPath": "Use power ethically; transform without manipulating.",
+          "practices": [
+            "Before advice: mirror + summarize; after: consent check.",
+            "Daily \"one true sentence.\""
+          ]
         },
         {
           "name": "Storyteller",
           "slug": "storyteller",
           "qualities": ["meaning-making from authority"],
-          "activeShadow": "exaggerator",
-          "passiveShadow": "silent"
+          "gifts": "Meaning-making; communal memory.",
+          "activeShadow": "Exaggeration for attention.",
+          "passiveShadow": "Withholds voice.",
+          "growthPath": "Tell truth beautifully; share wisdom generously.",
+          "practices": [
+            "\"True story, short\" (200 words, sensory + lesson)."
+          ]
         }
       ]
     },

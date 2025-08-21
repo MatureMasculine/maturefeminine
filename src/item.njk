@@ -18,6 +18,42 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
   {% endif %}
 </p>
 
+{% if item.gifts %}
+<div class="mb-3">
+  <h5>Gifts</h5>
+  <p class="mb-0">{{ item.gifts }}</p>
+</div>
+{% endif %}
+
+{% if item.shadowFaces %}
+<div class="mb-3">
+  <h5>Shadow faces</h5>
+  <ul class="mb-0">
+    {% for s in item.shadowFaces %}<li>{{ s }}</li>{% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+{% if item.growthPath %}
+<div class="mb-3">
+  <h5>Growth path</h5>
+  <p class="mb-0">{{ item.growthPath }}</p>
+</div>
+{% endif %}
+
+{% if item.practices %}
+<div class="mb-3">
+  <h5>Practices</h5>
+  {% if item.practices | string %}
+    <p class="mb-0">{{ item.practices }}</p>
+  {% else %}
+    <ul class="mb-0">
+      {% for p in item.practices %}<li>{{ p }}</li>{% endfor %}
+    </ul>
+  {% endif %}
+</div>
+{% endif %}
+
 {% if item.activeShadow or item.passiveShadow or item.shadows %}
 <div class="mb-3">
   <h5>Shadows</h5>

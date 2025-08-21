@@ -10,6 +10,9 @@ permalink: "/{{ group.slug }}/index.html"
 {# This file now only creates group index pages #}
 <h1 class="mb-3">{{ group.name }}</h1>
 <p class="text-muted">{{ group.summary }}</p>
+{% if group.essence %}
+<div class="alert alert-info py-2"><strong>Essence:</strong> {{ group.essence }}</div>
+{% endif %}
 
 <ul>
   {% for item in group.items %}

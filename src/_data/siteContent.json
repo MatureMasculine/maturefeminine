@@ -1,0 +1,112 @@
+{
+  "title": "The Mature Feminine: A Field Guide",
+  "subtitle": "A companion to the mature masculine framework",
+  "quote": {
+    "text": "A woman in harmony with her spirit is like a river flowing. She goes where she will without pretense and arrives at her destination prepared to be herself and only herself.",
+    "author": "Maya Angelou"
+  },
+  "howToUse": [
+    {
+      "label": "Aim",
+      "text": "Offer a clear, practical map of the mature feminine—its gifts, distortions, and a path to integration."
+    },
+    {
+      "label": "Structure",
+      "text": "Four core poles (Sovereign, Lover/Creatrix, Warrior/Huntress, Magician/Oracle) with \"faces\" (the archetypes), each with Essence, Mature Gifts, Shadows (active/passive), Red Flags, Growth Path, and Simple Practices."
+    },
+    {
+      "label": "Language",
+      "text": "\"Active shadow\" = over-expressed, intrusive; \"Passive shadow\" = collapsed, avoidant."
+    },
+    {
+      "label": "Life arc",
+      "text": "Maiden → Lover/Creatrix → Mother → Queen → Crone (with many possible returns and reweavings)."
+    }
+  ],
+  "poles": [
+    {
+      "name": "Sovereign (Queen line)",
+      "description": "Order, stewardship, blessing, boundary. Bestows order and blessing, sets clean boundaries, creates safety where life can flourish."
+    },
+    {
+      "name": "Lover/Creatrix (Hearth & River line)",
+      "description": "Connection, sensuality, nourishment, birthing. Connection, sensuality, nurture, beauty, birth of life and culture."
+    },
+    {
+      "name": "Warrior/Huntress (Storm & Guardian line)",
+      "description": "Courage, clarity, protection, decisive action. Courage, precision, protection, mission."
+    },
+    {
+      "name": "Magician/Oracle (Moon & Underworld line)",
+      "description": "Insight, patterning, transformation, mystery. Sees patterns, mediates between worlds, names and transforms."
+    }
+  ],
+  "devWheel": [
+    {"stage": "Maiden", "task": "innocence, beginning; task = discernment & choice."},
+    {"stage": "Lover/Creatrix", "task": "embodiment, pleasure, art; task = own desire & healthy reciprocity."},
+    {"stage": "Mother", "task": "nurture, protect, grow; task = love with boundaries."},
+    {"stage": "Queen", "task": "sovereignty, blessing; task = rule without domination."},
+    {"stage": "Crone", "task": "endings, wisdom; task = harvest and transmit."}
+  ],
+  "quickRef": [
+    {
+      "pole": "Sovereign Pole",
+      "items": [
+        {"name": "Queen/Hearth Keeper (Brigid)", "essence": "benevolent authority", "active": "tyrant", "passive": "recluse"},
+        {"name": "Justice (Ma'at)", "essence": "truth & balance", "active": "harsh judge", "passive": "avoidant of imbalance"},
+        {"name": "Sky/Sun/Star Goddess (Nut, Amaterasu, Ishtar)", "essence": "cosmic order & radiance", "active": "dominator", "passive": "distant"},
+        {"name": "Guardian/Buffalo Woman", "essence": "sacred protection", "active": "gatekeeper", "passive": "porous"}
+      ]
+    },
+    {
+      "pole": "Lover/Creatrix Pole",
+      "items": [
+        {"name": "Maiden", "essence": "new beginnings", "active": "manipulative ingenue", "passive": "naive/fragile"},
+        {"name": "Wife/Nurturer/Hearth Goddess (Hestia, Nephthys)", "essence": "domestic stability", "active": "enabler", "passive": "doormat"},
+        {"name": "Mother (Isis, Gaia, Corn Mother, Sedna)", "essence": "unconditional nurture", "active": "smotherer/martyr/absent/narcissistic", "passive": "smotherer/martyr/absent/narcissistic"},
+        {"name": "Sacred Whore/Love Goddess (Aphrodite, Hathor, Oshun)", "essence": "empowered sensuality", "active": "seducer", "passive": "detached"},
+        {"name": "Muse/Song Goddess (Saraswati)", "essence": "inspiration", "active": "tempter", "passive": "fickle"},
+        {"name": "Creatrix/Spider Weaver (Spider Woman)", "essence": "births ideas & art", "active": "perfectionist", "passive": "stagnant"},
+        {"name": "Storyteller", "essence": "meaning-making", "active": "exaggerator", "passive": "silent"},
+        {"name": "Peacemaker/Peace Bringer (Whope)", "essence": "harmony", "active": "appeaser", "passive": "bystander"},
+        {"name": "Healer/Priestess", "essence": "restores balance", "active": "savior", "passive": "depleted"},
+        {"name": "Weaver/Community Goddess", "essence": "sacred interdependence", "active": "fiercely independent", "passive": "codependent"}
+      ]
+    },
+    {
+      "pole": "Warrior/Huntress Pole",
+      "items": [
+        {"name": "Warrior/Warrioress/Huntress (Sekhmet, Diana)", "essence": "fierce focus", "active": "bully", "passive": "wimp"},
+        {"name": "Rebel/Revolutionary/Trickster (Eris)", "essence": "norm-breaking change", "active": "anarchist", "passive": "conformist"},
+        {"name": "Adventurer/Storm (Tempest)", "essence": "freedom & risk", "active": "reckless", "passive": "avoider"}
+      ]
+    },
+    {
+      "pole": "Magician/Oracle Pole",
+      "items": [
+        {"name": "Magician/Alchemist/Witch/Scribe (Seshat)", "essence": "transformation & knowledge", "active": "manipulator", "passive": "escapist"},
+        {"name": "Visionary/Oracle/Moon (Artemis, Moon Woman)", "essence": "far-sight & intuition", "active": "fanatic", "passive": "dreamer"},
+        {"name": "Sage/Wisdom (Athena)", "essence": "strategy & clarity", "active": "know-it-all", "passive": "aloof"},
+        {"name": "Crone/Underworld Queen (Morrigan, Persephone)", "essence": "death/rebirth wisdom", "active": "destroyer", "passive": "mourner"}
+      ]
+    }
+  ],
+  "shadowAlchemy": [
+    "If you're over-merging (Lover shadow): borrow Sovereign—name a boundary; borrow Warrior—take one decisive act for yourself.",
+    "If you're domineering or collapsed (Sovereign shadow): borrow Lover—offer blessing; borrow Magician—ask a clarifying question.",
+    "If you're aggressive or avoidant (Warrior shadow): borrow Sage—slow the timeline; borrow Peacemaker—name needs.",
+    "If you're manipulating or drifting (Magician shadow): borrow Guardian—set constraints; borrow Creatrix—ship a small, real thing."
+  ],
+  "selfAssessment": [
+    "Where am I avoiding a needed \"no\"? (Sovereign)",
+    "Where am I giving what wasn't asked for? (Healer/Priestess)",
+    "What wants to be born at 70% done? (Creatrix)",
+    "What injustice have I been tolerating? What is one truthful line I can speak? (Justice)",
+    "What grief is compost ready? (Crone)",
+    "What small risk restores my aliveness today? (Adventurer)",
+    "Who needs my blessing—specifically—for something they already carry? (Queen)",
+    "Where am I being too independent or too dependent? (Weaver)",
+    "What vision needs grounded action? (Oracle)",
+    "Where am I withholding my voice? (Storyteller)"
+  ]
+}
