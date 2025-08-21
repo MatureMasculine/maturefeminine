@@ -63,7 +63,66 @@
           "practices": [
             "5 senses ritual before difficult talks",
             "Desire inventory (own and name)"
-          ]
+          ],
+          "extended": {
+            "mature": {
+              "title": "Mature Love Goddess",
+              "paragraphs": [
+                "The Mature Love Goddess embodies the divine feminine power of love, sensuality, and creative life force. She represents the celebration of beauty and pleasure, understanding that the body and its desires can be expressions of the sacred when approached with wisdom and integrity.",
+                "The Love Goddess knows that love and creativity are not opposites of spirituality but complementary aspects of the same life force. She celebrates authentic connection and understands that her capacity to love and create beauty is a gift to be shared wisely."
+              ]
+            },
+            "declarations": [
+              "My body is sacred and deserves to be treated with respect and love",
+              "I celebrate healthy pleasure as a pathway to joy and connection",
+              "My capacity to love is infinite and transformative",
+              "I create beauty and joy wherever I go",
+              "I express my authentic self with confidence and grace",
+              "I give and receive love freely and with healthy boundaries",
+              "My creative energy flows from my connection to life force",
+              "I honor both passion and tenderness in all my relationships",
+              "I am worthy of love, joy, and beautiful experiences",
+              "My love heals and transforms whatever it touches"
+            ],
+            "shadows": [
+              {
+                "name": "Addicted Lover",
+                "description": [
+                  "The Addicted Lover represents love and pleasure corrupted by compulsion and neediness. She seeks validation through relationships or experiences, often losing herself in the process and creating unhealthy dependencies."
+                ],
+                "balancing": [
+                  "Develop a strong sense of self independent of relationships",
+                  "Practice delayed gratification and mindful pleasure",
+                  "Seek therapy to address underlying emotional wounds",
+                  "Cultivate non-romantic sources of joy and fulfillment",
+                  "Learn to sit with difficult emotions without seeking escape"
+                ]
+              },
+              {
+                "name": "Disconnected Lover",
+                "description": [
+                  "The Disconnected Lover represents the shutdown of love, pleasure, and creative life force. She has disconnected from her body, emotions, and capacity for joy, often due to trauma, shame, or cultural conditioning."
+                ],
+                "balancing": [
+                  "Start with small pleasures like beautiful music or nature",
+                  "Practice body-positive activities like gentle movement or massage",
+                  "Work with a therapist to heal shame and trauma",
+                  "Gradually open to giving and receiving appropriate affection",
+                  "Explore creative expression as a pathway to reconnection"
+                ]
+              }
+            ],
+            "virtues": [
+              {
+                "title": "Transformative Love",
+                "quote": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage. - Lao Tzu",
+                "paragraphs": [
+                  "Transformative love represents the Love Goddess's greatest gift—the ability to love in ways that heal, inspire, and create positive change. This goes beyond romantic love to include compassion, creativity, and the capacity to see beauty and potential in all things.",
+                  "The woman who embodies transformative love knows that love is not just a feeling but a force for healing and growth. She loves with wisdom and boundaries, understanding that true love sometimes requires difficult conversations or letting go."
+                ]
+              }
+            ]
+          }
         },
         {
           "name": "Muse / Song Goddess (Saraswati)",
@@ -188,7 +247,45 @@
               "shadow": "Bully Warrior ←→ Victim Warrior",
               "powerAnimals": "Wolf, Hawk, Jaguar",
               "qualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Competitive, Fierce"
-            }
+            },
+            "shadows": [
+              {
+                "name": "Bully Warrior",
+                "description": [
+                  "The Bully Warrior represents aggression without wisdom, force without compassion. She uses strength to dominate rather than protect, seeing life as a zero-sum game where someone must lose for her to win."
+                ],
+                "balancing": [
+                  "Pause before reacting and ask: What am I really trying to protect?",
+                  "Channel anger into constructive action rather than destructive attack",
+                  "Develop empathy by considering others' perspectives",
+                  "Learn conflict resolution skills that don't require domination",
+                  "Seek win-win solutions rather than zero-sum outcomes"
+                ]
+              },
+              {
+                "name": "Victim Warrior",
+                "description": [
+                  "The Victim Warrior represents the complete abandonment of fighting spirit. She avoids conflict at all costs, even when standing up for herself is necessary, often paralyzed by fear or unable to set boundaries."
+                ],
+                "balancing": [
+                  "Start with small acts of self-advocacy in low-stakes situations",
+                  "Practice physical activities that build confidence in your body's strength",
+                  "Learn assertiveness skills in safe environments",
+                  "Identify core values and what you're willing to fight for",
+                  "Take self-defense classes to reconnect with protective energy"
+                ]
+              }
+            ],
+            "virtues": [
+              {
+                "title": "Sacred Boundaries",
+                "quote": "Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing others. - Brené Brown",
+                "paragraphs": [
+                  "Sacred boundaries represent the Warrior/Huntress's essential skill—the ability to discern what belongs in your space and what doesn't. Boundaries are not walls that separate us from life, but sacred containers that allow us to show up authentically and sustainably.",
+                  "The woman who understands sacred boundaries knows that saying \"no\" to what doesn't serve is saying \"yes\" to what does. She recognizes that her energy is finite and precious, guarding it like the treasure it is without apologizing for her limits."
+                ]
+              }
+            ]
           }
         },
         {
@@ -415,7 +512,72 @@
           "practices": [
             "Before advice: mirror + summarize; after: consent check.",
             "Daily \"one true sentence.\""
-          ]
+          ],
+          "extended": {
+            "mature": {
+              "title": "Mature Magician/Wise Woman",
+              "paragraphs": [
+                "The Mature Magician/Wise Woman embodies transformative feminine power—she who works with the hidden forces of nature and consciousness to create change, healing, and growth. She represents wisdom, intuition, and the ability to see beyond surface appearances into deeper truths.",
+                "She is skilled in transformation through healing, creative work, or deep psychological insight. The Mature Wise Woman knows how to work with energy, cycles, and the mysterious forces that govern life, connecting ancient wisdom with contemporary needs."
+              ]
+            },
+            "declarations": [
+              "I trust my intuition and inner knowing above all external authorities",
+              "I work with natural forces and cycles to create positive change",
+              "My wisdom comes from direct experience and deep study",
+              "I transform challenges into opportunities for growth and learning",
+              "I see beneath surface appearances to deeper truths",
+              "My abilities serve healing, growth, and the highest good",
+              "I am connected to ancient wisdom and contemporary insight",
+              "I embrace my power to influence reality through consciousness and action",
+              "I honor the mystery while seeking understanding",
+              "I use my gifts responsibly and ethically"
+            ],
+            "balance": {
+              "balance": "Mature Magician/Wise Woman",
+              "shadow": "Manipulator ←→ Powerless Wise Woman",
+              "powerAnimals": "Owl, Raven, Snake",
+              "qualities": "Intuitive, Transformative, Wise, Magical, Insightful, Healing, Mysterious, Powerful, Independent, Visionary"
+            },
+            "shadows": [
+              {
+                "name": "Manipulator",
+                "description": [
+                  "The Manipulator represents wisdom and insight used for selfish gain or control. She uses knowledge of human nature to manipulate others rather than to heal or serve, driven by ego, fear, or desire for control."
+                ],
+                "balancing": [
+                  "Regularly examine motivations—are you serving yourself or others?",
+                  "Practice radical honesty about intentions and methods",
+                  "Study ethics and commit to using gifts responsibly",
+                  "Respect others' autonomy and right to make their own choices",
+                  "Use insights to empower others, not control them"
+                ]
+              },
+              {
+                "name": "Powerless Wise Woman",
+                "description": [
+                  "The Powerless Wise Woman represents denial or suppression of intuitive abilities. She has disconnected from inner wisdom, often due to fear, conditioning, or past trauma related to her power."
+                ],
+                "balancing": [
+                  "Start a daily practice of meditation or quiet reflection",
+                  "Keep a journal of intuitive impressions and their accuracy",
+                  "Study with ethical teachers who honor your inner authority",
+                  "Connect with nature regularly to strengthen intuitive abilities",
+                  "Find supportive community of like-minded people"
+                ]
+              }
+            ],
+            "virtues": [
+              {
+                "title": "Intuitive Wisdom",
+                "quote": "The intuitive mind is a sacred gift and the rational mind is a faithful servant. We have created a society that honors the servant and has forgotten the gift. - Albert Einstein",
+                "paragraphs": [
+                  "Intuitive wisdom represents the Magician/Wise Woman's greatest treasure—the ability to access knowledge that comes from beyond logical reasoning. This knowing arises from the deep feminine capacity to perceive patterns, energy, and truth not immediately obvious to rational analysis.",
+                  "The woman who cultivates intuitive wisdom learns to trust the subtle signals her body and psyche provide, paying attention to dreams, gut feelings, and synchronicities. She understands that intuition complements logic as a different way of knowing."
+                ]
+              }
+            ]
+          }
         },
         {
           "name": "Storyteller",
