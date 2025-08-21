@@ -64,7 +64,7 @@
         {"name": "Maiden", "essence": "new beginnings", "active": "manipulative ingenue", "passive": "naive/fragile"},
         {"name": "Wife/Nurturer/Hearth Goddess (Hestia, Nephthys)", "essence": "domestic stability", "active": "enabler", "passive": "doormat"},
         {"name": "Mother (Isis, Gaia, Corn Mother, Sedna)", "essence": "unconditional nurture", "active": "smotherer/martyr/absent/narcissistic", "passive": "smotherer/martyr/absent/narcissistic"},
-        {"name": "Sacred Whore/Love Goddess (Aphrodite, Hathor, Oshun)", "essence": "empowered sensuality", "active": "seducer", "passive": "detached"},
+        {"name": "Sacred Lover/Love Goddess (Aphrodite, Hathor, Oshun)", "essence": "empowered sensuality", "active": "seducer", "passive": "detached"},
         {"name": "Muse/Song Goddess (Saraswati)", "essence": "inspiration", "active": "tempter", "passive": "fickle"},
         {"name": "Creatrix/Spider Weaver (Spider Woman)", "essence": "births ideas & art", "active": "perfectionist", "passive": "stagnant"},
         {"name": "Storyteller", "essence": "meaning-making", "active": "exaggerator", "passive": "silent"},
