@@ -13,7 +13,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 {% set img = images[item.slug] %}
 {% if img %}
 <figure class="my-3">
-  <img class="img-fluid rounded" src="assets/images/{{ img }}" alt="{{ item.name }} illustration" loading="lazy">
+  <img class="img-fluid rounded" src="{{ ("/assets/images/" ~ img) | url }}" alt="{{ item.name }} illustration" loading="lazy">
   <figcaption class="small text-muted mt-1">{{ item.name }}</figcaption>
  </figure>
 {% endif %}
@@ -129,7 +129,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
       {% if not shImg and images.extraShadow %}{% set shImg = images.extraShadow[shadowSlug] %}{% endif %}
       {% if shImg %}
       <figure class="my-2">
-        <img class="img-fluid rounded" src="assets/images/{{ shImg }}" alt="{{ sh.name }} illustration" loading="lazy">
+        <img class="img-fluid rounded" src="{{ ("/assets/images/" ~ shImg) | url }}" alt="{{ sh.name }} illustration" loading="lazy">
         <figcaption class="small text-muted mt-1">{{ sh.name }}</figcaption>
       </figure>
       {% endif %}
