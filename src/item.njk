@@ -10,6 +10,14 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 <a class="small" href="{{ item.groupSlug }}/">← Back to {{ item.groupName }}</a>
 <h1 class="mt-2">{{ item.name }}</h1>
 
+{% set img = images[item.slug] %}
+{% if img %}
+<figure class="my-3">
+  <img class="img-fluid rounded" src="assets/images/{{ img }}" alt="{{ item.name }} illustration" loading="lazy">
+  <figcaption class="small text-muted mt-1">{{ item.name }}</figcaption>
+ </figure>
+{% endif %}
+
 <p>
   {% if item.qualities %}
     {% for q in item.qualities %}
