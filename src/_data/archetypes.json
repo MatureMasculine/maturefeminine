@@ -162,7 +162,34 @@
           "growthPath": "Channel aggression constructively; fight for what matters.",
           "practices": [
             "\"Single target\" daily; 90-second boundary script (Observe–Impact–Request)."
-          ]
+          ],
+          "extended": {
+            "mature": {
+              "title": "Mature Warrior/Huntress",
+              "paragraphs": [
+                "The Mature Warrior/Huntress embodies focused feminine power in action—she who pursues her goals with fierce determination, protects what is sacred, and faces challenges with courage and skill. She is the embodiment of directed energy, protective instinct, and the willingness to fight for what matters most.",
+                "The Warrior/Huntress knows how to channel her aggression constructively, to set and maintain boundaries, and to pursue her objectives with laser-like focus. She is strategic, disciplined, and unafraid of conflict when it serves a higher purpose. Her strength is both physical and spiritual, and she uses it in service of protection, justice, and achievement."
+              ]
+            },
+            "declarations": [
+              "I channel my power with purpose and precision",
+              "I protect what is sacred with fierce determination",
+              "I face challenges with courage and strategic thinking",
+              "My boundaries are clear and I defend them when necessary",
+              "I pursue my goals with focused action and unwavering commitment",
+              "I transform obstacles into opportunities for growth",
+              "I fight for justice and stand up for those who cannot stand for themselves",
+              "My strength serves the highest good",
+              "I embrace healthy competition and challenge myself to excel",
+              "I am both fierce and compassionate, strong and wise"
+            ],
+            "balance": {
+              "balance": "Mature Warrior/Huntress",
+              "shadow": "Bully Warrior ←→ Victim Warrior",
+              "powerAnimals": "Wolf, Hawk, Jaguar",
+              "qualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Competitive, Fierce"
+            }
+          }
         },
         {
           "name": "Weaver / Community Goddess",
@@ -208,7 +235,136 @@
             "Morning \"court\" (3 decisions + 1 blessing)",
             "Weekly household rhythm",
             "Boundary statement in one sentence"
-          ]
+          ],
+          "extended": {
+            "mature": {
+              "title": "Mature Queen",
+              "paragraphs": [
+                "The Mature Queen embodies sovereign feminine power—she who creates order from chaos, nurtures growth within her realm, and leads with both strength and compassion. She is the embodiment of creative authority, divine feminine leadership, and protective nurturing. The Queen knows her worth, honors her boundaries, and creates sacred space for all within her domain to flourish.",
+                "She radiates confidence without arrogance, commands respect without demanding it, and wields power in service of the highest good. The Queen archetype represents the mature feminine capacity to create, protect, and govern with wisdom, love, and unwavering strength."
+              ]
+            },
+            "declarations": [
+              "I am the sovereign of my own life and create order with love and wisdom",
+              "My power flows from my connection to the divine feminine source",
+              "I nurture growth and possibility in myself and others",
+              "I lead by example, inspiring others through my authentic presence",
+              "My boundaries are sacred and I honor them with grace",
+              "I create beauty and harmony wherever I go",
+              "I trust my intuition and make decisions from deep knowing",
+              "I am both fierce protector and gentle nurturer",
+              "My generosity flows from abundance, not depletion",
+              "I celebrate the success and growth of others"
+            ],
+            "balance": {
+              "balance": "Mature Queen",
+              "shadow": "Tyrant Queen ←→ Powerless Queen",
+              "powerAnimals": "Lioness, Swan, Regal Mare",
+              "qualities": "Sovereign, Nurturing, Wise, Generous, Protective, Creative, Gracious, Confident, Harmonious, Inspiring"
+            },
+            "shadows": [
+              {
+                "name": "Tyrant Queen",
+                "description": [
+                  "The Tyrant Queen represents the active shadow of the Queen archetype—feminine power corrupted by ego, control, and the need to dominate. She rules through fear, manipulation, and emotional tyranny. This shadow emerges when a woman feels her power threatened or when she has been wounded in her sovereignty and overcompensates through controlling behaviors.",
+                  "The Tyrant Queen demands perfection from others while being unable to see her own flaws. She creates chaos while claiming to create order, and her \"nurturing\" becomes suffocating control. She may use guilt, emotional manipulation, or withholding of love as weapons of control."
+                ],
+                "declarations": [
+                  "Everyone must meet my standards or face my wrath",
+                  "I know what's best for everyone and they should listen to me",
+                  "My way is the only right way",
+                  "Others exist to serve my vision and needs",
+                  "I cannot tolerate imperfection or disobedience",
+                  "My love and approval must be earned through compliance",
+                  "I am entitled to control my environment and the people in it",
+                  "Criticism of me is an attack that must be punished",
+                  "Others should be grateful for my leadership regardless of how I treat them",
+                  "I cannot show vulnerability or weakness"
+                ],
+                "balancing": [
+                  "Practice genuine humility and acknowledge your mistakes",
+                  "Ask for input from others before making decisions that affect them",
+                  "Release the need to control outcomes and trust the process",
+                  "Cultivate patience and compassion for others' learning curves",
+                  "Express appreciation and gratitude regularly",
+                  "Allow others to have their own opinions and ways of doing things",
+                  "Practice listening without immediately offering solutions or corrections",
+                  "Examine your motivations—are you serving others or your ego?",
+                  "Take responsibility for the impact of your words and actions",
+                  "Cultivate genuine care for others' wellbeing, not just their compliance"
+                ],
+                "gift": "The Tyrant Queen's gift lies in her fierce protective instinct and her refusal to accept mediocrity. When balanced, this energy becomes the ability to set high standards while supporting others in reaching them. Her intensity can inspire excellence and her protective nature can create safe spaces for growth. She teaches us the importance of boundaries and the courage to stand up for what matters.",
+                "outOfBalance": "Controlling, demanding, critical, manipulative, emotionally explosive, perfectionist, entitled, unable to delegate, punitive, isolated through fear-based relationships",
+                "qualities": "Controlling, Critical, Demanding, Manipulative, Entitled, Perfectionist, Explosive, Punitive, Domineering, Rigid"
+              },
+              {
+                "name": "Powerless Queen",
+                "description": [
+                  "The Powerless Queen represents the passive shadow of the Queen archetype—the abdication of feminine sovereignty and leadership. She has disconnected from her own power and either refuses to step into her queenship or believes she is unworthy of it. This shadow often develops from trauma, cultural conditioning that diminishes feminine power, or fear of responsibility.",
+                  "The Powerless Queen may appear as the eternal victim, the people-pleaser who cannot set boundaries, or the woman who constantly undermines her own authority. She gives her power away to others and then resents them for having it."
+                ],
+                "declarations": [
+                  "I don't deserve to lead or make important decisions",
+                  "Others know better than I do what's good for me",
+                  "I can't handle the responsibility of power",
+                  "It's safer to let others be in charge",
+                  "I'm not strong enough to protect myself or others",
+                  "My needs don't matter as much as everyone else's",
+                  "I must earn love and approval by being agreeable",
+                  "Conflict is too scary to face directly",
+                  "I'm just not leadership material",
+                  "If I assert myself, people will reject me"
+                ],
+                "balancing": [
+                  "Start small by making decisions about your daily life and honoring them",
+                  "Practice saying \"no\" to requests that drain your energy",
+                  "Identify and challenge beliefs about your unworthiness",
+                  "Seek out supportive community that mirrors back your strength",
+                  "Take up space—speak up in meetings, take the bigger chair, express your opinions",
+                  "Develop a daily practice that connects you to your inner wisdom",
+                  "Set and maintain small boundaries consistently",
+                  "Celebrate your successes and acknowledge your growth",
+                  "Work with a coach or therapist to heal wounds around power and worth",
+                  "Study examples of healthy feminine leadership"
+                ],
+                "gift": "The Powerless Queen's gift lies in her humility and her ability to recognize the wisdom in others. She often has highly developed empathy and collaborative skills. When balanced, this energy becomes authentic shared leadership and the ability to empower others. She teaches us the importance of receptivity and the strength found in acknowledging what we don't know.",
+                "outOfBalance": "Passive, indecisive, people-pleasing, victim mentality, unable to set boundaries, self-sabotaging, giving power away, avoiding responsibility, chronic self-doubt, dependent on others' approval",
+                "qualities": "Passive, Indecisive, People-pleasing, Victim-minded, Boundary-less, Self-sabotaging, Dependent, Approval-seeking, Self-doubting, Avoidant"
+              }
+            ],
+            "virtues": [
+              {
+                "title": "Sovereignty",
+                "quote": "\"No one can make you feel inferior without your consent.\" - Eleanor Roosevelt",
+                "paragraphs": [
+                  "Sovereignty is the Queen's most essential virtue—the recognition that you are the ultimate authority in your own life. True sovereignty is not about controlling others or external circumstances, but about owning your power to choose your responses, your boundaries, and your path.",
+                  "The sovereign woman knows that her worth is inherent, not earned through others' approval. She makes decisions from her own center, guided by her values and wisdom. She neither gives her power away nor tries to take power from others, but stands in her own authority with grace and strength.",
+                  "Sovereignty requires courage—the courage to disappoint others when necessary, to stand alone when needed, and to trust your own judgment. It means taking full responsibility for your life while releasing the need to control what is not yours to control.",
+                  "Developing sovereignty is a lifelong practice of coming home to yourself, honoring your truth, and creating your life from authentic choice rather than reactive patterns or others' expectations."
+                ]
+              },
+              {
+                "title": "Nurturing Leadership",
+                "quote": "\"The best way to find out if you can trust somebody is to trust them.\" - Ernest Hemingway",
+                "paragraphs": [
+                  "Nurturing leadership represents the Queen's unique gift—the ability to create environments where others can flourish while maintaining clear direction and boundaries. Unlike dominating leadership that seeks to control, nurturing leadership seeks to cultivate and support growth.",
+                  "The nurturing leader leads by example, showing others what's possible rather than demanding compliance. She creates psychological safety where people can take risks, make mistakes, and learn. She sees the potential in others and helps them develop it, while also maintaining high standards and clear expectations.",
+                  "This style of leadership requires patience, wisdom, and the ability to see the bigger picture. The nurturing leader knows when to step in and when to step back, when to support and when to challenge. She understands that true power lies in empowering others.",
+                  "Nurturing leadership is particularly needed in our world today—leadership that values collaboration over competition, growth over domination, and sustainable success over quick wins."
+                ]
+              },
+              {
+                "title": "Creative Authority",
+                "quote": "\"The future belongs to those who believe in the beauty of their dreams.\" - Eleanor Roosevelt",
+                "paragraphs": [
+                  "Creative authority is the Queen's power to envision and manifest new realities. It's the recognition that life is a creative act and that we are all artists painting our existence with the choices we make daily.",
+                  "The woman who embodies creative authority doesn't wait for permission to create the life she envisions. She understands that authority comes not from external validation but from her connection to the creative force of life itself. She is both artist and art, creator and creation.",
+                  "Creative authority requires both vision and practical action. It means dreaming boldly while also taking the concrete steps to bring those dreams into reality. It involves trusting the creative process even when the path isn't clear.",
+                  "This virtue teaches us that we are not victims of circumstance but active participants in creating our reality. Every woman has the authority to author her own story, to create beauty, meaning, and positive change in the world."
+                ]
+              }
+            ]
+          }
         },
         {
           "name": "Justice (Ma'at)",
