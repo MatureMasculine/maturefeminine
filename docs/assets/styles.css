@@ -79,13 +79,32 @@ main .container { max-width: 920px; }
 /* Align Bootstrap cards with palette */
 [data-bs-theme="light"] .card { --bs-card-bg: var(--platinum-900); --bs-card-border-color: var(--platinum-400); }
 [data-bs-theme="dark"] .card { --bs-card-bg: var(--eggplant-100); --bs-card-border-color: var(--eggplant-400); }
+/* Homepage card variant: Platinum (lighter) */
+[data-bs-theme="light"] .card.card-platinum {
+  --bs-card-bg: var(--platinum-900);
+  --bs-card-border-color: var(--platinum-400);
+  --bs-card-color: var(--platinum-100);
+}
+[data-bs-theme="dark"] .card.card-platinum {
+  --bs-card-bg: var(--platinum-800);
+  --bs-card-border-color: var(--platinum-400);
+  --bs-card-color: var(--platinum-100);
+}
 .mf-box { border-radius: .5rem; padding: 1rem; }
-  /* Mature → Timberwolf */
-  .section-green { background-color: var(--timberwolf-900); border-left: 4px solid var(--timberwolf-300); }
-  .section-green h4 { color: var(--timberwolf-200); }
-  /* Mature Declarations → Byzantium */
-  .section-blue { background-color: var(--byzantium-900); border-left: 4px solid var(--byzantium-500); }
-  .section-blue h4 { color: var(--byzantium-400); }
+/* Mature → Timberwolf */
+.section-green { background-color: var(--timberwolf-900); border-left: 4px solid var(--timberwolf-300); }
+.section-green h4 { color: var(--timberwolf-200); }
+/* Mature Declarations → Byzantium */
+.section-blue { background-color: var(--byzantium-900); border-left: 4px solid var(--byzantium-500); }
+.section-blue h4 { color: var(--byzantium-400); }
+/* Balance & Qualities → Platinum */
+.section-yellow { background-color: var(--platinum-900); border-left: 4px solid var(--platinum-400); }
+.section-yellow h4 { color: var(--platinum-300); }
+/* Shadow → Eggplant */
+.shadow-card { background: linear-gradient(135deg, var(--eggplant-500) 0%, var(--eggplant-700) 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
+.shadow-card .shadow-panel { background: rgba(255,255,255,.2); border-radius: .5rem; padding: .75rem; }
+/* Virtues → Mountbatten Pink */
+.virtue-card { background: linear-gradient(135deg, var(--mountbatten-pink-500) 0%, var(--mountbatten-pink-400) 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
   /* Balance & Qualities → Platinum */
   .section-yellow { background-color: var(--platinum-900); border-left: 4px solid var(--platinum-400); }
   .section-yellow h4 { color: var(--platinum-300); }

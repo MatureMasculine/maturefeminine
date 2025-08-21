@@ -1,10 +1,10 @@
 ---
 layout: layout.njk
 permalink: "/index.html"
-title: "The Mature Feminine: A Field Guide"
+title: "The Mature Feminine"
 ---
 
-<h1 class="mb-1">{{ siteContent.title }}</h1>
+<h1 class="text-center mb-1">{{ siteContent.title }}</h1>
 <p class="text-center fst-italic text-muted">{{ siteContent.subtitle }}</p>
 
 <div class="text-center my-3">
@@ -15,63 +15,13 @@ title: "The Mature Feminine: A Field Guide"
 <p class="quote text-center fst-italic my-3 text-muted">“{{ siteContent.quote.text }}”<br><span class="d-block mt-1">— {{ siteContent.quote.author }}</span></p>
 {% endif %}
 
-<h2 class="mt-4">How to Use This Guide</h2>
-<ul>
-  {% for item in siteContent.howToUse %}
-  <li><strong>{{ item.label }}:</strong> {{ item.text }}</li>
-  {% endfor %}
-</ul>
-
-<h2 class="mt-4">The Four Poles of Mature Feminine</h2>
-{% for pole in siteContent.poles %}
-<div class="p-3 my-3 border-start border-primary-subtle bg-light-subtle">
-  <h3 class="h5 mb-1">{{ pole.name }}</h3>
-  <p class="mb-0">{{ pole.description }}</p>
-</div>
-{% endfor %}
-
-<h2 class="mt-4">Developmental Wheel</h2>
-<p>A quick map of the feminine life arc:</p>
-<ul>
-  {% for d in siteContent.devWheel %}
-  <li><strong>{{ d.stage }}</strong> → {{ d.task }}</li>
-  {% endfor %}
-</ul>
-
-<h2 class="mt-4">Quick Reference</h2>
-<p>One-line essence + primary shadows for all feminine archetypes:</p>
-{% for block in siteContent.quickRef %}
-<h4 class="h6 mt-3">{{ block.pole }}:</h4>
-<ul>
-  {% for it in block.items %}
-  <li><strong>{{ it.name }}</strong> – {{ it.essence }}; active: {{ it.active }}, passive: {{ it.passive }}.</li>
-  {% endfor %}
-</ul>
-{% endfor %}
-
-<h2 class="mt-4">Shadow Alchemy (fast diagnostics)</h2>
-<p>Quick remedies when you recognize shadow patterns:</p>
-<ul>
-  {% for tip in siteContent.shadowAlchemy %}
-  <li>{{ tip }}</li>
-  {% endfor %}
-</ul>
-
-<h2 class="mt-4">Self-assessment prompts (pick 3 today)</h2>
-<ul>
-  {% for q in siteContent.selfAssessment %}
-  <li>{{ q }}</li>
-  {% endfor %}
-</ul>
-
-<h2 class="mt-5">Browse Archetypes</h2>
 <div class="row g-3">
   {% for group in archetypes.groups %}
   <div class="col-12 col-md-6">
-    <div class="card h-100">
+    <div class="card card-platinum h-100">
       <div class="card-body">
         <h5 class="card-title">{{ group.name }}</h5>
-        <p class="card-text small text-muted">{{ group.summary }}</p>
+        <p class="card-text small">{{ group.summary }}</p>
         <ul class="small">
           {% for item in group.items %}
           <li><a href="{{ group.slug }}/{{ item.slug }}/">{{ item.name }}</a></li>
