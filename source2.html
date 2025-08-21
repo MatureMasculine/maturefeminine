@@ -1,1389 +1,578 @@
 <!DOCTYPE html>
-<!-- saved from url=(0156)https://page.gensparksite.com/docs_agent/798ea59c-c1d4-45aa-b6ab-086dc8d129cd/38017c27-7c61-490e-85e4-e9422dab6fd5/d840fa79-548b-431e-83ab-d7af584a26f5.html -->
-<html lang="en" data-theme="light" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- saved from url=(0052)https://www.genspark.ai/api/page_private?id=wttyjopf -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Mature Feminine Archetypes</title>
-    <link rel="stylesheet" href="./source2_files/pico.min.css">
+    <link href="./source2_files/tailwind.min.css" rel="stylesheet">
     <link href="./source2_files/css2" rel="stylesheet">
     <style>
-      body {
-        max-width: 880px;
-        margin: 0 auto;
-        padding: 32px 80px;
-        position: relative;
-        box-sizing: border-box;
-        font-family: 'Times New Roman', Times, serif;
-        line-height: 1.6;
-        color: #333;
-        text-align: justify;
-      }
-      h1 {
-        text-align: center;
-        font-size: 24px;
-        margin-bottom: 30px;
-        color: #2c3e50;
-      }
-      h2 {
-        font-size: 20px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-        color: #34495e;
-        border-bottom: 2px solid #ecf0f1;
-        padding-bottom: 5px;
-      }
-      h3 {
-        font-size: 18px;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        color: #2c3e50;
-      }
-      .declarations {
-        background-color: #f8f9fa;
-        padding: 20px;
-        margin: 20px 0;
-        border-left: 4px solid #8e44ad;
-        font-style: italic;
-      }
-      .balance-info {
-        background-color: #ebf3fd;
-        padding: 15px;
-        margin: 15px 0;
-        border: 1px solid #d6e3f0;
-      }
-      .shadow-box {
-        background-color: #fdf2e9;
-        padding: 15px;
-        margin: 15px 0;
-        border-left: 4px solid #e67e22;
-      }
-      .gift-box {
-        background-color: #e8f5e8;
-        padding: 15px;
-        margin: 15px 0;
-        border-left: 4px solid #27ae60;
-      }
-      ul {
-        margin-left: 25px;
-      }
-      .quote {
-        font-style: italic;
-        text-align: center;
-        margin: 20px 0;
-        color: #555;
-      }
-      .archetype-section {
-        page-break-before: always;
-        margin-top: 50px;
-      }
-      .virtue-essay {
-        margin-top: 40px;
-        padding-top: 20px;
-        border-top: 1px solid #ecf0f1;
-      }
-      strong {
-        color: #2c3e50;
-      }
+        body {
+            font-family: 'Lora', serif;
+            line-height: 1.7;
+            color: #2d3748;
+        }
+        .title-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .archetype-card {
+            border-left: 4px solid #8b5cf6;
+            transition: all 0.3s ease;
+        }
+        .shadow-card {
+            border-left: 4px solid #f59e0b;
+        }
+        .gift-card {
+            border-left: 4px solid #10b981;
+        }
+        .virtue-card {
+            border-left: 4px solid #3b82f6;
+        }
+        .quote-style {
+            font-style: italic;
+            position: relative;
+        }
+        .quote-style::before,
+        .quote-style::after {
+            content: '"';
+            font-size: 1.5em;
+            color: #8b5cf6;
+            font-weight: bold;
+        }
     </style>
-  </head>
-  <body style="">
-    <h1>The Mature Feminine Archetypes</h1>
+<style>
+    .genspark-notice-dialog {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 10001;
+      align-items: center;
+      justify-content: center;
+    }
 
-    <p class="quote">
-      <em>"A woman in harmony with her spirit is like a river flowing. She goes where she will without pretense and
-        arrives at her destination prepared to be herself and only herself."</em>
-      - Maya Angelou
-    </p>
+    .genspark-notice-content {
+      background-color: white;
+      border-radius: 8px;
+      max-width: 600px;
+      width: 90%;
+      box-sizing: border-box;
+      padding: 10px 30px 30px 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+    }
 
-    <p>
-      The feminine archetypes represent the profound depths of the sacred feminine—ancient patterns of power, wisdom,
-      and creation that flow through every woman's psyche. Like the masculine archetypes, each feminine archetype
-      contains within it both mature, balanced expressions and shadow manifestations that arise when the archetype is
-      distorted or suppressed.
-    </p>
+    .genspark-notice-title {
+      color: #000;
+      font-family: Arial;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%; 
+    }
 
-    <p>
-      This guide explores four primary feminine archetypes: the Queen, the Warrior/Huntress, the Magician/Witch, and the
-      Sacred Whore/Love Goddess. Each represents a fundamental aspect of feminine power and wisdom, offering pathways to
-      wholeness when accessed in their mature form.
-    </p>
+    .genspark-notice-list {
+      margin: 24px 0;
+      
+      color: #606366;
+      font-family: Arial;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      padding-left: 12px;
+    }
 
-    <div class="archetype-section">
-      <h2>Mature Queen</h2>
+    .genspark-notice-list li {
+      margin-bottom: 12px;
+      list-style-type: disc;
+    }
 
-      <p>
-        The Mature Queen embodies sovereign feminine power—she who creates order from chaos, nurtures growth within her
-        realm, and leads with both strength and compassion. She is the embodiment of creative authority, divine feminine
-        leadership, and protective nurturing. The Queen knows her worth, honors her boundaries, and creates sacred space
-        for all within her domain to flourish.
-      </p>
+    .genspark-notice-list li a {
+      color: #606366;
+      text-decoration: underline;
+    }
 
-      <p>
-        She radiates confidence without arrogance, commands respect without demanding it, and wields power in service of
-        the highest good. The Queen archetype represents the mature feminine capacity to create, protect, and govern
-        with wisdom, love, and unwavering strength.
-      </p>
+    .genspark-notice-checkbox {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      gap: 10px;
 
-      <div class="declarations">
-        <h3>Mature Queen Declarations</h3>
-        <ul>
-          <li>I am the sovereign of my own life and create order with love and wisdom</li>
-          <li>My power flows from my connection to the divine feminine source</li>
-          <li>I nurture growth and possibility in myself and others</li>
-          <li>I lead by example, inspiring others through my authentic presence</li>
-          <li>My boundaries are sacred and I honor them with grace</li>
-          <li>I create beauty and harmony wherever I go</li>
-          <li>I trust my intuition and make decisions from deep knowing</li>
-          <li>I am both fierce protector and gentle nurturer</li>
-          <li>My generosity flows from abundance, not depletion</li>
-          <li>I celebrate the success and growth of others</li>
-        </ul>
-      </div>
+      color: #232425;
 
-      <div class="balance-info">
-        <strong>Balance:</strong> Mature Queen<br>
-        <strong>Shadow:</strong> Tyrant Queen ←→ Powerless Queen<br>
-        <strong>Power Animal:</strong> Lioness, Swan, Regal Mare<br>
-        <strong>Qualities:</strong> Sovereign, Nurturing, Wise, Generous, Protective, Creative, Gracious, Confident,
-        Harmonious, Inspiring
-      </div>
+      font-family: Arial;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
 
-      <h2>Tyrant Queen</h2>
+    .genspark-notice-actions {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+      
+    .genspark-notice-ok {
+      color: #232425;
 
-      <p>
-        The Tyrant Queen represents the active shadow of the Queen archetype—feminine power corrupted by ego, control,
-        and the need to dominate. She rules through fear, manipulation, and emotional tyranny. This shadow emerges when
-        a woman feels her power threatened or when she has been wounded in her sovereignty and overcompensates through
-        controlling behaviors.
-      </p>
+      text-align: center;
+      font-family: Arial;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%; 
 
-      <p>
-        The Tyrant Queen demands perfection from others while being unable to see her own flaws. She creates chaos while
-        claiming to create order, and her "nurturing" becomes suffocating control. She may use guilt, emotional
-        manipulation, or withholding of love as weapons of control.
-      </p>
+      cursor: pointer;
+      display: flex;
+      height: 40px;
+      padding: 6px 14px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      align-self: stretch;
+      border-radius: 8px;
+      border: 1px solid #000;
+      box-sizing: border-box;
+      width: 100%;
+    }
+  </style></head>
+<body class="bg-gray-50">
+    <div class="max-w-4xl mx-auto bg-white shadow-lg">
+        <!-- Header -->
+        <header class="bg-gradient-to-r from-purple-600 to-pink-600 text-white py-16 px-8">
+            <h1 class="title-font text-4xl md:text-5xl font-bold text-center mb-6">
+                The Mature Feminine Archetypes
+            </h1>
+            <p class="text-xl text-center opacity-90 max-w-3xl mx-auto">
+                A comprehensive guide to understanding and integrating the profound depths of feminine wisdom, power, and transformation
+            </p>
+        </header>
 
-      <div class="shadow-box">
-        <h3>Tyrant Queen Shadow Declarations</h3>
-        <ul>
-          <li>Everyone must meet my standards or face my wrath</li>
-          <li>I know what's best for everyone and they should listen to me</li>
-          <li>My way is the only right way</li>
-          <li>Others exist to serve my vision and needs</li>
-          <li>I cannot tolerate imperfection or disobedience</li>
-          <li>My love and approval must be earned through compliance</li>
-          <li>I am entitled to control my environment and the people in it</li>
-          <li>Criticism of me is an attack that must be punished</li>
-          <li>Others should be grateful for my leadership regardless of how I treat them</li>
-          <li>I cannot show vulnerability or weakness</li>
-        </ul>
-      </div>
+        <!-- Introduction -->
+        <section class="px-8 py-12">
+            <div class="text-center mb-12">
+                <p class="quote-style text-xl text-gray-600 mb-4">
+                    A woman in harmony with her spirit is like a river flowing. She goes where she will without pretense and arrives at her destination prepared to be herself and only herself.
+                </p>
+                <p class="text-gray-500">- Maya Angelou</p>
+            </div>
 
-      <h3>Balancing the Tyrant Queen</h3>
-      <ul>
-        <li>Practice genuine humility and acknowledge your mistakes</li>
-        <li>Ask for input from others before making decisions that affect them</li>
-        <li>Release the need to control outcomes and trust the process</li>
-        <li>Cultivate patience and compassion for others' learning curves</li>
-        <li>Express appreciation and gratitude regularly</li>
-        <li>Allow others to have their own opinions and ways of doing things</li>
-        <li>Practice listening without immediately offering solutions or corrections</li>
-        <li>Examine your motivations—are you serving others or your ego?</li>
-        <li>Take responsibility for the impact of your words and actions</li>
-        <li>Cultivate genuine care for others' wellbeing, not just their compliance</li>
-      </ul>
+            <div class="prose prose-lg max-w-none">
+                <p class="text-lg leading-relaxed mb-6">
+                    The feminine archetypes represent the profound depths of the sacred feminine—ancient patterns of power, wisdom, and creation that flow through every woman's psyche. Like the masculine archetypes, each feminine archetype contains within it both mature, balanced expressions and shadow manifestations that arise when the archetype is distorted or suppressed.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    This guide explores four primary feminine archetypes: the Queen, the Warrior/Huntress, the Magician/Wise Woman, and the Love Goddess. Each represents a fundamental aspect of feminine power and wisdom, offering pathways to wholeness when accessed in their mature form.
+                </p>
+            </div>
+        </section>
 
-      <div class="gift-box">
-        <h3>Gift of the Tyrant Queen</h3>
-        <p>
-          The Tyrant Queen's gift lies in her fierce protective instinct and her refusal to accept mediocrity. When
-          balanced, this energy becomes the ability to set high standards while supporting others in reaching them. Her
-          intensity can inspire excellence and her protective nature can create safe spaces for growth. She teaches us
-          the importance of boundaries and the courage to stand up for what matters.
-        </p>
-      </div>
+        <!-- Queen Archetype -->
+        <section class="px-8 py-12 border-t border-gray-200">
+            <div class="archetype-card bg-purple-50 p-8 rounded-lg mb-12">
+                <h2 class="title-font text-3xl font-bold text-purple-800 mb-6">The Mature Queen</h2>
+                <p class="text-lg mb-6">
+                    The Mature Queen embodies sovereign feminine power—she who creates order from chaos, nurtures growth within her realm, and leads with both strength and compassion. She is the embodiment of creative authority, divine feminine leadership, and protective nurturing.
+                </p>
+                <p class="text-lg">
+                    She radiates confidence without arrogance, commands respect without demanding it, and wields power in service of the highest good. The Queen archetype represents the mature feminine capacity to create, protect, and govern with wisdom, love, and unwavering strength.
+                </p>
+            </div>
 
-      <strong>Out of Balance:</strong> Controlling, demanding, critical, manipulative, emotionally explosive,
-      perfectionist, entitled, unable to delegate, punitive, isolated through fear-based relationships
+            <!-- Queen Declarations -->
+            <div class="bg-indigo-50 p-6 rounded-lg mb-8">
+                <h3 class="title-font text-xl font-semibold text-indigo-800 mb-4">Mature Queen Declarations</h3>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• I am the sovereign of my own life and create order with love and wisdom</li>
+                    <li>• My power flows from my connection to the divine feminine source</li>
+                    <li>• I nurture growth and possibility in myself and others</li>
+                    <li>• I lead by example, inspiring others through my authentic presence</li>
+                    <li>• My boundaries are sacred and I honor them with grace</li>
+                    <li>• I create beauty and harmony wherever I go</li>
+                    <li>• I trust my intuition and make decisions from deep knowing</li>
+                    <li>• I am both fierce protector and gentle nurturer</li>
+                    <li>• My generosity flows from abundance, not depletion</li>
+                    <li>• I celebrate the success and growth of others</li>
+                </ul>
+            </div>
 
-      <strong>Tyrant Queen Qualities:</strong> Controlling, Critical, Demanding, Manipulative, Entitled, Perfectionist,
-      Explosive, Punitive, Domineering, Rigid
+            <!-- Balance Info -->
+            <div class="grid md:grid-cols-3 gap-6 mb-12">
+                <div class="bg-blue-50 p-6 rounded-lg">
+                    <h4 class="font-semibold text-blue-800 mb-3">Balance</h4>
+                    <p class="text-blue-700">Mature Queen</p>
+                </div>
+                <div class="bg-yellow-50 p-6 rounded-lg">
+                    <h4 class="font-semibold text-yellow-800 mb-3">Shadow</h4>
+                    <p class="text-yellow-700">Tyrant Queen ↔ Powerless Queen</p>
+                </div>
+                <div class="bg-green-50 p-6 rounded-lg">
+                    <h4 class="font-semibold text-green-800 mb-3">Power Animals</h4>
+                    <p class="text-green-700">Lioness, Swan, Regal Mare</p>
+                </div>
+            </div>
 
-      <h2>Powerless Queen</h2>
+            <!-- Tyrant Queen Shadow -->
+            <div class="shadow-card bg-orange-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-orange-800 mb-4">Tyrant Queen Shadow</h3>
+                <p class="mb-6">
+                    The Tyrant Queen represents the active shadow of the Queen archetype—feminine power corrupted by ego, control, and the need to dominate. She rules through fear, manipulation, and emotional tyranny, demanding perfection while being unable to see her own flaws.
+                </p>
+                
+                <h4 class="font-semibold text-orange-700 mb-3">Shadow Manifestations:</h4>
+                <ul class="space-y-2 text-gray-700 mb-6">
+                    <li>• Controlling and demanding behavior</li>
+                    <li>• Emotional manipulation and guilt-tripping</li>
+                    <li>• Inability to tolerate imperfection</li>
+                    <li>• Using love and approval as weapons of control</li>
+                    <li>• Creating chaos while claiming to create order</li>
+                </ul>
 
-      <p>
-        The Powerless Queen represents the passive shadow of the Queen archetype—the abdication of feminine sovereignty
-        and leadership. She has disconnected from her own power and either refuses to step into her queenship or
-        believes she is unworthy of it. This shadow often develops from trauma, cultural conditioning that diminishes
-        feminine power, or fear of responsibility.
-      </p>
+                <h4 class="font-semibold text-orange-700 mb-3">Balancing Practices:</h4>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• Practice genuine humility and acknowledge mistakes</li>
+                    <li>• Ask for input from others before making decisions</li>
+                    <li>• Release the need to control outcomes</li>
+                    <li>• Cultivate patience and compassion for others' learning</li>
+                    <li>• Express appreciation and gratitude regularly</li>
+                    <li>• Allow others to have their own opinions and methods</li>
+                </ul>
+            </div>
 
-      <p>
-        The Powerless Queen may appear as the eternal victim, the people-pleaser who cannot set boundaries, or the woman
-        who constantly undermines her own authority. She gives her power away to others and then resents them for having
-        it.
-      </p>
+            <!-- Powerless Queen Shadow -->
+            <div class="shadow-card bg-red-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-red-800 mb-4">Powerless Queen Shadow</h3>
+                <p class="mb-6">
+                    The Powerless Queen represents the passive shadow—the abdication of feminine sovereignty and leadership. She has disconnected from her own power and either refuses to step into her queenship or believes she is unworthy of it.
+                </p>
+                
+                <h4 class="font-semibold text-red-700 mb-3">Shadow Manifestations:</h4>
+                <ul class="space-y-2 text-gray-700 mb-6">
+                    <li>• Chronic people-pleasing and boundary violations</li>
+                    <li>• Giving power away to others and then resenting them</li>
+                    <li>• Avoiding responsibility and leadership opportunities</li>
+                    <li>• Chronic self-doubt and need for external validation</li>
+                    <li>• Playing victim rather than taking charge</li>
+                </ul>
 
-      <div class="shadow-box">
-        <h3>Powerless Queen Shadow Declarations</h3>
-        <ul>
-          <li>I don't deserve to lead or make important decisions</li>
-          <li>Others know better than I do what's good for me</li>
-          <li>I can't handle the responsibility of power</li>
-          <li>It's safer to let others be in charge</li>
-          <li>I'm not strong enough to protect myself or others</li>
-          <li>My needs don't matter as much as everyone else's</li>
-          <li>I must earn love and approval by being agreeable</li>
-          <li>Conflict is too scary to face directly</li>
-          <li>I'm just not leadership material</li>
-          <li>If I assert myself, people will reject me</li>
-        </ul>
-      </div>
+                <h4 class="font-semibold text-red-700 mb-3">Balancing Practices:</h4>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• Start with small decisions and honor them consistently</li>
+                    <li>• Practice saying "no" to energy-draining requests</li>
+                    <li>• Identify and challenge beliefs about unworthiness</li>
+                    <li>• Seek supportive community that mirrors back your strength</li>
+                    <li>• Take up space and express your opinions</li>
+                    <li>• Celebrate victories and acknowledge growth</li>
+                </ul>
+            </div>
 
-      <h3>Balancing the Powerless Queen</h3>
-      <ul>
-        <li>Start small by making decisions about your daily life and honoring them</li>
-        <li>Practice saying "no" to requests that drain your energy</li>
-        <li>Identify and challenge beliefs about your unworthiness</li>
-        <li>Seek out supportive community that mirrors back your strength</li>
-        <li>Take up space—speak up in meetings, take the bigger chair, express your opinions</li>
-        <li>Develop a daily practice that connects you to your inner wisdom</li>
-        <li>Set and maintain small boundaries consistently</li>
-        <li>Celebrate your successes and acknowledge your growth</li>
-        <li>Work with a coach or therapist to heal wounds around power and worth</li>
-        <li>Study examples of healthy feminine leadership</li>
-      </ul>
+            <!-- Queen Gifts -->
+            <div class="gift-card bg-emerald-50 p-6 rounded-lg mb-8">
+                <h4 class="font-semibold text-emerald-800 mb-3">Gifts of Queen Shadows</h4>
+                <p class="text-emerald-700 mb-3">
+                    <strong>Tyrant Queen:</strong> Her gift lies in her fierce protective instinct and refusal to accept mediocrity. When balanced, this becomes the ability to set high standards while supporting others in reaching them.
+                </p>
+                <p class="text-emerald-700">
+                    <strong>Powerless Queen:</strong> Her gift lies in humility and recognizing wisdom in others. When balanced, this becomes authentic shared leadership and the ability to empower others.
+                </p>
+            </div>
+        </section>
 
-      <div class="gift-box">
-        <h3>Gift of the Powerless Queen</h3>
-        <p>
-          The Powerless Queen's gift lies in her humility and her ability to recognize the wisdom in others. She often
-          has highly developed empathy and collaborative skills. When balanced, this energy becomes authentic shared
-          leadership and the ability to empower others. She teaches us the importance of receptivity and the strength
-          found in acknowledging what we don't know.
-        </p>
-      </div>
+        <!-- Warrior/Huntress Archetype -->
+        <section class="px-8 py-12 border-t border-gray-200">
+            <div class="archetype-card bg-red-50 p-8 rounded-lg mb-12">
+                <h2 class="title-font text-3xl font-bold text-red-800 mb-6">The Mature Warrior/Huntress</h2>
+                <p class="text-lg mb-6">
+                    The Mature Warrior/Huntress embodies focused feminine power in action—she who pursues her goals with fierce determination, protects what is sacred, and faces challenges with courage and skill. She represents directed energy, protective instinct, and the willingness to fight for what matters most.
+                </p>
+                <p class="text-lg">
+                    She channels aggression constructively, sets and maintains boundaries, and pursues objectives with laser-like focus. Her strength is both physical and spiritual, used in service of protection, justice, and achievement.
+                </p>
+            </div>
 
-      <strong>Out of Balance:</strong> Passive, indecisive, people-pleasing, victim mentality, unable to set boundaries,
-      self-sabotaging, giving power away, avoiding responsibility, chronic self-doubt, dependent on others' approval
+            <!-- Warrior Declarations -->
+            <div class="bg-red-50 p-6 rounded-lg mb-8">
+                <h3 class="title-font text-xl font-semibold text-red-800 mb-4">Mature Warrior/Huntress Declarations</h3>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• I channel my power with purpose and precision</li>
+                    <li>• I protect what is sacred with fierce determination</li>
+                    <li>• I face challenges with courage and strategic thinking</li>
+                    <li>• My boundaries are clear and I defend them when necessary</li>
+                    <li>• I pursue my goals with focused action and unwavering commitment</li>
+                    <li>• I transform obstacles into opportunities for growth</li>
+                    <li>• I fight for justice and stand up for those who cannot stand for themselves</li>
+                    <li>• My strength serves the highest good</li>
+                    <li>• I embrace healthy competition and challenge myself to excel</li>
+                    <li>• I am both fierce and compassionate, strong and wise</li>
+                </ul>
+            </div>
 
-      <strong>Powerless Queen Qualities:</strong> Passive, Indecisive, People-pleasing, Victim-minded, Boundary-less,
-      Self-sabotaging, Dependent, Approval-seeking, Self-doubting, Avoidant
+            <!-- Bully Warrior Shadow -->
+            <div class="shadow-card bg-orange-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-orange-800 mb-4">Bully Warrior Shadow</h3>
+                <p class="mb-6">
+                    The Bully Warrior represents aggression without wisdom, force without compassion. She uses strength to dominate rather than protect, seeing life as a zero-sum game where someone must lose for her to win.
+                </p>
+                
+                <h4 class="font-semibold text-orange-700 mb-3">Balancing Practices:</h4>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• Pause before reacting and ask: "What am I really trying to protect?"</li>
+                    <li>• Channel anger into constructive action rather than destructive attack</li>
+                    <li>• Develop empathy by considering others' perspectives</li>
+                    <li>• Learn conflict resolution skills that don't require domination</li>
+                    <li>• Seek win-win solutions rather than zero-sum outcomes</li>
+                </ul>
+            </div>
 
-      <div class="virtue-essay">
-        <h2>Sovereignty</h2>
+            <!-- Victim Warrior Shadow -->
+            <div class="shadow-card bg-red-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-red-800 mb-4">Victim Warrior Shadow</h3>
+                <p class="mb-6">
+                    The Victim Warrior represents the complete abandonment of fighting spirit. She avoids conflict at all costs, even when standing up for herself is necessary, often paralyzed by fear or unable to set boundaries.
+                </p>
+                
+                <h4 class="font-semibold text-red-700 mb-3">Balancing Practices:</h4>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• Start with small acts of self-advocacy in low-stakes situations</li>
+                    <li>• Practice physical activities that build confidence in your body's strength</li>
+                    <li>• Learn assertiveness skills in safe environments</li>
+                    <li>• Identify core values and what you're willing to fight for</li>
+                    <li>• Take self-defense classes to reconnect with protective energy</li>
+                </ul>
+            </div>
+        </section>
 
-        <p class="quote"><em>"No one can make you feel inferior without your consent."</em> - Eleanor Roosevelt</p>
+        <!-- Magician/Wise Woman Archetype -->
+        <section class="px-8 py-12 border-t border-gray-200">
+            <div class="archetype-card bg-indigo-50 p-8 rounded-lg mb-12">
+                <h2 class="title-font text-3xl font-bold text-indigo-800 mb-6">The Mature Magician/Wise Woman</h2>
+                <p class="text-lg mb-6">
+                    The Mature Magician/Wise Woman embodies transformative feminine power—she who works with the hidden forces of nature and consciousness to create change, healing, and growth. She represents wisdom, intuition, and the ability to see beyond surface appearances into deeper truths.
+                </p>
+                <p class="text-lg">
+                    She is skilled in transformation through healing, creative work, or deep psychological insight. The Mature Wise Woman knows how to work with energy, cycles, and the mysterious forces that govern life, connecting ancient wisdom with contemporary needs.
+                </p>
+            </div>
 
-        <p>
-          Sovereignty is the Queen's most essential virtue—the recognition that you are the ultimate authority in your
-          own life. True sovereignty is not about controlling others or external circumstances, but about owning your
-          power to choose your responses, your boundaries, and your path.
-        </p>
+            <!-- Magician Declarations -->
+            <div class="bg-indigo-50 p-6 rounded-lg mb-8">
+                <h3 class="title-font text-xl font-semibold text-indigo-800 mb-4">Mature Magician/Wise Woman Declarations</h3>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• I trust my intuition and inner knowing above all external authorities</li>
+                    <li>• I work with natural forces and cycles to create positive change</li>
+                    <li>• My wisdom comes from direct experience and deep study</li>
+                    <li>• I transform challenges into opportunities for growth and learning</li>
+                    <li>• I see beneath surface appearances to deeper truths</li>
+                    <li>• My abilities serve healing, growth, and the highest good</li>
+                    <li>• I am connected to ancient wisdom and contemporary insight</li>
+                    <li>• I embrace my power to influence reality through consciousness and action</li>
+                    <li>• I honor the mystery while seeking understanding</li>
+                    <li>• I use my gifts responsibly and ethically</li>
+                </ul>
+            </div>
 
-        <p>
-          The sovereign woman knows that her worth is inherent, not earned through others' approval. She makes decisions
-          from her own center, guided by her values and wisdom. She neither gives her power away nor tries to take power
-          from others, but stands in her own authority with grace and strength.
-        </p>
+            <!-- Manipulator Shadow -->
+            <div class="shadow-card bg-orange-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-orange-800 mb-4">Manipulator Shadow</h3>
+                <p class="mb-6">
+                    The Manipulator represents wisdom and insight used for selfish gain or control. She uses knowledge of human nature to manipulate others rather than to heal or serve, driven by ego, fear, or desire for control.
+                </p>
+                
+                <h4 class="font-semibold text-orange-700 mb-3">Balancing Practices:</h4>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• Regularly examine motivations—are you serving yourself or others?</li>
+                    <li>• Practice radical honesty about intentions and methods</li>
+                    <li>• Study ethics and commit to using gifts responsibly</li>
+                    <li>• Respect others' autonomy and right to make their own choices</li>
+                    <li>• Use insights to empower others, not control them</li>
+                </ul>
+            </div>
 
-        <p>
-          Sovereignty requires courage—the courage to disappoint others when necessary, to stand alone when needed, and
-          to trust your own judgment. It means taking full responsibility for your life while releasing the need to
-          control what is not yours to control.
-        </p>
+            <!-- Powerless Magician Shadow -->
+            <div class="shadow-card bg-red-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-red-800 mb-4">Powerless Wise Woman Shadow</h3>
+                <p class="mb-6">
+                    The Powerless Wise Woman represents denial or suppression of intuitive abilities. She has disconnected from inner wisdom, often due to fear, conditioning, or past trauma related to her power.
+                </p>
+                
+                <h4 class="font-semibold text-red-700 mb-3">Balancing Practices:</h4>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• Start a daily practice of meditation or quiet reflection</li>
+                    <li>• Keep a journal of intuitive impressions and their accuracy</li>
+                    <li>• Study with ethical teachers who honor your inner authority</li>
+                    <li>• Connect with nature regularly to strengthen intuitive abilities</li>
+                    <li>• Find supportive community of like-minded people</li>
+                </ul>
+            </div>
+        </section>
 
-        <p>
-          Developing sovereignty is a lifelong practice of coming home to yourself, honoring your truth, and creating
-          your life from authentic choice rather than reactive patterns or others' expectations.
-        </p>
-      </div>
+        <!-- Love Goddess Archetype -->
+        <section class="px-8 py-12 border-t border-gray-200">
+            <div class="archetype-card bg-pink-50 p-8 rounded-lg mb-12">
+                <h2 class="title-font text-3xl font-bold text-pink-800 mb-6">The Mature Love Goddess</h2>
+                <p class="text-lg mb-6">
+                    The Mature Love Goddess embodies the divine feminine power of love, sensuality, and creative life force. She represents the celebration of beauty and pleasure, understanding that the body and its desires can be expressions of the sacred when approached with wisdom and integrity.
+                </p>
+                <p class="text-lg">
+                    The Love Goddess knows that love and creativity are not opposites of spirituality but complementary aspects of the same life force. She celebrates authentic connection and understands that her capacity to love and create beauty is a gift to be shared wisely.
+                </p>
+            </div>
 
-      <div class="virtue-essay">
-        <h2>Nurturing Leadership</h2>
+            <!-- Love Goddess Declarations -->
+            <div class="bg-pink-50 p-6 rounded-lg mb-8">
+                <h3 class="title-font text-xl font-semibold text-pink-800 mb-4">Mature Love Goddess Declarations</h3>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• My body is sacred and deserves to be treated with respect and love</li>
+                    <li>• I celebrate healthy pleasure as a pathway to joy and connection</li>
+                    <li>• My capacity to love is infinite and transformative</li>
+                    <li>• I create beauty and joy wherever I go</li>
+                    <li>• I express my authentic self with confidence and grace</li>
+                    <li>• I give and receive love freely and with healthy boundaries</li>
+                    <li>• My creative energy flows from my connection to life force</li>
+                    <li>• I honor both passion and tenderness in all my relationships</li>
+                    <li>• I am worthy of love, joy, and beautiful experiences</li>
+                    <li>• My love heals and transforms whatever it touches</li>
+                </ul>
+            </div>
 
-        <p class="quote">
-          <em>"The best way to find out if you can trust somebody is to trust them."</em> - Ernest Hemingway
-        </p>
+            <!-- Addicted Lover Shadow -->
+            <div class="shadow-card bg-orange-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-orange-800 mb-4">Addicted Lover Shadow</h3>
+                <p class="mb-6">
+                    The Addicted Lover represents love and pleasure corrupted by compulsion and neediness. She seeks validation through relationships or experiences, often losing herself in the process and creating unhealthy dependencies.
+                </p>
+                
+                <h4 class="font-semibold text-orange-700 mb-3">Balancing Practices:</h4>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• Develop a strong sense of self independent of relationships</li>
+                    <li>• Practice delayed gratification and mindful pleasure</li>
+                    <li>• Seek therapy to address underlying emotional wounds</li>
+                    <li>• Cultivate non-romantic sources of joy and fulfillment</li>
+                    <li>• Learn to sit with difficult emotions without seeking escape</li>
+                </ul>
+            </div>
 
-        <p>
-          Nurturing leadership represents the Queen's unique gift—the ability to create environments where others can
-          flourish while maintaining clear direction and boundaries. Unlike dominating leadership that seeks to control,
-          nurturing leadership seeks to cultivate and support growth.
-        </p>
+            <!-- Disconnected Lover Shadow -->
+            <div class="shadow-card bg-red-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-red-800 mb-4">Disconnected Lover Shadow</h3>
+                <p class="mb-6">
+                    The Disconnected Lover represents the shutdown of love, pleasure, and creative life force. She has disconnected from her body, emotions, and capacity for joy, often due to trauma, shame, or cultural conditioning.
+                </p>
+                
+                <h4 class="font-semibold text-red-700 mb-3">Balancing Practices:</h4>
+                <ul class="space-y-2 text-gray-700">
+                    <li>• Start with small pleasures like beautiful music or nature</li>
+                    <li>• Practice body-positive activities like gentle movement or massage</li>
+                    <li>• Work with a therapist to heal shame and trauma</li>
+                    <li>• Gradually open to giving and receiving appropriate affection</li>
+                    <li>• Explore creative expression as a pathway to reconnection</li>
+                </ul>
+            </div>
+        </section>
 
-        <p>
-          The nurturing leader leads by example, showing others what's possible rather than demanding compliance. She
-          creates psychological safety where people can take risks, make mistakes, and learn. She sees the potential in
-          others and helps them develop it, while also maintaining high standards and clear expectations.
-        </p>
+        <!-- Virtue Essays -->
+        <section class="px-8 py-12 border-t border-gray-200">
+            <h2 class="title-font text-3xl font-bold text-center text-gray-800 mb-12">Essential Virtues</h2>
+            
+            <!-- Sovereignty -->
+            <div class="virtue-card bg-blue-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-blue-800 mb-4">Sovereignty</h3>
+                <p class="quote-style text-center text-gray-600 mb-6">
+                    No one can make you feel inferior without your consent. - Eleanor Roosevelt
+                </p>
+                <p class="text-lg leading-relaxed mb-4">
+                    Sovereignty is the Queen's most essential virtue—the recognition that you are the ultimate authority in your own life. True sovereignty is not about controlling others or external circumstances, but about owning your power to choose your responses, boundaries, and path.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    The sovereign woman knows that her worth is inherent, not earned through others' approval. She makes decisions from her own center, guided by her values and wisdom, taking full responsibility for her life while releasing the need to control what is not hers to control.
+                </p>
+            </div>
 
-        <p>
-          This style of leadership requires patience, wisdom, and the ability to see the bigger picture. The nurturing
-          leader knows when to step in and when to step back, when to support and when to challenge. She understands
-          that true power lies in empowering others.
-        </p>
+            <!-- Sacred Boundaries -->
+            <div class="virtue-card bg-green-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-green-800 mb-4">Sacred Boundaries</h3>
+                <p class="quote-style text-center text-gray-600 mb-6">
+                    Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing others. - Brené Brown
+                </p>
+                <p class="text-lg leading-relaxed mb-4">
+                    Sacred boundaries represent the Warrior/Huntress's essential skill—the ability to discern what belongs in your space and what doesn't. Boundaries are not walls that separate us from life, but sacred containers that allow us to show up authentically and sustainably.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    The woman who understands sacred boundaries knows that saying "no" to what doesn't serve is saying "yes" to what does. She recognizes that her energy is finite and precious, guarding it like the treasure it is without apologizing for her limits.
+                </p>
+            </div>
 
-        <p>
-          Nurturing leadership is particularly needed in our world today—leadership that values collaboration over
-          competition, growth over domination, and sustainable success over quick wins.
-        </p>
-      </div>
+            <!-- Intuitive Wisdom -->
+            <div class="virtue-card bg-purple-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-purple-800 mb-4">Intuitive Wisdom</h3>
+                <p class="quote-style text-center text-gray-600 mb-6">
+                    The intuitive mind is a sacred gift and the rational mind is a faithful servant. We have created a society that honors the servant and has forgotten the gift. - Albert Einstein
+                </p>
+                <p class="text-lg leading-relaxed mb-4">
+                    Intuitive wisdom represents the Magician/Wise Woman's greatest treasure—the ability to access knowledge that comes from beyond logical reasoning. This knowing arises from the deep feminine capacity to perceive patterns, energy, and truth not immediately obvious to rational analysis.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    The woman who cultivates intuitive wisdom learns to trust the subtle signals her body and psyche provide, paying attention to dreams, gut feelings, and synchronicities. She understands that intuition complements logic as a different way of knowing.
+                </p>
+            </div>
 
-      <div class="virtue-essay">
-        <h2>Creative Authority</h2>
+            <!-- Transformative Love -->
+            <div class="virtue-card bg-pink-50 p-8 rounded-lg mb-8">
+                <h3 class="title-font text-2xl font-semibold text-pink-800 mb-4">Transformative Love</h3>
+                <p class="quote-style text-center text-gray-600 mb-6">
+                    Being deeply loved by someone gives you strength, while loving someone deeply gives you courage. - Lao Tzu
+                </p>
+                <p class="text-lg leading-relaxed mb-4">
+                    Transformative love represents the Love Goddess's greatest gift—the ability to love in ways that heal, inspire, and create positive change. This goes beyond romantic love to include compassion, creativity, and the capacity to see beauty and potential in all things.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    The woman who embodies transformative love knows that love is not just a feeling but a force for healing and growth. She loves with wisdom and boundaries, understanding that true love sometimes requires difficult conversations or letting go.
+                </p>
+            </div>
+        </section>
 
-        <p class="quote">
-          <em>"The future belongs to those who believe in the beauty of their dreams."</em> - Eleanor Roosevelt
-        </p>
+        <!-- Integration Section -->
+        <section class="px-8 py-12 border-t border-gray-200 bg-gradient-to-r from-purple-50 to-pink-50">
+            <h2 class="title-font text-3xl font-bold text-center text-gray-800 mb-8">Integration and Balance</h2>
+            <div class="max-w-3xl mx-auto">
+                <p class="text-lg leading-relaxed mb-6">
+                    The journey of feminine awakening involves recognizing and integrating all four archetypes within yourself. Each woman carries the potential for all these expressions of feminine power, and wholeness comes from developing each archetype in its mature form while healing its shadow manifestations.
+                </p>
+                <p class="text-lg leading-relaxed mb-6">
+                    As you explore these archetypes, notice which ones feel most natural to you and which feel more challenging. Both your strengths and your growing edges offer valuable information about your path to wholeness.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    Remember that this is a lifelong journey of becoming. Be patient and compassionate with yourself as you learn to embody the full spectrum of feminine wisdom, power, and love that is your birthright.
+                </p>
+            </div>
+        </section>
 
-        <p>
-          Creative authority is the Queen's power to envision and manifest new realities. It's the recognition that life
-          is a creative act and that we are all artists painting our existence with the choices we make daily.
-        </p>
-
-        <p>
-          The woman who embodies creative authority doesn't wait for permission to create the life she envisions. She
-          understands that authority comes not from external validation but from her connection to the creative force of
-          life itself. She is both artist and art, creator and creation.
-        </p>
-
-        <p>
-          Creative authority requires both vision and practical action. It means dreaming boldly while also taking the
-          concrete steps to bring those dreams into reality. It involves trusting the creative process even when the
-          path isn't clear.
-        </p>
-
-        <p>
-          This virtue teaches us that we are not victims of circumstance but active participants in creating our
-          reality. Every woman has the authority to author her own story, to create beauty, meaning, and positive change
-          in the world.
-        </p>
-      </div>
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-8 px-8">
+            <div class="text-center">
+                <p class="text-lg mb-4 title-font">
+                    The Mature Feminine Archetypes
+                </p>
+                <p class="text-gray-300">
+                    A guide for awakening to your full feminine power and wisdom
+                </p>
+            </div>
+        </footer>
     </div>
-
-    <div class="archetype-section">
-      <h2>Mature Warrior/Huntress</h2>
-
-      <p>
-        The Mature Warrior/Huntress embodies focused feminine power in action—she who pursues her goals with fierce
-        determination, protects what is sacred, and faces challenges with courage and skill. She is the embodiment of
-        directed energy, protective instinct, and the willingness to fight for what matters most.
-      </p>
-
-      <p>
-        The Warrior/Huntress knows how to channel her aggression constructively, to set and maintain boundaries, and to
-        pursue her objectives with laser-like focus. She is strategic, disciplined, and unafraid of conflict when it
-        serves a higher purpose. Her strength is both physical and spiritual, and she uses it in service of protection,
-        justice, and achievement.
-      </p>
-
-      <div class="declarations">
-        <h3>Mature Warrior/Huntress Declarations</h3>
-        <ul>
-          <li>I channel my power with purpose and precision</li>
-          <li>I protect what is sacred with fierce determination</li>
-          <li>I face challenges with courage and strategic thinking</li>
-          <li>My boundaries are clear and I defend them when necessary</li>
-          <li>I pursue my goals with focused action and unwavering commitment</li>
-          <li>I transform obstacles into opportunities for growth</li>
-          <li>I fight for justice and stand up for those who cannot stand for themselves</li>
-          <li>My strength serves the highest good</li>
-          <li>I embrace healthy competition and challenge myself to excel</li>
-          <li>I am both fierce and compassionate, strong and wise</li>
-        </ul>
-      </div>
-
-      <div class="balance-info">
-        <strong>Balance:</strong> Mature Warrior/Huntress<br>
-        <strong>Shadow:</strong> Bully Warrior ←→ Victim Warrior<br>
-        <strong>Power Animal:</strong> Wolf, Hawk, Jaguar<br>
-        <strong>Qualities:</strong> Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled,
-        Competitive, Fierce
-      </div>
-
-      <h2>Bully Warrior</h2>
-
-      <p>
-        The Bully Warrior represents the active shadow of the Warrior/Huntress archetype—aggression without wisdom,
-        force without compassion. She uses her strength to dominate rather than protect, and her competitive spirit
-        becomes destructive rather than constructive. This shadow emerges when warrior energy is driven by ego, fear, or
-        unhealed wounds.
-      </p>
-
-      <p>
-        The Bully Warrior may be verbally aggressive, emotionally cruel, or physically intimidating. She sees life as a
-        zero-sum game where someone must lose for her to win. Her boundaries become weapons, and her strength becomes a
-        tool for causing harm rather than preventing it.
-      </p>
-
-      <div class="shadow-box">
-        <h3>Bully Warrior Shadow Declarations</h3>
-        <ul>
-          <li>Might makes right, and I will use my power to get what I want</li>
-          <li>Others are either allies or enemies—there is no middle ground</li>
-          <li>Showing mercy is showing weakness</li>
-          <li>I must win at all costs, regardless of who gets hurt</li>
-          <li>The world is dangerous and I must strike first</li>
-          <li>Compromise is for the weak</li>
-          <li>I have the right to punish those who cross me</li>
-          <li>Fear and respect are the same thing</li>
-          <li>Others must prove their worth to deserve my protection</li>
-          <li>My anger is always justified</li>
-        </ul>
-      </div>
-
-      <h3>Balancing the Bully Warrior</h3>
-      <ul>
-        <li>Pause before reacting and ask: "What am I really trying to protect?"</li>
-        <li>Practice channeling anger into constructive action rather than destructive attack</li>
-        <li>Develop empathy by considering others' perspectives and motivations</li>
-        <li>Learn conflict resolution skills that don't require domination</li>
-        <li>Find healthy outlets for competitive energy like sports or challenging goals</li>
-        <li>Practice apologizing when you've caused harm</li>
-        <li>Seek win-win solutions rather than zero-sum outcomes</li>
-        <li>Cultivate patience and learn to choose your battles wisely</li>
-        <li>Work with a therapist to heal underlying wounds driving the aggression</li>
-        <li>Study examples of warriors who fought for justice rather than personal gain</li>
-      </ul>
-
-      <div class="gift-box">
-        <h3>Gift of the Bully Warrior</h3>
-        <p>
-          The Bully Warrior's gift lies in her refusal to be pushed around and her willingness to fight when necessary.
-          When balanced, this energy becomes the ability to stand up to actual bullies and protect those who cannot
-          protect themselves. Her intensity can be channeled into passionate advocacy for important causes. She teaches
-          us that sometimes fierce action is necessary to create change.
-        </p>
-      </div>
-
-      <strong>Out of Balance:</strong> Aggressive, dominating, cruel, ruthless, quick-tempered, intimidating,
-      uncompromising, vengeful, zero-sum thinking, unable to collaborate
-
-      <strong>Bully Warrior Qualities:</strong> Aggressive, Dominating, Cruel, Ruthless, Hot-tempered, Intimidating,
-      Uncompromising, Vengeful, Competitive, Harsh
-
-      <h2>Victim Warrior</h2>
-
-      <p>
-        The Victim Warrior represents the passive shadow of the Warrior/Huntress archetype—the complete abandonment of
-        fighting spirit and personal power. She has either never accessed her warrior energy or has been so wounded by
-        conflict that she has shut down her ability to fight for herself or others.
-      </p>
-
-      <p>
-        The Victim Warrior avoids conflict at all costs, even when standing up for herself is necessary. She may be
-        paralyzed by fear, unable to set boundaries, or constantly looking for others to rescue her. She has forgotten
-        that she has any power to change her circumstances.
-      </p>
-
-      <div class="shadow-box">
-        <h3>Victim Warrior Shadow Declarations</h3>
-        <ul>
-          <li>I am powerless to change my circumstances</li>
-          <li>Fighting back will only make things worse</li>
-          <li>I need someone stronger to protect me</li>
-          <li>Conflict is too scary and dangerous to engage in</li>
-          <li>I always lose, so why try?</li>
-          <li>Other people are naturally stronger and braver than I am</li>
-          <li>It's safer to stay small and avoid attention</li>
-          <li>I don't deserve to have my needs met</li>
-          <li>Someone else should solve this problem for me</li>
-          <li>I am weak and that will never change</li>
-        </ul>
-      </div>
-
-      <h3>Balancing the Victim Warrior</h3>
-      <ul>
-        <li>Start with small acts of self-advocacy in low-stakes situations</li>
-        <li>Practice physical activities that build confidence in your body's strength</li>
-        <li>Learn assertiveness skills and practice them in safe environments</li>
-        <li>Identify your core values and what you're willing to fight for</li>
-        <li>Seek therapy to heal trauma that may be blocking your warrior energy</li>
-        <li>Find allies and supportive community to practice standing up with</li>
-        <li>Study examples of people who overcame similar challenges</li>
-        <li>Take self-defense classes or martial arts to reconnect with protective energy</li>
-        <li>Practice saying "no" and meaning it</li>
-        <li>Celebrate small victories and acknowledge your growing strength</li>
-      </ul>
-
-      <div class="gift-box">
-        <h3>Gift of the Victim Warrior</h3>
-        <p>
-          The Victim Warrior's gift lies in her deep compassion for suffering and her ability to recognize when others
-          are being harmed. She often has highly developed empathy and peacemaking skills. When balanced, this energy
-          becomes fierce protection for the vulnerable and the ability to fight injustice with both strength and heart.
-          She teaches us that true warriorship includes defending those who cannot defend themselves.
-        </p>
-      </div>
-
-      <strong>Out of Balance:</strong> Passive, fearful, helpless, avoiding conflict, unable to set boundaries, looking
-      for rescuers, self-defeating, paralyzed by fear, chronic victim mentality, giving up easily
-
-      <strong>Victim Warrior Qualities:</strong> Passive, Fearful, Helpless, Avoidant, Boundary-less, Dependent,
-      Self-defeating, Paralyzed, Victim-minded, Defeatist
-
-      <div class="virtue-essay">
-        <h2>Sacred Boundaries</h2>
-
-        <p class="quote">
-          <em>"Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing
-            others."</em>
-          - Brené Brown
-        </p>
-
-        <p>
-          Sacred boundaries represent the Warrior/Huntress's essential skill—the ability to discern what belongs in your
-          space and what doesn't, and to protect your energy, time, and wellbeing accordingly. Boundaries are not walls
-          that separate us from life, but sacred containers that allow us to show up authentically and sustainably.
-        </p>
-
-        <p>
-          The woman who understands sacred boundaries knows that saying "no" to what doesn't serve is saying "yes" to
-          what does. She recognizes that her energy is finite and precious, and she guards it like the treasure it is.
-          She doesn't apologize for her limits or feel guilty for enforcing them.
-        </p>
-
-        <p>
-          Sacred boundaries require both self-knowledge and courage—knowing what you need and being willing to protect
-          it even when others are disappointed or angry. They are acts of self-respect that teach others how to respect
-          us.
-        </p>
-
-        <p>
-          Healthy boundaries create space for authentic relationship and prevent the resentment that builds when we
-          consistently override our own needs. They are essential for maintaining the energy needed to serve our highest
-          purposes.
-        </p>
-      </div>
-
-      <div class="virtue-essay">
-        <h2>Focused Action</h2>
-
-        <p class="quote">
-          <em>"The successful warrior is the average woman with laser-like focus."</em> - Bruce Lee (adapted)
-        </p>
-
-        <p>
-          Focused action is the Warrior/Huntress's greatest strength—the ability to channel energy and attention toward
-          specific goals with unwavering determination. In a world full of distractions and competing demands, the
-          capacity for sustained focus becomes a superpower.
-        </p>
-
-        <p>
-          The woman who embodies focused action doesn't scatter her energy across multiple pursuits but chooses her
-          targets carefully and pursues them with intensity. She understands that depth is more valuable than breadth,
-          and that mastery requires sustained attention over time.
-        </p>
-
-        <p>
-          Focused action involves both the ability to concentrate and the discipline to say no to opportunities that
-          don't align with current priorities. It requires clear vision about what matters most and the courage to
-          sacrifice good opportunities for great ones.
-        </p>
-
-        <p>
-          This virtue teaches us that we can accomplish extraordinary things when we harness our energy and direct it
-          with purpose. Every woman has within her the capacity for laser-like focus when she connects with what truly
-          matters to her.
-        </p>
-      </div>
-
-      <div class="virtue-essay">
-        <h2>Protective Instinct</h2>
-
-        <p class="quote"><em>"A lioness has no time for the opinion of sheep."</em> - Unknown</p>
-
-        <p>
-          The protective instinct represents the Warrior/Huntress's noblest expression—the fierce drive to defend what
-          is sacred, vulnerable, or under threat. This goes beyond self-protection to include protection of family,
-          community, values, and those who cannot protect themselves.
-        </p>
-
-        <p>
-          The woman with a developed protective instinct recognizes that true strength is used in service of something
-          greater than oneself. She will fight fiercely when necessary but always with the goal of protection rather
-          than domination. Her aggression is purposeful and measured.
-        </p>
-
-        <p>
-          This instinct requires discernment—knowing when to fight and when to walk away, when protection is needed and
-          when interference would be harmful. It involves both the willingness to engage in conflict when necessary and
-          the wisdom to choose battles that truly matter.
-        </p>
-
-        <p>
-          The protective instinct connects us to our deepest values and gives us the courage to act on them even when
-          it's difficult or dangerous. It reminds us that we are part of a larger web of life and that our strength is
-          meant to serve the wellbeing of the whole.
-        </p>
-      </div>
-    </div>
-
-    <div class="archetype-section">
-      <h2>Mature Magician/Witch</h2>
-
-      <p>
-        The Mature Magician/Witch embodies transformative feminine power—she who works with the hidden forces of nature
-        and consciousness to create change, healing, and growth. She is the embodiment of wisdom, intuition, and the
-        ability to see beyond surface appearances into deeper truths. The Witch represents the independent feminine who
-        trusts her own knowing and works with natural and supernatural forces.
-      </p>
-
-      <p>
-        She is skilled in the arts of transformation, whether through ritual, healing, creative work, or deep
-        psychological insight. The Mature Witch knows how to work with energy, cycles, and the mysterious forces that
-        govern life. She is connected to ancient wisdom while remaining relevant to contemporary needs.
-      </p>
-
-      <div class="declarations">
-        <h3>Mature Magician/Witch Declarations</h3>
-        <ul>
-          <li>I trust my intuition and inner knowing above all external authorities</li>
-          <li>I work with natural forces and cycles to create positive change</li>
-          <li>My wisdom comes from direct experience and deep study</li>
-          <li>I transform challenges into opportunities for growth and learning</li>
-          <li>I see beneath surface appearances to deeper truths</li>
-          <li>My magic serves healing, growth, and the highest good</li>
-          <li>I am connected to ancient wisdom and contemporary insight</li>
-          <li>I embrace my power to influence reality through consciousness and action</li>
-          <li>I honor the mystery while seeking understanding</li>
-          <li>I use my gifts responsibly and ethically</li>
-        </ul>
-      </div>
-
-      <div class="balance-info">
-        <strong>Balance:</strong> Mature Magician/Witch<br>
-        <strong>Shadow:</strong> Manipulator Witch ←→ Powerless Witch<br>
-        <strong>Power Animal:</strong> Raven, Owl, Cat<br>
-        <strong>Qualities:</strong> Intuitive, Wise, Transformative, Independent, Mysterious, Healing, Insightful,
-        Connected, Ethical, Powerful
-      </div>
-
-      <h2>Manipulator Witch</h2>
-
-      <p>
-        The Manipulator Witch represents the active shadow of the Magician/Witch archetype—magical and psychological
-        power used for selfish gain, control, or harm. She uses her insights into human nature and energy to manipulate
-        others rather than to heal or serve. This shadow emerges when magical power is corrupted by ego, fear, or the
-        desire for control.
-      </p>
-
-      <p>
-        The Manipulator Witch may use emotional manipulation, psychological tactics, or claims of special knowledge to
-        gain power over others. She may present herself as a victim to gain sympathy or as supremely wise to gain
-        followers, all while serving her own agenda.
-      </p>
-
-      <div class="shadow-box">
-        <h3>Manipulator Witch Shadow Declarations</h3>
-        <ul>
-          <li>My knowledge and power make me superior to ordinary people</li>
-          <li>Others are tools to be used for my purposes</li>
-          <li>I deserve special treatment because of my gifts</li>
-          <li>The rules don't apply to me because I see deeper truths</li>
-          <li>I know what's best for others even if they don't realize it</li>
-          <li>My magical abilities justify any means to achieve my ends</li>
-          <li>People should pay me well for access to my wisdom</li>
-          <li>I can use emotional manipulation because I understand psychology</li>
-          <li>My insights give me the right to control others' choices</li>
-          <li>Ordinary morality is for those who lack true understanding</li>
-        </ul>
-      </div>
-
-      <h3>Balancing the Manipulator Witch</h3>
-      <ul>
-        <li>Regularly examine your motivations—are you serving yourself or others?</li>
-        <li>Practice radical honesty about your intentions and methods</li>
-        <li>Seek feedback from trusted friends about your behavior</li>
-        <li>Study ethics and commit to using your gifts responsibly</li>
-        <li>Practice asking for what you need directly rather than manipulating</li>
-        <li>Work on healing your own wounds rather than trying to fix others</li>
-        <li>Cultivate humility and remember that wisdom includes knowing your limits</li>
-        <li>Respect others' autonomy and right to make their own choices</li>
-        <li>Use your insights to empower others, not to control them</li>
-        <li>Practice service without expecting anything in return</li>
-      </ul>
-
-      <div class="gift-box">
-        <h3>Gift of the Manipulator Witch</h3>
-        <p>
-          The Manipulator Witch's gift lies in her deep understanding of human psychology and energy dynamics. When
-          balanced, this becomes the ability to see through deception, understand complex motivations, and help others
-          recognize patterns that keep them stuck. Her strategic thinking can be invaluable in creating positive change.
-          She teaches us to be discerning about others' motivations while examining our own.
-        </p>
-      </div>
-
-      <strong>Out of Balance:</strong> Manipulative, controlling, deceptive, exploitative, superiority complex,
-      unethical, using gifts for personal gain, emotionally manipulative, playing victim, disrespecting others' autonomy
-
-      <strong>Manipulator Witch Qualities:</strong> Manipulative, Controlling, Deceptive, Exploitative, Superior,
-      Unethical, Self-serving, Emotionally abusive, Victim-playing, Boundary-violating
-
-      <h2>Powerless Witch</h2>
-
-      <p>
-        The Powerless Witch represents the passive shadow of the Magician/Witch archetype—the denial or suppression of
-        magical and intuitive abilities. She has disconnected from her inner wisdom, often due to fear, conditioning, or
-        past trauma related to her power. She may have been shamed for her intuitive abilities or taught that such
-        things are dangerous or foolish.
-      </p>
-
-      <p>
-        The Powerless Witch often knows she has gifts but is afraid to use them. She may be overwhelmed by her
-        sensitivity or unsure how to manage her abilities. She gives her power away to external authorities and doubts
-        her own knowing.
-      </p>
-
-      <div class="shadow-box">
-        <h3>Powerless Witch Shadow Declarations</h3>
-        <ul>
-          <li>I can't trust my intuition—it might be wrong</li>
-          <li>My abilities are probably just imagination</li>
-          <li>It's safer to ignore my psychic impressions</li>
-          <li>Others know more about spirituality than I do</li>
-          <li>I need external validation for my experiences</li>
-          <li>I'm too sensitive and it's a burden</li>
-          <li>My gifts are too scary or dangerous to use</li>
-          <li>I don't deserve to have magical abilities</li>
-          <li>I need someone else to interpret my experiences for me</li>
-          <li>I should hide my true nature to fit in</li>
-        </ul>
-      </div>
-
-      <h3>Balancing the Powerless Witch</h3>
-      <ul>
-        <li>Start a daily practice of meditation or quiet reflection</li>
-        <li>Keep a journal of intuitive impressions and their accuracy</li>
-        <li>Study with ethical teachers who honor your own inner authority</li>
-        <li>Practice small acts of magic like setting intentions or working with crystals</li>
-        <li>Connect with nature regularly to strengthen your intuitive abilities</li>
-        <li>Find supportive community of like-minded people</li>
-        <li>Work with a therapist to heal wounds around your gifts</li>
-        <li>Set boundaries with people who dismiss or mock your abilities</li>
-        <li>Start with low-risk ways of sharing your insights</li>
-        <li>Study the history of wise women and witches to reclaim positive associations</li>
-      </ul>
-
-      <div class="gift-box">
-        <h3>Gift of the Powerless Witch</h3>
-        <p>
-          The Powerless Witch's gift lies in her humility and her careful approach to power. She often has deep empathy
-          and is highly attuned to others' needs. When balanced, this energy becomes wise discernment about when and how
-          to use magical abilities. Her caution can prevent the misuse of power. She teaches us to approach our gifts
-          with respect and responsibility.
-        </p>
-      </div>
-
-      <strong>Out of Balance:</strong> Self-doubting, hiding abilities, seeking external validation, overwhelmed by
-      sensitivity, afraid of power, giving authority away, suppressing intuition, playing small, denying gifts,
-      conforming to others' expectations
-
-      <strong>Powerless Witch Qualities:</strong> Self-doubting, Hiding, Validation-seeking, Overwhelmed, Afraid,
-      Submissive, Suppressed, Conforming, Denying, Small
-
-      <div class="virtue-essay">
-        <h2>Intuitive Wisdom</h2>
-
-        <p class="quote">
-          <em>"The intuitive mind is a sacred gift and the rational mind is a faithful servant. We have created a society
-            that honors the servant and has forgotten the gift."</em>
-          - Albert Einstein
-        </p>
-
-        <p>
-          Intuitive wisdom represents the Magician/Witch's greatest treasure—the ability to access knowledge that comes
-          from beyond logical reasoning. This is the knowing that arises from the deep feminine capacity to perceive
-          patterns, energy, and truth that may not be immediately obvious to rational analysis.
-        </p>
-
-        <p>
-          The woman who cultivates intuitive wisdom learns to trust the subtle signals her body and psyche provide. She
-          pays attention to her dreams, her gut feelings, and the synchronicities that appear in her life. She
-          understands that intuition is not opposed to logic but is a different way of knowing that can complement and
-          inform rational thinking.
-        </p>
-
-        <p>
-          Developing intuitive wisdom requires patience, practice, and the courage to trust what you perceive even when
-          others cannot see it. It involves creating quiet space in your life where subtle impressions can be heard
-          above the noise of daily concerns.
-        </p>
-
-        <p>
-          This wisdom reminds us that we have access to vast sources of knowledge and guidance if we learn to listen.
-          Every woman carries within her an inner oracle capable of profound insight when properly cultivated and
-          honored.
-        </p>
-      </div>
-
-      <div class="virtue-essay">
-        <h2>Transformative Power</h2>
-
-        <p class="quote">
-          <em>"Magic is believing in yourself, if you can do that, you can make anything happen."</em> - Johann Wolfgang
-          von Goethe
-        </p>
-
-        <p>
-          Transformative power is the Magician/Witch's essential skill—the ability to work with energy and consciousness
-          to create change in both inner and outer worlds. This is not fantasy magic but the very real capacity to
-          influence reality through focused intention, ritual, and aligned action.
-        </p>
-
-        <p>
-          The woman who understands transformative power knows that change begins in consciousness and then manifests in
-          the physical world. She works with visualization, affirmation, ritual, and other practices that bridge the gap
-          between intention and reality. She understands that she is a co-creator with life itself.
-        </p>
-
-        <p>
-          This power requires both vision and practical action. It's not enough to simply visualize what you want—you
-          must also take concrete steps to bring your vision into reality. The magic lies in the combination of inner
-          work and outer action, spirit and matter working together.
-        </p>
-
-        <p>
-          Transformative power reminds us that we are not passive victims of circumstance but active participants in
-          creating our reality. Every woman has within her the ability to transform her life and contribute to positive
-          change in the world.
-        </p>
-      </div>
-
-      <div class="virtue-essay">
-        <h2>Sacred Independence</h2>
-
-        <p class="quote"><em>"The privilege of a lifetime is being who you are."</em> - Joseph Campbell</p>
-
-        <p>
-          Sacred independence represents the Magician/Witch's commitment to authentic selfhood—the refusal to conform to
-          others' expectations when they conflict with inner truth. This is not selfish isolation but the recognition
-          that you must be true to yourself in order to serve others authentically.
-        </p>
-
-        <p>
-          The woman who embodies sacred independence trusts her own experience and judgment above external authorities.
-          She may seek guidance and input from others, but the final decisions about her life remain her own. She is
-          willing to be different, unusual, or misunderstood if that's what authenticity requires.
-        </p>
-
-        <p>
-          Sacred independence requires courage because it often means walking a path that others don't understand or
-          approve of. It involves being willing to be alone rather than compromising your essential nature to fit in or
-          gain approval.
-        </p>
-
-        <p>
-          This virtue teaches us that true service to others begins with being genuine ourselves. We cannot give what we
-          do not have, and we cannot guide others to authenticity if we have abandoned our own truth. Sacred
-          independence is ultimately a gift to the world.
-        </p>
-      </div>
-    </div>
-
-    <div class="archetype-section">
-      <h2>Mature Sacred Whore/Love Goddess</h2>
-
-      <p>
-        The Mature Sacred Whore/Love Goddess embodies the divine feminine power of love, sensuality, and creative life
-        force. She represents sacred sexuality, the celebration of beauty and pleasure, and the understanding that the
-        body and its desires are holy. She is the embodiment of joy, creativity, and the life-affirming power of love in
-        all its forms.
-      </p>
-
-      <p>
-        The Sacred Whore/Love Goddess knows that sexuality and spirituality are not opposites but complementary aspects
-        of the same life force. She celebrates pleasure as a pathway to the divine and understands that her capacity to
-        love and create beauty is a sacred gift to be shared with the world.
-      </p>
-
-      <div class="declarations">
-        <h3>Mature Sacred Whore/Love Goddess Declarations</h3>
-        <ul>
-          <li>My body is sacred and my sensuality is a divine gift</li>
-          <li>I celebrate pleasure as a pathway to spiritual connection</li>
-          <li>My capacity to love is infinite and transformative</li>
-          <li>I create beauty and joy wherever I go</li>
-          <li>My sexuality is my own and I express it authentically</li>
-          <li>I give and receive love freely and without conditions</li>
-          <li>My creative energy flows from my connection to life force</li>
-          <li>I honor both passion and tenderness in all my relationships</li>
-          <li>I am worthy of love, pleasure, and beautiful experiences</li>
-          <li>My love heals and transforms whatever it touches</li>
-        </ul>
-      </div>
-
-      <div class="balance-info">
-        <strong>Balance:</strong> Mature Sacred Whore/Love Goddess<br>
-        <strong>Shadow:</strong> Addicted Lover ←→ Disconnected Lover<br>
-        <strong>Power Animal:</strong> Dove, Dolphin, Butterfly<br>
-        <strong>Qualities:</strong> Loving, Sensual, Creative, Joyful, Beautiful, Healing, Passionate, Generous,
-        Connected, Life-affirming
-      </div>
-
-      <h2>Addicted Lover</h2>
-
-      <p>
-        The Addicted Lover represents the active shadow of the Sacred Whore/Love Goddess archetype—love and pleasure
-        pursued compulsively as an escape from deeper pain or emptiness. She uses romance, sexuality, or beauty
-        obsessively to fill an inner void that cannot be filled from outside sources.
-      </p>
-
-      <p>
-        The Addicted Lover may be addicted to the high of new romance, to sexual conquest, to being desired, or to the
-        drama of passionate relationships. She confuses intensity with intimacy and often creates chaos in her pursuit
-        of love and pleasure.
-      </p>
-
-      <div class="shadow-box">
-        <h3>Addicted Lover Shadow Declarations</h3>
-        <ul>
-          <li>I need constant romantic excitement to feel alive</li>
-          <li>My worth depends on being desired by others</li>
-          <li>I cannot be happy or complete without a partner</li>
-          <li>More pleasure will eventually fill this emptiness inside me</li>
-          <li>I must be the most beautiful/desirable woman in the room</li>
-          <li>Intense passion is more important than stable love</li>
-          <li>I will do anything to avoid being alone</li>
-          <li>My sexuality is my primary source of power</li>
-          <li>If someone doesn't want me, there must be something wrong with me</li>
-          <li>I need external validation to feel good about myself</li>
-        </ul>
-      </div>
-
-      <h3>Balancing the Addicted Lover</h3>
-      <ul>
-        <li>Practice spending time alone and learning to enjoy your own company</li>
-        <li>Develop sources of self-worth beyond romantic relationships</li>
-        <li>Work with a therapist to heal underlying wounds driving the addiction</li>
-        <li>Practice mindful pleasure—fully experiencing simple joys without excess</li>
-        <li>Cultivate friendships and family relationships alongside romantic ones</li>
-        <li>Learn to sit with difficult emotions without immediately seeking distraction</li>
-        <li>Develop a spiritual practice that connects you to love beyond human relationships</li>
-        <li>Practice setting boundaries in romantic relationships</li>
-        <li>Focus on giving love rather than just receiving it</li>
-        <li>Work on healing your relationship with your own body and sexuality</li>
-      </ul>
-
-      <div class="gift-box">
-        <h3>Gift of the Addicted Lover</h3>
-        <p>
-          The Addicted Lover's gift lies in her deep appreciation for beauty, love, and pleasure. She reminds us of the
-          importance of passion and joy in life. When balanced, this energy becomes the ability to fully experience and
-          create beautiful moments. Her intensity can inspire others to open their hearts. She teaches us that the
-          desire for love is natural and sacred.
-        </p>
-      </div>
-
-      <strong>Out of Balance:</strong> Compulsive, needy, drama-creating, validation-seeking, unable to be alone, using
-      sexuality manipulatively, addicted to romance, intense but unstable, confusing intensity with intimacy, dependent
-      on others for self-worth
-
-      <strong>Addicted Lover Qualities:</strong> Compulsive, Needy, Drama-creating, Validation-seeking, Codependent,
-      Manipulative, Romance-addicted, Intense, Unstable, Self-worth dependent
-
-      <h2>Disconnected Lover</h2>
-
-      <p>
-        The Disconnected Lover represents the passive shadow of the Sacred Whore/Love Goddess archetype—the shutting
-        down of the heart, body, and capacity for pleasure. She has disconnected from her sensual and emotional nature,
-        often due to trauma, shame, or cultural conditioning that taught her that her desires were dangerous or wrong.
-      </p>
-
-      <p>
-        The Disconnected Lover may be sexually shut down, emotionally unavailable, or unable to receive or give love
-        freely. She has built walls around her heart and body to protect herself but has also cut herself off from
-        life's joys and connections.
-      </p>
-
-      <div class="shadow-box">
-        <h3>Disconnected Lover Shadow Declarations</h3>
-        <ul>
-          <li>Love is too dangerous and always leads to pain</li>
-          <li>My body and its desires cannot be trusted</li>
-          <li>It's safer to keep people at a distance</li>
-          <li>Pleasure is selfish and I don't deserve it</li>
-          <li>Sex is something to be endured, not enjoyed</li>
-          <li>I don't need anyone and I'm better off alone</li>
-          <li>Emotional connection makes me too vulnerable</li>
-          <li>My heart has been broken too many times to risk again</li>
-          <li>Beauty and romance are superficial distractions</li>
-          <li>I can't trust my feelings or desires</li>
-        </ul>
-      </div>
-
-      <h3>Balancing the Disconnected Lover</h3>
-      <ul>
-        <li>Start with small acts of self-care and pleasure</li>
-        <li>Practice reconnecting with your body through gentle movement or massage</li>
-        <li>Work with a therapist to heal sexual or emotional trauma</li>
-        <li>Begin with safe, low-risk emotional connections</li>
-        <li>Practice expressing feelings through art, writing, or movement</li>
-        <li>Cultivate appreciation for beauty in nature, art, or music</li>
-        <li>Start with platonic physical affection like hugs from trusted friends</li>
-        <li>Practice receiving compliments and gifts gracefully</li>
-        <li>Explore what brings you joy without judgment</li>
-        <li>Challenge beliefs about desire, pleasure, and love being wrong or dangerous</li>
-      </ul>
-
-      <div class="gift-box">
-        <h3>Gift of the Disconnected Lover</h3>
-        <p>
-          The Disconnected Lover's gift lies in her capacity for independence and her strong boundaries. She often has
-          developed other aspects of herself like intellect or achievement. When balanced, this energy becomes the
-          ability to love without losing oneself and to maintain healthy autonomy within relationships. She teaches us
-          that self-protection can be wise and that love must include respect for boundaries.
-        </p>
-      </div>
-
-      <strong>Out of Balance:</strong> Emotionally shut down, sexually disconnected, unable to receive love, overly
-      independent, afraid of intimacy, pleasure-denying, heart-closed, trust issues, avoiding vulnerability,
-    <div class="archetype-section">
-      <h2>Mature Weaver/Community Goddess</h2>
-
-      <p>
-        The Mature Weaver/Community Goddess embodies sacred interdependence—she who understands that true strength comes not from independence or dependence, but from healthy interconnection with others. She is the embodiment of collaboration, mutual support, and the recognition that we are all threads in the great web of existence.
-      </p>
-
-      <p>
-        The Weaver knows that she is both complete in herself and enriched by authentic connection with others. She can give and receive support gracefully, knowing when to lean on others and when to stand strong for them. She creates and maintains the bonds that hold communities together while honoring each person's unique gifts and autonomy.
-      </p>
-
-      <div class="declarations">
-        <h3>Mature Weaver/Community Goddess Declarations</h3>
-        <ul>
-          <li>I am whole in myself and enriched by authentic connection with others</li>
-          <li>I give and receive support with equal grace and gratitude</li>
-          <li>My strength is multiplied when combined with others' strengths</li>
-          <li>I honor both independence and interdependence as sacred</li>
-          <li>I create bonds that support growth and freedom for all</li>
-          <li>I know when to lead, when to follow, and when to walk beside</li>
-          <li>My community is strengthened by our diversity and unity</li>
-          <li>I trust in the wisdom of collective collaboration</li>
-          <li>I weave connections that heal and empower</li>
-          <li>I am both teacher and student in all my relationships</li>
-        </ul>
-      </div>
-
-      <div class="balance-info">
-        <strong>Balance:</strong> Mature Weaver/Community Goddess<br>
-        <strong>Shadow:</strong> Fiercely Independent ←→ Codependent<br>
-        <strong>Power Animal:</strong> Spider, Bee, Wolf Pack<br>
-        <strong>Qualities:</strong> Collaborative, Supportive, Connected, Wise, Balanced, Inclusive, Nurturing relationships, Bridge-building, Reciprocal, Community-minded
-      </div>
-
-      <h2>Fiercely Independent</h2>
-
-      <p>
-        The Fiercely Independent represents the active shadow of the Weaver archetype—the rejection of interdependence in favor of isolated self-reliance. She has closed her heart to genuine connection and support, often due to past betrayals or a cultural conditioning that equates needing others with weakness. She prides herself on never needing anyone.
-      </p>
-
-      <p>
-        The Fiercely Independent may appear strong on the surface, but her isolation is actually a form of spiritual and emotional poverty. She cuts herself off from the richness of authentic relationship and the strength that comes from true collaboration and mutual support.
-      </p>
-
-      <div class="shadow-box">
-        <h3>Fiercely Independent Shadow Declarations</h3>
-        <ul>
-          <li>I don't need anyone—I can do everything myself</li>
-          <li>Asking for help is a sign of weakness</li>
-          <li>People always let you down in the end</li>
-          <li>I'm stronger when I'm alone</li>
-          <li>Depending on others makes you vulnerable</li>
-          <li>I can't trust anyone to do things as well as I can</li>
-          <li>Needing others is pathetic and weak</li>
-          <li>I'm better off without the complications of relationships</li>
-          <li>Everyone has an agenda—it's safer to stay disconnected</li>
-          <li>I don't need men, women, or anyone else to complete me</li>
-        </ul>
-      </div>
-
-      <h3>Balancing the Fiercely Independent</h3>
-      <ul>
-        <li>Practice asking for help with small, low-risk requests</li>
-        <li>Challenge the belief that needing others equals weakness</li>
-        <li>Notice and appreciate when others offer support or assistance</li>
-        <li>Practice expressing gratitude for what others contribute to your life</li>
-        <li>Explore the wounds that created your need to be completely self-reliant</li>
-        <li>Start with one trusted person and practice vulnerability gradually</li>
-        <li>Recognize that isolation is actually a form of spiritual poverty</li>
-        <li>Study examples of healthy interdependence in nature and human communities</li>
-        <li>Practice collaboration on projects where mutual support creates better outcomes</li>
-        <li>Allow yourself to receive care and support without immediately reciprocating</li>
-      </ul>
-
-      <div class="gift-box">
-        <h3>Gift of the Fiercely Independent</h3>
-        <p>
-          The Fiercely Independent's gift lies in her self-reliance and ability to stand alone when necessary. She has developed strong personal resources and doesn't collapse when others are unavailable. When balanced, this energy becomes the ability to bring your whole self to relationships without losing your identity. Her independence can inspire others to develop their own strength. She teaches us that we must first be complete in ourselves before we can truly connect with others.
-        </p>
-      </div>
-
-      <strong>Out of Balance:</strong> Isolated, refusing help, prideful self-reliance, unable to trust, cutting off support, doing everything alone, rejecting community, suspicious of others' motives, lonely but denying it, building walls instead of bridges
-
-      <strong>Fiercely Independent Qualities:</strong> Isolated, Help-refusing, Prideful, Mistrustful, Self-reliant to a fault, Community-rejecting, Suspicious, Wall-building, Lonely, Disconnected
-
-      <h2>Codependent</h2>
-
-      <p>
-        The Codependent represents the passive shadow of the Weaver archetype—the loss of self in relationships and the inability to function without others' constant support and validation. She has no sense of her own identity separate from her relationships and believes she cannot survive or thrive on her own.
-      </p>
-
-      <p>
-        The Codependent gives compulsively to others not from genuine love but from a desperate need to be needed. She enables dysfunction in others and loses herself in trying to fix, save, or control those around her. Her connections are based on neediness rather than authentic care.
-      </p>
-
-      <div class="shadow-box">
-        <h3>Codependent Shadow Declarations</h3>
-        <ul>
-          <li>I can't function without someone to take care of me</li>
-          <li>My worth comes from how much others need me</li>
-          <li>I don't know who I am without my relationships</li>
-          <li>I must keep everyone happy or they'll leave me</li>
-          <li>I can't make important decisions on my own</li>
-          <li>If I'm not helping someone, I have no value</li>
-          <li>I need constant reassurance that I'm loved</li>
-          <li>I can't survive being alone</li>
-          <li>Other people's problems are more important than my own</li>
-          <li>I don't have what it takes to handle life by myself</li>
-        </ul>
-      </div>
-
-      <h3>Balancing the Codependent</h3>
-      <ul>
-        <li>Practice spending time alone and learning to enjoy your own company</li>
-        <li>Identify your own needs, wants, and opinions separate from others'</li>
-        <li>Set boundaries about what you will and won't do for others</li>
-        <li>Stop trying to fix or save other people</li>
-        <li>Develop hobbies and interests that are yours alone</li>
-        <li>Practice making decisions without consulting others first</li>
-        <li>Work with a therapist to understand the roots of your codependency</li>
-        <li>Learn to tolerate others' disappointment when you set boundaries</li>
-        <li>Practice asking for what you need instead of hinting or manipulating</li>
-        <li>Develop a sense of self-worth based on who you are, not what you do for others</li>
-      </ul>
-
-      <div class="gift-box">
-        <h3>Gift of the Codependent</h3>
-        <p>
-          The Codependent's gift lies in her deep empathy and her ability to sense others' needs. She often has highly developed nurturing and caregiving skills. When balanced, this energy becomes the ability to offer genuine support and care without losing herself. Her sensitivity can be a great asset in building meaningful connections. She teaches us the importance of caring for others and the value of mutual support.
-        </p>
-      </div>
-
-      <strong>Out of Balance:</strong> Enmeshed, no personal boundaries, people-pleasing, enabling dysfunction, can't be alone, seeks constant validation, gives compulsively, fixes others, no separate identity, afraid of abandonment
-
-      <strong>Codependent Qualities:</strong> Enmeshed, Boundary-less, People-pleasing, Enabling, Validation-seeking, Compulsive giver, Fixer, Identity-less, Abandonment-fearing, Needy
-
-      <div class="virtue-essay">
-        <h2>Sacred Interdependence</h2>
-
-        <p class="quote">
-          <em>"We are all just walking each other home."</em> - Ram Dass
-        </p>
-
-        <p>
-          Sacred interdependence represents the Weaver's essential wisdom—the recognition that we are simultaneously individual and interconnected, autonomous and relational. This is the understanding that true strength comes not from complete independence or total dependence, but from the dynamic balance of being whole in ourselves while remaining open to authentic connection and mutual support.
-        </p>
-
-        <p>
-          The woman who embodies sacred interdependence knows that asking for help is not weakness but wisdom. She understands that we all have different gifts and that sharing these gifts creates abundance for everyone. She can receive support gracefully and offer it generously without keeping score.
-        </p>
-
-        <p>
-          Sacred interdependence requires both strong personal boundaries and an open heart. It means knowing where you end and others begin while also recognizing that we are all part of the same larger web of existence. It involves being able to stand alone when necessary and reach out for connection when that serves.
-        </p>
-
-        <p>
-          This virtue teaches us that community and individuality are not opposites but complementary aspects of human thriving. When we embrace sacred interdependence, we create relationships and communities that support everyone's growth and authentic expression.
-        </p>
-      </div>
-
-      <div class="virtue-essay">
-        <h2>Collaborative Wisdom</h2>
-
-        <p class="quote">
-          <em>"If you want to go fast, go alone. If you want to go far, go together."</em> - African Proverb
-        </p>
-
-        <p>
-          Collaborative wisdom is the Weaver's practical skill—the ability to work with others in ways that honor everyone's contributions while achieving shared goals. This goes beyond mere cooperation to true collaboration where the collective outcome is greater than the sum of individual efforts.
-        </p>
-
-        <p>
-          The woman who embodies collaborative wisdom knows how to listen deeply, build on others' ideas, and create space for different perspectives and approaches. She understands that conflict can be creative when handled skillfully and that diversity of thought and experience strengthens any endeavor.
-        </p>
-
-        <p>
-          Collaborative wisdom requires both humility and confidence—the humility to know that others have valuable insights and the confidence to contribute your own gifts. It involves being willing to share credit and take responsibility, to lead when appropriate and follow when that serves.
-        </p>
-
-        <p>
-          This virtue reminds us that many of humanity's greatest achievements have come through collaboration rather than individual effort. When we develop collaborative wisdom, we become capable of creating solutions and innovations that none of us could achieve alone.
-        </p>
-      </div>
-
-      <div class="virtue-essay">
-        <h2>Community Building</h2>
-
-        <p class="quote">
-          <em>"A community is like a ship; everyone ought to be prepared to take the helm."</em> - Henrik Ibsen
-        </p>
-
-        <p>
-          Community building represents the Weaver's gift to the world—the ability to create and maintain the connections that allow groups of people to thrive together. This is not just about organizing events or bringing people together, but about creating the conditions where authentic relationships can form and flourish.
-        </p>
-
-        <p>
-          The woman who excels at community building understands that healthy communities require both structure and flexibility, both individual expression and shared values. She knows how to hold space for different personalities and perspectives while maintaining the bonds that keep the community coherent.
-        </p>
-
-        <p>
-          Community building requires patience, vision, and the ability to see potential in people and situations. It involves creating opportunities for people to connect, contribute, and grow together. It means being willing to do the behind-the-scenes work that makes community possible.
-        </p>
-
-        <p>
-          This virtue teaches us that we all need belonging and that creating communities where people can be authentic and supported is one of the most important works we can do. Strong communities are the foundation of resilient societies and fulfilled individual lives.
-        </p>
-      </div>
-    </div>
-      self-isolating
-
-      <strong>Disconnected Lover Qualities:</strong> Shut down, Sexually disconnected, Unable to receive, Overly
-      independent, Intimacy-phobic, Pleasure-denying, Heart-closed, Mistrustful, Vulnerability-avoiding, Isolated
-
-      <div class="virtue-essay">
-        <h2>Sacred Sensuality</h2>
-
-        <p class="quote">
-          <em>"The body benefits from movement, and the soul benefits from stillness, but both benefit from the sacred
-            dance of sensual awakening."</em>
-          - Rumi (adapted)
-        </p>
-
-        <p>
-          Sacred sensuality represents the Love Goddess's essential gift—the recognition that the body and its pleasures
-          are not obstacles to spiritual development but pathways to it. This is the understanding that sensuality, when
-          approached with consciousness and reverence, connects us to the divine life force that flows through all
-          creation.
-        </p>
-
-        <p>
-          The woman who embodies sacred sensuality appreciates beauty, texture, taste, scent, and touch as doorways to
-          presence and joy. She understands that pleasure is not selfish indulgence but a way of honoring the gift of
-          embodied life. She brings consciousness to her sensual experiences, whether it's savoring a meal, feeling
-          fabric against her skin, or making love.
-        </p>
-
-        <p>
-          Sacred sensuality requires both openness and discernment—the ability to receive pleasure while also choosing
-          what truly nourishes and honors the body and soul. It involves healing from shame and reconnecting with the
-          body's natural wisdom about what feels good and what doesn't.
-        </p>
-
-        <p>
-          This virtue reminds us that we are spiritual beings having a human experience, and that experience is meant to
-          be rich, full, and pleasurable. Sacred sensuality is a form of embodied prayer and a celebration of the
-          goodness of creation.
-        </p>
-      </div>
-
-      <div class="virtue-essay">
-        <h2>Unconditional Love</h2>
-
-        <p class="quote">
-          <em>"Being deeply loved by someone gives you strength, while loving someone deeply gives you courage."</em> -
-          Lao Tzu
-        </p>
-
-        <p>
-          Unconditional love is the Love Goddess's highest expression—the capacity to love without agenda, conditions,
-          or expectations of return. This is not the naive love that accepts harmful behavior, but the mature love that
-          sees through surface appearances to the essential worth of every being.
-        </p>
-
-        <p>
-          The woman who embodies unconditional love has healed her own wounds enough to love from fullness rather than
-          neediness. She can offer love without trying to control the outcome or change the other person. Her love is a
-          gift freely given, not a transaction or manipulation.
-        </p>
-
-        <p>
-          Unconditional love begins with loving oneself—accepting your own flaws and humanity with compassion. From this
-          foundation of self-love, you can offer authentic love to others without depleting yourself or becoming
-          codependent.
-        </p>
-
-        <p>
-          This virtue teaches us that love is the fundamental force of creation and healing. When we align with
-          unconditional love, we become conduits for the most transformative power in the universe. This love can heal
-          wounds, bridge differences, and create miracles in everyday life.
-        </p>
-      </div>
-
-      <div class="virtue-essay">
-        <h2>Creative Life Force</h2>
-
-        <p class="quote">
-          <em>"Creativity is the natural order of life. Life is energy: pure creative energy."</em> - Julia Cameron
-        </p>
-
-        <p>
-          Creative life force represents the Love Goddess's power to birth new realities—whether through artistic
-          expression, business innovation, child-bearing, or any act that brings something new into the world. This is
-          the recognition that creativity and sexuality spring from the same source and that every woman is inherently
-          creative.
-        </p>
-
-        <p>
-          The woman who channels creative life force understands that she is connected to the same energy that creates
-          galaxies and grows flowers. She trusts the creative process even when she doesn't know where it's leading. She
-          allows ideas, inspirations, and innovations to flow through her without trying to control them completely.
-        </p>
-
-        <p>
-          Creative life force requires both receptivity and action—the ability to receive inspiration and the
-          willingness to work with it to bring it into form. It involves trusting the mysterious process by which new
-          things come into being through us.
-        </p>
-
-        <p>
-          This virtue reminds us that we are all artists in the medium of life itself. Every choice we make, every
-          relationship we nurture, every problem we solve is an act of creation. When we align with creative life force,
-          our whole life becomes a work of art and a gift to the world.
-        </p>
-      </div>
-    </div>
-
-    <p class="quote">
-      <em>"A woman who is willing to be herself and pursue her own potential runs not so much the risk of loneliness as
-        the challenge of exposure to more interesting men—and people in general."</em>
-      - Lorraine Hansberry
-    </p>
-
-    <p>
-      The journey through the feminine archetypes is a path of remembering—remembering the fullness of feminine power,
-      wisdom, and creative potential that has always existed within us. Each archetype offers both gifts to cultivate
-      and shadows to integrate. The mature feminine embraces all aspects of herself, transforming what has been wounded
-      into wisdom and what has been suppressed into strength.
-    </p>
-
-    <p>
-      As you work with these archetypes, remember that the goal is not perfection but wholeness. Each woman will
-      resonate more strongly with certain archetypes while finding others more challenging. This is natural and part of
-      your unique journey toward authentic feminine expression.
-    </p>
-
-    <p>
-      The mature feminine archetypes call us to reclaim our power, trust our wisdom, and express our gifts fully in
-      service of life itself. They remind us that we are not broken and in need of fixing, but whole beings capable of
-      profound transformation and contribution to the world.
-    </p>
-
-    <p>
-      May you walk in the wisdom of the Queen, the courage of the Warrior, the magic of the Witch, and the love of the
-      Goddess. The world needs your unique expression of the sacred feminine.
-    </p>
-  
-
-</body></html>
+<script defer="" src="./source2_files/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;9727d9d09efa5ec6&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfEdge&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2025.8.0&quot;,&quot;token&quot;:&quot;4edd5f8ec12a48cfa682ab8261b80a79&quot;}" crossorigin="anonymous"></script>
+
+
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDtm5F1kdbePlfGW12%2BqxpcvsK54sQSv940I64pPzHiRpPu283w9FEy%2BgwYkmQcBcfcCMMw3Nd1XH3%2FB%2F4gdbTqkLk5PlS4fU%2Bk%2BZwgsFnqKJ3dKgnmk1j9RxbeXHhKM6lGuxOZrkghEvvNHmh1q0K2PFbFw60e0c5adHRp6Lo92w6CVzxzHeYla1oA2VZDh8%2BAayWvrd9mWQ2MF%2BBd%2BN7cOzwMaDw8CEf7jva6QZhyllFQdT%2FYzzuJQ0f1hodzv4FDTPIZZzQJTUpkELCOcYJhihKTEs9oUCWvySCgSXgoJBh%2FxBaMlVUNgC1f0LBuBm%2FQRZlKpB%2FuSYc0NQg8ML5Epa%2F4pjT9jvBVJXIN2TCxcRDviEwuLtKx%2Fy5BpIri9PhmICHSaadgBfeMs47ZfnusNEjV9SVsH18Zhew%2FU1j5IeRf0MeWRO7sE22EMfIsSouUX8a1lFXtqUmHwoVZn2R1yTi3iSzN5SHa1%2BVCgyLj9SMv7gOUe1r%2Bd6Tt7MSHi6CqQ7iJXiFZiAsCYHZ07YCcw%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDtm5F1kdbePlfGW12+qxpcvsK54sQSv940I64pPzHiRpPu283w9FEy+gwYkmQcBcfcCMMw3Nd1XH3/B/4gdbTqkLk5PlS4fU+k+ZwgsFnqKJ3dKgnmk1j9RxbeXHhKM6lGuxOZrkghEvvNHmh1q0K2PFbFw60e0c5adHRp6Lo92w6CVzxzHeYla1oA2VZDh8+AayWvrd9mWQ2MF+Bd+N7cOzwMaDw8CEf7jva6QZhyllFQdT/YzzuJQ0f1hodzv4FDTPIZZzQJTUpkELCOcYJhihKTEs9oUCWvySCgSXgoJBh/xBaMlVUNgC1f0LBuBm/QRZlKpB/uSYc0NQg8ML5Epa/4pjT9jvBVJXIN2TCxcRDviEwuLtKx/y5BpIri9PhmICHSaadgBfeMs47ZfnusNEjV9SVsH18Zhew/U1j5IeRf0MeWRO7sE22EMfIsSouUX8a1lFXtqUmHwoVZn2R1yTi3iSzN5SHa1+VCgyLj9SMv7gOUe1r+d6Tt7MSHi6CqQ7iJXiFZiAsCYHZ07YCcw=";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="./source2_files/notice_dialog.js"></script>
+    </body></html>
