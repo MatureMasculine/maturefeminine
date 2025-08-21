@@ -33,14 +33,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 </div>
 {% endif %}
 
-{% if item.shadowFaces %}
-<div class="mb-3">
-  <h5>Shadow faces</h5>
-  <ul class="mb-0">
-    {% for s in item.shadowFaces %}<li>{{ s }}</li>{% endfor %}
-  </ul>
-</div>
-{% endif %}
+{# Legacy shadowFaces removed: migrated to extended.shadows #}
 
 {% if item.growthPath %}
 <div class="mb-3">
@@ -122,7 +115,11 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
           <div class="mb-4">
             <h6>{{ sh.name }}</h6>
             {% if sh.description %}
-              {% for para in sh.description %}<p>{{ para }}</p>{% endfor %}
+              {% if sh.description.push %}
+                {% for para in sh.description %}<p>{{ para }}</p>{% endfor %}
+              {% else %}
+                <p>{{ sh.description }}</p>
+              {% endif %}
             {% endif %}
             {% if sh.declarations %}
             <div class="mt-2">
@@ -185,19 +182,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 </div>
 {% endif %}
 
-{% if item.activeShadow or item.passiveShadow or item.shadows %}
-<div class="mb-3">
-  <h5>Shadows</h5>
-  <ul>
-    {% if item.shadows %}
-      {% for s in item.shadows %}<li>{{ s }}</li>{% endfor %}
-    {% else %}
-      {% if item.activeShadow %}<li><strong>Active:</strong> {{ item.activeShadow }}</li>{% endif %}
-      {% if item.passiveShadow %}<li><strong>Passive:</strong> {{ item.passiveShadow }}</li>{% endif %}
-    {% endif %}
-  </ul>
-</div>
-{% endif %}
+{# Legacy shadow fields removed: now using extended.shadows #}
 
 <div class="d-flex justify-content-between mt-4">
   {% set items = collections.items | itemsByGroup(item.groupSlug) %}

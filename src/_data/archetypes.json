@@ -9,587 +9,57 @@
         {
           "name": "Maiden",
           "slug": "maiden",
-          "qualities": ["new beginnings"],
+          "qualities": [
+            "new beginnings"
+          ],
           "gifts": "Freshness, trust, openness to life.",
-          "activeShadow": "Manipulator via naivete (coquette).",
-          "passiveShadow": "Fragility, gullibility.",
           "growthPath": "Learn to choose and to say no; cultivate street-wise innocence.",
           "practices": [
             "\"Green/Yellow/Red\" body signals journal",
             "Consent practice in everyday choices"
-          ]
+          ],
+          "extended": {
+            "shadows": [
+              {
+                "name": "Manipulator via naivete",
+                "type": "active",
+                "description": "Manipulator via naivete (coquette)"
+              },
+              {
+                "name": "Fragility",
+                "type": "passive",
+                "description": "Fragility, gullibility"
+              }
+            ]
+          }
         },
         {
           "name": "Adventurer / Storm (Tempest)",
           "slug": "adventurer-storm-tempest",
-          "qualities": ["freedom", "risk"],
+          "qualities": [
+            "freedom",
+            "risk"
+          ],
           "gifts": "Range, exploration, risk intelligence.",
-          "activeShadow": "Recklessness.",
-          "passiveShadow": "Avoidance of stakes.",
           "growthPath": "Take calculated risks; explore with wisdom.",
           "practices": [
-            "Risk ladder (tiny–small–medium)",
+            "Risk ladder (tinyâsmallâmedium)",
             "Debrief the nervous system after pushes"
-          ]
-        },
-        {
-          "name": "Young Visionary / Oracle",
-          "slug": "young-visionary-oracle",
-          "qualities": ["early intuitive gifts"],
-          "gifts": "Intuition, guidance by cycles, long view (early-phase).",
-          "activeShadow": "Fanatic certainty.",
-          "passiveShadow": "Fantasy with no feet.",
-          "growthPath": "Ground visions in action; prophecy with humility.",
-          "practices": [
-            "Translate each vision into one grounded next step"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Lover / Creatrix",
-      "slug": "lover-creatrix",
-      "summary": "Embodiment, pleasure, art; task = own desire & healthy reciprocity",
-      "essence": "Connection, sensuality, nurture, beauty, birth of life and culture.",
-      "items": [
-        {
-          "name": "Sacred Lover / Love Goddess (Aphrodite, Hathor, Oshun)",
-          "slug": "sacred-lover-love-goddess",
-          "qualities": ["empowered sensuality"],
-          "gifts": "Erotic innocence, creativity, devotional play; intimacy as sacrament.",
-          "activeShadow": "Seducer (power-through-allure).",
-          "passiveShadow": "Detached performer.",
-          "growthPath": "Integrate desire with heart; honor both passion and boundaries.",
-          "practices": [
-            "5 senses ritual before difficult talks",
-            "Desire inventory (own and name)"
           ],
           "extended": {
-            "mature": {
-              "title": "Mature Love Goddess",
-              "paragraphs": [
-                "The Mature Love Goddess embodies the divine feminine power of love, sensuality, and creative life force. She represents the celebration of beauty and pleasure, understanding that the body and its desires can be expressions of the sacred when approached with wisdom and integrity.",
-                "The Love Goddess knows that love and creativity are not opposites of spirituality but complementary aspects of the same life force. She celebrates authentic connection and understands that her capacity to love and create beauty is a gift to be shared wisely."
-              ]
-            },
-            "declarations": [
-              "My body is sacred and deserves to be treated with respect and love",
-              "I celebrate healthy pleasure as a pathway to joy and connection",
-              "My capacity to love is infinite and transformative",
-              "I create beauty and joy wherever I go",
-              "I express my authentic self with confidence and grace",
-              "I give and receive love freely and with healthy boundaries",
-              "My creative energy flows from my connection to life force",
-              "I honor both passion and tenderness in all my relationships",
-              "I am worthy of love, joy, and beautiful experiences",
-              "My love heals and transforms whatever it touches"
-            ],
             "shadows": [
               {
-                "name": "Addicted Lover",
-                "description": [
-                  "The Addicted Lover represents love and pleasure corrupted by compulsion and neediness. She seeks validation through relationships or experiences, often losing herself in the process and creating unhealthy dependencies."
-                ],
-                "balancing": [
-                  "Develop a strong sense of self independent of relationships",
-                  "Practice delayed gratification and mindful pleasure",
-                  "Seek therapy to address underlying emotional wounds",
-                  "Cultivate non-romantic sources of joy and fulfillment",
-                  "Learn to sit with difficult emotions without seeking escape"
-                ]
+                "name": "Recklessness",
+                "type": "active",
+                "description": "Recklessness"
               },
               {
-                "name": "Disconnected Lover",
-                "description": [
-                  "The Disconnected Lover represents the shutdown of love, pleasure, and creative life force. She has disconnected from her body, emotions, and capacity for joy, often due to trauma, shame, or cultural conditioning."
-                ],
-                "balancing": [
-                  "Start with small pleasures like beautiful music or nature",
-                  "Practice body-positive activities like gentle movement or massage",
-                  "Work with a therapist to heal shame and trauma",
-                  "Gradually open to giving and receiving appropriate affection",
-                  "Explore creative expression as a pathway to reconnection"
-                ]
-              }
-            ],
-            "virtues": [
-              {
-                "title": "Transformative Love",
-                "quote": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage. - Lao Tzu",
-                "paragraphs": [
-                  "Transformative love represents the Love Goddess's greatest gift—the ability to love in ways that heal, inspire, and create positive change. This goes beyond romantic love to include compassion, creativity, and the capacity to see beauty and potential in all things.",
-                  "The woman who embodies transformative love knows that love is not just a feeling but a force for healing and growth. She loves with wisdom and boundaries, understanding that true love sometimes requires difficult conversations or letting go."
-                ]
+                "name": "Avoidance of stakes",
+                "type": "passive",
+                "description": "Avoidance of stakes"
               }
             ]
           }
-        },
-        {
-          "name": "Muse / Song Goddess (Saraswati)",
-          "slug": "muse-song-goddess",
-          "qualities": ["inspiration"],
-          "gifts": "Sparks expression in self/others.",
-          "activeShadow": "Inflames without grounding.",
-          "passiveShadow": "Drifts from project to project.",
-          "growthPath": "Inspire with responsibility; complete what you start.",
-          "practices": [
-            "\"One song a day\" micro-creation",
-            "Finish-line dates"
-          ]
-        },
-        {
-          "name": "Creatrix / Spider Weaver (Spider Woman)",
-          "slug": "creatrix-spider-weaver",
-          "qualities": ["births ideas & art"],
-          "gifts": "Weaves ideas, systems, art; births forms.",
-          "activeShadow": "Perfectionism/control.",
-          "passiveShadow": "Hoarding ideas; fear to ship.",
-          "growthPath": "Create boldly; ship imperfectly.",
-          "practices": [
-            "70% rule (publish at 70%)",
-            "Two-week weave (start–ship–reflect)"
-          ]
-        },
-        {
-          "name": "Young Healer / Priestess",
-          "slug": "young-healer-priestess",
-          "qualities": ["emerging healing gifts"],
-          "gifts": "Bridges sacred and ordinary; restores balance.",
-          "activeShadow": "Savior complex.",
-          "passiveShadow": "Compassion burnout.",
-          "growthPath": "Heal with boundaries; serve without depleting.",
-          "practices": [
-            "\"Three bowls\" (give, receive, rest) scheduled weekly",
-            "Clear energetic closure after sessions"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Mother",
-      "slug": "mother",
-      "summary": "Nurture, protect, grow; task = love with boundaries",
-      "items": [
-        {
-          "name": "Mother (Isis, Gaia, Corn Mother, Sedna)",
-          "slug": "mother",
-          "qualities": ["unconditional nurture"],
-          "gifts": "Unconditional love with wise limits; growth, provision.",
-          "shadowFaces": [
-            "Smotherer/Devouring: overprotects, engulfs.",
-            "Martyr: self-sacrifice that breeds guilt.",
-            "Absent/Ghost: emotionally detached.",
-            "Narcissistic: child as mirror for self."
-          ],
-          "growthPath": "Love + limits; empower, don't consume.",
-          "practices": [
-            "\"Am I doing this for them or instead of them?\"",
-            "Empowerment checklist (teach, trust, let go)."
-          ]
-        },
-        {
-          "name": "Wife / Nurturer / Hearth Goddess (Hestia, Nephthys)",
-          "slug": "wife-nurturer-hearth-goddess",
-          "qualities": ["domestic stability"],
-          "gifts": "Home as temple; quiet devotion; ennobling support.",
-          "activeShadow": "Enabler of dysfunction.",
-          "passiveShadow": "Self-erasure (doormat).",
-          "growthPath": "Nurture with boundaries; serve without self-abandonment.",
-          "practices": [
-            "Weekly \"hearth audit\": What nurtures me? What is reciprocal?"
-          ]
-        },
-        {
-          "name": "Guardian / Buffalo Woman",
-          "slug": "guardian-buffalo-woman",
-          "qualities": ["sacred protection"],
-          "gifts": "Threshold keeper; protects what is sacred.",
-          "activeShadow": "Rigid gatekeeper.",
-          "passiveShadow": "Porous boundaries.",
-          "growthPath": "Discern what deserves protection; guard with wisdom.",
-          "practices": [
-            "\"Doorframe test\": What enters? What leaves? Name criteria out loud."
-          ]
-        },
-        {
-          "name": "Warrior / Warrioress / Huntress (Sekhmet, Diana)",
-          "slug": "warrior-warrioress-huntress",
-          "qualities": ["fierce protective focus"],
-          "gifts": "Focus, boundary enforcement, swift action.",
-          "activeShadow": "Bully/aggressor.",
-          "passiveShadow": "Collapsed compliance.",
-          "growthPath": "Channel aggression constructively; fight for what matters.",
-          "practices": [
-            "\"Single target\" daily; 90-second boundary script (Observe–Impact–Request)."
-          ],
-          "extended": {
-            "mature": {
-              "title": "Mature Warrior/Huntress",
-              "paragraphs": [
-                "The Mature Warrior/Huntress embodies focused feminine power in action—she who pursues her goals with fierce determination, protects what is sacred, and faces challenges with courage and skill. She is the embodiment of directed energy, protective instinct, and the willingness to fight for what matters most.",
-                "The Warrior/Huntress knows how to channel her aggression constructively, to set and maintain boundaries, and to pursue her objectives with laser-like focus. She is strategic, disciplined, and unafraid of conflict when it serves a higher purpose. Her strength is both physical and spiritual, and she uses it in service of protection, justice, and achievement."
-              ]
-            },
-            "declarations": [
-              "I channel my power with purpose and precision",
-              "I protect what is sacred with fierce determination",
-              "I face challenges with courage and strategic thinking",
-              "My boundaries are clear and I defend them when necessary",
-              "I pursue my goals with focused action and unwavering commitment",
-              "I transform obstacles into opportunities for growth",
-              "I fight for justice and stand up for those who cannot stand for themselves",
-              "My strength serves the highest good",
-              "I embrace healthy competition and challenge myself to excel",
-              "I am both fierce and compassionate, strong and wise"
-            ],
-            "balance": {
-              "balance": "Mature Warrior/Huntress",
-              "shadow": "Bully Warrior ←→ Victim Warrior",
-              "powerAnimals": "Wolf, Hawk, Jaguar",
-              "qualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Competitive, Fierce"
-            },
-            "shadows": [
-              {
-                "name": "Bully Warrior",
-                "description": [
-                  "The Bully Warrior represents aggression without wisdom, force without compassion. She uses strength to dominate rather than protect, seeing life as a zero-sum game where someone must lose for her to win."
-                ],
-                "balancing": [
-                  "Pause before reacting and ask: What am I really trying to protect?",
-                  "Channel anger into constructive action rather than destructive attack",
-                  "Develop empathy by considering others' perspectives",
-                  "Learn conflict resolution skills that don't require domination",
-                  "Seek win-win solutions rather than zero-sum outcomes"
-                ]
-              },
-              {
-                "name": "Victim Warrior",
-                "description": [
-                  "The Victim Warrior represents the complete abandonment of fighting spirit. She avoids conflict at all costs, even when standing up for herself is necessary, often paralyzed by fear or unable to set boundaries."
-                ],
-                "balancing": [
-                  "Start with small acts of self-advocacy in low-stakes situations",
-                  "Practice physical activities that build confidence in your body's strength",
-                  "Learn assertiveness skills in safe environments",
-                  "Identify core values and what you're willing to fight for",
-                  "Take self-defense classes to reconnect with protective energy"
-                ]
-              }
-            ],
-            "virtues": [
-              {
-                "title": "Sacred Boundaries",
-                "quote": "Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing others. - Brené Brown",
-                "paragraphs": [
-                  "Sacred boundaries represent the Warrior/Huntress's essential skill—the ability to discern what belongs in your space and what doesn't. Boundaries are not walls that separate us from life, but sacred containers that allow us to show up authentically and sustainably.",
-                  "The woman who understands sacred boundaries knows that saying \"no\" to what doesn't serve is saying \"yes\" to what does. She recognizes that her energy is finite and precious, guarding it like the treasure it is without apologizing for her limits."
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "name": "Weaver / Community Goddess",
-          "slug": "weaver-community-goddess",
-          "qualities": ["sacred interdependence"],
-          "gifts": "Sacred interdependence; collaborative wisdom; community building.",
-          "activeShadow": "Fiercely independent (isolation, refusing help).",
-          "passiveShadow": "Codependent (enmeshed, no boundaries).",
-          "growthPath": "Balance autonomy with connection; give and receive with equal grace.",
-          "practices": [
-            "Ask for help weekly; practice saying no with kindness; collaboration projects."
-          ]
-        },
-        {
-          "name": "Peacemaker / Peace Bringer (Whope)",
-          "slug": "peacemaker-peace-bringer",
-          "qualities": ["harmony for family/community"],
-          "gifts": "Harmony, repair, reconciliation.",
-          "activeShadow": "Appeasement at cost of truth.",
-          "passiveShadow": "Bystanding to harm.",
-          "growthPath": "Peace through truth; harmony after honesty.",
-          "practices": [
-            "Conflict hygiene: name needs + non-negotiables."
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Queen",
-      "slug": "queen",
-      "summary": "Sovereignty, blessing; task = rule without domination",
-      "essence": "Bestows order and blessing, sets clean boundaries, creates safety where life can flourish.",
-      "items": [
-        {
-          "name": "Queen / Hearth Keeper (Brigid)",
-          "slug": "queen-hearth-keeper",
-          "qualities": ["benevolent authority"],
-          "gifts": "Stewardship, warmth that organizes; dignifies people and place.",
-          "activeShadow": "Tyrant (domineering, aloof).",
-          "passiveShadow": "Recluse (abdicates, self-neglect).",
-          "growthPath": "Practice benevolent \"yes\" and principled \"no.\" Share power; keep accountability.",
-          "practices": [
-            "Morning \"court\" (3 decisions + 1 blessing)",
-            "Weekly household rhythm",
-            "Boundary statement in one sentence"
-          ],
-          "extended": {
-            "mature": {
-              "title": "Mature Queen",
-              "paragraphs": [
-                "The Mature Queen embodies sovereign feminine power—she who creates order from chaos, nurtures growth within her realm, and leads with both strength and compassion. She is the embodiment of creative authority, divine feminine leadership, and protective nurturing. The Queen knows her worth, honors her boundaries, and creates sacred space for all within her domain to flourish.",
-                "She radiates confidence without arrogance, commands respect without demanding it, and wields power in service of the highest good. The Queen archetype represents the mature feminine capacity to create, protect, and govern with wisdom, love, and unwavering strength."
-              ]
-            },
-            "declarations": [
-              "I am the sovereign of my own life and create order with love and wisdom",
-              "My power flows from my connection to the divine feminine source",
-              "I nurture growth and possibility in myself and others",
-              "I lead by example, inspiring others through my authentic presence",
-              "My boundaries are sacred and I honor them with grace",
-              "I create beauty and harmony wherever I go",
-              "I trust my intuition and make decisions from deep knowing",
-              "I am both fierce protector and gentle nurturer",
-              "My generosity flows from abundance, not depletion",
-              "I celebrate the success and growth of others"
-            ],
-            "balance": {
-              "balance": "Mature Queen",
-              "shadow": "Tyrant Queen ←→ Powerless Queen",
-              "powerAnimals": "Lioness, Swan, Regal Mare",
-              "qualities": "Sovereign, Nurturing, Wise, Generous, Protective, Creative, Gracious, Confident, Harmonious, Inspiring"
-            },
-            "shadows": [
-              {
-                "name": "Tyrant Queen",
-                "description": [
-                  "The Tyrant Queen represents the active shadow of the Queen archetype—feminine power corrupted by ego, control, and the need to dominate. She rules through fear, manipulation, and emotional tyranny. This shadow emerges when a woman feels her power threatened or when she has been wounded in her sovereignty and overcompensates through controlling behaviors.",
-                  "The Tyrant Queen demands perfection from others while being unable to see her own flaws. She creates chaos while claiming to create order, and her \"nurturing\" becomes suffocating control. She may use guilt, emotional manipulation, or withholding of love as weapons of control."
-                ],
-                "declarations": [
-                  "Everyone must meet my standards or face my wrath",
-                  "I know what's best for everyone and they should listen to me",
-                  "My way is the only right way",
-                  "Others exist to serve my vision and needs",
-                  "I cannot tolerate imperfection or disobedience",
-                  "My love and approval must be earned through compliance",
-                  "I am entitled to control my environment and the people in it",
-                  "Criticism of me is an attack that must be punished",
-                  "Others should be grateful for my leadership regardless of how I treat them",
-                  "I cannot show vulnerability or weakness"
-                ],
-                "balancing": [
-                  "Practice genuine humility and acknowledge your mistakes",
-                  "Ask for input from others before making decisions that affect them",
-                  "Release the need to control outcomes and trust the process",
-                  "Cultivate patience and compassion for others' learning curves",
-                  "Express appreciation and gratitude regularly",
-                  "Allow others to have their own opinions and ways of doing things",
-                  "Practice listening without immediately offering solutions or corrections",
-                  "Examine your motivations—are you serving others or your ego?",
-                  "Take responsibility for the impact of your words and actions",
-                  "Cultivate genuine care for others' wellbeing, not just their compliance"
-                ],
-                "gift": "The Tyrant Queen's gift lies in her fierce protective instinct and her refusal to accept mediocrity. When balanced, this energy becomes the ability to set high standards while supporting others in reaching them. Her intensity can inspire excellence and her protective nature can create safe spaces for growth. She teaches us the importance of boundaries and the courage to stand up for what matters.",
-                "outOfBalance": "Controlling, demanding, critical, manipulative, emotionally explosive, perfectionist, entitled, unable to delegate, punitive, isolated through fear-based relationships",
-                "qualities": "Controlling, Critical, Demanding, Manipulative, Entitled, Perfectionist, Explosive, Punitive, Domineering, Rigid"
-              },
-              {
-                "name": "Powerless Queen",
-                "description": [
-                  "The Powerless Queen represents the passive shadow of the Queen archetype—the abdication of feminine sovereignty and leadership. She has disconnected from her own power and either refuses to step into her queenship or believes she is unworthy of it. This shadow often develops from trauma, cultural conditioning that diminishes feminine power, or fear of responsibility.",
-                  "The Powerless Queen may appear as the eternal victim, the people-pleaser who cannot set boundaries, or the woman who constantly undermines her own authority. She gives her power away to others and then resents them for having it."
-                ],
-                "declarations": [
-                  "I don't deserve to lead or make important decisions",
-                  "Others know better than I do what's good for me",
-                  "I can't handle the responsibility of power",
-                  "It's safer to let others be in charge",
-                  "I'm not strong enough to protect myself or others",
-                  "My needs don't matter as much as everyone else's",
-                  "I must earn love and approval by being agreeable",
-                  "Conflict is too scary to face directly",
-                  "I'm just not leadership material",
-                  "If I assert myself, people will reject me"
-                ],
-                "balancing": [
-                  "Start small by making decisions about your daily life and honoring them",
-                  "Practice saying \"no\" to requests that drain your energy",
-                  "Identify and challenge beliefs about your unworthiness",
-                  "Seek out supportive community that mirrors back your strength",
-                  "Take up space—speak up in meetings, take the bigger chair, express your opinions",
-                  "Develop a daily practice that connects you to your inner wisdom",
-                  "Set and maintain small boundaries consistently",
-                  "Celebrate your successes and acknowledge your growth",
-                  "Work with a coach or therapist to heal wounds around power and worth",
-                  "Study examples of healthy feminine leadership"
-                ],
-                "gift": "The Powerless Queen's gift lies in her humility and her ability to recognize the wisdom in others. She often has highly developed empathy and collaborative skills. When balanced, this energy becomes authentic shared leadership and the ability to empower others. She teaches us the importance of receptivity and the strength found in acknowledging what we don't know.",
-                "outOfBalance": "Passive, indecisive, people-pleasing, victim mentality, unable to set boundaries, self-sabotaging, giving power away, avoiding responsibility, chronic self-doubt, dependent on others' approval",
-                "qualities": "Passive, Indecisive, People-pleasing, Victim-minded, Boundary-less, Self-sabotaging, Dependent, Approval-seeking, Self-doubting, Avoidant"
-              }
-            ],
-            "virtues": [
-              {
-                "title": "Sovereignty",
-                "quote": "\"No one can make you feel inferior without your consent.\" - Eleanor Roosevelt",
-                "paragraphs": [
-                  "Sovereignty is the Queen's most essential virtue—the recognition that you are the ultimate authority in your own life. True sovereignty is not about controlling others or external circumstances, but about owning your power to choose your responses, your boundaries, and your path.",
-                  "The sovereign woman knows that her worth is inherent, not earned through others' approval. She makes decisions from her own center, guided by her values and wisdom. She neither gives her power away nor tries to take power from others, but stands in her own authority with grace and strength.",
-                  "Sovereignty requires courage—the courage to disappoint others when necessary, to stand alone when needed, and to trust your own judgment. It means taking full responsibility for your life while releasing the need to control what is not yours to control.",
-                  "Developing sovereignty is a lifelong practice of coming home to yourself, honoring your truth, and creating your life from authentic choice rather than reactive patterns or others' expectations."
-                ]
-              },
-              {
-                "title": "Nurturing Leadership",
-                "quote": "\"The best way to find out if you can trust somebody is to trust them.\" - Ernest Hemingway",
-                "paragraphs": [
-                  "Nurturing leadership represents the Queen's unique gift—the ability to create environments where others can flourish while maintaining clear direction and boundaries. Unlike dominating leadership that seeks to control, nurturing leadership seeks to cultivate and support growth.",
-                  "The nurturing leader leads by example, showing others what's possible rather than demanding compliance. She creates psychological safety where people can take risks, make mistakes, and learn. She sees the potential in others and helps them develop it, while also maintaining high standards and clear expectations.",
-                  "This style of leadership requires patience, wisdom, and the ability to see the bigger picture. The nurturing leader knows when to step in and when to step back, when to support and when to challenge. She understands that true power lies in empowering others.",
-                  "Nurturing leadership is particularly needed in our world today—leadership that values collaboration over competition, growth over domination, and sustainable success over quick wins."
-                ]
-              },
-              {
-                "title": "Creative Authority",
-                "quote": "\"The future belongs to those who believe in the beauty of their dreams.\" - Eleanor Roosevelt",
-                "paragraphs": [
-                  "Creative authority is the Queen's power to envision and manifest new realities. It's the recognition that life is a creative act and that we are all artists painting our existence with the choices we make daily.",
-                  "The woman who embodies creative authority doesn't wait for permission to create the life she envisions. She understands that authority comes not from external validation but from her connection to the creative force of life itself. She is both artist and art, creator and creation.",
-                  "Creative authority requires both vision and practical action. It means dreaming boldly while also taking the concrete steps to bring those dreams into reality. It involves trusting the creative process even when the path isn't clear.",
-                  "This virtue teaches us that we are not victims of circumstance but active participants in creating our reality. Every woman has the authority to author her own story, to create beauty, meaning, and positive change in the world."
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "name": "Justice (Ma'at)",
-          "slug": "justice",
-          "qualities": ["truth & balance"],
-          "gifts": "Balances scales, names truth without venom.",
-          "activeShadow": "Harsh judge; rigid purity.",
-          "passiveShadow": "Bystander to injustice.",
-          "growthPath": "Speak truth with compassion; act on values consistently.",
-          "practices": [
-            "Fact–feeling–value–request script",
-            "Truth circle with time-boxed shares"
-          ]
-        },
-        {
-          "name": "Sky / Sun / Star Goddess (Nut, Amaterasu, Ishtar)",
-          "slug": "sky-sun-star-goddess",
-          "qualities": ["cosmic order & radiance"],
-          "gifts": "Vision from altitude; radiance that inspires.",
-          "activeShadow": "Prideful dominator.",
-          "passiveShadow": "Untouchable, \"above\" relationship.",
-          "growthPath": "Balance cosmic vision with earthly connection.",
-          "practices": [
-            "Balcony/ground alternation: 10 minutes aerial planning, 10 minutes embodied check-in."
-          ]
-        },
-        {
-          "name": "Sage / Wisdom (Athena)",
-          "slug": "sage-wisdom",
-          "qualities": ["strategy & clarity"],
-          "gifts": "Strategy, clear counsel, just timing.",
-          "activeShadow": "Arrogant detachment.",
-          "passiveShadow": "Withholding presence.",
-          "growthPath": "Wisdom with warmth; knowledge in service.",
-          "practices": [
-            "\"Ask three questions before one claim.\"",
-            "Pair logic with one embodied check."
-          ]
-        },
-        {
-          "name": "Magician / Alchemist / Witch / Scribe (Seshat)",
-          "slug": "magician-alchemist-witch-scribe",
-          "qualities": ["transformation & knowledge"],
-          "gifts": "Pattern recognition, language, spell-craft (reframing reality).",
-          "activeShadow": "Gaslighting, manipulation.",
-          "passiveShadow": "Escapism, spiritual bypass.",
-          "growthPath": "Use power ethically; transform without manipulating.",
-          "practices": [
-            "Before advice: mirror + summarize; after: consent check.",
-            "Daily \"one true sentence.\""
-          ],
-          "extended": {
-            "mature": {
-              "title": "Mature Magician/Wise Woman",
-              "paragraphs": [
-                "The Mature Magician/Wise Woman embodies transformative feminine power—she who works with the hidden forces of nature and consciousness to create change, healing, and growth. She represents wisdom, intuition, and the ability to see beyond surface appearances into deeper truths.",
-                "She is skilled in transformation through healing, creative work, or deep psychological insight. The Mature Wise Woman knows how to work with energy, cycles, and the mysterious forces that govern life, connecting ancient wisdom with contemporary needs."
-              ]
-            },
-            "declarations": [
-              "I trust my intuition and inner knowing above all external authorities",
-              "I work with natural forces and cycles to create positive change",
-              "My wisdom comes from direct experience and deep study",
-              "I transform challenges into opportunities for growth and learning",
-              "I see beneath surface appearances to deeper truths",
-              "My abilities serve healing, growth, and the highest good",
-              "I am connected to ancient wisdom and contemporary insight",
-              "I embrace my power to influence reality through consciousness and action",
-              "I honor the mystery while seeking understanding",
-              "I use my gifts responsibly and ethically"
-            ],
-            "balance": {
-              "balance": "Mature Magician/Wise Woman",
-              "shadow": "Manipulator ←→ Powerless Wise Woman",
-              "powerAnimals": "Owl, Raven, Snake",
-              "qualities": "Intuitive, Transformative, Wise, Magical, Insightful, Healing, Mysterious, Powerful, Independent, Visionary"
-            },
-            "shadows": [
-              {
-                "name": "Manipulator",
-                "description": [
-                  "The Manipulator represents wisdom and insight used for selfish gain or control. She uses knowledge of human nature to manipulate others rather than to heal or serve, driven by ego, fear, or desire for control."
-                ],
-                "balancing": [
-                  "Regularly examine motivations—are you serving yourself or others?",
-                  "Practice radical honesty about intentions and methods",
-                  "Study ethics and commit to using gifts responsibly",
-                  "Respect others' autonomy and right to make their own choices",
-                  "Use insights to empower others, not control them"
-                ]
-              },
-              {
-                "name": "Powerless Wise Woman",
-                "description": [
-                  "The Powerless Wise Woman represents denial or suppression of intuitive abilities. She has disconnected from inner wisdom, often due to fear, conditioning, or past trauma related to her power."
-                ],
-                "balancing": [
-                  "Start a daily practice of meditation or quiet reflection",
-                  "Keep a journal of intuitive impressions and their accuracy",
-                  "Study with ethical teachers who honor your inner authority",
-                  "Connect with nature regularly to strengthen intuitive abilities",
-                  "Find supportive community of like-minded people"
-                ]
-              }
-            ],
-            "virtues": [
-              {
-                "title": "Intuitive Wisdom",
-                "quote": "The intuitive mind is a sacred gift and the rational mind is a faithful servant. We have created a society that honors the servant and has forgotten the gift. - Albert Einstein",
-                "paragraphs": [
-                  "Intuitive wisdom represents the Magician/Wise Woman's greatest treasure—the ability to access knowledge that comes from beyond logical reasoning. This knowing arises from the deep feminine capacity to perceive patterns, energy, and truth not immediately obvious to rational analysis.",
-                  "The woman who cultivates intuitive wisdom learns to trust the subtle signals her body and psyche provide, paying attention to dreams, gut feelings, and synchronicities. She understands that intuition complements logic as a different way of knowing."
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "name": "Storyteller",
-          "slug": "storyteller",
-          "qualities": ["meaning-making from authority"],
-          "gifts": "Meaning-making; communal memory.",
-          "activeShadow": "Exaggeration for attention.",
-          "passiveShadow": "Withholds voice.",
-          "growthPath": "Tell truth beautifully; share wisdom generously.",
-          "practices": [
-            "\"True story, short\" (200 words, sensory + lesson)."
-          ]
         }
       ]
     },
@@ -602,55 +72,111 @@
         {
           "name": "Crone / Underworld Queen (Morrigan, Persephone)",
           "slug": "crone-underworld-queen",
-          "qualities": ["death/rebirth wisdom"],
+          "qualities": [
+            "death/rebirth wisdom"
+          ],
           "gifts": "Composting, endings, fearless truth, rebirth midwifery.",
-          "activeShadow": "Nihilistic destroyer/vengeance.",
-          "passiveShadow": "Perpetual mourner.",
           "growthPath": "End with grace; destroy only what blocks new life.",
           "practices": [
             "Quarterly \"Good Death\" list (what ends now?)",
             "Grief with a witness",
             "Name the harvest"
-          ]
+          ],
+          "extended": {
+            "shadows": [
+              {
+                "name": "Nihilistic destroyer/vengeance",
+                "type": "active",
+                "description": "Nihilistic destroyer/vengeance"
+              },
+              {
+                "name": "Perpetual mourner",
+                "type": "passive",
+                "description": "Perpetual mourner"
+              }
+            ]
+          }
         },
         {
           "name": "Elder Visionary / Oracle / Moon (Artemis, Moon Woman)",
           "slug": "elder-visionary-oracle-moon",
-          "qualities": ["far-sight & deep intuition"],
+          "qualities": [
+            "far-sight & deep intuition"
+          ],
           "gifts": "Intuition, guidance by cycles, long view.",
-          "activeShadow": "Fanatic certainty.",
-          "passiveShadow": "Fantasy with no feet.",
           "growthPath": "Ground visions in action; prophecy with humility.",
           "practices": [
             "Lunar planning (new: set 1 seed; full: release 1 thing)",
             "Translate each vision into one grounded next step"
-          ]
+          ],
+          "extended": {
+            "shadows": [
+              {
+                "name": "Fanatic certainty",
+                "type": "active",
+                "description": "Fanatic certainty"
+              },
+              {
+                "name": "Fantasy with no feet",
+                "type": "passive",
+                "description": "Fantasy with no feet"
+              }
+            ]
+          }
         },
         {
           "name": "Rebel / Revolutionary / Trickster (Eris)",
           "slug": "rebel-revolutionary-trickster",
-          "qualities": ["wisdom that breaks old forms"],
+          "qualities": [
+            "wisdom that breaks old forms"
+          ],
           "gifts": "Catalyzes change, exposes stale norms with wit.",
-          "activeShadow": "Destructive chaos.",
-          "passiveShadow": "Cosmetic dissent; blends in.",
           "growthPath": "Rebel with purpose; change systems, not just oppose.",
           "practices": [
-            "Purpose filter: (Harm ↓ / Freedom ↑ / Stewardship ↑)",
+            "Purpose filter: (Harm â / Freedom â / Stewardship â)",
             "Ship one harmless prank for truth"
-          ]
+          ],
+          "extended": {
+            "shadows": [
+              {
+                "name": "Destructive chaos",
+                "type": "active",
+                "description": "Destructive chaos"
+              },
+              {
+                "name": "Cosmetic dissent; blends in",
+                "type": "passive",
+                "description": "Cosmetic dissent; blends in"
+              }
+            ]
+          }
         },
         {
           "name": "Elder Healer / Priestess",
           "slug": "elder-healer-priestess",
-          "qualities": ["master of restoration"],
+          "qualities": [
+            "master of restoration"
+          ],
           "gifts": "Bridges sacred and ordinary; restores balance (elder-phase).",
-          "activeShadow": "Controlling healer.",
-          "passiveShadow": "Burned out wise woman.",
           "growthPath": "Heal with boundaries; serve without depleting.",
           "practices": [
             "\"Three bowls\" (give, receive, rest) scheduled weekly",
             "Clear energetic closure after sessions"
-          ]
+          ],
+          "extended": {
+            "shadows": [
+              {
+                "name": "Controlling healer",
+                "type": "active",
+                "description": "Controlling healer"
+              },
+              {
+                "name": "Burned out wise woman",
+                "type": "passive",
+                "description": "Burned out wise woman"
+              }
+            ]
+          }
         }
       ]
     }
