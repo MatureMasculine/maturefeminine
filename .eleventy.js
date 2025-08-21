@@ -16,16 +16,39 @@ module.exports = function(eleventyConfig) {
       .replace(/^-|-$/g, "");
   });
 
+  // Helper: load all group_*.json files from src/_data, sorted by filename
+  function loadGroups() {
+    const fs = require("fs");
+    const path = require("path");
+    const dataDir = path.join(__dirname, "src", "_data");
+    const files = fs
+      .readdirSync(dataDir)
+      .filter(f => /^group_.*\.json$/i.test(f))
+      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
+    const groups = [];
+    for (const file of files) {
+      const raw = fs.readFileSync(path.join(dataDir, file), "utf8");
+      const obj = JSON.parse(raw);
+      // Map file schema to group schema
+      groups.push({
+        name: obj.name || obj.group || "",
+        slug: obj.slug || "",
+        summary: obj.summary || "",
+        essence: obj.essence || "",
+        items: Array.isArray(obj.items) ? obj.items : []
+      });
+    }
+    return groups;
+  }
+
   // Provide a collection for groups from data
   eleventyConfig.addCollection("groups", () => {
-    const data = require("./src/_data/archetypes.json");
-    return data.groups || [];
+    return loadGroups();
   });
 
   // Flatten items with group metadata
   eleventyConfig.addCollection("items", () => {
-    const data = require("./src/_data/archetypes.json");
-    const groups = data.groups || [];
+    const groups = loadGroups();
     const items = [];
     for (const g of groups) {
       for (const it of (g.items || [])) {

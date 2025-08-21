@@ -1,0 +1,376 @@
+{
+    "title": "Maiden Archetypes - Completely Revised",
+    "group": "Maiden",
+    "slug": "maiden",
+    "summary": "Innocence, beginning; task = discernment & choice",
+    "essence": "Freshness, trust, openness to life; learning discernment and choice.",
+    "items": [
+      {
+        "name": "Maiden",
+        "slug": "maiden",
+        "qualities": ["new beginnings"],
+        "gifts": "Freshness, trust, openness to life.",
+        "growthPath": "Learn to choose and to say no; cultivate street-wise innocence.",
+        "practices": [
+          "\"Green/Yellow/Red\" body signals journal",
+          "Consent practice in everyday choices"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Cunning Innocent",
+              "slug": "manipulative-maiden",
+              "type": "active",
+              "description": [
+                "When trust overwhelms discernment, the Maiden becomes a weaponized child who harvests protection through performed helplessness. She has discovered that wide eyes and confused whispers can unlock doors that competence cannot. Her innocence has calcified into a strategic pose—she collects rescuers like others collect stamps, each one proof that she can navigate the world without ever having to grow up.",
+                "She speaks in questions that aren't really questions, makes decisions that aren't really decisions, and offers help that creates more problems than it solves. Behind her doe-eyed expression lies a calculating intelligence that has learned to feast on others' need to feel needed. She stays perpetually just helpless enough to avoid accountability while maintaining enough charm to keep the rescue squad coming."
+              ],
+              "declarations": [
+                "I'm just naturally overwhelmed by big decisions",
+                "People love to help me figure things out",
+                "I never meant for that to happen",
+                "I'm still learning how the world works",
+                "Someone more experienced should probably handle this",
+                "I thought you would know what I wanted"
+              ],
+              "balancing": [
+                "I practice making one small decision completely on my own each day",
+                "I state my preferences clearly before asking for advice",
+                "I complete tasks without narrating my confusion to others",
+                "I say 'I don't know' only when it's actually true",
+                "I take responsibility for outcomes even when I'm learning",
+                "I notice when I'm fishing for rescue and ask directly instead"
+              ],
+              "gift": "When owned, reveals a sharp intelligence that can read situations and people with remarkable accuracy, becoming genuine intuition rather than manipulation.",
+              "outOfBalance": [
+                "Performs confusion to avoid responsibility",
+                "Collects caretakers and rescuers",
+                "Uses helplessness as emotional currency",
+                "Avoids developing actual skills",
+                "Creates drama through 'innocent' mistakes",
+                "Manipulates through performed vulnerability"
+              ]
+            },
+            {
+              "name": "Paralyzed Perfectionist", 
+              "slug": "fragile-maiden",
+              "type": "passive",
+              "description": [
+                "When discernment devours trust, the Maiden becomes a research librarian of her own life—endlessly studying the manual for living without ever actually living. She has transformed every choice into a dissertation topic, every step into a thesis requiring peer review. Her mind has become a beautiful prison where she can examine life from every angle except the one that requires her to actually participate in it.",
+                "She knows exactly why she can't move forward and can articulate her paralysis with scholarly precision. Her discernment has metastasized into a thousand-question monster that demands perfect information in an imperfect world. She trusts neither her instincts nor the universe, instead placing her faith in the impossible dream of complete certainty before action."
+              ],
+              "declarations": [
+                "I need to research this more thoroughly first",
+                "There are too many variables I haven't considered", 
+                "What if I make the wrong choice and everything falls apart?",
+                "I should wait until I feel more confident about this",
+                "Everyone else seems to know something I don't",
+                "I just need a little more time to think it through"
+              ],
+              "balancing": [
+                "I set decision deadlines and honor them with imperfect information",
+                "I take one small action toward my goal before researching more",
+                "I practice trusting my first instinct on low-stakes decisions",
+                "I remind myself that most choices are reversible or adjustable",
+                "I limit advice-seeking to two people maximum per decision",
+                "I celebrate messy progress over pristine planning"
+              ],
+              "gift": "When integrated, becomes extraordinary wisdom and careful consideration that leads to truly well-thought decisions when they matter most.",
+              "outOfBalance": [
+                "Endless analysis without action",
+                "Seeks impossible certainty",
+                "Abandons projects when they become messy",
+                "Overthinks simple decisions",
+                "Confuses preparation with procrastination",
+                "Uses 'being careful' to avoid risk"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Maiden",
+            "paragraphs": [
+              "The Mature Maiden embodies beginner's mind wedded to street-smart wisdom. She approaches new experiences with fresh eyes while keeping her discernment sharp enough to navigate safely. Her trust is neither naive nor cynical—it's calibrated. She can say yes with her whole heart and no with equal clarity, understanding that both responses are forms of self-care.",
+              "She moves through the world with curious confidence, asking questions that reveal genuine interest rather than performed confusion. Her innocence has ripened into something more precious: the ability to be surprised by beauty, moved by simple kindness, and excited by possibility, all while maintaining clear boundaries and good judgment. She's learned that true wisdom often wears the face of simplicity."
+            ]
+          },
+          "declarations": [
+            "I approach new experiences with both openness and wisdom",
+            "My trust is earned and given consciously",
+            "I ask for what I need without apologizing for needing it",
+            "I make decisions from my center, not from others' expectations",
+            "My boundaries are clear and kindly maintained",
+            "I can be delighted by life while staying grounded in reality",
+            "I trust my instincts and verify with experience",
+            "My innocence is a strength, not a liability"
+          ],
+          "balance": {
+            "balance": "Trust ↔ Discernment",
+            "shadow": "Cunning Innocent ↔ Paralyzed Perfectionist",
+            "powerAnimals": "Fawn, Swallow, Dolphin",
+            "qualities": "Fresh, Curious, Trusting, Open-hearted, Playful, Hopeful, Receptive, Wise, Discerning, Grounded"
+          },
+          "virtues": [
+            {
+              "title": "Trust",
+              "quote": "\"The only real valuable thing is intuition.\" — Albert Einstein",
+              "paragraphs": [
+                "Trust is the Maiden's willingness to remain open to life's possibilities without guarantee of outcome. It's not blind faith but rather an informed hope—the recognition that growth requires risking disappointment, that love requires risking heartbreak, and that living requires risking failure.",
+                "This virtue manifests as the courage to try new things, meet new people, and believe in positive possibilities even when past experience suggests caution. It's trust in her own resilience as much as trust in others' goodwill."
+              ]
+            },
+            {
+              "title": "Discernment", 
+              "quote": "\"It's not at all hard to understand a person; it's only hard to listen without bias.\" — Criss Jami",
+              "paragraphs": [
+                "Discernment is the Maiden's ability to distinguish between what serves her growth and what threatens it. It's wisdom that comes not from cynicism but from paying attention—noticing patterns, honoring red flags, and making choices based on both intuition and evidence.",
+                "This virtue protects her openness from becoming exploitation bait. It teaches her that saying no to wrong things creates space for right things, and that boundaries aren't walls but gardens fences—they define what she's cultivating."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Adventurer / Storm (Tempest)",
+        "slug": "adventurer-storm-tempest",
+        "qualities": ["freedom", "risk"],
+        "gifts": "Range, exploration, risk intelligence.",
+        "growthPath": "Take calculated risks; explore with wisdom.",
+        "practices": [
+          "Risk ladder (tiny—small—medium)",
+          "Debrief the nervous system after pushes"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Reckless Tornado",
+              "type": "active",
+              "description": [
+                "When courage devours consideration, the Adventurer becomes a beautiful hurricane that leaves debris in her wake. She has confused motion with progress, intensity with aliveness. Her courage has become compulsive—she says yes to everything not because she wants to, but because she's forgotten how to sit still with herself. Every conversation becomes an extreme sport, every relationship a cliff to jump from.",
+                "She lives in a perpetual state of manufactured urgency, addicted to the adrenaline of barely managing. Her phone buzzes with crises of her own creation. She books trips she can't afford, makes promises she can't keep, and starts projects she won't finish—all while insisting this is what freedom looks like. Her consideration for consequences has atrophied from disuse."
+              ],
+              "declarations": [
+                "Life is short—I'm not going to waste it being careful",
+                "I'll figure it out as I go",
+                "Rules are meant to be broken",
+                "I can handle whatever comes my way",
+                "Boring people worry about consequences",
+                "You only live once—I'm going for it"
+              ],
+              "balancing": [
+                "I pause for three breaths before saying yes to any invitation",
+                "I practice saying 'let me think about it' instead of immediate yes",
+                "I check my bank account before making impulse purchases",
+                "I ask 'what am I running from?' when I feel restless",
+                "I schedule one quiet evening per week with no plans",
+                "I consider how my choices affect others before deciding"
+              ],
+              "gift": "When integrated, becomes infectious courage that inspires others to live more boldly while maintaining wisdom about true risks versus manufactured drama.",
+              "outOfBalance": [
+                "Chaos masquerading as adventure",
+                "Impulse decisions with expensive consequences",
+                "Confuses drama with excitement",
+                "Abandons commitments when they become routine",
+                "Uses crisis to feel alive",
+                "Ignores impact on others"
+              ]
+            },
+            {
+              "name": "Frozen Wanderer",
+              "type": "passive",
+              "description": [
+                "When consideration smothers courage, the Adventurer becomes a travel blogger who never leaves her room. She has every guidebook, follows every adventure account, and knows every safety statistic—but somehow never books the ticket. Her consideration has become a sophisticated form of self-sabotage, generating endless reasons why now isn't the right time, why she isn't ready, why it's too risky.",
+                "She lives vicariously through others' Instagram stories, collecting inspiration like souvenirs from trips she'll never take. Her courage has been buried under an avalanche of 'what-ifs' and worst-case scenarios. She mistakes research for preparation and preparation for action, creating elaborate plans she never executes while time slips away like sand through her fingers."
+              ],
+              "declarations": [
+                "I just need to save a little more money first",
+                "Maybe next year when I'm more established",
+                "I should really research the safety situation more",
+                "I don't want to be irresponsible",
+                "What if something goes wrong?",
+                "I'm just being practical"
+              ],
+              "balancing": [
+                "I book one small adventure this month without extensive planning",
+                "I set a maximum research time before making decisions",
+                "I practice doing one scary thing each week",
+                "I remind myself that I can handle unexpected challenges",
+                "I focus on what could go right instead of what could go wrong",
+                "I take action with 70% certainty instead of waiting for 100%"
+              ],
+              "gift": "When welcomed, provides essential wisdom about true preparation and smart risk assessment that makes adventures sustainable and actually enjoyable.",
+              "outOfBalance": [
+                "Endless planning without action",
+                "Lives through others' adventures",
+                "Overestimates dangers and underestimates abilities",
+                "Postpones dreams indefinitely",
+                "Confuses caution with wisdom",
+                "Regrets chances not taken"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Adventurer/Storm",
+            "paragraphs": [
+              "The Mature Adventurer balances the thrill of exploration with the wisdom of preparation. She takes calculated risks that expand her world without destroying her foundation. Her courage is seasoned with experience—she knows which warnings to heed and which fears to push through. She can leap into the unknown while keeping one foot grounded in reality.",
+              "She's learned that true adventure isn't about escaping life but about engaging with it more fully. Her travels—whether physical, emotional, or creative—are intentional rather than reactive. She brings others along for the journey without dragging them into her storms, inspiring expansion rather than chaos."
+            ]
+          },
+          "declarations": [
+            "I take risks that align with my values and goals",
+            "My courage serves my growth, not my impulses",
+            "I prepare wisely without letting fear decide for me",
+            "I can handle uncertainty while honoring real limitations",
+            "Adventure is about expansion, not escape",
+            "I inspire others through courage, not chaos",
+            "My freedom includes responsibility to others",
+            "I trust my ability to adapt and respond"
+          ],
+          "balance": {
+            "balance": "Courage ↔ Consideration",
+            "shadow": "Reckless Tornado ↔ Frozen Wanderer",
+            "powerAnimals": "Falcon, Wild Horse, Sea Otter",
+            "qualities": "Adventurous, Resilient, Free-spirited, Thoughtful, Resourceful, Adaptable, Bold, Wise, Spirited, Grounded"
+          },
+          "virtues": [
+            {
+              "title": "Courage",
+              "quote": "\"Courage is not the absence of fear, but action in spite of it.\" — Mark Twain",
+              "paragraphs": [
+                "Courage is the Adventurer's willingness to move toward what calls her despite uncertainty. It's not recklessness but rather the recognition that growth lives on the other side of comfort zones. This virtue understands that the biggest risk is often not taking any risks at all.",
+                "True courage evaluates real dangers versus imagined ones. It's the energy that gets her on the plane, signs her up for the class, or moves her to the new city—not because it's safe, but because it's necessary for her becoming."
+              ]
+            },
+            {
+              "title": "Consideration",
+              "quote": "\"Love and compassion are necessities, not luxuries. Without them humanity cannot survive.\" — Dalai Lama",
+              "paragraphs": [
+                "Consideration is the Adventurer's wisdom about impact and consequences. It's the pause that evaluates not just 'can I?' but 'should I?' This virtue ensures her adventures serve growth rather than escape, expansion rather than destruction.",
+                "It's consideration that turns reckless impulses into calculated risks, that thinks about how her choices affect others, that prepares adequately without over-preparing. It makes her adventures sustainable and her courage trustworthy."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Young Visionary / Oracle",
+        "slug": "young-visionary-oracle",
+        "qualities": ["early intuitive gifts"],
+        "gifts": "Intuition, guidance by cycles, long view (early-phase).",
+        "growthPath": "Ground visions in action; prophecy with humility.",
+        "practices": [
+          "Translate each vision into one grounded next step"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Grandiose Prophet",
+              "type": "active",
+              "description": [
+                "When intuition overwhelms discernment, the Young Visionary becomes a cosmic drama queen who mistakes her inner weather for universal truth. She has confused having insights with being The Chosen One. Every dream is prophetic, every feeling is guidance, every synchronicity is a message from the universe specifically for her special mission. She speaks in absolutes about uncertain futures.",
+                "She's become addicted to being the one with secret knowledge, the mystic in the friend group, the oracle everyone consults. Her intuition has inflated into spiritual superiority—she doesn't just have different perspectives, she has The Truth. She delivers pronouncements instead of sharing insights, creates followers instead of fostering growth in others."
+              ],
+              "declarations": [
+                "The universe is telling me this will happen",
+                "I just know things that others don't understand",
+                "This vision came to me for a reason",
+                "You wouldn't get it—it's an intuitive thing",
+                "I'm being called to share this message",
+                "The signs are all pointing to this outcome"
+              ],
+              "balancing": [
+                "I share intuitive insights as possibilities, not certainties",
+                "I ask questions instead of making pronouncements",
+                "I check my insights against practical reality",
+                "I acknowledge when I don't know something",
+                "I invite others to trust their own inner knowing",
+                "I ground my visions in concrete next steps"
+              ],
+              "gift": "When tempered, becomes profound intuitive wisdom that can see patterns and possibilities others miss, offered with humility and grounded in reality.",
+              "outOfBalance": [
+                "Confuses personal insights with universal truth",
+                "Creates spiritual hierarchy with self at top",
+                "Makes dramatic pronouncements about uncertain futures",
+                "Dismisses logic and practical considerations",
+                "Seeks validation through mystical identity",
+                "Overwhelms others with unsolicited 'guidance'"
+              ]
+            },
+            {
+              "name": "Doubting Oracle",
+              "type": "passive",
+              "description": [
+                "When discernment silences intuition, the Young Visionary becomes a mystic with laryngitis. She receives downloads, insights, and visions but immediately subjects them to such rigorous cross-examination that they wither under scrutiny. She's learned to distrust her gift, dismissing her strongest knowings as 'probably just imagination' or 'wishful thinking.'",
+                "She keeps journals full of dreams and synchronicities but never acts on them. Her discernment has become a prosecuting attorney that builds airtight cases against every intuitive hit. She'll have a powerful vision on Tuesday and convince herself it was just indigestion by Thursday. Her gift atrophies from lack of trust and practice."
+              ],
+              "declarations": [
+                "It's probably just my imagination",
+                "I don't want to seem like one of those woo-woo people",
+                "There's no scientific evidence for this feeling",
+                "I'm sure there's a logical explanation",
+                "I shouldn't trust these random thoughts",
+                "Maybe I'm just making connections that aren't really there"
+              ],
+              "balancing": [
+                "I record my intuitive hits and track their accuracy over time",
+                "I share one insight per week with a trusted friend",
+                "I take small actions based on my inner guidance",
+                "I notice when rationalization is drowning out intuition",
+                "I practice distinguishing between fear-based and guidance-based inner voices",
+                "I honor my sensitivity as a strength, not a liability"
+              ],
+              "gift": "When honored, provides essential discernment that helps distinguish true guidance from wishful thinking, making intuitive gifts reliable and trustworthy.",
+              "outOfBalance": [
+                "Dismisses genuine insights as imagination",
+                "Over-analyzes intuitive guidance to death",
+                "Seeks external validation for internal knowing",
+                "Apologizes for having intuitive gifts",
+                "Confuses skepticism with discernment",
+                "Lets fear override inner wisdom"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Young Visionary/Oracle",
+            "paragraphs": [
+              "The Mature Young Visionary holds her intuitive gifts lightly, with both reverence and healthy skepticism. She understands that true prophecy serves growth, not ego. Her visions come with humility—she knows she sees part of the pattern, not the whole design. She shares insights as offerings, not commandments, and always includes practical steps for manifesting what she sees.",
+              "She's learned to distinguish between guidance and preference, between cosmic downloads and personal projections. Her gift has matured from dramatic revelations to quiet knowing, from seeking to be special to being of service. She helps others trust their own inner compass rather than creating dependence on hers."
+            ]
+          },
+          "declarations": [
+            "I honor my intuitive gifts without inflating my ego",
+            "My visions serve collective good, not personal importance",
+            "I share insights as possibilities to explore, not absolute truths",
+            "I balance inner knowing with outer wisdom",
+            "I ground my visions in practical, achievable steps",
+            "I help others trust their own guidance rather than depending on mine",
+            "I hold space for mystery while embracing what I can know",
+            "My sensitivity is a gift I use responsibly"
+          ],
+          "balance": {
+            "balance": "Intuition ↔ Discernment",
+            "shadow": "Grandiose Prophet ↔ Doubting Oracle",
+            "powerAnimals": "Owl, Deer, Whale",
+            "qualities": "Visionary, Intuitive, Humble, Attuned, Imaginative, Grounded, Clear, Curious, Wise, Purposeful"
+          },
+          "virtues": [
+            {
+              "title": "Intuition",
+              "quote": "\"I've learned to trust my instincts. I've learned to trust my inner voice.\" — Oprah Winfrey",
+              "paragraphs": [
+                "Intuition is the Young Visionary's ability to perceive patterns, possibilities, and truths that aren't immediately obvious to logical analysis. It's her direct line to the mystery, her capacity to sense what's emerging before it becomes visible to others.",
+                "This gift requires cultivation and trust. Like a muscle, intuition grows stronger with use and weaker with neglect. It speaks in whispers, synchronicities, body sensations, and sudden knowing—languages that require stillness and attention to understand."
+              ]
+            },
+            {
+              "title": "Discernment",
+              "quote": "\"The real question is not whether life exists after death. The real question is whether you are alive before death.\" — Osho",
+              "paragraphs": [
+                "Discernment is the Young Visionary's ability to distinguish between true guidance and wishful thinking, between cosmic downloads and personal projections. It's the wisdom that keeps her gift grounded and useful rather than inflated and self-serving.",
+                "This virtue teaches her when to share insights and when to keep them private, when to act on guidance and when to wait for more clarity. It protects her from the spiritual ego that wants to be special rather than of service."
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

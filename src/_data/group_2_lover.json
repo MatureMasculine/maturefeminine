@@ -1,0 +1,619 @@
+{
+    "title": "Lover/Creatrix Archetypes - Completely Revised",
+    "group": "Lover / Creatrix",
+    "slug": "lover-creatrix", 
+    "summary": "Embodiment, pleasure, art; task = own desire & healthy reciprocity",
+    "essence": "Connection, sensuality, nurture, beauty, birth of life and culture.",
+    "items": [
+      {
+        "name": "Sacred Lover / Love Goddess (Aphrodite, Hathor, Oshun)",
+        "slug": "sacred-lover-love-goddess",
+        "qualities": ["empowered sensuality"],
+        "gifts": "Erotic innocence, creativity, devotional play; intimacy as sacrament.",
+        "growthPath": "Integrate desire with heart; honor both passion and boundaries.",
+        "practices": [
+          "5 senses ritual before difficult talks",
+          "Desire inventory (own and name)"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Intoxicating Siren",
+              "type": "active",
+              "description": [
+                "When devotion overwhelms sovereignty, the Love Goddess becomes a beautiful hurricane of need disguised as gift. She has weaponized her allure, turning her magnetism into a drug that others crave but can never quite possess. Her love has become performing—a gorgeous, exhausting show designed to keep others enchanted and herself essential. She confuses being wanted with being loved.",
+                "She gives and gives until she's empty, then resents others for not filling her up. Her devotion has curdled into codependence dressed in silk and perfume. She's forgotten that true love doesn't require her to disappear into others' desires. Behind the goddess mask is a woman running on fumes, addicted to the high of being irresistible."
+              ],
+              "declarations": [
+                "I just love making others happy",
+                "I don't know why I attract such needy people",
+                "I give so much and get so little back",
+                "They just can't handle how much love I have to offer",
+                "I'm naturally very giving",
+                "I don't understand why my relationships always get so intense"
+              ],
+              "balancing": [
+                "I notice when I'm performing love instead of feeling it",
+                "I ask for what I need before giving what others want",
+                "I practice saying no to requests that deplete me",
+                "I check if I'm trying to earn love through service",
+                "I spend time alone reconnecting with my own desires",
+                "I choose partners who can give as well as receive"
+              ],
+              "gift": "When integrated, becomes genuine devotion that enhances rather than enslaves, creating relationships of mutual enrichment and authentic intimacy.",
+              "outOfBalance": [
+                "Uses allure to control and manipulate",
+                "Performs love to earn attachment",
+                "Gives compulsively to avoid abandonment",
+                "Creates addictive rather than nourishing relationships",
+                "Loses self in others' desires",
+                "Confuses intensity with intimacy"
+              ]
+            },
+            {
+              "name": "Armored Heart",
+              "type": "passive",
+              "description": [
+                "When sovereignty freezes out devotion, the Love Goddess becomes a museum piece—exquisite to behold but impossible to touch. She has built such beautiful walls around her heart that even she has forgotten how to find the door. Her sovereignty has hardened into invulnerability, protecting her from heartbreak by protecting her from heart-opening.",
+                "She loves the idea of love but finds the practice terrifyingly messy. She'll discuss intimacy with the detachment of an anthropologist, analyze relationships like business deals, and keep potential partners at arm's length with wit and independence. Her heart has gone into witness protection, sending carefully crafted representatives to all her dates."
+              ],
+              "declarations": [
+                "I'm very independent—I don't really need anyone",
+                "I prefer to keep things light and fun",
+                "I've learned not to expect too much from people",
+                "I'm just protecting myself from getting hurt again",
+                "I don't do drama or emotional messiness",
+                "I'm perfectly fine on my own"
+              ],
+              "balancing": [
+                "I practice sharing one vulnerable feeling each week",
+                "I notice when I'm intellectualizing instead of feeling",
+                "I allow myself to want and need others",
+                "I soften my body when I catch myself armoring up",
+                "I practice receiving care without immediately reciprocating",
+                "I risk disappointment by expressing genuine desires"
+              ],
+              "gift": "When welcomed, provides essential boundaries and self-respect that make sustainable love possible, teaching others how to love without losing themselves.",
+              "outOfBalance": [
+                "Maintains emotional distance to avoid vulnerability",
+                "Intellectualizes feelings instead of experiencing them",
+                "Sabotages intimacy when it gets too real",
+                "Uses independence as armor against interdependence",
+                "Attracts unavailable partners to stay safe",
+                "Confuses self-protection with self-love"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Love Goddess",
+            "paragraphs": [
+              "The Mature Love Goddess embodies devotion anchored in sovereignty—she loves fully without losing herself. Her heart is both open and boundaried, generous and discerning. She understands that healthy love enhances rather than consumes, that true intimacy requires two whole people choosing each other rather than two halves trying to become one.",
+              "She radiates an magnetic presence that draws others not through neediness or performance, but through the authentic joy of a woman who knows and loves herself. Her relationships are sanctuaries where both people can grow and be real. She gives from overflow rather than emptiness, creating sustainable love that nourishes rather than depletes."
+            ]
+          },
+          "declarations": [
+            "I love fully while maintaining my wholeness",
+            "My magnetism comes from self-love, not self-need",
+            "I choose partners who can match my capacity for growth",
+            "I give from abundance, not from trying to earn love",
+            "My vulnerability is a gift I share consciously",
+            "I create relationships that enhance both people's becoming",
+            "My sensuality is sacred and deserves reverent treatment",
+            "I trust my heart's wisdom about who deserves my devotion"
+          ],
+          "balance": {
+            "balance": "Devotion ↔ Sovereignty",
+            "shadow": "Intoxicating Siren ↔ Armored Heart",
+            "powerAnimals": "Dove, Swan, Bee",
+            "qualities": "Radiant, Sensual, Boundaried, Tender, Magnetic, Joyful, Reverent, Creative, Whole, Generous"
+          },
+          "virtues": [
+            {
+              "title": "Devotion",
+              "quote": "\"Love is as love does. Love is an act of will—namely, both an intention and an action.\" — bell hooks",
+              "paragraphs": [
+                "Devotion is the Love Goddess's capacity to give her whole heart to what and whom she loves. It's not self-sacrifice but rather self-expression—the overflow of a full heart that delights in cherishing others. This virtue transforms relationships into sacred practices.",
+                "True devotion is discerning. It chooses worthy recipients and gives freely without keeping score. It's devotion that creates the depth and beauty that makes love a transformative force rather than just a pleasant feeling."
+              ]
+            },
+            {
+              "title": "Sovereignty",
+              "quote": "\"No one can make you feel inferior without your consent.\" — Eleanor Roosevelt", 
+              "paragraphs": [
+                "Sovereignty is the Love Goddess's fierce commitment to her own wholeness and worth. It's the recognition that she is complete unto herself and chooses to share that completeness with others. This virtue prevents love from becoming codependence or performance.",
+                "Sovereignty in love means maintaining her own desires, dreams, and boundaries even while opening her heart. It's what allows her to love freely—because she knows she won't disappear into another person, she can risk complete intimacy."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Devoted Consort / Beloved (Radha, Parvati)",
+        "slug": "devoted-consort-beloved",
+        "qualities": ["sacred devotion", "dignified surrender"],
+        "gifts": "Sacred surrender anchored in self-worth; chosen yielding to love, truth, and shared purpose.",
+        "growthPath": "Balance submission with dignity; practice consent in devotion.",
+        "practices": [
+          "Daily check-in: 'Am I choosing or complying?'",
+          "Boundary ritual before acts of devotion"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Enmeshing Worshipper",
+              "type": "active",
+              "description": [
+                "When submission devours dignity, the Devoted Consort becomes a spiritual stalker who mistakes obsession for devotion. She has confused surrender with self-erasure, turning her beloved into a god who can never live up to the pedestal she's built. Her love has become a beautiful prison—she gives everything and somehow makes the receiver feel guilty for not being grateful enough.",
+                "She anticipates needs that weren't expressed, solves problems that weren't asked to be solved, and creates a debt of gratitude that suffocates intimacy. Her submission has become a form of control—by making herself indispensable, she ensures she'll never be abandoned. But her desperate devotion repels the very connection she craves, turning partnership into caretaking and love into obligation."
+              ],
+              "declarations": [
+                "I just want to make their life easier",
+                "I can't help it—I'm naturally giving",
+                "They need me, even if they don't realize it",
+                "I don't mind sacrificing for love",
+                "I just want them to be happy",
+                "I do so much and get so little appreciation"
+              ],
+              "balancing": [
+                "I ask for permission before helping or fixing",
+                "I notice when I'm doing things to feel needed",
+                "I practice receiving without immediately reciprocating",
+                "I check my motivations: am I giving or controlling?",
+                "I maintain my own interests and friendships",
+                "I express my needs directly instead of hoping they'll be noticed"
+              ],
+              "gift": "When owned, becomes genuine service that empowers rather than enables, creating partnerships where both people can be fully themselves.",
+              "outOfBalance": [
+                "Over-gives to create obligation",
+                "Anticipates needs to feel essential",
+                "Uses sacrifice to control outcomes",
+                "Creates guilt through martyrdom",
+                "Loses self in other's life",
+                "Confuses enabling with loving"
+              ]
+            },
+            {
+              "name": "Aloof Sovereign",
+              "type": "passive",
+              "description": [
+                "When dignity freezes out submission, the Devoted Consort becomes an untouchable goddess who rules from a throne of beautiful loneliness. She has confused vulnerability with weakness, surrender with defeat. Her dignity has crystallized into perfection that no one can approach, let alone love. She's become so self-contained that she's forgotten how to let others matter to her.",
+                "She maintains her independence like a fortress, never needing, never yielding, never allowing anyone to see her sweat. Her relationships are cordial and admiring but never intimate—she's too composed to be fully human, too dignified to be fully known. She loves the idea of devotion but finds the practice beneath her evolved state."
+              ],
+              "declarations": [
+                "I don't need anyone to complete me",
+                "I've learned to rely only on myself",
+                "I prefer to keep my private life private",
+                "I don't do messy emotional displays",
+                "I'm above petty relationship drama",
+                "I maintain my dignity no matter what"
+              ],
+              "balancing": [
+                "I practice asking for help with small things",
+                "I allow myself to be seen in imperfect moments",
+                "I express genuine emotion instead of maintaining composure",
+                "I let others care for me without feeling diminished",
+                "I risk looking foolish for love",
+                "I practice healthy dependence in relationships"
+              ],
+              "gift": "When welcomed, provides essential self-respect and boundaries that make devotion sustainable and partnership balanced.",
+              "outOfBalance": [
+                "Maintains distance to protect image",
+                "Never shows vulnerability or need",
+                "Uses dignity as armor against intimacy",
+                "Attracts admirers but not true partners",
+                "Confuses independence with isolation",
+                "Rules from a throne of loneliness"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Devoted Consort",
+            "paragraphs": [
+              "The Mature Devoted Consort embodies sacred surrender anchored in unshakeable self-worth. Her submission is not subservience but conscious choice—she yields from strength, not weakness. She understands that true devotion enhances both people, that healthy surrender requires a strong self to surrender. Her dignity and submission dance together, neither overwhelming the other.",
+              "She serves love itself rather than trying to earn it. Her devotion is freely given and can be freely withdrawn—this freedom is what makes it sacred. She knows when to follow and when to lead, when to yield and when to stand firm. In her presence, others feel both adored and respected, both cherished and free."
+            ]
+          },
+          "declarations": [
+            "I surrender to love without surrendering myself",
+            "My devotion is a choice I make from strength",
+            "I serve the highest good in both of us",
+            "My dignity and submission enhance each other",
+            "I yield from fullness, not emptiness",
+            "I can be devoted without being diminished",
+            "My surrender is sacred because it's freely chosen",
+            "I honor myself and others in equal measure"
+          ],
+          "balance": {
+            "balance": "Submission ↔ Dignity",
+            "shadow": "Enmeshing Worshipper ↔ Aloof Sovereign",
+            "powerAnimals": "Elephant, Swan, Turtledove",
+            "qualities": "Devoted, Reverent, Boundaried, Noble, Tender, Humble, Loyal, Present, Self-possessed, Receptive"
+          },
+          "virtues": [
+            {
+              "title": "Submission",
+              "quote": "\"True surrender is a strong choice, not a weak escape.\" — Anonymous",
+              "paragraphs": [
+                "Submission here means willing alignment with what serves the highest good—love, truth, growth, or shared purpose. It's the conscious choice to soften ego's control and allow something greater to flow through the relationship. This is surrender as spiritual practice, not defeat.",
+                "True submission comes from abundance, not lack. It's the offering of a full person to something worthy of devotion. It requires tremendous strength to maintain one's center while yielding to love's demands."
+              ]
+            },
+            {
+              "title": "Dignity",
+              "quote": "\"Standing tall lets the heart bow safely.\" — Anonymous",
+              "paragraphs": [
+                "Dignity is inherent worth embodied—the unshakeable knowledge that love doesn't require self-erasure. It's what keeps devotion from becoming doormat syndrome, surrender from becoming subservience. Dignity remembers that healthy relationships enhance both people.",
+                "This virtue ensures that submission remains a choice rather than a compulsion. It maintains boundaries even within devotion, ensuring that love remains mutual and life-giving for both partners."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Muse / Song Goddess (Saraswati)",
+        "slug": "muse-song-goddess",
+        "qualities": ["inspiration"],
+        "gifts": "Sparks expression in self/others.",
+        "growthPath": "Inspire with responsibility; complete what you start.",
+        "practices": [
+          "\"One song a day\" micro-creation",
+          "Finish-line dates"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Chaotic Inspiration",
+              "type": "active",
+              "description": [
+                "When expression overwhelms attunement, the Muse becomes a beautiful tornado of half-finished symphonies and abandoned masterpieces. She's addicted to the high of new ideas but allergic to the discipline of completion. Her creativity has become a form of spiritual ADHD—she starts ten projects for every one she finishes, leaving a trail of inspired beginnings and disappointed collaborators.",
+                "She confuses inspiration with obligation, treating every creative impulse as a divine mandate that must be pursued immediately. Her expression has lost all filter—she shares every rough draft, every random thought, every half-baked vision as if they're all equally precious. She's become a fire hose of creativity that drowns rather than nourishes her audience."
+              ],
+              "declarations": [
+                "I have to follow my inspiration wherever it leads",
+                "I can't help it—the ideas just keep coming",
+                "Finishing things kills the magic for me",
+                "I'm not meant to be confined by timelines",
+                "My art comes from pure divine flow",
+                "I have so many projects going—I'm very prolific"
+              ],
+              "balancing": [
+                "I choose one project to complete before starting another",
+                "I sit with ideas for 24 hours before acting on them",
+                "I practice editing and refining my work",
+                "I ask others what they need instead of just offering what I have",
+                "I set completion deadlines and honor them",
+                "I distinguish between inspiration and compulsion"
+              ],
+              "gift": "When integrated, becomes infectious creative energy that sparks innovation while maintaining the focus to bring visions into reality.",
+              "outOfBalance": [
+                "Starts countless projects without finishing",
+                "Overwhelms others with unfiltered creative output",
+                "Confuses quantity with quality",
+                "Treats every impulse as divine inspiration",
+                "Abandons projects when they require discipline",
+                "Creates chaos in the name of creativity"
+              ]
+            },
+            {
+              "name": "Silent Songbird",
+              "type": "passive",
+              "description": [
+                "When attunement silences expression, the Muse becomes a caged bird who has forgotten how to sing. She receives beautiful downloads of inspiration but immediately judges them as not good enough, not original enough, not worthy of sharing. Her attunement has become a harsh inner critic that murders her songs before they can be born.",
+                "She's convinced that everyone else is more talented, more original, more deserving of an audience. Her creative gifts hide in her journal, her computer, her heart—safely protected from judgment but also from impact. She waits for permission that will never come, for confidence that only comes through practice, for perfection that doesn't exist."
+              ],
+              "declarations": [
+                "I'm not really that talented compared to others",
+                "I don't want to put myself out there until it's really good",
+                "There are already so many people doing this better",
+                "I'm just not ready to share my work yet",
+                "I don't want to seem like I'm trying too hard",
+                "Maybe someday when I'm more skilled"
+              ],
+              "balancing": [
+                "I share one small creative piece each week, regardless of quality",
+                "I practice creating for joy rather than judgment",
+                "I remind myself that my voice matters even if it's not unique",
+                "I focus on serving others through my gifts rather than protecting my ego",
+                "I set 'good enough' as my standard instead of perfect",
+                "I celebrate other artists instead of comparing myself to them"
+              ],
+              "gift": "When honored, provides essential quality control and sensitivity that ensures creative work truly serves and inspires rather than just self-expresses.",
+              "outOfBalance": [
+                "Hoards creative gifts out of fear",
+                "Constantly compares self to others",
+                "Waits for perfection before sharing",
+                "Undervalues own creative contributions",
+                "Creates in isolation without feedback",
+                "Lets criticism silence future expression"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Muse/Song Goddess",
+            "paragraphs": [
+              "The Mature Muse balances inspired expression with attuned service. She understands that creativity is both personal expression and gift to the world. Her art flows from authentic inspiration but is shaped by skill, discipline, and consideration for her audience. She knows when to follow creative impulses and when to refine them, when to share rough drafts and when to polish until they shine.",
+              "She's learned that true inspiration serves something larger than ego. Her creativity becomes a bridge between worlds—bringing beauty, insight, and healing through forms that others can receive. She inspires not through overwhelming others but by modeling the courage to create authentically and share generously."
+            ]
+          },
+          "declarations": [
+            "I honor both inspiration and craftsmanship in my work",
+            "My creativity serves beauty and healing in the world",
+            "I complete projects as acts of love and discipline",
+            "I share my gifts generously without overwhelming others",
+            "I trust my creative voice while remaining open to growth",
+            "I inspire others by creating authentically, not perfectly",
+            "My art is both personal expression and service to something greater",
+            "I balance creative flow with practical completion"
+          ],
+          "balance": {
+            "balance": "Expression ↔ Attunement",
+            "shadow": "Chaotic Inspiration ↔ Silent Songbird",
+            "powerAnimals": "Nightingale, Swan, Butterfly",
+            "qualities": "Inspiring, Expressive, Attuned, Magnetic, Rhythmic, Refined, Courageous, Flowing, Disciplined, Generous"
+          },
+          "virtues": [
+            {
+              "title": "Expression",
+              "quote": "\"If there's a book that you want to read, but it hasn't been written yet, then you must write it.\" — Toni Morrison",
+              "paragraphs": [
+                "Expression is the Muse's courage to translate inner vision into outer form. It's the willingness to make the invisible visible, to give voice to what wants to be spoken, to birth new beauty into the world. This virtue transforms inspiration into impact.",
+                "True expression requires vulnerability—the willingness to be seen, judged, and misunderstood. It's expression that makes the Muse a channel for creativity rather than just a consumer of it."
+              ]
+            },
+            {
+              "title": "Attunement",
+              "quote": "\"Listen to your intuition. It will tell you everything you need to know.\" — Anthony J. D'Angelo",
+              "paragraphs": [
+                "Attunement is the Muse's sensitivity to what wants to be created and how it wants to be received. It's the quality that makes her creativity serve rather than just self-express, that shapes raw inspiration into forms that can truly touch others.",
+                "This virtue teaches her when to share and when to refine, when to follow impulses and when to pause for consideration. It's attunement that makes her creativity a gift rather than a burden to others."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Creatrix / Spider Weaver (Spider Woman)",
+        "slug": "creatrix-spider-weaver",
+        "qualities": ["births ideas & art"],
+        "gifts": "Weaves ideas, systems, art; births forms.",
+        "growthPath": "Create boldly; ship imperfectly.",
+        "practices": [
+          "70% rule (publish at 70%)",
+          "Two-week weave (start—ship—reflect)"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Obsessive Perfectionist",
+              "type": "active",
+              "description": [
+                "When structure devours flow, the Creatrix becomes a master architect of prisons she'll never escape. She has confused perfection with excellence, turning every creative project into an impossible standard that would make angels weep. Her structure has become compulsive—she tweaks and retweaks until the life dies out of her work, polishing stones until they become dust.",
+                "She's lost in the maze of her own making, endlessly refining while the world waits for her gifts. Her flow has been dammed by a thousand micro-decisions, each one designed to make her work more perfect and less human. She creates masterpieces that no one ever sees because they're never quite finished, never quite right."
+              ],
+              "declarations": [
+                "It's just not ready yet—I need to fix a few more things",
+                "I can't put out work that doesn't represent my best",
+                "People will judge me if this isn't absolutely perfect",
+                "I just need to refine this one more element",
+                "I have very high standards for my work",
+                "It's better to wait and do it right than rush and do it wrong"
+              ],
+              "balancing": [
+                "I set 'good enough' deadlines and honor them strictly",
+                "I ship work at 70% perfection and iterate from feedback",
+                "I ask 'is this serving perfection or completion?' before tweaking",
+                "I practice putting deadline over perfection",
+                "I remember that done is better than perfect",
+                "I celebrate messy completion over pristine stagnation"
+              ],
+              "gift": "When tempered, becomes extraordinary attention to quality and detail that creates work of lasting beauty and excellence.",
+              "outOfBalance": [
+                "Endlessly refines without ever finishing",
+                "Paralyzed by impossibly high standards",
+                "Hoards creative work instead of sharing",
+                "Focuses on flaws instead of overall impact",
+                "Uses perfectionism to avoid vulnerability",
+                "Creates magnificent work that no one ever sees"
+              ]
+            },
+            {
+              "name": "Scattered Creator",
+              "type": "passive",
+              "description": [
+                "When flow overwhelms structure, the Creatrix becomes a beautiful whirlwind who starts everywhere and arrives nowhere. She's all inspiration and no organization, all vision and no plan. Her flow has become flood—creative energy rushing in all directions without purpose or container. She mistakes chaos for creativity, confusion for complexity.",
+                "She has a thousand brilliant ideas and no system for manifesting any of them. Her creative energy leaks out through a dozen incomplete projects, half-started ventures, and good intentions. She's the artist whose studio is full of magnificent beginnings but empty of finished works, whose potential is infinite but whose impact is minimal."
+              ],
+              "declarations": [
+                "I work better when I follow my inspiration",
+                "Structure kills my creativity",
+                "I have so many ideas I don't know where to start",
+                "I'm more of a big picture person",
+                "I'll get organized once I finish this creative phase",
+                "Systems and schedules feel too restrictive for my process"
+              ],
+              "balancing": [
+                "I choose one main project and see it through to completion",
+                "I create simple systems to capture and organize ideas",
+                "I set regular work schedules that honor my creative rhythms",
+                "I break large visions into small, manageable steps",
+                "I practice finishing small projects to build completion muscle",
+                "I use structure as a container for creativity, not a cage"
+              ],
+              "gift": "When channeled, provides essential creative flow and innovative thinking that brings new possibilities into being.",
+              "outOfBalance": [
+                "Starts many projects but finishes few",
+                "Overwhelmed by own creative abundance",
+                "Lacks systems to organize and manifest ideas",
+                "Confuses activity with productivity",
+                "Resistant to helpful structures and processes",
+                "Leaks creative energy without focused impact"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Creatrix/Spider Weaver",
+            "paragraphs": [
+              "The Mature Creatrix weaves structure and flow into productive creativity. She understands that limitations are the mother of invention, that constraints can liberate rather than restrict creative expression. Her systems serve her vision rather than constraining it. She's learned to dance between planning and improvising, discipline and inspiration, completion and innovation.",
+              "She births new realities through the marriage of vision and execution. Her creations carry both beauty and functionality, inspiration and practicality. She knows when to follow the flow and when to apply structure, when to dream and when to build, creating work that serves both her creative soul and the world's needs."
+            ]
+          },
+          "declarations": [
+            "I use structure to serve my creative vision",
+            "I balance inspired flow with disciplined completion",
+            "I ship my work imperfectly and improve through iteration",
+            "I create systems that support rather than restrict my creativity",
+            "I honor both the dreaming and the building phases",
+            "I finish projects as acts of love for my future self",
+            "My creativity serves purpose beyond personal expression",
+            "I trust the process of creation from conception to completion"
+          ],
+          "balance": {
+            "balance": "Structure ↔ Flow",
+            "shadow": "Obsessive Perfectionist ↔ Scattered Creator",
+            "powerAnimals": "Spider, Beaver, Hummingbird",
+            "qualities": "Creative, Patient, Inventive, Organized, Visionary, Generative, Bold, Resourceful, Iterative, Systematic"
+          },
+          "virtues": [
+            {
+              "title": "Structure",
+              "quote": "\"A woman is like a tea bag; you never know how strong it is until it's in hot water.\" — Eleanor Roosevelt",
+              "paragraphs": [
+                "Structure is the Creatrix's ability to give form to inspiration, to create containers that can hold and manifest creative vision. It's the discipline that transforms dreams into reality, chaos into beauty, ideas into impact.",
+                "This virtue provides the scaffolding that allows creativity to build rather than just flow. It's structure that turns the Creatrix into a reliable creator rather than just an inspired dreamer."
+              ]
+            },
+            {
+              "title": "Flow",
+              "quote": "\"Life is not about waiting for the storms to pass... It's about learning how to dance in the rain.\" — Vivian Greene",
+              "paragraphs": [
+                "Flow is the Creatrix's connection to the creative force that moves through all things. It's her ability to receive inspiration, to follow creative currents, to allow new forms to emerge through her rather than forcing them into existence.",
+                "This virtue keeps her creativity alive and responsive rather than mechanical. It's flow that brings innovation, surprise, and authentic expression to her work, ensuring it serves life rather than just completing tasks."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Young Healer / Priestess",
+        "slug": "young-healer-priestess",
+        "qualities": ["emerging healing gifts"],
+        "gifts": "Bridges sacred and ordinary; restores balance.",
+        "growthPath": "Heal with boundaries; serve without depleting.",
+        "practices": [
+          "\"Three bowls\" (give, receive, rest) scheduled weekly",
+          "Clear energetic closure after sessions"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Savior Priestess",
+              "type": "active",
+              "description": [
+                "When compassion overwhelms boundaries, the Young Healer becomes a spiritual emergency room that never closes. She has confused healing with rescuing, service with self-sacrifice. Her compassion has become compulsive—she can't see suffering without trying to fix it, can't witness pain without taking it on. She's addicted to being needed, to being the one who can make it all better.",
+                "She gives until she's empty, then borrows energy from tomorrow to keep giving today. Her boundaries have dissolved in the acid bath of others' needs. She's forgotten that healing happens through people, not to them, that her job is to facilitate others' power, not to provide it. She's become a burned-out angel, resenting the very people she's trying to save."
+              ],
+              "declarations": [
+                "I can't just watch someone suffer if I can help",
+                "People really need me—I can't let them down",
+                "I don't mind giving up my personal time for healing work",
+                "It breaks my heart to see people in pain",
+                "I have this gift, so I have to use it",
+                "I can handle one more person—they really need help"
+              ],
+              "balancing": [
+                "I schedule healing work within specific hours and stick to them",
+                "I ask permission before offering advice or healing",
+                "I charge appropriately for my time and energy",
+                "I refer clients to other healers when I'm at capacity",
+                "I maintain my own healing practice separate from my work",
+                "I remember that others' healing is their responsibility, not mine"
+              ],
+              "gift": "When integrated, becomes profound healing presence that empowers others to access their own wholeness rather than creating dependence.",
+              "outOfBalance": [
+                "Takes on others' pain as personal responsibility",
+                "Works beyond capacity to avoid disappointing others",
+                "Confuses enabling with healing",
+                "Uses healing others to avoid healing self",
+                "Creates codependent rather than empowering relationships",
+                "Burned out and resentful despite good intentions"
+              ]
+            },
+            {
+              "name": "Wounded Healer",
+              "type": "passive",
+              "description": [
+                "When boundaries wall out compassion, the Young Healer becomes a spiritual fortress that's so protected it can't connect. She's been hurt by giving too much, so now she gives too little. Her boundaries have hardened into walls that keep her safe but also keep her isolated from the very connections that could heal both her and others.",
+                "She's overthinking every interaction, analyzing every request for help through the lens of past betrayals. Her compassion has gone underground, emerging only in safe, controllable doses. She knows all the right spiritual words about boundaries and self-care, but she's forgotten that healing is ultimately about love, and love requires risk."
+              ],
+              "declarations": [
+                "I have to protect my energy",
+                "I've learned the hard way about boundaries",
+                "I can't save everyone—they have to do their own work",
+                "I'm not responsible for other people's healing",
+                "I need to focus on my own healing first",
+                "I can't afford to take on others' problems"
+              ],
+              "balancing": [
+                "I practice small acts of compassion without attachment to outcome",
+                "I allow myself to care while maintaining appropriate boundaries",
+                "I share my gifts in ways that feel sustainable and joyful",
+                "I notice when protection has become isolation",
+                "I risk being moved by others' pain without taking it on",
+                "I remember that boundaries serve connection, not disconnection"
+              ],
+              "gift": "When welcomed, provides essential wisdom about sustainable service and healthy boundaries that prevent burnout and enable long-term healing work.",
+              "outOfBalance": [
+                "Uses boundaries to avoid genuine connection",
+                "Withholds gifts out of fear of being used",
+                "Intellectualizes healing rather than embodying it",
+                "Stays in perpetual healing mode rather than serving others",
+                "Confuses protection with spiritual growth",
+                "Isolated despite being around people who need healing"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Young Healer/Priestess",
+            "paragraphs": [
+              "The Mature Young Healer bridges compassion and boundaries with grace. She understands that true healing empowers others to access their own wholeness rather than creating dependence on her gifts. Her service flows from overflow rather than obligation, joy rather than guilt. She can be deeply moved by others' pain without taking it on as her responsibility.",
+              "She's learned that boundaries are acts of love—they protect her capacity to serve and teach others to respect both her gifts and their own healing journey. Her presence creates space for transformation rather than providing solutions, facilitating others' connection to their own inner healer."
+            ]
+          },
+          "declarations": [
+            "I serve healing while honoring my own wholeness",
+            "My boundaries protect my capacity to love and serve",
+            "I facilitate others' healing rather than providing it",
+            "I share my gifts joyfully without depleting myself",
+            "I trust others' ability to heal and grow",
+            "My presence creates space for transformation",
+            "I receive as generously as I give",
+            "I model healthy relationship with healing work"
+          ],
+          "balance": {
+            "balance": "Compassion ↔ Boundaries",
+            "shadow": "Savior Priestess ↔ Wounded Healer",
+            "powerAnimals": "Doe, Dove, Seal",
+            "qualities": "Compassionate, Boundaried, Present, Restorative, Empathic, Clear, Centered, Ethical, Grounded, Devotional"
+          },
+          "virtues": [
+            {
+              "title": "Compassion",
+              "quote": "\"Compassion is not a relationship between the healer and the wounded. It's a relationship between equals.\" — Pema Chödrön",
+              "paragraphs": [
+                "Compassion is the Young Healer's ability to be moved by suffering without being destroyed by it. It's the open heart that can witness pain, hold space for transformation, and offer presence without trying to fix or save. This virtue makes healing work sacred rather than codependent.",
+                "True compassion sees the whole person, not just their wounds. It honors others' capacity for healing while offering gentle support for their journey. It's compassion that makes the healer a catalyst for others' transformation rather than a crutch for their avoidance."
+              ]
+            },
+            {
+              "title": "Boundaries",
+              "quote": "\"Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing others.\" — Brené Brown",
+              "paragraphs": [
+                "Boundaries are the Young Healer's wisdom about sustainable service. They're not walls that separate her from others but containers that allow her to love and serve from fullness rather than emptiness. This virtue protects her gifts while teaching others to respect both their healing journey and hers.",
+                "Healthy boundaries in healing work prevent the helper-victim dynamic that sabotages true transformation. They ensure that healing relationships empower rather than enable, that service flows from choice rather than compulsion."
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

@@ -4,7 +4,7 @@ permalink: "/search.json"
 {
   "items": [
     {% set sep = "" %}
-    {% for group in archetypes.groups %}
+    {% for group in collections.groups %}
       {% for item in group.items %}
         {{ sep }}{
           "type": "item",
@@ -18,7 +18,7 @@ permalink: "/search.json"
         {% set sep = "," %}
         {% if item.extended and item.extended.shadows %}
           {% for sh in item.extended.shadows %}
-            {% set shSlug = sh.name | slug %}
+            {% set shSlug = sh.slug or (sh.name | slug) %}
             {{ sep }}{
               "type": "shadow",
               "group": "{{ group.name | escape }}",
