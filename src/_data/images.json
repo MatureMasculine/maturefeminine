@@ -22,6 +22,7 @@
   "elder-visionary-oracle-moon": "elder-visionary-oracle-moon.jpeg",
   "rebel-revolutionary-trickster": "rebel-revolutionary-trickster.jpeg",
   "elder-healer-priestess": "elder-healer-priestess.jpeg",
+  "devoted-consort-beloved": "devoted-consort-beloved.jpeg",
   "shadow": {
     "maiden": {
       "manipulative-maiden": "shadow/maiden--manipulative-maiden.jpg",
@@ -110,6 +111,10 @@
     "elder-healer-priestess": {
       "controlling-healer": "shadow/elder-healer-priestess--controlling-healer.jpg",
       "burned-out-wise-woman": "shadow/elder-healer-priestess--burned-out-wise-woman.jpg"
+    },
+    "devoted-consort-beloved": {
+      "enmeshing-worshipper": "shadow/49_Enmeshing_Worshipper_Shadow.png",
+      "aloof-sovereign": "shadow/50_Aloof_Sovereign_Shadow.png"
     }
   },
   "extraShadow": {
