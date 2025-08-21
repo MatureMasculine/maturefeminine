@@ -12,7 +12,7 @@ title: "The Mature Feminine"
 </div>
 
 {% if siteContent.quote %}
-<p class="quote text-center fst-italic my-3 text-muted">“{{ siteContent.quote.text }}”<br><span class="d-block mt-1">— {{ siteContent.quote.author }}</span></p>
+<p class="quote text-center fst-italic my-3 text-muted">{{ siteContent.quote.text | fixEncoding | stripOuterQuotes }}<br><span class="d-block mt-1">— {{ siteContent.quote.author }}</span></p>
 {% endif %}
 
 <div class="row g-3">

@@ -101,7 +101,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
     {% for v in item.extended.virtues %}
       <div class="mb-3">
         <h6 class="mb-2">{{ v.title }}</h6>
-        {% if v.quote %}<blockquote class="fst-italic border-start border-2 ps-3" style="border-color: rgba(255,255,255,.5)">“{{ v.quote }}”</blockquote>{% endif %}
+        {% if v.quote %}<blockquote class="fst-italic border-start border-2 ps-3" style="border-color: rgba(255,255,255,.5)">{{ v.quote | fixEncoding | stripOuterQuotes }}</blockquote>{% endif %}
         {% if v.paragraphs %}{% for vp in v.paragraphs %}<p class="mb-2">{{ vp }}</p>{% endfor %}{% endif %}
       </div>
     {% endfor %}
