@@ -21,3 +21,8 @@ main .container { max-width: 920px; }
 .mf-declarations { list-style: none; padding-left: 0; margin: 0; }
 .mf-declarations li { display: flex; align-items: baseline; gap: .5rem; }
 .mf-subtle { color: #6b7280; }
+
+/* Shadows: stacked items with sub-cards */
+.shadow-list { display: flex; flex-direction: column; gap: .75rem; }
+.shadow-card .shadow-subcard { background: rgba(255,255,255,.25); border: 1px solid rgba(255,255,255,.35); border-radius: .5rem; padding: .75rem; }
+.shadow-card .shadow-subcard h6 { color: #fff; font-weight: 600; }
