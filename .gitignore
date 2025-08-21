@@ -10,6 +10,32 @@ _site/
 # macOS
 .DS_Store
 
+# Ignored images (explicit names)
+src/assets/images/adventurer-storm.jpeg
+src/assets/images/cover.jpeg
+src/assets/images/creatrix-spider-weaver.jpeg
+src/assets/images/crone-underworld-queen.jpeg
+src/assets/images/elder-healer-priestess.jpeg
+src/assets/images/elder-visionary-oracle-moon.jpeg
+src/assets/images/guardian-buffalo-woman.jpeg
+src/assets/images/justice-maat.jpeg
+src/assets/images/magician-alchemist-witch-scribe.jpeg
+src/assets/images/maiden.jpeg
+src/assets/images/mother.jpeg
+src/assets/images/muse-song-goddess.jpeg
+src/assets/images/peacemaker-peace-bringer.jpeg
+src/assets/images/queen-hearth-keeper.jpeg
+src/assets/images/rebel-revolutionary-trickster.jpeg
+src/assets/images/sacred-whore-love-goddess.jpeg
+src/assets/images/sage-wisdom-athena.jpeg
+src/assets/images/sky-sun-star-goddess.jpeg
+src/assets/images/storyteller.jpeg
+src/assets/images/warrior-warrioress-huntress.jpeg
+src/assets/images/weaver-community-goddess.jpeg
+src/assets/images/wife-nurturer-hestia.jpeg
+src/assets/images/young-healer-priestess.jpeg
+src/assets/images/young-visionary-oracle.jpeg
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
