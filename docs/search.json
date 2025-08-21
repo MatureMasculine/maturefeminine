@@ -61,7 +61,7 @@
               "name": "Reckless Tornado",
               "slug": "adventurer-storm-tempest",
               "qualities": "",
-              "href": "/maiden/adventurer-storm-tempest/#shadow-reckless-tornado"
+              "href": "/maiden/adventurer-storm-tempest/#shadow-reckless-storm"
             }
             
           
@@ -73,7 +73,7 @@
               "name": "Frozen Wanderer",
               "slug": "adventurer-storm-tempest",
               "qualities": "",
-              "href": "/maiden/adventurer-storm-tempest/#shadow-frozen-wanderer"
+              "href": "/maiden/adventurer-storm-tempest/#shadow-paralyzed-dreamer"
             }
             
           
@@ -99,7 +99,7 @@
               "name": "Grandiose Prophet",
               "slug": "young-visionary-oracle",
               "qualities": "",
-              "href": "/maiden/young-visionary-oracle/#shadow-grandiose-prophet"
+              "href": "/maiden/young-visionary-oracle/#shadow-fanatic-prophet"
             }
             
           
@@ -111,7 +111,7 @@
               "name": "Doubting Oracle",
               "slug": "young-visionary-oracle",
               "qualities": "",
-              "href": "/maiden/young-visionary-oracle/#shadow-doubting-oracle"
+              "href": "/maiden/young-visionary-oracle/#shadow-lost-dreamer"
             }
             
           
@@ -304,6 +304,122 @@
               "slug": "young-healer-priestess",
               "qualities": "",
               "href": "/lover-creatrix/young-healer-priestess/#shadow-wounded-healer"
+            }
+            
+          
+        
+      
+    
+      
+        ,{
+          "type": "item",
+          "group": "Mother",
+          "groupSlug": "mother",
+          "name": "Mother (Isis, Gaia, Corn Mother, Sedna)",
+          "slug": "mother",
+          "qualities": ["unconditional nurture"],
+          "href": "/mother/mother/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Devouring Mother",
+              "slug": "mother",
+              "qualities": "",
+              "href": "/mother/mother/#shadow-devouring-mother"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Absent Mother",
+              "slug": "mother",
+              "qualities": "",
+              "href": "/mother/mother/#shadow-absent-mother"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Mother",
+          "groupSlug": "mother",
+          "name": "Wife / Nurturer / Hearth Goddess (Hestia, Nephthys)",
+          "slug": "wife-nurturer-hearth-goddess",
+          "qualities": ["domestic stability"],
+          "href": "/mother/wife-nurturer-hearth-goddess/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Martyr Homemaker",
+              "slug": "wife-nurturer-hearth-goddess",
+              "qualities": "",
+              "href": "/mother/wife-nurturer-hearth-goddess/#shadow-martyr-homemaker"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Withholding Hostess",
+              "slug": "wife-nurturer-hearth-goddess",
+              "qualities": "",
+              "href": "/mother/wife-nurturer-hearth-goddess/#shadow-withholding-hostess"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Mother",
+          "groupSlug": "mother",
+          "name": "Guardian / Buffalo Woman",
+          "slug": "guardian-buffalo-woman",
+          "qualities": ["sacred protection"],
+          "href": "/mother/guardian-buffalo-woman/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Rigid Sentinel",
+              "slug": "guardian-buffalo-woman",
+              "qualities": "",
+              "href": "/mother/guardian-buffalo-woman/#shadow-rigid-sentinel"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Naive Pushover",
+              "slug": "guardian-buffalo-woman",
+              "qualities": "",
+              "href": "/mother/guardian-buffalo-woman/#shadow-naive-pushover"
             }
             
           

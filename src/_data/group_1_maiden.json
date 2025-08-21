@@ -143,6 +143,7 @@
           "shadows": [
             {
               "name": "Reckless Tornado",
+              "slug": "reckless-storm",
               "type": "active",
               "description": [
                 "When courage devours consideration, the Adventurer becomes a beautiful hurricane that leaves debris in her wake. She has confused motion with progress, intensity with aliveness. Her courage has become compulsive—she says yes to everything not because she wants to, but because she's forgotten how to sit still with herself. Every conversation becomes an extreme sport, every relationship a cliff to jump from.",
@@ -176,6 +177,7 @@
             },
             {
               "name": "Frozen Wanderer",
+              "slug": "paralyzed-dreamer",
               "type": "passive",
               "description": [
                 "When consideration smothers courage, the Adventurer becomes a travel blogger who never leaves her room. She has every guidebook, follows every adventure account, and knows every safety statistic—but somehow never books the ticket. Her consideration has become a sophisticated form of self-sabotage, generating endless reasons why now isn't the right time, why she isn't ready, why it's too risky.",
@@ -264,6 +266,7 @@
           "shadows": [
             {
               "name": "Grandiose Prophet",
+              "slug": "fanatic-prophet",
               "type": "active",
               "description": [
                 "When intuition overwhelms discernment, the Young Visionary becomes a cosmic drama queen who mistakes her inner weather for universal truth. She has confused having insights with being The Chosen One. Every dream is prophetic, every feeling is guidance, every synchronicity is a message from the universe specifically for her special mission. She speaks in absolutes about uncertain futures.",
@@ -297,6 +300,7 @@
             },
             {
               "name": "Doubting Oracle",
+              "slug": "lost-dreamer",
               "type": "passive",
               "description": [
                 "When discernment silences intuition, the Young Visionary becomes a mystic with laryngitis. She receives downloads, insights, and visions but immediately subjects them to such rigorous cross-examination that they wither under scrutiny. She's learned to distrust her gift, dismissing her strongest knowings as 'probably just imagination' or 'wishful thinking.'",

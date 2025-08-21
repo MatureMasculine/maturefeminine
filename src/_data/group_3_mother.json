@@ -1,0 +1,373 @@
+{
+    "title": "Mother Archetypes - Completely Revised",
+    "group": "Mother",
+    "slug": "mother",
+    "summary": "Nurture, protect, grow; task = love with boundaries",
+    "essence": "Unconditional love, fierce protection, and nurturing growth; creating safe spaces while maintaining healthy boundaries between giving and self-care.",
+    "items": [
+      {
+        "name": "Mother (Isis, Gaia, Corn Mother, Sedna)",
+        "slug": "mother",
+        "qualities": ["unconditional nurture"],
+        "gifts": "Unconditional love with wise limits; growth, provision.",
+        "growthPath": "Love + limits; empower, don't consume.",
+        "practices": [
+          "\"Am I doing this for them or instead of them?\"",
+          "Empowerment checklist (teach, trust, let go)."
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Devouring Mother",
+              "type": "active",
+              "description": [
+                "When care devours autonomy, the Mother becomes a love that suffocates rather than liberates. She has confused nurturing with controlling, protection with possession. Her love has become a beautiful cage—she gives so much that others feel guilty for wanting independence, cares so deeply that she can't let anyone struggle or fail or grow through their own mistakes.",
+                "She anticipates needs before they're felt, solves problems before they're experienced, and creates a world so cushioned that no one develops resilience. Her care has become compulsive—she can't stop herself from fixing, helping, organizing others' lives because their pain feels like her failure. She loves by consuming, nurtures by controlling, protects by preventing the very experiences that would help others grow strong."
+              ],
+              "declarations": [
+                "I just want to protect them from making my mistakes",
+                "They need me—I can see they're struggling",
+                "I can't just watch them suffer when I could help",
+                "It's faster if I just do it myself",
+                "I know what's best for them",
+                "They'll understand when they're older that I was just trying to help"
+              ],
+              "balancing": [
+                "I ask 'will this help them grow stronger?' before intervening",
+                "I allow others to struggle and learn from their own mistakes",
+                "I offer support rather than solutions",
+                "I express needs and allow others to choose how to respond",
+                "I practice letting others be responsible for their own lives",
+                "I focus on my own growth instead of managing others'"
+              ],
+              "gift": "When integrated, becomes fierce love that empowers others to become their strongest selves, providing support while honoring autonomy.",
+              "outOfBalance": [
+                "Solves problems others need to solve themselves",
+                "Creates dependency through over-giving",
+                "Can't tolerate others' discomfort or struggle",
+                "Controls through care and concern",
+                "Takes responsibility for others' emotions and outcomes",
+                "Prevents growth by removing all challenges"
+              ]
+            },
+            {
+              "name": "Absent Mother",
+              "type": "passive",
+              "description": [
+                "When autonomy freezes out care, the Mother becomes a distant planet—present but unreachable, available but not accessible. She has confused independence with isolation, self-care with selfishness. Her autonomy has hardened into emotional unavailability—she's so focused on not being the devouring mother that she's forgotten how to be nourishing at all.",
+                "She maintains her boundaries like fortress walls, never letting anyone get close enough to truly need her. Her care has become conditional and calculated—she'll help, but only if asked directly, only if it doesn't inconvenience her, only if she can maintain complete emotional distance. She's present in body but absent in heart, available for logistics but not for connection."
+              ],
+              "declarations": [
+                "They need to learn to be independent",
+                "I'm not responsible for everyone else's emotional needs",
+                "I've learned to put myself first",
+                "They should ask if they need help",
+                "I can't be everything to everyone",
+                "I have my own life to live"
+              ],
+              "balancing": [
+                "I practice small acts of care without being asked",
+                "I allow myself to feel moved by others' needs",
+                "I offer emotional presence, not just practical help",
+                "I share my own vulnerabilities appropriately",
+                "I risk being needed without becoming indispensable",
+                "I balance self-care with generous availability"
+              ],
+              "gift": "When welcomed, provides essential modeling of healthy autonomy and self-respect that teaches others to be whole individuals within relationship.",
+              "outOfBalance": [
+                "Emotionally unavailable despite physical presence",
+                "Uses independence to avoid intimacy",
+                "Withholds care to maintain control",
+                "Responds only to direct requests for help",
+                "Fears being needed or depended upon",
+                "Mistakes emotional distance for healthy boundaries"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Mother",
+            "paragraphs": [
+              "The Mature Mother embodies love that liberates rather than constrains. She cares deeply while honoring others' autonomy, nurtures growth while allowing struggle, protects while fostering resilience. Her love creates safe space for others to become themselves rather than extensions of her care. She's learned that true mothering empowers rather than enables.",
+              "She gives from overflow rather than obligation, sets boundaries that teach rather than reject, and offers presence that supports without suffocating. Her care is responsive rather than anticipatory—she meets others where they are rather than where she thinks they should be. In her presence, others feel both deeply loved and completely free."
+            ]
+          },
+          "declarations": [
+            "I love others while honoring their journey and autonomy",
+            "My care empowers rather than enables dependence", 
+            "I provide safe space for others to grow and make mistakes",
+            "I offer support while respecting others' capacity to handle their lives",
+            "I give from fullness rather than obligation or guilt",
+            "I trust others' ability to learn and grow from their experiences",
+            "My boundaries teach self-respect and mutual care",
+            "I model wholeness while being available for authentic connection"
+          ],
+          "balance": {
+            "balance": "Care ↔ Autonomy",
+            "shadow": "Devouring Mother ↔ Absent Mother",
+            "powerAnimals": "Bear, Cow, Elephant",
+            "qualities": "Nurturing, Steady, Protective, Generous, Patient, Wise, Resilient, Grounded, Empowering, Trustworthy"
+          },
+          "virtues": [
+            {
+              "title": "Care",
+              "quote": "\"Self-care is never a selfish act - it is simply good stewardship of the only gift I have, the gift I was put on earth to offer others.\" — Parker Palmer",
+              "paragraphs": [
+                "Care is the Mother's natural impulse to nurture growth and wellbeing in herself and others. It's love in action—the willingness to tend, protect, and support life in all its forms. This virtue creates the conditions where others can flourish.",
+                "True care is responsive rather than reactive, empowering rather than enabling. It provides what's needed for growth while respecting the recipient's autonomy and capacity. It's care that makes love practical and sustainable."
+              ]
+            },
+            {
+              "title": "Autonomy",
+              "quote": "\"For to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others.\" — Nelson Mandela",
+              "paragraphs": [
+                "Autonomy is the Mother's respect for the individual journey of every person she loves. It's the wisdom that recognizes others must live their own lives, make their own mistakes, and find their own strength. This virtue prevents love from becoming control.",
+                "Healthy autonomy in mothering means supporting others' growth without taking over their process. It trusts that love doesn't require ownership, that care doesn't require control, and that the best way to love someone is to honor their capacity to become themselves."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Wife / Nurturer / Hearth Goddess (Hestia, Nephthys)",
+        "slug": "wife-nurturer-hearth-goddess",
+        "qualities": ["domestic stability"],
+        "gifts": "Home as temple; quiet devotion; ennobling support.",
+        "growthPath": "Nurture with boundaries; serve without self-abandonment.",
+        "practices": [
+          "Weekly \"hearth audit\": What nurtures me? What is reciprocal?"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Martyr Homemaker",
+              "type": "active",
+              "description": [
+                "When hospitality devours boundaries, the Hearth Goddess becomes a beautiful slave to everyone else's comfort. She has confused service with servitude, nurturing with self-erasure. Her hospitality has become compulsive—she can't stop creating perfect environments for others while her own needs wither from neglect. She's the woman who cleans the house before the cleaning lady comes.",
+                "She gives and gives until she's running on fumes, then feels guilty for feeling tired. Her boundaries have dissolved in the acid bath of others' needs and expectations. She's created a home that's a shrine to everyone else's happiness while she disappears into the wallpaper, a ghost in her own sacred space."
+              ],
+              "declarations": [
+                "I just want everyone to be comfortable and happy",
+                "It's easier if I just do it myself",
+                "I don't mind—I like taking care of people",
+                "They work so hard, the least I can do is handle everything else",
+                "I get satisfaction from creating a beautiful home",
+                "Someone has to do it, and I'm good at it"
+              ],
+              "balancing": [
+                "I ask for help with household tasks and delegate regularly",
+                "I schedule time for my own interests and honor it",
+                "I express my needs clearly rather than hoping they'll be noticed",
+                "I let others experience mild discomfort rather than rushing to fix it",
+                "I remember that my wellbeing contributes to the household harmony",
+                "I practice receiving care and attention from others"
+              ],
+              "gift": "When integrated, creates genuinely nourishing environments where everyone feels cared for, including herself.",
+              "outOfBalance": [
+                "Creates perfect environments while neglecting own needs",
+                "Takes responsibility for everyone else's comfort",
+                "Feels guilty for having personal desires or needs",
+                "Uses service to avoid asserting herself",
+                "Becomes invisible in her own home",
+                "Resents others while continuing to over-give"
+              ]
+            },
+            {
+              "name": "Withholding Hostess",
+              "type": "passive",
+              "description": [
+                "When boundaries wall out hospitality, the Hearth Goddess becomes the proprietor of a beautiful but cold museum. She has confused self-protection with stinginess, boundaries with barriers. Her home is perfect but unwelcoming, her care conditional and calculated. She maintains her space like a fortress, where everything is lovely but nothing can be touched.",
+                "She's so focused on protecting her energy and resources that she's forgotten the joy of generous sharing. Her hospitality has become a performance—everything looks perfect for guests, but the warmth has been sanitized out. She gives exactly what's required and no more, maintains exactly the appropriate distance, creates exactly the right impression while her heart grows cold from disuse."
+              ],
+              "declarations": [
+                "I can't be responsible for everyone's entertainment",
+                "I need to maintain my personal space and boundaries",
+                "People should appreciate what I provide without expecting more",
+                "I've learned not to exhaust myself for others",
+                "I have my own life and priorities",
+                "I can't afford to be taken advantage of"
+              ],
+              "balancing": [
+                "I practice one spontaneous act of hospitality each week",
+                "I allow my home to be lived in, not just displayed",
+                "I share resources generously without keeping score",
+                "I invite others into my space with genuine warmth",
+                "I focus on connection over perfection in hosting",
+                "I remember that boundaries serve love, not protect against it"
+              ],
+              "gift": "When welcomed, provides essential wisdom about sustainable hospitality and self-respect that makes welcoming others a joy rather than a burden.",
+              "outOfBalance": [
+                "Creates beautiful but unwelcoming spaces",
+                "Gives the minimum required rather than generous sharing",
+                "Uses perfectionism to maintain distance",
+                "Calculates every act of care",
+                "Prioritizes preserving space over creating connection",
+                "Confuses boundaries with barriers to intimacy"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Wife/Nurturer/Hearth Goddess",
+            "paragraphs": [
+              "The Mature Hearth Goddess creates home as sanctuary—a space that nourishes everyone, including herself. She understands that true hospitality flows from fullness rather than emptiness, that sustainable care requires self-care. Her boundaries enhance rather than limit her ability to welcome others, creating rhythms of giving and receiving that sustain both her and those she serves.",
+              "She transforms the domestic into the sacred through conscious attention and loving presence. Her home becomes a place of refuge and renewal, her care a source of strength rather than depletion. She models how to create beauty and order that serves life rather than demanding sacrifice."
+            ]
+          },
+          "declarations": [
+            "I create home as sanctuary for all who dwell here",
+            "My hospitality flows from fullness, not obligation",
+            "I care for myself as lovingly as I care for others",
+            "I transform daily tasks into sacred practices",
+            "I welcome others while honoring my own needs and rhythms",
+            "My boundaries enhance my ability to love and serve",
+            "I ask for help and accept it graciously",
+            "I create beauty and order that serves life and joy"
+          ],
+          "balance": {
+            "balance": "Hospitality ↔ Boundaries",
+            "shadow": "Martyr Homemaker ↔ Withholding Hostess",
+            "powerAnimals": "Cat, Hearth Hound, Wren",
+            "qualities": "Devoted, Warm, Steady, Reciprocal, Boundaried, Simple, Grounded, Gracious, Attentive, Reliable"
+          },
+          "virtues": [
+            {
+              "title": "Hospitality",
+              "quote": "\"What we plant in the soil of contemplation, we shall reap in the harvest of action.\" — Meister Eckhart",
+              "paragraphs": [
+                "Hospitality is the Hearth Goddess's ability to create welcoming space where others can rest, restore, and be nourished. It's the art of making others feel at home, of sharing resources and attention in ways that enhance everyone's wellbeing.",
+                "True hospitality comes from abundance rather than obligation. It's the joy of creating comfort for others, of transforming a house into a home, of making the ordinary sacred through loving attention and generous care."
+              ]
+            },
+            {
+              "title": "Boundaries",
+              "quote": "\"Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing others.\" — Brené Brown",
+              "paragraphs": [
+                "Boundaries are the Hearth Goddess's wisdom about sustainable care. They protect her ability to give by ensuring she also receives, creating rhythms of rest and renewal that make long-term service possible. These boundaries teach others to honor the sacred space she creates.",
+                "Healthy boundaries in domestic life prevent resentment and burnout. They ensure that creating home remains a joy rather than a burden, that hospitality flows from choice rather than compulsion."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Guardian / Buffalo Woman",
+        "slug": "guardian-buffalo-woman",
+        "qualities": ["sacred protection"],
+        "gifts": "Threshold keeper; protects what is sacred.",
+        "growthPath": "Discern what deserves protection; guard with wisdom.",
+        "practices": [
+          "\"Doorframe test\": What enters? What leaves? Name criteria out loud."
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Rigid Sentinel",
+              "type": "active",
+              "description": [
+                "When protection overwhelms trust, the Guardian becomes a fortress with no doors, a wall that protects by preventing all connection. She has confused vigilance with paranoia, discernment with suspicion. Her protection has become compulsive—she sees threats everywhere, enemies in every stranger, danger in every new experience. She's the guard who shoots first and asks questions never.",
+                "She's created a world so defended that nothing new can enter, nothing spontaneous can occur, nothing organic can grow. Her trust has been murdered by her fear, her openness strangled by her need for control. She protects by preventing life itself, creating safety through suffocation."
+              ],
+              "declarations": [
+                "You can never be too careful these days",
+                "I've seen what happens when people let their guard down",
+                "It's better to be safe than sorry",
+                "People will take advantage if you let them",
+                "I have to protect what's important to me",
+                "Trust has to be earned, not given"
+              ],
+              "balancing": [
+                "I practice discerning between real threats and imagined ones",
+                "I allow safe people into my protected spaces",
+                "I risk small trusts to build confidence in my judgment",
+                "I notice when protection has become isolation",
+                "I remember that some things are worth the risk of loss",
+                "I protect life, not just prevent death"
+              ],
+              "gift": "When tempered, becomes extraordinary wisdom about real threats and authentic protection that serves life rather than preventing it.",
+              "outOfBalance": [
+                "Sees threats where none exist",
+                "Creates barriers that prevent authentic connection",
+                "Uses protection as excuse for isolation",
+                "Rigid rules that don't adapt to changing circumstances",
+                "Focuses on preventing loss rather than nurturing growth",
+                "Becomes the threat she's trying to protect against"
+              ]
+            },
+            {
+              "name": "Naive Pushover",
+              "type": "passive",
+              "description": [
+                "When trust overwhelms protection, the Guardian becomes a doormat with a welcome sign that reads 'please wipe your feet on me.' She has confused openness with doormat syndrome, trust with gullibility. Her protection has atrophied from disuse—she can't recognize red flags, can't say no to boundary violations, can't distinguish between someone who needs help and someone who needs to be avoided.",
+                "She gives access to her sacred spaces to anyone who asks nicely, trusts people who haven't earned it, and excuses behavior that should be confronted. Her trust has become compulsive—she believes every sob story, falls for every manipulation, and takes responsibility for others' poor choices."
+              ],
+              "declarations": [
+                "I don't want to be judgmental or suspicious",
+                "Everyone deserves a chance",
+                "I like to see the good in people",
+                "Maybe they're just having a bad day",
+                "I don't want to be mean or unwelcoming",
+                "They probably didn't mean it that way"
+              ],
+              "balancing": [
+                "I trust my gut feelings about people and situations",
+                "I require consistent behavior before granting deep access",
+                "I practice saying no to requests that don't feel right",
+                "I notice patterns rather than excusing individual incidents",
+                "I protect my energy and resources consciously",
+                "I remember that boundaries protect my ability to love"
+              ],
+              "gift": "When honored, provides essential openness and faith in human goodness that creates space for authentic connection and growth.",
+              "outOfBalance": [
+                "Allows boundary violations to avoid conflict",
+                "Trusts without evidence or consistency",
+                "Makes excuses for others' harmful behavior",
+                "Gives access to sacred spaces too quickly",
+                "Confuses kindness with lack of discernment",
+                "Becomes victim of what she fails to protect against"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Guardian/Buffalo Woman",
+            "paragraphs": [
+              "The Mature Guardian protects what is sacred while remaining open to what is life-giving. She understands that true protection serves growth, not just prevention of harm. Her discernment is calibrated—she can sense real threats while remaining receptive to authentic connection. She creates boundaries that are permeable to love and impermeable to harm.",
+              "She guards the threshold between safe and unsafe, sacred and profane, nourishing and depleting. Her protection is responsive rather than reactive, based on wisdom rather than fear. In her presence, others feel both safe and free, both protected and trusted to handle themselves."
+            ]
+          },
+          "declarations": [
+            "I protect what is sacred while remaining open to life",
+            "My discernment serves growth, not just prevention of harm",
+            "I create boundaries that are wise, not fearful",
+            "I trust my ability to sense what belongs and what doesn't",
+            "I guard the threshold between nourishing and depleting",
+            "I protect others' freedom as well as their safety",
+            "My vigilance serves love, not fear",
+            "I am both guardian and welcome mat for what serves life"
+          ],
+          "balance": {
+            "balance": "Protection ↔ Trust",
+            "shadow": "Rigid Sentinel ↔ Naive Pushover",
+            "powerAnimals": "Buffalo, Wolf, Bear",
+            "qualities": "Protective, Discerning, Devout, Grounded, Steadfast, Strong, Courageous, Honorable, Patient, Trustworthy"
+          },
+          "virtues": [
+            {
+              "title": "Protection",
+              "quote": "\"The greatest wealth is to live content with little.\" — Plato",
+              "paragraphs": [
+                "Protection is the Guardian's instinct to preserve and defend what is valuable and sacred. It's the fierce love that stands between what matters and what would harm it. This virtue ensures that growth can happen in safety, that the vulnerable can flourish under wise protection.",
+                "True protection serves life rather than preventing it. It creates safe containers for growth, clear boundaries against harm, and wise discernment about what deserves to be guarded and what needs to be released."
+              ]
+            },
+            {
+              "title": "Trust",
+              "quote": "\"The only real valuable thing is intuition.\" — Albert Einstein",
+              "paragraphs": [
+                "Trust is the Guardian's ability to remain open to life's gifts while maintaining wise boundaries. It's the faith that allows connection, the openness that makes protection worthwhile. This virtue ensures that safeguarding doesn't become isolation.",
+                "Healthy trust is earned and given wisely. It recognizes that the goal of protection is not to prevent all risk but to create conditions where life can flourish safely. It's trust that makes protection a service to love rather than a barrier against it."
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
