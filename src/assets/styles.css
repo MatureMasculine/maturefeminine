@@ -6,21 +6,87 @@ body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, H
 .chip { border-radius: 9999px; }
 main .container { max-width: 920px; }
 
+/* Color palette variables from provided theme */
+:root {
+  /* Platinum */
+  --platinum-100: #27302e;
+  --platinum-200: #4f605c;
+  --platinum-300: #779089;
+  --platinum-400: #a7b7b3;
+  --platinum-500: #d7dedc;
+  --platinum-600: #e0e5e4;
+  --platinum-700: #e7eceb;
+  --platinum-800: #eff2f1;
+  --platinum-900: #f7f9f8;
+
+  /* Timberwolf */
+  --timberwolf-100: #2a2a28;
+  --timberwolf-200: #545451;
+  --timberwolf-300: #7e7e79;
+  --timberwolf-400: #a7a7a3;
+  --timberwolf-500: #cfcfcd;
+  --timberwolf-600: #d9d9d7;
+  --timberwolf-700: #e3e3e1;
+  --timberwolf-800: #ececeb;
+  --timberwolf-900: #f6f6f5;
+
+  /* Mountbatten Pink */
+  --mountbatten-pink-100: #1f1a20;
+  --mountbatten-pink-200: #3e3440;
+  --mountbatten-pink-300: #5e4e60;
+  --mountbatten-pink-400: #7d6980;
+  --mountbatten-pink-500: #9a879d;
+  --mountbatten-pink-600: #ae9fb0;
+  --mountbatten-pink-700: #c2b7c4;
+  --mountbatten-pink-800: #d6cfd8;
+  --mountbatten-pink-900: #ebe7eb;
+
+  /* Byzantium */
+  --byzantium-100: #180c15;
+  --byzantium-200: #30172a;
+  --byzantium-300: #48233e;
+  --byzantium-400: #602e53;
+  --byzantium-500: #7a3b69;
+  --byzantium-600: #a5508e;
+  --byzantium-700: #be79ac;
+  --byzantium-800: #d4a5c8;
+  --byzantium-900: #e9d2e3;
+
+  /* Eggplant */
+  --eggplant-100: #110a0d;
+  --eggplant-200: #221519;
+  --eggplant-300: #341f26;
+  --eggplant-400: #452933;
+  --eggplant-500: #563440;
+  --eggplant-600: #855062;
+  --eggplant-700: #ab7387;
+  --eggplant-800: #c7a2af;
+  --eggplant-900: #e3d0d7;
+}
+
 /* Archetype page styles inspired by sample.html */
-.mf-card { background: #fff; border: 1px solid #e5e7eb; border-radius: .75rem; box-shadow: 0 4px 10px rgba(0,0,0,.04); }
+.mf-card { background: var(--platinum-900); border: 1px solid var(--platinum-400); border-radius: .75rem; box-shadow: 0 4px 10px rgba(0,0,0,.04); }
+/* Align Bootstrap cards with palette */
+[data-bs-theme="light"] .card { --bs-card-bg: var(--platinum-900); --bs-card-border-color: var(--platinum-400); }
+[data-bs-theme="dark"] .card { --bs-card-bg: var(--eggplant-100); --bs-card-border-color: var(--eggplant-400); }
 .mf-box { border-radius: .5rem; padding: 1rem; }
-.section-green { background-color: #ecfdf5; border-left: 4px solid #10b981; }
-.section-green h4 { color: #065f46; }
-.section-blue { background-color: #eff6ff; border-left: 4px solid #3b82f6; }
-.section-blue h4 { color: #1e40af; }
-.section-yellow { background-color: #fffbeb; border-left: 4px solid #f59e0b; }
-.section-yellow h4 { color: #92400e; }
-.shadow-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
-.shadow-card .shadow-panel { background: rgba(255,255,255,.2); border-radius: .5rem; padding: .75rem; }
-.virtue-card { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
+  /* Mature → Timberwolf */
+  .section-green { background-color: var(--timberwolf-900); border-left: 4px solid var(--timberwolf-300); }
+  .section-green h4 { color: var(--timberwolf-200); }
+  /* Mature Declarations → Byzantium */
+  .section-blue { background-color: var(--byzantium-900); border-left: 4px solid var(--byzantium-500); }
+  .section-blue h4 { color: var(--byzantium-400); }
+  /* Balance & Qualities → Platinum */
+  .section-yellow { background-color: var(--platinum-900); border-left: 4px solid var(--platinum-400); }
+  .section-yellow h4 { color: var(--platinum-300); }
+  /* Shadow → Eggplant */
+  .shadow-card { background: linear-gradient(135deg, var(--eggplant-500) 0%, var(--eggplant-700) 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
+  .shadow-card .shadow-panel { background: rgba(255,255,255,.2); border-radius: .5rem; padding: .75rem; }
+  /* Virtues → Mountbatten Pink */
+  .virtue-card { background: linear-gradient(135deg, var(--mountbatten-pink-500) 0%, var(--mountbatten-pink-400) 100%); color: #fff; border-radius: .5rem; padding: 1rem; }
 .mf-declarations { list-style: none; padding-left: 0; margin: 0; }
 .mf-declarations li { display: flex; align-items: baseline; gap: .5rem; }
-.mf-subtle { color: #6b7280; }
+.mf-subtle { color: var(--timberwolf-400); }
 
 /* Shadows: stacked items with sub-cards */
 .shadow-list { display: flex; flex-direction: column; gap: .75rem; }
