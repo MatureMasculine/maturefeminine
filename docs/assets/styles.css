@@ -4,6 +4,7 @@ body { font-family: var(--bs-body-font-family); }
   #sidebar { width: 100%; }
 }
 .chip { border-radius: 9999px; }
+.badge.chip { background-color: #000 !important; color: var(--platinum-900) !important; }
 main .container { max-width: 920px; }
 
 /* Color palette variables from provided theme */

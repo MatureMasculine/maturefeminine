@@ -19,7 +19,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 {% endif %}
 
 <p>
-  {% if item.qualities %}
+  {% if item.qualities and false %}
     {% for q in item.qualities %}
       <span class="badge text-bg-primary chip">{{ q }}</span>
     {% endfor %}
