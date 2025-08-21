@@ -122,9 +122,9 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 
   {% if item.extended.shadows %}
     {% for sh in item.extended.shadows %}
-    <div class="shadow-card mb-3">
+    {% set shadowSlug = sh.name | slug %}
+    <div id="shadow-{{ shadowSlug }}" class="shadow-card mb-3">
       <h4 class="mb-2"><i class="fas fa-mask me-2"></i>{{ sh.name }}{% if sh.type %} ({{ sh.type }} shadow){% endif %}</h4>
-      {% set shadowSlug = sh.name | slug %}
       {% set shImg = images.shadow and images.shadow[item.slug] and images.shadow[item.slug][shadowSlug] %}
       {% if not shImg and images.extraShadow %}{% set shImg = images.extraShadow[shadowSlug] %}{% endif %}
       {% if shImg %}

@@ -4,8 +4,9 @@
 
 
 -- Boundary-less Protector (passive shadow) missing image
--- posessive shadow image? what's that about? 
+-- posessive shadow image, and consumed shadow image? what's that about? 
 
+-- big overall map? 
 
 -- Image style
 

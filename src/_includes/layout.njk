@@ -42,6 +42,16 @@
                   {% for item in group.items %}
                   <li class="mb-2 nav-item" data-name="{{ item.name | lower }}" data-qualities="{{ (item.qualities or []) | join(',') | lower }}">
                     <a class="text-decoration-none" href="{{ group.slug }}/{{ item.slug }}/">{{ item.name }}</a>
+                    {% if item.extended and item.extended.shadows %}
+                    <ul class="list-unstyled ms-3 mt-1">
+                      {% for sh in item.extended.shadows %}
+                        {% set shadowSlug = sh.name | slug %}
+                        <li class="nav-item nav-shadow" data-name="{{ (sh.name or '') | lower }}" data-qualities="{{ (sh.qualities or '') | lower }}">
+                          <a class="text-decoration-none small" href="{{ group.slug }}/{{ item.slug }}/#shadow-{{ shadowSlug }}">{{ sh.name }}</a>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                    {% endif %}
                   </li>
                   {% endfor %}
                 </ul>

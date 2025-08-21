@@ -3,15 +3,34 @@ permalink: "/search.json"
 ---
 {
   "items": [
+    {% set sep = "" %}
     {% for group in archetypes.groups %}
       {% for item in group.items %}
-      {
-        "group": "{{ group.name | escape }}",
-        "groupSlug": "{{ group.slug }}",
-        "name": "{{ item.name | escape }}",
-        "slug": "{{ item.slug }}",
-        "qualities": {{ (item.qualities or []) | dump | safe }}
-      }{% if not loop.last or not loop.parent.last %},{% endif %}
+        {{ sep }}{
+          "type": "item",
+          "group": "{{ group.name | escape }}",
+          "groupSlug": "{{ group.slug }}",
+          "name": "{{ item.name | escape }}",
+          "slug": "{{ item.slug }}",
+          "qualities": {{ (item.qualities or []) | dump | safe }},
+          "href": "/{{ group.slug }}/{{ item.slug }}/"
+        }
+        {% set sep = "," %}
+        {% if item.extended and item.extended.shadows %}
+          {% for sh in item.extended.shadows %}
+            {% set shSlug = sh.name | slug %}
+            {{ sep }}{
+              "type": "shadow",
+              "group": "{{ group.name | escape }}",
+              "groupSlug": "{{ group.slug }}",
+              "name": "{{ sh.name | escape }}",
+              "slug": "{{ item.slug }}",
+              "qualities": {{ (sh.qualities or '') | dump | safe }},
+              "href": "/{{ group.slug }}/{{ item.slug }}/#shadow-{{ shSlug }}"
+            }
+            {% set sep = "," %}
+          {% endfor %}
+        {% endif %}
       {% endfor %}
     {% endfor %}
   ]

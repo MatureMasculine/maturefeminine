@@ -10,6 +10,15 @@
 
     let fuse = null;
 
+    function normalizeHref(href){
+      if(!href) return '';
+      // Remove leading slash
+      let s = href.replace(/^\//,'');
+      // Remove the trailing slash if it's at the end or right before a hash
+      s = s.replace(/\/(?=#|$)/, '');
+      return s;
+    }
+
     function render(filter){
       const items = document.querySelectorAll('#navAccordion .nav-item');
       // Reset all items visible
@@ -30,20 +39,22 @@
         return;
       }
 
-      let matchedPaths = null;
+      let matchedHrefs = null;
       if(fuse){
         try {
-          matchedPaths = new Set(fuse.search(filter).map(r => `${r.item.groupSlug}/${r.item.slug}`));
+          matchedHrefs = new Set(
+            fuse.search(filter).map(r => normalizeHref(r.item.href))
+          );
         } catch (_) { /* noop */ }
       }
 
       const q = filter.toLowerCase();
       items.forEach(el => {
         const link = el.querySelector('a');
-        const path = link.getAttribute('href').replace(/^\//,'').replace(/\/$/,'');
+        const path = normalizeHref(link.getAttribute('href'));
         let visible = true;
-        if(matchedPaths){
-          visible = matchedPaths.has(path);
+        if(matchedHrefs){
+          visible = matchedHrefs.has(path);
         } else {
           const name = (el.getAttribute('data-name') || '').toLowerCase();
           const quals = (el.getAttribute('data-qualities') || '').toLowerCase();
@@ -51,6 +62,13 @@
         }
         if(!visible) el.classList.add('d-none');
       });
+
+      // Ensure parent items are visible when a shadow matches
+      document.querySelectorAll('#navAccordion .nav-item.nav-shadow:not(.d-none)')
+        .forEach(sh => {
+          const parentItem = sh.closest('li.nav-item:not(.nav-shadow)');
+          if(parentItem) parentItem.classList.remove('d-none');
+        });
 
       // Expand groups that have visible matches; collapse the rest
       accordions.forEach(acc => {
