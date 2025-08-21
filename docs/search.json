@@ -39,6 +39,14 @@
       {
         "group": "Lover / Creatrix",
         "groupSlug": "lover-creatrix",
+        "name": "Devoted Consort / Beloved (Radha, Parvati)",
+        "slug": "devoted-consort-beloved",
+        "qualities": ["sacred devotion","dignified surrender"]
+      },
+      
+      {
+        "group": "Lover / Creatrix",
+        "groupSlug": "lover-creatrix",
         "name": "Muse / Song Goddess (Saraswati)",
         "slug": "muse-song-goddess",
         "qualities": ["inspiration"]
