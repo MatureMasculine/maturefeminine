@@ -542,5 +542,159 @@
         
       
     
+      
+        ,{
+          "type": "item",
+          "group": "Crone",
+          "groupSlug": "crone",
+          "name": "Crone / Underworld Queen (Morrigan, Persephone)",
+          "slug": "crone-underworld-queen",
+          "qualities": ["death/rebirth wisdom"],
+          "href": "/crone/crone-underworld-queen/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Destroying Angel",
+              "slug": "crone-underworld-queen",
+              "qualities": "",
+              "href": "/crone/crone-underworld-queen/#shadow-destroying-angel"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Eternal Mourner",
+              "slug": "crone-underworld-queen",
+              "qualities": "",
+              "href": "/crone/crone-underworld-queen/#shadow-eternal-mourner"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Crone",
+          "groupSlug": "crone",
+          "name": "Elder Visionary / Oracle / Moon (Artemis, Moon Woman)",
+          "slug": "elder-visionary-oracle-moon",
+          "qualities": ["far-sight & deep intuition"],
+          "href": "/crone/elder-visionary-oracle-moon/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Cryptic Oracle",
+              "slug": "elder-visionary-oracle-moon",
+              "qualities": "",
+              "href": "/crone/elder-visionary-oracle-moon/#shadow-cryptic-oracle"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Disconnected Hermit",
+              "slug": "elder-visionary-oracle-moon",
+              "qualities": "",
+              "href": "/crone/elder-visionary-oracle-moon/#shadow-disconnected-hermit"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Crone",
+          "groupSlug": "crone",
+          "name": "Rebel / Revolutionary / Trickster (Eris)",
+          "slug": "rebel-revolutionary-trickster",
+          "qualities": ["wisdom that breaks old forms"],
+          "href": "/crone/rebel-revolutionary-trickster/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Chaotic Destroyer",
+              "slug": "rebel-revolutionary-trickster",
+              "qualities": "",
+              "href": "/crone/rebel-revolutionary-trickster/#shadow-chaotic-destroyer"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Conforming Complainer",
+              "slug": "rebel-revolutionary-trickster",
+              "qualities": "",
+              "href": "/crone/rebel-revolutionary-trickster/#shadow-conforming-complainer"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Crone",
+          "groupSlug": "crone",
+          "name": "Elder Healer / Priestess",
+          "slug": "elder-healer-priestess",
+          "qualities": ["master of restoration"],
+          "href": "/crone/elder-healer-priestess/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Martyred Healer",
+              "slug": "elder-healer-priestess",
+              "qualities": "",
+              "href": "/crone/elder-healer-priestess/#shadow-martyred-healer"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Cynical Healer",
+              "slug": "elder-healer-priestess",
+              "qualities": "",
+              "href": "/crone/elder-healer-priestess/#shadow-cynical-healer"
+            }
+            
+          
+        
+      
+    
   ]
 }

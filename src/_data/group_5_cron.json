@@ -1,0 +1,498 @@
+{
+    "title": "Crone Archetypes - Completely Revised",
+    "group": "Crone",
+    "slug": "crone",
+    "summary": "Endings, wisdom; task = harvest and transmit",
+    "essence": "Composting, endings, fearless truth, rebirth midwifery.",
+    "items": [
+      {
+        "name": "Crone / Underworld Queen (Morrigan, Persephone)",
+        "slug": "crone-underworld-queen",
+        "qualities": ["death/rebirth wisdom"],
+        "gifts": "Composting, endings, fearless truth, rebirth midwifery.",
+        "growthPath": "End with grace; destroy only what blocks new life.",
+        "practices": [
+          "Quarterly \"Good Death\" list (what ends now?)",
+          "Grief with a witness",
+          "Name the harvest"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Destroying Angel",
+              "type": "active",
+              "description": [
+                "When release devours remembrance, the Crone becomes a beautiful apocalypse that burns everything down without building anything up. She has confused destruction with transformation, endings with annihilation. Her release has become compulsive—she must end everything that isn't perfect, destroy anything that's causing pain, eliminate whatever blocks immediate relief. She's forgotten that death serves rebirth, not just destruction.",
+                "She applies scorched earth solutions to garden problems, performs amputations when what's needed is healing. Her remembrance has been incinerated by her urgency—she can't hold space for what was good in what needs to end, can't honor the gifts in what must be released. She's become a wildfire that consumes forest and flowers alike."
+              ],
+              "declarations": [
+                "This situation is completely toxic and needs to end immediately",
+                "Some things are just too broken to fix",
+                "Clean breaks are healthier than slow deaths",
+                "I'm done wasting time on people who don't appreciate me",
+                "Life is too short to tolerate dysfunction",
+                "Sometimes you have to burn it all down to start fresh"
+              ],
+              "balancing": [
+                "I pause to consider what's worth preserving before ending things",
+                "I distinguish between necessary endings and reactive destruction",
+                "I honor what was good in what I'm releasing",
+                "I create space for gradual transition rather than abrupt severance",
+                "I consider the impact of my endings on others who are involved",
+                "I ask what wants to be born before I destroy what exists"
+              ],
+              "gift": "When tempered, becomes powerful ability to end what truly needs ending and clear space for new growth with wisdom and timing.",
+              "outOfBalance": [
+                "Destroys relationships and situations reactively",
+                "Uses ending as escape from working through problems",
+                "Burns bridges that could have been repaired",
+                "Creates destruction without considering regeneration",
+                "Confuses intensity with effectiveness",
+                "Leaves devastation in wake of 'cleaning house'"
+              ]
+            },
+            {
+              "name": "Eternal Mourner",
+              "type": "passive",
+              "description": [
+                "When remembrance smothers release, the Crone becomes a beautiful museum curator of everything that's already dead. She has confused honoring with hoarding, remembrance with refusal to let go. Her remembrance has become compulsive—she must preserve every memory, maintain every connection, keep alive every relationship even when it's become a corpse. She's forgotten that remembrance serves release, not imprisonment.",
+                "She keeps shrines to dead relationships, maintains rituals for ended chapters, and speaks constantly of what was while avoiding what is. Her release has been murdered by her nostalgia—she can't let anything die even when it's already decomposing, can't say goodbye even when hello is impossible. She's become a graveyard that's forgotten how to compost."
+              ],
+              "declarations": [
+                "I can't just forget everything we shared",
+                "Some things are too important to let go",
+                "I need to honor what we had together",
+                "Maybe there's still a chance things could work out",
+                "I don't want to give up on people I love",
+                "It feels wrong to just move on like it never happened"
+              ],
+              "balancing": [
+                "I honor what was meaningful while accepting what has ended",
+                "I create rituals that celebrate the past and open space for the future",
+                "I distinguish between honoring memory and avoiding grief",
+                "I practice gratitude for what was while embracing what's becoming",
+                "I allow myself to grieve fully so I can release completely",
+                "I remember that letting go is an act of love, not betrayal"
+              ],
+              "gift": "When freed, provides essential honoring of what was meaningful and beautiful, ensuring that endings include gratitude and wisdom harvesting.",
+              "outOfBalance": [
+                "Clings to relationships and situations that have ended",
+                "Maintains shrines to what's already dead",
+                "Refuses to grieve and move forward",
+                "Lives in the past instead of the present",
+                "Uses remembrance to avoid accepting reality",
+                "Prevents new growth by clutching onto old forms"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Crone/Underworld Queen",
+            "paragraphs": [
+              "The Mature Crone serves the sacred cycle of death and rebirth with both fierce release and loving remembrance. She understands that endings are gateways, that destruction serves creation, that death makes space for new life. Her wisdom includes both the courage to let go and the grace to honor what's being released. She's learned that the deepest transformation happens at the intersection of grief and gratitude.",
+              "She can midwife endings with the same tenderness she brings to beginnings. Her presence makes it safe to grieve, to release, to compost what's finished into soil for what's emerging. She holds both the sorrow of what's lost and the excitement of what's possible."
+            ]
+          },
+          "declarations": [
+            "I serve endings that create space for new beginnings",
+            "I release what's finished with both grief and gratitude",
+            "I honor what was meaningful while embracing what's emerging",
+            "I compost the past into wisdom that nourishes the future",
+            "I hold space for both sorrow and celebration in all transitions",
+            "I trust the sacred cycle of death and rebirth in all things",
+            "I end relationships and situations with dignity and love",
+            "I transform pain into compost for new growth"
+          ],
+          "balance": {
+            "balance": "Release ↔ Remembrance",
+            "shadow": "Destroying Angel ↔ Eternal Mourner",
+            "powerAnimals": "Raven, Vulture, Cobra",
+            "qualities": "Truthful, Fearless, Catalytic, Sovereign, Compassionate, Deep, Transformative, Clear, Mystic, Liberating"
+          },
+          "virtues": [
+            {
+              "title": "Release",
+              "quote": "\"Letting go doesn't mean that you don't care about someone anymore. It's just realizing that the only person you really have control over is yourself.\" — Deborah Reber",
+              "paragraphs": [
+                "Release is the Crone's fierce wisdom about what must end to make space for what wants to begin. It's the courage to let go of what's finished, even when it was beautiful, even when it's painful. This virtue serves the cycle of death and rebirth that makes all growth possible.",
+                "True release is not abandonment but transformation. It's the composting that turns what was into soil for what will be, the pruning that makes space for new growth, the ending that creates space for beginning."
+              ]
+            },
+            {
+              "title": "Remembrance",
+              "quote": "\"Those who cannot remember the past are condemned to repeat it.\" — George Santayana",
+              "paragraphs": [
+                "Remembrance is the Crone's sacred honoring of what was meaningful in what's being released. It's the gratitude that harvests wisdom from experience, the reverence that honors the gifts in what's ending. This virtue ensures that nothing valuable is lost in transition.",
+                "Healthy remembrance doesn't cling but cherishes. It extracts the learning, celebrates the beauty, and honors the love while still allowing transformation to occur. It makes endings sacred rather than just sorrowful."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Elder Visionary / Oracle / Moon (Artemis, Moon Woman)",
+        "slug": "elder-visionary-oracle-moon",
+        "qualities": ["far-sight & deep intuition"],
+        "gifts": "Intuition, guidance by cycles, long view.",
+        "growthPath": "Ground visions in action; prophecy with humility.",
+        "practices": [
+          "Lunar planning (new: set 1 seed; full: release 1 thing)",
+          "Translate each vision into one grounded next step"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Cryptic Oracle",
+              "type": "active",
+              "description": [
+                "When vision overwhelms timing, the Elder Oracle becomes a mystical riddle wrapped in an enigma that nobody can decode. She has confused profundity with obscurity, wisdom with mystery. Her vision has become performative—she must speak in symbols, communicate in metaphors, and deliver insights that sound important but mean nothing. She's forgotten that true prophecy serves clarity, not confusion.",
+                "She speaks in mystical pronouncements that leave others more confused than guided, offers visions that are so abstract they're useless, and hides practical wisdom behind veils of spiritual superiority. Her timing has been murdered by her need to seem otherworldly—she can't speak plainly because plain speech seems too ordinary for her cosmic insights."
+              ],
+              "declarations": [
+                "The universe is showing me symbols that others wouldn't understand",
+                "This message is meant for those who have eyes to see",
+                "The deeper truths can't be expressed in ordinary language",
+                "You have to be spiritually mature to receive this guidance",
+                "The mysteries reveal themselves only to the initiated",
+                "Linear thinking can't grasp the cyclical nature of this wisdom"
+              ],
+              "balancing": [
+                "I translate mystical insights into practical guidance",
+                "I communicate visions in language others can understand and use",
+                "I check whether my guidance is actually helpful rather than just profound-sounding",
+                "I speak directly when directness would serve better than symbolism",
+                "I remember that accessible wisdom serves more people than mysterious pronouncements",
+                "I ground my visions in concrete next steps people can take"
+              ],
+              "gift": "When grounded, becomes extraordinary ability to see patterns and possibilities that others miss, shared in ways that actually guide and serve.",
+              "outOfBalance": [
+                "Speaks in mystical riddles that confuse rather than guide",
+                "Uses spiritual language to avoid clear communication",
+                "Offers visions without practical application",
+                "Creates spiritual hierarchy through mysterious pronouncements",
+                "Confuses profundity with obscurity",
+                "Hides behind mysticism to avoid accountability for impact"
+              ]
+            },
+            {
+              "name": "Disconnected Hermit",
+              "type": "passive",
+              "description": [
+                "When timing silences vision, the Elder Oracle becomes a wise woman who's lost her voice. She has confused humility with silence, timing with waiting forever. Her vision has gone underground, emerging only in private journals and whispered conversations with trusted friends. She's learned to doubt her sight, dismiss her knowing, and apologize for having insights that might help others.",
+                "She receives profound downloads about cycles, patterns, and possibilities but shares them only tentatively, only when specifically asked, only with extensive disclaimers. Her timing has become paralysis—she's waiting for the perfect moment that never comes, the clear sign that's never clear enough, the permission that only she can give herself."
+              ],
+              "declarations": [
+                "I don't want to seem like I think I know better than others",
+                "Maybe I'm just projecting my own patterns onto what I'm seeing",
+                "People should find their own way without my interference",
+                "I might be wrong about what these signs mean",
+                "It's not my place to offer unsolicited guidance",
+                "I should probably keep my visions to myself"
+              ],
+              "balancing": [
+                "I share my insights as offerings rather than keeping them hidden",
+                "I trust my pattern recognition while remaining open to being wrong",
+                "I offer guidance when it's genuinely needed rather than waiting for perfect timing",
+                "I remember that my visions might serve others even if I'm uncertain about them",
+                "I practice sharing wisdom humbly rather than hiding it completely",
+                "I ground my visions in practical suggestions others can consider"
+              ],
+              "gift": "When activated, provides essential wisdom about right timing and appropriate sharing that makes visionary gifts truly helpful rather than overwhelming.",
+              "outOfBalance": [
+                "Hoards visions and insights rather than sharing them",
+                "Doubts own pattern recognition and intuitive abilities",
+                "Waits for perfect timing that never comes",
+                "Confuses humility with withholding needed guidance",
+                "Apologizes for having visionary gifts",
+                "Uses uncertainty as excuse to avoid sharing wisdom"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Elder Visionary/Oracle/Moon",
+            "paragraphs": [
+              "The Mature Elder Oracle balances far-seeing vision with grounded timing, cosmic perspective with practical wisdom. She understands that true prophecy serves guidance rather than mystique, that visions are meant to illuminate paths rather than impress audiences. Her gifts bridge the mystical and the practical, the eternal and the immediate.",
+              "She can see the larger patterns while attending to present needs, offer cosmic perspective while remaining accessible and human. Her wisdom emerges at exactly the right moment in exactly the right form to be received and used by those who need it."
+            ]
+          },
+          "declarations": [
+            "I share visions that guide rather than mystify",
+            "I balance cosmic perspective with practical wisdom",
+            "I offer insights at the right time in the right way to be received",
+            "I translate mystical knowing into actionable guidance",
+            "I trust my far-sight while remaining grounded in present reality",
+            "I serve collective wisdom through my individual visions",
+            "I speak truth that liberates rather than confuses",
+            "I honor both the mystery and the practical application of what I see"
+          ],
+          "balance": {
+            "balance": "Vision ↔ Timing",
+            "shadow": "Cryptic Oracle ↔ Disconnected Hermit",
+            "powerAnimals": "Owl, Whale, Sea Turtle",
+            "qualities": "Attuned, Seasoned, Far-seeing, Cyclic, Gentle, Exact, Listening, Guiding, Patient, Kind"
+          },
+          "virtues": [
+            {
+              "title": "Vision",
+              "quote": "\"The future belongs to those who believe in the beauty of their dreams.\" — Eleanor Roosevelt",
+              "paragraphs": [
+                "Vision is the Elder Oracle's ability to see patterns, cycles, and possibilities that exist beyond immediate perception. It's the far-sight that can perceive what's emerging, what's ending, and what's needed for healthy transition. This gift serves collective navigation through change.",
+                "True vision serves guidance rather than ego. It sees not to impress but to illuminate, not to predict but to prepare, not to control but to offer choice points and possibilities that others can use for their own decision-making."
+              ]
+            },
+            {
+              "title": "Timing",
+              "quote": "\"Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.\" — Margaret Mead",
+              "paragraphs": [
+                "Timing is the Elder Oracle's wisdom about when and how to share her visions. It's the discernment that knows when others are ready to receive guidance, when the moment is ripe for truth-telling, when to speak and when to wait. This virtue makes visionary gifts useful rather than overwhelming.",
+                "Healthy timing serves the recipient rather than the giver. It considers what others can actually receive and use, what will serve their growth rather than create dependence, when wisdom will be medicine rather than burden."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Rebel / Revolutionary / Trickster (Eris)",
+        "slug": "rebel-revolutionary-trickster",
+        "qualities": ["wisdom that breaks old forms"],
+        "gifts": "Catalyzes change, exposes stale norms with wit.",
+        "growthPath": "Rebel with purpose; change systems, not just oppose.",
+        "practices": [
+          "Purpose filter: (Harm ↓ / Freedom ↑ / Stewardship ↑)",
+          "Ship one harmless prank for truth"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Chaotic Destroyer",
+              "type": "active",
+              "description": [
+                "When liberation devours accountability, the Rebel becomes a beautiful wrecking ball that destroys everything in the name of freedom. She has confused rebellion with destruction, liberation with chaos. Her liberation has become compulsive—she must break every rule, challenge every authority, oppose every system regardless of whether they're serving or harming. She's forgotten that true rebellion serves life, not just destruction.",
+                "She creates chaos and calls it revolution, breaks things and calls it liberation, hurts people and calls it necessary disruption. Her accountability has been murdered by her righteousness—she can't be held responsible for the damage because she's fighting for freedom, can't be questioned because she's challenging oppression. She's become a tornado that destroys houses and forests alike."
+              ],
+              "declarations": [
+                "Systems are oppressive and need to be dismantled",
+                "Sometimes you have to break things to create change",
+                "I'm fighting for freedom—the casualties are worth it",
+                "People are too comfortable with the status quo",
+                "Revolution is never convenient or polite",
+                "You can't make an omelet without breaking some eggs"
+              ],
+              "balancing": [
+                "I distinguish between systems that need changing and people who need support",
+                "I create alternatives while dismantling what doesn't work",
+                "I consider the impact of my rebellion on innocent bystanders",
+                "I rebel against specific injustices rather than just general authority",
+                "I take responsibility for the consequences of my revolutionary actions",
+                "I build up as much as I tear down"
+              ],
+              "gift": "When channeled, becomes powerful force for necessary change that dismantles harmful systems while creating better alternatives.",
+              "outOfBalance": [
+                "Destroys indiscriminately in the name of liberation",
+                "Rebels against everything regardless of merit",
+                "Creates chaos without offering alternatives",
+                "Hurts people and calls it necessary revolution",
+                "Uses freedom as excuse for irresponsibility",
+                "Opposes authority reflexively rather than thoughtfully"
+              ]
+            },
+            {
+              "name": "Conforming Complainer",
+              "type": "passive",
+              "description": [
+                "When accountability silences liberation, the Rebel becomes a critic who complains about everything but changes nothing. She has confused responsibility with compliance, accountability with inaction. Her liberation has been strangled by her fear of consequences—she can see what's wrong but won't risk challenging it, can feel the oppression but won't rebel against it. She's forgotten that silence in the face of injustice is its own form of violence.",
+                "She whispers complaints instead of roaring rebellion, makes cynical observations instead of taking subversive action, and criticizes from the sidelines while remaining safely within the system. Her accountability has become paralysis—she's so worried about being responsible that she won't take any action that might create change."
+              ],
+              "declarations": [
+                "I can't just go around breaking rules and causing trouble",
+                "Change has to happen through proper channels",
+                "I don't want to make things worse by being reckless",
+                "Someone else who's more qualified should lead the rebellion",
+                "I need to be responsible and think about consequences",
+                "It's not my place to challenge the system"
+              ],
+              "balancing": [
+                "I take calculated risks to challenge injustice when I see it",
+                "I use my voice to speak truth even when it's uncomfortable",
+                "I practice small acts of rebellion to build courage for larger ones",
+                "I remember that playing it safe can be more dangerous than taking action",
+                "I find my own authentic way to challenge harmful systems",
+                "I balance responsibility with the courage to create change"
+              ],
+              "gift": "When awakened, provides essential wisdom about strategic rebellion and responsible change-making that creates lasting transformation.",
+              "outOfBalance": [
+                "Criticizes systems but takes no action to change them",
+                "Complies with harmful authority to avoid consequences",
+                "Uses responsibility as excuse for inaction",
+                "Waits for others to lead the rebellion",
+                "Confuses playing it safe with being wise",
+                "Enables injustice through silence and compliance"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Rebel/Revolutionary/Trickster",
+            "paragraphs": [
+              "The Mature Rebel channels her revolutionary energy toward creating positive change rather than just destroying what exists. She understands that true liberation serves collective freedom, that effective rebellion creates better alternatives while dismantling harmful systems. Her revolution serves life rather than just opposing death.",
+              "She can challenge authority with wisdom, break rules that truly need breaking, and create change through both disruption and creation. Her rebellion is strategic rather than reactive, purposeful rather than chaotic, accountable rather than destructive."
+            ]
+          },
+          "declarations": [
+            "I rebel against systems that harm and create alternatives that heal",
+            "I challenge authority when it serves justice and collective freedom",
+            "I take responsibility for the impact of my revolutionary actions",
+            "I disrupt with purpose rather than chaos",
+            "I build new systems while dismantling harmful ones",
+            "I use my rebellious energy to serve collective liberation",
+            "I balance righteous anger with strategic wisdom",
+            "I revolution toward something beautiful, not just away from something broken"
+          ],
+          "balance": {
+            "balance": "Liberation ↔ Accountability",
+            "shadow": "Chaotic Destroyer ↔ Conforming Complainer",
+            "powerAnimals": "Coyote, Crow, Octopus",
+            "qualities": "Playful, Subversive, Liberating, Ethical, Quick, Inventive, Insightful, Courageous, Light-hearted, Purposeful"
+          },
+          "virtues": [
+            {
+              "title": "Liberation",
+              "quote": "\"Revolution begins with the self, in the self.\" — Toni Cade Bambara",
+              "paragraphs": [
+                "Liberation is the Rebel's commitment to freedom—both personal and collective. It's the force that breaks chains, challenges oppression, and creates space for authentic expression and growth. This virtue serves life's natural tendency toward expansion and evolution.",
+                "True liberation serves collective freedom rather than just personal license. It's liberation that creates more freedom for everyone, that dismantles systems of oppression while building alternatives that serve all life."
+              ]
+            },
+            {
+              "title": "Accountability",
+              "quote": "\"You have power over your mind - not outside events. Realize this, and you will find strength.\" — Marcus Aurelius",
+              "paragraphs": [
+                "Accountability is the Rebel's recognition that revolution comes with responsibility, that freedom includes consideration for impact. It's the wisdom that makes rebellion strategic rather than destructive, purposeful rather than chaotic.",
+                "Healthy accountability in rebellion ensures that the means serve the ends, that the revolution creates rather than just destroys, that liberation serves collective good rather than just individual expression."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "name": "Elder Healer / Priestess",
+        "slug": "elder-healer-priestess",
+        "qualities": ["master of restoration"],
+        "gifts": "Bridges sacred and ordinary; restores balance (elder-phase).",
+        "growthPath": "Heal with boundaries; serve without depleting.",
+        "practices": [
+          "\"Three bowls\" (give, receive, rest) scheduled weekly",
+          "Clear energetic closure after sessions"
+        ],
+        "extended": {
+          "shadows": [
+            {
+              "name": "Martyred Healer",
+              "type": "active",
+              "description": [
+                "When compassion devours discernment, the Elder Healer becomes a beautiful sacrifice on the altar of everyone else's needs. She has confused healing with self-destruction, service with martyrdom. Her compassion has become compulsive—she must heal everyone, fix everything, and solve all problems even if it kills her. She's forgotten that sustainable healing requires a healthy healer.",
+                "She gives until she's empty, then finds new reserves to give some more, creating a cycle of depletion and resentment disguised as selfless service. Her discernment has been murdered by her guilt—she can't say no to anyone's pain, can't set boundaries around her healing work, can't distinguish between helping and enabling. She's become a wounded healer who's forgotten to heal herself."
+              ],
+              "declarations": [
+                "I can't turn away when someone is suffering",
+                "My needs don't matter as much as helping others",
+                "This is my calling—sacrifice comes with the territory",
+                "I have these gifts, so I have to use them",
+                "Healing work requires putting others first",
+                "I can rest when everyone else is okay"
+              ],
+              "balancing": [
+                "I prioritize my own healing and restoration as part of my service",
+                "I set clear boundaries around my availability and energy",
+                "I distinguish between helping and enabling others' dysfunction",
+                "I charge appropriately for my healing work and time",
+                "I practice discernment about who I can actually help",
+                "I remember that my wellbeing serves my ability to serve others"
+              ],
+              "gift": "When balanced, becomes profound healing presence that serves others while maintaining own wholeness and sustainability.",
+              "outOfBalance": [
+                "Depletes self in service of others' healing",
+                "Can't say no to requests for help",
+                "Confuses martyrdom with service",
+                "Takes on others' pain as personal responsibility",
+                "Works beyond capacity without regard for own needs",
+                "Creates codependent healing relationships"
+              ]
+            },
+            {
+              "name": "Cynical Healer",
+              "type": "passive",
+              "description": [
+                "When discernment walls out compassion, the Elder Healer becomes a doctor who's lost faith in medicine. She has confused boundaries with barriers, discernment with cynicism. Her compassion has been murdered by her disappointment—she's seen too many people refuse to heal, too many gifts wasted, too much energy invested in people who didn't change. She's forgotten that healing is a mystery that doesn't always follow human logic.",
+                "She offers help with one hand while holding others at arm's length with the other, shares her gifts while protecting herself from caring too much about the outcome. Her discernment has become armor that keeps her safe but also keeps her isolated from the very connections that make healing powerful."
+              ],
+              "declarations": [
+                "People have to want to heal—I can't force them",
+                "I've learned not to get too invested in others' outcomes",
+                "Most people aren't really ready to change",
+                "I can only do so much—the rest is up to them",
+                "I have to protect myself from getting burned out again",
+                "Healing happens when people are ready, not when I want it to"
+              ],
+              "balancing": [
+                "I open my heart while maintaining appropriate boundaries",
+                "I care deeply while accepting what I cannot control",
+                "I offer my gifts with hope while releasing attachment to outcomes",
+                "I remember that healing takes many forms and timelines",
+                "I trust the healing process even when results aren't immediately visible",
+                "I balance discernment with compassion in all my healing work"
+              ],
+              "gift": "When restored, provides essential wisdom about sustainable healing and realistic expectations that makes long-term service possible.",
+              "outOfBalance": [
+                "Emotionally distant in healing relationships",
+                "Cynical about others' capacity for change",
+                "Protects self by not caring deeply",
+                "Offers help without heart connection",
+                "Uses boundaries to avoid risk of disappointment",
+                "Confuses detachment with healthy discernment"
+              ]
+            }
+          ],
+          "mature": {
+            "title": "Mature Elder Healer/Priestess",
+            "paragraphs": [
+              "The Mature Elder Healer embodies compassion balanced with wise discernment, creating healing that empowers rather than enables, that serves without depleting. She understands that sustainable healing requires a healer who is whole, that true service flows from fullness rather than emptiness. Her presence creates space for transformation while honoring the mystery of each person's unique healing journey.",
+              "She can hold both hope and realism, both caring and boundaries, both service and self-care. Her healing work has become a dance between engagement and detachment, between offering gifts and accepting limitations, between holding space and letting go."
+            ]
+          },
+          "declarations": [
+            "I serve healing while maintaining my own wholeness",
+            "I offer my gifts with love while accepting what I cannot control",
+            "I create space for transformation while honoring each person's journey",
+            "I balance compassion with discernment in all my healing work",
+            "I care deeply while maintaining appropriate boundaries",
+            "I trust the healing process even when results aren't immediately visible",
+            "I fill my own cup so I can pour from overflow",
+            "I serve the mystery of healing with both expertise and humility"
+          ],
+          "balance": {
+            "balance": "Compassion ↔ Discernment",
+            "shadow": "Martyred Healer ↔ Cynical Healer",
+            "powerAnimals": "Elephant, Seal, Swan",
+            "qualities": "Compassionate, Boundaried, Wise, Restorative, Devotional, Grounded, Humble, Ethical, Steady, Nourishing"
+          },
+          "virtues": [
+            {
+              "title": "Compassion",
+              "quote": "\"Compassion is not a relationship between the healer and the wounded. It's a relationship between equals.\" — Pema Chödrön",
+              "paragraphs": [
+                "Compassion is the Elder Healer's deep recognition of shared humanity and suffering. It's the heart that can be moved by pain without being destroyed by it, that can offer presence and care while maintaining essential boundaries. This virtue makes healing sacred rather than just technical.",
+                "Mature compassion includes compassion for herself as well as others. It recognizes that sustainable service requires self-care, that healing others begins with healing oneself, that the wounded healer serves best when her own wounds have been tended."
+              ]
+            },
+            {
+              "title": "Discernment",
+              "quote": "\"It's not at all hard to understand a person; it's only hard to listen without bias.\" — Criss Jami",
+              "paragraphs": [
+                "Discernment is the Elder Healer's wisdom about what serves healing and what enables dysfunction, who is ready for change and who is just seeking comfort, when to engage and when to step back. This virtue protects both healer and client from harmful dynamics.",
+                "Healthy discernment in healing work ensures that compassion serves growth rather than stagnation, that help empowers rather than creates dependence, that boundaries serve love rather than protect against it."
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
