@@ -5,7 +5,8 @@
   "description": "The Mature Feminine: static site (11ty) for GitHub Pages",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "download:shadows": "node scripts/download_shadows.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
