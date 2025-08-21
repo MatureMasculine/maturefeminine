@@ -1,7 +1,5 @@
 - submission --- dignity archetype
 
-- get better quotes!
-
 - double smother mother
 - add princes shadow
 -- add victim (and passive agressive)
