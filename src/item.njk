@@ -9,7 +9,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 
 <a class="small" href="{{ item.groupSlug }}/">← Back to {{ item.groupName }}</a>
 <h1 class="mt-2">{{ item.name }}</h1>
-
+{% if item.gifts %}<p class="mf-subtle mb-3">{{ item.gifts }}</p>{% endif %}
 {% set img = images[item.slug] %}
 {% if img %}
 <figure class="my-3">
@@ -26,12 +26,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
   {% endif %}
 </p>
 
-{% if item.gifts %}
-<div class="mb-3">
-  <h5>Gifts</h5>
-  <p>{{ item.gifts }}</p>
-</div>
-{% endif %}
+{# Gifts moved under the title as a subtitle #}
 
 {# Legacy shadowFaces removed: migrated to extended.shadows #}
 
@@ -56,130 +51,85 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 {% endif %}
 
 {% if item.extended %}
-<div class="mb-4">
-  <h4>Extended</h4>
-  <div class="accordion" id="ext-{{ item.slug }}">
-    {% if item.extended.mature %}
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="heading-mature-{{ item.slug }}">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-mature-{{ item.slug }}" aria-expanded="false" aria-controls="collapse-mature-{{ item.slug }}">
-          {{ item.extended.mature.title or 'Mature' }}
-        </button>
-      </h2>
-      <div id="collapse-mature-{{ item.slug }}" class="accordion-collapse collapse" data-bs-parent="#ext-{{ item.slug }}">
-        <div class="accordion-body">
-          {% if item.extended.mature.paragraphs %}
-            {% for para in item.extended.mature.paragraphs %}<p>{{ para }}</p>{% endfor %}
-          {% endif %}
-          {% if item.extended.balance %}
-          <div class="mt-3">
-            <h6>Balance</h6>
-            <p><strong>Balance:</strong> {{ item.extended.balance.balance }}</p>
-            <p><strong>Shadow:</strong> {{ item.extended.balance.shadow }}</p>
-            {% if item.extended.balance.powerAnimals %}<p><strong>Power Animal:</strong> {{ item.extended.balance.powerAnimals }}</p>{% endif %}
-            {% if item.extended.balance.qualities %}<p><strong>Qualities:</strong> {{ item.extended.balance.qualities }}</p>{% endif %}
-          </div>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-    {% endif %}
-
-    {% if item.extended.declarations %}
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="heading-declarations-{{ item.slug }}">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-declarations-{{ item.slug }}" aria-expanded="false" aria-controls="collapse-declarations-{{ item.slug }}">
-          Declarations
-        </button>
-      </h2>
-      <div id="collapse-declarations-{{ item.slug }}" class="accordion-collapse collapse" data-bs-parent="#ext-{{ item.slug }}">
-        <div class="accordion-body">
-          <ul>
-            {% for d in item.extended.declarations %}<li>{{ d }}</li>{% endfor %}
-          </ul>
-        </div>
-      </div>
-    </div>
-    {% endif %}
-
-    {% if item.extended.shadows %}
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="heading-shadows-{{ item.slug }}">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-shadows-{{ item.slug }}" aria-expanded="false" aria-controls="collapse-shadows-{{ item.slug }}">
-          Shadows
-        </button>
-      </h2>
-      <div id="collapse-shadows-{{ item.slug }}" class="accordion-collapse collapse" data-bs-parent="#ext-{{ item.slug }}">
-        <div class="accordion-body">
-          {% for sh in item.extended.shadows %}
-          <div class="mb-4">
-            <h6>{{ sh.name }}</h6>
-            {% if sh.description %}
-              {% if sh.description.push %}
-                {% for para in sh.description %}<p>{{ para }}</p>{% endfor %}
-              {% else %}
-                <p>{{ sh.description }}</p>
-              {% endif %}
-            {% endif %}
-            {% if sh.declarations %}
-            <div class="mt-2">
-              <strong>Shadow Declarations</strong>
-              <ul>{% for sd in sh.declarations %}<li>{{ sd }}</li>{% endfor %}</ul>
-            </div>
-            {% endif %}
-            {% if sh.balancing %}
-            <div class="mt-2">
-              <strong>Balancing</strong>
-              <ul>{% for b in sh.balancing %}<li>{{ b }}</li>{% endfor %}</ul>
-            </div>
-            {% endif %}
-            {% if sh.gift %}
-            <div class="mt-2">
-              <strong>Gift</strong>
-              <p>{{ sh.gift }}</p>
-            </div>
-            {% endif %}
-            {% if sh.outOfBalance %}
-            <div class="mt-2">
-              <strong>Out of Balance</strong>
-              <p>{{ sh.outOfBalance }}</p>
-            </div>
-            {% endif %}
-            {% if sh.qualities %}
-            <div class="mt-2">
-              <strong>Qualities</strong>
-              <p>{{ sh.qualities }}</p>
-            </div>
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-    {% endif %}
-
-    {% if item.extended.virtues %}
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="heading-virtues-{{ item.slug }}">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-virtues-{{ item.slug }}" aria-expanded="false" aria-controls="collapse-virtues-{{ item.slug }}">
-          Virtues
-        </button>
-      </h2>
-      <div id="collapse-virtues-{{ item.slug }}" class="accordion-collapse collapse" data-bs-parent="#ext-{{ item.slug }}">
-        <div class="accordion-body">
-          {% for v in item.extended.virtues %}
-          <div class="mb-4">
-            <h6>{{ v.title }}</h6>
-            {% if v.quote %}<p class="fst-italic">{{ v.quote }}</p>{% endif %}
-            {% if v.paragraphs %}{% for vp in v.paragraphs %}<p>{{ vp }}</p>{% endfor %}{% endif %}
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
+  {# Styled sections matching sample.html #}
+  {% if item.extended.mature %}
+  <div class="mf-box section-green mb-3">
+    <h4 class="mb-2"><i class="fas fa-crown me-2"></i>{{ item.extended.mature.title or 'Mature' }}</h4>
+    {% if item.extended.mature.paragraphs %}
+      {% for para in item.extended.mature.paragraphs %}<p class="mb-2">{{ para }}</p>{% endfor %}
     {% endif %}
   </div>
-</div>
+  {% endif %}
+
+  {% if item.extended.declarations %}
+  <div class="mf-box section-blue mb-3">
+    <h4 class="mb-2"><i class="fas fa-quote-left me-2"></i>Mature Declarations</h4>
+    <ul class="mf-declarations">
+      {% for d in item.extended.declarations %}
+        <li class="mb-1"><i class="fas fa-circle text-primary fa-2xs me-2"></i>{{ d }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if item.extended.shadows %}
+  <div class="shadow-card mb-3">
+    <h4 class="mb-3"><i class="fas fa-mask me-2"></i>Shadow Aspects</h4>
+    <div class="row g-3">
+      {% for sh in item.extended.shadows %}
+      <div class="col-12 col-md-6">
+        <div class="shadow-panel h-100">
+          <h6 class="mb-2">{{ sh.name }}{% if sh.type %} ({{ sh.type }}){% endif %}</h6>
+          {% if sh.description %}
+            {% if sh.description.push %}
+              {% for para in sh.description %}<p class="mb-2">{{ para }}</p>{% endfor %}
+            {% else %}
+              <p class="mb-2">{{ sh.description }}</p>
+            {% endif %}
+          {% endif %}
+          {% if sh.balancing %}
+          <div class="small">
+            <strong>Balancing:</strong>
+            <ul class="mt-1 mb-0 ps-3">
+              {% for b in sh.balancing %}<li>{{ b }}</li>{% endfor %}
+            </ul>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if item.extended.virtues %}
+  <div class="virtue-card mb-3">
+    <h4 class="mb-3"><i class="fas fa-gem me-2"></i>Virtues</h4>
+    {% for v in item.extended.virtues %}
+      <div class="mb-3">
+        <h6 class="mb-2">{{ v.title }}</h6>
+        {% if v.quote %}<blockquote class="fst-italic border-start border-2 ps-3" style="border-color: rgba(255,255,255,.5)">“{{ v.quote }}”</blockquote>{% endif %}
+        {% if v.paragraphs %}{% for vp in v.paragraphs %}<p class="mb-2">{{ vp }}</p>{% endfor %}{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if item.extended.balance %}
+  <div class="mf-box section-yellow mb-3">
+    <h4 class="mb-2"><i class="fas fa-scale-balanced me-2"></i>Balance & Qualities</h4>
+    <div class="row g-2 small">
+      <div class="col-12 col-md-6">
+        <p class="mb-1"><strong>Balance:</strong> {{ item.extended.balance.balance }}</p>
+        <p class="mb-0"><strong>Shadow:</strong> {{ item.extended.balance.shadow }}</p>
+      </div>
+      <div class="col-12 col-md-6">
+        {% if item.extended.balance.powerAnimals %}<p class="mb-1"><strong>Power Animals:</strong> {{ item.extended.balance.powerAnimals }}</p>{% endif %}
+        {% if item.extended.balance.qualities %}<p class="mb-0"><strong>Qualities:</strong> {{ item.extended.balance.qualities }}</p>{% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
 {% endif %}
 
 {# Legacy shadow fields removed: now using extended.shadows #}
