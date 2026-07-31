@@ -33,55 +33,55 @@ Passive Shadow
 - Active shadow: Manipulative Sorceress
 - Passive shadow: Powerless Mystic
 - Mythic resonances:
-- Key qualities: Defers decisions; waits for perfect certainty, Disengages from body and relationships, People-pleases to avoid conflict, Lets others set terms then resents them, Creativity stalled by perfectionism and fear, Self-doubt presented as humility
+- Key qualities: Requires certainty before a bounded intervention, Treats limited jurisdiction as no jurisdiction, Expands ethical review without a decision point, Uses possible harm to excuse ongoing inaction, Calls nonintervention principled despite consequences, Transfers responsibility while continuing to object
 
 ## Balance Breakdown
 
-Agency collapses while integrity becomes purity, scruple, and nonintervention.
+Agency collapses while Integrity becomes purity, exhaustive scruple, and nonintervention.
 
 ## Declarations
 
-- I keep quiet so I won’t be wrong.
-- I wait for clarity instead of risking a first step.
-- I make myself small so others will be comfortable.
-- I numb, drift, or fantasize when decisions are needed.
-- I defer to experts and ignore my inner knowing.
-- I avoid conflict even when a boundary is needed.
+- I require certainty before taking a proportionate step.
+- I turn every limit on my authority into a reason not to act anywhere.
+- I confuse avoiding responsibility with avoiding harm.
+- I keep adding ethical conditions until no intervention can qualify.
+- I call withdrawal principled when consequences continue unattended.
+- I wait for someone with perfect jurisdiction to decide.
 
 ## Psychological Mechanics
 
-The Powerless Mystic is the underexpressed shadow of the Magician. She retreats from the archetype’s transformation and craft into fog, passivity, or fantasy. What begins as insight, ritual, innovation collapses into avoidance: she waits for a sign, defers to others, and lets fear of misstep become an identity. Wounds of mistrust, witch-wounds taught her that having needs or a voice was costly, so she learned to disappear.
+The Powerless Mystic begins with legitimate Integrity: concern for consent, jurisdiction, means, and impact. As Agency collapses, each ethical question becomes an impossible prerequisite. She demands complete certainty, uncontested authority, and zero risk before taking even a proportionate accountable step.
 
-In practice this looks like hesitation, playing small, or outsourcing choice. In change-work and technology she withholds gifts until it’s ‘perfect’ or safe, and resentment builds. Integration begins when she claims a small, honest action, feels feelings without drowning in them, and allows support, structure, and rhythm to rebuild trust in herself.
+Integrity then distorts into purity and nonintervention. She can describe every reason an action might be wrong while leaving a consequential condition unchanged. Integration restores Agency by defining actual jurisdiction, choosing a bounded intervention, monitoring impact, and correcting course without pretending certainty is available.
 
 ## Hidden Energy
 
-When welcomed, the Powerless Mystic offers spaciousness, reflection, and sensitivity. Integrated, she restores the Magician’s ability to listen deeply and act in right timing.
+Her retained gift is ethical caution: attention to consent, limits, and consequence. Joined with Agency, that caution supports timely action that remains proportionate and repairable.
 
 ## Recognition
 
-Defers decisions; waits for perfect certainty
+Requires certainty before a bounded intervention
 
-Disengages from body and relationships
+Treats limited jurisdiction as no jurisdiction
 
-People-pleases to avoid conflict
+Expands ethical review without a decision point
 
-Lets others set terms then resents them
+Uses possible harm to excuse ongoing inaction
 
-Creativity stalled by perfectionism and fear
+Calls nonintervention principled despite consequences
 
-Self-doubt presented as humility
+Transfers responsibility while continuing to object
 
 ## Practices
 
-- I choose one small, honest action and complete it today.
-- I ground in my body—walk, breathe, hydrate—before making choices.
-- I name what I want out loud, allowing the Magician gifts to move.
-- I set a simple boundary and keep it.
-- I replace rumination with a time-boxed plan and a first step.
-- I ask for specific support and stay in relationship while acting.
-- I celebrate progress, not perfection, to build momentum.
-- I keep gentle promises to myself daily to rebuild trust.
+- I define the jurisdiction and responsibility I actually hold.
+- I separate required consent from impossible universal approval.
+- I choose the smallest proportionate intervention available now.
+- I set a decision deadline before further review.
+- I make the first step reversible when uncertainty is material.
+- I monitor consequences while acting instead of before acting forever.
+- I request specific oversight without surrendering my responsibility.
+- I correct course and repair when new evidence changes the judgment.
 
 ## Opposite Shadow
 
@@ -93,6 +93,6 @@ Integration restores Agency and the dynamic relationship between Agency and Inte
 
 ## Conclusion
 
-When welcomed, the Powerless Mystic offers spaciousness, reflection, and sensitivity. Integrated, she restores the Magician’s ability to listen deeply and act in right timing.
+When Agency returns, Integrity no longer serves purity or paralysis. The Magician can take consequential action within jurisdiction, remain accountable to impact, and revise the intervention as conditions change.
 
 ## Closing Quotation

@@ -6,6 +6,7 @@ const test = require("node:test");
 
 const {
   checkGeneratedData,
+  contentDir,
   loadBook,
   parseArchetype,
   parseShadowFile,
@@ -141,7 +142,7 @@ Opening quotation text.
 - Active shadow: Reckless Wanderer
 - Passive shadow: Sheltered Dreamer
 - Mythic resonances: ${active ? "Phaethon (Greek)" : "Sleeping Beauty (literary)"}
-- Key qualities: ${active ? "Intensity, Motion" : "Foresight, Caution"}
+- Key qualities: The pattern appears in choices, work, and relationship.
 
 ## Balance Breakdown
 
@@ -192,25 +193,28 @@ Closing quotation text.
 
 function fixture() {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), "mature-feminine-content-"));
-  write(path.join(directory, "maiden", "group.md"), `---
-slug: maiden
-order: 1
-sourceFile: group_1_maiden
+  ["maiden", "lover", "mother", "queen", "crone"].forEach((slug, index) => {
+    const name = `${slug[0].toUpperCase()}${slug.slice(1)}`;
+    write(path.join(directory, slug, "group.md"), `---
+slug: ${slug}
+order: ${index + 1}
+sourceFile: group_${index + 1}_${slug}
 ---
-# Maiden
+# ${name}
 
 ## Page Title
 
-The Maiden
+The ${name}
 
 ## Summary
 
-Beginnings and first choices.
+Lifecycle summary.
 
 ## Essence
 
-Open contact shaped by discernment.
+Lifecycle essence.
 `);
+  });
   write(path.join(directory, "maiden", "archetypes", "adventurer.md"), archetype());
   write(path.join(directory, "maiden", "shadows", "reckless-wanderer.md"), shadow("active"));
   write(path.join(directory, "maiden", "shadows", "sheltered-dreamer.md"), shadow("passive"));
@@ -267,6 +271,28 @@ test("parseArchetype maps semantic roles onto tailored display headings", () => 
   assert.ok(entry.bodySections.some((section) => section.role === null && section.heading === "A Field Note"));
 });
 
+test("section role mappings reject wrapper headings as display targets", async (t) => {
+  const wrappers = ["Opening Quotation", "Profile", "Closing Quotation", "Designation"];
+  for (const wrapper of wrappers) {
+    await t.test(wrapper, () => {
+      const directory = fixture();
+      const file = path.join(directory, "maiden", "archetypes", "adventurer.md");
+      const sectionRoles = [
+        `definition=${wrapper}`,
+        "declarations=Declarations",
+        "balance=Balance",
+        "applications=Applications",
+        "gifts=Gifts, Responsibilities, and Challenges",
+        "practices=Practices",
+        "conclusion=Living as the Adventurer",
+      ].join("|");
+      write(file, archetype({ sectionRoles }));
+
+      assert.throws(() => parseArchetype(file), new RegExp(`section role definition cannot target wrapper ${wrapper}`, "i"));
+    });
+  }
+});
+
 test("parseShadowFile preserves explicit parent, type, opposite shadow, and structured sections", () => {
   const directory = fixture();
   const active = parseShadowFile(path.join(directory, "maiden", "shadows", "reckless-wanderer.md"));
@@ -286,7 +312,7 @@ test("loadBook orders groups and parent children and returns redirects", () => {
   const directory = fixture();
   const book = loadBook(directory);
 
-  assert.equal(book.groups.length, 1);
+  assert.equal(book.groups.length, 5);
   assert.deepEqual(book.groups[0].archetypes.map((entry) => entry.slug), ["adventurer"]);
   assert.deepEqual(book.groups[0].archetypes[0].shadows.map((entry) => entry.type), ["active", "passive"]);
   assert.equal(book.entries.length, 3);
@@ -296,6 +322,30 @@ test("loadBook orders groups and parent children and returns redirects", () => {
     type: "route",
   });
   assert.ok(book.redirects.some((redirect) => redirect.from === "#shadow-reckless-storm"));
+});
+
+test("loadBook discovers exactly the five lifecycle directories and ignores unrelated directories", () => {
+  const directory = fixture();
+  write(path.join(directory, "front-matter", "notes.md"), "Front matter.\n");
+  write(path.join(directory, "back-matter", "notes.md"), "Back matter.\n");
+  write(path.join(directory, "research-notes", "draft.md"), "Research notes.\n");
+
+  const book = loadBook(directory);
+  assert.deepEqual(book.groups.map((group) => group.slug), ["maiden", "lover", "mother", "queen", "crone"]);
+});
+
+test("loadBook rejects a missing required lifecycle directory", () => {
+  const directory = fixture();
+  fs.rmSync(path.join(directory, "crone"), { recursive: true });
+
+  assert.throws(() => loadBook(directory), /missing required lifecycle crone/i);
+});
+
+test("loadBook rejects a missing required lifecycle group file", () => {
+  const directory = fixture();
+  fs.unlinkSync(path.join(directory, "queen", "group.md"));
+
+  assert.throws(() => loadBook(directory), /queen.*missing group\.md/i);
 });
 
 test("loadBook rejects malformed balance pairs", () => {
@@ -328,10 +378,21 @@ test("writeGeneratedData is deterministic and detects no implicit source mutatio
   const output = fs.mkdtempSync(path.join(os.tmpdir(), "mature-feminine-data-"));
   const before = fs.readFileSync(path.join(directory, "maiden", "archetypes", "adventurer.md"), "utf8");
 
+  const snapshot = () => Object.fromEntries(
+    fs.readdirSync(output)
+      .filter((file) => file.endsWith(".json"))
+      .sort()
+      .map((file) => [file, fs.readFileSync(path.join(output, file), "utf8")]),
+  );
+
   writeGeneratedData(book, output);
+  const firstWrite = snapshot();
+  writeGeneratedData(book, output);
+  const secondWrite = snapshot();
 
   const aggregate = JSON.parse(fs.readFileSync(path.join(output, "archetypes.json"), "utf8"));
   assert.equal(aggregate.groups[0].archetypes[0].slug, "adventurer");
+  assert.deepEqual(secondWrite, firstWrite);
   assert.equal(fs.readFileSync(path.join(directory, "maiden", "archetypes", "adventurer.md"), "utf8"), before);
 });
 
@@ -346,6 +407,18 @@ test("checkGeneratedData rejects generated JSON drift", () => {
   assert.throws(() => checkGeneratedData(book, output), /archetypes\.json is out of sync/i);
 });
 
+test("checkGeneratedData compares raw generated bytes without normalizing CRLF", () => {
+  const directory = fixture();
+  const book = loadBook(directory);
+  const output = fs.mkdtempSync(path.join(os.tmpdir(), "mature-feminine-byte-drift-"));
+  writeGeneratedData(book, output);
+  const aggregateFile = path.join(output, "archetypes.json");
+  const generated = fs.readFileSync(aggregateFile, "utf8");
+  fs.writeFileSync(aggregateFile, generated.replaceAll("\n", "\r\n"));
+
+  assert.throws(() => checkGeneratedData(book, output), /archetypes\.json is out of sync/i);
+});
+
 test("checkGeneratedData rejects stale generated group files", () => {
   const directory = fixture();
   const book = loadBook(directory);
@@ -356,13 +429,62 @@ test("checkGeneratedData rejects stale generated group files", () => {
   assert.throws(() => checkGeneratedData(book, output), /unexpected generated file group_99_stale\.json/i);
 });
 
-test("publish validation enforces research, quotes, mythic sources, declarations, sections, and images", () => {
+test("publish validation rejects pending research", () => {
   const directory = fixture();
   const book = loadBook(directory);
   assert.doesNotThrow(() => validateBook(book, { publish: true }));
 
   book.entries[0].research.status = "pending";
   assert.throws(() => validateBook(book, { publish: true }), /pending research/i);
+});
+
+test("publish validation independently rejects a quotation ID count other than two", () => {
+  const book = loadBook(fixture());
+  book.entries[0].research.quoteIds = ["quote-opening"];
+
+  assert.throws(() => validateBook(book, { publish: true }), /exactly two .*quote IDs/i);
+});
+
+test("publish validation independently rejects duplicate quotation IDs", () => {
+  const book = loadBook(fixture());
+  book.entries[0].research.quoteIds = ["same-quote", "same-quote"];
+
+  assert.throws(() => validateBook(book, { publish: true }), /duplicate quote IDs/i);
+});
+
+test("publish validation independently rejects identical normalized quotation text", () => {
+  const book = loadBook(fixture());
+  book.entries[0].quotes.closing = "  OPENING   quotation text.  ";
+
+  assert.throws(() => validateBook(book, { publish: true }), /identical normalized quotation text/i);
+});
+
+test("publish validation independently rejects a missing verified mythic source", () => {
+  const book = loadBook(fixture());
+  book.entries[0].research.mythicSourceIds = [];
+
+  assert.throws(() => validateBook(book, { publish: true }), /missing verified mythic (assignments or )?source/i);
+});
+
+test("publish validation independently rejects an invalid declaration count", () => {
+  const book = loadBook(fixture());
+  book.entries[0].sections.declarations = book.entries[0].sections.declarations.slice(0, 7);
+
+  assert.throws(() => validateBook(book, { publish: true }), /declaration count must be 8–12/i);
+});
+
+test("publish validation independently rejects an empty required section", () => {
+  const book = loadBook(fixture());
+  book.entries[0].sections.definition = "";
+
+  assert.throws(() => validateBook(book, { publish: true }), /empty required section definition/i);
+});
+
+test("publish validation independently rejects a missing image", () => {
+  const book = loadBook(fixture());
+  book.entries[0].image = "";
+
+  assert.throws(() => validateBook(book, { publish: true }), /missing image/i);
 });
 
 test("publish validation does not call two blank pending mythic assignments inherited", () => {
@@ -379,6 +501,18 @@ test("publish validation does not call two blank pending mythic assignments inhe
   );
 });
 
+test("structural validation permits blank mythic assignments while research is pending", () => {
+  const book = loadBook(fixture());
+  for (const entry of book.entries) {
+    entry.research.status = "pending";
+    entry.research.mythicResonances = [];
+    entry.research.mythicSourceIds = [];
+    entry.profile.mythicResonances = "";
+  }
+
+  assert.doesNotThrow(() => validateBook(book));
+});
+
 test("publish validation rejects any parent-shadow mythic resonance overlap", () => {
   const directory = fixture();
   const book = loadBook(directory);
@@ -388,12 +522,62 @@ test("publish validation rejects any parent-shadow mythic resonance overlap", ()
   assert.throws(() => validateBook(book, { publish: true }), /inherits parent mythic resonance Artemis \(Greek\)/i);
 });
 
+test("publish validation rejects assigned mythic figures in reader-facing content outside the profile", async (t) => {
+  const cases = {
+    "H1 name": (entry) => { entry.name = "ARTEMIS"; },
+    "body heading": (entry) => { entry.bodySections[0].heading = "Artemis and the threshold"; },
+    "body subsection heading": (entry) => { entry.bodySections[0].subsections.push({ heading: "Artemis returns", content: "A note." }); },
+    "body paragraph": (entry) => { entry.bodySections[0].content += " Artemis changes the pattern."; },
+    "designation body": (entry) => {
+      const shadowEntry = entry.shadows[0];
+      shadowEntry.research.mythicResonances = ["Artemis (Greek)"];
+      shadowEntry.profile.mythicResonances = "Artemis (Greek)";
+      shadowEntry.sections.designation = "Artemis";
+    },
+    declaration: (entry) => {
+      const declarations = entry.bodySections.find((section) => section.role === "declarations");
+      declarations.content += "\n- I invoke Artemis.";
+    },
+    quotation: (entry) => { entry.quotes.opening = "Artemis speaks."; },
+  };
+
+  for (const [label, mutate] of Object.entries(cases)) {
+    await t.test(label, () => {
+      const book = loadBook(fixture());
+      const entry = book.entries.find((candidate) => candidate.slug === "adventurer");
+      mutate(entry);
+
+      assert.throws(
+        () => validateBook(book, { publish: true }),
+        /mythic resonance Artemis appears outside Mythic Resonances profile/i,
+      );
+    });
+  }
+});
+
+test("publish validation permits assigned mythic figures in aliases and provenance metadata", () => {
+  const book = loadBook(fixture());
+  const entry = book.entries.find((candidate) => candidate.slug === "adventurer");
+  entry.aliases.push("Artemis");
+  entry.research.mythicSourceIds = ["source-artemis-provenance"];
+
+  assert.doesNotThrow(() => validateBook(book, { publish: true }));
+});
+
 test("structural validation rejects printed profile drift from normalized metadata", () => {
   const directory = fixture();
   const book = loadBook(directory);
   book.entries[0].profile.mythicResonances = "Unverified Figure";
 
   assert.throws(() => validateBook(book), /profile mythic resonance drift/i);
+});
+
+test("structural validation rejects shadow profile key qualities that drift from Recognition", () => {
+  const book = loadBook(contentDir);
+  const shadowEntry = book.entries.find((entry) => entry.slug === "reckless-wanderer");
+  shadowEntry.profile.keyQualities = "Copied generic traits";
+
+  assert.throws(() => validateBook(book), /profile key qualities drift from Recognition/i);
 });
 
 test("structural validation rejects duplicate lifecycle groups", () => {
@@ -405,20 +589,45 @@ test("structural validation rejects duplicate lifecycle groups", () => {
 });
 
 test("canonical validation locks names, lifecycle, qualities, and parent-shadow relationships", () => {
-  const directory = fixture();
-  const book = loadBook(directory);
-  const taxonomy = [{
-    name: "Adventurer",
-    slug: "adventurer",
-    lifecycle: "maiden",
-    coreFunction: "Expand life's range through intelligent, accountable risk.",
-    qualityA: "Daring",
-    qualityB: "Prudence",
-    active: { name: "Reckless Wanderer", slug: "reckless-wanderer" },
-    passive: { name: "Sheltered Dreamer", slug: "sheltered-dreamer" },
-  }];
-  assert.doesNotThrow(() => validateCanonicalBook(book, taxonomy));
+  const book = loadBook(contentDir);
+  assert.doesNotThrow(() => validateCanonicalBook(book));
 
   book.groups[0].archetypes[0].coreFunction = "Drifted function.";
-  assert.throws(() => validateCanonicalBook(book, taxonomy), /canonical core function drift/i);
+  assert.throws(() => validateCanonicalBook(book), /canonical core function drift/i);
+});
+
+test("canonical validation rejects explicitly retired balance language", () => {
+  const magicianBook = loadBook(contentDir);
+  const magician = magicianBook.entries.find((entry) => entry.slug === "magician");
+  magician.sections.balance = "Power acts while Integrity constrains it.";
+  assert.throws(() => validateCanonicalBook(magicianBook), /magician.*retired balance language.*Power/i);
+
+  const storytellerBook = loadBook(contentDir);
+  const storyteller = storytellerBook.entries.find((entry) => entry.slug === "storyteller");
+  storyteller.sections.balance = "Honesty and Imagination work together.";
+  assert.throws(() => validateCanonicalBook(storytellerBook), /storyteller.*retired balance language.*Honesty|storyteller.*retired balance language.*Imagination/i);
+});
+
+test("restored Magician and Storyteller prose contains only the canonical balance mechanics", () => {
+  const book = loadBook(contentDir);
+  const readerFacingBody = (entry) => entry.bodySections.flatMap((section) => [
+    section.heading,
+    section.content,
+    ...section.subsections.flatMap((subsection) => [subsection.heading, subsection.content]),
+  ]).join("\n");
+
+  const magicianFamily = ["magician", "manipulative-sorceress", "powerless-mystic"]
+    .map((slug) => readerFacingBody(book.entries.find((entry) => entry.slug === slug)))
+    .join("\n");
+  assert.match(magicianFamily, /\bAgency\b/);
+  assert.match(magicianFamily, /\bIntegrity\b/);
+  assert.doesNotMatch(magicianFamily, /\bPower\b/i);
+
+  const storytellerFamily = ["storyteller", "exaggerating-dramatist", "silent-keeper"]
+    .map((slug) => readerFacingBody(book.entries.find((entry) => entry.slug === slug)))
+    .join("\n");
+  assert.match(storytellerFamily, /Narrative Imagination/);
+  assert.match(storytellerFamily, /\bFidelity\b/);
+  const withoutCanonicalPhrase = storytellerFamily.replaceAll(/Narrative Imagination/gi, "");
+  assert.doesNotMatch(withoutCanonicalPhrase, /\bHonesty\b|\bImagination\b/i);
 });

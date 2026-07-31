@@ -9,7 +9,7 @@ passiveShadowSlug: silent-keeper
 aliases:
 legacyRoutes: /queen/storyteller/
 coreFunction: Carry lived truth across people and time as memorable shared meaning.
-keyQualities: Meaningful|Authentic|Vivid|Empathic|Courageous|Memorable|Integrative|Playful|Grounded|True
+keyQualities: Meaningful|Vivid|Source-aware|Contextual|Memorable|Consent-aware|Precise|Integrative|Correctable|Transmissible
 image: assets/images/storyteller.jpeg
 quoteIds:
 mythicResonances:
@@ -29,55 +29,50 @@ sectionRoles: definition=Definition|declarations=Declarations|balance=Balance|ap
 - Active shadow: Exaggerating Dramatist
 - Passive shadow: Silent Keeper
 - Mythic resonances:
-- Key qualities: Meaningful, Authentic, Vivid, Empathic, Courageous, Memorable, Integrative, Playful, Grounded, True
+- Key qualities: Meaningful, Vivid, Source-aware, Contextual, Memorable, Consent-aware, Precise, Integrative, Correctable, Transmissible
 
 ## Definition
 
-The Mature Storyteller is the balanced expression of this pattern—a woman who has metabolized its instincts and gifts into trustworthy presence. In her psyche the raw impulses of storyteller energy have been tempered by discernment and integrated with the rest of her nature. She knows the season she is in, honors limits, and lets life move through her without grasping or collapse. Spiritually, the Mature Storyteller recognizes that her power is borrowed from something larger—source, nature, community, or mystery—and so she acts with reverence rather than entitlement. She understands how beginnings and endings, growth and rest, assertion and surrender all belong to the same dance.
+The Mature Storyteller carries lived truth across people and time. Narrative Imagination gives entrusted experience a memorable shape; Fidelity keeps that shape answerable to source, context, consent, uncertainty, and correction.
 
-Meaning-making; communal memory.
+She does not merely preserve facts or produce a compelling performance. She selects meaningful detail, creates a finite tellable form, and releases shared meaning without claiming more certainty than the experience can bear.
 
 ## Declarations
 
-- I honor the storyteller within me with wisdom
-- I choose truth over comfort and growth over stagnation
-- I listen deeply to body, heart, and intuition
-- I set clean boundaries and keep gentle promises
-- I act from purpose, not from proving or pleasing
-- I welcome feedback and repair when I cause harm
-- I create beauty and order in ways that nourish life
-- I trust cycles—beginnings, middles, endings, and rest
+- I shape lived experience into a form others can remember.
+- I distinguish memory, inference, and invention.
+- I preserve uncertainty when the record is incomplete.
+- I keep source and context visible enough to remain answerable.
+- I seek consent before carrying an entrusted account into public space.
+- I select vivid detail without making vividness the measure of truth.
+- I correct the record when new evidence changes the account.
+- I release a finite story without pretending it is the whole story.
 
 ## Balance
 
 Narrative Imagination and Fidelity are mutually correcting.
 
-Truth-telling is a signature virtue of the Mature Storyteller. It refines raw impulse into trustworthy power. Rather than performing goodness or control, she practices truth-telling as a daily discipline—small choices that align impact with intention. This is not perfectionism; it is presence. It is the willingness to pause, to feel, to include dissenting data, and to do the next honest thing.
+Narrative Imagination finds sequence, image, emphasis, and form so lived experience can travel beyond the original moment. Without Fidelity, it becomes the Exaggerating Dramatist: vividness outruns source, uncertainty disappears, and entrusted experience is bent around the narrator.
 
-In modern life, truth-telling shows up as boundaries that honor relationship, decisions that honor values, and rhythms that honor the body. The Mature Storyteller remembers that virtue grows in community and over time. She measures progress by repair, resilience, and the ability to keep creating even when outcomes are uncertain.
+Fidelity keeps the telling answerable to what was lived and entrusted. It preserves context, consent, limits, and the possibility of correction. Without Narrative Imagination, Fidelity distorts into the Silent Keeper's impossible completeness and custodial silence.
 
-Honesty is essential to the Storyteller—it channels this archetype’s gifts into meaningful action. Yet honesty is never meant to stand alone. In healthy balance it moves with imagination, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.
-
-Practically, honesty shows up as clear choices aligned with values. Untethered from imagination, it can skew toward the Exaggerating Dramatist—pushing, gripping, or overreaching. In rhythm with imagination, it becomes trustworthy, sustainable, and nourishing for all involved.
-
-Imagination is essential to the Storyteller—it channels this archetype’s gifts into meaningful action. Yet imagination is never meant to stand alone. In healthy balance it moves with honesty, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.
-
-In practice, imagination provides proportion, pacing, and care. Without honesty, it can drift toward the Silent Keeper—hesitating, second-guessing, or withdrawing. Coupled with honesty, it keeps action timely, humane, and effective.
+Together, Narrative Imagination and Fidelity make communal memory both transmissible and trustworthy. The Storyteller shapes enough to be remembered and remains accountable enough to be corrected.
 
 ## Applications
 
-Tell truth beautifully; share wisdom generously.
+Carry lived or communal memory in a memorable form that remains answerable to source, context, consent, and correction.
 
 ## Gifts, Responsibilities, and Challenges
 
-Meaning-making; communal memory.
+Narrative Imagination creates memorable form. Fidelity protects entrusted truth from distortion, appropriation, false certainty, and context loss.
 
 ## Practices
 
-- "True story, short" (200 words, sensory + lesson).
+- Mark each element as remembered, inferred, or invented before shaping the account.
+- Ask what context, consent, uncertainty, and correction the released story must carry.
 
 ## Living as the Storyteller
 
-In the world this looks practical and human. The Mature Storyteller communicates clearly, takes responsibility for impact, and chooses commitments that match her capacity. She can say yes wholeheartedly and no cleanly. She embodies the storyteller virtues in her work, love, and leadership: not as performance but as natural overflow. Her relationships benefit from her steadiness; her projects benefit from her focus; her body benefits from her pacing. Where the shadow once sought control or hid in avoidance, she now practices humility, accountability, and repair. The result is a grounded confidence that invites trust—and gently calls others into their own maturity.
+Living as the Storyteller means accepting responsibility for what a telling carries forward. She joins Narrative Imagination with Fidelity, gives entrusted experience a finite memorable form, names its limits, and releases it across people and time without betraying its source.
 
 ## Closing Quotation

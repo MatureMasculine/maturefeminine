@@ -14,6 +14,7 @@ const PROFILE_FIELDS = [
   ["Key qualities", "keyQualities"],
 ];
 const RESEARCH_STATUSES = new Set(["pending", "verified"]);
+const WRAPPER_HEADINGS = new Set(["Opening Quotation", "Profile", "Closing Quotation", "Designation"]);
 
 function fail(file, message) {
   const label = path.isAbsolute(file) ? path.relative(root, file) : file;
@@ -134,6 +135,7 @@ function parseSectionRoles(value, defaults, file) {
     const heading = assignment.slice(separator + 1).trim();
     if (!Object.hasOwn(defaults, role)) fail(file, `unknown section role ${role}`);
     if (Object.hasOwn(roles, role)) fail(file, `duplicate section role ${role}`);
+    if (WRAPPER_HEADINGS.has(heading)) fail(file, `section role ${role} cannot target wrapper ${heading}`);
     roles[role] = heading;
   }
   for (const role of Object.keys(defaults)) {
@@ -314,6 +316,39 @@ function markdownFiles(directory) {
   return fs.readdirSync(directory).filter((file) => file.endsWith(".md")).sort().map((file) => path.join(directory, file));
 }
 
+function normalizeInlineText(value) {
+  return value.trim().replace(/\s+/g, " ");
+}
+
+function normalizeQuotationText(value) {
+  return normalizeInlineText(value).toLocaleLowerCase("en-US");
+}
+
+function mythicFigure(resonance) {
+  return normalizeInlineText(resonance.replace(/\s*(?:\([^()]*\)\s*)+$/, ""));
+}
+
+function phrasePattern(phrase) {
+  const escaped = phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
+  return new RegExp(`(^|[^\\p{L}\\p{N}])${escaped}(?=$|[^\\p{L}\\p{N}])`, "iu");
+}
+
+function readerFacingText(entry) {
+  const body = entry.bodySections.flatMap((section) => [
+    section.heading,
+    section.content,
+    ...section.subsections.flatMap((subsection) => [subsection.heading, subsection.content]),
+  ]);
+  const wrappers = entry.kind === "shadow"
+    ? ["Designation", entry.sections.designation, "Opening Quotation", "Closing Quotation"]
+    : ["Opening Quotation", "Closing Quotation"];
+  return [entry.name, ...wrappers, entry.quotes.opening, entry.quotes.closing, ...body].join("\n");
+}
+
+function canonicalMechanicsText(entry) {
+  return Object.values(entry.sections).flat().join("\n");
+}
+
 function validateBook(book, { publish = false } = {}) {
   const failures = [];
   const names = new Set();
@@ -356,6 +391,12 @@ function validateBook(book, { publish = false } = {}) {
     if (entry.kind === "archetype" && entry.profile.keyQualities !== entry.keyQualities.join(", ")) failures.push(`${label} profile key qualities drift`);
 
     if (entry.kind === "shadow") {
+      const expectedKeyQualities = entry.sections.recognition
+        .split(/\n\s*\n/)
+        .map((quality) => quality.trim())
+        .filter(Boolean)
+        .join(", ");
+      if (entry.profile.keyQualities !== expectedKeyQualities) failures.push(`${label} profile key qualities drift from Recognition`);
       const parent = parents.get(entry.parent);
       if (!parent) {
         failures.push(`${label} missing parent ${entry.parent}`);
@@ -373,6 +414,7 @@ function validateBook(book, { publish = false } = {}) {
     if (entry.research.status === "pending") failures.push(`${label} has pending research`);
     if (entry.research.quoteIds.length !== 2) failures.push(`${label} must have exactly two verified quote IDs`);
     if (new Set(entry.research.quoteIds).size !== entry.research.quoteIds.length) failures.push(`${label} has duplicate quote IDs`);
+    if (normalizeQuotationText(entry.quotes.opening) === normalizeQuotationText(entry.quotes.closing)) failures.push(`${label} has identical normalized quotation text`);
     if (!entry.research.mythicResonances.length || !entry.research.mythicSourceIds.length) failures.push(`${label} missing verified mythic assignments or source IDs`);
     if (!entry.image) failures.push(`${label} missing image path`);
     if (!entry.quotes.opening || !entry.quotes.closing) failures.push(`${label} has empty required quotation sections`);
@@ -385,6 +427,13 @@ function validateBook(book, { publish = false } = {}) {
     for (const sourceId of entry.research.mythicSourceIds) {
       if (sourceOwners.has(sourceId)) failures.push(`${label} reuses mythic source ID ${sourceId} from ${sourceOwners.get(sourceId)}`);
       sourceOwners.set(sourceId, label);
+    }
+    if (entry.research.status === "verified") {
+      const visibleText = readerFacingText(entry);
+      for (const resonance of entry.research.mythicResonances) {
+        const figure = mythicFigure(resonance);
+        if (figure && phrasePattern(figure).test(visibleText)) failures.push(`${label} mythic resonance ${figure} appears outside Mythic Resonances profile`);
+      }
     }
     if (entry.kind === "shadow") {
       const parent = parents.get(entry.parent);
@@ -430,7 +479,7 @@ function validateCanonicalBook(book, taxonomy = loadCanonicalTaxonomy()) {
   const failures = [];
   const archetypes = book.groups.flatMap((group) => group.archetypes);
   const bySlug = new Map(archetypes.map((entry) => [entry.slug, entry]));
-  const expectedGroups = [...new Set(taxonomy.map((entry) => entry.lifecycle))];
+  const expectedGroups = LIFECYCLES;
   const actualGroups = book.groups.map((group) => group.slug);
   if (JSON.stringify(actualGroups) !== JSON.stringify(expectedGroups)) failures.push(`canonical lifecycle groups drift: expected ${expectedGroups.join(", ")}, found ${actualGroups.join(", ")}`);
   if (archetypes.length !== taxonomy.length) failures.push(`canonical archetype count drift: expected ${taxonomy.length}, found ${archetypes.length}`);
@@ -450,6 +499,20 @@ function validateCanonicalBook(book, taxonomy = loadCanonicalTaxonomy()) {
     const passive = actual.shadows.find((shadow) => shadow.type === "passive");
     if (!active || active.name !== expected.active.name || active.slug !== expected.active.slug) failures.push(`${label} canonical active shadow drift`);
     if (!passive || passive.name !== expected.passive.name || passive.slug !== expected.passive.slug) failures.push(`${label} canonical passive shadow drift`);
+  }
+  const magician = bySlug.get("magician");
+  if (magician) {
+    const retiredPower = [magician, ...magician.shadows].some((entry) => /\bPower\b/i.test(canonicalMechanicsText(entry)));
+    if (retiredPower) failures.push("queen/magician retired balance language Power");
+  }
+  const storyteller = bySlug.get("storyteller");
+  if (storyteller) {
+    const mechanics = [storyteller, ...storyteller.shadows]
+      .map(canonicalMechanicsText)
+      .join("\n")
+      .replace(/Narrative\s+Imagination/gi, "");
+    const retired = mechanics.match(/\b(Honesty|Imagination)\b/i);
+    if (retired) failures.push(`crone/storyteller retired balance language ${retired[1]}`);
   }
   if (failures.length) throw new Error(failures.join("\n"));
   return true;
@@ -479,9 +542,11 @@ function buildRedirects(entries) {
 }
 
 function loadBook(directory = contentDir) {
-  const groupDirectories = fs.readdirSync(directory, { withFileTypes: true })
-    .filter((entry) => entry.isDirectory())
-    .map((entry) => path.join(directory, entry.name));
+  const groupDirectories = LIFECYCLES.map((lifecycle) => {
+    const groupDirectory = path.join(directory, lifecycle);
+    if (!fs.existsSync(groupDirectory) || !fs.statSync(groupDirectory).isDirectory()) fail(directory, `missing required lifecycle ${lifecycle}`);
+    return groupDirectory;
+  });
   const groups = groupDirectories.map((groupDirectory) => {
     const groupFile = path.join(groupDirectory, "group.md");
     if (!fs.existsSync(groupFile)) fail(groupDirectory, "missing group.md");
@@ -559,7 +624,7 @@ function checkGeneratedData(book, directory) {
   }
   for (const [name, expected] of expectedFiles) {
     const file = path.join(directory, name);
-    if (!fs.existsSync(file) || read(file) !== expected) failures.push(`${name} is out of sync; run npm run content:sync`);
+    if (!fs.existsSync(file) || fs.readFileSync(file, "utf8") !== expected) failures.push(`${name} is out of sync; run npm run content:sync`);
   }
   if (failures.length) throw new Error(failures.join("\n"));
   return true;

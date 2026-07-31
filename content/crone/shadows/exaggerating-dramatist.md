@@ -33,55 +33,55 @@ Active Shadow
 - Active shadow: Exaggerating Dramatist
 - Passive shadow: Silent Keeper
 - Mythic resonances:
-- Key qualities: Oversteps boundaries; decides for others, Mistakes speed for effectiveness, Performs care or genius to avoid vulnerability, Micromanages; cannot rest, Seeks admiration or control over connection, Ignores feedback, doubles down under stress
+- Key qualities: Adds connective detail that was not remembered, Turns inference into stated fact, Removes uncertainty to strengthen the arc, Centers the narrator in another person's account, Shares entrusted material without sufficient consent, Protects a compelling version from correction
 
 ## Balance Breakdown
 
-Imagination dramatizes without fidelity.
+Narrative Imagination dramatizes without Fidelity.
 
 ## Declarations
 
-- I stay in control so I never have to feel small.
-- I push harder when I feel doubt instead of slowing down.
-- I confuse urgency with importance.
-- I override my body’s signals to keep things on track.
-- I decide what’s best and expect others to catch up.
-- I use charm, logic, or pressure when I’m afraid.
+- I improve the account when the lived details feel too quiet.
+- I turn inference into fact when it strengthens the arc.
+- I collapse uncertainty so the audience will stay with me.
+- I center my role in experience entrusted by someone else.
+- I repeat a compelling account before checking consent or context.
+- I defend the effect of the story instead of correcting its distortion.
 
 ## Psychological Mechanics
 
-The Exaggerating Dramatist is the overexpressed shadow of the Storyteller. She pushes the archetype’s meaning and memory to an extreme—trying to manufacture certainty, safety, or admiration through control. What begins as narrative, empathy, mythic imagination becomes performance and pressure. In this stance she overrides signals from body and relationships, doubles down when she should pause, and confuses intensity for truth. Often born from wounds of silencing, distortion of truth, she learned to stay ahead of pain by taking charge.
+The Exaggerating Dramatist begins with abundant Narrative Imagination: she can find an arc, vivid detail, emotional emphasis, and a form people will remember. Without Fidelity, those strengths detach from source. Remembered detail, inference, and invention blur; ambiguity is edited out; and another person's entrusted experience becomes material for the narrator's effect.
 
-From the outside this shadow can look competent, charismatic, even selfless; inside there is a tightness and a fear that rest or honest contact will expose vulnerability. In culture and memory she speeds up, takes over, and makes unilateral moves “for everyone’s good.” Integration begins when she tells the truth about impact, slows her pace, and lets reciprocity, feedback, and limits restore proportion.
+The causal chain is visible in the telling. Narrative Imagination produces a compelling form, Fidelity checks are skipped, contextual limits disappear, and correction feels like a threat to the performance. Integration restores Fidelity to source, consent, uncertainty, context, and the record.
 
 ## Hidden Energy
 
-When owned, the Exaggerating Dramatist offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Storyteller’s capacity to move things forward when it truly serves.
+Her retained gift is vivid Narrative Imagination. Joined with Fidelity, it gives entrusted truth a memorable form without making effect more important than source.
 
 ## Recognition
 
-Oversteps boundaries; decides for others
+Adds connective detail that was not remembered
 
-Mistakes speed for effectiveness
+Turns inference into stated fact
 
-Performs care or genius to avoid vulnerability
+Removes uncertainty to strengthen the arc
 
-Micromanages; cannot rest
+Centers the narrator in another person's account
 
-Seeks admiration or control over connection
+Shares entrusted material without sufficient consent
 
-Ignores feedback, doubles down under stress
+Protects a compelling version from correction
 
 ## Practices
 
-- I pause and feel my body before acting; I let breath slow me down.
-- I name the fear underneath my urgency and let someone I trust witness it.
-- I ask for consent and co-create next steps instead of taking over as the Storyteller.
-- I replace pressure with clear requests and real timelines.
-- I practice letting something be imperfect and still complete.
-- I track impact, apologize where needed, and repair.
-- I delegate in proportion to others’ capacity and trust their pace.
-- I schedule regular rest so power can be sourced, not forced.
+- I label each detail as remembered, inferred, or invented.
+- I check the account against available sources before release.
+- I name uncertainty instead of resolving it for dramatic effect.
+- I preserve context that changes the meaning of a vivid moment.
+- I secure consent for experience entrusted by another person.
+- I remove details that serve the narrator more than the account.
+- I invite correction from people close to the source.
+- I correct the record as visibly as I released the distortion.
 
 ## Opposite Shadow
 
@@ -93,6 +93,6 @@ Integration restores Fidelity and the dynamic relationship between Narrative Ima
 
 ## Conclusion
 
-When owned, the Exaggerating Dramatist offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Storyteller’s capacity to move things forward when it truly serves.
+When Fidelity again governs source, context, consent, uncertainty, and correction, Narrative Imagination returns to the Storyteller as memorable form rather than distortion.
 
 ## Closing Quotation

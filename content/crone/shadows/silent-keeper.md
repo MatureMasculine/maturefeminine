@@ -33,55 +33,55 @@ Passive Shadow
 - Active shadow: Exaggerating Dramatist
 - Passive shadow: Silent Keeper
 - Mythic resonances:
-- Key qualities: Defers decisions; waits for perfect certainty, Disengages from body and relationships, People-pleases to avoid conflict, Lets others set terms then resents them, Creativity stalled by perfectionism and fear, Self-doubt presented as humility
+- Key qualities: Requires exhaustive certainty before telling, Treats every finite selection as betrayal, Archives entrusted experience without transmission, Confuses privacy with a ban on responsible redaction, Preserves so much context that meaning cannot travel, Calls silence Fidelity despite the loss of memory
 
 ## Balance Breakdown
 
-Imagination collapses while fidelity becomes impossible completeness and custodial silence.
+Narrative Imagination collapses while Fidelity becomes impossible completeness and custodial silence.
 
 ## Declarations
 
-- I keep quiet so I won’t be wrong.
-- I wait for clarity instead of risking a first step.
-- I make myself small so others will be comfortable.
-- I numb, drift, or fantasize when decisions are needed.
-- I defer to experts and ignore my inner knowing.
-- I avoid conflict even when a boundary is needed.
+- I refuse to shape the account until every detail is certain.
+- I treat any finite telling as a betrayal of what was lived.
+- I archive entrusted experience but never make it transmissible.
+- I require total permission when bounded consent would suffice.
+- I preserve every context until no audience can receive the account.
+- I call silence faithful even when communal memory disappears.
 
 ## Psychological Mechanics
 
-The Silent Keeper is the underexpressed shadow of the Storyteller. She retreats from the archetype’s meaning and memory into fog, passivity, or fantasy. What begins as narrative, empathy, mythic imagination collapses into avoidance: she waits for a sign, defers to others, and lets fear of misstep become an identity. Wounds of silencing, distortion of truth taught her that having needs or a voice was costly, so she learned to disappear.
+The Silent Keeper begins with legitimate Fidelity: care for source, privacy, context, consent, and accurate limits. As Narrative Imagination collapses, any selection or sequence feels like distortion. She demands exhaustive completeness and total certainty before allowing a finite account to exist.
 
-In practice this looks like hesitation, playing small, or outsourcing choice. In culture and memory she withholds gifts until it’s ‘perfect’ or safe, and resentment builds. Integration begins when she claims a small, honest action, feels feelings without drowning in them, and allows support, structure, and rhythm to rebuild trust in herself.
+Fidelity then becomes custodial silence. Experience is archived but not carried, privacy is treated as a ban on responsible redaction, and communal memory disappears while she waits for a form that omits nothing. Integration restores Narrative Imagination to shape one bounded account whose limits remain explicit.
 
 ## Hidden Energy
 
-When welcomed, the Silent Keeper offers spaciousness, reflection, and sensitivity. Integrated, she restores the Storyteller’s ability to listen deeply and act in right timing.
+Her retained gift is Fidelity: care for truth, privacy, source, context, and correction. Joined with Narrative Imagination, that care can travel in a form others can receive.
 
 ## Recognition
 
-Defers decisions; waits for perfect certainty
+Requires exhaustive certainty before telling
 
-Disengages from body and relationships
+Treats every finite selection as betrayal
 
-People-pleases to avoid conflict
+Archives entrusted experience without transmission
 
-Lets others set terms then resents them
+Confuses privacy with a ban on responsible redaction
 
-Creativity stalled by perfectionism and fear
+Preserves so much context that meaning cannot travel
 
-Self-doubt presented as humility
+Calls silence Fidelity despite the loss of memory
 
 ## Practices
 
-- I choose one small, honest action and complete it today.
-- I ground in my body—walk, breathe, hydrate—before making choices.
-- I name what I want out loud, allowing the Storyteller gifts to move.
-- I set a simple boundary and keep it.
-- I replace rumination with a time-boxed plan and a first step.
-- I ask for specific support and stay in relationship while acting.
-- I celebrate progress, not perfection, to build momentum.
-- I keep gentle promises to myself daily to rebuild trust.
+- I choose one bounded account and define what it can carry.
+- I state what is known, uncertain, omitted, and outside scope.
+- I secure specific consent or redact identifying detail responsibly.
+- I select only the context necessary to preserve meaning.
+- I shape a beginning, middle, and end without claiming completeness.
+- I set a release point before further preservation becomes silence.
+- I invite source-aware correction after release.
+- I let Fidelity constrain the form without preventing all form.
 
 ## Opposite Shadow
 
@@ -93,6 +93,6 @@ Integration restores Narrative Imagination and the dynamic relationship between 
 
 ## Conclusion
 
-When welcomed, the Silent Keeper offers spaciousness, reflection, and sensitivity. Integrated, she restores the Storyteller’s ability to listen deeply and act in right timing.
+When Narrative Imagination returns, Fidelity no longer requires exhaustive completeness. The Storyteller can release a bounded, source-aware account and remain available for correction.
 
 ## Closing Quotation

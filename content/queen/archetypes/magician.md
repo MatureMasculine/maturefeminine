@@ -9,7 +9,7 @@ passiveShadowSlug: powerless-mystic
 aliases: Alchemist|Witch|Scribe|Wise Woman
 legacyRoutes: /queen/magician-alchemist-witch-scribe/
 coreFunction: Exercise ethical, consequential transformation within a domain of responsibility or stewardship.
-keyQualities: Intuitive|Transformative|Wise|Magical|Insightful|Healing|Mysterious|Powerful|Independent|Visionary
+keyQualities: Accountable|Consequential|Discerning|Bounded|Transparent|Responsive|Decisive|Proportionate|Repairing|Stewarding
 image: assets/images/magician-alchemist-witch-scribe.jpeg
 quoteIds:
 mythicResonances:
@@ -29,58 +29,52 @@ sectionRoles: definition=Definition|declarations=Declarations|balance=Balance|ap
 - Active shadow: Manipulative Sorceress
 - Passive shadow: Powerless Mystic
 - Mythic resonances:
-- Key qualities: Intuitive, Transformative, Wise, Magical, Insightful, Healing, Mysterious, Powerful, Independent, Visionary
+- Key qualities: Accountable, Consequential, Discerning, Bounded, Transparent, Responsive, Decisive, Proportionate, Repairing, Stewarding
 
 ## Definition
 
-The Mature Magician embodies transformative feminine power—she who works with the hidden forces of nature and consciousness to create change, healing, and growth. She represents wisdom, intuition, and the ability to see beyond surface appearances into deeper truths.
+The Mature Magician changes consequential conditions inside a domain she is responsible for. She brings Agency to a pattern that must move and Integrity to the means, limits, and effects of moving it.
 
-Pattern recognition, language, spell-craft (reframing reality).
+Her work is accountable transformation: she names her jurisdiction, gains consent where others are affected, chooses proportionate leverage, tracks impact, and repairs what her intervention harms.
 
 ## Declarations
 
-- I trust my intuition and inner knowing above all external authorities
-- I work with natural forces and cycles to create positive change
-- My wisdom comes from direct experience and deep study
-- I transform challenges into opportunities for growth and learning
-- I see beneath surface appearances to deeper truths
-- My abilities serve healing, growth, and the highest good
-- I am connected to ancient wisdom and contemporary insight
-- I embrace my power to influence reality through consciousness and action
-- I honor the mystery while seeking understanding
-- I use my gifts responsibly and ethically
+- I act where responsibility gives me real jurisdiction.
+- I ask for consent before changing conditions that belong to others.
+- I make my means as accountable as my intended ends.
+- I choose the smallest intervention capable of changing the pattern.
+- I disclose relevant risks, tradeoffs, and constraints.
+- I monitor impact instead of treating intention as proof.
+- I stop when my authority or competence ends.
+- I invite correction from people carrying the consequences.
+- I repair harm caused by my decisions.
+- I use Agency in service of stewardship and bind it to Integrity.
 
 ## Balance
 
 Agency and Integrity are mutually correcting.
 
-Intuitive wisdom represents the Magician's greatest treasure—the ability to access knowledge that comes from beyond logical reasoning. This knowing arises from the deep feminine capacity to perceive patterns, energy, and truth not immediately obvious to rational analysis.
+Agency supplies the capacity to intervene: to decide, coordinate resources, alter a system, and carry a change through. Without Integrity, Agency becomes the Manipulative Sorceress, exceeding jurisdiction, bypassing consent, concealing means, and discounting impact.
 
-The woman who cultivates intuitive wisdom learns to trust the subtle signals her body and psyche provide, paying attention to dreams, gut feelings, and synchronicities. She understands that intuition complements logic as a different way of knowing.
+Integrity keeps intervention answerable to responsibility. It tests means against ends, authority against jurisdiction, and intention against consequence. Without Agency, Integrity distorts into the Powerless Mystic's purity, exhaustive scruple, and principled nonintervention.
 
-Agency is essential to the Magician—it channels this archetype’s gifts into meaningful action. Yet power is never meant to stand alone. In healthy balance it moves with integrity, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.
-
-Practically, power shows up as clear choices aligned with values. Untethered from integrity, it can skew toward the Manipulative Sorceress—pushing, gripping, or overreaching. In rhythm with integrity, it becomes trustworthy, sustainable, and nourishing for all involved.
-
-Integrity is essential to the Magician—it channels this archetype’s gifts into meaningful action. Yet integrity is never meant to stand alone. In healthy balance it moves with agency, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.
-
-In practice, integrity provides proportion, pacing, and care. Without power, it can drift toward the Powerless Mystic—hesitating, second-guessing, or withdrawing. Coupled with power, it keeps action timely, humane, and effective.
+Together, Agency and Integrity let the Magician change a consequential pattern without claiming ownership of people or outcomes beyond her stewardship. Action remains transparent, proportionate, revisable, and accountable for repair.
 
 ## Applications
 
-Use power ethically; transform without manipulating.
+Change a consequential condition within clear jurisdiction; secure consent, disclose means, monitor impact, and repair unintended harm.
 
 ## Gifts, Responsibilities, and Challenges
 
-Pattern recognition, language, spell-craft (reframing reality).
+Agency finds effective leverage and completes necessary change. Integrity requires limits, transparency, feedback, and responsibility for consequences.
 
 ## Practices
 
-- Before advice: mirror + summarize; after: consent check.
-- Daily "one true sentence."
+- Before intervening, name the domain, authority, affected parties, and stopping condition.
+- After intervening, compare intended and actual impact, then correct or repair.
 
 ## Living as the Magician
 
-She is skilled in transformation through healing, creative work, or deep psychological insight. The Mature Wise Woman knows how to work with energy, cycles, and the mysterious forces that govern life, connecting ancient wisdom with contemporary needs.
+Living as the Magician means accepting responsibility for changes one is actually positioned to make. She joins decisive Agency with disciplined Integrity so transformation remains consequential, consent-aware, and answerable to those who live with its effects.
 
 ## Closing Quotation

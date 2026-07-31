@@ -33,55 +33,55 @@ Active Shadow
 - Active shadow: Manipulative Sorceress
 - Passive shadow: Powerless Mystic
 - Mythic resonances:
-- Key qualities: Oversteps boundaries; decides for others, Mistakes speed for effectiveness, Performs care or genius to avoid vulnerability, Micromanages; cannot rest, Seeks admiration or control over connection, Ignores feedback, doubles down under stress
+- Key qualities: Treats capability as authorization, Bypasses consent to preserve momentum, Hides means, risks, or tradeoffs, Defines the end without affected parties, Dismisses feedback that challenges the intervention, Counts compliance as evidence of benefit
 
 ## Balance Breakdown
 
-Agency manipulates without integrity.
+Agency exceeds jurisdiction without Integrity.
 
 ## Declarations
 
-- I stay in control so I never have to feel small.
-- I push harder when I feel doubt instead of slowing down.
-- I confuse urgency with importance.
-- I override my body’s signals to keep things on track.
-- I decide what’s best and expect others to catch up.
-- I use charm, logic, or pressure when I’m afraid.
+- I decide that a good result excuses undisclosed means.
+- I treat my capacity to intervene as authority to do so.
+- I secure agreement after the decision is already made.
+- I conceal costs that might slow approval.
+- I call resistance ignorance instead of relevant feedback.
+- I measure success by compliance rather than lived impact.
 
 ## Psychological Mechanics
 
-The Manipulative Sorceress is the overexpressed shadow of the Magician. She pushes the archetype’s transformation and craft to an extreme—trying to manufacture certainty, safety, or admiration through control. What begins as insight, ritual, innovation becomes performance and pressure. In this stance she overrides signals from body and relationships, doubles down when she should pause, and confuses intensity for truth. Often born from wounds of mistrust, witch-wounds, she learned to stay ahead of pain by taking charge.
+The Manipulative Sorceress begins with real Agency: she can see leverage, organize action, and change consequential conditions. Without Integrity, capacity becomes presumed jurisdiction. She decides for affected people, bypasses consent, hides the means of influence, and treats her preferred end as permission.
 
-From the outside this shadow can look competent, charismatic, even selfless; inside there is a tightness and a fear that rest or honest contact will expose vulnerability. In change-work and technology she speeds up, takes over, and makes unilateral moves “for everyone’s good.” Integration begins when she tells the truth about impact, slows her pace, and lets reciprocity, feedback, and limits restore proportion.
+The causal chain is observable: Agency identifies an intervention, unauthorized leverage accelerates it, inconvenient costs are concealed or minimized, and dissent is recast as obstruction. Integration begins by restoring Integrity through transparent means, explicit authority, consent, impact review, and repair.
 
 ## Hidden Energy
 
-When owned, the Manipulative Sorceress offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Magician’s capacity to move things forward when it truly serves.
+Her retained gift is decisive Agency. Bound by Integrity, it can initiate necessary change without exceeding jurisdiction or making others carry hidden consequences.
 
 ## Recognition
 
-Oversteps boundaries; decides for others
+Treats capability as authorization
 
-Mistakes speed for effectiveness
+Bypasses consent to preserve momentum
 
-Performs care or genius to avoid vulnerability
+Hides means, risks, or tradeoffs
 
-Micromanages; cannot rest
+Defines the end without affected parties
 
-Seeks admiration or control over connection
+Dismisses feedback that challenges the intervention
 
-Ignores feedback, doubles down under stress
+Counts compliance as evidence of benefit
 
 ## Practices
 
-- I pause and feel my body before acting; I let breath slow me down.
-- I name the fear underneath my urgency and let someone I trust witness it.
-- I ask for consent and co-create next steps instead of taking over as the Magician.
-- I replace pressure with clear requests and real timelines.
-- I practice letting something be imperfect and still complete.
-- I track impact, apologize where needed, and repair.
-- I delegate in proportion to others’ capacity and trust their pace.
-- I schedule regular rest so power can be sourced, not forced.
+- I state the jurisdiction that authorizes my intervention.
+- I identify who is affected and obtain consent where it is required.
+- I disclose the means, risks, tradeoffs, and alternatives.
+- I choose a reversible, proportionate first intervention when possible.
+- I define stopping conditions before momentum takes over.
+- I invite feedback from people who will carry the impact.
+- I compare actual consequences with the claimed end.
+- I stop, correct, and repair when Integrity requires it.
 
 ## Opposite Shadow
 
@@ -93,6 +93,6 @@ Integration restores Integrity and the dynamic relationship between Agency and I
 
 ## Conclusion
 
-When owned, the Manipulative Sorceress offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Magician’s capacity to move things forward when it truly serves.
+When Integrity again governs consent, jurisdiction, means, impact, and repair, decisive Agency returns to the Magician as accountable intervention rather than manipulation.
 
 ## Closing Quotation
