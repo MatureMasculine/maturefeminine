@@ -3,8 +3,8 @@ permalink: "/search.json"
 ---
 {
   "items": [
-    {% set sep = "" %}
-    {% for group in collections.groups %}
+{% set sep = "" %}
+{% for group in collections.groups %}
       {{ sep }}{
         "type": "lifecycle",
         "lifecycle": {{ group.name | dump | safe }},
@@ -17,9 +17,9 @@ permalink: "/search.json"
         "keyQualities": {{ (group.essence or group.summary) | dump | safe }},
         "href": {{ group.url | dump | safe }}
       }
-      {% set sep = "," %}
-    {% endfor %}
-    {% for entry in collections.archetypes %}
+{% set sep = "," %}
+{% endfor %}
+{% for entry in collections.archetypes %}
       {{ sep }}{
         "type": "archetype",
         "lifecycle": {{ entry.lifecycleName | dump | safe }},
@@ -32,9 +32,9 @@ permalink: "/search.json"
         "keyQualities": {{ entry.profile.keyQualities | dump | safe }},
         "href": {{ entry.url | dump | safe }}
       }
-      {% set sep = "," %}
-    {% endfor %}
-    {% for entry in collections.shadows %}
+{% set sep = "," %}
+{% endfor %}
+{% for entry in collections.shadows %}
       {{ sep }}{
         "type": "shadow",
         "lifecycle": {{ entry.lifecycleName | dump | safe }},
@@ -49,7 +49,7 @@ permalink: "/search.json"
         "keyQualities": {{ entry.profile.keyQualities | dump | safe }},
         "href": {{ entry.url | dump | safe }}
       }
-      {% set sep = "," %}
-    {% endfor %}
+{% set sep = "," %}
+{% endfor %}
   ]
 }

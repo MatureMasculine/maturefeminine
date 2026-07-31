@@ -9,33 +9,29 @@ title: "The Mature Feminine"
 ---
 
 {% if indexPage.kind == "home" %}
-<h1 class="text-center mb-1">{{ siteContent.title }}</h1>
-<p class="text-center fst-italic text-muted">{{ siteContent.subtitle }}</p>
+<h1 class="text-center mb-1">The Mature Feminine</h1>
+<p class="text-center fst-italic text-muted">A field guide to {{ collections.archetypes.length }} archetypes and {{ collections.shadows.length }} shadow expressions across five recurring lifecycles.</p>
 
 <div class="text-center my-3">
   <img src="{{ '/assets/images/cover.jpeg' | url }}" alt="Cover image for The Mature Feminine: A Field Guide" class="img-fluid rounded shadow-sm" />
 </div>
 
-{% if siteContent.quote %}
-<p class="quote text-center fst-italic my-3 text-muted">{{ siteContent.quote.text | fixEncoding | stripOuterQuotes }}<br><span class="d-block mt-1">— {{ siteContent.quote.author }}</span></p>
-{% endif %}
-
 <div class="row g-3">
-  {% for group in collections.groups %}
+{% for group in collections.groups %}
   <div class="col-12 col-md-6">
     <div class="card card-platinum h-100">
       <div class="card-body">
         <h2 class="h5 card-title"><a href="{{ group.url | url }}">{{ group.name }}</a></h2>
         <p class="card-text small">{{ group.summary }}</p>
         <ul class="small">
-          {% for entry in group.archetypes %}
+{% for entry in group.archetypes %}
           <li><a href="{{ entry.url | url }}">{{ entry.name }}</a></li>
-          {% endfor %}
+{% endfor %}
         </ul>
       </div>
     </div>
   </div>
-  {% endfor %}
+{% endfor %}
 </div>
 {% else %}
 <header class="entry-header mb-4">
@@ -46,7 +42,7 @@ title: "The Mature Feminine"
 </header>
 
 <div class="row g-3">
-  {% for entry in indexPage.archetypes %}
+{% for entry in indexPage.archetypes %}
   <div class="col-12 col-md-6">
     <article class="card card-platinum h-100">
       <div class="card-body">
@@ -54,13 +50,13 @@ title: "The Mature Feminine"
         <p>{{ entry.profile.coreFunction }}</p>
         <p class="small text-muted mb-2">{{ entry.profile.balancedQualities }}</p>
         <ul class="list-unstyled small mb-0">
-          {% for shadow in entry.shadows %}
+{% for shadow in entry.shadows %}
           <li><a href="{{ shadow.url | url }}">{{ shadow.name }}</a> · {{ shadow.type }} shadow</li>
-          {% endfor %}
+{% endfor %}
         </ul>
       </div>
     </article>
   </div>
-  {% endfor %}
+{% endfor %}
 </div>
 {% endif %}

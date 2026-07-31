@@ -31,9 +31,9 @@
           const btn = acc.querySelector('.accordion-button');
           const collapse = acc.querySelector('.accordion-collapse');
           btn && btn.classList.add('collapsed');
+          btn && btn.setAttribute('aria-expanded','false');
           if(collapse){
             collapse.classList.remove('show');
-            collapse.setAttribute('aria-expanded','false');
           }
         });
         return;
@@ -77,15 +77,15 @@
         const hasVisible = acc.querySelectorAll('.nav-item:not(.d-none)').length > 0;
         if(hasVisible){
           btn && btn.classList.remove('collapsed');
+          btn && btn.setAttribute('aria-expanded','true');
           if(collapse){
             collapse.classList.add('show');
-            collapse.setAttribute('aria-expanded','true');
           }
         } else {
           btn && btn.classList.add('collapsed');
+          btn && btn.setAttribute('aria-expanded','false');
           if(collapse){
             collapse.classList.remove('show');
-            collapse.setAttribute('aria-expanded','false');
           }
         }
       });

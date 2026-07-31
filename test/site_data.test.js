@@ -80,6 +80,23 @@ function outputText(relativePath) {
   return fs.readFileSync(outputFile(relativePath), "utf8");
 }
 
+function outputTextForUrl(url) {
+  return outputText(path.join(url.slice(1), "index.html"));
+}
+
+function filesUnder(directory, predicate = () => true) {
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
+    const file = path.join(directory, entry.name);
+    return entry.isDirectory() ? filesUnder(file, predicate) : predicate(file) ? [file] : [];
+  });
+}
+
+function mainContent(html) {
+  const match = html.match(/<main[\s\S]*?<\/main>/);
+  assert.ok(match, "page must contain main content");
+  return match[0];
+}
+
 test("site collections consume every normalized lifecycle and entry", () => {
   const collections = loadCollections();
   const entries = requireCollection(collections, "entries");
@@ -179,23 +196,23 @@ test("Eleventy emits lifecycle, archetype, shadow, and legacy redirect pages", (
   }
 });
 
-test("archetype pages render only populated approved profile fields and both shadows", () => {
+test("archetype pages render the seven approved profile fields and both shadows", () => {
   assert.ifError(buildError);
   const html = outputText("maiden/adventurer/index.html");
-  const populatedFields = [
+  const approvedFields = [
     "lifecycleStage",
     "coreFunction",
     "balancedQualities",
     "activeShadow",
     "passiveShadow",
+    "mythicResonances",
     "keyQualities",
   ];
 
-  assert.equal((html.match(/data-profile-field=/g) || []).length, populatedFields.length);
-  for (const field of populatedFields) {
+  assert.equal((html.match(/data-profile-field=/g) || []).length, approvedFields.length);
+  for (const field of approvedFields) {
     assert.match(html, new RegExp(`data-profile-field="${field}"`));
   }
-  assert.doesNotMatch(html, /data-profile-field="mythicResonances"/);
   assert.match(html, /href="\/maiden\/adventurer\/shadows\/reckless-wanderer\/"/);
   assert.match(html, /href="\/maiden\/adventurer\/shadows\/sheltered-dreamer\/"/);
   assert.doesNotMatch(html, /quoteIds|mythicSourceIds|researchStatus/);
@@ -307,4 +324,135 @@ test("search indexes emitted metadata and exposes it to the no-index fallback", 
   }
   assert.match(html, /data-name="adventurer" data-qualities="[^"]*resilient/);
   assert.match(html, /data-name="reckless wanderer" data-qualities="[^"]*adventurer/);
+});
+
+test("the site does not consume legacy siteContent data or render its obsolete prose", () => {
+  assert.ifError(buildError);
+  const siteSources = [
+    path.resolve(".eleventy.js"),
+    ...filesUnder(path.resolve("src"), (file) => /\.(?:njk|js)$/.test(file)),
+  ];
+  for (const file of siteSources) {
+    assert.doesNotMatch(fs.readFileSync(file, "utf8"), /siteContent/, `${file} must not reference siteContent`);
+  }
+
+  const legacy = require("../src/_data/siteContent.json");
+  const forbidden = [
+    legacy.quote.text,
+    legacy.quote.author,
+    ...legacy.howToUse.map((item) => item.text),
+    ...legacy.poles.flatMap((pole) => [pole.name, pole.description]),
+  ];
+  const renderedHtml = filesUnder(outputDirectory, (file) => file.endsWith(".html"))
+    .map((file) => fs.readFileSync(file, "utf8"))
+    .join("\n");
+  for (const prose of forbidden) {
+    assert.ok(!renderedHtml.includes(prose), `legacy prose must not render: ${prose}`);
+  }
+
+  const home = outputText("index.html");
+  for (const group of archetypeData.groups) {
+    assert.match(home, new RegExp(`href="/${group.slug}/"`));
+  }
+});
+
+test("search input is labelled and accordion buttons own aria-expanded state", () => {
+  assert.ifError(buildError);
+  const html = outputText("index.html");
+  const script = fs.readFileSync("src/assets/main.js", "utf8");
+
+  assert.match(html, /<label[^>]*for="searchInput"[^>]*>[^<]+<\/label>/);
+  assert.match(script, /btn\.setAttribute\(['"]aria-expanded['"]/);
+  assert.doesNotMatch(script, /collapse\.setAttribute\(['"]aria-expanded['"]/);
+});
+
+test("all entry profiles render exactly seven ordered approved fields", () => {
+  assert.ifError(buildError);
+  const approvedFields = [
+    "lifecycleStage",
+    "coreFunction",
+    "balancedQualities",
+    "activeShadow",
+    "passiveShadow",
+    "mythicResonances",
+    "keyQualities",
+  ];
+  const approvedLabels = [
+    "Lifecycle stage",
+    "Core function",
+    "Balanced qualities",
+    "Active shadow",
+    "Passive shadow",
+    "Mythic resonances",
+    "Key qualities",
+  ];
+
+  for (const entry of archetypeData.entries) {
+    const html = outputTextForUrl(expectedEntryUrl(entry));
+    const fields = [...html.matchAll(/data-profile-field="([^"]+)"/g)]
+      .map((match) => match[1]);
+    const labels = [...html.matchAll(/<dt>([^<]+)<\/dt>/g)]
+      .map((match) => match[1]);
+    assert.deepEqual(fields, approvedFields, `${entry.slug} profile fields`);
+    assert.deepEqual(labels, approvedLabels, `${entry.slug} profile labels`);
+  }
+});
+
+test("every archetype page links both canonical shadows in its main content", () => {
+  assert.ifError(buildError);
+  for (const entry of archetypeData.entries.filter((candidate) => candidate.kind === "archetype")) {
+    const html = mainContent(outputTextForUrl(expectedEntryUrl(entry)));
+    assert.equal(entry.shadows.length, 2, `${entry.slug} normalized shadows`);
+    for (const shadow of entry.shadows) {
+      assert.match(
+        html,
+        new RegExp(`class="shadow-link-card" href="/${entry.lifecycle}/${entry.slug}/shadows/${shadow.slug}/"`),
+      );
+    }
+  }
+});
+
+test("every shadow page links its canonical parent and opposite in main content", () => {
+  assert.ifError(buildError);
+  for (const entry of archetypeData.entries.filter((candidate) => candidate.kind === "shadow")) {
+    const html = mainContent(outputTextForUrl(expectedEntryUrl(entry)));
+    assert.match(html, new RegExp(`href="/${entry.lifecycle}/${entry.parent}/"`));
+    assert.match(
+      html,
+      new RegExp(`href="/${entry.lifecycle}/${entry.parent}/shadows/${entry.oppositeShadowSlug}/"`),
+    );
+  }
+});
+
+test("redirect graph has unique noncanonical sources, canonical targets, and no cycles", () => {
+  const collections = loadCollections();
+  const redirects = requireCollection(collections, "redirects");
+  const canonicalUrls = new Set([
+    ...collections.groups.map((group) => group.url),
+    ...collections.entries.map((entry) => entry.url),
+  ]);
+  const sourceUrls = redirects.map((redirect) => redirect.url);
+  const graph = new Map(redirects.map((redirect) => [redirect.url, redirect.canonicalUrl]));
+
+  assert.equal(new Set(sourceUrls).size, sourceUrls.length);
+  for (const redirect of redirects) {
+    assert.ok(!canonicalUrls.has(redirect.url), `${redirect.url} must not shadow a canonical route`);
+    assert.ok(canonicalUrls.has(redirect.canonicalUrl), `${redirect.url} target must be canonical`);
+
+    const seen = new Set();
+    let cursor = redirect.url;
+    while (graph.has(cursor)) {
+      assert.ok(!seen.has(cursor), `redirect cycle at ${cursor}`);
+      seen.add(cursor);
+      cursor = graph.get(cursor);
+    }
+  }
+});
+
+test("raw Eleventy text output has no trailing horizontal whitespace", () => {
+  assert.ifError(buildError);
+  const textFiles = filesUnder(outputDirectory, (file) => /\.(?:html|json|js|css)$/.test(file));
+  const violations = textFiles.filter((file) => /[ \t]+$/m.test(fs.readFileSync(file, "utf8")));
+
+  assert.deepEqual(violations.map((file) => path.relative(outputDirectory, file)), []);
 });

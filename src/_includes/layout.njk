@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <link href="assets/styles.css" rel="stylesheet" />
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
-    {% if site.ga4 %}
+{% if site.ga4 %}
     <!-- GA4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4 }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '{{ site.ga4 }}');
     </script>
-    {% endif %}
+{% endif %}
   </head>
   <body>
     <div class="d-flex">
@@ -26,10 +26,11 @@
           <a href="{{ '/' | url }}" class="navbar-brand fw-bold">Mature Feminine</a>
         </div>
         <div class="mb-2">
+          <label class="visually-hidden" for="searchInput">Search the field guide</label>
           <input class="form-control form-control-sm" id="searchInput" type="search" placeholder="Search…" />
         </div>
         <div class="accordion" id="navAccordion">
-          {% for group in collections.groups %}
+{% for group in collections.groups %}
           <div class="accordion-item">
             <h2 class="accordion-header" id="heading-{{ group.slug }}">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ group.slug }}" aria-expanded="false" aria-controls="collapse-{{ group.slug }}">
@@ -42,30 +43,30 @@
                   <li class="mb-2 nav-item nav-lifecycle" data-name="{{ group.name | lower }}" data-qualities="{{ (group.summary ~ ' ' ~ group.essence) | lower }}">
                     <a class="text-decoration-none fw-semibold" href="{{ group.url | url }}">{{ group.name }} overview</a>
                   </li>
-                  {% for entry in group.archetypes %}
+{% for entry in group.archetypes %}
                   <li class="mb-2 nav-item" data-name="{{ entry.name | lower }}" data-qualities="{{ ((entry.qualities | join(',')) ~ ' ' ~ entry.profile.keyQualities) | lower }}">
                     <a class="text-decoration-none" href="{{ entry.url | url }}">{{ entry.name }}</a>
                     <ul class="list-unstyled ms-3 mt-1">
-                      {% for shadow in entry.shadows %}
+{% for shadow in entry.shadows %}
                         <li class="nav-item nav-shadow" data-name="{{ shadow.name | lower }}" data-qualities="{{ ((shadow.qualities | join(',')) ~ ' ' ~ shadow.profile.keyQualities ~ ' ' ~ entry.name) | lower }}">
                           <a class="text-decoration-none small" href="{{ shadow.url | url }}">{{ shadow.name }}</a>
                         </li>
-                      {% endfor %}
+{% endfor %}
                     </ul>
                   </li>
-                  {% endfor %}
+{% endfor %}
                 </ul>
               </div>
             </div>
           </div>
-          {% endfor %}
+{% endfor %}
         </div>
       </nav>
 
       <!-- Content -->
       <main class="flex-grow-1">
         <div class="container py-4">
-          {{ content | safe }}
+{{ content | safe }}
         </div>
       </main>
     </div>
