@@ -117,9 +117,9 @@ function writeGeneratedData(book, directory) {}
 
 Use only Node built-ins. Parse YAML-like scalar front matter plus pipe-delimited arrays, then required Markdown headings. Keep reading and rendering functions focused by entry type.
 
-- [ ] **Step 5: Strengthen validation**
+- [ ] **Step 5: Strengthen structural and publish validation**
 
-Reject missing/duplicate names and slugs; compound aliases; wrong lifecycle; missing parent; wrong active/passive order; parent/child quality drift; fewer or more than two quotes; duplicate quote IDs; missing mythic source IDs; forbidden profile fields; declaration counts outside 8–12 for archetypes or 6–9 for shadows; empty required sections; missing image paths; and generated-data drift.
+Structural validation rejects missing/duplicate names and slugs; compound aliases; wrong lifecycle; missing parent; wrong active/passive order; parent/child quality drift; forbidden profile fields; invalid research status; and generated-data drift. It permits `researchStatus: pending` during mechanical migration so unresearched quotations or mythic assignments are never fabricated. Publish validation additionally rejects any pending record; fewer or more than two verified quote IDs; duplicate quote IDs; missing independently verified mythic source IDs (including shadow-specific, non-inherited assignments); declaration counts outside 8–12 for archetypes or 6–9 for shadows; empty required sections; and missing image paths.
 
 - [ ] **Step 6: Migrate all canonical source files**
 
