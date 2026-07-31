@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "2026-07-31",
+  "records": [
+    {
+      "id": "quote-lover-opening-browning-sonnet-43",
+      "exactQuotation": "I love thee freely, as men strive for Right;\nI love thee purely, as they turn from Praise.",
+      "author": "Elizabeth Barrett Browning",
+      "origin": {
+        "work": "Sonnets from the Portuguese, Sonnet XLIII",
+        "workType": "poem",
+        "location": "lines 7–8",
+        "publicationDetails": "The sequence was first published in Browning's Poems (London: Chapman and Hall, 1850)."
+      },
+      "sourceUrl": "https://rpo.library.utoronto.ca/content/sonnets-portuguese-xliii",
+      "publicationEvidenceUrl": "https://www.themorgan.org/printed-books/79394",
+      "context": "The sonnet's speaker names the measures and modes of her love. These lines describe love as freely chosen and unperformed, which supports the Lover's union of wholehearted devotion with self-directed choice.",
+      "verificationNotes": "Exact wording, capitalization, punctuation, and lineation checked against the University of Toronto's Representative Poetry Online transcription of an 1886 Smith, Elder edition and corroborated against the 1906 Caradoc Press transcription in Project Gutenberg ebook 2002. The RPO record gives 1850 as the publication start year, and the Morgan Library record verifies the 1850 Chapman and Hall volume. The capitalized ‘Right’ and ‘Praise’ follow the verified edition.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1850.",
+      "assignedSpread": "lover",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-lover-closing-bronte-jane-eyre",
+      "exactQuotation": "To be together is for us to be at once as free as in solitude, as gay as in company.",
+      "author": "Charlotte Brontë",
+      "origin": {
+        "work": "Jane Eyre: An Autobiography",
+        "workType": "novel",
+        "location": "volume III, chapter XII, ‘Conclusion’ (modern chapter 38), page 307",
+        "publicationDetails": "Jane Eyre: An Autobiography, edited by Currer Bell [Charlotte Brontë] (London: Smith, Elder & Co., 1847), first edition, volume III."
+      },
+      "sourceUrl": "https://en.wikisource.org/wiki/Page:Jane_Eyre_(1st_edition),_Volume_3.djvu/315",
+      "publicationEvidenceUrl": "https://en.wikisource.org/wiki/Index:Jane_Eyre_(1st_edition),_Volume_3.djvu",
+      "corroboratingUrl": "https://www.gutenberg.org/dirs/1/2/6/1260/1260-h/1260-h.htm",
+      "context": "Ten years into Jane's marriage, she describes continual companionship between people whose hearts remain in separate bodies. The complete sentence explicitly joins togetherness with the freedom of solitude and company, supporting intimate Devotion without loss of Sovereignty.",
+      "verificationNotes": "Exact wording and punctuation checked against the scan-backed first-edition page and corroborated in Project Gutenberg ebook 1260. The sentence is quoted complete. Its surrounding language is an intensely marital ideal, so the spread uses only its precise claim about freedom within togetherness and does not prescribe Jane's marriage or marriage itself as the Lover's universal form.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1847; Charlotte Brontë died in 1855.",
+      "assignedSpread": "lover",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-enmeshing-lover-opening-teasdale-not-yours",
+      "exactQuotation": "You love me, and I find you still\nA spirit beautiful and bright,\nYet I am I, who long to be\nLost as a light is lost in light.",
+      "author": "Sara Teasdale",
+      "origin": {
+        "work": "I Am Not Yours",
+        "workType": "poem",
+        "location": "stanza 2",
+        "publicationDetails": "Rivers to the Sea (New York: The Macmillan Company, 1915), page 94."
+      },
+      "sourceUrl": "https://poets.org/poem/i-am-not-yours",
+      "publicationEvidenceUrl": "https://books.google.com/books?id=kwQnAAAAMAAJ&pg=PA94",
+      "corroboratingUrl": "https://www.gutenberg.org/cache/epub/596/pg596-images.html",
+      "context": "The poem's speaker knows that she remains an ‘I’ and simultaneously longs to become indistinguishable from the beloved. The stanza gives Devotion's pull toward lost Sovereignty a first-person voice without claiming that erasure has already occurred.",
+      "verificationNotes": "Exact wording, punctuation, and lineation checked against the Academy of American Poets and corroborated in the 1915 volume at Project Gutenberg. Google Books supplies a scan of page 94 in the 1915 Macmillan edition. The Academy page explicitly labels the poem public domain.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1915; the source page also labels the poem public domain.",
+      "assignedSpread": "enmeshing-lover",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-enmeshing-lover-closing-wollstonecraft-vindication",
+      "exactQuotation": "I do not wish them to have power over men; but over themselves.",
+      "author": "Mary Wollstonecraft",
+      "origin": {
+        "work": "A Vindication of the Rights of Woman: With Strictures on Political and Moral Subjects",
+        "workType": "political and philosophical treatise",
+        "location": "chapter 3",
+        "publicationDetails": "First published in London for J. Johnson in 1792; a first American edition was published in Philadelphia by William Gibbons in 1792."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3420/pg3420.html",
+      "publicationEvidenceUrl": "https://www.loc.gov/item/34033009/",
+      "context": "In an argument against educating women for pleasing dependence, Wollstonecraft rejects domination and asks for women's rational self-government. The sentence closes the active shadow by naming Sovereignty as power over oneself rather than power over another.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 3420 at chapter 3. The Library of Congress catalog verifies a 1792 first American edition. The quotation is kept in its political argument about women's education and autonomy rather than reduced to generic self-help advice.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1792; Project Gutenberg labels ebook 3420 public domain in the USA.",
+      "assignedSpread": "enmeshing-lover",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-armored-lover-opening-dickinson-outgrow-love",
+      "exactQuotation": "We outgrow love like other things\nAnd put it in the drawer,\nTill it an antique fashion shows\nLike costumes grandsires wore.",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "We outgrow love like other things (Franklin 1094; Johnson 887)",
+        "workType": "poem",
+        "location": "complete poem; Poems: Third Series, Book II, poem XV, page 89",
+        "publicationDetails": "Poems by Emily Dickinson: Third Series, edited by Mabel Loomis Todd, second edition (Boston: Roberts Brothers, 1896), page 89."
+      },
+      "sourceUrl": "https://en.wikisource.org/wiki/Poems:_Third_Series/We_outgrow_love,_like_other_things",
+      "publicationEvidenceUrl": "https://en.wikisource.org/wiki/Poems:_Third_Series",
+      "manuscriptCatalogUrl": "https://www.amherst.edu/media/view/59422/original/Emily%2BDickinson%2BCollection.pdf",
+      "context": "The complete poem treats love as something outgrown, shut into a drawer, and left to become antique. Its compact act of containment gives the Armored Lover's withdrawn Devotion a concrete image.",
+      "verificationNotes": "Exact wording, punctuation, and lineation checked against the digitized 1896 published text. Todd's posthumous edition normalized aspects of Dickinson's manuscript practice, so this record identifies the quotation as the 1896 print text rather than claiming a diplomatic manuscript transcription.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1896; Emily Dickinson died in 1886.",
+      "assignedSpread": "armored-lover",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-armored-lover-closing-austen-persuasion",
+      "exactQuotation": "She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.",
+      "author": "Jane Austen",
+      "origin": {
+        "work": "Persuasion",
+        "workType": "novel",
+        "location": "volume III, chapter IV, page 67 (modern chapter 4)",
+        "publicationDetails": "Northanger Abbey: and Persuasion (London: John Murray, 1818), first edition, volume III."
+      },
+      "sourceUrl": "https://en.wikisource.org/wiki/Page:Austen_-_Northanger_Abbey._Persuasion,_vol._III,_1818.djvu/73",
+      "publicationEvidenceUrl": "https://en.wikisource.org/wiki/Index:Austen_-_Northanger_Abbey._Persuasion,_vol._III,_1818.djvu",
+      "context": "The narrator contrasts Anne Elliot's early attachment and present confidence with the over-anxious caution imposed on her youth. The sentence names restored capacity for attachment after defensive prudence, matching the return of Devotion without condemning prudence itself.",
+      "verificationNotes": "Exact wording and punctuation checked against the scan-backed, validated 1818 first-edition page, including the comma splice and tight em dash. The sentence is quoted complete. The surrounding text immediately returns to Anne's revived feeling and attempt to ‘harden her nerves,’ confirming the relational context.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1818; Jane Austen died in 1817.",
+      "assignedSpread": "armored-lover",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    }
+  ]
+}

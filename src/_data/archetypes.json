@@ -1499,108 +1499,131 @@
             "balancedQualities": "Devotion + Sovereignty",
             "activeShadow": "Enmeshing Lover",
             "passiveShadow": "Armored Lover",
-            "mythicResonances": "",
-            "keyQualities": "Radiant, Sensual, Boundaried, Tender, Magnetic, Joyful, Reverent, Creative, Whole, Generous, Devoted, Noble, Humble, Loyal, Present, Self-possessed, Receptive"
+            "mythicResonances": "Psyche (Greco-Roman literary tradition)",
+            "keyQualities": "Wholehearted, Sensual, Loyal, Discerning, Self-possessed, Receptive, Boundaried, Playful, Faithful, Mutual, Present, Courageous"
           },
           "quotes": {
-            "opening": "",
-            "closing": ""
+            "opening": "“I love thee freely, as men strive for Right;\nI love thee purely, as they turn from Praise.”\n\n—Elizabeth Barrett Browning, “Sonnet 43,” lines 7–8",
+            "closing": "“To be together is for us to be at once as free as in solitude, as gay as in company.”\n\n—Charlotte Brontë, Jane Eyre, “Conclusion,” chapter 38"
           },
           "research": {
-            "status": "pending",
-            "quoteIds": [],
-            "mythicResonances": [],
-            "mythicSourceIds": []
+            "status": "verified",
+            "quoteIds": [
+              "quote-lover-opening-browning-sonnet-43",
+              "quote-lover-closing-bronte-jane-eyre"
+            ],
+            "mythicResonances": [
+              "Psyche (Greco-Roman literary tradition)"
+            ],
+            "mythicSourceIds": [
+              "myth-lover-psyche-apuleius-met"
+            ]
           },
           "sourceFile": "lover/archetypes/lover.md",
           "coreFunction": "Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.",
           "keyQualities": [
-            "Radiant",
+            "Wholehearted",
             "Sensual",
-            "Boundaried",
-            "Tender",
-            "Magnetic",
-            "Joyful",
-            "Reverent",
-            "Creative",
-            "Whole",
-            "Generous",
-            "Devoted",
-            "Noble",
-            "Humble",
             "Loyal",
-            "Present",
+            "Discerning",
             "Self-possessed",
-            "Receptive"
+            "Receptive",
+            "Boundaried",
+            "Playful",
+            "Faithful",
+            "Mutual",
+            "Present",
+            "Courageous"
           ],
           "activeShadowSlug": "enmeshing-lover",
           "passiveShadowSlug": "armored-lover",
           "bodySections": [
             {
               "role": "definition",
-              "heading": "Definition",
-              "content": "The Mature Sacred Lover belongs to herself and can therefore give herself freely. Desire becomes information rather than command; pleasure awakens gratitude rather than entitlement. She welcomes mutual influence, keeps consent alive, and lets intimacy reveal rather than replace each person's distinct life.\n\nThe love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+              "heading": "Wholehearted Without Self-Loss",
+              "content": "The Lover enters wholehearted intimacy and shared commitment while remaining a sovereign participant. She gives sustained attention to a person, purpose, place, or practice she truly values. She lets contact delight her, inconvenience her, and change her while keeping hold of her judgment, consent, bodily signals, other commitments, and right to leave. Love can reach her because a distinct self is there to be reached.\n\nThis capacity does not require romance, sex, marriage, or partnership. It can animate a friendship, a collaboration, a spiritual commitment, or the long care of a shared home. Sensuality belongs here as alert participation in the senses: the willingness to taste, touch, listen, play, and receive pleasure without turning another person into an instrument. Chosen surrender also belongs here. The Lover may place control in trustworthy hands for a time, yet the choice remains conscious, specific, and revocable.",
               "subsections": []
             },
             {
               "role": "declarations",
-              "heading": "Declarations",
-              "content": "- I can desire deeply without abandoning myself.\n- My body, heart, and no all belong in love.\n- I invite; I do not capture.\n- Intimacy makes room for two whole lives.\n- My surrender is a choice, not a debt.\n- Devotion and self-respect strengthen each other.\n- I can follow without abandoning judgment.\n- I serve what is worthy, not what demands worship.",
+              "heading": "The Lover's Inner Stance",
+              "content": "- I bring my whole life into love; I do not trade it for belonging.\n- I let what I cherish matter enough to inconvenience me.\n- My yes is wholehearted because my no remains available.\n- I can yield without making another person my authority over myself.\n- Pleasure grows through mutual presence, not proof or possession.\n- I stay curious when the beloved differs from my image of them.\n- I keep faith with shared purpose without concealing my dissent.\n- I receive care without surrendering judgment or creating debt.\n- Separateness gives desire room to breathe.\n- When devotion causes harm, I tell the truth, repair, and choose again.",
               "subsections": []
             },
             {
               "role": "balance",
-              "heading": "Balance",
-              "content": "Devotion and Sovereignty are mutually correcting.\n\nDevotion gives sustained attention to what the heart recognizes as precious.\n\nSovereignty preserves choice, boundaries, and identity inside closeness.\n\nSurrender relaxes control so trust, love, or shared purpose can lead.\n\nDignity protects equal worth and makes every act of yielding genuinely voluntary.",
+              "heading": "The Living Balance",
+              "content": "Devotion is the Lover's power to stay: to give attention, keep faith, accept mutual influence, and organize action around what she cherishes. It turns affection into remembered promises, time made available, skill offered, and pleasure shared. Without devotion, desire remains an episode. Nothing is allowed to become important enough to make a claim on her.\n\nSovereignty keeps devotion voluntary. It preserves agency, dignity, consent, and a life not wholly contained by the bond. It lets the Lover distinguish a generous compromise from self-betrayal and loyalty from obedience. Without sovereignty, devotion becomes over-attunement. She may anticipate needs no one voiced, offer sacrifices no one requested, or use surrender to avoid the risk of choosing for herself.\n\nDevotion without sovereignty produces the Enmeshing Lover, whose effort to secure closeness erases the very difference intimacy needs. When devotion collapses and sovereignty becomes a refuge, the Armored Lover can remain impressive, desired, and untouched. Mature love moves between the two capacities: I am here with you, and I am still here within myself.",
               "subsections": []
             },
             {
               "role": "applications",
-              "heading": "Applications",
-              "content": "Offer devotion from a self that remains present, choosing, and free.\n\nLet surrender be revocable, conscious, and anchored in equal human worth.",
-              "subsections": []
+              "heading": "Where Devotion Takes Form",
+              "content": "The Lover treats desire as information, neither an order nor an embarrassment.",
+              "subsections": [
+                {
+                  "heading": "Inner Life",
+                  "content": "She notices what draws her and asks whether it can be welcomed with integrity. A bodily yes does not cancel practical judgment; a bodily no is not something affection must overcome. Pleasure and reluctance both receive a hearing."
+                },
+                {
+                  "heading": "Relationship",
+                  "content": "In close relationship, she permits dependence without making it total. People may matter to one another enough to grieve, need, disappoint, and repair. She asks directly rather than arranging a test, and she can hear a boundary without translating it into rejection. Consent stays alive after the first yes. It can become more specific, change pace, or be withdrawn."
+                },
+                {
+                  "heading": "Work and Shared Purpose",
+                  "content": "The devoted-consort aspect of the Lover joins a common undertaking without handing over conscience. She can support another person's leadership, carry an unglamorous share, and remain loyal through difficulty. She also speaks when the mission departs from its stated values. Her judgment strengthens shared purpose."
+                },
+                {
+                  "heading": "Community and Creation",
+                  "content": "Her relational gift warms a team or community without demanding that everyone become intimate. In creative life, devotion helps her return to the work after novelty fades, while sovereignty keeps praise and criticism from becoming commands. She loves the work enough to serve it and enough to let it meet a world she cannot control."
+                }
+              ]
             },
             {
               "role": "gifts",
-              "heading": "Gifts, Responsibilities, and Challenges",
-              "content": "The love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+              "heading": "What Love Asks of Her",
+              "content": "The Lover's gifts are warmth, erotic vitality, loyalty, delight, and the courage to be affected. As Beloved, she receives attention without turning admiration into rank. She lets care arrive and answers it freely rather than performing helplessness or perfection.\n\nThese gifts carry responsibilities. She must keep consent renewable, make hidden expectations speakable, and protect obligations outside the bond. She must notice when sacrifice has become a bid for control, when loyalty conceals fear, or when sensuality is being used to avoid a necessary conversation. Her challenge is to remain available through ordinariness. Mature devotion survives laundry, deadlines, changed bodies, unequal seasons of capacity, and the discovery that no beloved can complete an unlived life.\n\nLove also brings grief within range. Sovereignty lets her meet loss without abandoning herself. The Lover learns that being changed is different from being erased and that a bond can end without making its meaning false.",
               "subsections": []
             },
             {
               "role": "practices",
-              "heading": "Practices",
-              "content": "- Name a desire without turning it into a demand.\n- Notice whether closeness enlarges or erases either person.\n- Before yielding, identify what remains yours to decide.\n- Distinguish service freely given from service used to earn safety.",
+              "heading": "Practices of Intimate Freedom",
+              "content": "- Divide a page into “ours” and “mine.” Name the promises, decisions, time, and responsibilities that belong in each column.\n- Before escalating intimacy, ask what is wanted now, what remains undecided, and how either person can pause without penalty.\n- Make one direct request and allow the answer to be no; do not improve the offer, punish the refusal, or withdraw affection.\n- Keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.\n- Examine a sacrifice before offering it: Was it requested? Is it freely chosen, sustainable, and open to revision?\n- After self-abandonment or defended withdrawal, name the exact moment contact was lost and propose one observable repair.",
               "subsections": []
             },
             {
               "role": "conclusion",
               "heading": "Living as the Lover",
-              "content": "The Mature Devoted Consort can bow without becoming less. She entrusts herself only where consent, character, and shared purpose make surrender worthy. Loyalty does not require denial: she can question, withdraw, or lead, which is precisely what keeps her yielding honest.",
+              "content": "Living as the Lover means letting what matters have real consequence without giving it possession of the self. She can bow, follow, receive, lead, refuse, and return. Her surrender has dignity because it is chosen; her sovereignty has warmth because it remains open to influence. She offers neither disappearance nor invulnerability as proof of love. She offers a whole participant, capable of keeping faith and capable of choosing again.",
               "subsections": []
             }
           ],
           "sections": {
-            "definition": "The Mature Sacred Lover belongs to herself and can therefore give herself freely. Desire becomes information rather than command; pleasure awakens gratitude rather than entitlement. She welcomes mutual influence, keeps consent alive, and lets intimacy reveal rather than replace each person's distinct life.\n\nThe love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+            "definition": "The Lover enters wholehearted intimacy and shared commitment while remaining a sovereign participant. She gives sustained attention to a person, purpose, place, or practice she truly values. She lets contact delight her, inconvenience her, and change her while keeping hold of her judgment, consent, bodily signals, other commitments, and right to leave. Love can reach her because a distinct self is there to be reached.\n\nThis capacity does not require romance, sex, marriage, or partnership. It can animate a friendship, a collaboration, a spiritual commitment, or the long care of a shared home. Sensuality belongs here as alert participation in the senses: the willingness to taste, touch, listen, play, and receive pleasure without turning another person into an instrument. Chosen surrender also belongs here. The Lover may place control in trustworthy hands for a time, yet the choice remains conscious, specific, and revocable.",
             "declarations": [
-              "I can desire deeply without abandoning myself.",
-              "My body, heart, and no all belong in love.",
-              "I invite; I do not capture.",
-              "Intimacy makes room for two whole lives.",
-              "My surrender is a choice, not a debt.",
-              "Devotion and self-respect strengthen each other.",
-              "I can follow without abandoning judgment.",
-              "I serve what is worthy, not what demands worship."
+              "I bring my whole life into love; I do not trade it for belonging.",
+              "I let what I cherish matter enough to inconvenience me.",
+              "My yes is wholehearted because my no remains available.",
+              "I can yield without making another person my authority over myself.",
+              "Pleasure grows through mutual presence, not proof or possession.",
+              "I stay curious when the beloved differs from my image of them.",
+              "I keep faith with shared purpose without concealing my dissent.",
+              "I receive care without surrendering judgment or creating debt.",
+              "Separateness gives desire room to breathe.",
+              "When devotion causes harm, I tell the truth, repair, and choose again."
             ],
-            "balance": "Devotion and Sovereignty are mutually correcting.\n\nDevotion gives sustained attention to what the heart recognizes as precious.\n\nSovereignty preserves choice, boundaries, and identity inside closeness.\n\nSurrender relaxes control so trust, love, or shared purpose can lead.\n\nDignity protects equal worth and makes every act of yielding genuinely voluntary.",
-            "applications": "Offer devotion from a self that remains present, choosing, and free.\n\nLet surrender be revocable, conscious, and anchored in equal human worth.",
-            "giftsResponsibilitiesChallenges": "The love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+            "balance": "Devotion is the Lover's power to stay: to give attention, keep faith, accept mutual influence, and organize action around what she cherishes. It turns affection into remembered promises, time made available, skill offered, and pleasure shared. Without devotion, desire remains an episode. Nothing is allowed to become important enough to make a claim on her.\n\nSovereignty keeps devotion voluntary. It preserves agency, dignity, consent, and a life not wholly contained by the bond. It lets the Lover distinguish a generous compromise from self-betrayal and loyalty from obedience. Without sovereignty, devotion becomes over-attunement. She may anticipate needs no one voiced, offer sacrifices no one requested, or use surrender to avoid the risk of choosing for herself.\n\nDevotion without sovereignty produces the Enmeshing Lover, whose effort to secure closeness erases the very difference intimacy needs. When devotion collapses and sovereignty becomes a refuge, the Armored Lover can remain impressive, desired, and untouched. Mature love moves between the two capacities: I am here with you, and I am still here within myself.",
+            "applications": "The Lover treats desire as information, neither an order nor an embarrassment.\n\n### Inner Life\n\nShe notices what draws her and asks whether it can be welcomed with integrity. A bodily yes does not cancel practical judgment; a bodily no is not something affection must overcome. Pleasure and reluctance both receive a hearing.\n\n### Relationship\n\nIn close relationship, she permits dependence without making it total. People may matter to one another enough to grieve, need, disappoint, and repair. She asks directly rather than arranging a test, and she can hear a boundary without translating it into rejection. Consent stays alive after the first yes. It can become more specific, change pace, or be withdrawn.\n\n### Work and Shared Purpose\n\nThe devoted-consort aspect of the Lover joins a common undertaking without handing over conscience. She can support another person's leadership, carry an unglamorous share, and remain loyal through difficulty. She also speaks when the mission departs from its stated values. Her judgment strengthens shared purpose.\n\n### Community and Creation\n\nHer relational gift warms a team or community without demanding that everyone become intimate. In creative life, devotion helps her return to the work after novelty fades, while sovereignty keeps praise and criticism from becoming commands. She loves the work enough to serve it and enough to let it meet a world she cannot control.",
+            "giftsResponsibilitiesChallenges": "The Lover's gifts are warmth, erotic vitality, loyalty, delight, and the courage to be affected. As Beloved, she receives attention without turning admiration into rank. She lets care arrive and answers it freely rather than performing helplessness or perfection.\n\nThese gifts carry responsibilities. She must keep consent renewable, make hidden expectations speakable, and protect obligations outside the bond. She must notice when sacrifice has become a bid for control, when loyalty conceals fear, or when sensuality is being used to avoid a necessary conversation. Her challenge is to remain available through ordinariness. Mature devotion survives laundry, deadlines, changed bodies, unequal seasons of capacity, and the discovery that no beloved can complete an unlived life.\n\nLove also brings grief within range. Sovereignty lets her meet loss without abandoning herself. The Lover learns that being changed is different from being erased and that a bond can end without making its meaning false.",
             "practices": [
-              "Name a desire without turning it into a demand.",
-              "Notice whether closeness enlarges or erases either person.",
-              "Before yielding, identify what remains yours to decide.",
-              "Distinguish service freely given from service used to earn safety."
+              "Divide a page into “ours” and “mine.” Name the promises, decisions, time, and responsibilities that belong in each column.",
+              "Before escalating intimacy, ask what is wanted now, what remains undecided, and how either person can pause without penalty.",
+              "Make one direct request and allow the answer to be no; do not improve the offer, punish the refusal, or withdraw affection.",
+              "Keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.",
+              "Examine a sacrifice before offering it: Was it requested? Is it freely chosen, sustainable, and open to revision?",
+              "After self-abandonment or defended withdrawal, name the exact moment contact was lost and propose one observable repair."
             ],
-            "conclusion": "The Mature Devoted Consort can bow without becoming less. She entrusts herself only where consent, character, and shared purpose make surrender worthy. Loyalty does not require denial: she can question, withdraw, or lead, which is precisely what keeps her yielding honest."
+            "conclusion": "Living as the Lover means letting what matters have real consequence without giving it possession of the self. She can bow, follow, receive, lead, refuse, and return. Her surrender has dignity because it is chosen; her sovereignty has warmth because it remains open to influence. She offers neither disappearance nor invulnerability as proof of love. She offers a whole participant, capable of keeping faith and capable of choosing again."
           },
           "shadows": [
             {
@@ -1632,18 +1655,25 @@
                 "balancedQualities": "Devotion + Sovereignty",
                 "activeShadow": "Enmeshing Lover",
                 "passiveShadow": "Armored Lover",
-                "mythicResonances": "",
-                "keyQualities": "Escalates closeness without consent, Performs desire for reassurance, Resents ordinary separateness, Treats sacrifice as proof of love, Idealizes authority, Uses service to create obligation"
+                "mythicResonances": "Echo (Roman literary tradition)",
+                "keyQualities": "Accelerates intimacy and treats a pause as rejection, Volunteers at work and reads limits as disloyalty, Rehearses another person's mood before naming her own, Overrides hunger, fatigue, pain, or reluctance to stay pleasing, Uses gifts, sex, service, or crisis to obtain reassurance indirectly, Shrinks friendships, projects, and privacy around one bond"
               },
               "quotes": {
-                "opening": "",
-                "closing": ""
+                "opening": "“You love me, and I find you still\nA spirit beautiful and bright,\nYet I am I, who long to be\nLost as a light is lost in light.”\n\n—Sara Teasdale, “I Am Not Yours,” stanza 2",
+                "closing": "“I do not wish them to have power over men; but over themselves.”\n\n—Mary Wollstonecraft, A Vindication of the Rights of Woman, chapter 3"
               },
               "research": {
-                "status": "pending",
-                "quoteIds": [],
-                "mythicResonances": [],
-                "mythicSourceIds": []
+                "status": "verified",
+                "quoteIds": [
+                  "quote-enmeshing-lover-opening-teasdale-not-yours",
+                  "quote-enmeshing-lover-closing-wollstonecraft-vindication"
+                ],
+                "mythicResonances": [
+                  "Echo (Roman literary tradition)"
+                ],
+                "mythicSourceIds": [
+                  "myth-enmeshing-lover-echo-ovid"
+                ]
               },
               "sourceFile": "lover/shadows/enmeshing-lover.md",
               "parent": "lover",
@@ -1652,84 +1682,87 @@
               "bodySections": [
                 {
                   "role": "balanceBreakdown",
-                  "heading": "Balance Breakdown",
-                  "content": "Devotion enmeshes and self-erases without sovereignty.",
+                  "heading": "When Devotion Takes Over",
+                  "content": "The Enmeshing Lover is the active shadow of the Lover. Devotion expands without Sovereignty. Attention becomes surveillance, loyalty becomes self-erasure, and surrender becomes a way to avoid standing as a separate participant. She may pour herself into a person, cause, teacher, or team until ordinary distance feels like evidence that the bond is failing.\n\nThe missing quality is Sovereignty: agency, dignity, consent, and a life with its own center. Restoring it does not cool her devotion. It makes devotion voluntary again. Then closeness can contain two perspectives, two sets of limits, and two people who are free to answer.",
                   "subsections": []
                 },
                 {
                   "role": "declarations",
-                  "heading": "Declarations",
-                  "content": "- If I give everything, I cannot be left.\n- Distance means love is fading.\n- Being desired proves I am safe.\n- Your purpose matters more than mine.\n- Good devotion asks for nothing.\n- If I am indispensable, I will be cherished.",
+                  "heading": "The Logic of Enmeshment",
+                  "content": "- If I become indispensable, you will not leave.\n- Your distance tells me I have failed at love.\n- I offer before you ask, then count what you owe.\n- I borrow your desires until I know what to want.\n- A boundary between us feels like a verdict against us.\n- I call self-abandonment loyalty.\n- I intensify pleasure or crisis when ordinary closeness feels uncertain.\n- If I disagree, I risk losing my place beside you.",
                   "subsections": []
                 },
                 {
                   "role": "psychologicalMechanics",
-                  "heading": "Psychological Mechanics",
-                  "content": "Devotion floods sovereignty. She intensifies attention, beauty, sex, or caretaking to become indispensable, then experiences another's separateness as rejection. What looks like generosity quietly asks the beloved to regulate her worth.\n\nSurrender consumes dignity. She idealizes a partner, cause, or teacher and anticipates every need, hoping perfect loyalty will secure belonging. Her self-erasure becomes covert control because the recipient is made responsible for sacrifices they did not request.",
+                  "heading": "How Closeness Becomes a Job",
+                  "content": "This pattern can protect against the uncertainty of being loved by converting relationship into a job. If she can remain beautiful enough, useful enough, sexually available enough, or perfectly attuned, she can imagine that belonging is under her control. She may have learned that quick responsiveness kept contact available, or that disagreement carried a real cost. That history can explain the strategy without making its present impact harmless.\n\nOne expression uses magnetism. The Enmeshing Lover heightens attention, sensuality, confession, or drama to get reassurance without asking for it. A new relationship is rapidly treated as singular; a friend's slower pace becomes an insult; a partner's private thought becomes information she believes she is owed. Consent can blur because her urgency is presented as proof of depth.\n\nAnother expression uses service. The self-erasing aspect anticipates every need, adopts another person's purpose, and yields decisions before anyone requests it. The sacrifice carries an invisible contract: because I gave this much, you must choose me, protect me, or never disappoint me. The recipient becomes responsible for a bargain they did not make. Resentment then arrives as the shadow of unspoken consent.\n\nAt work, she may absorb extra labor to secure a place near an admired leader, then experience a colleague's limit as betrayal. In self-talk, she asks what will keep the bond calm before asking what she believes. The body often registers the missing answer first: a held breath, a smile over reluctance, fatigue treated as selfishness, or desire performed after desire has gone quiet.",
                   "subsections": []
                 },
                 {
                   "role": "hiddenEnergy",
-                  "heading": "Hidden Energy",
-                  "content": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
+                  "heading": "The Capacity Inside the Pattern",
+                  "content": "The shadow carries real gifts in distorted form. Her attunement can notice nuance; her erotic vitality can enliven contact; her loyalty can sustain a difficult promise; her willingness to yield can deepen trust. Integration does not require becoming less ardent. It separates these capacities from the task of guaranteeing another person's response.\n\nWhen Sovereignty returns, attunement becomes curiosity instead of mind-reading. Service becomes an offer that can be accepted, declined, or renegotiated. Surrender becomes a bounded act by an intact self. Her longing can remain strong without being placed in charge of both people.",
                   "subsections": []
                 },
                 {
                   "role": "recognition",
-                  "heading": "Recognition",
-                  "content": "Escalates closeness without consent\n\nPerforms desire for reassurance\n\nResents ordinary separateness\n\nTreats sacrifice as proof of love\n\nIdealizes authority\n\nUses service to create obligation",
+                  "heading": "Signs of Lost Sovereignty",
+                  "content": "Accelerates intimacy and treats a pause as rejection\n\nVolunteers at work and reads limits as disloyalty\n\nRehearses another person's mood before naming her own\n\nOverrides hunger, fatigue, pain, or reluctance to stay pleasing\n\nUses gifts, sex, service, or crisis to obtain reassurance indirectly\n\nShrinks friendships, projects, and privacy around one bond",
                   "subsections": []
                 },
                 {
                   "role": "practices",
-                  "heading": "Practices",
-                  "content": "- Allow longing without acting it out immediately.\n- Keep friendships, work, and bodily rhythms intact.\n- Ask directly instead of seducing an answer.\n- Make consent specific and renewable.\n- Name preferences before accommodating another.\n- Stop unrequested service and tolerate the uncertainty.",
+                  "heading": "Restoring a Distinct Self",
+                  "content": "- Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.\n- Name a personal preference before asking what the other person wants, even when the two answers may conflict.\n- Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.\n- Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.\n- Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.\n- Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.\n- Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.",
                   "subsections": []
                 },
                 {
                   "role": "oppositeShadow",
-                  "heading": "Opposite Shadow",
-                  "content": "Armored Lover is the opposite imbalance of Devotion + Sovereignty.",
+                  "heading": "The Swing Toward Armor",
+                  "content": "The Enmeshing Lover can swing toward the Armored Lover after exhaustion, humiliation, or resentment. She may decide that needing anyone was the mistake and replace constant reach with abrupt distance. The Armored Lover protects Sovereignty by collapsing Devotion; the Enmeshing Lover protects Devotion by abandoning Sovereignty. Both avoid the slower risk of mutual influence between distinct people.\n\nRecognizing the swing prevents overcorrection. A boundary need not become disappearance. Time alone need not punish anyone. The goal is enough distance to recover choice while remaining honest about care.",
                   "subsections": []
                 },
                 {
                   "role": "transformation",
-                  "heading": "Transformation",
-                  "content": "Integration restores Sovereignty and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+                  "heading": "Devotion by Choice",
+                  "content": "These practices may feel undevotional at first because uncertainty returns. That uncertainty is part of mutual relationship. No technique can force a free person to stay, and no sacrifice can make consent permanent.\n\nTransformation begins when she can locate herself before she moves toward the beloved. What do I feel? What do I want? What has actually been asked of me? What remains mine to decide? Each answered question restores the participant whose absence made closeness coercive.\n\nWith Sovereignty present, she can tolerate a delayed reply, a separate friendship, a difference of opinion, or a no. She can grieve when a bond cannot meet her without bargaining away her dignity. Her devotion becomes more trustworthy because it is no longer an emergency measure.",
                   "subsections": []
                 },
                 {
                   "role": "conclusion",
-                  "heading": "Conclusion",
-                  "content": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
+                  "heading": "Where She Returns",
+                  "content": "The Enmeshing Lover does not need less heart. She needs a place to stand while loving. From there, a gift is a gift, a request is allowed to receive an answer, and another person's boundary is information rather than a verdict on her worth. She returns to the Lover when both people are permitted to remain real.",
                   "subsections": []
                 }
               ],
               "sections": {
                 "designation": "Active Shadow",
-                "balanceBreakdown": "Devotion enmeshes and self-erases without sovereignty.",
+                "balanceBreakdown": "The Enmeshing Lover is the active shadow of the Lover. Devotion expands without Sovereignty. Attention becomes surveillance, loyalty becomes self-erasure, and surrender becomes a way to avoid standing as a separate participant. She may pour herself into a person, cause, teacher, or team until ordinary distance feels like evidence that the bond is failing.\n\nThe missing quality is Sovereignty: agency, dignity, consent, and a life with its own center. Restoring it does not cool her devotion. It makes devotion voluntary again. Then closeness can contain two perspectives, two sets of limits, and two people who are free to answer.",
                 "declarations": [
-                  "If I give everything, I cannot be left.",
-                  "Distance means love is fading.",
-                  "Being desired proves I am safe.",
-                  "Your purpose matters more than mine.",
-                  "Good devotion asks for nothing.",
-                  "If I am indispensable, I will be cherished."
+                  "If I become indispensable, you will not leave.",
+                  "Your distance tells me I have failed at love.",
+                  "I offer before you ask, then count what you owe.",
+                  "I borrow your desires until I know what to want.",
+                  "A boundary between us feels like a verdict against us.",
+                  "I call self-abandonment loyalty.",
+                  "I intensify pleasure or crisis when ordinary closeness feels uncertain.",
+                  "If I disagree, I risk losing my place beside you."
                 ],
-                "psychologicalMechanics": "Devotion floods sovereignty. She intensifies attention, beauty, sex, or caretaking to become indispensable, then experiences another's separateness as rejection. What looks like generosity quietly asks the beloved to regulate her worth.\n\nSurrender consumes dignity. She idealizes a partner, cause, or teacher and anticipates every need, hoping perfect loyalty will secure belonging. Her self-erasure becomes covert control because the recipient is made responsible for sacrifices they did not request.",
-                "hiddenEnergy": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
-                "recognition": "Escalates closeness without consent\n\nPerforms desire for reassurance\n\nResents ordinary separateness\n\nTreats sacrifice as proof of love\n\nIdealizes authority\n\nUses service to create obligation",
+                "psychologicalMechanics": "This pattern can protect against the uncertainty of being loved by converting relationship into a job. If she can remain beautiful enough, useful enough, sexually available enough, or perfectly attuned, she can imagine that belonging is under her control. She may have learned that quick responsiveness kept contact available, or that disagreement carried a real cost. That history can explain the strategy without making its present impact harmless.\n\nOne expression uses magnetism. The Enmeshing Lover heightens attention, sensuality, confession, or drama to get reassurance without asking for it. A new relationship is rapidly treated as singular; a friend's slower pace becomes an insult; a partner's private thought becomes information she believes she is owed. Consent can blur because her urgency is presented as proof of depth.\n\nAnother expression uses service. The self-erasing aspect anticipates every need, adopts another person's purpose, and yields decisions before anyone requests it. The sacrifice carries an invisible contract: because I gave this much, you must choose me, protect me, or never disappoint me. The recipient becomes responsible for a bargain they did not make. Resentment then arrives as the shadow of unspoken consent.\n\nAt work, she may absorb extra labor to secure a place near an admired leader, then experience a colleague's limit as betrayal. In self-talk, she asks what will keep the bond calm before asking what she believes. The body often registers the missing answer first: a held breath, a smile over reluctance, fatigue treated as selfishness, or desire performed after desire has gone quiet.",
+                "hiddenEnergy": "The shadow carries real gifts in distorted form. Her attunement can notice nuance; her erotic vitality can enliven contact; her loyalty can sustain a difficult promise; her willingness to yield can deepen trust. Integration does not require becoming less ardent. It separates these capacities from the task of guaranteeing another person's response.\n\nWhen Sovereignty returns, attunement becomes curiosity instead of mind-reading. Service becomes an offer that can be accepted, declined, or renegotiated. Surrender becomes a bounded act by an intact self. Her longing can remain strong without being placed in charge of both people.",
+                "recognition": "Accelerates intimacy and treats a pause as rejection\n\nVolunteers at work and reads limits as disloyalty\n\nRehearses another person's mood before naming her own\n\nOverrides hunger, fatigue, pain, or reluctance to stay pleasing\n\nUses gifts, sex, service, or crisis to obtain reassurance indirectly\n\nShrinks friendships, projects, and privacy around one bond",
                 "practices": [
-                  "Allow longing without acting it out immediately.",
-                  "Keep friendships, work, and bodily rhythms intact.",
-                  "Ask directly instead of seducing an answer.",
-                  "Make consent specific and renewable.",
-                  "Name preferences before accommodating another.",
-                  "Stop unrequested service and tolerate the uncertainty."
+                  "Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.",
+                  "Name a personal preference before asking what the other person wants, even when the two answers may conflict.",
+                  "Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.",
+                  "Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.",
+                  "Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.",
+                  "Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.",
+                  "Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love."
                 ],
-                "oppositeShadow": "Armored Lover is the opposite imbalance of Devotion + Sovereignty.",
-                "transformation": "Integration restores Sovereignty and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
-                "conclusion": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self."
+                "oppositeShadow": "The Enmeshing Lover can swing toward the Armored Lover after exhaustion, humiliation, or resentment. She may decide that needing anyone was the mistake and replace constant reach with abrupt distance. The Armored Lover protects Sovereignty by collapsing Devotion; the Enmeshing Lover protects Devotion by abandoning Sovereignty. Both avoid the slower risk of mutual influence between distinct people.\n\nRecognizing the swing prevents overcorrection. A boundary need not become disappearance. Time alone need not punish anyone. The goal is enough distance to recover choice while remaining honest about care.",
+                "transformation": "These practices may feel undevotional at first because uncertainty returns. That uncertainty is part of mutual relationship. No technique can force a free person to stay, and no sacrifice can make consent permanent.\n\nTransformation begins when she can locate herself before she moves toward the beloved. What do I feel? What do I want? What has actually been asked of me? What remains mine to decide? Each answered question restores the participant whose absence made closeness coercive.\n\nWith Sovereignty present, she can tolerate a delayed reply, a separate friendship, a difference of opinion, or a no. She can grieve when a bond cannot meet her without bargaining away her dignity. Her devotion becomes more trustworthy because it is no longer an emergency measure.",
+                "conclusion": "The Enmeshing Lover does not need less heart. She needs a place to stand while loving. From there, a gift is a gift, a request is allowed to receive an answer, and another person's boundary is information rather than a verdict on her worth. She returns to the Lover when both people are permitted to remain real."
               }
             },
             {
@@ -1760,18 +1793,25 @@
                 "balancedQualities": "Devotion + Sovereignty",
                 "activeShadow": "Enmeshing Lover",
                 "passiveShadow": "Armored Lover",
-                "mythicResonances": "",
-                "keyQualities": "Keeps relationships performative, Turns tenderness into analysis, Leaves before dependence can form, Receives more than she reciprocates, Equates vulnerability with loss of status, Keeps partners in an admiring role"
+                "mythicResonances": "The Snow Queen (Danish literary tradition)",
+                "keyQualities": "Keeps intimacy articulate but emotionally negotiated, Turns tenderness into analysis, humor, or sexual performance, Leaves when another person matters enough to disappoint her, Receives admiration while concealing ordinary need, Treats help as debt and influence as loss of rank, Holds the body composed when grief or affection asks it to soften"
               },
               "quotes": {
-                "opening": "",
-                "closing": ""
+                "opening": "“We outgrow love like other things\nAnd put it in the drawer,\nTill it an antique fashion shows\nLike costumes grandsires wore.”\n\n—Emily Dickinson, “We outgrow love like other things,” Franklin 1094",
+                "closing": "“She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”\n\n—Jane Austen, Persuasion, chapter 4"
               },
               "research": {
-                "status": "pending",
-                "quoteIds": [],
-                "mythicResonances": [],
-                "mythicSourceIds": []
+                "status": "verified",
+                "quoteIds": [
+                  "quote-armored-lover-opening-dickinson-outgrow-love",
+                  "quote-armored-lover-closing-austen-persuasion"
+                ],
+                "mythicResonances": [
+                  "The Snow Queen (Danish literary tradition)"
+                ],
+                "mythicSourceIds": [
+                  "myth-armored-lover-snow-queen-andersen"
+                ]
               },
               "sourceFile": "lover/shadows/armored-lover.md",
               "parent": "lover",
@@ -1780,84 +1820,87 @@
               "bodySections": [
                 {
                   "role": "balanceBreakdown",
-                  "heading": "Balance Breakdown",
-                  "content": "Devotion collapses while sovereignty hardens into armor, rank, or untouchability.",
+                  "heading": "When Sovereignty Becomes Armor",
+                  "content": "The Armored Lover is the passive shadow of the Lover. Devotion collapses while Sovereignty becomes a refuge and then a distortion. Self-possession hardens into impermeability. Choice becomes the refusal to be influenced, dignity becomes rank, and boundaries become a system for preventing anyone from mattering too much.\n\nThe missing quality is Devotion: the capacity to give sustained attention, keep faith, accept mutual influence, and let a bond make legitimate claims on time and action. Restoring it does not surrender Sovereignty. It gives sovereignty something worthy to protect: a chosen relationship between two free participants.",
                   "subsections": []
                 },
                 {
                   "role": "declarations",
-                  "heading": "Declarations",
-                  "content": "- Need makes me vulnerable to control.\n- I can enjoy love without depending on anyone.\n- Composure is safer than tenderness.\n- Yielding would lower my value.\n- I should be cherished without needing.\n- Dependence is beneath me.",
+                  "heading": "The Logic of Untouchability",
+                  "content": "- I can be desired without becoming reachable.\n- If I need no one, no one can gain leverage.\n- I explain my feelings before I let them move me.\n- Admiration is welcome; influence is dangerous.\n- I leave before attachment can make a claim on me.\n- Care becomes a debt unless I repay it at once.\n- Yielding feels like losing rank.\n- I protect my freedom by keeping one part of me unavailable.",
                   "subsections": []
                 },
                 {
                   "role": "psychologicalMechanics",
-                  "heading": "Psychological Mechanics",
-                  "content": "Devotion withdraws behind sovereignty hardened into invulnerability. She can attract, analyze, and negotiate intimacy while withholding the unguarded presence that would let love affect her. Independence protects her from grief by also protecting her from mutual belonging.\n\nSurrender disappears while dignity becomes rank and distance. She accepts admiration but resists influence, receiving devotion without exposing need or yielding control. No one can meet her because relationship has been arranged around preserving her unassailability.",
+                  "heading": "How Distance Preserves Control",
+                  "content": "This pattern can protect against coercion, engulfment, betrayal, or grief. She may have learned that visible need invited ridicule, that care came with strings, or that dependence trapped people in unsafe bonds. In an unsafe setting, distance may still be accurate protection. Integration never requires access for someone who ignores consent or causes harm.\n\nArmor becomes a shadow when the old defense governs chosen, sufficiently safe contact. The Armored Lover may be poised, capable, sensually expressive, and skilled at discussing relationship. Yet she controls how deeply another person can affect her. She can negotiate the terms of closeness while withholding the unedited need, delight, grief, or uncertainty that would make the exchange mutual.\n\nThe untouchable-beloved aspect receives attention from a protected height. Admiration is comfortable because it asks little of her interior life; being known is riskier. She may keep a lover, friend, or collaborator in the role of audience, pursuer, or applicant. If they stop pursuing, she reads their withdrawal as proof that dependence was foolish rather than as information about a one-sided arrangement.\n\nAt work, this can look like refusing help, keeping collaboration transactional, or abandoning a project when shared ownership limits control. In self-talk, competence is treated as the condition for worth and longing as an embarrassing lapse. The body may hold the strategy as a fixed chest, delayed tears, a quick joke over tenderness, or sexual presence that remains technically responsive while inwardly elsewhere.",
                   "subsections": []
                 },
                 {
                   "role": "hiddenEnergy",
-                  "heading": "Hidden Energy",
-                  "content": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
+                  "heading": "The Strength Inside the Armor",
+                  "content": "Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.\n\nWhen Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.",
                   "subsections": []
                 },
                 {
                   "role": "recognition",
-                  "heading": "Recognition",
-                  "content": "Keeps relationships performative\n\nTurns tenderness into analysis\n\nLeaves before dependence can form\n\nReceives more than she reciprocates\n\nEquates vulnerability with loss of status\n\nKeeps partners in an admiring role",
+                  "heading": "Signs That Devotion Has Withdrawn",
+                  "content": "Keeps intimacy articulate but emotionally negotiated\n\nTurns tenderness into analysis, humor, or sexual performance\n\nLeaves when another person matters enough to disappoint her\n\nReceives admiration while concealing ordinary need\n\nTreats help as debt and influence as loss of rank\n\nHolds the body composed when grief or affection asks it to soften",
                   "subsections": []
                 },
                 {
                   "role": "practices",
-                  "heading": "Practices",
-                  "content": "- Reveal one need without apology.\n- Receive care without immediate repayment.\n- Stay present when affection softens control.\n- Let another person's wisdom alter a plan.\n- Practice mutual service without keeping status.\n- Admit where control protects fear.",
+                  "heading": "Restoring Chosen Devotion",
+                  "content": "- Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.\n- Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.\n- Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.\n- Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.\n- Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.\n- Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.\n- Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second.",
                   "subsections": []
                 },
                 {
                   "role": "oppositeShadow",
-                  "heading": "Opposite Shadow",
-                  "content": "Enmeshing Lover is the opposite imbalance of Devotion + Sovereignty.",
+                  "heading": "The Swing Toward Enmeshment",
+                  "content": "The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.\n\nBoth shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.",
                   "subsections": []
                 },
                 {
                   "role": "transformation",
-                  "heading": "Transformation",
-                  "content": "Integration restores Devotion and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+                  "heading": "Allowing Love to Matter",
+                  "content": "Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.\n\nTransformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.\n\nAs devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.",
                   "subsections": []
                 },
                 {
                   "role": "conclusion",
-                  "heading": "Conclusion",
-                  "content": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
+                  "heading": "Where She Returns",
+                  "content": "The Armored Lover returns when protection becomes a door rather than a wall: able to close, able to open, and responsive to who is actually present. She does not owe vulnerability to everyone. She practices availability where care, consent, and accountability make contact possible. Then sovereignty holds the self steady while devotion lets another life truly matter.",
                   "subsections": []
                 }
               ],
               "sections": {
                 "designation": "Passive Shadow",
-                "balanceBreakdown": "Devotion collapses while sovereignty hardens into armor, rank, or untouchability.",
+                "balanceBreakdown": "The Armored Lover is the passive shadow of the Lover. Devotion collapses while Sovereignty becomes a refuge and then a distortion. Self-possession hardens into impermeability. Choice becomes the refusal to be influenced, dignity becomes rank, and boundaries become a system for preventing anyone from mattering too much.\n\nThe missing quality is Devotion: the capacity to give sustained attention, keep faith, accept mutual influence, and let a bond make legitimate claims on time and action. Restoring it does not surrender Sovereignty. It gives sovereignty something worthy to protect: a chosen relationship between two free participants.",
                 "declarations": [
-                  "Need makes me vulnerable to control.",
-                  "I can enjoy love without depending on anyone.",
-                  "Composure is safer than tenderness.",
-                  "Yielding would lower my value.",
-                  "I should be cherished without needing.",
-                  "Dependence is beneath me."
+                  "I can be desired without becoming reachable.",
+                  "If I need no one, no one can gain leverage.",
+                  "I explain my feelings before I let them move me.",
+                  "Admiration is welcome; influence is dangerous.",
+                  "I leave before attachment can make a claim on me.",
+                  "Care becomes a debt unless I repay it at once.",
+                  "Yielding feels like losing rank.",
+                  "I protect my freedom by keeping one part of me unavailable."
                 ],
-                "psychologicalMechanics": "Devotion withdraws behind sovereignty hardened into invulnerability. She can attract, analyze, and negotiate intimacy while withholding the unguarded presence that would let love affect her. Independence protects her from grief by also protecting her from mutual belonging.\n\nSurrender disappears while dignity becomes rank and distance. She accepts admiration but resists influence, receiving devotion without exposing need or yielding control. No one can meet her because relationship has been arranged around preserving her unassailability.",
-                "hiddenEnergy": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
-                "recognition": "Keeps relationships performative\n\nTurns tenderness into analysis\n\nLeaves before dependence can form\n\nReceives more than she reciprocates\n\nEquates vulnerability with loss of status\n\nKeeps partners in an admiring role",
+                "psychologicalMechanics": "This pattern can protect against coercion, engulfment, betrayal, or grief. She may have learned that visible need invited ridicule, that care came with strings, or that dependence trapped people in unsafe bonds. In an unsafe setting, distance may still be accurate protection. Integration never requires access for someone who ignores consent or causes harm.\n\nArmor becomes a shadow when the old defense governs chosen, sufficiently safe contact. The Armored Lover may be poised, capable, sensually expressive, and skilled at discussing relationship. Yet she controls how deeply another person can affect her. She can negotiate the terms of closeness while withholding the unedited need, delight, grief, or uncertainty that would make the exchange mutual.\n\nThe untouchable-beloved aspect receives attention from a protected height. Admiration is comfortable because it asks little of her interior life; being known is riskier. She may keep a lover, friend, or collaborator in the role of audience, pursuer, or applicant. If they stop pursuing, she reads their withdrawal as proof that dependence was foolish rather than as information about a one-sided arrangement.\n\nAt work, this can look like refusing help, keeping collaboration transactional, or abandoning a project when shared ownership limits control. In self-talk, competence is treated as the condition for worth and longing as an embarrassing lapse. The body may hold the strategy as a fixed chest, delayed tears, a quick joke over tenderness, or sexual presence that remains technically responsive while inwardly elsewhere.",
+                "hiddenEnergy": "Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.\n\nWhen Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.",
+                "recognition": "Keeps intimacy articulate but emotionally negotiated\n\nTurns tenderness into analysis, humor, or sexual performance\n\nLeaves when another person matters enough to disappoint her\n\nReceives admiration while concealing ordinary need\n\nTreats help as debt and influence as loss of rank\n\nHolds the body composed when grief or affection asks it to soften",
                 "practices": [
-                  "Reveal one need without apology.",
-                  "Receive care without immediate repayment.",
-                  "Stay present when affection softens control.",
-                  "Let another person's wisdom alter a plan.",
-                  "Practice mutual service without keeping status.",
-                  "Admit where control protects fear."
+                  "Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.",
+                  "Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.",
+                  "Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.",
+                  "Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.",
+                  "Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.",
+                  "Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.",
+                  "Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second."
                 ],
-                "oppositeShadow": "Enmeshing Lover is the opposite imbalance of Devotion + Sovereignty.",
-                "transformation": "Integration restores Devotion and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
-                "conclusion": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking."
+                "oppositeShadow": "The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.\n\nBoth shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.",
+                "transformation": "Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.\n\nTransformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.\n\nAs devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.",
+                "conclusion": "The Armored Lover returns when protection becomes a door rather than a wall: able to close, able to open, and responsive to who is actually present. She does not owe vulnerability to everyone. She practices availability where care, consent, and accountability make contact possible. Then sovereignty holds the self steady while devotion lets another life truly matter."
               }
             }
           ]
@@ -10406,108 +10449,131 @@
         "balancedQualities": "Devotion + Sovereignty",
         "activeShadow": "Enmeshing Lover",
         "passiveShadow": "Armored Lover",
-        "mythicResonances": "",
-        "keyQualities": "Radiant, Sensual, Boundaried, Tender, Magnetic, Joyful, Reverent, Creative, Whole, Generous, Devoted, Noble, Humble, Loyal, Present, Self-possessed, Receptive"
+        "mythicResonances": "Psyche (Greco-Roman literary tradition)",
+        "keyQualities": "Wholehearted, Sensual, Loyal, Discerning, Self-possessed, Receptive, Boundaried, Playful, Faithful, Mutual, Present, Courageous"
       },
       "quotes": {
-        "opening": "",
-        "closing": ""
+        "opening": "“I love thee freely, as men strive for Right;\nI love thee purely, as they turn from Praise.”\n\n—Elizabeth Barrett Browning, “Sonnet 43,” lines 7–8",
+        "closing": "“To be together is for us to be at once as free as in solitude, as gay as in company.”\n\n—Charlotte Brontë, Jane Eyre, “Conclusion,” chapter 38"
       },
       "research": {
-        "status": "pending",
-        "quoteIds": [],
-        "mythicResonances": [],
-        "mythicSourceIds": []
+        "status": "verified",
+        "quoteIds": [
+          "quote-lover-opening-browning-sonnet-43",
+          "quote-lover-closing-bronte-jane-eyre"
+        ],
+        "mythicResonances": [
+          "Psyche (Greco-Roman literary tradition)"
+        ],
+        "mythicSourceIds": [
+          "myth-lover-psyche-apuleius-met"
+        ]
       },
       "sourceFile": "lover/archetypes/lover.md",
       "coreFunction": "Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.",
       "keyQualities": [
-        "Radiant",
+        "Wholehearted",
         "Sensual",
-        "Boundaried",
-        "Tender",
-        "Magnetic",
-        "Joyful",
-        "Reverent",
-        "Creative",
-        "Whole",
-        "Generous",
-        "Devoted",
-        "Noble",
-        "Humble",
         "Loyal",
-        "Present",
+        "Discerning",
         "Self-possessed",
-        "Receptive"
+        "Receptive",
+        "Boundaried",
+        "Playful",
+        "Faithful",
+        "Mutual",
+        "Present",
+        "Courageous"
       ],
       "activeShadowSlug": "enmeshing-lover",
       "passiveShadowSlug": "armored-lover",
       "bodySections": [
         {
           "role": "definition",
-          "heading": "Definition",
-          "content": "The Mature Sacred Lover belongs to herself and can therefore give herself freely. Desire becomes information rather than command; pleasure awakens gratitude rather than entitlement. She welcomes mutual influence, keeps consent alive, and lets intimacy reveal rather than replace each person's distinct life.\n\nThe love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+          "heading": "Wholehearted Without Self-Loss",
+          "content": "The Lover enters wholehearted intimacy and shared commitment while remaining a sovereign participant. She gives sustained attention to a person, purpose, place, or practice she truly values. She lets contact delight her, inconvenience her, and change her while keeping hold of her judgment, consent, bodily signals, other commitments, and right to leave. Love can reach her because a distinct self is there to be reached.\n\nThis capacity does not require romance, sex, marriage, or partnership. It can animate a friendship, a collaboration, a spiritual commitment, or the long care of a shared home. Sensuality belongs here as alert participation in the senses: the willingness to taste, touch, listen, play, and receive pleasure without turning another person into an instrument. Chosen surrender also belongs here. The Lover may place control in trustworthy hands for a time, yet the choice remains conscious, specific, and revocable.",
           "subsections": []
         },
         {
           "role": "declarations",
-          "heading": "Declarations",
-          "content": "- I can desire deeply without abandoning myself.\n- My body, heart, and no all belong in love.\n- I invite; I do not capture.\n- Intimacy makes room for two whole lives.\n- My surrender is a choice, not a debt.\n- Devotion and self-respect strengthen each other.\n- I can follow without abandoning judgment.\n- I serve what is worthy, not what demands worship.",
+          "heading": "The Lover's Inner Stance",
+          "content": "- I bring my whole life into love; I do not trade it for belonging.\n- I let what I cherish matter enough to inconvenience me.\n- My yes is wholehearted because my no remains available.\n- I can yield without making another person my authority over myself.\n- Pleasure grows through mutual presence, not proof or possession.\n- I stay curious when the beloved differs from my image of them.\n- I keep faith with shared purpose without concealing my dissent.\n- I receive care without surrendering judgment or creating debt.\n- Separateness gives desire room to breathe.\n- When devotion causes harm, I tell the truth, repair, and choose again.",
           "subsections": []
         },
         {
           "role": "balance",
-          "heading": "Balance",
-          "content": "Devotion and Sovereignty are mutually correcting.\n\nDevotion gives sustained attention to what the heart recognizes as precious.\n\nSovereignty preserves choice, boundaries, and identity inside closeness.\n\nSurrender relaxes control so trust, love, or shared purpose can lead.\n\nDignity protects equal worth and makes every act of yielding genuinely voluntary.",
+          "heading": "The Living Balance",
+          "content": "Devotion is the Lover's power to stay: to give attention, keep faith, accept mutual influence, and organize action around what she cherishes. It turns affection into remembered promises, time made available, skill offered, and pleasure shared. Without devotion, desire remains an episode. Nothing is allowed to become important enough to make a claim on her.\n\nSovereignty keeps devotion voluntary. It preserves agency, dignity, consent, and a life not wholly contained by the bond. It lets the Lover distinguish a generous compromise from self-betrayal and loyalty from obedience. Without sovereignty, devotion becomes over-attunement. She may anticipate needs no one voiced, offer sacrifices no one requested, or use surrender to avoid the risk of choosing for herself.\n\nDevotion without sovereignty produces the Enmeshing Lover, whose effort to secure closeness erases the very difference intimacy needs. When devotion collapses and sovereignty becomes a refuge, the Armored Lover can remain impressive, desired, and untouched. Mature love moves between the two capacities: I am here with you, and I am still here within myself.",
           "subsections": []
         },
         {
           "role": "applications",
-          "heading": "Applications",
-          "content": "Offer devotion from a self that remains present, choosing, and free.\n\nLet surrender be revocable, conscious, and anchored in equal human worth.",
-          "subsections": []
+          "heading": "Where Devotion Takes Form",
+          "content": "The Lover treats desire as information, neither an order nor an embarrassment.",
+          "subsections": [
+            {
+              "heading": "Inner Life",
+              "content": "She notices what draws her and asks whether it can be welcomed with integrity. A bodily yes does not cancel practical judgment; a bodily no is not something affection must overcome. Pleasure and reluctance both receive a hearing."
+            },
+            {
+              "heading": "Relationship",
+              "content": "In close relationship, she permits dependence without making it total. People may matter to one another enough to grieve, need, disappoint, and repair. She asks directly rather than arranging a test, and she can hear a boundary without translating it into rejection. Consent stays alive after the first yes. It can become more specific, change pace, or be withdrawn."
+            },
+            {
+              "heading": "Work and Shared Purpose",
+              "content": "The devoted-consort aspect of the Lover joins a common undertaking without handing over conscience. She can support another person's leadership, carry an unglamorous share, and remain loyal through difficulty. She also speaks when the mission departs from its stated values. Her judgment strengthens shared purpose."
+            },
+            {
+              "heading": "Community and Creation",
+              "content": "Her relational gift warms a team or community without demanding that everyone become intimate. In creative life, devotion helps her return to the work after novelty fades, while sovereignty keeps praise and criticism from becoming commands. She loves the work enough to serve it and enough to let it meet a world she cannot control."
+            }
+          ]
         },
         {
           "role": "gifts",
-          "heading": "Gifts, Responsibilities, and Challenges",
-          "content": "The love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+          "heading": "What Love Asks of Her",
+          "content": "The Lover's gifts are warmth, erotic vitality, loyalty, delight, and the courage to be affected. As Beloved, she receives attention without turning admiration into rank. She lets care arrive and answers it freely rather than performing helplessness or perfection.\n\nThese gifts carry responsibilities. She must keep consent renewable, make hidden expectations speakable, and protect obligations outside the bond. She must notice when sacrifice has become a bid for control, when loyalty conceals fear, or when sensuality is being used to avoid a necessary conversation. Her challenge is to remain available through ordinariness. Mature devotion survives laundry, deadlines, changed bodies, unequal seasons of capacity, and the discovery that no beloved can complete an unlived life.\n\nLove also brings grief within range. Sovereignty lets her meet loss without abandoning herself. The Lover learns that being changed is different from being erased and that a bond can end without making its meaning false.",
           "subsections": []
         },
         {
           "role": "practices",
-          "heading": "Practices",
-          "content": "- Name a desire without turning it into a demand.\n- Notice whether closeness enlarges or erases either person.\n- Before yielding, identify what remains yours to decide.\n- Distinguish service freely given from service used to earn safety.",
+          "heading": "Practices of Intimate Freedom",
+          "content": "- Divide a page into “ours” and “mine.” Name the promises, decisions, time, and responsibilities that belong in each column.\n- Before escalating intimacy, ask what is wanted now, what remains undecided, and how either person can pause without penalty.\n- Make one direct request and allow the answer to be no; do not improve the offer, punish the refusal, or withdraw affection.\n- Keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.\n- Examine a sacrifice before offering it: Was it requested? Is it freely chosen, sustainable, and open to revision?\n- After self-abandonment or defended withdrawal, name the exact moment contact was lost and propose one observable repair.",
           "subsections": []
         },
         {
           "role": "conclusion",
           "heading": "Living as the Lover",
-          "content": "The Mature Devoted Consort can bow without becoming less. She entrusts herself only where consent, character, and shared purpose make surrender worthy. Loyalty does not require denial: she can question, withdraw, or lead, which is precisely what keeps her yielding honest.",
+          "content": "Living as the Lover means letting what matters have real consequence without giving it possession of the self. She can bow, follow, receive, lead, refuse, and return. Her surrender has dignity because it is chosen; her sovereignty has warmth because it remains open to influence. She offers neither disappearance nor invulnerability as proof of love. She offers a whole participant, capable of keeping faith and capable of choosing again.",
           "subsections": []
         }
       ],
       "sections": {
-        "definition": "The Mature Sacred Lover belongs to herself and can therefore give herself freely. Desire becomes information rather than command; pleasure awakens gratitude rather than entitlement. She welcomes mutual influence, keeps consent alive, and lets intimacy reveal rather than replace each person's distinct life.\n\nThe love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+        "definition": "The Lover enters wholehearted intimacy and shared commitment while remaining a sovereign participant. She gives sustained attention to a person, purpose, place, or practice she truly values. She lets contact delight her, inconvenience her, and change her while keeping hold of her judgment, consent, bodily signals, other commitments, and right to leave. Love can reach her because a distinct self is there to be reached.\n\nThis capacity does not require romance, sex, marriage, or partnership. It can animate a friendship, a collaboration, a spiritual commitment, or the long care of a shared home. Sensuality belongs here as alert participation in the senses: the willingness to taste, touch, listen, play, and receive pleasure without turning another person into an instrument. Chosen surrender also belongs here. The Lover may place control in trustworthy hands for a time, yet the choice remains conscious, specific, and revocable.",
         "declarations": [
-          "I can desire deeply without abandoning myself.",
-          "My body, heart, and no all belong in love.",
-          "I invite; I do not capture.",
-          "Intimacy makes room for two whole lives.",
-          "My surrender is a choice, not a debt.",
-          "Devotion and self-respect strengthen each other.",
-          "I can follow without abandoning judgment.",
-          "I serve what is worthy, not what demands worship."
+          "I bring my whole life into love; I do not trade it for belonging.",
+          "I let what I cherish matter enough to inconvenience me.",
+          "My yes is wholehearted because my no remains available.",
+          "I can yield without making another person my authority over myself.",
+          "Pleasure grows through mutual presence, not proof or possession.",
+          "I stay curious when the beloved differs from my image of them.",
+          "I keep faith with shared purpose without concealing my dissent.",
+          "I receive care without surrendering judgment or creating debt.",
+          "Separateness gives desire room to breathe.",
+          "When devotion causes harm, I tell the truth, repair, and choose again."
         ],
-        "balance": "Devotion and Sovereignty are mutually correcting.\n\nDevotion gives sustained attention to what the heart recognizes as precious.\n\nSovereignty preserves choice, boundaries, and identity inside closeness.\n\nSurrender relaxes control so trust, love, or shared purpose can lead.\n\nDignity protects equal worth and makes every act of yielding genuinely voluntary.",
-        "applications": "Offer devotion from a self that remains present, choosing, and free.\n\nLet surrender be revocable, conscious, and anchored in equal human worth.",
-        "giftsResponsibilitiesChallenges": "The love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+        "balance": "Devotion is the Lover's power to stay: to give attention, keep faith, accept mutual influence, and organize action around what she cherishes. It turns affection into remembered promises, time made available, skill offered, and pleasure shared. Without devotion, desire remains an episode. Nothing is allowed to become important enough to make a claim on her.\n\nSovereignty keeps devotion voluntary. It preserves agency, dignity, consent, and a life not wholly contained by the bond. It lets the Lover distinguish a generous compromise from self-betrayal and loyalty from obedience. Without sovereignty, devotion becomes over-attunement. She may anticipate needs no one voiced, offer sacrifices no one requested, or use surrender to avoid the risk of choosing for herself.\n\nDevotion without sovereignty produces the Enmeshing Lover, whose effort to secure closeness erases the very difference intimacy needs. When devotion collapses and sovereignty becomes a refuge, the Armored Lover can remain impressive, desired, and untouched. Mature love moves between the two capacities: I am here with you, and I am still here within myself.",
+        "applications": "The Lover treats desire as information, neither an order nor an embarrassment.\n\n### Inner Life\n\nShe notices what draws her and asks whether it can be welcomed with integrity. A bodily yes does not cancel practical judgment; a bodily no is not something affection must overcome. Pleasure and reluctance both receive a hearing.\n\n### Relationship\n\nIn close relationship, she permits dependence without making it total. People may matter to one another enough to grieve, need, disappoint, and repair. She asks directly rather than arranging a test, and she can hear a boundary without translating it into rejection. Consent stays alive after the first yes. It can become more specific, change pace, or be withdrawn.\n\n### Work and Shared Purpose\n\nThe devoted-consort aspect of the Lover joins a common undertaking without handing over conscience. She can support another person's leadership, carry an unglamorous share, and remain loyal through difficulty. She also speaks when the mission departs from its stated values. Her judgment strengthens shared purpose.\n\n### Community and Creation\n\nHer relational gift warms a team or community without demanding that everyone become intimate. In creative life, devotion helps her return to the work after novelty fades, while sovereignty keeps praise and criticism from becoming commands. She loves the work enough to serve it and enough to let it meet a world she cannot control.",
+        "giftsResponsibilitiesChallenges": "The Lover's gifts are warmth, erotic vitality, loyalty, delight, and the courage to be affected. As Beloved, she receives attention without turning admiration into rank. She lets care arrive and answers it freely rather than performing helplessness or perfection.\n\nThese gifts carry responsibilities. She must keep consent renewable, make hidden expectations speakable, and protect obligations outside the bond. She must notice when sacrifice has become a bid for control, when loyalty conceals fear, or when sensuality is being used to avoid a necessary conversation. Her challenge is to remain available through ordinariness. Mature devotion survives laundry, deadlines, changed bodies, unequal seasons of capacity, and the discovery that no beloved can complete an unlived life.\n\nLove also brings grief within range. Sovereignty lets her meet loss without abandoning herself. The Lover learns that being changed is different from being erased and that a bond can end without making its meaning false.",
         "practices": [
-          "Name a desire without turning it into a demand.",
-          "Notice whether closeness enlarges or erases either person.",
-          "Before yielding, identify what remains yours to decide.",
-          "Distinguish service freely given from service used to earn safety."
+          "Divide a page into “ours” and “mine.” Name the promises, decisions, time, and responsibilities that belong in each column.",
+          "Before escalating intimacy, ask what is wanted now, what remains undecided, and how either person can pause without penalty.",
+          "Make one direct request and allow the answer to be no; do not improve the offer, punish the refusal, or withdraw affection.",
+          "Keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.",
+          "Examine a sacrifice before offering it: Was it requested? Is it freely chosen, sustainable, and open to revision?",
+          "After self-abandonment or defended withdrawal, name the exact moment contact was lost and propose one observable repair."
         ],
-        "conclusion": "The Mature Devoted Consort can bow without becoming less. She entrusts herself only where consent, character, and shared purpose make surrender worthy. Loyalty does not require denial: she can question, withdraw, or lead, which is precisely what keeps her yielding honest."
+        "conclusion": "Living as the Lover means letting what matters have real consequence without giving it possession of the self. She can bow, follow, receive, lead, refuse, and return. Her surrender has dignity because it is chosen; her sovereignty has warmth because it remains open to influence. She offers neither disappearance nor invulnerability as proof of love. She offers a whole participant, capable of keeping faith and capable of choosing again."
       },
       "shadows": [
         {
@@ -10539,18 +10605,25 @@
             "balancedQualities": "Devotion + Sovereignty",
             "activeShadow": "Enmeshing Lover",
             "passiveShadow": "Armored Lover",
-            "mythicResonances": "",
-            "keyQualities": "Escalates closeness without consent, Performs desire for reassurance, Resents ordinary separateness, Treats sacrifice as proof of love, Idealizes authority, Uses service to create obligation"
+            "mythicResonances": "Echo (Roman literary tradition)",
+            "keyQualities": "Accelerates intimacy and treats a pause as rejection, Volunteers at work and reads limits as disloyalty, Rehearses another person's mood before naming her own, Overrides hunger, fatigue, pain, or reluctance to stay pleasing, Uses gifts, sex, service, or crisis to obtain reassurance indirectly, Shrinks friendships, projects, and privacy around one bond"
           },
           "quotes": {
-            "opening": "",
-            "closing": ""
+            "opening": "“You love me, and I find you still\nA spirit beautiful and bright,\nYet I am I, who long to be\nLost as a light is lost in light.”\n\n—Sara Teasdale, “I Am Not Yours,” stanza 2",
+            "closing": "“I do not wish them to have power over men; but over themselves.”\n\n—Mary Wollstonecraft, A Vindication of the Rights of Woman, chapter 3"
           },
           "research": {
-            "status": "pending",
-            "quoteIds": [],
-            "mythicResonances": [],
-            "mythicSourceIds": []
+            "status": "verified",
+            "quoteIds": [
+              "quote-enmeshing-lover-opening-teasdale-not-yours",
+              "quote-enmeshing-lover-closing-wollstonecraft-vindication"
+            ],
+            "mythicResonances": [
+              "Echo (Roman literary tradition)"
+            ],
+            "mythicSourceIds": [
+              "myth-enmeshing-lover-echo-ovid"
+            ]
           },
           "sourceFile": "lover/shadows/enmeshing-lover.md",
           "parent": "lover",
@@ -10559,84 +10632,87 @@
           "bodySections": [
             {
               "role": "balanceBreakdown",
-              "heading": "Balance Breakdown",
-              "content": "Devotion enmeshes and self-erases without sovereignty.",
+              "heading": "When Devotion Takes Over",
+              "content": "The Enmeshing Lover is the active shadow of the Lover. Devotion expands without Sovereignty. Attention becomes surveillance, loyalty becomes self-erasure, and surrender becomes a way to avoid standing as a separate participant. She may pour herself into a person, cause, teacher, or team until ordinary distance feels like evidence that the bond is failing.\n\nThe missing quality is Sovereignty: agency, dignity, consent, and a life with its own center. Restoring it does not cool her devotion. It makes devotion voluntary again. Then closeness can contain two perspectives, two sets of limits, and two people who are free to answer.",
               "subsections": []
             },
             {
               "role": "declarations",
-              "heading": "Declarations",
-              "content": "- If I give everything, I cannot be left.\n- Distance means love is fading.\n- Being desired proves I am safe.\n- Your purpose matters more than mine.\n- Good devotion asks for nothing.\n- If I am indispensable, I will be cherished.",
+              "heading": "The Logic of Enmeshment",
+              "content": "- If I become indispensable, you will not leave.\n- Your distance tells me I have failed at love.\n- I offer before you ask, then count what you owe.\n- I borrow your desires until I know what to want.\n- A boundary between us feels like a verdict against us.\n- I call self-abandonment loyalty.\n- I intensify pleasure or crisis when ordinary closeness feels uncertain.\n- If I disagree, I risk losing my place beside you.",
               "subsections": []
             },
             {
               "role": "psychologicalMechanics",
-              "heading": "Psychological Mechanics",
-              "content": "Devotion floods sovereignty. She intensifies attention, beauty, sex, or caretaking to become indispensable, then experiences another's separateness as rejection. What looks like generosity quietly asks the beloved to regulate her worth.\n\nSurrender consumes dignity. She idealizes a partner, cause, or teacher and anticipates every need, hoping perfect loyalty will secure belonging. Her self-erasure becomes covert control because the recipient is made responsible for sacrifices they did not request.",
+              "heading": "How Closeness Becomes a Job",
+              "content": "This pattern can protect against the uncertainty of being loved by converting relationship into a job. If she can remain beautiful enough, useful enough, sexually available enough, or perfectly attuned, she can imagine that belonging is under her control. She may have learned that quick responsiveness kept contact available, or that disagreement carried a real cost. That history can explain the strategy without making its present impact harmless.\n\nOne expression uses magnetism. The Enmeshing Lover heightens attention, sensuality, confession, or drama to get reassurance without asking for it. A new relationship is rapidly treated as singular; a friend's slower pace becomes an insult; a partner's private thought becomes information she believes she is owed. Consent can blur because her urgency is presented as proof of depth.\n\nAnother expression uses service. The self-erasing aspect anticipates every need, adopts another person's purpose, and yields decisions before anyone requests it. The sacrifice carries an invisible contract: because I gave this much, you must choose me, protect me, or never disappoint me. The recipient becomes responsible for a bargain they did not make. Resentment then arrives as the shadow of unspoken consent.\n\nAt work, she may absorb extra labor to secure a place near an admired leader, then experience a colleague's limit as betrayal. In self-talk, she asks what will keep the bond calm before asking what she believes. The body often registers the missing answer first: a held breath, a smile over reluctance, fatigue treated as selfishness, or desire performed after desire has gone quiet.",
               "subsections": []
             },
             {
               "role": "hiddenEnergy",
-              "heading": "Hidden Energy",
-              "content": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
+              "heading": "The Capacity Inside the Pattern",
+              "content": "The shadow carries real gifts in distorted form. Her attunement can notice nuance; her erotic vitality can enliven contact; her loyalty can sustain a difficult promise; her willingness to yield can deepen trust. Integration does not require becoming less ardent. It separates these capacities from the task of guaranteeing another person's response.\n\nWhen Sovereignty returns, attunement becomes curiosity instead of mind-reading. Service becomes an offer that can be accepted, declined, or renegotiated. Surrender becomes a bounded act by an intact self. Her longing can remain strong without being placed in charge of both people.",
               "subsections": []
             },
             {
               "role": "recognition",
-              "heading": "Recognition",
-              "content": "Escalates closeness without consent\n\nPerforms desire for reassurance\n\nResents ordinary separateness\n\nTreats sacrifice as proof of love\n\nIdealizes authority\n\nUses service to create obligation",
+              "heading": "Signs of Lost Sovereignty",
+              "content": "Accelerates intimacy and treats a pause as rejection\n\nVolunteers at work and reads limits as disloyalty\n\nRehearses another person's mood before naming her own\n\nOverrides hunger, fatigue, pain, or reluctance to stay pleasing\n\nUses gifts, sex, service, or crisis to obtain reassurance indirectly\n\nShrinks friendships, projects, and privacy around one bond",
               "subsections": []
             },
             {
               "role": "practices",
-              "heading": "Practices",
-              "content": "- Allow longing without acting it out immediately.\n- Keep friendships, work, and bodily rhythms intact.\n- Ask directly instead of seducing an answer.\n- Make consent specific and renewable.\n- Name preferences before accommodating another.\n- Stop unrequested service and tolerate the uncertainty.",
+              "heading": "Restoring a Distinct Self",
+              "content": "- Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.\n- Name a personal preference before asking what the other person wants, even when the two answers may conflict.\n- Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.\n- Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.\n- Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.\n- Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.\n- Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.",
               "subsections": []
             },
             {
               "role": "oppositeShadow",
-              "heading": "Opposite Shadow",
-              "content": "Armored Lover is the opposite imbalance of Devotion + Sovereignty.",
+              "heading": "The Swing Toward Armor",
+              "content": "The Enmeshing Lover can swing toward the Armored Lover after exhaustion, humiliation, or resentment. She may decide that needing anyone was the mistake and replace constant reach with abrupt distance. The Armored Lover protects Sovereignty by collapsing Devotion; the Enmeshing Lover protects Devotion by abandoning Sovereignty. Both avoid the slower risk of mutual influence between distinct people.\n\nRecognizing the swing prevents overcorrection. A boundary need not become disappearance. Time alone need not punish anyone. The goal is enough distance to recover choice while remaining honest about care.",
               "subsections": []
             },
             {
               "role": "transformation",
-              "heading": "Transformation",
-              "content": "Integration restores Sovereignty and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+              "heading": "Devotion by Choice",
+              "content": "These practices may feel undevotional at first because uncertainty returns. That uncertainty is part of mutual relationship. No technique can force a free person to stay, and no sacrifice can make consent permanent.\n\nTransformation begins when she can locate herself before she moves toward the beloved. What do I feel? What do I want? What has actually been asked of me? What remains mine to decide? Each answered question restores the participant whose absence made closeness coercive.\n\nWith Sovereignty present, she can tolerate a delayed reply, a separate friendship, a difference of opinion, or a no. She can grieve when a bond cannot meet her without bargaining away her dignity. Her devotion becomes more trustworthy because it is no longer an emergency measure.",
               "subsections": []
             },
             {
               "role": "conclusion",
-              "heading": "Conclusion",
-              "content": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
+              "heading": "Where She Returns",
+              "content": "The Enmeshing Lover does not need less heart. She needs a place to stand while loving. From there, a gift is a gift, a request is allowed to receive an answer, and another person's boundary is information rather than a verdict on her worth. She returns to the Lover when both people are permitted to remain real.",
               "subsections": []
             }
           ],
           "sections": {
             "designation": "Active Shadow",
-            "balanceBreakdown": "Devotion enmeshes and self-erases without sovereignty.",
+            "balanceBreakdown": "The Enmeshing Lover is the active shadow of the Lover. Devotion expands without Sovereignty. Attention becomes surveillance, loyalty becomes self-erasure, and surrender becomes a way to avoid standing as a separate participant. She may pour herself into a person, cause, teacher, or team until ordinary distance feels like evidence that the bond is failing.\n\nThe missing quality is Sovereignty: agency, dignity, consent, and a life with its own center. Restoring it does not cool her devotion. It makes devotion voluntary again. Then closeness can contain two perspectives, two sets of limits, and two people who are free to answer.",
             "declarations": [
-              "If I give everything, I cannot be left.",
-              "Distance means love is fading.",
-              "Being desired proves I am safe.",
-              "Your purpose matters more than mine.",
-              "Good devotion asks for nothing.",
-              "If I am indispensable, I will be cherished."
+              "If I become indispensable, you will not leave.",
+              "Your distance tells me I have failed at love.",
+              "I offer before you ask, then count what you owe.",
+              "I borrow your desires until I know what to want.",
+              "A boundary between us feels like a verdict against us.",
+              "I call self-abandonment loyalty.",
+              "I intensify pleasure or crisis when ordinary closeness feels uncertain.",
+              "If I disagree, I risk losing my place beside you."
             ],
-            "psychologicalMechanics": "Devotion floods sovereignty. She intensifies attention, beauty, sex, or caretaking to become indispensable, then experiences another's separateness as rejection. What looks like generosity quietly asks the beloved to regulate her worth.\n\nSurrender consumes dignity. She idealizes a partner, cause, or teacher and anticipates every need, hoping perfect loyalty will secure belonging. Her self-erasure becomes covert control because the recipient is made responsible for sacrifices they did not request.",
-            "hiddenEnergy": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
-            "recognition": "Escalates closeness without consent\n\nPerforms desire for reassurance\n\nResents ordinary separateness\n\nTreats sacrifice as proof of love\n\nIdealizes authority\n\nUses service to create obligation",
+            "psychologicalMechanics": "This pattern can protect against the uncertainty of being loved by converting relationship into a job. If she can remain beautiful enough, useful enough, sexually available enough, or perfectly attuned, she can imagine that belonging is under her control. She may have learned that quick responsiveness kept contact available, or that disagreement carried a real cost. That history can explain the strategy without making its present impact harmless.\n\nOne expression uses magnetism. The Enmeshing Lover heightens attention, sensuality, confession, or drama to get reassurance without asking for it. A new relationship is rapidly treated as singular; a friend's slower pace becomes an insult; a partner's private thought becomes information she believes she is owed. Consent can blur because her urgency is presented as proof of depth.\n\nAnother expression uses service. The self-erasing aspect anticipates every need, adopts another person's purpose, and yields decisions before anyone requests it. The sacrifice carries an invisible contract: because I gave this much, you must choose me, protect me, or never disappoint me. The recipient becomes responsible for a bargain they did not make. Resentment then arrives as the shadow of unspoken consent.\n\nAt work, she may absorb extra labor to secure a place near an admired leader, then experience a colleague's limit as betrayal. In self-talk, she asks what will keep the bond calm before asking what she believes. The body often registers the missing answer first: a held breath, a smile over reluctance, fatigue treated as selfishness, or desire performed after desire has gone quiet.",
+            "hiddenEnergy": "The shadow carries real gifts in distorted form. Her attunement can notice nuance; her erotic vitality can enliven contact; her loyalty can sustain a difficult promise; her willingness to yield can deepen trust. Integration does not require becoming less ardent. It separates these capacities from the task of guaranteeing another person's response.\n\nWhen Sovereignty returns, attunement becomes curiosity instead of mind-reading. Service becomes an offer that can be accepted, declined, or renegotiated. Surrender becomes a bounded act by an intact self. Her longing can remain strong without being placed in charge of both people.",
+            "recognition": "Accelerates intimacy and treats a pause as rejection\n\nVolunteers at work and reads limits as disloyalty\n\nRehearses another person's mood before naming her own\n\nOverrides hunger, fatigue, pain, or reluctance to stay pleasing\n\nUses gifts, sex, service, or crisis to obtain reassurance indirectly\n\nShrinks friendships, projects, and privacy around one bond",
             "practices": [
-              "Allow longing without acting it out immediately.",
-              "Keep friendships, work, and bodily rhythms intact.",
-              "Ask directly instead of seducing an answer.",
-              "Make consent specific and renewable.",
-              "Name preferences before accommodating another.",
-              "Stop unrequested service and tolerate the uncertainty."
+              "Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.",
+              "Name a personal preference before asking what the other person wants, even when the two answers may conflict.",
+              "Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.",
+              "Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.",
+              "Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.",
+              "Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.",
+              "Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love."
             ],
-            "oppositeShadow": "Armored Lover is the opposite imbalance of Devotion + Sovereignty.",
-            "transformation": "Integration restores Sovereignty and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
-            "conclusion": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self."
+            "oppositeShadow": "The Enmeshing Lover can swing toward the Armored Lover after exhaustion, humiliation, or resentment. She may decide that needing anyone was the mistake and replace constant reach with abrupt distance. The Armored Lover protects Sovereignty by collapsing Devotion; the Enmeshing Lover protects Devotion by abandoning Sovereignty. Both avoid the slower risk of mutual influence between distinct people.\n\nRecognizing the swing prevents overcorrection. A boundary need not become disappearance. Time alone need not punish anyone. The goal is enough distance to recover choice while remaining honest about care.",
+            "transformation": "These practices may feel undevotional at first because uncertainty returns. That uncertainty is part of mutual relationship. No technique can force a free person to stay, and no sacrifice can make consent permanent.\n\nTransformation begins when she can locate herself before she moves toward the beloved. What do I feel? What do I want? What has actually been asked of me? What remains mine to decide? Each answered question restores the participant whose absence made closeness coercive.\n\nWith Sovereignty present, she can tolerate a delayed reply, a separate friendship, a difference of opinion, or a no. She can grieve when a bond cannot meet her without bargaining away her dignity. Her devotion becomes more trustworthy because it is no longer an emergency measure.",
+            "conclusion": "The Enmeshing Lover does not need less heart. She needs a place to stand while loving. From there, a gift is a gift, a request is allowed to receive an answer, and another person's boundary is information rather than a verdict on her worth. She returns to the Lover when both people are permitted to remain real."
           }
         },
         {
@@ -10667,18 +10743,25 @@
             "balancedQualities": "Devotion + Sovereignty",
             "activeShadow": "Enmeshing Lover",
             "passiveShadow": "Armored Lover",
-            "mythicResonances": "",
-            "keyQualities": "Keeps relationships performative, Turns tenderness into analysis, Leaves before dependence can form, Receives more than she reciprocates, Equates vulnerability with loss of status, Keeps partners in an admiring role"
+            "mythicResonances": "The Snow Queen (Danish literary tradition)",
+            "keyQualities": "Keeps intimacy articulate but emotionally negotiated, Turns tenderness into analysis, humor, or sexual performance, Leaves when another person matters enough to disappoint her, Receives admiration while concealing ordinary need, Treats help as debt and influence as loss of rank, Holds the body composed when grief or affection asks it to soften"
           },
           "quotes": {
-            "opening": "",
-            "closing": ""
+            "opening": "“We outgrow love like other things\nAnd put it in the drawer,\nTill it an antique fashion shows\nLike costumes grandsires wore.”\n\n—Emily Dickinson, “We outgrow love like other things,” Franklin 1094",
+            "closing": "“She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”\n\n—Jane Austen, Persuasion, chapter 4"
           },
           "research": {
-            "status": "pending",
-            "quoteIds": [],
-            "mythicResonances": [],
-            "mythicSourceIds": []
+            "status": "verified",
+            "quoteIds": [
+              "quote-armored-lover-opening-dickinson-outgrow-love",
+              "quote-armored-lover-closing-austen-persuasion"
+            ],
+            "mythicResonances": [
+              "The Snow Queen (Danish literary tradition)"
+            ],
+            "mythicSourceIds": [
+              "myth-armored-lover-snow-queen-andersen"
+            ]
           },
           "sourceFile": "lover/shadows/armored-lover.md",
           "parent": "lover",
@@ -10687,84 +10770,87 @@
           "bodySections": [
             {
               "role": "balanceBreakdown",
-              "heading": "Balance Breakdown",
-              "content": "Devotion collapses while sovereignty hardens into armor, rank, or untouchability.",
+              "heading": "When Sovereignty Becomes Armor",
+              "content": "The Armored Lover is the passive shadow of the Lover. Devotion collapses while Sovereignty becomes a refuge and then a distortion. Self-possession hardens into impermeability. Choice becomes the refusal to be influenced, dignity becomes rank, and boundaries become a system for preventing anyone from mattering too much.\n\nThe missing quality is Devotion: the capacity to give sustained attention, keep faith, accept mutual influence, and let a bond make legitimate claims on time and action. Restoring it does not surrender Sovereignty. It gives sovereignty something worthy to protect: a chosen relationship between two free participants.",
               "subsections": []
             },
             {
               "role": "declarations",
-              "heading": "Declarations",
-              "content": "- Need makes me vulnerable to control.\n- I can enjoy love without depending on anyone.\n- Composure is safer than tenderness.\n- Yielding would lower my value.\n- I should be cherished without needing.\n- Dependence is beneath me.",
+              "heading": "The Logic of Untouchability",
+              "content": "- I can be desired without becoming reachable.\n- If I need no one, no one can gain leverage.\n- I explain my feelings before I let them move me.\n- Admiration is welcome; influence is dangerous.\n- I leave before attachment can make a claim on me.\n- Care becomes a debt unless I repay it at once.\n- Yielding feels like losing rank.\n- I protect my freedom by keeping one part of me unavailable.",
               "subsections": []
             },
             {
               "role": "psychologicalMechanics",
-              "heading": "Psychological Mechanics",
-              "content": "Devotion withdraws behind sovereignty hardened into invulnerability. She can attract, analyze, and negotiate intimacy while withholding the unguarded presence that would let love affect her. Independence protects her from grief by also protecting her from mutual belonging.\n\nSurrender disappears while dignity becomes rank and distance. She accepts admiration but resists influence, receiving devotion without exposing need or yielding control. No one can meet her because relationship has been arranged around preserving her unassailability.",
+              "heading": "How Distance Preserves Control",
+              "content": "This pattern can protect against coercion, engulfment, betrayal, or grief. She may have learned that visible need invited ridicule, that care came with strings, or that dependence trapped people in unsafe bonds. In an unsafe setting, distance may still be accurate protection. Integration never requires access for someone who ignores consent or causes harm.\n\nArmor becomes a shadow when the old defense governs chosen, sufficiently safe contact. The Armored Lover may be poised, capable, sensually expressive, and skilled at discussing relationship. Yet she controls how deeply another person can affect her. She can negotiate the terms of closeness while withholding the unedited need, delight, grief, or uncertainty that would make the exchange mutual.\n\nThe untouchable-beloved aspect receives attention from a protected height. Admiration is comfortable because it asks little of her interior life; being known is riskier. She may keep a lover, friend, or collaborator in the role of audience, pursuer, or applicant. If they stop pursuing, she reads their withdrawal as proof that dependence was foolish rather than as information about a one-sided arrangement.\n\nAt work, this can look like refusing help, keeping collaboration transactional, or abandoning a project when shared ownership limits control. In self-talk, competence is treated as the condition for worth and longing as an embarrassing lapse. The body may hold the strategy as a fixed chest, delayed tears, a quick joke over tenderness, or sexual presence that remains technically responsive while inwardly elsewhere.",
               "subsections": []
             },
             {
               "role": "hiddenEnergy",
-              "heading": "Hidden Energy",
-              "content": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
+              "heading": "The Strength Inside the Armor",
+              "content": "Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.\n\nWhen Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.",
               "subsections": []
             },
             {
               "role": "recognition",
-              "heading": "Recognition",
-              "content": "Keeps relationships performative\n\nTurns tenderness into analysis\n\nLeaves before dependence can form\n\nReceives more than she reciprocates\n\nEquates vulnerability with loss of status\n\nKeeps partners in an admiring role",
+              "heading": "Signs That Devotion Has Withdrawn",
+              "content": "Keeps intimacy articulate but emotionally negotiated\n\nTurns tenderness into analysis, humor, or sexual performance\n\nLeaves when another person matters enough to disappoint her\n\nReceives admiration while concealing ordinary need\n\nTreats help as debt and influence as loss of rank\n\nHolds the body composed when grief or affection asks it to soften",
               "subsections": []
             },
             {
               "role": "practices",
-              "heading": "Practices",
-              "content": "- Reveal one need without apology.\n- Receive care without immediate repayment.\n- Stay present when affection softens control.\n- Let another person's wisdom alter a plan.\n- Practice mutual service without keeping status.\n- Admit where control protects fear.",
+              "heading": "Restoring Chosen Devotion",
+              "content": "- Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.\n- Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.\n- Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.\n- Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.\n- Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.\n- Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.\n- Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second.",
               "subsections": []
             },
             {
               "role": "oppositeShadow",
-              "heading": "Opposite Shadow",
-              "content": "Enmeshing Lover is the opposite imbalance of Devotion + Sovereignty.",
+              "heading": "The Swing Toward Enmeshment",
+              "content": "The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.\n\nBoth shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.",
               "subsections": []
             },
             {
               "role": "transformation",
-              "heading": "Transformation",
-              "content": "Integration restores Devotion and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+              "heading": "Allowing Love to Matter",
+              "content": "Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.\n\nTransformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.\n\nAs devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.",
               "subsections": []
             },
             {
               "role": "conclusion",
-              "heading": "Conclusion",
-              "content": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
+              "heading": "Where She Returns",
+              "content": "The Armored Lover returns when protection becomes a door rather than a wall: able to close, able to open, and responsive to who is actually present. She does not owe vulnerability to everyone. She practices availability where care, consent, and accountability make contact possible. Then sovereignty holds the self steady while devotion lets another life truly matter.",
               "subsections": []
             }
           ],
           "sections": {
             "designation": "Passive Shadow",
-            "balanceBreakdown": "Devotion collapses while sovereignty hardens into armor, rank, or untouchability.",
+            "balanceBreakdown": "The Armored Lover is the passive shadow of the Lover. Devotion collapses while Sovereignty becomes a refuge and then a distortion. Self-possession hardens into impermeability. Choice becomes the refusal to be influenced, dignity becomes rank, and boundaries become a system for preventing anyone from mattering too much.\n\nThe missing quality is Devotion: the capacity to give sustained attention, keep faith, accept mutual influence, and let a bond make legitimate claims on time and action. Restoring it does not surrender Sovereignty. It gives sovereignty something worthy to protect: a chosen relationship between two free participants.",
             "declarations": [
-              "Need makes me vulnerable to control.",
-              "I can enjoy love without depending on anyone.",
-              "Composure is safer than tenderness.",
-              "Yielding would lower my value.",
-              "I should be cherished without needing.",
-              "Dependence is beneath me."
+              "I can be desired without becoming reachable.",
+              "If I need no one, no one can gain leverage.",
+              "I explain my feelings before I let them move me.",
+              "Admiration is welcome; influence is dangerous.",
+              "I leave before attachment can make a claim on me.",
+              "Care becomes a debt unless I repay it at once.",
+              "Yielding feels like losing rank.",
+              "I protect my freedom by keeping one part of me unavailable."
             ],
-            "psychologicalMechanics": "Devotion withdraws behind sovereignty hardened into invulnerability. She can attract, analyze, and negotiate intimacy while withholding the unguarded presence that would let love affect her. Independence protects her from grief by also protecting her from mutual belonging.\n\nSurrender disappears while dignity becomes rank and distance. She accepts admiration but resists influence, receiving devotion without exposing need or yielding control. No one can meet her because relationship has been arranged around preserving her unassailability.",
-            "hiddenEnergy": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
-            "recognition": "Keeps relationships performative\n\nTurns tenderness into analysis\n\nLeaves before dependence can form\n\nReceives more than she reciprocates\n\nEquates vulnerability with loss of status\n\nKeeps partners in an admiring role",
+            "psychologicalMechanics": "This pattern can protect against coercion, engulfment, betrayal, or grief. She may have learned that visible need invited ridicule, that care came with strings, or that dependence trapped people in unsafe bonds. In an unsafe setting, distance may still be accurate protection. Integration never requires access for someone who ignores consent or causes harm.\n\nArmor becomes a shadow when the old defense governs chosen, sufficiently safe contact. The Armored Lover may be poised, capable, sensually expressive, and skilled at discussing relationship. Yet she controls how deeply another person can affect her. She can negotiate the terms of closeness while withholding the unedited need, delight, grief, or uncertainty that would make the exchange mutual.\n\nThe untouchable-beloved aspect receives attention from a protected height. Admiration is comfortable because it asks little of her interior life; being known is riskier. She may keep a lover, friend, or collaborator in the role of audience, pursuer, or applicant. If they stop pursuing, she reads their withdrawal as proof that dependence was foolish rather than as information about a one-sided arrangement.\n\nAt work, this can look like refusing help, keeping collaboration transactional, or abandoning a project when shared ownership limits control. In self-talk, competence is treated as the condition for worth and longing as an embarrassing lapse. The body may hold the strategy as a fixed chest, delayed tears, a quick joke over tenderness, or sexual presence that remains technically responsive while inwardly elsewhere.",
+            "hiddenEnergy": "Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.\n\nWhen Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.",
+            "recognition": "Keeps intimacy articulate but emotionally negotiated\n\nTurns tenderness into analysis, humor, or sexual performance\n\nLeaves when another person matters enough to disappoint her\n\nReceives admiration while concealing ordinary need\n\nTreats help as debt and influence as loss of rank\n\nHolds the body composed when grief or affection asks it to soften",
             "practices": [
-              "Reveal one need without apology.",
-              "Receive care without immediate repayment.",
-              "Stay present when affection softens control.",
-              "Let another person's wisdom alter a plan.",
-              "Practice mutual service without keeping status.",
-              "Admit where control protects fear."
+              "Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.",
+              "Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.",
+              "Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.",
+              "Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.",
+              "Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.",
+              "Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.",
+              "Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second."
             ],
-            "oppositeShadow": "Enmeshing Lover is the opposite imbalance of Devotion + Sovereignty.",
-            "transformation": "Integration restores Devotion and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
-            "conclusion": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking."
+            "oppositeShadow": "The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.\n\nBoth shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.",
+            "transformation": "Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.\n\nTransformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.\n\nAs devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.",
+            "conclusion": "The Armored Lover returns when protection becomes a door rather than a wall: able to close, able to open, and responsive to who is actually present. She does not owe vulnerability to everyone. She practices availability where care, consent, and accountability make contact possible. Then sovereignty holds the self steady while devotion lets another life truly matter."
           }
         }
       ]
@@ -10798,18 +10884,25 @@
         "balancedQualities": "Devotion + Sovereignty",
         "activeShadow": "Enmeshing Lover",
         "passiveShadow": "Armored Lover",
-        "mythicResonances": "",
-        "keyQualities": "Escalates closeness without consent, Performs desire for reassurance, Resents ordinary separateness, Treats sacrifice as proof of love, Idealizes authority, Uses service to create obligation"
+        "mythicResonances": "Echo (Roman literary tradition)",
+        "keyQualities": "Accelerates intimacy and treats a pause as rejection, Volunteers at work and reads limits as disloyalty, Rehearses another person's mood before naming her own, Overrides hunger, fatigue, pain, or reluctance to stay pleasing, Uses gifts, sex, service, or crisis to obtain reassurance indirectly, Shrinks friendships, projects, and privacy around one bond"
       },
       "quotes": {
-        "opening": "",
-        "closing": ""
+        "opening": "“You love me, and I find you still\nA spirit beautiful and bright,\nYet I am I, who long to be\nLost as a light is lost in light.”\n\n—Sara Teasdale, “I Am Not Yours,” stanza 2",
+        "closing": "“I do not wish them to have power over men; but over themselves.”\n\n—Mary Wollstonecraft, A Vindication of the Rights of Woman, chapter 3"
       },
       "research": {
-        "status": "pending",
-        "quoteIds": [],
-        "mythicResonances": [],
-        "mythicSourceIds": []
+        "status": "verified",
+        "quoteIds": [
+          "quote-enmeshing-lover-opening-teasdale-not-yours",
+          "quote-enmeshing-lover-closing-wollstonecraft-vindication"
+        ],
+        "mythicResonances": [
+          "Echo (Roman literary tradition)"
+        ],
+        "mythicSourceIds": [
+          "myth-enmeshing-lover-echo-ovid"
+        ]
       },
       "sourceFile": "lover/shadows/enmeshing-lover.md",
       "parent": "lover",
@@ -10818,84 +10911,87 @@
       "bodySections": [
         {
           "role": "balanceBreakdown",
-          "heading": "Balance Breakdown",
-          "content": "Devotion enmeshes and self-erases without sovereignty.",
+          "heading": "When Devotion Takes Over",
+          "content": "The Enmeshing Lover is the active shadow of the Lover. Devotion expands without Sovereignty. Attention becomes surveillance, loyalty becomes self-erasure, and surrender becomes a way to avoid standing as a separate participant. She may pour herself into a person, cause, teacher, or team until ordinary distance feels like evidence that the bond is failing.\n\nThe missing quality is Sovereignty: agency, dignity, consent, and a life with its own center. Restoring it does not cool her devotion. It makes devotion voluntary again. Then closeness can contain two perspectives, two sets of limits, and two people who are free to answer.",
           "subsections": []
         },
         {
           "role": "declarations",
-          "heading": "Declarations",
-          "content": "- If I give everything, I cannot be left.\n- Distance means love is fading.\n- Being desired proves I am safe.\n- Your purpose matters more than mine.\n- Good devotion asks for nothing.\n- If I am indispensable, I will be cherished.",
+          "heading": "The Logic of Enmeshment",
+          "content": "- If I become indispensable, you will not leave.\n- Your distance tells me I have failed at love.\n- I offer before you ask, then count what you owe.\n- I borrow your desires until I know what to want.\n- A boundary between us feels like a verdict against us.\n- I call self-abandonment loyalty.\n- I intensify pleasure or crisis when ordinary closeness feels uncertain.\n- If I disagree, I risk losing my place beside you.",
           "subsections": []
         },
         {
           "role": "psychologicalMechanics",
-          "heading": "Psychological Mechanics",
-          "content": "Devotion floods sovereignty. She intensifies attention, beauty, sex, or caretaking to become indispensable, then experiences another's separateness as rejection. What looks like generosity quietly asks the beloved to regulate her worth.\n\nSurrender consumes dignity. She idealizes a partner, cause, or teacher and anticipates every need, hoping perfect loyalty will secure belonging. Her self-erasure becomes covert control because the recipient is made responsible for sacrifices they did not request.",
+          "heading": "How Closeness Becomes a Job",
+          "content": "This pattern can protect against the uncertainty of being loved by converting relationship into a job. If she can remain beautiful enough, useful enough, sexually available enough, or perfectly attuned, she can imagine that belonging is under her control. She may have learned that quick responsiveness kept contact available, or that disagreement carried a real cost. That history can explain the strategy without making its present impact harmless.\n\nOne expression uses magnetism. The Enmeshing Lover heightens attention, sensuality, confession, or drama to get reassurance without asking for it. A new relationship is rapidly treated as singular; a friend's slower pace becomes an insult; a partner's private thought becomes information she believes she is owed. Consent can blur because her urgency is presented as proof of depth.\n\nAnother expression uses service. The self-erasing aspect anticipates every need, adopts another person's purpose, and yields decisions before anyone requests it. The sacrifice carries an invisible contract: because I gave this much, you must choose me, protect me, or never disappoint me. The recipient becomes responsible for a bargain they did not make. Resentment then arrives as the shadow of unspoken consent.\n\nAt work, she may absorb extra labor to secure a place near an admired leader, then experience a colleague's limit as betrayal. In self-talk, she asks what will keep the bond calm before asking what she believes. The body often registers the missing answer first: a held breath, a smile over reluctance, fatigue treated as selfishness, or desire performed after desire has gone quiet.",
           "subsections": []
         },
         {
           "role": "hiddenEnergy",
-          "heading": "Hidden Energy",
-          "content": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
+          "heading": "The Capacity Inside the Pattern",
+          "content": "The shadow carries real gifts in distorted form. Her attunement can notice nuance; her erotic vitality can enliven contact; her loyalty can sustain a difficult promise; her willingness to yield can deepen trust. Integration does not require becoming less ardent. It separates these capacities from the task of guaranteeing another person's response.\n\nWhen Sovereignty returns, attunement becomes curiosity instead of mind-reading. Service becomes an offer that can be accepted, declined, or renegotiated. Surrender becomes a bounded act by an intact self. Her longing can remain strong without being placed in charge of both people.",
           "subsections": []
         },
         {
           "role": "recognition",
-          "heading": "Recognition",
-          "content": "Escalates closeness without consent\n\nPerforms desire for reassurance\n\nResents ordinary separateness\n\nTreats sacrifice as proof of love\n\nIdealizes authority\n\nUses service to create obligation",
+          "heading": "Signs of Lost Sovereignty",
+          "content": "Accelerates intimacy and treats a pause as rejection\n\nVolunteers at work and reads limits as disloyalty\n\nRehearses another person's mood before naming her own\n\nOverrides hunger, fatigue, pain, or reluctance to stay pleasing\n\nUses gifts, sex, service, or crisis to obtain reassurance indirectly\n\nShrinks friendships, projects, and privacy around one bond",
           "subsections": []
         },
         {
           "role": "practices",
-          "heading": "Practices",
-          "content": "- Allow longing without acting it out immediately.\n- Keep friendships, work, and bodily rhythms intact.\n- Ask directly instead of seducing an answer.\n- Make consent specific and renewable.\n- Name preferences before accommodating another.\n- Stop unrequested service and tolerate the uncertainty.",
+          "heading": "Restoring a Distinct Self",
+          "content": "- Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.\n- Name a personal preference before asking what the other person wants, even when the two answers may conflict.\n- Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.\n- Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.\n- Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.\n- Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.\n- Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.",
           "subsections": []
         },
         {
           "role": "oppositeShadow",
-          "heading": "Opposite Shadow",
-          "content": "Armored Lover is the opposite imbalance of Devotion + Sovereignty.",
+          "heading": "The Swing Toward Armor",
+          "content": "The Enmeshing Lover can swing toward the Armored Lover after exhaustion, humiliation, or resentment. She may decide that needing anyone was the mistake and replace constant reach with abrupt distance. The Armored Lover protects Sovereignty by collapsing Devotion; the Enmeshing Lover protects Devotion by abandoning Sovereignty. Both avoid the slower risk of mutual influence between distinct people.\n\nRecognizing the swing prevents overcorrection. A boundary need not become disappearance. Time alone need not punish anyone. The goal is enough distance to recover choice while remaining honest about care.",
           "subsections": []
         },
         {
           "role": "transformation",
-          "heading": "Transformation",
-          "content": "Integration restores Sovereignty and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+          "heading": "Devotion by Choice",
+          "content": "These practices may feel undevotional at first because uncertainty returns. That uncertainty is part of mutual relationship. No technique can force a free person to stay, and no sacrifice can make consent permanent.\n\nTransformation begins when she can locate herself before she moves toward the beloved. What do I feel? What do I want? What has actually been asked of me? What remains mine to decide? Each answered question restores the participant whose absence made closeness coercive.\n\nWith Sovereignty present, she can tolerate a delayed reply, a separate friendship, a difference of opinion, or a no. She can grieve when a bond cannot meet her without bargaining away her dignity. Her devotion becomes more trustworthy because it is no longer an emergency measure.",
           "subsections": []
         },
         {
           "role": "conclusion",
-          "heading": "Conclusion",
-          "content": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
+          "heading": "Where She Returns",
+          "content": "The Enmeshing Lover does not need less heart. She needs a place to stand while loving. From there, a gift is a gift, a request is allowed to receive an answer, and another person's boundary is information rather than a verdict on her worth. She returns to the Lover when both people are permitted to remain real.",
           "subsections": []
         }
       ],
       "sections": {
         "designation": "Active Shadow",
-        "balanceBreakdown": "Devotion enmeshes and self-erases without sovereignty.",
+        "balanceBreakdown": "The Enmeshing Lover is the active shadow of the Lover. Devotion expands without Sovereignty. Attention becomes surveillance, loyalty becomes self-erasure, and surrender becomes a way to avoid standing as a separate participant. She may pour herself into a person, cause, teacher, or team until ordinary distance feels like evidence that the bond is failing.\n\nThe missing quality is Sovereignty: agency, dignity, consent, and a life with its own center. Restoring it does not cool her devotion. It makes devotion voluntary again. Then closeness can contain two perspectives, two sets of limits, and two people who are free to answer.",
         "declarations": [
-          "If I give everything, I cannot be left.",
-          "Distance means love is fading.",
-          "Being desired proves I am safe.",
-          "Your purpose matters more than mine.",
-          "Good devotion asks for nothing.",
-          "If I am indispensable, I will be cherished."
+          "If I become indispensable, you will not leave.",
+          "Your distance tells me I have failed at love.",
+          "I offer before you ask, then count what you owe.",
+          "I borrow your desires until I know what to want.",
+          "A boundary between us feels like a verdict against us.",
+          "I call self-abandonment loyalty.",
+          "I intensify pleasure or crisis when ordinary closeness feels uncertain.",
+          "If I disagree, I risk losing my place beside you."
         ],
-        "psychologicalMechanics": "Devotion floods sovereignty. She intensifies attention, beauty, sex, or caretaking to become indispensable, then experiences another's separateness as rejection. What looks like generosity quietly asks the beloved to regulate her worth.\n\nSurrender consumes dignity. She idealizes a partner, cause, or teacher and anticipates every need, hoping perfect loyalty will secure belonging. Her self-erasure becomes covert control because the recipient is made responsible for sacrifices they did not request.",
-        "hiddenEnergy": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
-        "recognition": "Escalates closeness without consent\n\nPerforms desire for reassurance\n\nResents ordinary separateness\n\nTreats sacrifice as proof of love\n\nIdealizes authority\n\nUses service to create obligation",
+        "psychologicalMechanics": "This pattern can protect against the uncertainty of being loved by converting relationship into a job. If she can remain beautiful enough, useful enough, sexually available enough, or perfectly attuned, she can imagine that belonging is under her control. She may have learned that quick responsiveness kept contact available, or that disagreement carried a real cost. That history can explain the strategy without making its present impact harmless.\n\nOne expression uses magnetism. The Enmeshing Lover heightens attention, sensuality, confession, or drama to get reassurance without asking for it. A new relationship is rapidly treated as singular; a friend's slower pace becomes an insult; a partner's private thought becomes information she believes she is owed. Consent can blur because her urgency is presented as proof of depth.\n\nAnother expression uses service. The self-erasing aspect anticipates every need, adopts another person's purpose, and yields decisions before anyone requests it. The sacrifice carries an invisible contract: because I gave this much, you must choose me, protect me, or never disappoint me. The recipient becomes responsible for a bargain they did not make. Resentment then arrives as the shadow of unspoken consent.\n\nAt work, she may absorb extra labor to secure a place near an admired leader, then experience a colleague's limit as betrayal. In self-talk, she asks what will keep the bond calm before asking what she believes. The body often registers the missing answer first: a held breath, a smile over reluctance, fatigue treated as selfishness, or desire performed after desire has gone quiet.",
+        "hiddenEnergy": "The shadow carries real gifts in distorted form. Her attunement can notice nuance; her erotic vitality can enliven contact; her loyalty can sustain a difficult promise; her willingness to yield can deepen trust. Integration does not require becoming less ardent. It separates these capacities from the task of guaranteeing another person's response.\n\nWhen Sovereignty returns, attunement becomes curiosity instead of mind-reading. Service becomes an offer that can be accepted, declined, or renegotiated. Surrender becomes a bounded act by an intact self. Her longing can remain strong without being placed in charge of both people.",
+        "recognition": "Accelerates intimacy and treats a pause as rejection\n\nVolunteers at work and reads limits as disloyalty\n\nRehearses another person's mood before naming her own\n\nOverrides hunger, fatigue, pain, or reluctance to stay pleasing\n\nUses gifts, sex, service, or crisis to obtain reassurance indirectly\n\nShrinks friendships, projects, and privacy around one bond",
         "practices": [
-          "Allow longing without acting it out immediately.",
-          "Keep friendships, work, and bodily rhythms intact.",
-          "Ask directly instead of seducing an answer.",
-          "Make consent specific and renewable.",
-          "Name preferences before accommodating another.",
-          "Stop unrequested service and tolerate the uncertainty."
+          "Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.",
+          "Name a personal preference before asking what the other person wants, even when the two answers may conflict.",
+          "Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.",
+          "Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.",
+          "Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.",
+          "Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.",
+          "Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love."
         ],
-        "oppositeShadow": "Armored Lover is the opposite imbalance of Devotion + Sovereignty.",
-        "transformation": "Integration restores Sovereignty and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
-        "conclusion": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self."
+        "oppositeShadow": "The Enmeshing Lover can swing toward the Armored Lover after exhaustion, humiliation, or resentment. She may decide that needing anyone was the mistake and replace constant reach with abrupt distance. The Armored Lover protects Sovereignty by collapsing Devotion; the Enmeshing Lover protects Devotion by abandoning Sovereignty. Both avoid the slower risk of mutual influence between distinct people.\n\nRecognizing the swing prevents overcorrection. A boundary need not become disappearance. Time alone need not punish anyone. The goal is enough distance to recover choice while remaining honest about care.",
+        "transformation": "These practices may feel undevotional at first because uncertainty returns. That uncertainty is part of mutual relationship. No technique can force a free person to stay, and no sacrifice can make consent permanent.\n\nTransformation begins when she can locate herself before she moves toward the beloved. What do I feel? What do I want? What has actually been asked of me? What remains mine to decide? Each answered question restores the participant whose absence made closeness coercive.\n\nWith Sovereignty present, she can tolerate a delayed reply, a separate friendship, a difference of opinion, or a no. She can grieve when a bond cannot meet her without bargaining away her dignity. Her devotion becomes more trustworthy because it is no longer an emergency measure.",
+        "conclusion": "The Enmeshing Lover does not need less heart. She needs a place to stand while loving. From there, a gift is a gift, a request is allowed to receive an answer, and another person's boundary is information rather than a verdict on her worth. She returns to the Lover when both people are permitted to remain real."
       }
     },
     {
@@ -10926,18 +11022,25 @@
         "balancedQualities": "Devotion + Sovereignty",
         "activeShadow": "Enmeshing Lover",
         "passiveShadow": "Armored Lover",
-        "mythicResonances": "",
-        "keyQualities": "Keeps relationships performative, Turns tenderness into analysis, Leaves before dependence can form, Receives more than she reciprocates, Equates vulnerability with loss of status, Keeps partners in an admiring role"
+        "mythicResonances": "The Snow Queen (Danish literary tradition)",
+        "keyQualities": "Keeps intimacy articulate but emotionally negotiated, Turns tenderness into analysis, humor, or sexual performance, Leaves when another person matters enough to disappoint her, Receives admiration while concealing ordinary need, Treats help as debt and influence as loss of rank, Holds the body composed when grief or affection asks it to soften"
       },
       "quotes": {
-        "opening": "",
-        "closing": ""
+        "opening": "“We outgrow love like other things\nAnd put it in the drawer,\nTill it an antique fashion shows\nLike costumes grandsires wore.”\n\n—Emily Dickinson, “We outgrow love like other things,” Franklin 1094",
+        "closing": "“She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”\n\n—Jane Austen, Persuasion, chapter 4"
       },
       "research": {
-        "status": "pending",
-        "quoteIds": [],
-        "mythicResonances": [],
-        "mythicSourceIds": []
+        "status": "verified",
+        "quoteIds": [
+          "quote-armored-lover-opening-dickinson-outgrow-love",
+          "quote-armored-lover-closing-austen-persuasion"
+        ],
+        "mythicResonances": [
+          "The Snow Queen (Danish literary tradition)"
+        ],
+        "mythicSourceIds": [
+          "myth-armored-lover-snow-queen-andersen"
+        ]
       },
       "sourceFile": "lover/shadows/armored-lover.md",
       "parent": "lover",
@@ -10946,84 +11049,87 @@
       "bodySections": [
         {
           "role": "balanceBreakdown",
-          "heading": "Balance Breakdown",
-          "content": "Devotion collapses while sovereignty hardens into armor, rank, or untouchability.",
+          "heading": "When Sovereignty Becomes Armor",
+          "content": "The Armored Lover is the passive shadow of the Lover. Devotion collapses while Sovereignty becomes a refuge and then a distortion. Self-possession hardens into impermeability. Choice becomes the refusal to be influenced, dignity becomes rank, and boundaries become a system for preventing anyone from mattering too much.\n\nThe missing quality is Devotion: the capacity to give sustained attention, keep faith, accept mutual influence, and let a bond make legitimate claims on time and action. Restoring it does not surrender Sovereignty. It gives sovereignty something worthy to protect: a chosen relationship between two free participants.",
           "subsections": []
         },
         {
           "role": "declarations",
-          "heading": "Declarations",
-          "content": "- Need makes me vulnerable to control.\n- I can enjoy love without depending on anyone.\n- Composure is safer than tenderness.\n- Yielding would lower my value.\n- I should be cherished without needing.\n- Dependence is beneath me.",
+          "heading": "The Logic of Untouchability",
+          "content": "- I can be desired without becoming reachable.\n- If I need no one, no one can gain leverage.\n- I explain my feelings before I let them move me.\n- Admiration is welcome; influence is dangerous.\n- I leave before attachment can make a claim on me.\n- Care becomes a debt unless I repay it at once.\n- Yielding feels like losing rank.\n- I protect my freedom by keeping one part of me unavailable.",
           "subsections": []
         },
         {
           "role": "psychologicalMechanics",
-          "heading": "Psychological Mechanics",
-          "content": "Devotion withdraws behind sovereignty hardened into invulnerability. She can attract, analyze, and negotiate intimacy while withholding the unguarded presence that would let love affect her. Independence protects her from grief by also protecting her from mutual belonging.\n\nSurrender disappears while dignity becomes rank and distance. She accepts admiration but resists influence, receiving devotion without exposing need or yielding control. No one can meet her because relationship has been arranged around preserving her unassailability.",
+          "heading": "How Distance Preserves Control",
+          "content": "This pattern can protect against coercion, engulfment, betrayal, or grief. She may have learned that visible need invited ridicule, that care came with strings, or that dependence trapped people in unsafe bonds. In an unsafe setting, distance may still be accurate protection. Integration never requires access for someone who ignores consent or causes harm.\n\nArmor becomes a shadow when the old defense governs chosen, sufficiently safe contact. The Armored Lover may be poised, capable, sensually expressive, and skilled at discussing relationship. Yet she controls how deeply another person can affect her. She can negotiate the terms of closeness while withholding the unedited need, delight, grief, or uncertainty that would make the exchange mutual.\n\nThe untouchable-beloved aspect receives attention from a protected height. Admiration is comfortable because it asks little of her interior life; being known is riskier. She may keep a lover, friend, or collaborator in the role of audience, pursuer, or applicant. If they stop pursuing, she reads their withdrawal as proof that dependence was foolish rather than as information about a one-sided arrangement.\n\nAt work, this can look like refusing help, keeping collaboration transactional, or abandoning a project when shared ownership limits control. In self-talk, competence is treated as the condition for worth and longing as an embarrassing lapse. The body may hold the strategy as a fixed chest, delayed tears, a quick joke over tenderness, or sexual presence that remains technically responsive while inwardly elsewhere.",
           "subsections": []
         },
         {
           "role": "hiddenEnergy",
-          "heading": "Hidden Energy",
-          "content": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
+          "heading": "The Strength Inside the Armor",
+          "content": "Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.\n\nWhen Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.",
           "subsections": []
         },
         {
           "role": "recognition",
-          "heading": "Recognition",
-          "content": "Keeps relationships performative\n\nTurns tenderness into analysis\n\nLeaves before dependence can form\n\nReceives more than she reciprocates\n\nEquates vulnerability with loss of status\n\nKeeps partners in an admiring role",
+          "heading": "Signs That Devotion Has Withdrawn",
+          "content": "Keeps intimacy articulate but emotionally negotiated\n\nTurns tenderness into analysis, humor, or sexual performance\n\nLeaves when another person matters enough to disappoint her\n\nReceives admiration while concealing ordinary need\n\nTreats help as debt and influence as loss of rank\n\nHolds the body composed when grief or affection asks it to soften",
           "subsections": []
         },
         {
           "role": "practices",
-          "heading": "Practices",
-          "content": "- Reveal one need without apology.\n- Receive care without immediate repayment.\n- Stay present when affection softens control.\n- Let another person's wisdom alter a plan.\n- Practice mutual service without keeping status.\n- Admit where control protects fear.",
+          "heading": "Restoring Chosen Devotion",
+          "content": "- Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.\n- Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.\n- Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.\n- Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.\n- Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.\n- Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.\n- Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second.",
           "subsections": []
         },
         {
           "role": "oppositeShadow",
-          "heading": "Opposite Shadow",
-          "content": "Enmeshing Lover is the opposite imbalance of Devotion + Sovereignty.",
+          "heading": "The Swing Toward Enmeshment",
+          "content": "The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.\n\nBoth shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.",
           "subsections": []
         },
         {
           "role": "transformation",
-          "heading": "Transformation",
-          "content": "Integration restores Devotion and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+          "heading": "Allowing Love to Matter",
+          "content": "Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.\n\nTransformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.\n\nAs devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.",
           "subsections": []
         },
         {
           "role": "conclusion",
-          "heading": "Conclusion",
-          "content": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
+          "heading": "Where She Returns",
+          "content": "The Armored Lover returns when protection becomes a door rather than a wall: able to close, able to open, and responsive to who is actually present. She does not owe vulnerability to everyone. She practices availability where care, consent, and accountability make contact possible. Then sovereignty holds the self steady while devotion lets another life truly matter.",
           "subsections": []
         }
       ],
       "sections": {
         "designation": "Passive Shadow",
-        "balanceBreakdown": "Devotion collapses while sovereignty hardens into armor, rank, or untouchability.",
+        "balanceBreakdown": "The Armored Lover is the passive shadow of the Lover. Devotion collapses while Sovereignty becomes a refuge and then a distortion. Self-possession hardens into impermeability. Choice becomes the refusal to be influenced, dignity becomes rank, and boundaries become a system for preventing anyone from mattering too much.\n\nThe missing quality is Devotion: the capacity to give sustained attention, keep faith, accept mutual influence, and let a bond make legitimate claims on time and action. Restoring it does not surrender Sovereignty. It gives sovereignty something worthy to protect: a chosen relationship between two free participants.",
         "declarations": [
-          "Need makes me vulnerable to control.",
-          "I can enjoy love without depending on anyone.",
-          "Composure is safer than tenderness.",
-          "Yielding would lower my value.",
-          "I should be cherished without needing.",
-          "Dependence is beneath me."
+          "I can be desired without becoming reachable.",
+          "If I need no one, no one can gain leverage.",
+          "I explain my feelings before I let them move me.",
+          "Admiration is welcome; influence is dangerous.",
+          "I leave before attachment can make a claim on me.",
+          "Care becomes a debt unless I repay it at once.",
+          "Yielding feels like losing rank.",
+          "I protect my freedom by keeping one part of me unavailable."
         ],
-        "psychologicalMechanics": "Devotion withdraws behind sovereignty hardened into invulnerability. She can attract, analyze, and negotiate intimacy while withholding the unguarded presence that would let love affect her. Independence protects her from grief by also protecting her from mutual belonging.\n\nSurrender disappears while dignity becomes rank and distance. She accepts admiration but resists influence, receiving devotion without exposing need or yielding control. No one can meet her because relationship has been arranged around preserving her unassailability.",
-        "hiddenEnergy": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
-        "recognition": "Keeps relationships performative\n\nTurns tenderness into analysis\n\nLeaves before dependence can form\n\nReceives more than she reciprocates\n\nEquates vulnerability with loss of status\n\nKeeps partners in an admiring role",
+        "psychologicalMechanics": "This pattern can protect against coercion, engulfment, betrayal, or grief. She may have learned that visible need invited ridicule, that care came with strings, or that dependence trapped people in unsafe bonds. In an unsafe setting, distance may still be accurate protection. Integration never requires access for someone who ignores consent or causes harm.\n\nArmor becomes a shadow when the old defense governs chosen, sufficiently safe contact. The Armored Lover may be poised, capable, sensually expressive, and skilled at discussing relationship. Yet she controls how deeply another person can affect her. She can negotiate the terms of closeness while withholding the unedited need, delight, grief, or uncertainty that would make the exchange mutual.\n\nThe untouchable-beloved aspect receives attention from a protected height. Admiration is comfortable because it asks little of her interior life; being known is riskier. She may keep a lover, friend, or collaborator in the role of audience, pursuer, or applicant. If they stop pursuing, she reads their withdrawal as proof that dependence was foolish rather than as information about a one-sided arrangement.\n\nAt work, this can look like refusing help, keeping collaboration transactional, or abandoning a project when shared ownership limits control. In self-talk, competence is treated as the condition for worth and longing as an embarrassing lapse. The body may hold the strategy as a fixed chest, delayed tears, a quick joke over tenderness, or sexual presence that remains technically responsive while inwardly elsewhere.",
+        "hiddenEnergy": "Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.\n\nWhen Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.",
+        "recognition": "Keeps intimacy articulate but emotionally negotiated\n\nTurns tenderness into analysis, humor, or sexual performance\n\nLeaves when another person matters enough to disappoint her\n\nReceives admiration while concealing ordinary need\n\nTreats help as debt and influence as loss of rank\n\nHolds the body composed when grief or affection asks it to soften",
         "practices": [
-          "Reveal one need without apology.",
-          "Receive care without immediate repayment.",
-          "Stay present when affection softens control.",
-          "Let another person's wisdom alter a plan.",
-          "Practice mutual service without keeping status.",
-          "Admit where control protects fear."
+          "Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.",
+          "Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.",
+          "Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.",
+          "Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.",
+          "Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.",
+          "Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.",
+          "Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second."
         ],
-        "oppositeShadow": "Enmeshing Lover is the opposite imbalance of Devotion + Sovereignty.",
-        "transformation": "Integration restores Devotion and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
-        "conclusion": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking."
+        "oppositeShadow": "The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.\n\nBoth shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.",
+        "transformation": "Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.\n\nTransformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.\n\nAs devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.",
+        "conclusion": "The Armored Lover returns when protection becomes a door rather than a wall: able to close, able to open, and responsive to who is actually present. She does not owe vulnerability to everyone. She practices availability where care, consent, and accountability make contact possible. Then sovereignty holds the self steady while devotion lets another life truly matter."
       }
     },
     {
