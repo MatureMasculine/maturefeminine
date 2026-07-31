@@ -5,7 +5,11 @@
   "description": "The Mature Feminine: static site (11ty) for GitHub Pages",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy",
+    "build": "npm run content:check && eleventy",
+    "content:sync": "node scripts/sync_archetypes.js",
+    "content:check": "node scripts/validate_content.js",
+    "book:check": "python3 book/print-pdf/generate_book.py --check",
+    "book:build": "python3 book/print-pdf/generate_book.py",
     "download:shadows": "node scripts/download_shadows.js"
   },
   "devDependencies": {

@@ -1,0 +1,21 @@
+{
+  "page": {
+    "width": "8.5in",
+    "height": "11in",
+    "insideMargin": "0.78in",
+    "outsideMargin": "0.68in",
+    "topMargin": "0.72in",
+    "bottomMargin": "0.72in"
+  },
+  "layout": {
+    "columns": 2,
+    "columnGap": "0.28in",
+    "heroHeight": "2.25in"
+  },
+  "type": {
+    "bodySize": 9.4,
+    "bodyLeading": 12.2,
+    "chapterSize": 22,
+    "sectionSize": 16
+  }
+}

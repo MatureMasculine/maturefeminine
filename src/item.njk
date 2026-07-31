@@ -101,7 +101,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
     {% for v in item.extended.virtues %}
       <div class="mb-3">
         <h6 class="mb-2">{{ v.title }}</h6>
-        {% if v.quote %}<blockquote class="fst-italic border-start border-2 ps-3" style="border-color: rgba(255,255,255,.5)">{{ v.quote | fixEncoding | stripOuterQuotes }}</blockquote>{% endif %}
+        {%- if v.quote %}<blockquote class="fst-italic border-start border-2 ps-3" style="border-color: rgba(255,255,255,.5)">{{ v.quote | fixEncoding | stripOuterQuotes }}</blockquote>{% endif %}
         {% if v.paragraphs %}{% for vp in v.paragraphs %}<p class="mb-2">{{ vp }}</p>{% endfor %}{% endif %}
       </div>
     {% endfor %}
@@ -144,6 +144,7 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
         {% endif %}
       </div>
       {% endif %}
+
 
       {% if sh.declarations %}
       <div class="shadow-subcard mb-2">
@@ -197,25 +198,21 @@ permalink: "/{{ item.groupSlug }}/{{ item.slug }}/index.html"
 {# Legacy shadow fields removed: now using extended.shadows #}
 
 <div class="d-flex justify-content-between mt-4">
-  {% set items = collections.items | itemsByGroup(item.groupSlug) %}
-  {% set idx = items | findIndexBySlug(item.slug) %}
-  {% set prev = items[idx - 1] %}
-  {% set next = items[idx + 1] %}
+  {%- set items = collections.items | itemsByGroup(item.groupSlug) -%}
+  {%- set idx = items | findIndexBySlug(item.slug) -%}
+  {%- set prev = items[idx - 1] -%}
+  {%- set next = items[idx + 1] -%}
   {# Fallback to global neighbors across groups when at boundaries #}
-  {% if not prev or not next %}
-    {% set all = collections.items %}
-    {% set gidx = all | findIndexBySlug(item.slug) %}
-    {% if not prev %}{% set prev = all[gidx - 1] %}{% endif %}
-    {% if not next %}{% set next = all[gidx + 1] %}{% endif %}
-  {% endif %}
+  {%- if not prev or not next -%}
+    {%- set all = collections.items -%}
+    {%- set gidx = all | findIndexBySlug(item.slug) -%}
+    {%- if not prev %}{% set prev = all[gidx - 1] %}{% endif -%}
+    {%- if not next %}{% set next = all[gidx + 1] %}{% endif -%}
+  {%- endif -%}
   <div>
-  {% if prev %}
-    <a class="btn btn-outline-secondary btn-sm" href="{{ prev.groupSlug }}/{{ prev.slug }}/">← {{ prev.name }}</a>
-  {% endif %}
+  {% if prev %}<a class="btn btn-outline-secondary btn-sm" href="{{ prev.groupSlug }}/{{ prev.slug }}/">← {{ prev.name }}</a>{% endif %}
   </div>
   <div>
-  {% if next %}
-    <a class="btn btn-outline-secondary btn-sm" href="{{ next.groupSlug }}/{{ next.slug }}/">{{ next.name }} →</a>
-  {% endif %}
+  {% if next %}<a class="btn btn-outline-secondary btn-sm" href="{{ next.groupSlug }}/{{ next.slug }}/">{{ next.name }} →</a>{% endif %}
   </div>
 </div>

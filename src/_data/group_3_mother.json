@@ -1,740 +1,598 @@
 {
-    "title": "Mother Archetypes - Completely Revised",
-    "group": "Mother",
-    "slug": "mother",
-    "summary": "Nurture, protect, grow; task = love with boundaries",
-    "essence": "Unconditional love, fierce protection, and nurturing growth; creating safe spaces while maintaining healthy boundaries between giving and self-care.",
-    "items": [
-      {
-        "name": "Mother (Isis, Gaia, Corn Mother, Sedna)",
-        "slug": "mother",
-        "qualities": ["unconditional nurture"],
-        "gifts": "Unconditional love with wise limits; growth, provision.",
-        "growthPath": "Love + limits; empower, don't consume.",
-        "practices": [
-          "\"Am I doing this for them or instead of them?\"",
-          "Empowerment checklist (teach, trust, let go)."
-        ],
-        "extended": {
-          "shadows": [
-            {
-              "name": "Devouring Mother",
-              "type": "active",
-              "description": [
-                "When care devours autonomy, the Mother becomes a love that suffocates rather than liberates. She has confused nurturing with controlling, protection with possession. Her love has become a beautiful cage—she gives so much that others feel guilty for wanting independence, cares so deeply that she can't let anyone struggle or fail or grow through their own mistakes.",
-                "She anticipates needs before they're felt, solves problems before they're experienced, and creates a world so cushioned that no one develops resilience. Her care has become compulsive—she can't stop herself from fixing, helping, organizing others' lives because their pain feels like her failure. She loves by consuming, nurtures by controlling, protects by preventing the very experiences that would help others grow strong."
-              ],
-              "declarations": [
-                "I just want to protect them from making my mistakes",
-                "They need me—I can see they're struggling",
-                "I can't just watch them suffer when I could help",
-                "It's faster if I just do it myself",
-                "I know what's best for them",
-                "They'll understand when they're older that I was just trying to help"
-              ],
-              "balancing": [
-                "I ask 'will this help them grow stronger?' before intervening",
-                "I allow others to struggle and learn from their own mistakes",
-                "I offer support rather than solutions",
-                "I express needs and allow others to choose how to respond",
-                "I practice letting others be responsible for their own lives",
-                "I focus on my own growth instead of managing others'"
-              ],
-              "gift": "When integrated, becomes fierce love that empowers others to become their strongest selves, providing support while honoring autonomy.",
-              "outOfBalance": [
-                "Solves problems others need to solve themselves",
-                "Creates dependency through over-giving",
-                "Can't tolerate others' discomfort or struggle",
-                "Controls through care and concern",
-                "Takes responsibility for others' emotions and outcomes",
-                "Prevents growth by removing all challenges"
-              ]
-            },
-            {
-              "name": "Absent Mother",
-              "type": "passive",
-              "description": [
-                "When autonomy freezes out care, the Mother becomes a distant planet—present but unreachable, available but not accessible. She has confused independence with isolation, self-care with selfishness. Her autonomy has hardened into emotional unavailability—she's so focused on not being the devouring mother that she's forgotten how to be nourishing at all.",
-                "She maintains her boundaries like fortress walls, never letting anyone get close enough to truly need her. Her care has become conditional and calculated—she'll help, but only if asked directly, only if it doesn't inconvenience her, only if she can maintain complete emotional distance. She's present in body but absent in heart, available for logistics but not for connection."
-              ],
-              "declarations": [
-                "They need to learn to be independent",
-                "I'm not responsible for everyone else's emotional needs",
-                "I've learned to put myself first",
-                "They should ask if they need help",
-                "I can't be everything to everyone",
-                "I have my own life to live"
-              ],
-              "balancing": [
-                "I practice small acts of care without being asked",
-                "I allow myself to feel moved by others' needs",
-                "I offer emotional presence, not just practical help",
-                "I share my own vulnerabilities appropriately",
-                "I risk being needed without becoming indispensable",
-                "I balance self-care with generous availability"
-              ],
-              "gift": "When welcomed, provides essential modeling of healthy autonomy and self-respect that teaches others to be whole individuals within relationship.",
-              "outOfBalance": [
-                "Emotionally unavailable despite physical presence",
-                "Uses independence to avoid intimacy",
-                "Withholds care to maintain control",
-                "Responds only to direct requests for help",
-                "Fears being needed or depended upon",
-                "Mistakes emotional distance for healthy boundaries"
-              ]
-            }
-          ],
-          "mature": {
-            "title": "Mature Mother",
-            "paragraphs": [
-              "The Mature Mother embodies love that liberates rather than constrains. She cares deeply while honoring others' autonomy, nurtures growth while allowing struggle, protects while fostering resilience. Her love creates safe space for others to become themselves rather than extensions of her care. She's learned that true mothering empowers rather than enables.",
-              "She gives from overflow rather than obligation, sets boundaries that teach rather than reject, and offers presence that supports without suffocating. Her care is responsive rather than anticipatory—she meets others where they are rather than where she thinks they should be. In her presence, others feel both deeply loved and completely free."
+  "title": "Mother Archetypes",
+  "group": "Mother",
+  "name": "Mother",
+  "slug": "mother",
+  "summary": "Nurture and protection; the task is to sustain life without possessing it.",
+  "essence": "Care that feeds growth, guards what is vulnerable, and strengthens autonomy.",
+  "items": [
+    {
+      "name": "Guardian",
+      "slug": "guardian-buffalo-woman",
+      "qualities": [
+        "protection",
+        "trust"
+      ],
+      "gifts": "The buffalo-woman current: steadfast protection of people, thresholds, and values.",
+      "growthPath": "Protect what is vulnerable while allowing trusted life to cross the threshold.",
+      "practices": [
+        "Define the threat using evidence rather than alarm.",
+        "Name what would earn a gradual increase of trust."
+      ],
+      "extended": {
+        "shadows": [
+          {
+            "name": "Controlling Sentinel",
+            "type": "active",
+            "slug": "rigid-sentinel",
+            "description": [
+              "Protection expands without trust. She scans for danger, restricts others' choices, and treats uncertainty as proof of threat. Those under her care remain safe only by remaining small, dependent, or inside her perimeter."
+            ],
+            "declarations": [
+              "If I relax, harm will enter.",
+              "I know the danger better than you do.",
+              "Freedom is not worth the risk."
+            ],
+            "balancing": [
+              "Separate likely risk from imagined catastrophe.",
+              "Share safety decisions with capable people.",
+              "Test trust through graduated freedom."
+            ],
+            "gift": "Her alertness becomes wise guardianship when it protects capacity instead of replacing it.",
+            "outOfBalance": [
+              "Polices ordinary choices",
+              "Moves boundaries without consent",
+              "Cannot stand down after safety returns"
             ]
           },
-          "declarations": [
-            "I love others while honoring their journey and autonomy",
-            "My care empowers rather than enables dependence", 
-            "I provide safe space for others to grow and make mistakes",
-            "I offer support while respecting others' capacity to handle their lives",
-            "I give from fullness rather than obligation or guilt",
-            "I trust others' ability to learn and grow from their experiences",
-            "My boundaries teach self-respect and mutual care",
-            "I model wholeness while being available for authentic connection"
-          ],
-          "balance": {
-            "balance": "Care ↔ Autonomy",
-            "shadow": "Devouring Mother ↔ Absent Mother",
-            "powerAnimals": "Bear, Cow, Elephant",
-            "qualities": "Nurturing, Steady, Protective, Generous, Patient, Wise, Resilient, Grounded, Empowering, Trustworthy"
-          },
-          "virtues": [
-            {
-              "title": "Care",
-              "quote": "\"Self-care is never a selfish act - it is simply good stewardship of the only gift I have, the gift I was put on earth to offer others.\" — Parker Palmer",
-              "paragraphs": [
-                "Care is the Mother's natural impulse to nurture growth and wellbeing in herself and others. It's love in action—the willingness to tend, protect, and support life in all its forms. This virtue creates the conditions where others can flourish.",
-                "True care is responsive rather than reactive, empowering rather than enabling. It provides what's needed for growth while respecting the recipient's autonomy and capacity. It's care that makes love practical and sustainable."
-              ]
-            },
-            {
-              "title": "Autonomy",
-              "quote": "\"For to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others.\" — Nelson Mandela",
-              "paragraphs": [
-                "Autonomy is the Mother's respect for the individual journey of every person she loves. It's the wisdom that recognizes others must live their own lives, make their own mistakes, and find their own strength. This virtue prevents love from becoming control.",
-                "Healthy autonomy in mothering means supporting others' growth without taking over their process. It trusts that love doesn't require ownership, that care doesn't require control, and that the best way to love someone is to honor their capacity to become themselves."
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "name": "Wife / Nurturer / Hearth Goddess (Hestia, Nephthys)",
-        "slug": "wife-nurturer-hearth-goddess",
-        "qualities": ["domestic stability"],
-        "gifts": "Home as temple; quiet devotion; ennobling support.",
-        "growthPath": "Nurture with boundaries; serve without self-abandonment.",
-        "practices": [
-          "Weekly \"hearth audit\": What nurtures me? What is reciprocal?"
+          {
+            "name": "Open Gate",
+            "type": "passive",
+            "slug": "naive-pushover",
+            "description": [
+              "Protection collapses into trust without discernment. She minimizes warning signs, avoids the discomfort of refusal, and leaves vulnerable people or values exposed. Calling everyone good substitutes sentiment for stewardship."
+            ],
+            "declarations": [
+              "A boundary would be unkind.",
+              "People deserve trust regardless of pattern.",
+              "Naming danger only creates fear."
+            ],
+            "balancing": [
+              "Act on repeated evidence, not promised intent.",
+              "Make one boundary explicit and enforceable.",
+              "Accept that protection may disappoint someone."
+            ],
+            "gift": "Her openness becomes resilient trust when the gate can also close.",
+            "outOfBalance": [
+              "Ignores repeated breaches",
+              "Delegates safety to hope",
+              "Avoids necessary exclusion"
+            ]
+          }
         ],
-        "extended": {
-          "shadows": [
-            {
-              "name": "Martyr Homemaker",
-              "type": "active",
-              "description": [
-                "When hospitality devours boundaries, the Hearth Goddess becomes a beautiful slave to everyone else's comfort. She has confused service with servitude, nurturing with self-erasure. Her hospitality has become compulsive—she can't stop creating perfect environments for others while her own needs wither from neglect. She's the woman who cleans the house before the cleaning lady comes.",
-                "She gives and gives until she's running on fumes, then feels guilty for feeling tired. Her boundaries have dissolved in the acid bath of others' needs and expectations. She's created a home that's a shrine to everyone else's happiness while she disappears into the wallpaper, a ghost in her own sacred space."
-              ],
-              "declarations": [
-                "I just want everyone to be comfortable and happy",
-                "It's easier if I just do it myself",
-                "I don't mind—I like taking care of people",
-                "They work so hard, the least I can do is handle everything else",
-                "I get satisfaction from creating a beautiful home",
-                "Someone has to do it, and I'm good at it"
-              ],
-              "balancing": [
-                "I ask for help with household tasks and delegate regularly",
-                "I schedule time for my own interests and honor it",
-                "I express my needs clearly rather than hoping they'll be noticed",
-                "I let others experience mild discomfort rather than rushing to fix it",
-                "I remember that my wellbeing contributes to the household harmony",
-                "I practice receiving care and attention from others"
-              ],
-              "gift": "When integrated, creates genuinely nourishing environments where everyone feels cared for, including herself.",
-              "outOfBalance": [
-                "Creates perfect environments while neglecting own needs",
-                "Takes responsibility for everyone else's comfort",
-                "Feels guilty for having personal desires or needs",
-                "Uses service to avoid asserting herself",
-                "Becomes invisible in her own home",
-                "Resents others while continuing to over-give"
-              ]
-            },
-            {
-              "name": "Withholding Hostess",
-              "type": "passive",
-              "description": [
-                "When boundaries wall out hospitality, the Hearth Goddess becomes the proprietor of a beautiful but cold museum. She has confused self-protection with stinginess, boundaries with barriers. Her home is perfect but unwelcoming, her care conditional and calculated. She maintains her space like a fortress, where everything is lovely but nothing can be touched.",
-                "She's so focused on protecting her energy and resources that she's forgotten the joy of generous sharing. Her hospitality has become a performance—everything looks perfect for guests, but the warmth has been sanitized out. She gives exactly what's required and no more, maintains exactly the appropriate distance, creates exactly the right impression while her heart grows cold from disuse."
-              ],
-              "declarations": [
-                "I can't be responsible for everyone's entertainment",
-                "I need to maintain my personal space and boundaries",
-                "People should appreciate what I provide without expecting more",
-                "I've learned not to exhaust myself for others",
-                "I have my own life and priorities",
-                "I can't afford to be taken advantage of"
-              ],
-              "balancing": [
-                "I practice one spontaneous act of hospitality each week",
-                "I allow my home to be lived in, not just displayed",
-                "I share resources generously without keeping score",
-                "I invite others into my space with genuine warmth",
-                "I focus on connection over perfection in hosting",
-                "I remember that boundaries serve love, not protect against it"
-              ],
-              "gift": "When welcomed, provides essential wisdom about sustainable hospitality and self-respect that makes welcoming others a joy rather than a burden.",
-              "outOfBalance": [
-                "Creates beautiful but unwelcoming spaces",
-                "Gives the minimum required rather than generous sharing",
-                "Uses perfectionism to maintain distance",
-                "Calculates every act of care",
-                "Prioritizes preserving space over creating connection",
-                "Confuses boundaries with barriers to intimacy"
-              ]
-            }
-          ],
-          "mature": {
-            "title": "Mature Wife/Nurturer/Hearth Goddess",
+        "mature": {
+          "title": "Mature Guardian",
+          "paragraphs": [
+            "The Mature Guardian keeps a living threshold, not a permanent wall. She reads risk accurately, uses the least force necessary, and relaxes protection when conditions change. Her trust is neither automatic nor cynical; it is built through character, repair, and demonstrated capacity."
+          ]
+        },
+        "declarations": [
+          "I guard what is precious without imprisoning it.",
+          "Trust can be earned, tested, and repaired.",
+          "A boundary is an act of stewardship.",
+          "I stand down when protection is no longer needed."
+        ],
+        "balance": {
+          "balance": "Protection ↔ Trust",
+          "shadow": "Controlling Sentinel ↔ Open Gate",
+          "powerAnimals": "Buffalo, Wolf, Bear",
+          "qualities": "Protective, Discerning, Devout, Grounded, Steadfast, Strong, Courageous, Honorable, Patient, Trustworthy"
+        },
+        "virtues": [
+          {
+            "title": "Protection",
             "paragraphs": [
-              "The Mature Hearth Goddess creates home as sanctuary—a space that nourishes everyone, including herself. She understands that true hospitality flows from fullness rather than emptiness, that sustainable care requires self-care. Her boundaries enhance rather than limit her ability to welcome others, creating rhythms of giving and receiving that sustain both her and those she serves.",
-              "She transforms the domestic into the sacred through conscious attention and loving presence. Her home becomes a place of refuge and renewal, her care a source of strength rather than depletion. She models how to create beauty and order that serves life rather than demanding sacrifice."
+              "Protection preserves vulnerable life, values, and thresholds from credible harm."
             ]
           },
-          "declarations": [
-            "I create home as sanctuary for all who dwell here",
-            "My hospitality flows from fullness, not obligation",
-            "I care for myself as lovingly as I care for others",
-            "I transform daily tasks into sacred practices",
-            "I welcome others while honoring my own needs and rhythms",
-            "My boundaries enhance my ability to love and serve",
-            "I ask for help and accept it graciously",
-            "I create beauty and order that serves life and joy"
-          ],
-          "balance": {
-            "balance": "Hospitality ↔ Boundaries",
-            "shadow": "Martyr Homemaker ↔ Withholding Hostess",
-            "powerAnimals": "Cat, Hearth Hound, Wren",
-            "qualities": "Devoted, Warm, Steady, Reciprocal, Boundaried, Simple, Grounded, Gracious, Attentive, Reliable"
-          },
-          "virtues": [
-            {
-              "title": "Hospitality",
-              "quote": "\"What we plant in the soil of contemplation, we shall reap in the harvest of action.\" — Meister Eckhart",
-              "paragraphs": [
-                "Hospitality is the Hearth Goddess's ability to create welcoming space where others can rest, restore, and be nourished. It's the art of making others feel at home, of sharing resources and attention in ways that enhance everyone's wellbeing.",
-                "True hospitality comes from abundance rather than obligation. It's the joy of creating comfort for others, of transforming a house into a home, of making the ordinary sacred through loving attention and generous care."
-              ]
-            },
-            {
-              "title": "Boundaries",
-              "quote": "\"Daring to set boundaries is about having the courage to love ourselves, even when we risk disappointing others.\" — Brené Brown",
-              "paragraphs": [
-                "Boundaries are the Hearth Goddess's wisdom about sustainable care. They protect her ability to give by ensuring she also receives, creating rhythms of rest and renewal that make long-term service possible. These boundaries teach others to honor the sacred space she creates.",
-                "Healthy boundaries in domestic life prevent resentment and burnout. They ensure that creating home remains a joy rather than a burden, that hospitality flows from choice rather than compulsion."
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "name": "Guardian / Buffalo Woman",
-        "slug": "guardian-buffalo-woman",
-        "qualities": ["sacred protection"],
-        "gifts": "Threshold keeper; protects what is sacred.",
-        "growthPath": "Discern what deserves protection; guard with wisdom.",
-        "practices": [
-          "\"Doorframe test\": What enters? What leaves? Name criteria out loud."
-        ],
-        "extended": {
-          "shadows": [
-            {
-              "name": "Rigid Sentinel",
-              "type": "active",
-              "description": [
-                "When protection overwhelms trust, the Guardian becomes a fortress with no doors, a wall that protects by preventing all connection. She has confused vigilance with paranoia, discernment with suspicion. Her protection has become compulsive—she sees threats everywhere, enemies in every stranger, danger in every new experience. She's the guard who shoots first and asks questions never.",
-                "She's created a world so defended that nothing new can enter, nothing spontaneous can occur, nothing organic can grow. Her trust has been murdered by her fear, her openness strangled by her need for control. She protects by preventing life itself, creating safety through suffocation."
-              ],
-              "declarations": [
-                "You can never be too careful these days",
-                "I've seen what happens when people let their guard down",
-                "It's better to be safe than sorry",
-                "People will take advantage if you let them",
-                "I have to protect what's important to me",
-                "Trust has to be earned, not given"
-              ],
-              "balancing": [
-                "I practice discerning between real threats and imagined ones",
-                "I allow safe people into my protected spaces",
-                "I risk small trusts to build confidence in my judgment",
-                "I notice when protection has become isolation",
-                "I remember that some things are worth the risk of loss",
-                "I protect life, not just prevent death"
-              ],
-              "gift": "When tempered, becomes extraordinary wisdom about real threats and authentic protection that serves life rather than preventing it.",
-              "outOfBalance": [
-                "Sees threats where none exist",
-                "Creates barriers that prevent authentic connection",
-                "Uses protection as excuse for isolation",
-                "Rigid rules that don't adapt to changing circumstances",
-                "Focuses on preventing loss rather than nurturing growth",
-                "Becomes the threat she's trying to protect against"
-              ]
-            },
-            {
-              "name": "Naive Pushover",
-              "type": "passive",
-              "description": [
-                "When trust overwhelms protection, the Guardian becomes a doormat with a welcome sign that reads 'please wipe your feet on me.' She has confused openness with doormat syndrome, trust with gullibility. Her protection has atrophied from disuse—she can't recognize red flags, can't say no to boundary violations, can't distinguish between someone who needs help and someone who needs to be avoided.",
-                "She gives access to her sacred spaces to anyone who asks nicely, trusts people who haven't earned it, and excuses behavior that should be confronted. Her trust has become compulsive—she believes every sob story, falls for every manipulation, and takes responsibility for others' poor choices."
-              ],
-              "declarations": [
-                "I don't want to be judgmental or suspicious",
-                "Everyone deserves a chance",
-                "I like to see the good in people",
-                "Maybe they're just having a bad day",
-                "I don't want to be mean or unwelcoming",
-                "They probably didn't mean it that way"
-              ],
-              "balancing": [
-                "I trust my gut feelings about people and situations",
-                "I require consistent behavior before granting deep access",
-                "I practice saying no to requests that don't feel right",
-                "I notice patterns rather than excusing individual incidents",
-                "I protect my energy and resources consciously",
-                "I remember that boundaries protect my ability to love"
-              ],
-              "gift": "When honored, provides essential openness and faith in human goodness that creates space for authentic connection and growth.",
-              "outOfBalance": [
-                "Allows boundary violations to avoid conflict",
-                "Trusts without evidence or consistency",
-                "Makes excuses for others' harmful behavior",
-                "Gives access to sacred spaces too quickly",
-                "Confuses kindness with lack of discernment",
-                "Becomes victim of what she fails to protect against"
-              ]
-            }
-          ],
-          "mature": {
-            "title": "Mature Guardian/Buffalo Woman",
+          {
+            "title": "Trust",
             "paragraphs": [
-              "The Mature Guardian protects what is sacred while remaining open to what is life-giving. She understands that true protection serves growth, not just prevention of harm. Her discernment is calibrated—she can sense real threats while remaining receptive to authentic connection. She creates boundaries that are permeable to love and impermeable to harm.",
-              "She guards the threshold between safe and unsafe, sacred and profane, nourishing and depleting. Her protection is responsive rather than reactive, based on wisdom rather than fear. In her presence, others feel both safe and free, both protected and trusted to handle themselves."
+              "Trust permits relationship, freedom, and mutual reliance where evidence makes them warranted."
             ]
-          },
-          "declarations": [
-            "I protect what is sacred while remaining open to life",
-            "My discernment serves growth, not just prevention of harm",
-            "I create boundaries that are wise, not fearful",
-            "I trust my ability to sense what belongs and what doesn't",
-            "I guard the threshold between nourishing and depleting",
-            "I protect others' freedom as well as their safety",
-            "My vigilance serves love, not fear",
-            "I am both guardian and welcome mat for what serves life"
-          ],
-          "balance": {
-            "balance": "Protection ↔ Trust",
-            "shadow": "Rigid Sentinel ↔ Naive Pushover",
-            "powerAnimals": "Buffalo, Wolf, Bear",
-            "qualities": "Protective, Discerning, Devout, Grounded, Steadfast, Strong, Courageous, Honorable, Patient, Trustworthy"
-          },
-          "virtues": [
-            {
-              "title": "Protection",
-              "quote": "\"The greatest wealth is to live content with little.\" — Plato",
-              "paragraphs": [
-                "Protection is the Guardian's instinct to preserve and defend what is valuable and sacred. It's the fierce love that stands between what matters and what would harm it. This virtue ensures that growth can happen in safety, that the vulnerable can flourish under wise protection.",
-                "True protection serves life rather than preventing it. It creates safe containers for growth, clear boundaries against harm, and wise discernment about what deserves to be guarded and what needs to be released."
-              ]
-            },
-            {
-              "title": "Trust",
-              "quote": "\"The only real valuable thing is intuition.\" — Albert Einstein",
-              "paragraphs": [
-                "Trust is the Guardian's ability to remain open to life's gifts while maintaining wise boundaries. It's the faith that allows connection, the openness that makes protection worthwhile. This virtue ensures that safeguarding doesn't become isolation.",
-                "Healthy trust is earned and given wisely. It recognizes that the goal of protection is not to prevent all risk but to create conditions where life can flourish safely. It's trust that makes protection a service to love rather than a barrier against it."
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "name": "Warrior / Warrioress / Huntress (Sekhmet, Diana)",
-        "slug": "warrior-warrioress-huntress",
-        "qualities": ["fierce protective focus"],
-        "gifts": "Focus, boundary enforcement, swift action.",
-        "growthPath": "Channel aggression constructively; fight for what matters.",
-        "practices": [
-          "\"Single target\" daily; 90-second boundary script (Observe–Impact–Request)."
-        ],
-        "extended": {
-          "shadows": [
-            {
-              "name": "Destructive Berserker",
-              "type": "active",
-              "description": [
-                "When courage devours restraint, the Warrior becomes a wildfire that consumes friend and foe alike. She has confused intensity with effectiveness, force with power. Her courage has become compulsive—she fights everything and everyone, turning every conversation into a battle, every disagreement into a war. She's lost the ability to discern which battles are worth fighting.",
-                "She's addicted to the adrenaline of conflict, the clarity of having an enemy, the simplicity of problems that can be solved with force. Her restraint has been murdered by her rage, her wisdom strangled by her need to win. She destroys relationships in the name of truth, burns bridges in the name of justice, and leaves devastation in her wake while claiming it's all for the greater good."
-              ],
-              "declarations": [
-                "I'm just being honest about what needs to be said",
-                "Someone has to fight for what's right",
-                "I don't have time for people who can't handle the truth",
-                "If they can't take the heat, they shouldn't be in the kitchen",
-                "I'm not going to compromise my principles for anyone",
-                "Sometimes you have to break a few eggs to make an omelet"
-              ],
-              "balancing": [
-                "I pause and count to ten before responding in anger",
-                "I ask 'is this battle worth the relationship?' before engaging",
-                "I practice expressing anger without attacking character",
-                "I choose my battles based on impact, not just principle",
-                "I notice when I'm fighting to feel powerful rather than to create change",
-                "I seek to understand before seeking to be understood"
-              ],
-              "gift": "When channeled, becomes fierce advocacy for justice and protection that creates real positive change without destroying relationships.",
-              "outOfBalance": [
-                "Fights battles that don't need fighting",
-                "Uses force when finesse would be more effective",
-                "Destroys relationships in pursuit of being right",
-                "Confuses aggression with strength",
-                "Addicted to conflict and drama",
-                "Burns everything down and calls it justice"
-              ]
-            },
-            {
-              "name": "Collapsed Victim",
-              "type": "passive",
-              "description": [
-                "When restraint silences courage, the Warrior becomes a sword that's forgotten how to cut. She has confused peace with passivity, restraint with surrender. Her courage has gone underground, emerging only in safe, socially acceptable doses. She's learned to swallow her rage, suppress her power, and apologize for taking up space.",
-                "She watches injustice and does nothing, experiences boundary violations and says nothing, feels her power and hides it behind pleasing smiles and accommodating gestures. Her restraint has become a prison that keeps her small and others unchallenged. She's become a warrior without a cause, a fighter who's forgotten how to fight."
-              ],
-              "declarations": [
-                "I don't want to make waves or cause conflict",
-                "It's not my place to say anything",
-                "I should just let it go and move on",
-                "I don't want to seem aggressive or difficult",
-                "Maybe I'm overreacting",
-                "It's not worth the fight"
-              ],
-              "balancing": [
-                "I practice speaking up for myself in small situations",
-                "I notice when legitimate anger is arising and honor it",
-                "I set boundaries clearly and enforce them consistently",
-                "I remember that my voice and needs matter",
-                "I stand up for others who can't stand up for themselves",
-                "I channel my warrior energy toward causes that matter"
-              ],
-              "gift": "When awakened, provides essential wisdom about choosing battles wisely and fighting with strategy rather than just force.",
-              "outOfBalance": [
-                "Avoids necessary confrontations",
-                "Allows boundary violations to keep peace",
-                "Suppresses legitimate anger and power",
-                "Apologizes for existing and taking up space",
-                "Watches injustice without acting",
-                "Uses restraint to avoid responsibility for change"
-              ]
-            }
-          ],
-          "mature": {
-            "title": "Mature Warrior/Huntress",
-            "paragraphs": [
-              "The Mature Warrior channels her fierce energy with precision and wisdom. She fights for what matters without destroying what she loves. Her courage is seasoned with restraint—she knows when to advance and when to withdraw, when to speak and when to listen, when to stand firm and when to yield. Her power serves justice rather than ego.",
-              "She's learned that true strength protects rather than dominates, that real courage sometimes looks like vulnerability, that the greatest battles are often fought with compassion rather than force. Her warrior energy creates safety for others to be themselves while maintaining clear boundaries about what behavior she will and won't accept."
-            ]
-          },
-          "declarations": [
-            "I fight for what matters with wisdom and precision",
-            "My courage serves justice, not ego or dominance",
-            "I choose battles that create positive change",
-            "I protect others while honoring their autonomy",
-            "I express anger constructively rather than destructively",
-            "I stand firm in my values while remaining open to growth",
-            "My strength creates safety, not fear",
-            "I balance fierce protection with compassionate understanding"
-          ],
-          "balance": {
-            "balance": "Courage ↔ Restraint",
-            "shadow": "Destructive Berserker ↔ Collapsed Victim",
-            "powerAnimals": "Wolf, Hawk, Jaguar",
-            "qualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Precise, Fierce"
-          },
-          "virtues": [
-            {
-              "title": "Courage",
-              "quote": "\"Courage is not the absence of fear, but action in spite of it.\" — Mark Twain",
-              "paragraphs": [
-                "Courage is the Warrior's willingness to face what must be faced, fight what must be fought, and stand for what must be protected. It's the force that moves her toward justice even when the odds are against her, that speaks truth even when it's unwelcome.",
-                "True courage serves something greater than self-interest. It's courage that protects the vulnerable, challenges injustice, and creates change even when the personal cost is high. It's what makes the warrior a force for good rather than just force."
-              ]
-            },
-            {
-              "title": "Restraint",
-              "quote": "\"He who controls others may be powerful, but he who has mastered himself is mightier still.\" — Lao Tzu",
-              "paragraphs": [
-                "Restraint is the Warrior's wisdom about when and how to use her power. It's the discernment that distinguishes between necessary battles and ego battles, between protective force and destructive aggression. This virtue makes her strength trustworthy rather than threatening.",
-                "Healthy restraint doesn't suppress the warrior's power but channels it wisely. It ensures that her courage serves justice rather than dominance, that her battles create positive change rather than just destruction."
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "name": "Weaver / Community Goddess",
-        "slug": "weaver-community-goddess",
-        "qualities": ["sacred interdependence"],
-        "gifts": "Sacred interdependence; collaborative wisdom; community building.",
-        "growthPath": "Balance autonomy with connection; give and receive with equal grace.",
-        "practices": [
-          "Ask for help weekly; practice saying no with kindness; collaboration projects."
-        ],
-        "extended": {
-          "shadows": [
-            {
-              "name": "Manipulative Networker",
-              "type": "active",
-              "description": [
-                "When inclusion devours accountability, the Community Goddess becomes a social spider who weaves webs to catch flies rather than build community. She has confused connection with collection, networking with manipulation. Her inclusion has become compulsive—she must know everyone, be invited to everything, have her finger in every pie. She's lost the ability to distinguish between authentic community and social acquisition.",
-                "She manages relationships like a stock portfolio, collecting people for what they can provide rather than who they are. Her community-building has become empire-building—she creates networks that serve her agenda while making others feel like they're part of something meaningful. She's the social butterfly who leaves everyone feeling somehow used, even while they're grateful for the introduction."
-              ],
-              "declarations": [
-                "I just love bringing people together",
-                "I know someone who could really help you with that",
-                "It's all about who you know in this business",
-                "I try to be a connector for everyone",
-                "I have contacts everywhere",
-                "You should really meet my friend who does exactly that"
-              ],
-              "balancing": [
-                "I build relationships for mutual benefit, not personal gain",
-                "I connect people without expecting anything in return",
-                "I ask what others need instead of assuming I know",
-                "I participate in community as member, not manager",
-                "I practice deep friendship over wide networking",
-                "I notice when I'm collecting people versus connecting with them"
-              ],
-              "gift": "When integrated, becomes genuine gift for creating meaningful connections and building communities where everyone can thrive.",
-              "outOfBalance": [
-                "Uses relationships as strategic resources",
-                "Creates networks that primarily serve her agenda",
-                "Manages people's social lives without permission",
-                "Collects contacts rather than building friendships",
-                "Makes everything about networking opportunities",
-                "Leaves others feeling somehow used despite grateful feelings"
-              ]
-            },
-            {
-              "name": "Isolated Helper",
-              "type": "passive",
-              "description": [
-                "When accountability walls out inclusion, the Community Goddess becomes a helpful hermit who serves others while avoiding real intimacy. She has confused independence with isolation, accountability with emotional unavailability. Her inclusion has withered from fear—she'll help anyone with anything, but don't ask her to actually be vulnerable or need anything herself.",
-                "She's the person everyone calls when they need something practical but no one calls when they need emotional support, because she's made it clear that she's not available for that kind of messiness. Her community work has become a way to connect without connecting, to be useful without being known."
-              ],
-              "declarations": [
-                "I prefer to be helpful rather than needy",
-                "I like to be the one people can count on",
-                "I don't really need much from others",
-                "I'm better at giving than receiving",
-                "I keep my personal problems to myself",
-                "I don't want to burden others with my issues"
-              ],
-              "balancing": [
-                "I practice asking for help with small things",
-                "I share my struggles as well as my successes",
-                "I allow others to care for me emotionally, not just practically",
-                "I participate in community as a whole person, not just a helper",
-                "I notice when service has become a way to avoid intimacy",
-                "I remember that vulnerability creates deeper connections than competence"
-              ],
-              "gift": "When welcomed, provides essential modeling of healthy boundaries and reliable service that makes community sustainable.",
-              "outOfBalance": [
-                "Serves others while avoiding real intimacy",
-                "Uses helpfulness to maintain emotional distance",
-                "Participates in community without being known",
-                "Gives practically but not emotionally",
-                "Avoids needing others to maintain sense of control",
-                "Creates one-way relationships based on utility"
-              ]
-            }
-          ],
-          "mature": {
-            "title": "Mature Weaver/Community Goddess",
-            "paragraphs": [
-              "The Mature Weaver creates authentic community through the balance of generous inclusion and wise accountability. She understands that healthy community requires both welcome and boundaries, both support and responsibility. Her networks are woven from genuine care rather than strategic positioning, creating connections that serve mutual flourishing rather than personal agenda.",
-              "She participates as a whole person—both giver and receiver, both leader and follower, both strong and vulnerable. Her community-building creates spaces where everyone can contribute their gifts while being supported in their growth. She models interdependence rather than either independence or dependence."
-            ]
-          },
-          "declarations": [
-            "I create community through authentic connection and mutual care",
-            "I participate fully—both giving and receiving in relationships",
-            "I build networks that serve collective flourishing",
-            "I welcome others while maintaining healthy boundaries",
-            "I show up as my whole self, not just my helpful self",
-            "I trust in the wisdom and strength of interdependence",
-            "I create spaces where everyone can both contribute and be supported",
-            "I weave connections that honor individual autonomy within community"
-          ],
-          "balance": {
-            "balance": "Inclusion ↔ Accountability",
-            "shadow": "Manipulative Networker ↔ Isolated Helper",
-            "powerAnimals": "Spider, Ant, Dolphin",
-            "qualities": "Collaborative, Relational, Generous, Inclusive, Reciprocal, Attentive, Harmonizing, Strategic, Resilient, Joyful"
-          },
-          "virtues": [
-            {
-              "title": "Inclusion",
-              "quote": "\"Diversity is about embracing one another's uniqueness.\" — Ola Joseph",
-              "paragraphs": [
-                "Inclusion is the Weaver's ability to create space where everyone can belong and contribute. It's the generous spirit that welcomes others into community, that sees the gifts each person brings, that creates circles wide enough to hold difference and strong enough to support growth.",
-                "True inclusion builds bridges across difference while maintaining the integrity of what makes community valuable. It's inclusion that creates the conditions where authentic diversity can flourish."
-              ]
-            },
-            {
-              "title": "Accountability",
-              "quote": "\"You have power over your mind - not outside events. Realize this, and you will find strength.\" — Marcus Aurelius",
-              "paragraphs": [
-                "Accountability is the Weaver's commitment to mutual responsibility within community. It's the recognition that healthy relationships require both freedom and commitment, both support and expectations. This virtue ensures that inclusion doesn't become enabling.",
-                "Healthy accountability creates clear agreements about how community members will treat each other, what behaviors support the collective good, and how conflicts will be resolved. It makes inclusion sustainable by ensuring it serves growth rather than just comfort."
-              ]
-            }
-          ]
-        }
-      },
-      {
-        "name": "Peacemaker / Peace Bringer (Whope)",
-        "slug": "peacemaker-peace-bringer",
-        "qualities": ["harmony for family/community"],
-        "gifts": "Harmony, repair, reconciliation.",
-        "growthPath": "Peace through truth; harmony after honesty.",
-        "practices": [
-          "Conflict hygiene: name needs + non-negotiables."
-        ],
-        "extended": {
-          "shadows": [
-            {
-              "name": "Conflict Avoider",
-              "type": "active",
-              "description": [
-                "When harmony devours justice, the Peacemaker becomes a beautiful bandage over festering wounds. She has confused peace with the absence of conflict, harmony with the suppression of truth. Her harmony has become compulsive—she smooths over every rough edge, deflects every difficult conversation, and maintains artificial calm while real problems rot beneath the surface.",
-                "She's addicted to being the peacemaker, the one who can make everything okay, the one who never adds to the drama. Her justice has been murdered by her need for everyone to get along. She creates false peace through denial, fake harmony through avoidance, and apparent calm through enabling dysfunction."
-              ],
-              "declarations": [
-                "Can't we all just get along?",
-                "I hate conflict—it makes everyone uncomfortable",
-                "Let's just focus on the positive",
-                "There's no point in rehashing old problems",
-                "I'm sure they didn't mean it that way",
-                "We should just move on and put this behind us"
-              ],
-              "balancing": [
-                "I address conflicts early before they become big problems",
-                "I speak truthfully even when it might create temporary discomfort",
-                "I distinguish between peace and avoiding difficult conversations",
-                "I remember that real harmony requires addressing real problems",
-                "I stop trying to manage everyone else's emotions",
-                "I allow others to experience the consequences of their choices"
-              ],
-              "gift": "When integrated, creates genuine peace through addressing problems honestly and finding solutions that serve everyone's needs.",
-              "outOfBalance": [
-                "Suppresses necessary conflicts to maintain false peace",
-                "Enables dysfunction in the name of harmony",
-                "Avoids difficult conversations that could solve problems",
-                "Takes responsibility for everyone else's emotional state",
-                "Creates artificial calm while real issues fester",
-                "Confuses peace with the absence of tension"
-              ]
-            },
-            {
-              "name": "Righteous Judge",
-              "type": "passive",
-              "description": [
-                "When justice silences harmony, the Peacemaker becomes a cold tribunal that values being right over being connected. She has confused truth with harshness, justice with punishment. Her harmony has been murdered by her righteousness—she's so focused on what's fair and right that she's forgotten about what's healing and connecting.",
-                "She's become the moral police of her relationships, keeping score of who owes what to whom, who was wrong when, who should apologize for what. Her justice has become a weapon that cuts rather than heals, that separates rather than reconciles. She's right about everything and connected to no one."
-              ],
-              "declarations": [
-                "I'm just pointing out the facts",
-                "Someone has to be willing to tell the truth around here",
-                "I can't pretend everything is fine when it's not",
-                "They need to take responsibility for what they did",
-                "I'm not going to sugarcoat reality",
-                "Justice is more important than keeping everyone comfortable"
-              ],
-              "balancing": [
-                "I speak truth with kindness and compassion",
-                "I focus on solutions rather than just identifying problems",
-                "I remember that being right isn't more important than being connected",
-                "I practice forgiveness as well as accountability",
-                "I look for win-win solutions rather than just fair ones",
-                "I lead with curiosity about others' perspectives before asserting my own"
-              ],
-              "gift": "When welcomed, provides essential commitment to truth and fairness that prevents peace from becoming enabling of harmful behavior.",
-              "outOfBalance": [
-                "Values being right over being connected",
-                "Uses truth as a weapon rather than a tool for healing",
-                "Focuses on punishment rather than restoration",
-                "Keeps score in relationships",
-                "Harsh in delivery of difficult truths",
-                "Rigid about fairness without consideration for compassion"
-              ]
-            }
-          ],
-          "mature": {
-            "title": "Mature Peacemaker/Peace Bringer",
-            "paragraphs": [
-              "The Mature Peacemaker creates true peace through the integration of harmony and justice. She understands that lasting peace requires addressing real problems, not avoiding them, and that genuine harmony emerges from honest communication and fair resolution. Her peacemaking serves healing rather than just comfort.",
-              "She can hold space for difficult conversations while maintaining compassion for all parties. Her approach to conflict is both truthful and kind, both firm and gentle. She creates peace that includes everyone rather than peace that requires someone to be silent or invisible."
-            ]
-          },
-          "declarations": [
-            "I create true peace through honest communication and fair resolution",
-            "I address conflicts with both truth and compassion",
-            "I seek solutions that honor everyone's needs and dignity",
-            "I hold space for difficult conversations with love and patience",
-            "I distinguish between harmony and avoidance of necessary tensions",
-            "I build bridges while maintaining clear boundaries",
-            "I restore relationships through accountability and forgiveness",
-            "I create peace that includes rather than excludes"
-          ],
-          "balance": {
-            "balance": "Harmony ↔ Justice",
-            "shadow": "Conflict Avoider ↔ Righteous Judge",
-            "powerAnimals": "Dove, Elephant, Lamb",
-            "qualities": "Calm, Courageous, Honest, Restorative, Listening, Fair, Bridging, Patient, Rooted, Compassionate"
-          },
-          "virtues": [
-            {
-              "title": "Harmony",
-              "quote": "\"Where there is love, there is harmony.\" — Anonymous",
-              "paragraphs": [
-                "Harmony is the Peacemaker's vision of how relationships and communities can function when everyone's needs are met and conflicts are resolved with wisdom. It's the art of creating environments where people can coexist peacefully and productively.",
-                "True harmony doesn't suppress difference but orchestrates it. Like music, it creates beauty through the skillful combination of distinct elements. It's harmony that makes peace sustainable and relationships nourishing."
-              ]
-            },
-            {
-              "title": "Justice",
-              "quote": "\"If you want to go fast, go alone. If you want to go far, go together.\" — African Proverb",
-              "paragraphs": [
-                "Justice is the Peacemaker's commitment to fairness, truth, and accountability. It's the recognition that lasting peace requires addressing real problems, that harmony built on denial is ultimately fragile and temporary.",
-                "Healthy justice in peacemaking ensures that resolution serves everyone's wellbeing, not just those with the most power or the loudest voices. It creates peace with integrity rather than peace through suppression."
-              ]
-            }
-          ]
-        }
+          }
+        ]
       }
-    ]
-  }
-
-
-
-  
+    },
+    {
+      "name": "Mother",
+      "slug": "mother",
+      "qualities": [
+        "nurture",
+        "autonomy"
+      ],
+      "gifts": "Nurture that protects dependence while preparing it to grow beyond her.",
+      "growthPath": "Give what sustains life, then make room for life to develop its own strength.",
+      "practices": [
+        "Ask whether the moment calls for comfort, help, or space.",
+        "Let a loved one complete an age-appropriate struggle."
+      ],
+      "extended": {
+        "shadows": [
+          {
+            "name": "Engulfing Mother",
+            "type": "active",
+            "slug": "devouring-mother",
+            "description": [
+              "Nurture overrides autonomy. She anticipates needs, prevents difficulty, and keeps herself central to another's functioning. Protection becomes possession when growth is treated as rejection or danger."
+            ],
+            "declarations": [
+              "No one will care for you as I do.",
+              "Your struggle means I have failed.",
+              "Being needed is how I know I matter."
+            ],
+            "balancing": [
+              "Wait for a request before stepping in.",
+              "Celebrate competence that makes you less necessary.",
+              "Build identity and support beyond caregiving."
+            ],
+            "gift": "Her vigilance becomes a secure base when it protects development rather than dependence.",
+            "outOfBalance": [
+              "Solves before being asked",
+              "Treats separation as disloyalty",
+              "Undermines others' competence"
+            ]
+          },
+          {
+            "name": "Unavailable Mother",
+            "type": "passive",
+            "slug": "absent-mother",
+            "description": [
+              "Nurture collapses while autonomy becomes premature self-sufficiency. She withholds comfort, provision, or protection and calls the resulting loneliness resilience. Need is treated as weakness because responding might expose her own limits or longing."
+            ],
+            "declarations": [
+              "They need to learn the hard way.",
+              "Comfort only creates dependence.",
+              "I cannot be responsible for every feeling."
+            ],
+            "balancing": [
+              "Respond to the need that actually exists.",
+              "Offer dependable care without demanding gratitude.",
+              "Repair absences instead of defending them."
+            ],
+            "gift": "Her respect for independence becomes empowering care when it is built on reliable connection.",
+            "outOfBalance": [
+              "Minimizes legitimate dependency",
+              "Withdraws during distress",
+              "Provides freedom without support"
+            ]
+          }
+        ],
+        "mature": {
+          "title": "Mature Mother",
+          "paragraphs": [
+            "The Mature Mother offers a secure base and an open gate. She notices real dependency, gives proportionate care, and gradually transfers responsibility as capacity grows. Her love can survive being less needed because its purpose is the flourishing of the life entrusted to her."
+          ]
+        },
+        "declarations": [
+          "I nourish growth that will not belong to me.",
+          "Care and freedom can increase together.",
+          "I can be needed without making need permanent.",
+          "I protect vulnerability and welcome emerging strength."
+        ],
+        "balance": {
+          "balance": "Nurture ↔ Autonomy",
+          "shadow": "Engulfing Mother ↔ Unavailable Mother",
+          "powerAnimals": "Bear, Cow, Elephant",
+          "qualities": "Nurturing, Steady, Protective, Generous, Patient, Wise, Resilient, Grounded, Empowering, Trustworthy"
+        },
+        "virtues": [
+          {
+            "title": "Nurture",
+            "paragraphs": [
+              "Nurture supplies the attention, protection, and resources on which life depends."
+            ]
+          },
+          {
+            "title": "Autonomy",
+            "paragraphs": [
+              "Autonomy honors the other as a distinct person capable of choice, struggle, and development."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Peacemaker",
+      "slug": "peacemaker-peace-bringer",
+      "qualities": [
+        "reconciliation",
+        "confrontation"
+      ],
+      "gifts": "The peace-bringer current: reconciliation that can survive honest conflict.",
+      "growthPath": "Seek a peace that includes the truth, not merely the end of visible tension.",
+      "practices": [
+        "Name the conflict in one neutral sentence before mediating it.",
+        "Ask whose cost is hidden by the current calm."
+      ],
+      "extended": {
+        "shadows": [
+          {
+            "name": "Peace Enforcer",
+            "type": "active",
+            "slug": "conflict-avoider",
+            "description": [
+              "Reconciliation becomes intrusive without confrontation. She pressures forgiveness, edits anger, and restores surface calm before harm has been named. Her mediation protects the comfort of the room more than the people carrying the injury."
+            ],
+            "declarations": [
+              "We need to move past this now.",
+              "Anger only makes things worse.",
+              "Both sides must be equally responsible."
+            ],
+            "balancing": [
+              "Let the injured person set the pace of repair.",
+              "Name asymmetry and harm plainly.",
+              "Tolerate unresolved tension without forcing reunion."
+            ],
+            "gift": "Her gift for common ground becomes restorative leadership when truth is allowed to disturb the peace.",
+            "outOfBalance": [
+              "Rushes forgiveness",
+              "Neutralizes legitimate anger",
+              "Equates calm with safety"
+            ]
+          },
+          {
+            "name": "Resentful Bystander",
+            "type": "passive",
+            "slug": "righteous-judge",
+            "description": [
+              "Reconciliation collapses as confrontation is avoided rather than used. She withdraws, keeps a private ledger, and lets conflict harden into moral distance. Silence appears peaceful while relationship decays from the absence of an honest encounter."
+            ],
+            "declarations": [
+              "Speaking will only create more conflict.",
+              "They should know what they did.",
+              "Distance is the mature response."
+            ],
+            "balancing": [
+              "Make one direct, bounded statement of impact.",
+              "Request a specific repair rather than rehearsing blame.",
+              "Allow a difficult answer to remain part of relationship."
+            ],
+            "gift": "Her sensitivity to tension becomes patient timing when it eventually serves contact.",
+            "outOfBalance": [
+              "Withholds grievances",
+              "Punishes through distance",
+              "Waits for mind-reading"
+            ]
+          }
+        ],
+        "mature": {
+          "title": "Mature Peacemaker",
+          "paragraphs": [
+            "The Mature Peacemaker knows that conflict and peace are stages of the same repair. She can slow escalation, protect the vulnerable, name what happened, and invite responsibility without predetermining reunion. The peace she serves is not compulsory closeness but restored truth, safety, and choice."
+          ]
+        },
+        "declarations": [
+          "I do not purchase calm with silence.",
+          "Truth can be spoken without contempt.",
+          "Repair cannot be forced, but it can be invited.",
+          "Peace returns choice to everyone affected."
+        ],
+        "balance": {
+          "balance": "Reconciliation ↔ Confrontation",
+          "shadow": "Peace Enforcer ↔ Resentful Bystander",
+          "powerAnimals": "Dove, Elephant, Lamb",
+          "qualities": "Calm, Courageous, Honest, Restorative, Listening, Fair, Bridging, Patient, Rooted, Compassionate"
+        },
+        "virtues": [
+          {
+            "title": "Reconciliation",
+            "paragraphs": [
+              "Reconciliation rebuilds workable relationship after truth and responsibility have had their place."
+            ]
+          },
+          {
+            "title": "Confrontation",
+            "paragraphs": [
+              "Confrontation turns toward a real conflict directly enough for change to become possible."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warrior",
+      "slug": "warrior-warrioress-huntress",
+      "qualities": [
+        "ferocity",
+        "restraint"
+      ],
+      "gifts": "The huntress current: focused ferocity in defense of life and purpose.",
+      "growthPath": "Mobilize force cleanly, then stop when the work is done.",
+      "practices": [
+        "Define the objective and the stopping condition before conflict.",
+        "Discharge activation through breath and movement after action."
+      ],
+      "extended": {
+        "shadows": [
+          {
+            "name": "Rampaging Warrior",
+            "type": "active",
+            "slug": "destructive-berserker",
+            "description": [
+              "Ferocity breaks restraint and begins serving its own momentum. She escalates, humiliates, or keeps fighting after the boundary is secure, turning a just cause into permission for domination. Victory matters more than the life she meant to defend."
+            ],
+            "declarations": [
+              "Only overwhelming force will make them understand.",
+              "Backing down is weakness.",
+              "My cause justifies my impact."
+            ],
+            "balancing": [
+              "Use force proportionate to the present threat.",
+              "Set and honor a clear stopping condition.",
+              "Repair harm that was not necessary to the aim."
+            ],
+            "gift": "Her fire becomes decisive courage when it remains governed by purpose.",
+            "outOfBalance": [
+              "Escalates after the threat ends",
+              "Dehumanizes opponents",
+              "Treats intensity as moral proof"
+            ]
+          },
+          {
+            "name": "Disarmed Warrior",
+            "type": "passive",
+            "slug": "collapsed-victim",
+            "description": [
+              "Ferocity collapses and restraint becomes inhibition. She cannot access anger, defend a boundary, or pursue a difficult aim because force itself feels dangerous. The body knows a no that the voice will not deliver."
+            ],
+            "declarations": [
+              "Conflict will make me cruel.",
+              "Endurance is more virtuous than resistance.",
+              "Someone stronger should intervene."
+            ],
+            "balancing": [
+              "Practice a direct no at low stakes.",
+              "Let anger identify what needs protection.",
+              "Take one concrete action before seeking consensus."
+            ],
+            "gift": "Her caution becomes disciplined strength when it can mobilize on behalf of what matters.",
+            "outOfBalance": [
+              "Freezes under violation",
+              "Apologizes for firm limits",
+              "Abandons aims at resistance"
+            ]
+          }
+        ],
+        "mature": {
+          "title": "Mature Warrior",
+          "paragraphs": [
+            "The Mature Warrior has access to force without being possessed by it. She chooses worthy aims, trains for competence, acts in proportion, and remembers the humanity of everyone involved. Her restraint is not timidity; it is what makes her ferocity precise and trustworthy."
+          ]
+        },
+        "declarations": [
+          "My fire answers to purpose.",
+          "I can be fierce without becoming cruel.",
+          "I defend a boundary and stop when it holds.",
+          "Restraint concentrates my strength."
+        ],
+        "balance": {
+          "balance": "Ferocity ↔ Restraint",
+          "shadow": "Rampaging Warrior ↔ Disarmed Warrior",
+          "powerAnimals": "Wolf, Hawk, Jaguar",
+          "qualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Precise, Fierce"
+        },
+        "virtues": [
+          {
+            "title": "Ferocity",
+            "paragraphs": [
+              "Ferocity mobilizes concentrated energy against a real obstacle or threat."
+            ]
+          },
+          {
+            "title": "Restraint",
+            "paragraphs": [
+              "Restraint governs timing, proportion, and cessation so force remains in service."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Community Weaver",
+      "slug": "weaver-community-goddess",
+      "qualities": [
+        "belonging",
+        "accountability"
+      ],
+      "gifts": "The community-goddess current: creating durable belonging across difference.",
+      "growthPath": "Connect people without trading truth, consent, or standards for cohesion.",
+      "practices": [
+        "Make introductions with permission and a clear purpose.",
+        "Name one tension directly before trying to restore belonging."
+      ],
+      "extended": {
+        "shadows": [
+          {
+            "name": "Enmeshing Networker",
+            "type": "active",
+            "slug": "manipulative-networker",
+            "description": [
+              "Belonging outruns accountability. She brokers closeness, loyalty, and information to stay central, smoothing over harm when truth might divide the group. Connection becomes a web that is difficult to leave without social cost."
+            ],
+            "declarations": [
+              "Everyone should be included on my terms.",
+              "Naming harm would fracture the circle.",
+              "I know who needs to be connected."
+            ],
+            "balancing": [
+              "Ask consent before sharing stories or contacts.",
+              "Let relationships exist without your mediation.",
+              "Address harm even when cohesion becomes uncertain."
+            ],
+            "gift": "Her social intelligence becomes connective stewardship when people remain free inside the network.",
+            "outOfBalance": [
+              "Triangulates through private information",
+              "Protects insiders from consequence",
+              "Makes herself the relational hub"
+            ]
+          },
+          {
+            "name": "Isolated Helper",
+            "type": "passive",
+            "slug": "isolated-helper",
+            "description": [
+              "Belonging withdraws behind accountability turned self-sufficiency. She contributes tasks and standards but does not risk mutual need, using usefulness as a substitute for membership. Others can rely on her labor yet cannot know or support her."
+            ],
+            "declarations": [
+              "I belong through what I provide.",
+              "Need would compromise my independence.",
+              "Groups always become messy."
+            ],
+            "balancing": [
+              "Ask the community for one concrete form of support.",
+              "Share experience, not only expertise.",
+              "Remain present through a repairable disappointment."
+            ],
+            "gift": "Her independence becomes dependable contribution when it participates in reciprocal belonging.",
+            "outOfBalance": [
+              "Serves without receiving",
+              "Leaves at ordinary conflict",
+              "Uses critique to remain outside"
+            ]
+          }
+        ],
+        "mature": {
+          "title": "Mature Community Weaver",
+          "paragraphs": [
+            "The Mature Community Weaver builds connection sturdy enough for truth. She notices who is absent, links gifts to needs, and creates norms that protect both belonging and consequence. She does not make herself indispensable; a healthy web can redistribute load and survive her stepping back."
+          ]
+        },
+        "declarations": [
+          "Belonging does not require secrecy or sameness.",
+          "I connect people without owning their bonds.",
+          "Accountability can restore the web.",
+          "I participate as a member, not only a helper."
+        ],
+        "balance": {
+          "balance": "Belonging ↔ Accountability",
+          "shadow": "Enmeshing Networker ↔ Isolated Helper",
+          "powerAnimals": "Spider, Ant, Dolphin",
+          "qualities": "Collaborative, Relational, Generous, Inclusive, Reciprocal, Attentive, Harmonizing, Strategic, Resilient, Joyful"
+        },
+        "virtues": [
+          {
+            "title": "Belonging",
+            "paragraphs": [
+              "Belonging creates mutual recognition, participation, and a felt place in the whole."
+            ]
+          },
+          {
+            "title": "Accountability",
+            "paragraphs": [
+              "Accountability makes relationship answerable to agreements, impact, and repair."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hearth Keeper",
+      "slug": "wife-nurturer-hearth-goddess",
+      "qualities": [
+        "hospitality",
+        "privacy"
+      ],
+      "gifts": "The hearth-goddess current: warmth, continuity, and reciprocal domestic care.",
+      "growthPath": "Make welcome without making endless availability the price of belonging.",
+      "practices": [
+        "State the limits of an invitation before resentment does.",
+        "Receive one act of care without managing how it is given."
+      ],
+      "extended": {
+        "shadows": [
+          {
+            "name": "Martyr Host",
+            "type": "active",
+            "slug": "martyr-homemaker",
+            "description": [
+              "Hospitality consumes privacy. She makes herself continually available, monitors everyone's comfort, and hides her needs until resentment leaks through service. The home looks welcoming but depends on one person having no protected interior life."
+            ],
+            "declarations": [
+              "A good home asks nothing of its guests.",
+              "Rest can wait until everyone is content.",
+              "They should notice all I do without being told."
+            ],
+            "balancing": [
+              "Name capacity before offering care.",
+              "Let household labor be visible and shared.",
+              "Protect time and space that are not communal."
+            ],
+            "gift": "Her devotion becomes sustaining warmth when welcome includes the host.",
+            "outOfBalance": [
+              "Overfunctions and keeps score",
+              "Makes unspoken sacrifices",
+              "Treats privacy as selfishness"
+            ]
+          },
+          {
+            "name": "Closed Hearth",
+            "type": "passive",
+            "slug": "withholding-hostess",
+            "description": [
+              "Hospitality goes cold as privacy becomes exclusion. She protects order, energy, or intimacy by making others feel like intruders. The hearth remains pristine but cannot perform its purpose of sheltering real, imperfect life."
+            ],
+            "declarations": [
+              "Other people disturb the peace I built.",
+              "I can connect without opening my space.",
+              "Needs are an invasion."
+            ],
+            "balancing": [
+              "Offer one clear, bounded welcome.",
+              "Allow shared space to bear signs of use.",
+              "Communicate a limit without withdrawing affection."
+            ],
+            "gift": "Her inwardness becomes restorative sanctuary when it can open and close deliberately.",
+            "outOfBalance": [
+              "Makes belonging conditional on tidiness",
+              "Withholds ordinary welcome",
+              "Uses the home to avoid relationship"
+            ]
+          }
+        ],
+        "mature": {
+          "title": "Mature Hearth Keeper",
+          "paragraphs": [
+            "The Mature Hearth Keeper creates places where bodies settle and belonging becomes tangible. She tends rhythm, beauty, food, and rest while preserving privacy and distributing labor. Her hearth has a door: it can welcome generously, close cleanly, and reopen without guilt."
+          ]
+        },
+        "declarations": [
+          "My welcome has shape and limits.",
+          "Care for the hearth includes care for its keeper.",
+          "Privacy renews my capacity for hospitality.",
+          "Belonging is made together."
+        ],
+        "balance": {
+          "balance": "Hospitality ↔ Privacy",
+          "shadow": "Martyr Host ↔ Closed Hearth",
+          "powerAnimals": "Cat, Hearth Hound, Wren",
+          "qualities": "Devoted, Warm, Steady, Reciprocal, Boundaried, Simple, Grounded, Gracious, Attentive, Reliable"
+        },
+        "virtues": [
+          {
+            "title": "Hospitality",
+            "paragraphs": [
+              "Hospitality makes room for another person's body, needs, and presence."
+            ]
+          },
+          {
+            "title": "Privacy",
+            "paragraphs": [
+              "Privacy preserves inward space, rest, and the intimate boundaries of a household."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

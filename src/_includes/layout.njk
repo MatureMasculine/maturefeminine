@@ -45,7 +45,7 @@
                     {% if item.extended and item.extended.shadows %}
                     <ul class="list-unstyled ms-3 mt-1">
                       {% for sh in item.extended.shadows %}
-                        {% set shadowSlug = sh.name | slug %}
+                        {% set shadowSlug = sh.slug or (sh.name | slug) %}
                         <li class="nav-item nav-shadow" data-name="{{ (sh.name or '') | lower }}" data-qualities="{{ (sh.qualities or '') | lower }}">
                           <a class="text-decoration-none small" href="{{ group.slug }}/{{ item.slug }}/#shadow-{{ shadowSlug }}">{{ sh.name }}</a>
                         </li>

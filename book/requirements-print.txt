@@ -1,0 +1,2 @@
+# The generator uses only the Python standard library.
+# Install the LaTeX prerequisites listed in book/README.md.

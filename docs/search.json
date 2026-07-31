@@ -7,47 +7,9 @@
           "type": "item",
           "group": "Maiden",
           "groupSlug": "maiden",
-          "name": "Maiden",
-          "slug": "maiden",
-          "qualities": ["new beginnings"],
-          "href": "/maiden/maiden/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Maiden",
-              "groupSlug": "maiden",
-              "name": "Cunning Innocent",
-              "slug": "maiden",
-              "qualities": "",
-              "href": "/maiden/maiden/#shadow-manipulative-maiden"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Maiden",
-              "groupSlug": "maiden",
-              "name": "Paralyzed Perfectionist",
-              "slug": "maiden",
-              "qualities": "",
-              "href": "/maiden/maiden/#shadow-fragile-maiden"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Maiden",
-          "groupSlug": "maiden",
-          "name": "Adventurer / Storm (Tempest)",
+          "name": "Adventurer",
           "slug": "adventurer-storm-tempest",
-          "qualities": ["freedom","risk"],
+          "qualities": ["daring","prudence"],
           "href": "/maiden/adventurer-storm-tempest/"
         }
         
@@ -58,7 +20,7 @@
               "type": "shadow",
               "group": "Maiden",
               "groupSlug": "maiden",
-              "name": "Reckless Tornado",
+              "name": "Reckless Wanderer",
               "slug": "adventurer-storm-tempest",
               "qualities": "",
               "href": "/maiden/adventurer-storm-tempest/#shadow-reckless-storm"
@@ -70,7 +32,7 @@
               "type": "shadow",
               "group": "Maiden",
               "groupSlug": "maiden",
-              "name": "Frozen Wanderer",
+              "name": "Sheltered Dreamer",
               "slug": "adventurer-storm-tempest",
               "qualities": "",
               "href": "/maiden/adventurer-storm-tempest/#shadow-paralyzed-dreamer"
@@ -83,9 +45,47 @@
           "type": "item",
           "group": "Maiden",
           "groupSlug": "maiden",
-          "name": "Young Visionary / Oracle",
+          "name": "Maiden",
+          "slug": "maiden",
+          "qualities": ["wonder","discernment"],
+          "href": "/maiden/maiden/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Maiden",
+              "groupSlug": "maiden",
+              "name": "Naive Enthusiast",
+              "slug": "maiden",
+              "qualities": "",
+              "href": "/maiden/maiden/#shadow-manipulative-maiden"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Maiden",
+              "groupSlug": "maiden",
+              "name": "Frozen Beginner",
+              "slug": "maiden",
+              "qualities": "",
+              "href": "/maiden/maiden/#shadow-fragile-maiden"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Maiden",
+          "groupSlug": "maiden",
+          "name": "Young Visionary",
           "slug": "young-visionary-oracle",
-          "qualities": ["early intuitive gifts"],
+          "qualities": ["intuition","verification"],
           "href": "/maiden/young-visionary-oracle/"
         }
         
@@ -96,7 +96,7 @@
               "type": "shadow",
               "group": "Maiden",
               "groupSlug": "maiden",
-              "name": "Grandiose Prophet",
+              "name": "Inflated Oracle",
               "slug": "young-visionary-oracle",
               "qualities": "",
               "href": "/maiden/young-visionary-oracle/#shadow-fanatic-prophet"
@@ -108,7 +108,7 @@
               "type": "shadow",
               "group": "Maiden",
               "groupSlug": "maiden",
-              "name": "Doubting Oracle",
+              "name": "Self-Doubting Seer",
               "slug": "young-visionary-oracle",
               "qualities": "",
               "href": "/maiden/young-visionary-oracle/#shadow-lost-dreamer"
@@ -121,125 +121,11 @@
       
         ,{
           "type": "item",
-          "group": "Lover / Creatrix",
+          "group": "Lover",
           "groupSlug": "lover-creatrix",
-          "name": "Sacred Lover / Love Goddess (Aphrodite, Hathor, Oshun)",
-          "slug": "sacred-lover-love-goddess",
-          "qualities": ["empowered sensuality"],
-          "href": "/lover-creatrix/sacred-lover-love-goddess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover / Creatrix",
-              "groupSlug": "lover-creatrix",
-              "name": "Intoxicating Siren",
-              "slug": "sacred-lover-love-goddess",
-              "qualities": "",
-              "href": "/lover-creatrix/sacred-lover-love-goddess/#shadow-intoxicating-siren"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover / Creatrix",
-              "groupSlug": "lover-creatrix",
-              "name": "Armored Heart",
-              "slug": "sacred-lover-love-goddess",
-              "qualities": "",
-              "href": "/lover-creatrix/sacred-lover-love-goddess/#shadow-armored-heart"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Lover / Creatrix",
-          "groupSlug": "lover-creatrix",
-          "name": "Devoted Consort / Beloved (Radha, Parvati)",
-          "slug": "devoted-consort-beloved",
-          "qualities": ["sacred devotion","dignified surrender"],
-          "href": "/lover-creatrix/devoted-consort-beloved/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover / Creatrix",
-              "groupSlug": "lover-creatrix",
-              "name": "Enmeshing Worshipper",
-              "slug": "devoted-consort-beloved",
-              "qualities": "",
-              "href": "/lover-creatrix/devoted-consort-beloved/#shadow-enmeshing-worshipper"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover / Creatrix",
-              "groupSlug": "lover-creatrix",
-              "name": "Aloof Sovereign",
-              "slug": "devoted-consort-beloved",
-              "qualities": "",
-              "href": "/lover-creatrix/devoted-consort-beloved/#shadow-aloof-sovereign"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Lover / Creatrix",
-          "groupSlug": "lover-creatrix",
-          "name": "Muse / Song Goddess (Saraswati)",
-          "slug": "muse-song-goddess",
-          "qualities": ["inspiration"],
-          "href": "/lover-creatrix/muse-song-goddess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover / Creatrix",
-              "groupSlug": "lover-creatrix",
-              "name": "Chaotic Inspiration",
-              "slug": "muse-song-goddess",
-              "qualities": "",
-              "href": "/lover-creatrix/muse-song-goddess/#shadow-chaotic-inspiration"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover / Creatrix",
-              "groupSlug": "lover-creatrix",
-              "name": "Silent Songbird",
-              "slug": "muse-song-goddess",
-              "qualities": "",
-              "href": "/lover-creatrix/muse-song-goddess/#shadow-silent-songbird"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Lover / Creatrix",
-          "groupSlug": "lover-creatrix",
-          "name": "Creatrix / Spider Weaver (Spider Woman)",
+          "name": "Creatrix",
           "slug": "creatrix-spider-weaver",
-          "qualities": ["births ideas & art"],
+          "qualities": ["structure","flow"],
           "href": "/lover-creatrix/creatrix-spider-weaver/"
         }
         
@@ -248,9 +134,9 @@
             
             ,{
               "type": "shadow",
-              "group": "Lover / Creatrix",
+              "group": "Lover",
               "groupSlug": "lover-creatrix",
-              "name": "Obsessive Perfectionist",
+              "name": "Compulsive Perfecter",
               "slug": "creatrix-spider-weaver",
               "qualities": "",
               "href": "/lover-creatrix/creatrix-spider-weaver/#shadow-obsessive-perfectionist"
@@ -260,9 +146,9 @@
             
             ,{
               "type": "shadow",
-              "group": "Lover / Creatrix",
+              "group": "Lover",
               "groupSlug": "lover-creatrix",
-              "name": "Scattered Creator",
+              "name": "Scattered Maker",
               "slug": "creatrix-spider-weaver",
               "qualities": "",
               "href": "/lover-creatrix/creatrix-spider-weaver/#shadow-scattered-creator"
@@ -273,11 +159,125 @@
       
         ,{
           "type": "item",
-          "group": "Lover / Creatrix",
+          "group": "Lover",
           "groupSlug": "lover-creatrix",
-          "name": "Young Healer / Priestess",
+          "name": "Devoted Consort",
+          "slug": "devoted-consort-beloved",
+          "qualities": ["surrender","dignity"],
+          "href": "/lover-creatrix/devoted-consort-beloved/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Lover",
+              "groupSlug": "lover-creatrix",
+              "name": "Self-Erasing Worshipper",
+              "slug": "devoted-consort-beloved",
+              "qualities": "",
+              "href": "/lover-creatrix/devoted-consort-beloved/#shadow-enmeshing-worshipper"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Lover",
+              "groupSlug": "lover-creatrix",
+              "name": "Untouchable Beloved",
+              "slug": "devoted-consort-beloved",
+              "qualities": "",
+              "href": "/lover-creatrix/devoted-consort-beloved/#shadow-aloof-sovereign"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Lover",
+          "groupSlug": "lover-creatrix",
+          "name": "Muse",
+          "slug": "muse-song-goddess",
+          "qualities": ["expression","receptivity"],
+          "href": "/lover-creatrix/muse-song-goddess/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Lover",
+              "groupSlug": "lover-creatrix",
+              "name": "Flooding Muse",
+              "slug": "muse-song-goddess",
+              "qualities": "",
+              "href": "/lover-creatrix/muse-song-goddess/#shadow-chaotic-inspiration"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Lover",
+              "groupSlug": "lover-creatrix",
+              "name": "Silenced Muse",
+              "slug": "muse-song-goddess",
+              "qualities": "",
+              "href": "/lover-creatrix/muse-song-goddess/#shadow-silent-songbird"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Lover",
+          "groupSlug": "lover-creatrix",
+          "name": "Sacred Lover",
+          "slug": "sacred-lover-love-goddess",
+          "qualities": ["devotion","sovereignty"],
+          "href": "/lover-creatrix/sacred-lover-love-goddess/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Lover",
+              "groupSlug": "lover-creatrix",
+              "name": "Enmeshing Enchantress",
+              "slug": "sacred-lover-love-goddess",
+              "qualities": "",
+              "href": "/lover-creatrix/sacred-lover-love-goddess/#shadow-intoxicating-siren"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Lover",
+              "groupSlug": "lover-creatrix",
+              "name": "Armored Lover",
+              "slug": "sacred-lover-love-goddess",
+              "qualities": "",
+              "href": "/lover-creatrix/sacred-lover-love-goddess/#shadow-armored-heart"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Lover",
+          "groupSlug": "lover-creatrix",
+          "name": "Young Healer",
           "slug": "young-healer-priestess",
-          "qualities": ["emerging healing gifts"],
+          "qualities": ["compassion","boundaries"],
           "href": "/lover-creatrix/young-healer-priestess/"
         }
         
@@ -286,9 +286,9 @@
             
             ,{
               "type": "shadow",
-              "group": "Lover / Creatrix",
+              "group": "Lover",
               "groupSlug": "lover-creatrix",
-              "name": "Savior Priestess",
+              "name": "Rescuing Healer",
               "slug": "young-healer-priestess",
               "qualities": "",
               "href": "/lover-creatrix/young-healer-priestess/#shadow-savior-priestess"
@@ -298,9 +298,9 @@
             
             ,{
               "type": "shadow",
-              "group": "Lover / Creatrix",
+              "group": "Lover",
               "groupSlug": "lover-creatrix",
-              "name": "Wounded Healer",
+              "name": "Guarded Healer",
               "slug": "young-healer-priestess",
               "qualities": "",
               "href": "/lover-creatrix/young-healer-priestess/#shadow-wounded-healer"
@@ -315,85 +315,9 @@
           "type": "item",
           "group": "Mother",
           "groupSlug": "mother",
-          "name": "Mother (Isis, Gaia, Corn Mother, Sedna)",
-          "slug": "mother",
-          "qualities": ["unconditional nurture"],
-          "href": "/mother/mother/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Devouring Mother",
-              "slug": "mother",
-              "qualities": "",
-              "href": "/mother/mother/#shadow-devouring-mother"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Absent Mother",
-              "slug": "mother",
-              "qualities": "",
-              "href": "/mother/mother/#shadow-absent-mother"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Mother",
-          "groupSlug": "mother",
-          "name": "Wife / Nurturer / Hearth Goddess (Hestia, Nephthys)",
-          "slug": "wife-nurturer-hearth-goddess",
-          "qualities": ["domestic stability"],
-          "href": "/mother/wife-nurturer-hearth-goddess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Martyr Homemaker",
-              "slug": "wife-nurturer-hearth-goddess",
-              "qualities": "",
-              "href": "/mother/wife-nurturer-hearth-goddess/#shadow-martyr-homemaker"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Withholding Hostess",
-              "slug": "wife-nurturer-hearth-goddess",
-              "qualities": "",
-              "href": "/mother/wife-nurturer-hearth-goddess/#shadow-withholding-hostess"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Mother",
-          "groupSlug": "mother",
-          "name": "Guardian / Buffalo Woman",
+          "name": "Guardian",
           "slug": "guardian-buffalo-woman",
-          "qualities": ["sacred protection"],
+          "qualities": ["protection","trust"],
           "href": "/mother/guardian-buffalo-woman/"
         }
         
@@ -404,7 +328,7 @@
               "type": "shadow",
               "group": "Mother",
               "groupSlug": "mother",
-              "name": "Rigid Sentinel",
+              "name": "Controlling Sentinel",
               "slug": "guardian-buffalo-woman",
               "qualities": "",
               "href": "/mother/guardian-buffalo-woman/#shadow-rigid-sentinel"
@@ -416,7 +340,7 @@
               "type": "shadow",
               "group": "Mother",
               "groupSlug": "mother",
-              "name": "Naive Pushover",
+              "name": "Open Gate",
               "slug": "guardian-buffalo-woman",
               "qualities": "",
               "href": "/mother/guardian-buffalo-woman/#shadow-naive-pushover"
@@ -429,9 +353,85 @@
           "type": "item",
           "group": "Mother",
           "groupSlug": "mother",
-          "name": "Warrior / Warrioress / Huntress (Sekhmet, Diana)",
+          "name": "Mother",
+          "slug": "mother",
+          "qualities": ["nurture","autonomy"],
+          "href": "/mother/mother/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Engulfing Mother",
+              "slug": "mother",
+              "qualities": "",
+              "href": "/mother/mother/#shadow-devouring-mother"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Unavailable Mother",
+              "slug": "mother",
+              "qualities": "",
+              "href": "/mother/mother/#shadow-absent-mother"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Mother",
+          "groupSlug": "mother",
+          "name": "Peacemaker",
+          "slug": "peacemaker-peace-bringer",
+          "qualities": ["reconciliation","confrontation"],
+          "href": "/mother/peacemaker-peace-bringer/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Peace Enforcer",
+              "slug": "peacemaker-peace-bringer",
+              "qualities": "",
+              "href": "/mother/peacemaker-peace-bringer/#shadow-conflict-avoider"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Mother",
+              "groupSlug": "mother",
+              "name": "Resentful Bystander",
+              "slug": "peacemaker-peace-bringer",
+              "qualities": "",
+              "href": "/mother/peacemaker-peace-bringer/#shadow-righteous-judge"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Mother",
+          "groupSlug": "mother",
+          "name": "Warrior",
           "slug": "warrior-warrioress-huntress",
-          "qualities": ["fierce protective focus"],
+          "qualities": ["ferocity","restraint"],
           "href": "/mother/warrior-warrioress-huntress/"
         }
         
@@ -442,7 +442,7 @@
               "type": "shadow",
               "group": "Mother",
               "groupSlug": "mother",
-              "name": "Destructive Berserker",
+              "name": "Rampaging Warrior",
               "slug": "warrior-warrioress-huntress",
               "qualities": "",
               "href": "/mother/warrior-warrioress-huntress/#shadow-destructive-berserker"
@@ -454,7 +454,7 @@
               "type": "shadow",
               "group": "Mother",
               "groupSlug": "mother",
-              "name": "Collapsed Victim",
+              "name": "Disarmed Warrior",
               "slug": "warrior-warrioress-huntress",
               "qualities": "",
               "href": "/mother/warrior-warrioress-huntress/#shadow-collapsed-victim"
@@ -467,9 +467,9 @@
           "type": "item",
           "group": "Mother",
           "groupSlug": "mother",
-          "name": "Weaver / Community Goddess",
+          "name": "Community Weaver",
           "slug": "weaver-community-goddess",
-          "qualities": ["sacred interdependence"],
+          "qualities": ["belonging","accountability"],
           "href": "/mother/weaver-community-goddess/"
         }
         
@@ -480,7 +480,7 @@
               "type": "shadow",
               "group": "Mother",
               "groupSlug": "mother",
-              "name": "Manipulative Networker",
+              "name": "Enmeshing Networker",
               "slug": "weaver-community-goddess",
               "qualities": "",
               "href": "/mother/weaver-community-goddess/#shadow-manipulative-networker"
@@ -505,10 +505,10 @@
           "type": "item",
           "group": "Mother",
           "groupSlug": "mother",
-          "name": "Peacemaker / Peace Bringer (Whope)",
-          "slug": "peacemaker-peace-bringer",
-          "qualities": ["harmony for family/community"],
-          "href": "/mother/peacemaker-peace-bringer/"
+          "name": "Hearth Keeper",
+          "slug": "wife-nurturer-hearth-goddess",
+          "qualities": ["hospitality","privacy"],
+          "href": "/mother/wife-nurturer-hearth-goddess/"
         }
         
         
@@ -518,10 +518,10 @@
               "type": "shadow",
               "group": "Mother",
               "groupSlug": "mother",
-              "name": "Conflict Avoider",
-              "slug": "peacemaker-peace-bringer",
+              "name": "Martyr Host",
+              "slug": "wife-nurturer-hearth-goddess",
               "qualities": "",
-              "href": "/mother/peacemaker-peace-bringer/#shadow-conflict-avoider"
+              "href": "/mother/wife-nurturer-hearth-goddess/#shadow-martyr-homemaker"
             }
             
           
@@ -530,10 +530,10 @@
               "type": "shadow",
               "group": "Mother",
               "groupSlug": "mother",
-              "name": "Righteous Judge",
-              "slug": "peacemaker-peace-bringer",
+              "name": "Closed Hearth",
+              "slug": "wife-nurturer-hearth-goddess",
               "qualities": "",
-              "href": "/mother/peacemaker-peace-bringer/#shadow-righteous-judge"
+              "href": "/mother/wife-nurturer-hearth-goddess/#shadow-withholding-hostess"
             }
             
           
@@ -545,47 +545,9 @@
           "type": "item",
           "group": "Queen",
           "groupSlug": "queen",
-          "name": "Queen / Hearth Keeper (Brigid)",
-          "slug": "queen-hearth-keeper",
-          "qualities": ["benevolent authority"],
-          "href": "/queen/queen-hearth-keeper/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Queen",
-              "groupSlug": "queen",
-              "name": "Tyrannical Empress",
-              "slug": "queen-hearth-keeper",
-              "qualities": "",
-              "href": "/queen/queen-hearth-keeper/#shadow-tyrannical-empress"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Queen",
-              "groupSlug": "queen",
-              "name": "Abdicated Ruler",
-              "slug": "queen-hearth-keeper",
-              "qualities": "",
-              "href": "/queen/queen-hearth-keeper/#shadow-abdicated-ruler"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Queen",
-          "groupSlug": "queen",
-          "name": "Justice (Ma&#39;at)",
+          "name": "Justice",
           "slug": "justice",
-          "qualities": ["truth & balance"],
+          "qualities": ["truth","mercy"],
           "href": "/queen/justice/"
         }
         
@@ -608,7 +570,7 @@
               "type": "shadow",
               "group": "Queen",
               "groupSlug": "queen",
-              "name": "Enabler Saint",
+              "name": "Permissive Witness",
               "slug": "justice",
               "qualities": "",
               "href": "/queen/justice/#shadow-enabler-saint"
@@ -621,9 +583,47 @@
           "type": "item",
           "group": "Queen",
           "groupSlug": "queen",
-          "name": "Sky / Sun / Star Goddess (Nut, Amaterasu, Ishtar)",
+          "name": "Queen",
+          "slug": "queen-hearth-keeper",
+          "qualities": ["authority","service"],
+          "href": "/queen/queen-hearth-keeper/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Queen",
+              "groupSlug": "queen",
+              "name": "Tyrannical Queen",
+              "slug": "queen-hearth-keeper",
+              "qualities": "",
+              "href": "/queen/queen-hearth-keeper/#shadow-tyrannical-empress"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Queen",
+              "groupSlug": "queen",
+              "name": "Abdicating Queen",
+              "slug": "queen-hearth-keeper",
+              "qualities": "",
+              "href": "/queen/queen-hearth-keeper/#shadow-abdicated-ruler"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Queen",
+          "groupSlug": "queen",
+          "name": "Luminary",
           "slug": "sky-sun-star-goddess",
-          "qualities": ["cosmic order & radiance"],
+          "qualities": ["radiance","humility"],
           "href": "/queen/sky-sun-star-goddess/"
         }
         
@@ -634,7 +634,7 @@
               "type": "shadow",
               "group": "Queen",
               "groupSlug": "queen",
-              "name": "Blinding Sun",
+              "name": "Blinding Star",
               "slug": "sky-sun-star-goddess",
               "qualities": "",
               "href": "/queen/sky-sun-star-goddess/#shadow-blinding-sun"
@@ -646,7 +646,7 @@
               "type": "shadow",
               "group": "Queen",
               "groupSlug": "queen",
-              "name": "Hidden Star",
+              "name": "Hidden Light",
               "slug": "sky-sun-star-goddess",
               "qualities": "",
               "href": "/queen/sky-sun-star-goddess/#shadow-hidden-star"
@@ -661,9 +661,9 @@
           "type": "item",
           "group": "Crone",
           "groupSlug": "crone",
-          "name": "Crone / Underworld Queen (Morrigan, Persephone)",
+          "name": "Crone",
           "slug": "crone-underworld-queen",
-          "qualities": ["death/rebirth wisdom"],
+          "qualities": ["release","remembrance"],
           "href": "/crone/crone-underworld-queen/"
         }
         
@@ -674,7 +674,7 @@
               "type": "shadow",
               "group": "Crone",
               "groupSlug": "crone",
-              "name": "Destroying Angel",
+              "name": "Scorched-Earth Crone",
               "slug": "crone-underworld-queen",
               "qualities": "",
               "href": "/crone/crone-underworld-queen/#shadow-destroying-angel"
@@ -686,7 +686,7 @@
               "type": "shadow",
               "group": "Crone",
               "groupSlug": "crone",
-              "name": "Eternal Mourner",
+              "name": "Relic Keeper",
               "slug": "crone-underworld-queen",
               "qualities": "",
               "href": "/crone/crone-underworld-queen/#shadow-eternal-mourner"
@@ -699,85 +699,9 @@
           "type": "item",
           "group": "Crone",
           "groupSlug": "crone",
-          "name": "Elder Visionary / Oracle / Moon (Artemis, Moon Woman)",
-          "slug": "elder-visionary-oracle-moon",
-          "qualities": ["far-sight & deep intuition"],
-          "href": "/crone/elder-visionary-oracle-moon/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Cryptic Oracle",
-              "slug": "elder-visionary-oracle-moon",
-              "qualities": "",
-              "href": "/crone/elder-visionary-oracle-moon/#shadow-cryptic-oracle"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Disconnected Hermit",
-              "slug": "elder-visionary-oracle-moon",
-              "qualities": "",
-              "href": "/crone/elder-visionary-oracle-moon/#shadow-disconnected-hermit"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Crone",
-          "groupSlug": "crone",
-          "name": "Rebel / Revolutionary / Trickster (Eris)",
-          "slug": "rebel-revolutionary-trickster",
-          "qualities": ["wisdom that breaks old forms"],
-          "href": "/crone/rebel-revolutionary-trickster/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Chaotic Destroyer",
-              "slug": "rebel-revolutionary-trickster",
-              "qualities": "",
-              "href": "/crone/rebel-revolutionary-trickster/#shadow-chaotic-destroyer"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Conforming Complainer",
-              "slug": "rebel-revolutionary-trickster",
-              "qualities": "",
-              "href": "/crone/rebel-revolutionary-trickster/#shadow-conforming-complainer"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Crone",
-          "groupSlug": "crone",
-          "name": "Elder Healer / Priestess",
+          "name": "Elder Healer",
           "slug": "elder-healer-priestess",
-          "qualities": ["master of restoration"],
+          "qualities": ["compassion","detachment"],
           "href": "/crone/elder-healer-priestess/"
         }
         
@@ -804,6 +728,82 @@
               "slug": "elder-healer-priestess",
               "qualities": "",
               "href": "/crone/elder-healer-priestess/#shadow-cynical-healer"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Crone",
+          "groupSlug": "crone",
+          "name": "Elder Visionary",
+          "slug": "elder-visionary-oracle-moon",
+          "qualities": ["vision","timing"],
+          "href": "/crone/elder-visionary-oracle-moon/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Premature Oracle",
+              "slug": "elder-visionary-oracle-moon",
+              "qualities": "",
+              "href": "/crone/elder-visionary-oracle-moon/#shadow-cryptic-oracle"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Withholding Seer",
+              "slug": "elder-visionary-oracle-moon",
+              "qualities": "",
+              "href": "/crone/elder-visionary-oracle-moon/#shadow-disconnected-hermit"
+            }
+            
+          
+        
+      
+        ,{
+          "type": "item",
+          "group": "Crone",
+          "groupSlug": "crone",
+          "name": "Rebel",
+          "slug": "rebel-revolutionary-trickster",
+          "qualities": ["liberation","responsibility"],
+          "href": "/crone/rebel-revolutionary-trickster/"
+        }
+        
+        
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Chaotic Rebel",
+              "slug": "rebel-revolutionary-trickster",
+              "qualities": "",
+              "href": "/crone/rebel-revolutionary-trickster/#shadow-chaotic-destroyer"
+            }
+            
+          
+            
+            ,{
+              "type": "shadow",
+              "group": "Crone",
+              "groupSlug": "crone",
+              "name": "Compliant Critic",
+              "slug": "rebel-revolutionary-trickster",
+              "qualities": "",
+              "href": "/crone/rebel-revolutionary-trickster/#shadow-conforming-complainer"
             }
             
           
