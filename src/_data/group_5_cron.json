@@ -1,402 +1,2171 @@
 {
-  "title": "Crone Archetypes",
-  "group": "Crone",
   "name": "Crone",
   "slug": "crone",
+  "order": 5,
+  "title": "Crone Archetypes",
   "summary": "Ending and elderhood; the task is to release, reveal, and transmit hard-won wisdom.",
   "essence": "Truth beyond approval, reverence for cycles, and service free of the need to be central.",
-  "items": [
+  "archetypes": [
     {
+      "kind": "archetype",
       "name": "Crone",
-      "slug": "crone-underworld-queen",
+      "slug": "crone",
+      "lifecycle": "crone",
+      "order": 1,
+      "aliases": [
+        "Underworld Queen",
+        "Death Bringer"
+      ],
+      "legacyRoutes": [
+        "/crone/crone-underworld-queen/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "release",
-        "remembrance"
+        "Release",
+        "Remembrance"
       ],
-      "gifts": "The underworld-queen current: ending, composting, grief, and the threshold of renewal.",
-      "growthPath": "Release what is finished while carrying forward its truth and nourishment.",
-      "practices": [
-        "Name what must end and what deserves to be remembered.",
-        "Create a small ritual that marks an irreversible transition."
+      "image": "assets/images/crone-underworld-queen.jpeg",
+      "profile": {
+        "lifecycleStage": "Crone",
+        "coreFunction": "Release what has ended while preserving its grief, learning, and continuity.",
+        "balancedQualities": "Release + Remembrance",
+        "activeShadow": "Scorched-Earth Crone",
+        "passiveShadow": "Relic Keeper",
+        "mythicResonances": "",
+        "keyQualities": "Truthful, Fearless, Catalytic, Sovereign, Compassionate, Deep, Transformative, Clear, Mystic, Liberating"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "crone/archetypes/crone.md",
+      "coreFunction": "Release what has ended while preserving its grief, learning, and continuity.",
+      "keyQualities": [
+        "Truthful",
+        "Fearless",
+        "Catalytic",
+        "Sovereign",
+        "Compassionate",
+        "Deep",
+        "Transformative",
+        "Clear",
+        "Mystic",
+        "Liberating"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Scorched-Earth Crone",
-            "type": "active",
-            "slug": "destroying-angel",
-            "description": [
-              "Release abandons remembrance and becomes indiscriminate severing. She burns relationships, roles, or histories at the first scent of decay, mistaking destruction for transformation. Nothing can teach or compost when it is denied all value."
-            ],
-            "declarations": [
-              "If it is flawed, it must be ended completely.",
-              "Looking back only weakens resolve.",
-              "I owe the past nothing."
-            ],
-            "balancing": [
-              "Separate what must end from what can be retained.",
-              "Grieve before making irreversible cuts.",
-              "Carry one lesson or blessing across the threshold."
-            ],
-            "gift": "Her fearlessness becomes clean closure when it makes space without erasing meaning.",
-            "outOfBalance": [
-              "Uses total severance as first response",
-              "Rewrites the past as worthless",
-              "Destroys supports needed for transition"
-            ]
-          },
-          {
-            "name": "Relic Keeper",
-            "type": "passive",
-            "slug": "eternal-mourner",
-            "description": [
-              "Release fails as remembrance hardens into preservation. She maintains dead roles, loyalties, and identities because letting them end feels like betrayal. The past is honored so completely that it cannot become nourishment for the present."
-            ],
-            "declarations": [
-              "Letting go would mean it did not matter.",
-              "I must keep this exactly as it was.",
-              "Moving on is disloyal."
-            ],
-            "balancing": [
-              "Distinguish memory from continued obligation.",
-              "Choose a finite form for honoring what ended.",
-              "Make one present-tense commitment after grieving."
-            ],
-            "gift": "Her fidelity becomes ancestral wisdom when memory can travel without the corpse of the old form.",
-            "outOfBalance": [
-              "Keeps expired commitments",
-              "Organizes identity around loss",
-              "Resists new life as betrayal"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Crone",
-          "paragraphs": [
-            "The Mature Crone knows what must die, what must be mourned, and what can be carried onward in changed form. She neither sterilizes grief nor builds a home inside it. By remembering truly and releasing fully, she returns the past to the soil of future life."
-          ]
+      "activeShadowSlug": "scorched-earth-crone",
+      "passiveShadowSlug": "relic-keeper",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Crone knows what must die, what must be mourned, and what can be carried onward in changed form. She neither sterilizes grief nor builds a home inside it. By remembering truly and releasing fully, she returns the past to the soil of future life.\n\nThe underworld-queen current: ending, composting, grief, and the threshold of renewal.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I release the form and keep the wisdom.\n- Grief honors what mattered and makes movement possible.\n- An ending can be exact without being cruel.\n- I let the past become soil, not residence.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Release and Remembrance are mutually correcting.\n\nRelease ends attachment to forms whose life or season is complete.\n\nRemembrance preserves meaning, lineage, and learning across the threshold of loss.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Release what is finished while carrying forward its truth and nourishment.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The underworld-queen current: ending, composting, grief, and the threshold of renewal.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Name what must end and what deserves to be remembered.\n- Create a small ritual that marks an irreversible transition.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Crone",
+          "content": "The Mature Crone knows what must die, what must be mourned, and what can be carried onward in changed form. She neither sterilizes grief nor builds a home inside it. By remembering truly and releasing fully, she returns the past to the soil of future life.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Crone knows what must die, what must be mourned, and what can be carried onward in changed form. She neither sterilizes grief nor builds a home inside it. By remembering truly and releasing fully, she returns the past to the soil of future life.\n\nThe underworld-queen current: ending, composting, grief, and the threshold of renewal.",
         "declarations": [
           "I release the form and keep the wisdom.",
           "Grief honors what mattered and makes movement possible.",
           "An ending can be exact without being cruel.",
           "I let the past become soil, not residence."
         ],
-        "balance": {
-          "balance": "Release ↔ Remembrance",
-          "shadow": "Scorched-Earth Crone ↔ Relic Keeper",
-          "powerAnimals": "Raven, Vulture, Cobra",
-          "qualities": "Truthful, Fearless, Catalytic, Sovereign, Compassionate, Deep, Transformative, Clear, Mystic, Liberating"
-        },
-        "virtues": [
-          {
-            "title": "Release",
-            "paragraphs": [
-              "Release ends attachment to forms whose life or season is complete."
-            ]
+        "balance": "Release and Remembrance are mutually correcting.\n\nRelease ends attachment to forms whose life or season is complete.\n\nRemembrance preserves meaning, lineage, and learning across the threshold of loss.",
+        "applications": "Release what is finished while carrying forward its truth and nourishment.",
+        "giftsResponsibilitiesChallenges": "The underworld-queen current: ending, composting, grief, and the threshold of renewal.",
+        "practices": [
+          "Name what must end and what deserves to be remembered.",
+          "Create a small ritual that marks an irreversible transition."
+        ],
+        "conclusion": "The Mature Crone knows what must die, what must be mourned, and what can be carried onward in changed form. She neither sterilizes grief nor builds a home inside it. By remembering truly and releasing fully, she returns the past to the soil of future life."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Scorched-Earth Crone",
+          "slug": "scorched-earth-crone",
+          "lifecycle": "crone",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/crone/crone-underworld-queen/shadows/destroying-angel/"
+          ],
+          "legacyAnchors": [
+            "destroying-angel"
+          ],
+          "qualities": [
+            "Release",
+            "Remembrance"
+          ],
+          "image": "assets/images/shadow/crone-underworld-queen--destructive-death-bringer.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Release without Remembrance",
+            "balancedQualities": "Release + Remembrance",
+            "activeShadow": "Scorched-Earth Crone",
+            "passiveShadow": "Relic Keeper",
+            "mythicResonances": "",
+            "keyQualities": "Uses total severance as first response, Rewrites the past as worthless, Destroys supports needed for transition"
           },
-          {
-            "title": "Remembrance",
-            "paragraphs": [
-              "Remembrance preserves meaning, lineage, and learning across the threshold of loss."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/scorched-earth-crone.md",
+          "parent": "crone",
+          "type": "active",
+          "oppositeShadowSlug": "relic-keeper",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Release scorches without remembrance.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- If it is flawed, it must be ended completely.\n- Looking back only weakens resolve.\n- I owe the past nothing.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Release abandons remembrance and becomes indiscriminate severing. She burns relationships, roles, or histories at the first scent of decay, mistaking destruction for transformation. Nothing can teach or compost when it is denied all value.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her fearlessness becomes clean closure when it makes space without erasing meaning.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Uses total severance as first response\n\nRewrites the past as worthless\n\nDestroys supports needed for transition",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Separate what must end from what can be retained.\n- Grieve before making irreversible cuts.\n- Carry one lesson or blessing across the threshold.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Relic Keeper is the opposite imbalance of Release + Remembrance.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Remembrance and the dynamic relationship between Release and Remembrance. Preserve learning; permit ending.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her fearlessness becomes clean closure when it makes space without erasing meaning.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Release scorches without remembrance.",
+            "declarations": [
+              "If it is flawed, it must be ended completely.",
+              "Looking back only weakens resolve.",
+              "I owe the past nothing."
+            ],
+            "psychologicalMechanics": "Release abandons remembrance and becomes indiscriminate severing. She burns relationships, roles, or histories at the first scent of decay, mistaking destruction for transformation. Nothing can teach or compost when it is denied all value.",
+            "hiddenEnergy": "Her fearlessness becomes clean closure when it makes space without erasing meaning.",
+            "recognition": "Uses total severance as first response\n\nRewrites the past as worthless\n\nDestroys supports needed for transition",
+            "practices": [
+              "Separate what must end from what can be retained.",
+              "Grieve before making irreversible cuts.",
+              "Carry one lesson or blessing across the threshold."
+            ],
+            "oppositeShadow": "Relic Keeper is the opposite imbalance of Release + Remembrance.",
+            "transformation": "Integration restores Remembrance and the dynamic relationship between Release and Remembrance. Preserve learning; permit ending.",
+            "conclusion": "Her fearlessness becomes clean closure when it makes space without erasing meaning."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Relic Keeper",
+          "slug": "relic-keeper",
+          "lifecycle": "crone",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/crone/crone-underworld-queen/shadows/eternal-mourner/"
+          ],
+          "legacyAnchors": [
+            "eternal-mourner"
+          ],
+          "qualities": [
+            "Release",
+            "Remembrance"
+          ],
+          "image": "assets/images/shadow/crone-underworld-queen--eternal-mourner.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Release collapses while Remembrance distorts",
+            "balancedQualities": "Release + Remembrance",
+            "activeShadow": "Scorched-Earth Crone",
+            "passiveShadow": "Relic Keeper",
+            "mythicResonances": "",
+            "keyQualities": "Keeps expired commitments, Organizes identity around loss, Resists new life as betrayal"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/relic-keeper.md",
+          "parent": "crone",
+          "type": "passive",
+          "oppositeShadowSlug": "scorched-earth-crone",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Release collapses while remembrance becomes preservation.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Letting go would mean it did not matter.\n- I must keep this exactly as it was.\n- Moving on is disloyal.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Release fails as remembrance hardens into preservation. She maintains dead roles, loyalties, and identities because letting them end feels like betrayal. The past is honored so completely that it cannot become nourishment for the present.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her fidelity becomes ancestral wisdom when memory can travel without the corpse of the old form.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Keeps expired commitments\n\nOrganizes identity around loss\n\nResists new life as betrayal",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Distinguish memory from continued obligation.\n- Choose a finite form for honoring what ended.\n- Make one present-tense commitment after grieving.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Scorched-Earth Crone is the opposite imbalance of Release + Remembrance.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Release and the dynamic relationship between Release and Remembrance. Preserve learning; permit ending.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her fidelity becomes ancestral wisdom when memory can travel without the corpse of the old form.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Release collapses while remembrance becomes preservation.",
+            "declarations": [
+              "Letting go would mean it did not matter.",
+              "I must keep this exactly as it was.",
+              "Moving on is disloyal."
+            ],
+            "psychologicalMechanics": "Release fails as remembrance hardens into preservation. She maintains dead roles, loyalties, and identities because letting them end feels like betrayal. The past is honored so completely that it cannot become nourishment for the present.",
+            "hiddenEnergy": "Her fidelity becomes ancestral wisdom when memory can travel without the corpse of the old form.",
+            "recognition": "Keeps expired commitments\n\nOrganizes identity around loss\n\nResists new life as betrayal",
+            "practices": [
+              "Distinguish memory from continued obligation.",
+              "Choose a finite form for honoring what ended.",
+              "Make one present-tense commitment after grieving."
+            ],
+            "oppositeShadow": "Scorched-Earth Crone is the opposite imbalance of Release + Remembrance.",
+            "transformation": "Integration restores Release and the dynamic relationship between Release and Remembrance. Preserve learning; permit ending.",
+            "conclusion": "Her fidelity becomes ancestral wisdom when memory can travel without the corpse of the old form."
+          }
+        }
+      ]
     },
     {
-      "name": "Elder Healer",
-      "slug": "elder-healer-priestess",
+      "kind": "archetype",
+      "name": "Witness",
+      "slug": "witness",
+      "lifecycle": "crone",
+      "order": 2,
+      "aliases": [
+        "Elder Healer",
+        "Elder Priestess",
+        "Wise Woman"
+      ],
+      "legacyRoutes": [
+        "/crone/elder-healer-priestess/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "compassion",
-        "detachment"
+        "Compassion",
+        "Detachment"
       ],
-      "gifts": "The elder priestess: compassionate wisdom that serves without owning the cure.",
-      "growthPath": "Stay tender enough to care and detached enough to honor mystery, limits, and death.",
-      "practices": [
-        "Offer what is yours to give, then release the outcome.",
-        "Notice whether hope is serving the person or your identity as healer."
+      "image": "assets/images/elder-healer-priestess.jpeg",
+      "profile": {
+        "lifecycleStage": "Crone",
+        "coreFunction": "Compassionately accompany suffering at the limit of cure or control without owning outcome or turning away.",
+        "balancedQualities": "Compassion + Detachment",
+        "activeShadow": "Martyred Healer",
+        "passiveShadow": "Cynical Healer",
+        "mythicResonances": "",
+        "keyQualities": "Compassionate, Boundaried, Wise, Restorative, Devotional, Grounded, Humble, Ethical, Steady, Nourishing"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "crone/archetypes/witness.md",
+      "coreFunction": "Compassionately accompany suffering at the limit of cure or control without owning outcome or turning away.",
+      "keyQualities": [
+        "Compassionate",
+        "Boundaried",
+        "Wise",
+        "Restorative",
+        "Devotional",
+        "Grounded",
+        "Humble",
+        "Ethical",
+        "Steady",
+        "Nourishing"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Martyred Healer",
-            "type": "active",
-            "slug": "martyred-healer",
-            "description": [
-              "Compassion refuses detachment and makes every suffering a personal summons. She overidentifies with pain, continues beyond usefulness, and cannot accept limits, refusal, or death without experiencing them as failures of love."
-            ],
-            "declarations": [
-              "I must stay until this is healed.",
-              "Stepping back would abandon them.",
-              "A good healer never stops caring."
-            ],
-            "balancing": [
-              "Clarify what is and is not yours to carry.",
-              "Let another person decline or outgrow your help.",
-              "Grieve limits instead of trying to conquer them."
-            ],
-            "gift": "Her devotion becomes profound accompaniment when she can remain loving without controlling the ending.",
-            "outOfBalance": [
-              "Cannot conclude care",
-              "Makes outcomes personal",
-              "Sacrifices health to preserve a healer identity"
-            ]
-          },
-          {
-            "name": "Cynical Healer",
-            "type": "passive",
-            "slug": "cynical-healer",
-            "description": [
-              "Compassion recedes into detachment hardened by disappointment. She sees patterns and limits accurately but uses that knowledge to avoid being moved. Experience becomes superiority, and realistic prognosis becomes a defense against encounter."
-            ],
-            "declarations": [
-              "People rarely choose real healing.",
-              "I already know how this story ends.",
-              "Distance is the price of wisdom."
-            ],
-            "balancing": [
-              "Meet the person before the pattern.",
-              "Offer one sincere act without demanding change.",
-              "Let grief soften what experience has armored."
-            ],
-            "gift": "Her realism becomes seasoned equanimity when it protects care from fantasy rather than from feeling.",
-            "outOfBalance": [
-              "Reduces people to diagnoses",
-              "Withholds warmth as realism",
-              "Uses experience to foreclose possibility"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Elder Healer",
-          "paragraphs": [
-            "The Mature Elder Healer can love what she cannot fix. She brings experience, proportion, ritual, and presence, then releases ownership of the outcome. Her detachment is spacious rather than cold: it lets illness, choice, mystery, and mortality remain larger than her role."
-          ]
+      "activeShadowSlug": "martyred-healer",
+      "passiveShadowSlug": "cynical-healer",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Elder Healer can love what she cannot fix. She brings experience, proportion, ritual, and presence, then releases ownership of the outcome. Her detachment is spacious rather than cold: it lets illness, choice, mystery, and mortality remain larger than her role.\n\nThe elder priestess: compassionate wisdom that serves without owning the cure.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I offer care without claiming the cure.\n- Compassion can remain when intervention ends.\n- Limits are part of honest healing.\n- I meet this person, not only the pattern I recognize.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Compassion and Detachment are mutually correcting.\n\nCompassion stays emotionally available to suffering and responds with humane care.\n\nDetachment releases control of outcome, preserving perspective, mystery, and the other's path.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Stay tender enough to care and detached enough to honor mystery, limits, and death.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The elder priestess: compassionate wisdom that serves without owning the cure.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Offer what is yours to give, then release the outcome.\n- Notice whether hope is serving the person or your identity as healer.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Witness",
+          "content": "The Mature Elder Healer can love what she cannot fix. She brings experience, proportion, ritual, and presence, then releases ownership of the outcome. Her detachment is spacious rather than cold: it lets illness, choice, mystery, and mortality remain larger than her role.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Elder Healer can love what she cannot fix. She brings experience, proportion, ritual, and presence, then releases ownership of the outcome. Her detachment is spacious rather than cold: it lets illness, choice, mystery, and mortality remain larger than her role.\n\nThe elder priestess: compassionate wisdom that serves without owning the cure.",
         "declarations": [
           "I offer care without claiming the cure.",
           "Compassion can remain when intervention ends.",
           "Limits are part of honest healing.",
           "I meet this person, not only the pattern I recognize."
         ],
-        "balance": {
-          "balance": "Compassion ↔ Detachment",
-          "shadow": "Martyred Healer ↔ Cynical Healer",
-          "powerAnimals": "Elephant, Seal, Swan",
-          "qualities": "Compassionate, Boundaried, Wise, Restorative, Devotional, Grounded, Humble, Ethical, Steady, Nourishing"
-        },
-        "virtues": [
-          {
-            "title": "Compassion",
-            "paragraphs": [
-              "Compassion stays emotionally available to suffering and responds with humane care."
-            ]
+        "balance": "Compassion and Detachment are mutually correcting.\n\nCompassion stays emotionally available to suffering and responds with humane care.\n\nDetachment releases control of outcome, preserving perspective, mystery, and the other's path.",
+        "applications": "Stay tender enough to care and detached enough to honor mystery, limits, and death.",
+        "giftsResponsibilitiesChallenges": "The elder priestess: compassionate wisdom that serves without owning the cure.",
+        "practices": [
+          "Offer what is yours to give, then release the outcome.",
+          "Notice whether hope is serving the person or your identity as healer."
+        ],
+        "conclusion": "The Mature Elder Healer can love what she cannot fix. She brings experience, proportion, ritual, and presence, then releases ownership of the outcome. Her detachment is spacious rather than cold: it lets illness, choice, mystery, and mortality remain larger than her role."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Martyred Healer",
+          "slug": "martyred-healer",
+          "lifecycle": "crone",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/crone/elder-healer-priestess/shadows/martyred-healer/"
+          ],
+          "legacyAnchors": [
+            "martyred-healer"
+          ],
+          "qualities": [
+            "Compassion",
+            "Detachment"
+          ],
+          "image": "assets/images/shadow/elder-healer-priestess--burned-out-wise-woman.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Compassion without Detachment",
+            "balancedQualities": "Compassion + Detachment",
+            "activeShadow": "Martyred Healer",
+            "passiveShadow": "Cynical Healer",
+            "mythicResonances": "",
+            "keyQualities": "Cannot conclude care, Makes outcomes personal, Sacrifices health to preserve a healer identity"
           },
-          {
-            "title": "Detachment",
-            "paragraphs": [
-              "Detachment releases control of outcome, preserving perspective, mystery, and the other's path."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/martyred-healer.md",
+          "parent": "witness",
+          "type": "active",
+          "oppositeShadowSlug": "cynical-healer",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Compassion martyrs without detachment.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I must stay until this is healed.\n- Stepping back would abandon them.\n- A good healer never stops caring.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Compassion refuses detachment and makes every suffering a personal summons. She overidentifies with pain, continues beyond usefulness, and cannot accept limits, refusal, or death without experiencing them as failures of love.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her devotion becomes profound accompaniment when she can remain loving without controlling the ending.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Cannot conclude care\n\nMakes outcomes personal\n\nSacrifices health to preserve a healer identity",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Clarify what is and is not yours to carry.\n- Let another person decline or outgrow your help.\n- Grieve limits instead of trying to conquer them.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Cynical Healer is the opposite imbalance of Compassion + Detachment.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Detachment and the dynamic relationship between Compassion and Detachment. Release ownership; remain humanly reachable.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her devotion becomes profound accompaniment when she can remain loving without controlling the ending.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Compassion martyrs without detachment.",
+            "declarations": [
+              "I must stay until this is healed.",
+              "Stepping back would abandon them.",
+              "A good healer never stops caring."
+            ],
+            "psychologicalMechanics": "Compassion refuses detachment and makes every suffering a personal summons. She overidentifies with pain, continues beyond usefulness, and cannot accept limits, refusal, or death without experiencing them as failures of love.",
+            "hiddenEnergy": "Her devotion becomes profound accompaniment when she can remain loving without controlling the ending.",
+            "recognition": "Cannot conclude care\n\nMakes outcomes personal\n\nSacrifices health to preserve a healer identity",
+            "practices": [
+              "Clarify what is and is not yours to carry.",
+              "Let another person decline or outgrow your help.",
+              "Grieve limits instead of trying to conquer them."
+            ],
+            "oppositeShadow": "Cynical Healer is the opposite imbalance of Compassion + Detachment.",
+            "transformation": "Integration restores Detachment and the dynamic relationship between Compassion and Detachment. Release ownership; remain humanly reachable.",
+            "conclusion": "Her devotion becomes profound accompaniment when she can remain loving without controlling the ending."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Cynical Healer",
+          "slug": "cynical-healer",
+          "lifecycle": "crone",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/crone/elder-healer-priestess/shadows/cynical-healer/"
+          ],
+          "legacyAnchors": [
+            "cynical-healer"
+          ],
+          "qualities": [
+            "Compassion",
+            "Detachment"
+          ],
+          "image": "assets/images/shadow/elder-healer-priestess--controlling-healer.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Compassion collapses while Detachment distorts",
+            "balancedQualities": "Compassion + Detachment",
+            "activeShadow": "Martyred Healer",
+            "passiveShadow": "Cynical Healer",
+            "mythicResonances": "",
+            "keyQualities": "Reduces people to diagnoses, Withholds warmth as realism, Uses experience to foreclose possibility"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/cynical-healer.md",
+          "parent": "witness",
+          "type": "passive",
+          "oppositeShadowSlug": "martyred-healer",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Compassion collapses while detachment becomes cynical distance.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- People rarely choose real healing.\n- I already know how this story ends.\n- Distance is the price of wisdom.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Compassion recedes into detachment hardened by disappointment. She sees patterns and limits accurately but uses that knowledge to avoid being moved. Experience becomes superiority, and realistic prognosis becomes a defense against encounter.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her realism becomes seasoned equanimity when it protects care from fantasy rather than from feeling.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Reduces people to diagnoses\n\nWithholds warmth as realism\n\nUses experience to foreclose possibility",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Meet the person before the pattern.\n- Offer one sincere act without demanding change.\n- Let grief soften what experience has armored.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Martyred Healer is the opposite imbalance of Compassion + Detachment.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Compassion and the dynamic relationship between Compassion and Detachment. Release ownership; remain humanly reachable.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her realism becomes seasoned equanimity when it protects care from fantasy rather than from feeling.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Compassion collapses while detachment becomes cynical distance.",
+            "declarations": [
+              "People rarely choose real healing.",
+              "I already know how this story ends.",
+              "Distance is the price of wisdom."
+            ],
+            "psychologicalMechanics": "Compassion recedes into detachment hardened by disappointment. She sees patterns and limits accurately but uses that knowledge to avoid being moved. Experience becomes superiority, and realistic prognosis becomes a defense against encounter.",
+            "hiddenEnergy": "Her realism becomes seasoned equanimity when it protects care from fantasy rather than from feeling.",
+            "recognition": "Reduces people to diagnoses\n\nWithholds warmth as realism\n\nUses experience to foreclose possibility",
+            "practices": [
+              "Meet the person before the pattern.",
+              "Offer one sincere act without demanding change.",
+              "Let grief soften what experience has armored."
+            ],
+            "oppositeShadow": "Martyred Healer is the opposite imbalance of Compassion + Detachment.",
+            "transformation": "Integration restores Compassion and the dynamic relationship between Compassion and Detachment. Release ownership; remain humanly reachable.",
+            "conclusion": "Her realism becomes seasoned equanimity when it protects care from fantasy rather than from feeling."
+          }
+        }
+      ]
     },
     {
-      "name": "Elder Visionary",
-      "slug": "elder-visionary-oracle-moon",
+      "kind": "archetype",
+      "name": "Seer",
+      "slug": "seer",
+      "lifecycle": "crone",
+      "order": 3,
+      "aliases": [
+        "Elder Visionary",
+        "Elder Oracle",
+        "Moon Seer"
+      ],
+      "legacyRoutes": [
+        "/crone/elder-visionary-oracle-moon/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "vision",
-        "timing"
+        "Vision",
+        "Timing"
       ],
-      "gifts": "The elder oracle and moon-seer: long vision seasoned by cycles and consequence.",
-      "growthPath": "Offer far-seeing truth at the moment and scale where it can become useful.",
-      "practices": [
-        "Translate one large pattern into a timely next step.",
-        "Ask whether an insight is yours to speak, now, to this person."
+      "image": "assets/images/elder-visionary-oracle-moon.jpeg",
+      "profile": {
+        "lifecycleStage": "Crone",
+        "coreFunction": "Voice long-range, seasoned pattern at the time and in the form it can serve.",
+        "balancedQualities": "Vision + Timing",
+        "activeShadow": "Premature Oracle",
+        "passiveShadow": "Withholding Seer",
+        "mythicResonances": "",
+        "keyQualities": "Attuned, Seasoned, Far-seeing, Cyclic, Gentle, Exact, Listening, Guiding, Patient, Kind"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "crone/archetypes/seer.md",
+      "coreFunction": "Voice long-range, seasoned pattern at the time and in the form it can serve.",
+      "keyQualities": [
+        "Attuned",
+        "Seasoned",
+        "Far-seeing",
+        "Cyclic",
+        "Gentle",
+        "Exact",
+        "Listening",
+        "Guiding",
+        "Patient",
+        "Kind"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Premature Oracle",
-            "type": "active",
-            "slug": "cryptic-oracle",
-            "description": [
-              "Vision disregards timing. She delivers distant truths before trust, readiness, or context can hold them, then mistakes incomprehension for others' lack of depth. Even accurate insight becomes intrusive when it steals another person's unfolding."
-            ],
-            "declarations": [
-              "They need to hear the whole truth now.",
-              "Readiness is only resistance.",
-              "My vision exempts me from ordinary context."
-            ],
-            "balancing": [
-              "Ask permission before interpreting another's path.",
-              "Offer the next useful piece, not the whole map.",
-              "Let silence preserve someone else's discovery."
-            ],
-            "gift": "Her far sight becomes wise guidance when revelation respects sequence and consent.",
-            "outOfBalance": [
-              "Predicts instead of listening",
-              "Overloads people with distant implications",
-              "Uses mystery to claim authority"
-            ]
-          },
-          {
-            "name": "Withholding Seer",
-            "type": "passive",
-            "slug": "disconnected-hermit",
-            "description": [
-              "Vision retreats into endless waiting. She recognizes a consequential pattern but postpones speaking until the moment has passed, calling fear discretion. Timing becomes a refuge from the exposure and responsibility of being clear."
-            ],
-            "declarations": [
-              "It is not quite the right moment.",
-              "They will see it when they are ready.",
-              "I should not interfere."
-            ],
-            "balancing": [
-              "Name the smallest truth that is timely now.",
-              "Set a threshold beyond which silence becomes neglect.",
-              "Speak plainly and release control of reception."
-            ],
-            "gift": "Her patience becomes mature discernment when it does not abandon the moment that needs her voice.",
-            "outOfBalance": [
-              "Speaks only after outcomes are obvious",
-              "Hides clarity behind riddles",
-              "Confuses noninterference with wisdom"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Elder Visionary",
-          "paragraphs": [
-            "The Mature Elder Visionary sees long patterns and honors human sequence. She does not use mystery to elevate herself or prediction to control the future. Her counsel arrives in plain language, at a usable scale, and leaves the listener freer to choose."
-          ]
+      "activeShadowSlug": "premature-oracle",
+      "passiveShadowSlug": "withholding-seer",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Elder Visionary sees long patterns and honors human sequence. She does not use mystery to elevate herself or prediction to control the future. Her counsel arrives in plain language, at a usable scale, and leaves the listener freer to choose.\n\nThe elder oracle and moon-seer: long vision seasoned by cycles and consequence.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I offer the portion of vision this moment can use.\n- Silence and speech both answer to service.\n- I see patterns without claiming the whole design.\n- My counsel returns authority to the listener.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Vision and Timing are mutually correcting.\n\nVision perceives long arcs, hidden relationships, and consequences beyond the immediate frame.\n\nTiming respects readiness, sequence, consent, and the ripeness of action.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Offer far-seeing truth at the moment and scale where it can become useful.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The elder oracle and moon-seer: long vision seasoned by cycles and consequence.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Translate one large pattern into a timely next step.\n- Ask whether an insight is yours to speak, now, to this person.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Seer",
+          "content": "The Mature Elder Visionary sees long patterns and honors human sequence. She does not use mystery to elevate herself or prediction to control the future. Her counsel arrives in plain language, at a usable scale, and leaves the listener freer to choose.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Elder Visionary sees long patterns and honors human sequence. She does not use mystery to elevate herself or prediction to control the future. Her counsel arrives in plain language, at a usable scale, and leaves the listener freer to choose.\n\nThe elder oracle and moon-seer: long vision seasoned by cycles and consequence.",
         "declarations": [
           "I offer the portion of vision this moment can use.",
           "Silence and speech both answer to service.",
           "I see patterns without claiming the whole design.",
           "My counsel returns authority to the listener."
         ],
-        "balance": {
-          "balance": "Vision ↔ Timing",
-          "shadow": "Premature Oracle ↔ Withholding Seer",
-          "powerAnimals": "Owl, Whale, Sea Turtle",
-          "qualities": "Attuned, Seasoned, Far-seeing, Cyclic, Gentle, Exact, Listening, Guiding, Patient, Kind"
-        },
-        "virtues": [
-          {
-            "title": "Vision",
-            "paragraphs": [
-              "Vision perceives long arcs, hidden relationships, and consequences beyond the immediate frame."
-            ]
+        "balance": "Vision and Timing are mutually correcting.\n\nVision perceives long arcs, hidden relationships, and consequences beyond the immediate frame.\n\nTiming respects readiness, sequence, consent, and the ripeness of action.",
+        "applications": "Offer far-seeing truth at the moment and scale where it can become useful.",
+        "giftsResponsibilitiesChallenges": "The elder oracle and moon-seer: long vision seasoned by cycles and consequence.",
+        "practices": [
+          "Translate one large pattern into a timely next step.",
+          "Ask whether an insight is yours to speak, now, to this person."
+        ],
+        "conclusion": "The Mature Elder Visionary sees long patterns and honors human sequence. She does not use mystery to elevate herself or prediction to control the future. Her counsel arrives in plain language, at a usable scale, and leaves the listener freer to choose."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Premature Oracle",
+          "slug": "premature-oracle",
+          "lifecycle": "crone",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/crone/elder-visionary-oracle-moon/shadows/cryptic-oracle/"
+          ],
+          "legacyAnchors": [
+            "cryptic-oracle"
+          ],
+          "qualities": [
+            "Vision",
+            "Timing"
+          ],
+          "image": "assets/images/shadow/elder-visionary-oracle-moon--dogmatic-prophet.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Vision without Timing",
+            "balancedQualities": "Vision + Timing",
+            "activeShadow": "Premature Oracle",
+            "passiveShadow": "Withholding Seer",
+            "mythicResonances": "",
+            "keyQualities": "Predicts instead of listening, Overloads people with distant implications, Uses mystery to claim authority"
           },
-          {
-            "title": "Timing",
-            "paragraphs": [
-              "Timing respects readiness, sequence, consent, and the ripeness of action."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/premature-oracle.md",
+          "parent": "seer",
+          "type": "active",
+          "oppositeShadowSlug": "withholding-seer",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Vision intrudes without timing.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- They need to hear the whole truth now.\n- Readiness is only resistance.\n- My vision exempts me from ordinary context.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Vision disregards timing. She delivers distant truths before trust, readiness, or context can hold them, then mistakes incomprehension for others' lack of depth. Even accurate insight becomes intrusive when it steals another person's unfolding.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her far sight becomes wise guidance when revelation respects sequence and consent.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Predicts instead of listening\n\nOverloads people with distant implications\n\nUses mystery to claim authority",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Ask permission before interpreting another's path.\n- Offer the next useful piece, not the whole map.\n- Let silence preserve someone else's discovery.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Withholding Seer is the opposite imbalance of Vision + Timing.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Timing and the dynamic relationship between Vision and Timing. Respect readiness; speak consequential pattern clearly.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her far sight becomes wise guidance when revelation respects sequence and consent.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Vision intrudes without timing.",
+            "declarations": [
+              "They need to hear the whole truth now.",
+              "Readiness is only resistance.",
+              "My vision exempts me from ordinary context."
+            ],
+            "psychologicalMechanics": "Vision disregards timing. She delivers distant truths before trust, readiness, or context can hold them, then mistakes incomprehension for others' lack of depth. Even accurate insight becomes intrusive when it steals another person's unfolding.",
+            "hiddenEnergy": "Her far sight becomes wise guidance when revelation respects sequence and consent.",
+            "recognition": "Predicts instead of listening\n\nOverloads people with distant implications\n\nUses mystery to claim authority",
+            "practices": [
+              "Ask permission before interpreting another's path.",
+              "Offer the next useful piece, not the whole map.",
+              "Let silence preserve someone else's discovery."
+            ],
+            "oppositeShadow": "Withholding Seer is the opposite imbalance of Vision + Timing.",
+            "transformation": "Integration restores Timing and the dynamic relationship between Vision and Timing. Respect readiness; speak consequential pattern clearly.",
+            "conclusion": "Her far sight becomes wise guidance when revelation respects sequence and consent."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Withholding Seer",
+          "slug": "withholding-seer",
+          "lifecycle": "crone",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/crone/elder-visionary-oracle-moon/shadows/disconnected-hermit/"
+          ],
+          "legacyAnchors": [
+            "disconnected-hermit"
+          ],
+          "qualities": [
+            "Vision",
+            "Timing"
+          ],
+          "image": "assets/images/shadow/elder-visionary-oracle-moon--escapist-dreamer.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Vision collapses while Timing distorts",
+            "balancedQualities": "Vision + Timing",
+            "activeShadow": "Premature Oracle",
+            "passiveShadow": "Withholding Seer",
+            "mythicResonances": "",
+            "keyQualities": "Speaks only after outcomes are obvious, Hides clarity behind riddles, Confuses noninterference with wisdom"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/withholding-seer.md",
+          "parent": "seer",
+          "type": "passive",
+          "oppositeShadowSlug": "premature-oracle",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Vision collapses while timing becomes indefinite postponement.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- It is not quite the right moment.\n- They will see it when they are ready.\n- I should not interfere.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Vision retreats into endless waiting. She recognizes a consequential pattern but postpones speaking until the moment has passed, calling fear discretion. Timing becomes a refuge from the exposure and responsibility of being clear.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her patience becomes mature discernment when it does not abandon the moment that needs her voice.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Speaks only after outcomes are obvious\n\nHides clarity behind riddles\n\nConfuses noninterference with wisdom",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Name the smallest truth that is timely now.\n- Set a threshold beyond which silence becomes neglect.\n- Speak plainly and release control of reception.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Premature Oracle is the opposite imbalance of Vision + Timing.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Vision and the dynamic relationship between Vision and Timing. Respect readiness; speak consequential pattern clearly.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her patience becomes mature discernment when it does not abandon the moment that needs her voice.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Vision collapses while timing becomes indefinite postponement.",
+            "declarations": [
+              "It is not quite the right moment.",
+              "They will see it when they are ready.",
+              "I should not interfere."
+            ],
+            "psychologicalMechanics": "Vision retreats into endless waiting. She recognizes a consequential pattern but postpones speaking until the moment has passed, calling fear discretion. Timing becomes a refuge from the exposure and responsibility of being clear.",
+            "hiddenEnergy": "Her patience becomes mature discernment when it does not abandon the moment that needs her voice.",
+            "recognition": "Speaks only after outcomes are obvious\n\nHides clarity behind riddles\n\nConfuses noninterference with wisdom",
+            "practices": [
+              "Name the smallest truth that is timely now.",
+              "Set a threshold beyond which silence becomes neglect.",
+              "Speak plainly and release control of reception."
+            ],
+            "oppositeShadow": "Premature Oracle is the opposite imbalance of Vision + Timing.",
+            "transformation": "Integration restores Vision and the dynamic relationship between Vision and Timing. Respect readiness; speak consequential pattern clearly.",
+            "conclusion": "Her patience becomes mature discernment when it does not abandon the moment that needs her voice."
+          }
+        }
+      ]
     },
     {
+      "kind": "archetype",
       "name": "Rebel",
-      "slug": "rebel-revolutionary-trickster",
+      "slug": "rebel",
+      "lifecycle": "crone",
+      "order": 4,
+      "aliases": [
+        "Revolutionary",
+        "Trickster"
+      ],
+      "legacyRoutes": [
+        "/crone/rebel-revolutionary-trickster/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "liberation",
-        "responsibility"
+        "Liberation",
+        "Responsibility"
       ],
-      "gifts": "The revolutionary trickster: liberating disruption, wit, and refusal of stale authority.",
-      "growthPath": "Break what constrains life and accept responsibility for what the break makes possible.",
-      "practices": [
-        "Name the freedom sought, not only the rule opposed.",
-        "Before disruption, identify who bears the cleanup and transition."
+      "image": "assets/images/rebel-revolutionary-trickster.jpeg",
+      "profile": {
+        "lifecycleStage": "Crone",
+        "coreFunction": "Refuse stale or illegitimate authority and build responsible freedom beyond it.",
+        "balancedQualities": "Liberation + Responsibility",
+        "activeShadow": "Chaotic Rebel",
+        "passiveShadow": "Compliant Critic",
+        "mythicResonances": "",
+        "keyQualities": "Playful, Subversive, Liberating, Ethical, Quick, Inventive, Insightful, Courageous, Light-hearted, Purposeful"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "crone/archetypes/rebel.md",
+      "coreFunction": "Refuse stale or illegitimate authority and build responsible freedom beyond it.",
+      "keyQualities": [
+        "Playful",
+        "Subversive",
+        "Liberating",
+        "Ethical",
+        "Quick",
+        "Inventive",
+        "Insightful",
+        "Courageous",
+        "Light-hearted",
+        "Purposeful"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Chaotic Rebel",
-            "type": "active",
-            "slug": "chaotic-destroyer",
-            "description": [
-              "Liberation throws off responsibility and becomes reflexive destruction. She opposes structure for the thrill of rupture, externalizes every consequence, and calls harm inevitable collateral. Freedom remains adolescent because it creates nothing durable."
-            ],
-            "declarations": [
-              "Any limit is oppression.",
-              "Disruption is its own success.",
-              "The cause excuses the damage."
-            ],
-            "balancing": [
-              "Define the life-giving alternative before dismantling.",
-              "Take responsibility for foreseeable impact.",
-              "Preserve structures that still serve."
-            ],
-            "gift": "Her refusal becomes catalytic courage when it clears ground for a viable freedom.",
-            "outOfBalance": [
-              "Breaks alliances for purity",
-              "Escalates without strategy",
-              "Leaves others to absorb fallout"
-            ]
-          },
-          {
-            "name": "Compliant Critic",
-            "type": "passive",
-            "slug": "conforming-complainer",
-            "description": [
-              "Liberation collapses beneath responsibility recast as permission-seeking. She sees what is stale, speaks cynically in safe company, and continues complying because no action is guaranteed to be clean. Critique protects her identity while the system remains unchanged."
-            ],
-            "declarations": [
-              "Nothing I do will alter the system.",
-              "Acting would make me part of the problem.",
-              "I am responsible as long as I disapprove."
-            ],
-            "balancing": [
-              "Choose one rule you can meaningfully refuse.",
-              "Join others already building an alternative.",
-              "Accept imperfect action with transparent accountability."
-            ],
-            "gift": "Her caution becomes strategic dissent when it enters the arena and shares the cost of change.",
-            "outOfBalance": [
-              "Complains without organizing",
-              "Waits for moral certainty",
-              "Complies publicly and rebels privately"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Rebel",
-          "paragraphs": [
-            "The Mature Rebel is loyal to liberation rather than to rebellion itself. She exposes stale norms, disrupts with proportion, and helps build forms that can hold the freedom she seeks. Humor keeps her from sanctimony; responsibility keeps her from making other people pay for her purity."
-          ]
+      "activeShadowSlug": "chaotic-rebel",
+      "passiveShadowSlug": "compliant-critic",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Rebel is loyal to liberation rather than to rebellion itself. She exposes stale norms, disrupts with proportion, and helps build forms that can hold the freedom she seeks. Humor keeps her from sanctimony; responsibility keeps her from making other people pay for her purity.\n\nThe revolutionary trickster: liberating disruption, wit, and refusal of stale authority.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I rebel for a freedom I can help sustain.\n- Disruption is a tool, not an identity.\n- I answer for the consequences of my refusal.\n- I can preserve what works while transforming what does not.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Liberation and Responsibility are mutually correcting.\n\nLiberation releases life and agency from domination, inherited limits, or dead forms.\n\nResponsibility accepts impact, interdependence, and the work of building after refusal.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Break what constrains life and accept responsibility for what the break makes possible.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The revolutionary trickster: liberating disruption, wit, and refusal of stale authority.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Name the freedom sought, not only the rule opposed.\n- Before disruption, identify who bears the cleanup and transition.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Rebel",
+          "content": "The Mature Rebel is loyal to liberation rather than to rebellion itself. She exposes stale norms, disrupts with proportion, and helps build forms that can hold the freedom she seeks. Humor keeps her from sanctimony; responsibility keeps her from making other people pay for her purity.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Rebel is loyal to liberation rather than to rebellion itself. She exposes stale norms, disrupts with proportion, and helps build forms that can hold the freedom she seeks. Humor keeps her from sanctimony; responsibility keeps her from making other people pay for her purity.\n\nThe revolutionary trickster: liberating disruption, wit, and refusal of stale authority.",
         "declarations": [
           "I rebel for a freedom I can help sustain.",
           "Disruption is a tool, not an identity.",
           "I answer for the consequences of my refusal.",
           "I can preserve what works while transforming what does not."
         ],
-        "balance": {
-          "balance": "Liberation ↔ Responsibility",
-          "shadow": "Chaotic Rebel ↔ Compliant Critic",
-          "powerAnimals": "Coyote, Crow, Octopus",
-          "qualities": "Playful, Subversive, Liberating, Ethical, Quick, Inventive, Insightful, Courageous, Light-hearted, Purposeful"
-        },
-        "virtues": [
-          {
-            "title": "Liberation",
-            "paragraphs": [
-              "Liberation releases life and agency from domination, inherited limits, or dead forms."
-            ]
+        "balance": "Liberation and Responsibility are mutually correcting.\n\nLiberation releases life and agency from domination, inherited limits, or dead forms.\n\nResponsibility accepts impact, interdependence, and the work of building after refusal.",
+        "applications": "Break what constrains life and accept responsibility for what the break makes possible.",
+        "giftsResponsibilitiesChallenges": "The revolutionary trickster: liberating disruption, wit, and refusal of stale authority.",
+        "practices": [
+          "Name the freedom sought, not only the rule opposed.",
+          "Before disruption, identify who bears the cleanup and transition."
+        ],
+        "conclusion": "The Mature Rebel is loyal to liberation rather than to rebellion itself. She exposes stale norms, disrupts with proportion, and helps build forms that can hold the freedom she seeks. Humor keeps her from sanctimony; responsibility keeps her from making other people pay for her purity."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Chaotic Rebel",
+          "slug": "chaotic-rebel",
+          "lifecycle": "crone",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/crone/rebel-revolutionary-trickster/shadows/chaotic-destroyer/"
+          ],
+          "legacyAnchors": [
+            "chaotic-destroyer"
+          ],
+          "qualities": [
+            "Liberation",
+            "Responsibility"
+          ],
+          "image": "assets/images/shadow/rebel-revolutionary-trickster--chaotic-destroyer.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Liberation without Responsibility",
+            "balancedQualities": "Liberation + Responsibility",
+            "activeShadow": "Chaotic Rebel",
+            "passiveShadow": "Compliant Critic",
+            "mythicResonances": "",
+            "keyQualities": "Breaks alliances for purity, Escalates without strategy, Leaves others to absorb fallout"
           },
-          {
-            "title": "Responsibility",
-            "paragraphs": [
-              "Responsibility accepts impact, interdependence, and the work of building after refusal."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/chaotic-rebel.md",
+          "parent": "rebel",
+          "type": "active",
+          "oppositeShadowSlug": "compliant-critic",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Liberation destroys without responsibility.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Any limit is oppression.\n- Disruption is its own success.\n- The cause excuses the damage.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Liberation throws off responsibility and becomes reflexive destruction. She opposes structure for the thrill of rupture, externalizes every consequence, and calls harm inevitable collateral. Freedom remains adolescent because it creates nothing durable.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her refusal becomes catalytic courage when it clears ground for a viable freedom.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Breaks alliances for purity\n\nEscalates without strategy\n\nLeaves others to absorb fallout",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Define the life-giving alternative before dismantling.\n- Take responsibility for foreseeable impact.\n- Preserve structures that still serve.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Compliant Critic is the opposite imbalance of Liberation + Responsibility.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Responsibility and the dynamic relationship between Liberation and Responsibility. Build what freedom requires; act on justified refusal.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her refusal becomes catalytic courage when it clears ground for a viable freedom.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Liberation destroys without responsibility.",
+            "declarations": [
+              "Any limit is oppression.",
+              "Disruption is its own success.",
+              "The cause excuses the damage."
+            ],
+            "psychologicalMechanics": "Liberation throws off responsibility and becomes reflexive destruction. She opposes structure for the thrill of rupture, externalizes every consequence, and calls harm inevitable collateral. Freedom remains adolescent because it creates nothing durable.",
+            "hiddenEnergy": "Her refusal becomes catalytic courage when it clears ground for a viable freedom.",
+            "recognition": "Breaks alliances for purity\n\nEscalates without strategy\n\nLeaves others to absorb fallout",
+            "practices": [
+              "Define the life-giving alternative before dismantling.",
+              "Take responsibility for foreseeable impact.",
+              "Preserve structures that still serve."
+            ],
+            "oppositeShadow": "Compliant Critic is the opposite imbalance of Liberation + Responsibility.",
+            "transformation": "Integration restores Responsibility and the dynamic relationship between Liberation and Responsibility. Build what freedom requires; act on justified refusal.",
+            "conclusion": "Her refusal becomes catalytic courage when it clears ground for a viable freedom."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Compliant Critic",
+          "slug": "compliant-critic",
+          "lifecycle": "crone",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/crone/rebel-revolutionary-trickster/shadows/conforming-complainer/"
+          ],
+          "legacyAnchors": [
+            "conforming-complainer"
+          ],
+          "qualities": [
+            "Liberation",
+            "Responsibility"
+          ],
+          "image": "assets/images/shadow/rebel-revolutionary-trickster--conformist-rebel.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Liberation collapses while Responsibility distorts",
+            "balancedQualities": "Liberation + Responsibility",
+            "activeShadow": "Chaotic Rebel",
+            "passiveShadow": "Compliant Critic",
+            "mythicResonances": "",
+            "keyQualities": "Complains without organizing, Waits for moral certainty, Complies publicly and rebels privately"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/compliant-critic.md",
+          "parent": "rebel",
+          "type": "passive",
+          "oppositeShadowSlug": "chaotic-rebel",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Liberation collapses while responsibility becomes compliance and permission-seeking.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Nothing I do will alter the system.\n- Acting would make me part of the problem.\n- I am responsible as long as I disapprove.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Liberation collapses beneath responsibility recast as permission-seeking. She sees what is stale, speaks cynically in safe company, and continues complying because no action is guaranteed to be clean. Critique protects her identity while the system remains unchanged.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her caution becomes strategic dissent when it enters the arena and shares the cost of change.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Complains without organizing\n\nWaits for moral certainty\n\nComplies publicly and rebels privately",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Choose one rule you can meaningfully refuse.\n- Join others already building an alternative.\n- Accept imperfect action with transparent accountability.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Chaotic Rebel is the opposite imbalance of Liberation + Responsibility.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Liberation and the dynamic relationship between Liberation and Responsibility. Build what freedom requires; act on justified refusal.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her caution becomes strategic dissent when it enters the arena and shares the cost of change.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Liberation collapses while responsibility becomes compliance and permission-seeking.",
+            "declarations": [
+              "Nothing I do will alter the system.",
+              "Acting would make me part of the problem.",
+              "I am responsible as long as I disapprove."
+            ],
+            "psychologicalMechanics": "Liberation collapses beneath responsibility recast as permission-seeking. She sees what is stale, speaks cynically in safe company, and continues complying because no action is guaranteed to be clean. Critique protects her identity while the system remains unchanged.",
+            "hiddenEnergy": "Her caution becomes strategic dissent when it enters the arena and shares the cost of change.",
+            "recognition": "Complains without organizing\n\nWaits for moral certainty\n\nComplies publicly and rebels privately",
+            "practices": [
+              "Choose one rule you can meaningfully refuse.",
+              "Join others already building an alternative.",
+              "Accept imperfect action with transparent accountability."
+            ],
+            "oppositeShadow": "Chaotic Rebel is the opposite imbalance of Liberation + Responsibility.",
+            "transformation": "Integration restores Liberation and the dynamic relationship between Liberation and Responsibility. Build what freedom requires; act on justified refusal.",
+            "conclusion": "Her caution becomes strategic dissent when it enters the arena and shares the cost of change."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "archetype",
+      "name": "Sage",
+      "slug": "sage",
+      "lifecycle": "crone",
+      "order": 5,
+      "aliases": [
+        "Wisdom"
+      ],
+      "legacyRoutes": [
+        "/queen/sage-wisdom/"
+      ],
+      "legacyAnchors": [],
+      "qualities": [
+        "Clarity",
+        "Curiosity"
+      ],
+      "image": "assets/images/sage-wisdom-athena.jpeg",
+      "profile": {
+        "lifecycleStage": "Crone",
+        "coreFunction": "Form and offer sound, revisable counsel from evidence, experience, and reflection.",
+        "balancedQualities": "Clarity + Curiosity",
+        "activeShadow": "Arrogant Know-It-All",
+        "passiveShadow": "Withholding Sage",
+        "mythicResonances": "",
+        "keyQualities": "Wise, Discerning, Curious, Strategic, Calm, Perceptive, Measured, Ethical, Insightful, Practical"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "crone/archetypes/sage.md",
+      "coreFunction": "Form and offer sound, revisable counsel from evidence, experience, and reflection.",
+      "keyQualities": [
+        "Wise",
+        "Discerning",
+        "Curious",
+        "Strategic",
+        "Calm",
+        "Perceptive",
+        "Measured",
+        "Ethical",
+        "Insightful",
+        "Practical"
+      ],
+      "activeShadowSlug": "arrogant-know-it-all",
+      "passiveShadowSlug": "withholding-sage",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Sage is the balanced expression of this pattern—a woman who has metabolized its instincts and gifts into trustworthy presence. In her psyche the raw impulses of sage/wisdom energy have been tempered by discernment and integrated with the rest of her nature. She knows the season she is in, honors limits, and lets life move through her without grasping or collapse. Spiritually, the Mature Sage recognizes that her power is borrowed from something larger—source, nature, community, or mystery—and so she acts with reverence rather than entitlement. She understands how beginnings and endings, growth and rest, assertion and surrender all belong to the same dance.\n\nStrategy, clear counsel, just timing.",
+          "subsections": []
+        },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I honor the sage/wisdom within me with wisdom\n- I choose truth over comfort and growth over stagnation\n- I listen deeply to body, heart, and intuition\n- I set clean boundaries and keep gentle promises\n- I act from purpose, not from proving or pleasing\n- I welcome feedback and repair when I cause harm\n- I create beauty and order in ways that nourish life\n- I trust cycles—beginnings, middles, endings, and rest",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Clarity and Curiosity are mutually correcting.\n\nClarity is essential to the Sage—it channels this archetype’s gifts into meaningful action. Yet clarity is never meant to stand alone. In healthy balance it moves with curiosity, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nPractically, clarity shows up as clear choices aligned with values. Untethered from curiosity, it can skew toward the Arrogant Know-It-All—pushing, gripping, or overreaching. In rhythm with curiosity, it becomes trustworthy, sustainable, and nourishing for all involved.\n\nCuriosity is essential to the Sage—it channels this archetype’s gifts into meaningful action. Yet curiosity is never meant to stand alone. In healthy balance it moves with clarity, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nIn practice, curiosity provides proportion, pacing, and care. Without clarity, it can drift toward the Withholding Sage—hesitating, second-guessing, or withdrawing. Coupled with clarity, it keeps action timely, humane, and effective.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Wisdom with warmth; knowledge in service.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "Strategy, clear counsel, just timing.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- \"Ask three questions before one claim.\"\n- Pair logic with one embodied check.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Sage",
+          "content": "In the world this looks practical and human. The Mature Sage communicates clearly, takes responsibility for impact, and chooses commitments that match her capacity. She can say yes wholeheartedly and no cleanly. She embodies the sage/wisdom virtues in her work, love, and leadership: not as performance but as natural overflow. Her relationships benefit from her steadiness; her projects benefit from her focus; her body benefits from her pacing. Where the shadow once sought control or hid in avoidance, she now practices humility, accountability, and repair. The result is a grounded confidence that invites trust—and gently calls others into their own maturity.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Sage is the balanced expression of this pattern—a woman who has metabolized its instincts and gifts into trustworthy presence. In her psyche the raw impulses of sage/wisdom energy have been tempered by discernment and integrated with the rest of her nature. She knows the season she is in, honors limits, and lets life move through her without grasping or collapse. Spiritually, the Mature Sage recognizes that her power is borrowed from something larger—source, nature, community, or mystery—and so she acts with reverence rather than entitlement. She understands how beginnings and endings, growth and rest, assertion and surrender all belong to the same dance.\n\nStrategy, clear counsel, just timing.",
+        "declarations": [
+          "I honor the sage/wisdom within me with wisdom",
+          "I choose truth over comfort and growth over stagnation",
+          "I listen deeply to body, heart, and intuition",
+          "I set clean boundaries and keep gentle promises",
+          "I act from purpose, not from proving or pleasing",
+          "I welcome feedback and repair when I cause harm",
+          "I create beauty and order in ways that nourish life",
+          "I trust cycles—beginnings, middles, endings, and rest"
+        ],
+        "balance": "Clarity and Curiosity are mutually correcting.\n\nClarity is essential to the Sage—it channels this archetype’s gifts into meaningful action. Yet clarity is never meant to stand alone. In healthy balance it moves with curiosity, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nPractically, clarity shows up as clear choices aligned with values. Untethered from curiosity, it can skew toward the Arrogant Know-It-All—pushing, gripping, or overreaching. In rhythm with curiosity, it becomes trustworthy, sustainable, and nourishing for all involved.\n\nCuriosity is essential to the Sage—it channels this archetype’s gifts into meaningful action. Yet curiosity is never meant to stand alone. In healthy balance it moves with clarity, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nIn practice, curiosity provides proportion, pacing, and care. Without clarity, it can drift toward the Withholding Sage—hesitating, second-guessing, or withdrawing. Coupled with clarity, it keeps action timely, humane, and effective.",
+        "applications": "Wisdom with warmth; knowledge in service.",
+        "giftsResponsibilitiesChallenges": "Strategy, clear counsel, just timing.",
+        "practices": [
+          "\"Ask three questions before one claim.\"",
+          "Pair logic with one embodied check."
+        ],
+        "conclusion": "In the world this looks practical and human. The Mature Sage communicates clearly, takes responsibility for impact, and chooses commitments that match her capacity. She can say yes wholeheartedly and no cleanly. She embodies the sage/wisdom virtues in her work, love, and leadership: not as performance but as natural overflow. Her relationships benefit from her steadiness; her projects benefit from her focus; her body benefits from her pacing. Where the shadow once sought control or hid in avoidance, she now practices humility, accountability, and repair. The result is a grounded confidence that invites trust—and gently calls others into their own maturity."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Arrogant Know-It-All",
+          "slug": "arrogant-know-it-all",
+          "lifecycle": "crone",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/sage-wisdom/shadows/arrogant-know-it-all/"
+          ],
+          "legacyAnchors": [
+            "arrogant-know-it-all"
+          ],
+          "qualities": [
+            "Clarity",
+            "Curiosity"
+          ],
+          "image": "assets/images/shadow/unmatched--arrogant-know-it-all.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Clarity without Curiosity",
+            "balancedQualities": "Clarity + Curiosity",
+            "activeShadow": "Arrogant Know-It-All",
+            "passiveShadow": "Withholding Sage",
+            "mythicResonances": "",
+            "keyQualities": "Oversteps boundaries; decides for others, Mistakes speed for effectiveness, Performs care or genius to avoid vulnerability, Micromanages; cannot rest, Seeks admiration or control over connection, Ignores feedback, doubles down under stress"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/arrogant-know-it-all.md",
+          "parent": "sage",
+          "type": "active",
+          "oppositeShadowSlug": "withholding-sage",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Clarity hardens without curiosity.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I stay in control so I never have to feel small.\n- I push harder when I feel doubt instead of slowing down.\n- I confuse urgency with importance.\n- I override my body’s signals to keep things on track.\n- I decide what’s best and expect others to catch up.\n- I use charm, logic, or pressure when I’m afraid.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "The Arrogant Know-It-All is the overexpressed shadow of the Sage. She pushes the archetype’s understanding and counsel to an extreme—trying to manufacture certainty, safety, or admiration through control. What begins as discernment, knowledge, strategy becomes performance and pressure. In this stance she overrides signals from body and relationships, doubles down when she should pause, and confuses intensity for truth. Often born from wounds of dismissal, intellectual arrogance around them, she learned to stay ahead of pain by taking charge.\n\nFrom the outside this shadow can look competent, charismatic, even selfless; inside there is a tightness and a fear that rest or honest contact will expose vulnerability. In decision-making and teaching she speeds up, takes over, and makes unilateral moves “for everyone’s good.” Integration begins when she tells the truth about impact, slows her pace, and lets reciprocity, feedback, and limits restore proportion.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "When owned, the Arrogant Know-It-All offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Sage’s capacity to move things forward when it truly serves.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Oversteps boundaries; decides for others\n\nMistakes speed for effectiveness\n\nPerforms care or genius to avoid vulnerability\n\nMicromanages; cannot rest\n\nSeeks admiration or control over connection\n\nIgnores feedback, doubles down under stress",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- I pause and feel my body before acting; I let breath slow me down.\n- I name the fear underneath my urgency and let someone I trust witness it.\n- I ask for consent and co-create next steps instead of taking over as the Sage.\n- I replace pressure with clear requests and real timelines.\n- I practice letting something be imperfect and still complete.\n- I track impact, apologize where needed, and repair.\n- I delegate in proportion to others’ capacity and trust their pace.\n- I schedule regular rest so power can be sourced, not forced.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Withholding Sage is the opposite imbalance of Clarity + Curiosity.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Curiosity and the dynamic relationship between Clarity and Curiosity. Reopen the judgment; offer a revisable conclusion.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "When owned, the Arrogant Know-It-All offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Sage’s capacity to move things forward when it truly serves.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Clarity hardens without curiosity.",
+            "declarations": [
+              "I stay in control so I never have to feel small.",
+              "I push harder when I feel doubt instead of slowing down.",
+              "I confuse urgency with importance.",
+              "I override my body’s signals to keep things on track.",
+              "I decide what’s best and expect others to catch up.",
+              "I use charm, logic, or pressure when I’m afraid."
+            ],
+            "psychologicalMechanics": "The Arrogant Know-It-All is the overexpressed shadow of the Sage. She pushes the archetype’s understanding and counsel to an extreme—trying to manufacture certainty, safety, or admiration through control. What begins as discernment, knowledge, strategy becomes performance and pressure. In this stance she overrides signals from body and relationships, doubles down when she should pause, and confuses intensity for truth. Often born from wounds of dismissal, intellectual arrogance around them, she learned to stay ahead of pain by taking charge.\n\nFrom the outside this shadow can look competent, charismatic, even selfless; inside there is a tightness and a fear that rest or honest contact will expose vulnerability. In decision-making and teaching she speeds up, takes over, and makes unilateral moves “for everyone’s good.” Integration begins when she tells the truth about impact, slows her pace, and lets reciprocity, feedback, and limits restore proportion.",
+            "hiddenEnergy": "When owned, the Arrogant Know-It-All offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Sage’s capacity to move things forward when it truly serves.",
+            "recognition": "Oversteps boundaries; decides for others\n\nMistakes speed for effectiveness\n\nPerforms care or genius to avoid vulnerability\n\nMicromanages; cannot rest\n\nSeeks admiration or control over connection\n\nIgnores feedback, doubles down under stress",
+            "practices": [
+              "I pause and feel my body before acting; I let breath slow me down.",
+              "I name the fear underneath my urgency and let someone I trust witness it.",
+              "I ask for consent and co-create next steps instead of taking over as the Sage.",
+              "I replace pressure with clear requests and real timelines.",
+              "I practice letting something be imperfect and still complete.",
+              "I track impact, apologize where needed, and repair.",
+              "I delegate in proportion to others’ capacity and trust their pace.",
+              "I schedule regular rest so power can be sourced, not forced."
+            ],
+            "oppositeShadow": "Withholding Sage is the opposite imbalance of Clarity + Curiosity.",
+            "transformation": "Integration restores Curiosity and the dynamic relationship between Clarity and Curiosity. Reopen the judgment; offer a revisable conclusion.",
+            "conclusion": "When owned, the Arrogant Know-It-All offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Sage’s capacity to move things forward when it truly serves."
+          }
+        },
+        {
+          "kind": "shadow",
+          "name": "Withholding Sage",
+          "slug": "withholding-sage",
+          "lifecycle": "crone",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/sage-wisdom/shadows/withholding-sage/"
+          ],
+          "legacyAnchors": [
+            "withholding-sage"
+          ],
+          "qualities": [
+            "Clarity",
+            "Curiosity"
+          ],
+          "image": "assets/images/shadow/sage-wisdom--withholding-sage.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Clarity collapses while Curiosity distorts",
+            "balancedQualities": "Clarity + Curiosity",
+            "activeShadow": "Arrogant Know-It-All",
+            "passiveShadow": "Withholding Sage",
+            "mythicResonances": "",
+            "keyQualities": "Defers decisions; waits for perfect certainty, Disengages from body and relationships, People-pleases to avoid conflict, Lets others set terms then resents them, Creativity stalled by perfectionism and fear, Self-doubt presented as humility"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/withholding-sage.md",
+          "parent": "sage",
+          "type": "passive",
+          "oppositeShadowSlug": "arrogant-know-it-all",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Clarity collapses while curiosity becomes endless inquiry.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I keep quiet so I won’t be wrong.\n- I wait for clarity instead of risking a first step.\n- I make myself small so others will be comfortable.\n- I numb, drift, or fantasize when decisions are needed.\n- I defer to experts and ignore my inner knowing.\n- I avoid conflict even when a boundary is needed.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "The Withholding Sage is the underexpressed shadow of the Sage. She retreats from the archetype’s understanding and counsel into fog, passivity, or fantasy. What begins as discernment, knowledge, strategy collapses into avoidance: she waits for a sign, defers to others, and lets fear of misstep become an identity. Wounds of dismissal, intellectual arrogance around them taught her that having needs or a voice was costly, so she learned to disappear.\n\nIn practice this looks like hesitation, playing small, or outsourcing choice. In decision-making and teaching she withholds gifts until it’s ‘perfect’ or safe, and resentment builds. Integration begins when she claims a small, honest action, feels feelings without drowning in them, and allows support, structure, and rhythm to rebuild trust in herself.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "When welcomed, the Withholding Sage offers spaciousness, reflection, and sensitivity. Integrated, she restores the Sage’s ability to listen deeply and act in right timing.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Defers decisions; waits for perfect certainty\n\nDisengages from body and relationships\n\nPeople-pleases to avoid conflict\n\nLets others set terms then resents them\n\nCreativity stalled by perfectionism and fear\n\nSelf-doubt presented as humility",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- I choose one small, honest action and complete it today.\n- I ground in my body—walk, breathe, hydrate—before making choices.\n- I name what I want out loud, allowing the Sage gifts to move.\n- I set a simple boundary and keep it.\n- I replace rumination with a time-boxed plan and a first step.\n- I ask for specific support and stay in relationship while acting.\n- I celebrate progress, not perfection, to build momentum.\n- I keep gentle promises to myself daily to rebuild trust.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Arrogant Know-It-All is the opposite imbalance of Clarity + Curiosity.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Clarity and the dynamic relationship between Clarity and Curiosity. Reopen the judgment; offer a revisable conclusion.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "When welcomed, the Withholding Sage offers spaciousness, reflection, and sensitivity. Integrated, she restores the Sage’s ability to listen deeply and act in right timing.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Clarity collapses while curiosity becomes endless inquiry.",
+            "declarations": [
+              "I keep quiet so I won’t be wrong.",
+              "I wait for clarity instead of risking a first step.",
+              "I make myself small so others will be comfortable.",
+              "I numb, drift, or fantasize when decisions are needed.",
+              "I defer to experts and ignore my inner knowing.",
+              "I avoid conflict even when a boundary is needed."
+            ],
+            "psychologicalMechanics": "The Withholding Sage is the underexpressed shadow of the Sage. She retreats from the archetype’s understanding and counsel into fog, passivity, or fantasy. What begins as discernment, knowledge, strategy collapses into avoidance: she waits for a sign, defers to others, and lets fear of misstep become an identity. Wounds of dismissal, intellectual arrogance around them taught her that having needs or a voice was costly, so she learned to disappear.\n\nIn practice this looks like hesitation, playing small, or outsourcing choice. In decision-making and teaching she withholds gifts until it’s ‘perfect’ or safe, and resentment builds. Integration begins when she claims a small, honest action, feels feelings without drowning in them, and allows support, structure, and rhythm to rebuild trust in herself.",
+            "hiddenEnergy": "When welcomed, the Withholding Sage offers spaciousness, reflection, and sensitivity. Integrated, she restores the Sage’s ability to listen deeply and act in right timing.",
+            "recognition": "Defers decisions; waits for perfect certainty\n\nDisengages from body and relationships\n\nPeople-pleases to avoid conflict\n\nLets others set terms then resents them\n\nCreativity stalled by perfectionism and fear\n\nSelf-doubt presented as humility",
+            "practices": [
+              "I choose one small, honest action and complete it today.",
+              "I ground in my body—walk, breathe, hydrate—before making choices.",
+              "I name what I want out loud, allowing the Sage gifts to move.",
+              "I set a simple boundary and keep it.",
+              "I replace rumination with a time-boxed plan and a first step.",
+              "I ask for specific support and stay in relationship while acting.",
+              "I celebrate progress, not perfection, to build momentum.",
+              "I keep gentle promises to myself daily to rebuild trust."
+            ],
+            "oppositeShadow": "Arrogant Know-It-All is the opposite imbalance of Clarity + Curiosity.",
+            "transformation": "Integration restores Clarity and the dynamic relationship between Clarity and Curiosity. Reopen the judgment; offer a revisable conclusion.",
+            "conclusion": "When welcomed, the Withholding Sage offers spaciousness, reflection, and sensitivity. Integrated, she restores the Sage’s ability to listen deeply and act in right timing."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "archetype",
+      "name": "Storyteller",
+      "slug": "storyteller",
+      "lifecycle": "crone",
+      "order": 6,
+      "aliases": [],
+      "legacyRoutes": [
+        "/queen/storyteller/"
+      ],
+      "legacyAnchors": [],
+      "qualities": [
+        "Narrative Imagination",
+        "Fidelity"
+      ],
+      "image": "assets/images/storyteller.jpeg",
+      "profile": {
+        "lifecycleStage": "Crone",
+        "coreFunction": "Carry lived truth across people and time as memorable shared meaning.",
+        "balancedQualities": "Narrative Imagination + Fidelity",
+        "activeShadow": "Exaggerating Dramatist",
+        "passiveShadow": "Silent Keeper",
+        "mythicResonances": "",
+        "keyQualities": "Meaningful, Authentic, Vivid, Empathic, Courageous, Memorable, Integrative, Playful, Grounded, True"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "crone/archetypes/storyteller.md",
+      "coreFunction": "Carry lived truth across people and time as memorable shared meaning.",
+      "keyQualities": [
+        "Meaningful",
+        "Authentic",
+        "Vivid",
+        "Empathic",
+        "Courageous",
+        "Memorable",
+        "Integrative",
+        "Playful",
+        "Grounded",
+        "True"
+      ],
+      "activeShadowSlug": "exaggerating-dramatist",
+      "passiveShadowSlug": "silent-keeper",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Storyteller is the balanced expression of this pattern—a woman who has metabolized its instincts and gifts into trustworthy presence. In her psyche the raw impulses of storyteller energy have been tempered by discernment and integrated with the rest of her nature. She knows the season she is in, honors limits, and lets life move through her without grasping or collapse. Spiritually, the Mature Storyteller recognizes that her power is borrowed from something larger—source, nature, community, or mystery—and so she acts with reverence rather than entitlement. She understands how beginnings and endings, growth and rest, assertion and surrender all belong to the same dance.\n\nMeaning-making; communal memory.",
+          "subsections": []
+        },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I honor the storyteller within me with wisdom\n- I choose truth over comfort and growth over stagnation\n- I listen deeply to body, heart, and intuition\n- I set clean boundaries and keep gentle promises\n- I act from purpose, not from proving or pleasing\n- I welcome feedback and repair when I cause harm\n- I create beauty and order in ways that nourish life\n- I trust cycles—beginnings, middles, endings, and rest",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Narrative Imagination and Fidelity are mutually correcting.\n\nTruth-telling is a signature virtue of the Mature Storyteller. It refines raw impulse into trustworthy power. Rather than performing goodness or control, she practices truth-telling as a daily discipline—small choices that align impact with intention. This is not perfectionism; it is presence. It is the willingness to pause, to feel, to include dissenting data, and to do the next honest thing.\n\nIn modern life, truth-telling shows up as boundaries that honor relationship, decisions that honor values, and rhythms that honor the body. The Mature Storyteller remembers that virtue grows in community and over time. She measures progress by repair, resilience, and the ability to keep creating even when outcomes are uncertain.\n\nHonesty is essential to the Storyteller—it channels this archetype’s gifts into meaningful action. Yet honesty is never meant to stand alone. In healthy balance it moves with imagination, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nPractically, honesty shows up as clear choices aligned with values. Untethered from imagination, it can skew toward the Exaggerating Dramatist—pushing, gripping, or overreaching. In rhythm with imagination, it becomes trustworthy, sustainable, and nourishing for all involved.\n\nImagination is essential to the Storyteller—it channels this archetype’s gifts into meaningful action. Yet imagination is never meant to stand alone. In healthy balance it moves with honesty, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nIn practice, imagination provides proportion, pacing, and care. Without honesty, it can drift toward the Silent Keeper—hesitating, second-guessing, or withdrawing. Coupled with honesty, it keeps action timely, humane, and effective.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Tell truth beautifully; share wisdom generously.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "Meaning-making; communal memory.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- \"True story, short\" (200 words, sensory + lesson).",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Storyteller",
+          "content": "In the world this looks practical and human. The Mature Storyteller communicates clearly, takes responsibility for impact, and chooses commitments that match her capacity. She can say yes wholeheartedly and no cleanly. She embodies the storyteller virtues in her work, love, and leadership: not as performance but as natural overflow. Her relationships benefit from her steadiness; her projects benefit from her focus; her body benefits from her pacing. Where the shadow once sought control or hid in avoidance, she now practices humility, accountability, and repair. The result is a grounded confidence that invites trust—and gently calls others into their own maturity.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Storyteller is the balanced expression of this pattern—a woman who has metabolized its instincts and gifts into trustworthy presence. In her psyche the raw impulses of storyteller energy have been tempered by discernment and integrated with the rest of her nature. She knows the season she is in, honors limits, and lets life move through her without grasping or collapse. Spiritually, the Mature Storyteller recognizes that her power is borrowed from something larger—source, nature, community, or mystery—and so she acts with reverence rather than entitlement. She understands how beginnings and endings, growth and rest, assertion and surrender all belong to the same dance.\n\nMeaning-making; communal memory.",
+        "declarations": [
+          "I honor the storyteller within me with wisdom",
+          "I choose truth over comfort and growth over stagnation",
+          "I listen deeply to body, heart, and intuition",
+          "I set clean boundaries and keep gentle promises",
+          "I act from purpose, not from proving or pleasing",
+          "I welcome feedback and repair when I cause harm",
+          "I create beauty and order in ways that nourish life",
+          "I trust cycles—beginnings, middles, endings, and rest"
+        ],
+        "balance": "Narrative Imagination and Fidelity are mutually correcting.\n\nTruth-telling is a signature virtue of the Mature Storyteller. It refines raw impulse into trustworthy power. Rather than performing goodness or control, she practices truth-telling as a daily discipline—small choices that align impact with intention. This is not perfectionism; it is presence. It is the willingness to pause, to feel, to include dissenting data, and to do the next honest thing.\n\nIn modern life, truth-telling shows up as boundaries that honor relationship, decisions that honor values, and rhythms that honor the body. The Mature Storyteller remembers that virtue grows in community and over time. She measures progress by repair, resilience, and the ability to keep creating even when outcomes are uncertain.\n\nHonesty is essential to the Storyteller—it channels this archetype’s gifts into meaningful action. Yet honesty is never meant to stand alone. In healthy balance it moves with imagination, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nPractically, honesty shows up as clear choices aligned with values. Untethered from imagination, it can skew toward the Exaggerating Dramatist—pushing, gripping, or overreaching. In rhythm with imagination, it becomes trustworthy, sustainable, and nourishing for all involved.\n\nImagination is essential to the Storyteller—it channels this archetype’s gifts into meaningful action. Yet imagination is never meant to stand alone. In healthy balance it moves with honesty, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nIn practice, imagination provides proportion, pacing, and care. Without honesty, it can drift toward the Silent Keeper—hesitating, second-guessing, or withdrawing. Coupled with honesty, it keeps action timely, humane, and effective.",
+        "applications": "Tell truth beautifully; share wisdom generously.",
+        "giftsResponsibilitiesChallenges": "Meaning-making; communal memory.",
+        "practices": [
+          "\"True story, short\" (200 words, sensory + lesson)."
+        ],
+        "conclusion": "In the world this looks practical and human. The Mature Storyteller communicates clearly, takes responsibility for impact, and chooses commitments that match her capacity. She can say yes wholeheartedly and no cleanly. She embodies the storyteller virtues in her work, love, and leadership: not as performance but as natural overflow. Her relationships benefit from her steadiness; her projects benefit from her focus; her body benefits from her pacing. Where the shadow once sought control or hid in avoidance, she now practices humility, accountability, and repair. The result is a grounded confidence that invites trust—and gently calls others into their own maturity."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Exaggerating Dramatist",
+          "slug": "exaggerating-dramatist",
+          "lifecycle": "crone",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/storyteller/shadows/exaggerating-dramatist/"
+          ],
+          "legacyAnchors": [
+            "exaggerating-dramatist"
+          ],
+          "qualities": [
+            "Narrative Imagination",
+            "Fidelity"
+          ],
+          "image": "assets/images/shadow/storyteller--exaggerating-dramatist.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Narrative Imagination without Fidelity",
+            "balancedQualities": "Narrative Imagination + Fidelity",
+            "activeShadow": "Exaggerating Dramatist",
+            "passiveShadow": "Silent Keeper",
+            "mythicResonances": "",
+            "keyQualities": "Oversteps boundaries; decides for others, Mistakes speed for effectiveness, Performs care or genius to avoid vulnerability, Micromanages; cannot rest, Seeks admiration or control over connection, Ignores feedback, doubles down under stress"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/exaggerating-dramatist.md",
+          "parent": "storyteller",
+          "type": "active",
+          "oppositeShadowSlug": "silent-keeper",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Imagination dramatizes without fidelity.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I stay in control so I never have to feel small.\n- I push harder when I feel doubt instead of slowing down.\n- I confuse urgency with importance.\n- I override my body’s signals to keep things on track.\n- I decide what’s best and expect others to catch up.\n- I use charm, logic, or pressure when I’m afraid.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "The Exaggerating Dramatist is the overexpressed shadow of the Storyteller. She pushes the archetype’s meaning and memory to an extreme—trying to manufacture certainty, safety, or admiration through control. What begins as narrative, empathy, mythic imagination becomes performance and pressure. In this stance she overrides signals from body and relationships, doubles down when she should pause, and confuses intensity for truth. Often born from wounds of silencing, distortion of truth, she learned to stay ahead of pain by taking charge.\n\nFrom the outside this shadow can look competent, charismatic, even selfless; inside there is a tightness and a fear that rest or honest contact will expose vulnerability. In culture and memory she speeds up, takes over, and makes unilateral moves “for everyone’s good.” Integration begins when she tells the truth about impact, slows her pace, and lets reciprocity, feedback, and limits restore proportion.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "When owned, the Exaggerating Dramatist offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Storyteller’s capacity to move things forward when it truly serves.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Oversteps boundaries; decides for others\n\nMistakes speed for effectiveness\n\nPerforms care or genius to avoid vulnerability\n\nMicromanages; cannot rest\n\nSeeks admiration or control over connection\n\nIgnores feedback, doubles down under stress",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- I pause and feel my body before acting; I let breath slow me down.\n- I name the fear underneath my urgency and let someone I trust witness it.\n- I ask for consent and co-create next steps instead of taking over as the Storyteller.\n- I replace pressure with clear requests and real timelines.\n- I practice letting something be imperfect and still complete.\n- I track impact, apologize where needed, and repair.\n- I delegate in proportion to others’ capacity and trust their pace.\n- I schedule regular rest so power can be sourced, not forced.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Silent Keeper is the opposite imbalance of Narrative Imagination + Fidelity.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Fidelity and the dynamic relationship between Narrative Imagination and Fidelity. Restore truth-accountable form; shape and release the entrusted story.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "When owned, the Exaggerating Dramatist offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Storyteller’s capacity to move things forward when it truly serves.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Imagination dramatizes without fidelity.",
+            "declarations": [
+              "I stay in control so I never have to feel small.",
+              "I push harder when I feel doubt instead of slowing down.",
+              "I confuse urgency with importance.",
+              "I override my body’s signals to keep things on track.",
+              "I decide what’s best and expect others to catch up.",
+              "I use charm, logic, or pressure when I’m afraid."
+            ],
+            "psychologicalMechanics": "The Exaggerating Dramatist is the overexpressed shadow of the Storyteller. She pushes the archetype’s meaning and memory to an extreme—trying to manufacture certainty, safety, or admiration through control. What begins as narrative, empathy, mythic imagination becomes performance and pressure. In this stance she overrides signals from body and relationships, doubles down when she should pause, and confuses intensity for truth. Often born from wounds of silencing, distortion of truth, she learned to stay ahead of pain by taking charge.\n\nFrom the outside this shadow can look competent, charismatic, even selfless; inside there is a tightness and a fear that rest or honest contact will expose vulnerability. In culture and memory she speeds up, takes over, and makes unilateral moves “for everyone’s good.” Integration begins when she tells the truth about impact, slows her pace, and lets reciprocity, feedback, and limits restore proportion.",
+            "hiddenEnergy": "When owned, the Exaggerating Dramatist offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Storyteller’s capacity to move things forward when it truly serves.",
+            "recognition": "Oversteps boundaries; decides for others\n\nMistakes speed for effectiveness\n\nPerforms care or genius to avoid vulnerability\n\nMicromanages; cannot rest\n\nSeeks admiration or control over connection\n\nIgnores feedback, doubles down under stress",
+            "practices": [
+              "I pause and feel my body before acting; I let breath slow me down.",
+              "I name the fear underneath my urgency and let someone I trust witness it.",
+              "I ask for consent and co-create next steps instead of taking over as the Storyteller.",
+              "I replace pressure with clear requests and real timelines.",
+              "I practice letting something be imperfect and still complete.",
+              "I track impact, apologize where needed, and repair.",
+              "I delegate in proportion to others’ capacity and trust their pace.",
+              "I schedule regular rest so power can be sourced, not forced."
+            ],
+            "oppositeShadow": "Silent Keeper is the opposite imbalance of Narrative Imagination + Fidelity.",
+            "transformation": "Integration restores Fidelity and the dynamic relationship between Narrative Imagination and Fidelity. Restore truth-accountable form; shape and release the entrusted story.",
+            "conclusion": "When owned, the Exaggerating Dramatist offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Storyteller’s capacity to move things forward when it truly serves."
+          }
+        },
+        {
+          "kind": "shadow",
+          "name": "Silent Keeper",
+          "slug": "silent-keeper",
+          "lifecycle": "crone",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/storyteller/shadows/silent-keeper/"
+          ],
+          "legacyAnchors": [
+            "silent-keeper"
+          ],
+          "qualities": [
+            "Narrative Imagination",
+            "Fidelity"
+          ],
+          "image": "assets/images/shadow/storyteller--silent-keeper.jpg",
+          "profile": {
+            "lifecycleStage": "Crone",
+            "coreFunction": "Narrative Imagination collapses while Fidelity distorts",
+            "balancedQualities": "Narrative Imagination + Fidelity",
+            "activeShadow": "Exaggerating Dramatist",
+            "passiveShadow": "Silent Keeper",
+            "mythicResonances": "",
+            "keyQualities": "Defers decisions; waits for perfect certainty, Disengages from body and relationships, People-pleases to avoid conflict, Lets others set terms then resents them, Creativity stalled by perfectionism and fear, Self-doubt presented as humility"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "crone/shadows/silent-keeper.md",
+          "parent": "storyteller",
+          "type": "passive",
+          "oppositeShadowSlug": "exaggerating-dramatist",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Imagination collapses while fidelity becomes impossible completeness and custodial silence.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I keep quiet so I won’t be wrong.\n- I wait for clarity instead of risking a first step.\n- I make myself small so others will be comfortable.\n- I numb, drift, or fantasize when decisions are needed.\n- I defer to experts and ignore my inner knowing.\n- I avoid conflict even when a boundary is needed.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "The Silent Keeper is the underexpressed shadow of the Storyteller. She retreats from the archetype’s meaning and memory into fog, passivity, or fantasy. What begins as narrative, empathy, mythic imagination collapses into avoidance: she waits for a sign, defers to others, and lets fear of misstep become an identity. Wounds of silencing, distortion of truth taught her that having needs or a voice was costly, so she learned to disappear.\n\nIn practice this looks like hesitation, playing small, or outsourcing choice. In culture and memory she withholds gifts until it’s ‘perfect’ or safe, and resentment builds. Integration begins when she claims a small, honest action, feels feelings without drowning in them, and allows support, structure, and rhythm to rebuild trust in herself.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "When welcomed, the Silent Keeper offers spaciousness, reflection, and sensitivity. Integrated, she restores the Storyteller’s ability to listen deeply and act in right timing.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Defers decisions; waits for perfect certainty\n\nDisengages from body and relationships\n\nPeople-pleases to avoid conflict\n\nLets others set terms then resents them\n\nCreativity stalled by perfectionism and fear\n\nSelf-doubt presented as humility",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- I choose one small, honest action and complete it today.\n- I ground in my body—walk, breathe, hydrate—before making choices.\n- I name what I want out loud, allowing the Storyteller gifts to move.\n- I set a simple boundary and keep it.\n- I replace rumination with a time-boxed plan and a first step.\n- I ask for specific support and stay in relationship while acting.\n- I celebrate progress, not perfection, to build momentum.\n- I keep gentle promises to myself daily to rebuild trust.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Exaggerating Dramatist is the opposite imbalance of Narrative Imagination + Fidelity.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Narrative Imagination and the dynamic relationship between Narrative Imagination and Fidelity. Restore truth-accountable form; shape and release the entrusted story.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "When welcomed, the Silent Keeper offers spaciousness, reflection, and sensitivity. Integrated, she restores the Storyteller’s ability to listen deeply and act in right timing.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Imagination collapses while fidelity becomes impossible completeness and custodial silence.",
+            "declarations": [
+              "I keep quiet so I won’t be wrong.",
+              "I wait for clarity instead of risking a first step.",
+              "I make myself small so others will be comfortable.",
+              "I numb, drift, or fantasize when decisions are needed.",
+              "I defer to experts and ignore my inner knowing.",
+              "I avoid conflict even when a boundary is needed."
+            ],
+            "psychologicalMechanics": "The Silent Keeper is the underexpressed shadow of the Storyteller. She retreats from the archetype’s meaning and memory into fog, passivity, or fantasy. What begins as narrative, empathy, mythic imagination collapses into avoidance: she waits for a sign, defers to others, and lets fear of misstep become an identity. Wounds of silencing, distortion of truth taught her that having needs or a voice was costly, so she learned to disappear.\n\nIn practice this looks like hesitation, playing small, or outsourcing choice. In culture and memory she withholds gifts until it’s ‘perfect’ or safe, and resentment builds. Integration begins when she claims a small, honest action, feels feelings without drowning in them, and allows support, structure, and rhythm to rebuild trust in herself.",
+            "hiddenEnergy": "When welcomed, the Silent Keeper offers spaciousness, reflection, and sensitivity. Integrated, she restores the Storyteller’s ability to listen deeply and act in right timing.",
+            "recognition": "Defers decisions; waits for perfect certainty\n\nDisengages from body and relationships\n\nPeople-pleases to avoid conflict\n\nLets others set terms then resents them\n\nCreativity stalled by perfectionism and fear\n\nSelf-doubt presented as humility",
+            "practices": [
+              "I choose one small, honest action and complete it today.",
+              "I ground in my body—walk, breathe, hydrate—before making choices.",
+              "I name what I want out loud, allowing the Storyteller gifts to move.",
+              "I set a simple boundary and keep it.",
+              "I replace rumination with a time-boxed plan and a first step.",
+              "I ask for specific support and stay in relationship while acting.",
+              "I celebrate progress, not perfection, to build momentum.",
+              "I keep gentle promises to myself daily to rebuild trust."
+            ],
+            "oppositeShadow": "Exaggerating Dramatist is the opposite imbalance of Narrative Imagination + Fidelity.",
+            "transformation": "Integration restores Narrative Imagination and the dynamic relationship between Narrative Imagination and Fidelity. Restore truth-accountable form; shape and release the entrusted story.",
+            "conclusion": "When welcomed, the Silent Keeper offers spaciousness, reflection, and sensitivity. Integrated, she restores the Storyteller’s ability to listen deeply and act in right timing."
+          }
+        }
+      ]
     }
   ]
 }

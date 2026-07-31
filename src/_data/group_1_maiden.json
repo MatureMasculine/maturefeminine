@@ -1,304 +1,1067 @@
 {
-  "title": "Maiden Archetypes",
-  "group": "Maiden",
   "name": "Maiden",
   "slug": "maiden",
+  "order": 1,
+  "title": "Maiden Archetypes",
   "summary": "Beginning and becoming; the task is to meet life with wonder and discernment.",
   "essence": "Fresh perception, experimentation, and the courage to make a first choice.",
-  "items": [
+  "archetypes": [
     {
+      "kind": "archetype",
       "name": "Adventurer",
-      "slug": "adventurer-storm-tempest",
+      "slug": "adventurer",
+      "lifecycle": "maiden",
+      "order": 1,
+      "aliases": [
+        "Storm",
+        "Tempest"
+      ],
+      "legacyRoutes": [
+        "/maiden/adventurer-storm-tempest/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "daring",
-        "prudence"
+        "Daring",
+        "Prudence"
       ],
-      "gifts": "The tempest current: freedom, range, and intelligent risk.",
-      "growthPath": "Use daring to expand life and prudence to preserve what makes expansion possible.",
-      "practices": [
-        "Before a leap, name the value, the risk, and the exit.",
-        "Take one bounded risk instead of manufacturing a crisis."
+      "image": "assets/images/adventurer-storm.jpeg",
+      "profile": {
+        "lifecycleStage": "Maiden",
+        "coreFunction": "Expand life's range through intelligent, accountable risk.",
+        "balancedQualities": "Daring + Prudence",
+        "activeShadow": "Reckless Wanderer",
+        "passiveShadow": "Sheltered Dreamer",
+        "mythicResonances": "",
+        "keyQualities": "Adventurous, Resilient, Free-spirited, Thoughtful, Resourceful, Adaptable, Bold, Wise, Spirited, Grounded"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "maiden/archetypes/adventurer.md",
+      "coreFunction": "Expand life's range through intelligent, accountable risk.",
+      "keyQualities": [
+        "Adventurous",
+        "Resilient",
+        "Free-spirited",
+        "Thoughtful",
+        "Resourceful",
+        "Adaptable",
+        "Bold",
+        "Wise",
+        "Spirited",
+        "Grounded"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Reckless Wanderer",
-            "type": "active",
-            "slug": "reckless-storm",
-            "description": [
-              "Daring becomes compulsive without prudence. She chases intensity, changes direction to escape limits, and calls collateral damage freedom. The next horizon matters more than promises, resources, or the nervous systems of those traveling with her."
-            ],
-            "declarations": [
-              "I will deal with consequences later.",
-              "Stillness means I am trapped.",
-              "Commitments should not limit me."
-            ],
-            "balancing": [
-              "Build a margin of time, money, and consent.",
-              "Ask whether the impulse expands or avoids life.",
-              "Complete one commitment before opening another."
-            ],
-            "gift": "Her appetite for the unknown becomes bold, adaptive leadership when it accepts consequence.",
-            "outOfBalance": [
-              "Creates preventable emergencies",
-              "Breaks agreements for novelty",
-              "Uses motion to avoid feeling"
-            ]
-          },
-          {
-            "name": "Sheltered Dreamer",
-            "type": "passive",
-            "slug": "paralyzed-dreamer",
-            "description": [
-              "Daring goes dormant while prudence becomes a shelter from experience. She rehearses journeys, catalogs dangers, and waits for a confidence that action alone could build. Safety gradually narrows into a life observed rather than inhabited."
-            ],
-            "declarations": [
-              "The conditions are not right yet.",
-              "Preparation is the responsible choice.",
-              "Other people are built for risk."
-            ],
-            "balancing": [
-              "Choose an adventure small enough to do now.",
-              "Limit research and book the next step.",
-              "Measure risk against the cost of staying still."
-            ],
-            "gift": "Her foresight becomes sound expedition craft when it carries her beyond the threshold.",
-            "outOfBalance": [
-              "Plans without departure",
-              "Overstates unlikely dangers",
-              "Lives through others' courage"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Adventurer",
-          "paragraphs": [
-            "The Mature Adventurer can leave familiar ground without abandoning responsibility. She prepares enough, listens to changing conditions, and knows the difference between a calling and an escape. Her freedom includes the capacity to return, repair, and remain when depth asks more courage than novelty."
-          ]
+      "activeShadowSlug": "reckless-wanderer",
+      "passiveShadowSlug": "sheltered-dreamer",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Adventurer can leave familiar ground without abandoning responsibility. She prepares enough, listens to changing conditions, and knows the difference between a calling and an escape. Her freedom includes the capacity to return, repair, and remain when depth asks more courage than novelty.\n\nThe tempest current: freedom, range, and intelligent risk.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- My freedom can keep a promise.\n- I prepare for risk without worshiping safety.\n- I move toward growth, not merely away from discomfort.\n- I can change course without fleeing consequence.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Daring and Prudence are mutually correcting.\n\nDaring supplies the energy to cross a real threshold despite uncertainty.\n\nPrudence protects people, resources, and future choices without making safety the supreme value.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Use daring to expand life and prudence to preserve what makes expansion possible.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The tempest current: freedom, range, and intelligent risk.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Before a leap, name the value, the risk, and the exit.\n- Take one bounded risk instead of manufacturing a crisis.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Adventurer",
+          "content": "The Mature Adventurer can leave familiar ground without abandoning responsibility. She prepares enough, listens to changing conditions, and knows the difference between a calling and an escape. Her freedom includes the capacity to return, repair, and remain when depth asks more courage than novelty.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Adventurer can leave familiar ground without abandoning responsibility. She prepares enough, listens to changing conditions, and knows the difference between a calling and an escape. Her freedom includes the capacity to return, repair, and remain when depth asks more courage than novelty.\n\nThe tempest current: freedom, range, and intelligent risk.",
         "declarations": [
           "My freedom can keep a promise.",
           "I prepare for risk without worshiping safety.",
           "I move toward growth, not merely away from discomfort.",
           "I can change course without fleeing consequence."
         ],
-        "balance": {
-          "balance": "Daring ↔ Prudence",
-          "shadow": "Reckless Wanderer ↔ Sheltered Dreamer",
-          "powerAnimals": "Falcon, Wild Horse, Sea Otter",
-          "qualities": "Adventurous, Resilient, Free-spirited, Thoughtful, Resourceful, Adaptable, Bold, Wise, Spirited, Grounded"
-        },
-        "virtues": [
-          {
-            "title": "Daring",
-            "paragraphs": [
-              "Daring supplies the energy to cross a real threshold despite uncertainty."
-            ]
+        "balance": "Daring and Prudence are mutually correcting.\n\nDaring supplies the energy to cross a real threshold despite uncertainty.\n\nPrudence protects people, resources, and future choices without making safety the supreme value.",
+        "applications": "Use daring to expand life and prudence to preserve what makes expansion possible.",
+        "giftsResponsibilitiesChallenges": "The tempest current: freedom, range, and intelligent risk.",
+        "practices": [
+          "Before a leap, name the value, the risk, and the exit.",
+          "Take one bounded risk instead of manufacturing a crisis."
+        ],
+        "conclusion": "The Mature Adventurer can leave familiar ground without abandoning responsibility. She prepares enough, listens to changing conditions, and knows the difference between a calling and an escape. Her freedom includes the capacity to return, repair, and remain when depth asks more courage than novelty."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Reckless Wanderer",
+          "slug": "reckless-wanderer",
+          "lifecycle": "maiden",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/maiden/adventurer-storm-tempest/shadows/reckless-storm/"
+          ],
+          "legacyAnchors": [
+            "reckless-storm"
+          ],
+          "qualities": [
+            "Daring",
+            "Prudence"
+          ],
+          "image": "assets/images/shadow/adventurer-storm-tempest--reckless-storm.jpg",
+          "profile": {
+            "lifecycleStage": "Maiden",
+            "coreFunction": "Daring without Prudence",
+            "balancedQualities": "Daring + Prudence",
+            "activeShadow": "Reckless Wanderer",
+            "passiveShadow": "Sheltered Dreamer",
+            "mythicResonances": "",
+            "keyQualities": "Creates preventable emergencies, Breaks agreements for novelty, Uses motion to avoid feeling"
           },
-          {
-            "title": "Prudence",
-            "paragraphs": [
-              "Prudence protects people, resources, and future choices without making safety the supreme value."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "maiden/shadows/reckless-wanderer.md",
+          "parent": "adventurer",
+          "type": "active",
+          "oppositeShadowSlug": "sheltered-dreamer",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Daring becomes reckless without prudence.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I will deal with consequences later.\n- Stillness means I am trapped.\n- Commitments should not limit me.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Daring becomes compulsive without prudence. She chases intensity, changes direction to escape limits, and calls collateral damage freedom. The next horizon matters more than promises, resources, or the nervous systems of those traveling with her.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her appetite for the unknown becomes bold, adaptive leadership when it accepts consequence.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Creates preventable emergencies\n\nBreaks agreements for novelty\n\nUses motion to avoid feeling",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Build a margin of time, money, and consent.\n- Ask whether the impulse expands or avoids life.\n- Complete one commitment before opening another.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Sheltered Dreamer is the opposite imbalance of Daring + Prudence.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Prudence and the dynamic relationship between Daring and Prudence. Add prudence to movement; add daring to preparation.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her appetite for the unknown becomes bold, adaptive leadership when it accepts consequence.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Daring becomes reckless without prudence.",
+            "declarations": [
+              "I will deal with consequences later.",
+              "Stillness means I am trapped.",
+              "Commitments should not limit me."
+            ],
+            "psychologicalMechanics": "Daring becomes compulsive without prudence. She chases intensity, changes direction to escape limits, and calls collateral damage freedom. The next horizon matters more than promises, resources, or the nervous systems of those traveling with her.",
+            "hiddenEnergy": "Her appetite for the unknown becomes bold, adaptive leadership when it accepts consequence.",
+            "recognition": "Creates preventable emergencies\n\nBreaks agreements for novelty\n\nUses motion to avoid feeling",
+            "practices": [
+              "Build a margin of time, money, and consent.",
+              "Ask whether the impulse expands or avoids life.",
+              "Complete one commitment before opening another."
+            ],
+            "oppositeShadow": "Sheltered Dreamer is the opposite imbalance of Daring + Prudence.",
+            "transformation": "Integration restores Prudence and the dynamic relationship between Daring and Prudence. Add prudence to movement; add daring to preparation.",
+            "conclusion": "Her appetite for the unknown becomes bold, adaptive leadership when it accepts consequence."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Sheltered Dreamer",
+          "slug": "sheltered-dreamer",
+          "lifecycle": "maiden",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/maiden/adventurer-storm-tempest/shadows/paralyzed-dreamer/"
+          ],
+          "legacyAnchors": [
+            "paralyzed-dreamer"
+          ],
+          "qualities": [
+            "Daring",
+            "Prudence"
+          ],
+          "image": "assets/images/shadow/adventurer-storm-tempest--paralyzed-dreamer.jpg",
+          "profile": {
+            "lifecycleStage": "Maiden",
+            "coreFunction": "Daring collapses while Prudence distorts",
+            "balancedQualities": "Daring + Prudence",
+            "activeShadow": "Reckless Wanderer",
+            "passiveShadow": "Sheltered Dreamer",
+            "mythicResonances": "",
+            "keyQualities": "Plans without departure, Overstates unlikely dangers, Lives through others' courage"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "maiden/shadows/sheltered-dreamer.md",
+          "parent": "adventurer",
+          "type": "passive",
+          "oppositeShadowSlug": "reckless-wanderer",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Daring collapses while prudence seeks zero risk.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- The conditions are not right yet.\n- Preparation is the responsible choice.\n- Other people are built for risk.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Daring goes dormant while prudence becomes a shelter from experience. She rehearses journeys, catalogs dangers, and waits for a confidence that action alone could build. Safety gradually narrows into a life observed rather than inhabited.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her foresight becomes sound expedition craft when it carries her beyond the threshold.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Plans without departure\n\nOverstates unlikely dangers\n\nLives through others' courage",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Choose an adventure small enough to do now.\n- Limit research and book the next step.\n- Measure risk against the cost of staying still.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Reckless Wanderer is the opposite imbalance of Daring + Prudence.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Daring and the dynamic relationship between Daring and Prudence. Add prudence to movement; add daring to preparation.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her foresight becomes sound expedition craft when it carries her beyond the threshold.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Daring collapses while prudence seeks zero risk.",
+            "declarations": [
+              "The conditions are not right yet.",
+              "Preparation is the responsible choice.",
+              "Other people are built for risk."
+            ],
+            "psychologicalMechanics": "Daring goes dormant while prudence becomes a shelter from experience. She rehearses journeys, catalogs dangers, and waits for a confidence that action alone could build. Safety gradually narrows into a life observed rather than inhabited.",
+            "hiddenEnergy": "Her foresight becomes sound expedition craft when it carries her beyond the threshold.",
+            "recognition": "Plans without departure\n\nOverstates unlikely dangers\n\nLives through others' courage",
+            "practices": [
+              "Choose an adventure small enough to do now.",
+              "Limit research and book the next step.",
+              "Measure risk against the cost of staying still."
+            ],
+            "oppositeShadow": "Reckless Wanderer is the opposite imbalance of Daring + Prudence.",
+            "transformation": "Integration restores Daring and the dynamic relationship between Daring and Prudence. Add prudence to movement; add daring to preparation.",
+            "conclusion": "Her foresight becomes sound expedition craft when it carries her beyond the threshold."
+          }
+        }
+      ]
     },
     {
+      "kind": "archetype",
       "name": "Maiden",
       "slug": "maiden",
+      "lifecycle": "maiden",
+      "order": 2,
+      "aliases": [],
+      "legacyRoutes": [],
+      "legacyAnchors": [],
       "qualities": [
-        "wonder",
-        "discernment"
+        "Wonder",
+        "Discernment"
       ],
-      "gifts": "Wonder made trustworthy by discernment.",
-      "growthPath": "Let experience educate innocence without extinguishing it.",
-      "practices": [
-        "Name what delights you and one fact that grounds it.",
-        "Make one small choice before seeking reassurance."
+      "image": "assets/images/maiden.jpeg",
+      "profile": {
+        "lifecycleStage": "Maiden",
+        "coreFunction": "Meet a beginning with open wonder and make a trustworthy first choice.",
+        "balancedQualities": "Wonder + Discernment",
+        "activeShadow": "Naive Enthusiast",
+        "passiveShadow": "Frozen Beginner",
+        "mythicResonances": "",
+        "keyQualities": "Fresh, Curious, Trusting, Open-hearted, Playful, Hopeful, Receptive, Wise, Discerning, Grounded"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "maiden/archetypes/maiden.md",
+      "coreFunction": "Meet a beginning with open wonder and make a trustworthy first choice.",
+      "keyQualities": [
+        "Fresh",
+        "Curious",
+        "Trusting",
+        "Open-hearted",
+        "Playful",
+        "Hopeful",
+        "Receptive",
+        "Wise",
+        "Discerning",
+        "Grounded"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Naive Enthusiast",
-            "type": "active",
-            "slug": "manipulative-maiden",
-            "description": [
-              "Wonder outruns discernment. She rushes toward novelty, promises trust before it is earned, and treats warning signs as failures of imagination. Her openness is real, but without judgment it recruits other people to absorb consequences she has not considered."
-            ],
-            "declarations": [
-              "If it feels exciting, it must be right.",
-              "Caution only ruins the magic.",
-              "Someone will help if this goes wrong."
-            ],
-            "balancing": [
-              "Pause long enough to name the likely cost.",
-              "Let trust grow from observed behavior.",
-              "Keep delight and decline what is unsafe."
-            ],
-            "gift": "Her readiness to begin becomes courageous openness once it can learn from evidence.",
-            "outOfBalance": [
-              "Commits before understanding",
-              "Idealizes unfamiliar people",
-              "Leaves consequences to others"
-            ]
-          },
-          {
-            "name": "Frozen Beginner",
-            "type": "passive",
-            "slug": "fragile-maiden",
-            "description": [
-              "Wonder collapses beneath relentless discernment. She studies every doorway but enters none, confusing the absence of risk with wisdom. By demanding certainty before experience, she prevents the very learning that could make her judgment sound."
-            ],
-            "declarations": [
-              "I need to know more before I begin.",
-              "A wrong choice would expose me.",
-              "It is safer to stay uncommitted."
-            ],
-            "balancing": [
-              "Choose a reversible first step.",
-              "Set a deadline for ordinary decisions.",
-              "Treat mistakes as information, not identity."
-            ],
-            "gift": "Her care becomes grounded preparation when it supports a real beginning.",
-            "outOfBalance": [
-              "Research replaces participation",
-              "Defers ordinary choices",
-              "Dismisses curiosity as childish"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Maiden",
-          "paragraphs": [
-            "The Mature Maiden meets what is new with delight and tested judgment. She can be moved without being swept away, ask for guidance without surrendering choice, and revise her view without shame. Her innocence is not ignorance; it is the renewed capacity to encounter life directly."
-          ]
+      "activeShadowSlug": "naive-enthusiast",
+      "passiveShadowSlug": "frozen-beginner",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Maiden meets what is new with delight and tested judgment. She can be moved without being swept away, ask for guidance without surrendering choice, and revise her view without shame. Her innocence is not ignorance; it is the renewed capacity to encounter life directly.\n\nWonder made trustworthy by discernment.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I welcome surprise and notice what is true.\n- I let trust grow at the pace of evidence.\n- I can begin before I know the ending.\n- My no protects the sincerity of my yes.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Wonder and Discernment are mutually correcting.\n\nWonder keeps perception fresh and makes room for possibilities habit might miss.\n\nDiscernment compares intuition with evidence, limits, and lived consequence.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Let experience educate innocence without extinguishing it.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "Wonder made trustworthy by discernment.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Name what delights you and one fact that grounds it.\n- Make one small choice before seeking reassurance.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Maiden",
+          "content": "The Mature Maiden meets what is new with delight and tested judgment. She can be moved without being swept away, ask for guidance without surrendering choice, and revise her view without shame. Her innocence is not ignorance; it is the renewed capacity to encounter life directly.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Maiden meets what is new with delight and tested judgment. She can be moved without being swept away, ask for guidance without surrendering choice, and revise her view without shame. Her innocence is not ignorance; it is the renewed capacity to encounter life directly.\n\nWonder made trustworthy by discernment.",
         "declarations": [
           "I welcome surprise and notice what is true.",
           "I let trust grow at the pace of evidence.",
           "I can begin before I know the ending.",
           "My no protects the sincerity of my yes."
         ],
-        "balance": {
-          "balance": "Wonder ↔ Discernment",
-          "shadow": "Naive Enthusiast ↔ Frozen Beginner",
-          "powerAnimals": "Fawn, Swallow, Dolphin",
-          "qualities": "Fresh, Curious, Trusting, Open-hearted, Playful, Hopeful, Receptive, Wise, Discerning, Grounded"
-        },
-        "virtues": [
-          {
-            "title": "Wonder",
-            "paragraphs": [
-              "Wonder keeps perception fresh and makes room for possibilities habit might miss."
-            ]
+        "balance": "Wonder and Discernment are mutually correcting.\n\nWonder keeps perception fresh and makes room for possibilities habit might miss.\n\nDiscernment compares intuition with evidence, limits, and lived consequence.",
+        "applications": "Let experience educate innocence without extinguishing it.",
+        "giftsResponsibilitiesChallenges": "Wonder made trustworthy by discernment.",
+        "practices": [
+          "Name what delights you and one fact that grounds it.",
+          "Make one small choice before seeking reassurance."
+        ],
+        "conclusion": "The Mature Maiden meets what is new with delight and tested judgment. She can be moved without being swept away, ask for guidance without surrendering choice, and revise her view without shame. Her innocence is not ignorance; it is the renewed capacity to encounter life directly."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Naive Enthusiast",
+          "slug": "naive-enthusiast",
+          "lifecycle": "maiden",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/maiden/maiden/shadows/manipulative-maiden/"
+          ],
+          "legacyAnchors": [
+            "manipulative-maiden"
+          ],
+          "qualities": [
+            "Wonder",
+            "Discernment"
+          ],
+          "image": "assets/images/shadow/maiden--manipulative-maiden.jpg",
+          "profile": {
+            "lifecycleStage": "Maiden",
+            "coreFunction": "Wonder without Discernment",
+            "balancedQualities": "Wonder + Discernment",
+            "activeShadow": "Naive Enthusiast",
+            "passiveShadow": "Frozen Beginner",
+            "mythicResonances": "",
+            "keyQualities": "Commits before understanding, Idealizes unfamiliar people, Leaves consequences to others"
           },
-          {
-            "title": "Discernment",
-            "paragraphs": [
-              "Discernment compares intuition with evidence, limits, and lived consequence."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "maiden/shadows/naive-enthusiast.md",
+          "parent": "maiden",
+          "type": "active",
+          "oppositeShadowSlug": "frozen-beginner",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Wonder overtrusts without discernment.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- If it feels exciting, it must be right.\n- Caution only ruins the magic.\n- Someone will help if this goes wrong.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Wonder outruns discernment. She rushes toward novelty, promises trust before it is earned, and treats warning signs as failures of imagination. Her openness is real, but without judgment it recruits other people to absorb consequences she has not considered.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her readiness to begin becomes courageous openness once it can learn from evidence.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Commits before understanding\n\nIdealizes unfamiliar people\n\nLeaves consequences to others",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Pause long enough to name the likely cost.\n- Let trust grow from observed behavior.\n- Keep delight and decline what is unsafe.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Frozen Beginner is the opposite imbalance of Wonder + Discernment.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Discernment and the dynamic relationship between Wonder and Discernment. Add judgment to openness; add openness to judgment.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her readiness to begin becomes courageous openness once it can learn from evidence.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Wonder overtrusts without discernment.",
+            "declarations": [
+              "If it feels exciting, it must be right.",
+              "Caution only ruins the magic.",
+              "Someone will help if this goes wrong."
+            ],
+            "psychologicalMechanics": "Wonder outruns discernment. She rushes toward novelty, promises trust before it is earned, and treats warning signs as failures of imagination. Her openness is real, but without judgment it recruits other people to absorb consequences she has not considered.",
+            "hiddenEnergy": "Her readiness to begin becomes courageous openness once it can learn from evidence.",
+            "recognition": "Commits before understanding\n\nIdealizes unfamiliar people\n\nLeaves consequences to others",
+            "practices": [
+              "Pause long enough to name the likely cost.",
+              "Let trust grow from observed behavior.",
+              "Keep delight and decline what is unsafe."
+            ],
+            "oppositeShadow": "Frozen Beginner is the opposite imbalance of Wonder + Discernment.",
+            "transformation": "Integration restores Discernment and the dynamic relationship between Wonder and Discernment. Add judgment to openness; add openness to judgment.",
+            "conclusion": "Her readiness to begin becomes courageous openness once it can learn from evidence."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Frozen Beginner",
+          "slug": "frozen-beginner",
+          "lifecycle": "maiden",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/maiden/maiden/shadows/fragile-maiden/"
+          ],
+          "legacyAnchors": [
+            "fragile-maiden"
+          ],
+          "qualities": [
+            "Wonder",
+            "Discernment"
+          ],
+          "image": "assets/images/shadow/maiden--fragile-maiden.jpg",
+          "profile": {
+            "lifecycleStage": "Maiden",
+            "coreFunction": "Wonder collapses while Discernment distorts",
+            "balancedQualities": "Wonder + Discernment",
+            "activeShadow": "Naive Enthusiast",
+            "passiveShadow": "Frozen Beginner",
+            "mythicResonances": "",
+            "keyQualities": "Research replaces participation, Defers ordinary choices, Dismisses curiosity as childish"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "maiden/shadows/frozen-beginner.md",
+          "parent": "maiden",
+          "type": "passive",
+          "oppositeShadowSlug": "naive-enthusiast",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Wonder collapses while discernment demands certainty before experience.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I need to know more before I begin.\n- A wrong choice would expose me.\n- It is safer to stay uncommitted.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Wonder collapses beneath relentless discernment. She studies every doorway but enters none, confusing the absence of risk with wisdom. By demanding certainty before experience, she prevents the very learning that could make her judgment sound.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her care becomes grounded preparation when it supports a real beginning.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Research replaces participation\n\nDefers ordinary choices\n\nDismisses curiosity as childish",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Choose a reversible first step.\n- Set a deadline for ordinary decisions.\n- Treat mistakes as information, not identity.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Naive Enthusiast is the opposite imbalance of Wonder + Discernment.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Wonder and the dynamic relationship between Wonder and Discernment. Add judgment to openness; add openness to judgment.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her care becomes grounded preparation when it supports a real beginning.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Wonder collapses while discernment demands certainty before experience.",
+            "declarations": [
+              "I need to know more before I begin.",
+              "A wrong choice would expose me.",
+              "It is safer to stay uncommitted."
+            ],
+            "psychologicalMechanics": "Wonder collapses beneath relentless discernment. She studies every doorway but enters none, confusing the absence of risk with wisdom. By demanding certainty before experience, she prevents the very learning that could make her judgment sound.",
+            "hiddenEnergy": "Her care becomes grounded preparation when it supports a real beginning.",
+            "recognition": "Research replaces participation\n\nDefers ordinary choices\n\nDismisses curiosity as childish",
+            "practices": [
+              "Choose a reversible first step.",
+              "Set a deadline for ordinary decisions.",
+              "Treat mistakes as information, not identity."
+            ],
+            "oppositeShadow": "Naive Enthusiast is the opposite imbalance of Wonder + Discernment.",
+            "transformation": "Integration restores Wonder and the dynamic relationship between Wonder and Discernment. Add judgment to openness; add openness to judgment.",
+            "conclusion": "Her care becomes grounded preparation when it supports a real beginning."
+          }
+        }
+      ]
     },
     {
-      "name": "Young Visionary",
-      "slug": "young-visionary-oracle",
+      "kind": "archetype",
+      "name": "Visionary",
+      "slug": "visionary",
+      "lifecycle": "maiden",
+      "order": 3,
+      "aliases": [
+        "Young Visionary",
+        "Young Oracle"
+      ],
+      "legacyRoutes": [
+        "/maiden/young-visionary-oracle/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "intuition",
-        "verification"
+        "Intuition",
+        "Verification"
       ],
-      "gifts": "The young oracle: intuitive pattern-sensing ready to be tested in life.",
-      "growthPath": "Receive impressions freely, then verify, translate, and revise them.",
-      "practices": [
-        "Record an intuition alongside evidence for and against it.",
-        "Offer insight as a question or possibility, not a verdict."
+      "image": "assets/images/young-visionary-oracle.jpeg",
+      "profile": {
+        "lifecycleStage": "Maiden",
+        "coreFunction": "Notice emerging intuitive patterns and test them without demanding impossible certainty.",
+        "balancedQualities": "Intuition + Verification",
+        "activeShadow": "Inflated Oracle",
+        "passiveShadow": "Self-Doubting Seer",
+        "mythicResonances": "",
+        "keyQualities": "Visionary, Intuitive, Humble, Attuned, Imaginative, Grounded, Clear, Curious, Wise, Purposeful"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "maiden/archetypes/visionary.md",
+      "coreFunction": "Notice emerging intuitive patterns and test them without demanding impossible certainty.",
+      "keyQualities": [
+        "Visionary",
+        "Intuitive",
+        "Humble",
+        "Attuned",
+        "Imaginative",
+        "Grounded",
+        "Clear",
+        "Curious",
+        "Wise",
+        "Purposeful"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Inflated Oracle",
-            "type": "active",
-            "slug": "fanatic-prophet",
-            "description": [
-              "Intuition escapes verification and becomes self-importance. She treats emotion, coincidence, and desire as privileged revelation, then pressures others to organize their choices around her certainty. Mystery is used to close inquiry rather than deepen it."
-            ],
-            "declarations": [
-              "My knowing does not need to be questioned.",
-              "Doubt means you are not ready for the truth.",
-              "Every sign confirms my path."
-            ],
-            "balancing": [
-              "State the observation separately from its meaning.",
-              "Invite disconfirming evidence from trusted people.",
-              "Let predictions be specific enough to learn from."
-            ],
-            "gift": "Her confidence in subtle perception becomes clear guidance when it remains corrigible.",
-            "outOfBalance": [
-              "Speaks uncertain futures as facts",
-              "Claims special access to truth",
-              "Reframes disagreement as spiritual failure"
-            ]
-          },
-          {
-            "name": "Self-Doubting Seer",
-            "type": "passive",
-            "slug": "lost-dreamer",
-            "description": [
-              "Intuition is dismissed before verification can even begin. She notices patterns and bodily signals, then explains them away to avoid being wrong or visible. Skepticism no longer tests the gift; it prevents the gift from entering conversation."
-            ],
-            "declarations": [
-              "It is probably nothing.",
-              "I should not trust what I cannot prove yet.",
-              "Someone else will see more clearly."
-            ],
-            "balancing": [
-              "Name the impression without claiming certainty.",
-              "Track intuitive hits and misses over time.",
-              "Act on low-stakes signals to build calibration."
-            ],
-            "gift": "Her humility becomes honest epistemic care when it does not require self-silencing.",
-            "outOfBalance": [
-              "Edits insight out of speech",
-              "Outsources inner authority",
-              "Waits for impossible proof"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Young Visionary",
-          "paragraphs": [
-            "The Mature Young Visionary holds intuition as a living hypothesis. She listens to dreams, cycles, symbols, and the body, then asks what reality confirms. She offers what she sees in usable language and welcomes correction, allowing genuine insight to become more precise through relationship."
-          ]
+      "activeShadowSlug": "inflated-oracle",
+      "passiveShadowSlug": "self-doubting-seer",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Young Visionary holds intuition as a living hypothesis. She listens to dreams, cycles, symbols, and the body, then asks what reality confirms. She offers what she sees in usable language and welcomes correction, allowing genuine insight to become more precise through relationship.\n\nThe young oracle: intuitive pattern-sensing ready to be tested in life.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I honor intuition without making it infallible.\n- I can be insightful and mistaken.\n- I translate symbols into grounded choices.\n- My gift helps others hear their own knowing.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Intuition and Verification are mutually correcting.\n\nIntuition notices patterns before the analytical mind can fully explain them.\n\nVerification keeps insight answerable to evidence, impact, and revision.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Receive impressions freely, then verify, translate, and revise them.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The young oracle: intuitive pattern-sensing ready to be tested in life.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Record an intuition alongside evidence for and against it.\n- Offer insight as a question or possibility, not a verdict.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Visionary",
+          "content": "The Mature Young Visionary holds intuition as a living hypothesis. She listens to dreams, cycles, symbols, and the body, then asks what reality confirms. She offers what she sees in usable language and welcomes correction, allowing genuine insight to become more precise through relationship.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Young Visionary holds intuition as a living hypothesis. She listens to dreams, cycles, symbols, and the body, then asks what reality confirms. She offers what she sees in usable language and welcomes correction, allowing genuine insight to become more precise through relationship.\n\nThe young oracle: intuitive pattern-sensing ready to be tested in life.",
         "declarations": [
           "I honor intuition without making it infallible.",
           "I can be insightful and mistaken.",
           "I translate symbols into grounded choices.",
           "My gift helps others hear their own knowing."
         ],
-        "balance": {
-          "balance": "Intuition ↔ Verification",
-          "shadow": "Inflated Oracle ↔ Self-Doubting Seer",
-          "powerAnimals": "Owl, Deer, Whale",
-          "qualities": "Visionary, Intuitive, Humble, Attuned, Imaginative, Grounded, Clear, Curious, Wise, Purposeful"
-        },
-        "virtues": [
-          {
-            "title": "Intuition",
-            "paragraphs": [
-              "Intuition notices patterns before the analytical mind can fully explain them."
-            ]
+        "balance": "Intuition and Verification are mutually correcting.\n\nIntuition notices patterns before the analytical mind can fully explain them.\n\nVerification keeps insight answerable to evidence, impact, and revision.",
+        "applications": "Receive impressions freely, then verify, translate, and revise them.",
+        "giftsResponsibilitiesChallenges": "The young oracle: intuitive pattern-sensing ready to be tested in life.",
+        "practices": [
+          "Record an intuition alongside evidence for and against it.",
+          "Offer insight as a question or possibility, not a verdict."
+        ],
+        "conclusion": "The Mature Young Visionary holds intuition as a living hypothesis. She listens to dreams, cycles, symbols, and the body, then asks what reality confirms. She offers what she sees in usable language and welcomes correction, allowing genuine insight to become more precise through relationship."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Inflated Oracle",
+          "slug": "inflated-oracle",
+          "lifecycle": "maiden",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/maiden/young-visionary-oracle/shadows/fanatic-prophet/"
+          ],
+          "legacyAnchors": [
+            "fanatic-prophet"
+          ],
+          "qualities": [
+            "Intuition",
+            "Verification"
+          ],
+          "image": "assets/images/shadow/young-visionary-oracle--fanatic-prophet.jpg",
+          "profile": {
+            "lifecycleStage": "Maiden",
+            "coreFunction": "Intuition without Verification",
+            "balancedQualities": "Intuition + Verification",
+            "activeShadow": "Inflated Oracle",
+            "passiveShadow": "Self-Doubting Seer",
+            "mythicResonances": "",
+            "keyQualities": "Speaks uncertain futures as facts, Claims special access to truth, Reframes disagreement as spiritual failure"
           },
-          {
-            "title": "Verification",
-            "paragraphs": [
-              "Verification keeps insight answerable to evidence, impact, and revision."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "maiden/shadows/inflated-oracle.md",
+          "parent": "visionary",
+          "type": "active",
+          "oppositeShadowSlug": "self-doubting-seer",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Intuition claims authority without testing.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- My knowing does not need to be questioned.\n- Doubt means you are not ready for the truth.\n- Every sign confirms my path.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Intuition escapes verification and becomes self-importance. She treats emotion, coincidence, and desire as privileged revelation, then pressures others to organize their choices around her certainty. Mystery is used to close inquiry rather than deepen it.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her confidence in subtle perception becomes clear guidance when it remains corrigible.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Speaks uncertain futures as facts\n\nClaims special access to truth\n\nReframes disagreement as spiritual failure",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- State the observation separately from its meaning.\n- Invite disconfirming evidence from trusted people.\n- Let predictions be specific enough to learn from.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Self-Doubting Seer is the opposite imbalance of Intuition + Verification.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Verification and the dynamic relationship between Intuition and Verification. Test intuition; permit provisional intuition to enter inquiry.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her confidence in subtle perception becomes clear guidance when it remains corrigible.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Intuition claims authority without testing.",
+            "declarations": [
+              "My knowing does not need to be questioned.",
+              "Doubt means you are not ready for the truth.",
+              "Every sign confirms my path."
+            ],
+            "psychologicalMechanics": "Intuition escapes verification and becomes self-importance. She treats emotion, coincidence, and desire as privileged revelation, then pressures others to organize their choices around her certainty. Mystery is used to close inquiry rather than deepen it.",
+            "hiddenEnergy": "Her confidence in subtle perception becomes clear guidance when it remains corrigible.",
+            "recognition": "Speaks uncertain futures as facts\n\nClaims special access to truth\n\nReframes disagreement as spiritual failure",
+            "practices": [
+              "State the observation separately from its meaning.",
+              "Invite disconfirming evidence from trusted people.",
+              "Let predictions be specific enough to learn from."
+            ],
+            "oppositeShadow": "Self-Doubting Seer is the opposite imbalance of Intuition + Verification.",
+            "transformation": "Integration restores Verification and the dynamic relationship between Intuition and Verification. Test intuition; permit provisional intuition to enter inquiry.",
+            "conclusion": "Her confidence in subtle perception becomes clear guidance when it remains corrigible."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Self-Doubting Seer",
+          "slug": "self-doubting-seer",
+          "lifecycle": "maiden",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/maiden/young-visionary-oracle/shadows/lost-dreamer/"
+          ],
+          "legacyAnchors": [
+            "lost-dreamer"
+          ],
+          "qualities": [
+            "Intuition",
+            "Verification"
+          ],
+          "image": "assets/images/shadow/young-visionary-oracle--lost-dreamer.jpg",
+          "profile": {
+            "lifecycleStage": "Maiden",
+            "coreFunction": "Intuition collapses while Verification distorts",
+            "balancedQualities": "Intuition + Verification",
+            "activeShadow": "Inflated Oracle",
+            "passiveShadow": "Self-Doubting Seer",
+            "mythicResonances": "",
+            "keyQualities": "Edits insight out of speech, Outsources inner authority, Waits for impossible proof"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "maiden/shadows/self-doubting-seer.md",
+          "parent": "visionary",
+          "type": "passive",
+          "oppositeShadowSlug": "inflated-oracle",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Intuition is dismissed while verification becomes an impossible proof demand.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- It is probably nothing.\n- I should not trust what I cannot prove yet.\n- Someone else will see more clearly.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Intuition is dismissed before verification can even begin. She notices patterns and bodily signals, then explains them away to avoid being wrong or visible. Skepticism no longer tests the gift; it prevents the gift from entering conversation.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her humility becomes honest epistemic care when it does not require self-silencing.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Edits insight out of speech\n\nOutsources inner authority\n\nWaits for impossible proof",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Name the impression without claiming certainty.\n- Track intuitive hits and misses over time.\n- Act on low-stakes signals to build calibration.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Inflated Oracle is the opposite imbalance of Intuition + Verification.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Intuition and the dynamic relationship between Intuition and Verification. Test intuition; permit provisional intuition to enter inquiry.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her humility becomes honest epistemic care when it does not require self-silencing.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Intuition is dismissed while verification becomes an impossible proof demand.",
+            "declarations": [
+              "It is probably nothing.",
+              "I should not trust what I cannot prove yet.",
+              "Someone else will see more clearly."
+            ],
+            "psychologicalMechanics": "Intuition is dismissed before verification can even begin. She notices patterns and bodily signals, then explains them away to avoid being wrong or visible. Skepticism no longer tests the gift; it prevents the gift from entering conversation.",
+            "hiddenEnergy": "Her humility becomes honest epistemic care when it does not require self-silencing.",
+            "recognition": "Edits insight out of speech\n\nOutsources inner authority\n\nWaits for impossible proof",
+            "practices": [
+              "Name the impression without claiming certainty.",
+              "Track intuitive hits and misses over time.",
+              "Act on low-stakes signals to build calibration."
+            ],
+            "oppositeShadow": "Inflated Oracle is the opposite imbalance of Intuition + Verification.",
+            "transformation": "Integration restores Intuition and the dynamic relationship between Intuition and Verification. Test intuition; permit provisional intuition to enter inquiry.",
+            "conclusion": "Her humility becomes honest epistemic care when it does not require self-silencing."
+          }
+        }
+      ]
     }
   ]
 }

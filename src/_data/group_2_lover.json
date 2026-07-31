@@ -1,500 +1,1148 @@
 {
-  "title": "Lover Archetypes",
-  "group": "Lover",
   "name": "Lover",
-  "slug": "lover-creatrix",
+  "slug": "lover",
+  "order": 2,
+  "title": "Lover Archetypes",
   "summary": "Intimacy and creation; the task is to join desire, self-possession, and generative expression.",
-  "essence": "The Lover includes the creatrix current: eros becomes relationship, art, healing, and form.",
-  "items": [
+  "essence": "The Lover stage includes a generative current: eros becomes relationship, art, healing, and form.",
+  "archetypes": [
     {
-      "name": "Creatrix",
-      "slug": "creatrix-spider-weaver",
+      "kind": "archetype",
+      "name": "Creator",
+      "slug": "creator",
+      "lifecycle": "lover",
+      "order": 1,
+      "aliases": [
+        "Creatrix",
+        "Spider Weaver",
+        "Muse",
+        "Song Goddess"
+      ],
+      "legacyRoutes": [
+        "/lover-creatrix/creatrix-spider-weaver/",
+        "/lover-creatrix/muse-song-goddess/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "structure",
-        "flow"
+        "Structure",
+        "Flow"
       ],
-      "gifts": "The spider-weaver current: birthing art, systems, and useful form.",
-      "growthPath": "Build a strong enough vessel, then let the living work exceed the plan.",
-      "practices": [
-        "Define the smallest complete version and finish it.",
-        "Alternate bounded planning with uninterrupted making."
+      "image": "assets/images/creatrix-spider-weaver.jpeg",
+      "profile": {
+        "lifecycleStage": "Lover",
+        "coreFunction": "Receive generative inspiration and bring it through craft into finished, shareable form.",
+        "balancedQualities": "Structure + Flow",
+        "activeShadow": "Compulsive Perfecter",
+        "passiveShadow": "Scattered Maker",
+        "mythicResonances": "",
+        "keyQualities": "Creative, Patient, Inventive, Organized, Visionary, Generative, Bold, Resourceful, Iterative, Systematic, Inspiring, Expressive, Attuned, Magnetic, Rhythmic, Refined, Courageous, Flowing, Disciplined, Generous"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "lover/archetypes/creator.md",
+      "coreFunction": "Receive generative inspiration and bring it through craft into finished, shareable form.",
+      "keyQualities": [
+        "Creative",
+        "Patient",
+        "Inventive",
+        "Organized",
+        "Visionary",
+        "Generative",
+        "Bold",
+        "Resourceful",
+        "Iterative",
+        "Systematic",
+        "Inspiring",
+        "Expressive",
+        "Attuned",
+        "Magnetic",
+        "Rhythmic",
+        "Refined",
+        "Courageous",
+        "Flowing",
+        "Disciplined",
+        "Generous"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Compulsive Perfecter",
-            "type": "active",
-            "slug": "obsessive-perfectionist",
-            "description": [
-              "Structure tightens until the creation cannot breathe. She refines systems, standards, and details beyond their usefulness, postponing exposure to judgment by calling endless control devotion to craft."
-            ],
-            "declarations": [
-              "One more refinement will make it safe to release.",
-              "A flaw would invalidate the whole work.",
-              "Process must be controlled before I can create."
-            ],
-            "balancing": [
-              "Set a stopping rule before revising.",
-              "Release a complete but imperfect version.",
-              "Preserve one element that arrived unexpectedly."
-            ],
-            "gift": "Her precision becomes durable craft when it protects the work's life rather than her image.",
-            "outOfBalance": [
-              "Reworks settled details",
-              "Confuses polish with value",
-              "Never exposes work to use"
-            ]
-          },
-          {
-            "name": "Scattered Maker",
-            "type": "passive",
-            "slug": "scattered-creator",
-            "description": [
-              "Structure collapses and flow disperses across beginnings. She follows each new possibility, resists sequence and constraint, and leaves the work without enough continuity to become real. Potential substitutes for the vulnerability of completion."
-            ],
-            "declarations": [
-              "A system would kill the magic.",
-              "The next idea may be the real one.",
-              "Finishing can wait until inspiration returns."
-            ],
-            "balancing": [
-              "Choose one project and a visible finish line.",
-              "Use a simple schedule as a creative container.",
-              "Record new ideas without switching work."
-            ],
-            "gift": "Her improvisation becomes generative adaptability when it can inhabit a form long enough to mature.",
-            "outOfBalance": [
-              "Accumulates unfinished projects",
-              "Changes direction at ordinary friction",
-              "Depends on mood to work"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Creatrix",
-          "paragraphs": [
-            "The Mature Creatrix moves between loom and thread, plan and emergence. She chooses constraints that concentrate energy, revises systems that no longer serve, and releases work before control drains its vitality. Creation is neither chaos nor domination but an ongoing conversation with form."
-          ]
+      "activeShadowSlug": "compulsive-perfecter",
+      "passiveShadowSlug": "scattered-maker",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Creatrix moves between loom and thread, plan and emergence. She chooses constraints that concentrate energy, revises systems that no longer serve, and releases work before control drains its vitality. Creation is neither chaos nor domination but an ongoing conversation with form.\n\nThe spider-weaver current: birthing art, systems, and useful form.\n\nThe song-goddess current: inspiration that becomes shareable expression.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- Structure carries my creativity; it does not own it.\n- I can finish without exhausting every possibility.\n- Constraint helps energy become form.\n- The work may teach me how it wants to be made.\n- I listen for what wants form and give it craft.\n- Completion is part of inspiration.\n- My voice can be distinct without dominating.\n- I let an audience receive, answer, and change the work.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Structure and Flow are mutually correcting.\n\nStructure creates sequence, limits, and continuity so imagination can accumulate into form.\n\nFlow keeps creation responsive to discovery, embodiment, and surprise.\n\nExpression gives inner movement a form that can enter the world.\n\nReceptivity listens to material, context, and audience so expression can make contact.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Build a strong enough vessel, then let the living work exceed the plan.\n\nLet expression answer what the moment and the audience can receive.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The spider-weaver current: birthing art, systems, and useful form.\n\nThe song-goddess current: inspiration that becomes shareable expression.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Define the smallest complete version and finish it.\n- Alternate bounded planning with uninterrupted making.\n- Finish one small work before beginning another.\n- Listen once for the work's need and once for its recipient.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Creator",
+          "content": "The Mature Muse alternates between voicing and listening. She welcomes inspiration, develops it through practice, and shapes it so another person can actually encounter it. Her influence awakens expression in others rather than making them spectators to her brilliance.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Creatrix moves between loom and thread, plan and emergence. She chooses constraints that concentrate energy, revises systems that no longer serve, and releases work before control drains its vitality. Creation is neither chaos nor domination but an ongoing conversation with form.\n\nThe spider-weaver current: birthing art, systems, and useful form.\n\nThe song-goddess current: inspiration that becomes shareable expression.",
         "declarations": [
           "Structure carries my creativity; it does not own it.",
           "I can finish without exhausting every possibility.",
           "Constraint helps energy become form.",
-          "The work may teach me how it wants to be made."
-        ],
-        "balance": {
-          "balance": "Structure ↔ Flow",
-          "shadow": "Compulsive Perfecter ↔ Scattered Maker",
-          "powerAnimals": "Spider, Beaver, Hummingbird",
-          "qualities": "Creative, Patient, Inventive, Organized, Visionary, Generative, Bold, Resourceful, Iterative, Systematic"
-        },
-        "virtues": [
-          {
-            "title": "Structure",
-            "paragraphs": [
-              "Structure creates sequence, limits, and continuity so imagination can accumulate into form."
-            ]
-          },
-          {
-            "title": "Flow",
-            "paragraphs": [
-              "Flow keeps creation responsive to discovery, embodiment, and surprise."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Devoted Consort",
-      "slug": "devoted-consort-beloved",
-      "qualities": [
-        "surrender",
-        "dignity"
-      ],
-      "gifts": "The beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
-      "growthPath": "Let surrender be revocable, conscious, and anchored in equal human worth.",
-      "practices": [
-        "Before yielding, identify what remains yours to decide.",
-        "Distinguish service freely given from service used to earn safety."
-      ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Self-Erasing Worshipper",
-            "type": "active",
-            "slug": "enmeshing-worshipper",
-            "description": [
-              "Surrender consumes dignity. She idealizes a partner, cause, or teacher and anticipates every need, hoping perfect loyalty will secure belonging. Her self-erasure becomes covert control because the recipient is made responsible for sacrifices they did not request."
-            ],
-            "declarations": [
-              "Your purpose matters more than mine.",
-              "Good devotion asks for nothing.",
-              "If I am indispensable, I will be cherished."
-            ],
-            "balancing": [
-              "Make consent specific and renewable.",
-              "Name preferences before accommodating another.",
-              "Stop unrequested service and tolerate the uncertainty."
-            ],
-            "gift": "Her capacity to yield becomes profound trust when it is offered by an intact self.",
-            "outOfBalance": [
-              "Treats sacrifice as proof of love",
-              "Idealizes authority",
-              "Uses service to create obligation"
-            ]
-          },
-          {
-            "name": "Untouchable Beloved",
-            "type": "passive",
-            "slug": "aloof-sovereign",
-            "description": [
-              "Surrender disappears while dignity becomes rank and distance. She accepts admiration but resists influence, receiving devotion without exposing need or yielding control. No one can meet her because relationship has been arranged around preserving her unassailability."
-            ],
-            "declarations": [
-              "Yielding would lower my value.",
-              "I should be cherished without needing.",
-              "Dependence is beneath me."
-            ],
-            "balancing": [
-              "Let another person's wisdom alter a plan.",
-              "Practice mutual service without keeping status.",
-              "Admit where control protects fear."
-            ],
-            "gift": "Her poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
-            "outOfBalance": [
-              "Receives more than she reciprocates",
-              "Equates vulnerability with loss of status",
-              "Keeps partners in an admiring role"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Devoted Consort",
-          "paragraphs": [
-            "The Mature Devoted Consort can bow without becoming less. She entrusts herself only where consent, character, and shared purpose make surrender worthy. Loyalty does not require denial: she can question, withdraw, or lead, which is precisely what keeps her yielding honest."
-          ]
-        },
-        "declarations": [
-          "My surrender is a choice, not a debt.",
-          "Devotion and self-respect strengthen each other.",
-          "I can follow without abandoning judgment.",
-          "I serve what is worthy, not what demands worship."
-        ],
-        "balance": {
-          "balance": "Surrender ↔ Dignity",
-          "shadow": "Self-Erasing Worshipper ↔ Untouchable Beloved",
-          "powerAnimals": "Elephant, Swan, Turtledove",
-          "qualities": "Devoted, Reverent, Boundaried, Noble, Tender, Humble, Loyal, Present, Self-possessed, Receptive"
-        },
-        "virtues": [
-          {
-            "title": "Surrender",
-            "paragraphs": [
-              "Surrender relaxes control so trust, love, or shared purpose can lead."
-            ]
-          },
-          {
-            "title": "Dignity",
-            "paragraphs": [
-              "Dignity protects equal worth and makes every act of yielding genuinely voluntary."
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "Muse",
-      "slug": "muse-song-goddess",
-      "qualities": [
-        "expression",
-        "receptivity"
-      ],
-      "gifts": "The song-goddess current: inspiration that becomes shareable expression.",
-      "growthPath": "Let expression answer what the moment and the audience can receive.",
-      "practices": [
-        "Finish one small work before beginning another.",
-        "Listen once for the work's need and once for its recipient."
-      ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Flooding Muse",
-            "type": "active",
-            "slug": "chaotic-inspiration",
-            "description": [
-              "Expression overwhelms receptivity. Every impulse demands an audience, novelty displaces craft, and collaborators are expected to follow her tempo. Output multiplies while form, completion, and the listener's experience disappear."
-            ],
-            "declarations": [
-              "Every spark deserves immediate expression.",
-              "Editing betrays inspiration.",
-              "If others cannot keep up, they lack imagination."
-            ],
-            "balancing": [
-              "Choose a container before expanding the idea.",
-              "Ask what can be omitted.",
-              "Receive feedback without defending the first impulse."
-            ],
-            "gift": "Her abundance becomes catalytic originality when shaped for contact and completion.",
-            "outOfBalance": [
-              "Broadcasts unfinished impulses",
-              "Abandons work after the first excitement",
-              "Overruns collaborators"
-            ]
-          },
-          {
-            "name": "Silenced Muse",
-            "type": "passive",
-            "slug": "silent-songbird",
-            "description": [
-              "Expression contracts under hyper-receptivity. She absorbs taste, criticism, and the needs of the room until she cannot hear her own cadence. Waiting to be invited, approved, or original enough keeps the song private and the gift unpracticed."
-            ],
-            "declarations": [
-              "The room does not need my voice.",
-              "Someone has already said it better.",
-              "I will share when it cannot be criticized."
-            ],
-            "balancing": [
-              "Make a rough version for a real recipient.",
-              "Protect time in which no audience is consulted.",
-              "Share before confidence arrives."
-            ],
-            "gift": "Her sensitivity becomes exquisite attunement when it accompanies rather than replaces a voice.",
-            "outOfBalance": [
-              "Edits herself before creating",
-              "Imitates the prevailing taste",
-              "Waits indefinitely for permission"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Muse",
-          "paragraphs": [
-            "The Mature Muse alternates between voicing and listening. She welcomes inspiration, develops it through practice, and shapes it so another person can actually encounter it. Her influence awakens expression in others rather than making them spectators to her brilliance."
-          ]
-        },
-        "declarations": [
+          "The work may teach me how it wants to be made.",
           "I listen for what wants form and give it craft.",
           "Completion is part of inspiration.",
           "My voice can be distinct without dominating.",
           "I let an audience receive, answer, and change the work."
         ],
-        "balance": {
-          "balance": "Expression ↔ Receptivity",
-          "shadow": "Flooding Muse ↔ Silenced Muse",
-          "powerAnimals": "Nightingale, Swan, Butterfly",
-          "qualities": "Inspiring, Expressive, Attuned, Magnetic, Rhythmic, Refined, Courageous, Flowing, Disciplined, Generous"
-        },
-        "virtues": [
-          {
-            "title": "Expression",
-            "paragraphs": [
-              "Expression gives inner movement a form that can enter the world."
-            ]
+        "balance": "Structure and Flow are mutually correcting.\n\nStructure creates sequence, limits, and continuity so imagination can accumulate into form.\n\nFlow keeps creation responsive to discovery, embodiment, and surprise.\n\nExpression gives inner movement a form that can enter the world.\n\nReceptivity listens to material, context, and audience so expression can make contact.",
+        "applications": "Build a strong enough vessel, then let the living work exceed the plan.\n\nLet expression answer what the moment and the audience can receive.",
+        "giftsResponsibilitiesChallenges": "The spider-weaver current: birthing art, systems, and useful form.\n\nThe song-goddess current: inspiration that becomes shareable expression.",
+        "practices": [
+          "Define the smallest complete version and finish it.",
+          "Alternate bounded planning with uninterrupted making.",
+          "Finish one small work before beginning another.",
+          "Listen once for the work's need and once for its recipient."
+        ],
+        "conclusion": "The Mature Muse alternates between voicing and listening. She welcomes inspiration, develops it through practice, and shapes it so another person can actually encounter it. Her influence awakens expression in others rather than making them spectators to her brilliance."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Compulsive Perfecter",
+          "slug": "compulsive-perfecter",
+          "lifecycle": "lover",
+          "order": 1,
+          "aliases": [
+            "Silenced Muse"
+          ],
+          "legacyRoutes": [
+            "/lover-creatrix/creatrix-spider-weaver/shadows/obsessive-perfectionist/",
+            "/lover-creatrix/muse-song-goddess/shadows/silent-songbird/"
+          ],
+          "legacyAnchors": [
+            "obsessive-perfectionist",
+            "silent-songbird"
+          ],
+          "qualities": [
+            "Structure",
+            "Flow"
+          ],
+          "image": "assets/images/shadow/creatrix-spider-weaver--perfectionist-creator.jpg",
+          "profile": {
+            "lifecycleStage": "Lover",
+            "coreFunction": "Structure without Flow",
+            "balancedQualities": "Structure + Flow",
+            "activeShadow": "Compulsive Perfecter",
+            "passiveShadow": "Scattered Maker",
+            "mythicResonances": "",
+            "keyQualities": "Reworks settled details, Confuses polish with value, Never exposes work to use, Edits herself before creating, Imitates the prevailing taste, Waits indefinitely for permission"
           },
-          {
-            "title": "Receptivity",
-            "paragraphs": [
-              "Receptivity listens to material, context, and audience so expression can make contact."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "lover/shadows/compulsive-perfecter.md",
+          "parent": "creator",
+          "type": "active",
+          "oppositeShadowSlug": "scattered-maker",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Structure perfects and can silence expression without flow.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- One more refinement will make it safe to release.\n- A flaw would invalidate the whole work.\n- Process must be controlled before I can create.\n- The room does not need my voice.\n- Someone has already said it better.\n- I will share when it cannot be criticized.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Structure tightens until the creation cannot breathe. She refines systems, standards, and details beyond their usefulness, postponing exposure to judgment by calling endless control devotion to craft.\n\nExpression contracts under hyper-receptivity. She absorbs taste, criticism, and the needs of the room until she cannot hear her own cadence. Waiting to be invited, approved, or original enough keeps the song private and the gift unpracticed.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her precision becomes durable craft when it protects the work's life rather than her image.\n\nHer sensitivity becomes exquisite attunement when it accompanies rather than replaces a voice.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Reworks settled details\n\nConfuses polish with value\n\nNever exposes work to use\n\nEdits herself before creating\n\nImitates the prevailing taste\n\nWaits indefinitely for permission",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Set a stopping rule before revising.\n- Release a complete but imperfect version.\n- Preserve one element that arrived unexpectedly.\n- Make a rough version for a real recipient.\n- Protect time in which no audience is consulted.\n- Share before confidence arrives.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Scattered Maker is the opposite imbalance of Structure + Flow.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Flow and the dynamic relationship between Structure and Flow. Reopen responsive flow; give inspiration sequence and finish.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her precision becomes durable craft when it protects the work's life rather than her image.\n\nHer sensitivity becomes exquisite attunement when it accompanies rather than replaces a voice.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Structure perfects and can silence expression without flow.",
+            "declarations": [
+              "One more refinement will make it safe to release.",
+              "A flaw would invalidate the whole work.",
+              "Process must be controlled before I can create.",
+              "The room does not need my voice.",
+              "Someone has already said it better.",
+              "I will share when it cannot be criticized."
+            ],
+            "psychologicalMechanics": "Structure tightens until the creation cannot breathe. She refines systems, standards, and details beyond their usefulness, postponing exposure to judgment by calling endless control devotion to craft.\n\nExpression contracts under hyper-receptivity. She absorbs taste, criticism, and the needs of the room until she cannot hear her own cadence. Waiting to be invited, approved, or original enough keeps the song private and the gift unpracticed.",
+            "hiddenEnergy": "Her precision becomes durable craft when it protects the work's life rather than her image.\n\nHer sensitivity becomes exquisite attunement when it accompanies rather than replaces a voice.",
+            "recognition": "Reworks settled details\n\nConfuses polish with value\n\nNever exposes work to use\n\nEdits herself before creating\n\nImitates the prevailing taste\n\nWaits indefinitely for permission",
+            "practices": [
+              "Set a stopping rule before revising.",
+              "Release a complete but imperfect version.",
+              "Preserve one element that arrived unexpectedly.",
+              "Make a rough version for a real recipient.",
+              "Protect time in which no audience is consulted.",
+              "Share before confidence arrives."
+            ],
+            "oppositeShadow": "Scattered Maker is the opposite imbalance of Structure + Flow.",
+            "transformation": "Integration restores Flow and the dynamic relationship between Structure and Flow. Reopen responsive flow; give inspiration sequence and finish.",
+            "conclusion": "Her precision becomes durable craft when it protects the work's life rather than her image.\n\nHer sensitivity becomes exquisite attunement when it accompanies rather than replaces a voice."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Scattered Maker",
+          "slug": "scattered-maker",
+          "lifecycle": "lover",
+          "order": 2,
+          "aliases": [
+            "Flooding Muse"
+          ],
+          "legacyRoutes": [
+            "/lover-creatrix/creatrix-spider-weaver/shadows/scattered-creator/",
+            "/lover-creatrix/muse-song-goddess/shadows/chaotic-inspiration/"
+          ],
+          "legacyAnchors": [
+            "scattered-creator",
+            "chaotic-inspiration"
+          ],
+          "qualities": [
+            "Structure",
+            "Flow"
+          ],
+          "image": "assets/images/shadow/creatrix-spider-weaver--blocked-artist.jpg",
+          "profile": {
+            "lifecycleStage": "Lover",
+            "coreFunction": "Structure collapses while Flow distorts",
+            "balancedQualities": "Structure + Flow",
+            "activeShadow": "Compulsive Perfecter",
+            "passiveShadow": "Scattered Maker",
+            "mythicResonances": "",
+            "keyQualities": "Accumulates unfinished projects, Changes direction at ordinary friction, Depends on mood to work, Broadcasts unfinished impulses, Abandons work after the first excitement, Overruns collaborators"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "lover/shadows/scattered-maker.md",
+          "parent": "creator",
+          "type": "passive",
+          "oppositeShadowSlug": "compulsive-perfecter",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Structure collapses while flow floods, scatters, and avoids completion.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- A system would kill the magic.\n- The next idea may be the real one.\n- Finishing can wait until inspiration returns.\n- Every spark deserves immediate expression.\n- Editing betrays inspiration.\n- If others cannot keep up, they lack imagination.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Structure collapses and flow disperses across beginnings. She follows each new possibility, resists sequence and constraint, and leaves the work without enough continuity to become real. Potential substitutes for the vulnerability of completion.\n\nExpression overwhelms receptivity. Every impulse demands an audience, novelty displaces craft, and collaborators are expected to follow her tempo. Output multiplies while form, completion, and the listener's experience disappear.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her improvisation becomes generative adaptability when it can inhabit a form long enough to mature.\n\nHer abundance becomes catalytic originality when shaped for contact and completion.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Accumulates unfinished projects\n\nChanges direction at ordinary friction\n\nDepends on mood to work\n\nBroadcasts unfinished impulses\n\nAbandons work after the first excitement\n\nOverruns collaborators",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Choose one project and a visible finish line.\n- Use a simple schedule as a creative container.\n- Record new ideas without switching work.\n- Choose a container before expanding the idea.\n- Ask what can be omitted.\n- Receive feedback without defending the first impulse.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Compulsive Perfecter is the opposite imbalance of Structure + Flow.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Structure and the dynamic relationship between Structure and Flow. Reopen responsive flow; give inspiration sequence and finish.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her improvisation becomes generative adaptability when it can inhabit a form long enough to mature.\n\nHer abundance becomes catalytic originality when shaped for contact and completion.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Structure collapses while flow floods, scatters, and avoids completion.",
+            "declarations": [
+              "A system would kill the magic.",
+              "The next idea may be the real one.",
+              "Finishing can wait until inspiration returns.",
+              "Every spark deserves immediate expression.",
+              "Editing betrays inspiration.",
+              "If others cannot keep up, they lack imagination."
+            ],
+            "psychologicalMechanics": "Structure collapses and flow disperses across beginnings. She follows each new possibility, resists sequence and constraint, and leaves the work without enough continuity to become real. Potential substitutes for the vulnerability of completion.\n\nExpression overwhelms receptivity. Every impulse demands an audience, novelty displaces craft, and collaborators are expected to follow her tempo. Output multiplies while form, completion, and the listener's experience disappear.",
+            "hiddenEnergy": "Her improvisation becomes generative adaptability when it can inhabit a form long enough to mature.\n\nHer abundance becomes catalytic originality when shaped for contact and completion.",
+            "recognition": "Accumulates unfinished projects\n\nChanges direction at ordinary friction\n\nDepends on mood to work\n\nBroadcasts unfinished impulses\n\nAbandons work after the first excitement\n\nOverruns collaborators",
+            "practices": [
+              "Choose one project and a visible finish line.",
+              "Use a simple schedule as a creative container.",
+              "Record new ideas without switching work.",
+              "Choose a container before expanding the idea.",
+              "Ask what can be omitted.",
+              "Receive feedback without defending the first impulse."
+            ],
+            "oppositeShadow": "Compulsive Perfecter is the opposite imbalance of Structure + Flow.",
+            "transformation": "Integration restores Structure and the dynamic relationship between Structure and Flow. Reopen responsive flow; give inspiration sequence and finish.",
+            "conclusion": "Her improvisation becomes generative adaptability when it can inhabit a form long enough to mature.\n\nHer abundance becomes catalytic originality when shaped for contact and completion."
+          }
+        }
+      ]
     },
     {
-      "name": "Sacred Lover",
-      "slug": "sacred-lover-love-goddess",
+      "kind": "archetype",
+      "name": "Lover",
+      "slug": "lover",
+      "lifecycle": "lover",
+      "order": 2,
+      "aliases": [
+        "Sacred Lover",
+        "Love Goddess",
+        "Devoted Consort",
+        "Beloved"
+      ],
+      "legacyRoutes": [
+        "/lover-creatrix/sacred-lover-love-goddess/",
+        "/lover-creatrix/devoted-consort-beloved/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "devotion",
-        "sovereignty"
+        "Devotion",
+        "Sovereignty"
       ],
-      "gifts": "The love-goddess current: sensual presence, eros, play, and wholehearted intimacy.",
-      "growthPath": "Offer devotion from a self that remains present, choosing, and free.",
-      "practices": [
-        "Name a desire without turning it into a demand.",
-        "Notice whether closeness enlarges or erases either person."
+      "image": "assets/images/sacred-whore-love-goddess.jpeg",
+      "profile": {
+        "lifecycleStage": "Lover",
+        "coreFunction": "Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.",
+        "balancedQualities": "Devotion + Sovereignty",
+        "activeShadow": "Enmeshing Lover",
+        "passiveShadow": "Armored Lover",
+        "mythicResonances": "",
+        "keyQualities": "Radiant, Sensual, Boundaried, Tender, Magnetic, Joyful, Reverent, Creative, Whole, Generous, Devoted, Noble, Humble, Loyal, Present, Self-possessed, Receptive"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "lover/archetypes/lover.md",
+      "coreFunction": "Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.",
+      "keyQualities": [
+        "Radiant",
+        "Sensual",
+        "Boundaried",
+        "Tender",
+        "Magnetic",
+        "Joyful",
+        "Reverent",
+        "Creative",
+        "Whole",
+        "Generous",
+        "Devoted",
+        "Noble",
+        "Humble",
+        "Loyal",
+        "Present",
+        "Self-possessed",
+        "Receptive"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Enmeshing Enchantress",
-            "type": "active",
-            "slug": "intoxicating-siren",
-            "description": [
-              "Devotion floods sovereignty. She intensifies attention, beauty, sex, or caretaking to become indispensable, then experiences another's separateness as rejection. What looks like generosity quietly asks the beloved to regulate her worth."
-            ],
-            "declarations": [
-              "If I give everything, I cannot be left.",
-              "Distance means love is fading.",
-              "Being desired proves I am safe."
-            ],
-            "balancing": [
-              "Allow longing without acting it out immediately.",
-              "Keep friendships, work, and bodily rhythms intact.",
-              "Ask directly instead of seducing an answer."
-            ],
-            "gift": "Her magnetism becomes generous erotic presence when it invites rather than captures.",
-            "outOfBalance": [
-              "Escalates closeness without consent",
-              "Performs desire for reassurance",
-              "Resents ordinary separateness"
-            ]
-          },
-          {
-            "name": "Armored Lover",
-            "type": "passive",
-            "slug": "armored-heart",
-            "description": [
-              "Devotion withdraws behind sovereignty hardened into invulnerability. She can attract, analyze, and negotiate intimacy while withholding the unguarded presence that would let love affect her. Independence protects her from grief by also protecting her from mutual belonging."
-            ],
-            "declarations": [
-              "Need makes me vulnerable to control.",
-              "I can enjoy love without depending on anyone.",
-              "Composure is safer than tenderness."
-            ],
-            "balancing": [
-              "Reveal one need without apology.",
-              "Receive care without immediate repayment.",
-              "Stay present when affection softens control."
-            ],
-            "gift": "Her self-command becomes secure attachment when it can risk being changed by love.",
-            "outOfBalance": [
-              "Keeps relationships performative",
-              "Turns tenderness into analysis",
-              "Leaves before dependence can form"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Sacred Lover",
-          "paragraphs": [
-            "The Mature Sacred Lover belongs to herself and can therefore give herself freely. Desire becomes information rather than command; pleasure awakens gratitude rather than entitlement. She welcomes mutual influence, keeps consent alive, and lets intimacy reveal rather than replace each person's distinct life."
-          ]
+      "activeShadowSlug": "enmeshing-lover",
+      "passiveShadowSlug": "armored-lover",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Sacred Lover belongs to herself and can therefore give herself freely. Desire becomes information rather than command; pleasure awakens gratitude rather than entitlement. She welcomes mutual influence, keeps consent alive, and lets intimacy reveal rather than replace each person's distinct life.\n\nThe love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I can desire deeply without abandoning myself.\n- My body, heart, and no all belong in love.\n- I invite; I do not capture.\n- Intimacy makes room for two whole lives.\n- My surrender is a choice, not a debt.\n- Devotion and self-respect strengthen each other.\n- I can follow without abandoning judgment.\n- I serve what is worthy, not what demands worship.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Devotion and Sovereignty are mutually correcting.\n\nDevotion gives sustained attention to what the heart recognizes as precious.\n\nSovereignty preserves choice, boundaries, and identity inside closeness.\n\nSurrender relaxes control so trust, love, or shared purpose can lead.\n\nDignity protects equal worth and makes every act of yielding genuinely voluntary.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Offer devotion from a self that remains present, choosing, and free.\n\nLet surrender be revocable, conscious, and anchored in equal human worth.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Name a desire without turning it into a demand.\n- Notice whether closeness enlarges or erases either person.\n- Before yielding, identify what remains yours to decide.\n- Distinguish service freely given from service used to earn safety.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Lover",
+          "content": "The Mature Devoted Consort can bow without becoming less. She entrusts herself only where consent, character, and shared purpose make surrender worthy. Loyalty does not require denial: she can question, withdraw, or lead, which is precisely what keeps her yielding honest.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Sacred Lover belongs to herself and can therefore give herself freely. Desire becomes information rather than command; pleasure awakens gratitude rather than entitlement. She welcomes mutual influence, keeps consent alive, and lets intimacy reveal rather than replace each person's distinct life.\n\nThe love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
         "declarations": [
           "I can desire deeply without abandoning myself.",
           "My body, heart, and no all belong in love.",
           "I invite; I do not capture.",
-          "Intimacy makes room for two whole lives."
+          "Intimacy makes room for two whole lives.",
+          "My surrender is a choice, not a debt.",
+          "Devotion and self-respect strengthen each other.",
+          "I can follow without abandoning judgment.",
+          "I serve what is worthy, not what demands worship."
         ],
-        "balance": {
-          "balance": "Devotion ↔ Sovereignty",
-          "shadow": "Enmeshing Enchantress ↔ Armored Lover",
-          "powerAnimals": "Dove, Swan, Bee",
-          "qualities": "Radiant, Sensual, Boundaried, Tender, Magnetic, Joyful, Reverent, Creative, Whole, Generous"
-        },
-        "virtues": [
-          {
-            "title": "Devotion",
-            "paragraphs": [
-              "Devotion gives sustained attention to what the heart recognizes as precious."
-            ]
+        "balance": "Devotion and Sovereignty are mutually correcting.\n\nDevotion gives sustained attention to what the heart recognizes as precious.\n\nSovereignty preserves choice, boundaries, and identity inside closeness.\n\nSurrender relaxes control so trust, love, or shared purpose can lead.\n\nDignity protects equal worth and makes every act of yielding genuinely voluntary.",
+        "applications": "Offer devotion from a self that remains present, choosing, and free.\n\nLet surrender be revocable, conscious, and anchored in equal human worth.",
+        "giftsResponsibilitiesChallenges": "The love-goddess current: sensual presence, eros, play, and wholehearted intimacy.\n\nThe beloved current: chosen surrender, loyalty, and partnership in shared purpose.",
+        "practices": [
+          "Name a desire without turning it into a demand.",
+          "Notice whether closeness enlarges or erases either person.",
+          "Before yielding, identify what remains yours to decide.",
+          "Distinguish service freely given from service used to earn safety."
+        ],
+        "conclusion": "The Mature Devoted Consort can bow without becoming less. She entrusts herself only where consent, character, and shared purpose make surrender worthy. Loyalty does not require denial: she can question, withdraw, or lead, which is precisely what keeps her yielding honest."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Enmeshing Lover",
+          "slug": "enmeshing-lover",
+          "lifecycle": "lover",
+          "order": 1,
+          "aliases": [
+            "Enmeshing Enchantress",
+            "Self-Erasing Worshipper"
+          ],
+          "legacyRoutes": [
+            "/lover-creatrix/sacred-lover-love-goddess/shadows/intoxicating-siren/",
+            "/lover-creatrix/devoted-consort-beloved/shadows/enmeshing-worshipper/"
+          ],
+          "legacyAnchors": [
+            "intoxicating-siren",
+            "enmeshing-worshipper"
+          ],
+          "qualities": [
+            "Devotion",
+            "Sovereignty"
+          ],
+          "image": "assets/images/shadow/sacred-lover-love-goddess--seductive-enchantress.jpg",
+          "profile": {
+            "lifecycleStage": "Lover",
+            "coreFunction": "Devotion without Sovereignty",
+            "balancedQualities": "Devotion + Sovereignty",
+            "activeShadow": "Enmeshing Lover",
+            "passiveShadow": "Armored Lover",
+            "mythicResonances": "",
+            "keyQualities": "Escalates closeness without consent, Performs desire for reassurance, Resents ordinary separateness, Treats sacrifice as proof of love, Idealizes authority, Uses service to create obligation"
           },
-          {
-            "title": "Sovereignty",
-            "paragraphs": [
-              "Sovereignty preserves choice, boundaries, and identity inside closeness."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "lover/shadows/enmeshing-lover.md",
+          "parent": "lover",
+          "type": "active",
+          "oppositeShadowSlug": "armored-lover",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Devotion enmeshes and self-erases without sovereignty.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- If I give everything, I cannot be left.\n- Distance means love is fading.\n- Being desired proves I am safe.\n- Your purpose matters more than mine.\n- Good devotion asks for nothing.\n- If I am indispensable, I will be cherished.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Devotion floods sovereignty. She intensifies attention, beauty, sex, or caretaking to become indispensable, then experiences another's separateness as rejection. What looks like generosity quietly asks the beloved to regulate her worth.\n\nSurrender consumes dignity. She idealizes a partner, cause, or teacher and anticipates every need, hoping perfect loyalty will secure belonging. Her self-erasure becomes covert control because the recipient is made responsible for sacrifices they did not request.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Escalates closeness without consent\n\nPerforms desire for reassurance\n\nResents ordinary separateness\n\nTreats sacrifice as proof of love\n\nIdealizes authority\n\nUses service to create obligation",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Allow longing without acting it out immediately.\n- Keep friendships, work, and bodily rhythms intact.\n- Ask directly instead of seducing an answer.\n- Make consent specific and renewable.\n- Name preferences before accommodating another.\n- Stop unrequested service and tolerate the uncertainty.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Armored Lover is the opposite imbalance of Devotion + Sovereignty.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Sovereignty and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Devotion enmeshes and self-erases without sovereignty.",
+            "declarations": [
+              "If I give everything, I cannot be left.",
+              "Distance means love is fading.",
+              "Being desired proves I am safe.",
+              "Your purpose matters more than mine.",
+              "Good devotion asks for nothing.",
+              "If I am indispensable, I will be cherished."
+            ],
+            "psychologicalMechanics": "Devotion floods sovereignty. She intensifies attention, beauty, sex, or caretaking to become indispensable, then experiences another's separateness as rejection. What looks like generosity quietly asks the beloved to regulate her worth.\n\nSurrender consumes dignity. She idealizes a partner, cause, or teacher and anticipates every need, hoping perfect loyalty will secure belonging. Her self-erasure becomes covert control because the recipient is made responsible for sacrifices they did not request.",
+            "hiddenEnergy": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self.",
+            "recognition": "Escalates closeness without consent\n\nPerforms desire for reassurance\n\nResents ordinary separateness\n\nTreats sacrifice as proof of love\n\nIdealizes authority\n\nUses service to create obligation",
+            "practices": [
+              "Allow longing without acting it out immediately.",
+              "Keep friendships, work, and bodily rhythms intact.",
+              "Ask directly instead of seducing an answer.",
+              "Make consent specific and renewable.",
+              "Name preferences before accommodating another.",
+              "Stop unrequested service and tolerate the uncertainty."
+            ],
+            "oppositeShadow": "Armored Lover is the opposite imbalance of Devotion + Sovereignty.",
+            "transformation": "Integration restores Sovereignty and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+            "conclusion": "Her magnetism becomes generous erotic presence when it invites rather than captures.\n\nHer capacity to yield becomes profound trust when it is offered by an intact self."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Armored Lover",
+          "slug": "armored-lover",
+          "lifecycle": "lover",
+          "order": 2,
+          "aliases": [
+            "Untouchable Beloved"
+          ],
+          "legacyRoutes": [
+            "/lover-creatrix/sacred-lover-love-goddess/shadows/armored-heart/",
+            "/lover-creatrix/devoted-consort-beloved/shadows/aloof-sovereign/"
+          ],
+          "legacyAnchors": [
+            "armored-heart",
+            "aloof-sovereign"
+          ],
+          "qualities": [
+            "Devotion",
+            "Sovereignty"
+          ],
+          "image": "assets/images/shadow/sacred-lover-love-goddess--disconnected-performer.jpg",
+          "profile": {
+            "lifecycleStage": "Lover",
+            "coreFunction": "Devotion collapses while Sovereignty distorts",
+            "balancedQualities": "Devotion + Sovereignty",
+            "activeShadow": "Enmeshing Lover",
+            "passiveShadow": "Armored Lover",
+            "mythicResonances": "",
+            "keyQualities": "Keeps relationships performative, Turns tenderness into analysis, Leaves before dependence can form, Receives more than she reciprocates, Equates vulnerability with loss of status, Keeps partners in an admiring role"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "lover/shadows/armored-lover.md",
+          "parent": "lover",
+          "type": "passive",
+          "oppositeShadowSlug": "enmeshing-lover",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Devotion collapses while sovereignty hardens into armor, rank, or untouchability.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Need makes me vulnerable to control.\n- I can enjoy love without depending on anyone.\n- Composure is safer than tenderness.\n- Yielding would lower my value.\n- I should be cherished without needing.\n- Dependence is beneath me.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Devotion withdraws behind sovereignty hardened into invulnerability. She can attract, analyze, and negotiate intimacy while withholding the unguarded presence that would let love affect her. Independence protects her from grief by also protecting her from mutual belonging.\n\nSurrender disappears while dignity becomes rank and distance. She accepts admiration but resists influence, receiving devotion without exposing need or yielding control. No one can meet her because relationship has been arranged around preserving her unassailability.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Keeps relationships performative\n\nTurns tenderness into analysis\n\nLeaves before dependence can form\n\nReceives more than she reciprocates\n\nEquates vulnerability with loss of status\n\nKeeps partners in an admiring role",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Reveal one need without apology.\n- Receive care without immediate repayment.\n- Stay present when affection softens control.\n- Let another person's wisdom alter a plan.\n- Practice mutual service without keeping status.\n- Admit where control protects fear.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Enmeshing Lover is the opposite imbalance of Devotion + Sovereignty.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Devotion and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Devotion collapses while sovereignty hardens into armor, rank, or untouchability.",
+            "declarations": [
+              "Need makes me vulnerable to control.",
+              "I can enjoy love without depending on anyone.",
+              "Composure is safer than tenderness.",
+              "Yielding would lower my value.",
+              "I should be cherished without needing.",
+              "Dependence is beneath me."
+            ],
+            "psychologicalMechanics": "Devotion withdraws behind sovereignty hardened into invulnerability. She can attract, analyze, and negotiate intimacy while withholding the unguarded presence that would let love affect her. Independence protects her from grief by also protecting her from mutual belonging.\n\nSurrender disappears while dignity becomes rank and distance. She accepts admiration but resists influence, receiving devotion without exposing need or yielding control. No one can meet her because relationship has been arranged around preserving her unassailability.",
+            "hiddenEnergy": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking.",
+            "recognition": "Keeps relationships performative\n\nTurns tenderness into analysis\n\nLeaves before dependence can form\n\nReceives more than she reciprocates\n\nEquates vulnerability with loss of status\n\nKeeps partners in an admiring role",
+            "practices": [
+              "Reveal one need without apology.",
+              "Receive care without immediate repayment.",
+              "Stay present when affection softens control.",
+              "Let another person's wisdom alter a plan.",
+              "Practice mutual service without keeping status.",
+              "Admit where control protects fear."
+            ],
+            "oppositeShadow": "Enmeshing Lover is the opposite imbalance of Devotion + Sovereignty.",
+            "transformation": "Integration restores Devotion and the dynamic relationship between Devotion and Sovereignty. Restore consent and dignity; restore mutual influence and contact.",
+            "conclusion": "Her self-command becomes secure attachment when it can risk being changed by love.\n\nHer poise becomes self-respect capable of genuine partnership when it can bow without shrinking."
+          }
+        }
+      ]
     },
     {
-      "name": "Young Healer",
-      "slug": "young-healer-priestess",
+      "kind": "archetype",
+      "name": "Healer",
+      "slug": "healer",
+      "lifecycle": "lover",
+      "order": 3,
+      "aliases": [
+        "Young Healer",
+        "Young Priestess"
+      ],
+      "legacyRoutes": [
+        "/lover-creatrix/young-healer-priestess/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "compassion",
-        "boundaries"
+        "Compassion",
+        "Boundaries"
       ],
-      "gifts": "The young priestess: compassionate presence learning ethical limits.",
-      "growthPath": "Support another's healing without taking ownership of it.",
-      "practices": [
-        "Ask whether help is wanted before offering it.",
-        "Define the time, role, and limit of each act of care."
+      "image": "assets/images/young-healer-priestess.jpeg",
+      "profile": {
+        "lifecycleStage": "Lover",
+        "coreFunction": "Respond to suffering with compassion governed by consent, scope, and capacity.",
+        "balancedQualities": "Compassion + Boundaries",
+        "activeShadow": "Rescuing Healer",
+        "passiveShadow": "Guarded Healer",
+        "mythicResonances": "",
+        "keyQualities": "Compassionate, Boundaried, Present, Restorative, Empathic, Clear, Centered, Ethical, Grounded, Devotional"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "lover/archetypes/healer.md",
+      "coreFunction": "Respond to suffering with compassion governed by consent, scope, and capacity.",
+      "keyQualities": [
+        "Compassionate",
+        "Boundaried",
+        "Present",
+        "Restorative",
+        "Empathic",
+        "Clear",
+        "Centered",
+        "Ethical",
+        "Grounded",
+        "Devotional"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Rescuing Healer",
-            "type": "active",
-            "slug": "savior-priestess",
-            "description": [
-              "Compassion crosses boundaries and becomes intervention. She absorbs distress, gives beyond agreement, and measures her goodness by whether another person improves. Help then creates dependence, exhaustion, or resistance."
-            ],
-            "declarations": [
-              "I cannot rest while someone is hurting.",
-              "If I can help, I am responsible.",
-              "Their progress proves my worth."
-            ],
-            "balancing": [
-              "Ask permission and accept no.",
-              "Return choices and consequences to their owner.",
-              "Offer only what fits present capacity."
-            ],
-            "gift": "Her responsiveness becomes trustworthy care when it strengthens the other person's agency.",
-            "outOfBalance": [
-              "Gives unsolicited treatment",
-              "Takes responsibility for outcomes",
-              "Ignores fatigue and scope"
-            ]
-          },
-          {
-            "name": "Guarded Healer",
-            "type": "passive",
-            "slug": "wounded-healer",
-            "description": [
-              "Compassion retreats behind boundaries used as armor. Fear of depletion or entanglement turns careful scope into emotional absence. She can explain why a need is not hers while withholding the ordinary human warmth that requires no rescue."
-            ],
-            "declarations": [
-              "Caring will pull me under.",
-              "Distance is the only clean boundary.",
-              "People must heal themselves."
-            ],
-            "balancing": [
-              "Offer presence without promising a solution.",
-              "Name limits warmly instead of disappearing.",
-              "Let care be felt without taking over."
-            ],
-            "gift": "Her caution becomes ethical clarity when protection does not require indifference.",
-            "outOfBalance": [
-              "Uses policy to avoid contact",
-              "Withdraws at visible need",
-              "Confuses non-rescue with non-care"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Young Healer",
-          "paragraphs": [
-            "The Mature Young Healer combines a permeable heart with a clear scope. She listens before acting, seeks consent, and supports capacities already present in the person she serves. She can care deeply, tolerate an outcome she cannot control, and replenish before offering more."
-          ]
+      "activeShadowSlug": "rescuing-healer",
+      "passiveShadowSlug": "guarded-healer",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Young Healer combines a permeable heart with a clear scope. She listens before acting, seeks consent, and supports capacities already present in the person she serves. She can care deeply, tolerate an outcome she cannot control, and replenish before offering more.\n\nThe young priestess: compassionate presence learning ethical limits.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- Care does not make me the owner of another's path.\n- My limits keep my yes honest.\n- Presence can help without fixing.\n- I support agency, consent, and right-sized care.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Compassion and Boundaries are mutually correcting.\n\nCompassion lets another person's reality matter and moves toward suffering with warmth.\n\nBoundaries define consent, role, and capacity so care remains ethical and sustainable.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Support another's healing without taking ownership of it.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The young priestess: compassionate presence learning ethical limits.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Ask whether help is wanted before offering it.\n- Define the time, role, and limit of each act of care.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Healer",
+          "content": "The Mature Young Healer combines a permeable heart with a clear scope. She listens before acting, seeks consent, and supports capacities already present in the person she serves. She can care deeply, tolerate an outcome she cannot control, and replenish before offering more.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Young Healer combines a permeable heart with a clear scope. She listens before acting, seeks consent, and supports capacities already present in the person she serves. She can care deeply, tolerate an outcome she cannot control, and replenish before offering more.\n\nThe young priestess: compassionate presence learning ethical limits.",
         "declarations": [
           "Care does not make me the owner of another's path.",
           "My limits keep my yes honest.",
           "Presence can help without fixing.",
           "I support agency, consent, and right-sized care."
         ],
-        "balance": {
-          "balance": "Compassion ↔ Boundaries",
-          "shadow": "Rescuing Healer ↔ Guarded Healer",
-          "powerAnimals": "Doe, Dove, Seal",
-          "qualities": "Compassionate, Boundaried, Present, Restorative, Empathic, Clear, Centered, Ethical, Grounded, Devotional"
-        },
-        "virtues": [
-          {
-            "title": "Compassion",
-            "paragraphs": [
-              "Compassion lets another person's reality matter and moves toward suffering with warmth."
-            ]
+        "balance": "Compassion and Boundaries are mutually correcting.\n\nCompassion lets another person's reality matter and moves toward suffering with warmth.\n\nBoundaries define consent, role, and capacity so care remains ethical and sustainable.",
+        "applications": "Support another's healing without taking ownership of it.",
+        "giftsResponsibilitiesChallenges": "The young priestess: compassionate presence learning ethical limits.",
+        "practices": [
+          "Ask whether help is wanted before offering it.",
+          "Define the time, role, and limit of each act of care."
+        ],
+        "conclusion": "The Mature Young Healer combines a permeable heart with a clear scope. She listens before acting, seeks consent, and supports capacities already present in the person she serves. She can care deeply, tolerate an outcome she cannot control, and replenish before offering more."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Rescuing Healer",
+          "slug": "rescuing-healer",
+          "lifecycle": "lover",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/lover-creatrix/young-healer-priestess/shadows/savior-priestess/"
+          ],
+          "legacyAnchors": [
+            "savior-priestess"
+          ],
+          "qualities": [
+            "Compassion",
+            "Boundaries"
+          ],
+          "image": "assets/images/shadow/young-healer-priestess--savior-complex.jpg",
+          "profile": {
+            "lifecycleStage": "Lover",
+            "coreFunction": "Compassion without Boundaries",
+            "balancedQualities": "Compassion + Boundaries",
+            "activeShadow": "Rescuing Healer",
+            "passiveShadow": "Guarded Healer",
+            "mythicResonances": "",
+            "keyQualities": "Gives unsolicited treatment, Takes responsibility for outcomes, Ignores fatigue and scope"
           },
-          {
-            "title": "Boundaries",
-            "paragraphs": [
-              "Boundaries define consent, role, and capacity so care remains ethical and sustainable."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "lover/shadows/rescuing-healer.md",
+          "parent": "healer",
+          "type": "active",
+          "oppositeShadowSlug": "guarded-healer",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Compassion rescues without boundaries.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I cannot rest while someone is hurting.\n- If I can help, I am responsible.\n- Their progress proves my worth.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Compassion crosses boundaries and becomes intervention. She absorbs distress, gives beyond agreement, and measures her goodness by whether another person improves. Help then creates dependence, exhaustion, or resistance.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her responsiveness becomes trustworthy care when it strengthens the other person's agency.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Gives unsolicited treatment\n\nTakes responsibility for outcomes\n\nIgnores fatigue and scope",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Ask permission and accept no.\n- Return choices and consequences to their owner.\n- Offer only what fits present capacity.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Guarded Healer is the opposite imbalance of Compassion + Boundaries.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Boundaries and the dynamic relationship between Compassion and Boundaries. Add scope and consent; add reachable care.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her responsiveness becomes trustworthy care when it strengthens the other person's agency.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Compassion rescues without boundaries.",
+            "declarations": [
+              "I cannot rest while someone is hurting.",
+              "If I can help, I am responsible.",
+              "Their progress proves my worth."
+            ],
+            "psychologicalMechanics": "Compassion crosses boundaries and becomes intervention. She absorbs distress, gives beyond agreement, and measures her goodness by whether another person improves. Help then creates dependence, exhaustion, or resistance.",
+            "hiddenEnergy": "Her responsiveness becomes trustworthy care when it strengthens the other person's agency.",
+            "recognition": "Gives unsolicited treatment\n\nTakes responsibility for outcomes\n\nIgnores fatigue and scope",
+            "practices": [
+              "Ask permission and accept no.",
+              "Return choices and consequences to their owner.",
+              "Offer only what fits present capacity."
+            ],
+            "oppositeShadow": "Guarded Healer is the opposite imbalance of Compassion + Boundaries.",
+            "transformation": "Integration restores Boundaries and the dynamic relationship between Compassion and Boundaries. Add scope and consent; add reachable care.",
+            "conclusion": "Her responsiveness becomes trustworthy care when it strengthens the other person's agency."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Guarded Healer",
+          "slug": "guarded-healer",
+          "lifecycle": "lover",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/lover-creatrix/young-healer-priestess/shadows/wounded-healer/"
+          ],
+          "legacyAnchors": [
+            "wounded-healer"
+          ],
+          "qualities": [
+            "Compassion",
+            "Boundaries"
+          ],
+          "image": "assets/images/shadow/young-healer-priestess--burned-out-healer.jpg",
+          "profile": {
+            "lifecycleStage": "Lover",
+            "coreFunction": "Compassion collapses while Boundaries distorts",
+            "balancedQualities": "Compassion + Boundaries",
+            "activeShadow": "Rescuing Healer",
+            "passiveShadow": "Guarded Healer",
+            "mythicResonances": "",
+            "keyQualities": "Uses policy to avoid contact, Withdraws at visible need, Confuses non-rescue with non-care"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "lover/shadows/guarded-healer.md",
+          "parent": "healer",
+          "type": "passive",
+          "oppositeShadowSlug": "rescuing-healer",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Compassion collapses while boundaries become armor.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Caring will pull me under.\n- Distance is the only clean boundary.\n- People must heal themselves.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Compassion retreats behind boundaries used as armor. Fear of depletion or entanglement turns careful scope into emotional absence. She can explain why a need is not hers while withholding the ordinary human warmth that requires no rescue.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her caution becomes ethical clarity when protection does not require indifference.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Uses policy to avoid contact\n\nWithdraws at visible need\n\nConfuses non-rescue with non-care",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Offer presence without promising a solution.\n- Name limits warmly instead of disappearing.\n- Let care be felt without taking over.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Rescuing Healer is the opposite imbalance of Compassion + Boundaries.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Compassion and the dynamic relationship between Compassion and Boundaries. Add scope and consent; add reachable care.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her caution becomes ethical clarity when protection does not require indifference.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Compassion collapses while boundaries become armor.",
+            "declarations": [
+              "Caring will pull me under.",
+              "Distance is the only clean boundary.",
+              "People must heal themselves."
+            ],
+            "psychologicalMechanics": "Compassion retreats behind boundaries used as armor. Fear of depletion or entanglement turns careful scope into emotional absence. She can explain why a need is not hers while withholding the ordinary human warmth that requires no rescue.",
+            "hiddenEnergy": "Her caution becomes ethical clarity when protection does not require indifference.",
+            "recognition": "Uses policy to avoid contact\n\nWithdraws at visible need\n\nConfuses non-rescue with non-care",
+            "practices": [
+              "Offer presence without promising a solution.",
+              "Name limits warmly instead of disappearing.",
+              "Let care be felt without taking over."
+            ],
+            "oppositeShadow": "Rescuing Healer is the opposite imbalance of Compassion + Boundaries.",
+            "transformation": "Integration restores Compassion and the dynamic relationship between Compassion and Boundaries. Add scope and consent; add reachable care.",
+            "conclusion": "Her caution becomes ethical clarity when protection does not require indifference."
+          }
+        }
+      ]
     }
   ]
 }

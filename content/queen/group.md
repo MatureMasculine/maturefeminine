@@ -1,4 +1,5 @@
 ---
+order: 4
 sourceFile: group_4_queen
 slug: queen
 ---

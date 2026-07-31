@@ -1,304 +1,1444 @@
 {
-  "title": "Queen Archetypes",
-  "group": "Queen",
   "name": "Queen",
   "slug": "queen",
+  "order": 4,
+  "title": "Queen Archetypes",
   "summary": "Stewardship and public power; the task is to make authority serve life.",
   "essence": "Clear rule, proportionate judgment, and visible leadership that enlarges others.",
-  "items": [
+  "archetypes": [
     {
+      "kind": "archetype",
       "name": "Justice",
       "slug": "justice",
+      "lifecycle": "queen",
+      "order": 1,
+      "aliases": [],
+      "legacyRoutes": [],
+      "legacyAnchors": [],
       "qualities": [
-        "truth",
-        "mercy"
+        "Truth",
+        "Mercy"
       ],
-      "gifts": "Clear judgment that joins truthful consequence with the possibility of restoration.",
-      "growthPath": "Tell the whole truth, including harm, context, agency, and the path back.",
-      "practices": [
-        "Separate observed impact from motive and character judgment.",
-        "Choose the least consequence that can protect, teach, and repair."
+      "image": "assets/images/justice-maat.jpeg",
+      "profile": {
+        "lifecycleStage": "Queen",
+        "coreFunction": "Apply truthful, proportionate consequence while preserving the possibility of repair.",
+        "balancedQualities": "Truth + Mercy",
+        "activeShadow": "Merciless Judge",
+        "passiveShadow": "Permissive Witness",
+        "mythicResonances": "",
+        "keyQualities": "Fair, Clear, Steady, Principled, Courageous, Measured, Compassionate, Honest, Balanced, Resolute"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "queen/archetypes/justice.md",
+      "coreFunction": "Apply truthful, proportionate consequence while preserving the possibility of repair.",
+      "keyQualities": [
+        "Fair",
+        "Clear",
+        "Steady",
+        "Principled",
+        "Courageous",
+        "Measured",
+        "Compassionate",
+        "Honest",
+        "Balanced",
+        "Resolute"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Merciless Judge",
-            "type": "active",
-            "slug": "merciless-judge",
-            "description": [
-              "Truth is narrowed to prosecution and stripped of mercy. She turns mistakes into identities, treats context as excuse, and uses accuracy to justify humiliation or permanent exile. Consequence loses its restorative purpose."
-            ],
-            "declarations": [
-              "Compassion only weakens accountability.",
-              "Once revealed, character never changes.",
-              "The facts entitle me to condemn."
-            ],
-            "balancing": [
-              "Distinguish protection from punishment.",
-              "Name what evidence could demonstrate repair.",
-              "Apply the same standard to your own impact."
-            ],
-            "gift": "Her clarity becomes principled judgment when it leaves room for proportion and transformation.",
-            "outOfBalance": [
-              "Globalizes a single failure",
-              "Punishes beyond protection",
-              "Uses exposure as moral theater"
-            ]
-          },
-          {
-            "name": "Permissive Witness",
-            "type": "passive",
-            "slug": "enabler-saint",
-            "description": [
-              "Truth collapses beneath mercy without consequence. She explains away patterns, protects people from the results of their choices, and mistakes understanding harm for making it safe. Compassion for the actor eclipses care for those affected."
-            ],
-            "declarations": [
-              "They had reasons, so I should not judge.",
-              "A consequence would be unkind.",
-              "Keeping connection matters most."
-            ],
-            "balancing": [
-              "Name the behavior without softening it.",
-              "Center the safety of those affected.",
-              "Set a consequence tied to a clear standard."
-            ],
-            "gift": "Her empathy becomes restorative mercy when it accompanies reality instead of obscuring it.",
-            "outOfBalance": [
-              "Excuses repeated harm",
-              "Centers intent over impact",
-              "Offers forgiveness without change"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Justice",
-          "paragraphs": [
-            "Mature Justice sees clearly without reducing a person to what she sees. She names harm, protects those affected, and applies proportionate consequences while preserving a path for accountability and repair. Mercy does not cancel truth; it keeps truth oriented toward a more just future."
-          ]
+      "activeShadowSlug": "merciless-judge",
+      "passiveShadowSlug": "permissive-witness",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "Mature Justice sees clearly without reducing a person to what she sees. She names harm, protects those affected, and applies proportionate consequences while preserving a path for accountability and repair. Mercy does not cancel truth; it keeps truth oriented toward a more just future.\n\nClear judgment that joins truthful consequence with the possibility of restoration.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I name what happened without making anyone less human.\n- Consequences protect values and invite change.\n- Context informs judgment; it does not erase impact.\n- Mercy and truth answer to the same restoration.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Truth and Mercy are mutually correcting.\n\nTruth gives judgment an accurate account of behavior, pattern, context, and impact.\n\nMercy preserves proportion, humanity, and the possibility of return without denying harm.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Tell the whole truth, including harm, context, agency, and the path back.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "Clear judgment that joins truthful consequence with the possibility of restoration.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Separate observed impact from motive and character judgment.\n- Choose the least consequence that can protect, teach, and repair.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Justice",
+          "content": "Mature Justice sees clearly without reducing a person to what she sees. She names harm, protects those affected, and applies proportionate consequences while preserving a path for accountability and repair. Mercy does not cancel truth; it keeps truth oriented toward a more just future.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "Mature Justice sees clearly without reducing a person to what she sees. She names harm, protects those affected, and applies proportionate consequences while preserving a path for accountability and repair. Mercy does not cancel truth; it keeps truth oriented toward a more just future.\n\nClear judgment that joins truthful consequence with the possibility of restoration.",
         "declarations": [
           "I name what happened without making anyone less human.",
           "Consequences protect values and invite change.",
           "Context informs judgment; it does not erase impact.",
           "Mercy and truth answer to the same restoration."
         ],
-        "balance": {
-          "balance": "Truth ↔ Mercy",
-          "shadow": "Merciless Judge ↔ Permissive Witness",
-          "powerAnimals": "Lioness, Crane, Elephant",
-          "qualities": "Fair, Clear, Steady, Principled, Courageous, Measured, Compassionate, Honest, Balanced, Resolute"
-        },
-        "virtues": [
-          {
-            "title": "Truth",
-            "paragraphs": [
-              "Truth gives judgment an accurate account of behavior, pattern, context, and impact."
-            ]
+        "balance": "Truth and Mercy are mutually correcting.\n\nTruth gives judgment an accurate account of behavior, pattern, context, and impact.\n\nMercy preserves proportion, humanity, and the possibility of return without denying harm.",
+        "applications": "Tell the whole truth, including harm, context, agency, and the path back.",
+        "giftsResponsibilitiesChallenges": "Clear judgment that joins truthful consequence with the possibility of restoration.",
+        "practices": [
+          "Separate observed impact from motive and character judgment.",
+          "Choose the least consequence that can protect, teach, and repair."
+        ],
+        "conclusion": "Mature Justice sees clearly without reducing a person to what she sees. She names harm, protects those affected, and applies proportionate consequences while preserving a path for accountability and repair. Mercy does not cancel truth; it keeps truth oriented toward a more just future."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Merciless Judge",
+          "slug": "merciless-judge",
+          "lifecycle": "queen",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [],
+          "legacyAnchors": [
+            "merciless-judge"
+          ],
+          "qualities": [
+            "Truth",
+            "Mercy"
+          ],
+          "image": "assets/images/shadow/justice--harsh-judge.jpg",
+          "profile": {
+            "lifecycleStage": "Queen",
+            "coreFunction": "Truth without Mercy",
+            "balancedQualities": "Truth + Mercy",
+            "activeShadow": "Merciless Judge",
+            "passiveShadow": "Permissive Witness",
+            "mythicResonances": "",
+            "keyQualities": "Globalizes a single failure, Punishes beyond protection, Uses exposure as moral theater"
           },
-          {
-            "title": "Mercy",
-            "paragraphs": [
-              "Mercy preserves proportion, humanity, and the possibility of return without denying harm."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "queen/shadows/merciless-judge.md",
+          "parent": "justice",
+          "type": "active",
+          "oppositeShadowSlug": "permissive-witness",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Truth condemns without mercy.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Compassion only weakens accountability.\n- Once revealed, character never changes.\n- The facts entitle me to condemn.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Truth is narrowed to prosecution and stripped of mercy. She turns mistakes into identities, treats context as excuse, and uses accuracy to justify humiliation or permanent exile. Consequence loses its restorative purpose.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her clarity becomes principled judgment when it leaves room for proportion and transformation.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Globalizes a single failure\n\nPunishes beyond protection\n\nUses exposure as moral theater",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Distinguish protection from punishment.\n- Name what evidence could demonstrate repair.\n- Apply the same standard to your own impact.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Permissive Witness is the opposite imbalance of Truth + Mercy.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Mercy and the dynamic relationship between Truth and Mercy. Add proportion and restoration; name harm and consequence.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her clarity becomes principled judgment when it leaves room for proportion and transformation.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Truth condemns without mercy.",
+            "declarations": [
+              "Compassion only weakens accountability.",
+              "Once revealed, character never changes.",
+              "The facts entitle me to condemn."
+            ],
+            "psychologicalMechanics": "Truth is narrowed to prosecution and stripped of mercy. She turns mistakes into identities, treats context as excuse, and uses accuracy to justify humiliation or permanent exile. Consequence loses its restorative purpose.",
+            "hiddenEnergy": "Her clarity becomes principled judgment when it leaves room for proportion and transformation.",
+            "recognition": "Globalizes a single failure\n\nPunishes beyond protection\n\nUses exposure as moral theater",
+            "practices": [
+              "Distinguish protection from punishment.",
+              "Name what evidence could demonstrate repair.",
+              "Apply the same standard to your own impact."
+            ],
+            "oppositeShadow": "Permissive Witness is the opposite imbalance of Truth + Mercy.",
+            "transformation": "Integration restores Mercy and the dynamic relationship between Truth and Mercy. Add proportion and restoration; name harm and consequence.",
+            "conclusion": "Her clarity becomes principled judgment when it leaves room for proportion and transformation."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Permissive Witness",
+          "slug": "permissive-witness",
+          "lifecycle": "queen",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/justice/shadows/enabler-saint/"
+          ],
+          "legacyAnchors": [
+            "enabler-saint"
+          ],
+          "qualities": [
+            "Truth",
+            "Mercy"
+          ],
+          "image": "assets/images/shadow/justice--passive-bystander.jpg",
+          "profile": {
+            "lifecycleStage": "Queen",
+            "coreFunction": "Truth collapses while Mercy distorts",
+            "balancedQualities": "Truth + Mercy",
+            "activeShadow": "Merciless Judge",
+            "passiveShadow": "Permissive Witness",
+            "mythicResonances": "",
+            "keyQualities": "Excuses repeated harm, Centers intent over impact, Offers forgiveness without change"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "queen/shadows/permissive-witness.md",
+          "parent": "justice",
+          "type": "passive",
+          "oppositeShadowSlug": "merciless-judge",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Truth collapses while mercy becomes excuse and permissiveness.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- They had reasons, so I should not judge.\n- A consequence would be unkind.\n- Keeping connection matters most.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Truth collapses beneath mercy without consequence. She explains away patterns, protects people from the results of their choices, and mistakes understanding harm for making it safe. Compassion for the actor eclipses care for those affected.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her empathy becomes restorative mercy when it accompanies reality instead of obscuring it.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Excuses repeated harm\n\nCenters intent over impact\n\nOffers forgiveness without change",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Name the behavior without softening it.\n- Center the safety of those affected.\n- Set a consequence tied to a clear standard.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Merciless Judge is the opposite imbalance of Truth + Mercy.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Truth and the dynamic relationship between Truth and Mercy. Add proportion and restoration; name harm and consequence.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her empathy becomes restorative mercy when it accompanies reality instead of obscuring it.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Truth collapses while mercy becomes excuse and permissiveness.",
+            "declarations": [
+              "They had reasons, so I should not judge.",
+              "A consequence would be unkind.",
+              "Keeping connection matters most."
+            ],
+            "psychologicalMechanics": "Truth collapses beneath mercy without consequence. She explains away patterns, protects people from the results of their choices, and mistakes understanding harm for making it safe. Compassion for the actor eclipses care for those affected.",
+            "hiddenEnergy": "Her empathy becomes restorative mercy when it accompanies reality instead of obscuring it.",
+            "recognition": "Excuses repeated harm\n\nCenters intent over impact\n\nOffers forgiveness without change",
+            "practices": [
+              "Name the behavior without softening it.",
+              "Center the safety of those affected.",
+              "Set a consequence tied to a clear standard."
+            ],
+            "oppositeShadow": "Merciless Judge is the opposite imbalance of Truth + Mercy.",
+            "transformation": "Integration restores Truth and the dynamic relationship between Truth and Mercy. Add proportion and restoration; name harm and consequence.",
+            "conclusion": "Her empathy becomes restorative mercy when it accompanies reality instead of obscuring it."
+          }
+        }
+      ]
     },
     {
+      "kind": "archetype",
       "name": "Queen",
-      "slug": "queen-hearth-keeper",
+      "slug": "queen",
+      "lifecycle": "queen",
+      "order": 2,
+      "aliases": [
+        "Empress",
+        "Ruler"
+      ],
+      "legacyRoutes": [
+        "/queen/queen-hearth-keeper/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "authority",
-        "service"
+        "Authority",
+        "Service"
       ],
-      "gifts": "Sovereign stewardship: ordering shared life so people and purpose can flourish.",
-      "growthPath": "Claim authority openly and make its use answerable to service.",
-      "practices": [
-        "For each decision, name who is served and who bears the cost.",
-        "Delegate one whole responsibility with authority to match."
+      "image": "assets/images/queen-hearth-keeper.jpeg",
+      "profile": {
+        "lifecycleStage": "Queen",
+        "coreFunction": "Occupy legitimate authority and order shared life in service of flourishing.",
+        "balancedQualities": "Authority + Service",
+        "activeShadow": "Tyrannical Queen",
+        "passiveShadow": "Abdicating Queen",
+        "mythicResonances": "",
+        "keyQualities": "Sovereign, Nurturing, Wise, Generous, Protective, Creative, Gracious, Confident, Harmonious, Inspiring"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "queen/archetypes/queen.md",
+      "coreFunction": "Occupy legitimate authority and order shared life in service of flourishing.",
+      "keyQualities": [
+        "Sovereign",
+        "Nurturing",
+        "Wise",
+        "Generous",
+        "Protective",
+        "Creative",
+        "Gracious",
+        "Confident",
+        "Harmonious",
+        "Inspiring"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Tyrannical Queen",
-            "type": "active",
-            "slug": "tyrannical-empress",
-            "description": [
-              "Authority detaches from service. She centralizes decisions, manages dissent as disloyalty, and makes the realm dependent on her approval. Order becomes an extension of ego rather than a condition in which others can govern their own work."
-            ],
-            "declarations": [
-              "Only I can hold the whole picture.",
-              "Questioning me weakens the realm.",
-              "Control is the price of excellence."
-            ],
-            "balancing": [
-              "Publish the principle behind a decision.",
-              "Give dissent a protected channel.",
-              "Transfer real authority, not only tasks."
-            ],
-            "gift": "Her command becomes coherent leadership when power is used to cultivate other people's capacity.",
-            "outOfBalance": [
-              "Hoards decisions",
-              "Rewards personal loyalty",
-              "Confuses obedience with alignment"
-            ]
-          },
-          {
-            "name": "Abdicating Queen",
-            "type": "passive",
-            "slug": "abdicated-ruler",
-            "description": [
-              "Authority collapses into service without rule. She accommodates every claim, delays decisions, and calls self-erasure humility, leaving the group to contend with a vacuum of direction. Refusing power does not remove power; it lets it become informal and unaccountable."
-            ],
-            "declarations": [
-              "A good leader should not impose.",
-              "Consensus will eventually decide for us.",
-              "My preference should come last."
-            ],
-            "balancing": [
-              "Make the decision that belongs to your role.",
-              "State a principled no without apology.",
-              "Accept visibility and answer for the result."
-            ],
-            "gift": "Her humility becomes participatory leadership when she occupies the seat entrusted to her.",
-            "outOfBalance": [
-              "Defers necessary decisions",
-              "Lets informal power dominate",
-              "Apologizes for role authority"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Queen",
-          "paragraphs": [
-            "The Mature Queen occupies authority without making herself the center of the realm. She sets direction, establishes fair limits, distributes power, and accepts responsibility for decisions that only she can make. Her service is structural: people flourish because the order she tends is clear, humane, and larger than her personality."
-          ]
+      "activeShadowSlug": "tyrannical-queen",
+      "passiveShadowSlug": "abdicating-queen",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Queen occupies authority without making herself the center of the realm. She sets direction, establishes fair limits, distributes power, and accepts responsibility for decisions that only she can make. Her service is structural: people flourish because the order she tends is clear, humane, and larger than her personality.\n\nSovereign stewardship: ordering shared life so people and purpose can flourish.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I use power to make shared purpose possible.\n- My authority is visible and accountable.\n- I decide, explain, and remain open to correction.\n- A strong realm grows more capable leaders.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Authority and Service are mutually correcting.\n\nAuthority supplies legitimate direction, decision, and protection for a shared order.\n\nService aims authority toward the flourishing of the people and purpose entrusted to it.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Claim authority openly and make its use answerable to service.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "Sovereign stewardship: ordering shared life so people and purpose can flourish.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- For each decision, name who is served and who bears the cost.\n- Delegate one whole responsibility with authority to match.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Queen",
+          "content": "The Mature Queen occupies authority without making herself the center of the realm. She sets direction, establishes fair limits, distributes power, and accepts responsibility for decisions that only she can make. Her service is structural: people flourish because the order she tends is clear, humane, and larger than her personality.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Queen occupies authority without making herself the center of the realm. She sets direction, establishes fair limits, distributes power, and accepts responsibility for decisions that only she can make. Her service is structural: people flourish because the order she tends is clear, humane, and larger than her personality.\n\nSovereign stewardship: ordering shared life so people and purpose can flourish.",
         "declarations": [
           "I use power to make shared purpose possible.",
           "My authority is visible and accountable.",
           "I decide, explain, and remain open to correction.",
           "A strong realm grows more capable leaders."
         ],
-        "balance": {
-          "balance": "Authority ↔ Service",
-          "shadow": "Tyrannical Queen ↔ Abdicating Queen",
-          "powerAnimals": "Lioness, Swan, Regal Mare",
-          "qualities": "Sovereign, Nurturing, Wise, Generous, Protective, Creative, Gracious, Confident, Harmonious, Inspiring"
-        },
-        "virtues": [
-          {
-            "title": "Authority",
-            "paragraphs": [
-              "Authority supplies legitimate direction, decision, and protection for a shared order."
-            ]
+        "balance": "Authority and Service are mutually correcting.\n\nAuthority supplies legitimate direction, decision, and protection for a shared order.\n\nService aims authority toward the flourishing of the people and purpose entrusted to it.",
+        "applications": "Claim authority openly and make its use answerable to service.",
+        "giftsResponsibilitiesChallenges": "Sovereign stewardship: ordering shared life so people and purpose can flourish.",
+        "practices": [
+          "For each decision, name who is served and who bears the cost.",
+          "Delegate one whole responsibility with authority to match."
+        ],
+        "conclusion": "The Mature Queen occupies authority without making herself the center of the realm. She sets direction, establishes fair limits, distributes power, and accepts responsibility for decisions that only she can make. Her service is structural: people flourish because the order she tends is clear, humane, and larger than her personality."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Tyrannical Queen",
+          "slug": "tyrannical-queen",
+          "lifecycle": "queen",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/queen-hearth-keeper/shadows/tyrannical-empress/"
+          ],
+          "legacyAnchors": [
+            "tyrannical-empress"
+          ],
+          "qualities": [
+            "Authority",
+            "Service"
+          ],
+          "image": "assets/images/shadow/queen-hearth-keeper--tyrannical-queen.jpg",
+          "profile": {
+            "lifecycleStage": "Queen",
+            "coreFunction": "Authority without Service",
+            "balancedQualities": "Authority + Service",
+            "activeShadow": "Tyrannical Queen",
+            "passiveShadow": "Abdicating Queen",
+            "mythicResonances": "",
+            "keyQualities": "Hoards decisions, Rewards personal loyalty, Confuses obedience with alignment"
           },
-          {
-            "title": "Service",
-            "paragraphs": [
-              "Service aims authority toward the flourishing of the people and purpose entrusted to it."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "queen/shadows/tyrannical-queen.md",
+          "parent": "queen",
+          "type": "active",
+          "oppositeShadowSlug": "abdicating-queen",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Authority dominates without service.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Only I can hold the whole picture.\n- Questioning me weakens the realm.\n- Control is the price of excellence.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Authority detaches from service. She centralizes decisions, manages dissent as disloyalty, and makes the realm dependent on her approval. Order becomes an extension of ego rather than a condition in which others can govern their own work.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her command becomes coherent leadership when power is used to cultivate other people's capacity.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Hoards decisions\n\nRewards personal loyalty\n\nConfuses obedience with alignment",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Publish the principle behind a decision.\n- Give dissent a protected channel.\n- Transfer real authority, not only tasks.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Abdicating Queen is the opposite imbalance of Authority + Service.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Service and the dynamic relationship between Authority and Service. Make power accountable; occupy the entrusted role.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her command becomes coherent leadership when power is used to cultivate other people's capacity.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Authority dominates without service.",
+            "declarations": [
+              "Only I can hold the whole picture.",
+              "Questioning me weakens the realm.",
+              "Control is the price of excellence."
+            ],
+            "psychologicalMechanics": "Authority detaches from service. She centralizes decisions, manages dissent as disloyalty, and makes the realm dependent on her approval. Order becomes an extension of ego rather than a condition in which others can govern their own work.",
+            "hiddenEnergy": "Her command becomes coherent leadership when power is used to cultivate other people's capacity.",
+            "recognition": "Hoards decisions\n\nRewards personal loyalty\n\nConfuses obedience with alignment",
+            "practices": [
+              "Publish the principle behind a decision.",
+              "Give dissent a protected channel.",
+              "Transfer real authority, not only tasks."
+            ],
+            "oppositeShadow": "Abdicating Queen is the opposite imbalance of Authority + Service.",
+            "transformation": "Integration restores Service and the dynamic relationship between Authority and Service. Make power accountable; occupy the entrusted role.",
+            "conclusion": "Her command becomes coherent leadership when power is used to cultivate other people's capacity."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Abdicating Queen",
+          "slug": "abdicating-queen",
+          "lifecycle": "queen",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/queen-hearth-keeper/shadows/abdicated-ruler/"
+          ],
+          "legacyAnchors": [
+            "abdicated-ruler"
+          ],
+          "qualities": [
+            "Authority",
+            "Service"
+          ],
+          "image": "assets/images/shadow/queen-hearth-keeper--powerless-ruler.jpg",
+          "profile": {
+            "lifecycleStage": "Queen",
+            "coreFunction": "Authority collapses while Service distorts",
+            "balancedQualities": "Authority + Service",
+            "activeShadow": "Tyrannical Queen",
+            "passiveShadow": "Abdicating Queen",
+            "mythicResonances": "",
+            "keyQualities": "Defers necessary decisions, Lets informal power dominate, Apologizes for role authority"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "queen/shadows/abdicating-queen.md",
+          "parent": "queen",
+          "type": "passive",
+          "oppositeShadowSlug": "tyrannical-queen",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Authority collapses while service becomes endless accommodation.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- A good leader should not impose.\n- Consensus will eventually decide for us.\n- My preference should come last.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Authority collapses into service without rule. She accommodates every claim, delays decisions, and calls self-erasure humility, leaving the group to contend with a vacuum of direction. Refusing power does not remove power; it lets it become informal and unaccountable.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her humility becomes participatory leadership when she occupies the seat entrusted to her.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Defers necessary decisions\n\nLets informal power dominate\n\nApologizes for role authority",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Make the decision that belongs to your role.\n- State a principled no without apology.\n- Accept visibility and answer for the result.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Tyrannical Queen is the opposite imbalance of Authority + Service.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Authority and the dynamic relationship between Authority and Service. Make power accountable; occupy the entrusted role.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her humility becomes participatory leadership when she occupies the seat entrusted to her.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Authority collapses while service becomes endless accommodation.",
+            "declarations": [
+              "A good leader should not impose.",
+              "Consensus will eventually decide for us.",
+              "My preference should come last."
+            ],
+            "psychologicalMechanics": "Authority collapses into service without rule. She accommodates every claim, delays decisions, and calls self-erasure humility, leaving the group to contend with a vacuum of direction. Refusing power does not remove power; it lets it become informal and unaccountable.",
+            "hiddenEnergy": "Her humility becomes participatory leadership when she occupies the seat entrusted to her.",
+            "recognition": "Defers necessary decisions\n\nLets informal power dominate\n\nApologizes for role authority",
+            "practices": [
+              "Make the decision that belongs to your role.",
+              "State a principled no without apology.",
+              "Accept visibility and answer for the result."
+            ],
+            "oppositeShadow": "Tyrannical Queen is the opposite imbalance of Authority + Service.",
+            "transformation": "Integration restores Authority and the dynamic relationship between Authority and Service. Make power accountable; occupy the entrusted role.",
+            "conclusion": "Her humility becomes participatory leadership when she occupies the seat entrusted to her."
+          }
+        }
+      ]
     },
     {
+      "kind": "archetype",
       "name": "Luminary",
-      "slug": "sky-sun-star-goddess",
+      "slug": "luminary",
+      "lifecycle": "queen",
+      "order": 3,
+      "aliases": [
+        "Sky Goddess",
+        "Sun Goddess",
+        "Star Goddess"
+      ],
+      "legacyRoutes": [
+        "/queen/sky-sun-star-goddess/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "radiance",
-        "humility"
+        "Radiance",
+        "Humility"
       ],
-      "gifts": "The sky, sun, and star current: visible radiance that reveals a wider horizon.",
-      "growthPath": "Shine so others can see more clearly, including their own light.",
-      "practices": [
-        "Share the platform with someone whose gift differs from yours.",
-        "Ask what your visibility makes possible beyond recognition."
+      "image": "assets/images/sky-sun-star-goddess.jpeg",
+      "profile": {
+        "lifecycleStage": "Queen",
+        "coreFunction": "Use visibility and radiance to reveal possibility beyond the self.",
+        "balancedQualities": "Radiance + Humility",
+        "activeShadow": "Blinding Star",
+        "passiveShadow": "Hidden Light",
+        "mythicResonances": "",
+        "keyQualities": "Radiant, Visionary, Expansive, Humble, Noble, Illuminating, Uplifting, Grounded, Warm, Inspirational"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "queen/archetypes/luminary.md",
+      "coreFunction": "Use visibility and radiance to reveal possibility beyond the self.",
+      "keyQualities": [
+        "Radiant",
+        "Visionary",
+        "Expansive",
+        "Humble",
+        "Noble",
+        "Illuminating",
+        "Uplifting",
+        "Grounded",
+        "Warm",
+        "Inspirational"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Blinding Star",
-            "type": "active",
-            "slug": "blinding-sun",
-            "description": [
-              "Radiance loses humility and becomes a demand for orbit. She converts attention into rank, performs magnitude, and occupies every opening for visibility. Other people's light is welcomed only when it reflects her own."
-            ],
-            "declarations": [
-              "If I am not seen, the moment is being wasted.",
-              "My gift deserves the center.",
-              "Others benefit from my brightness."
-            ],
-            "balancing": [
-              "Step back without announcing the sacrifice.",
-              "Credit the people and conditions behind the work.",
-              "Use visibility to direct attention beyond yourself."
-            ],
-            "gift": "Her charisma becomes illumination when it reveals more than the self displaying it.",
-            "outOfBalance": [
-              "Redirects attention to herself",
-              "Treats admiration as agreement",
-              "Competes with emerging voices"
-            ]
-          },
-          {
-            "name": "Hidden Light",
-            "type": "passive",
-            "slug": "hidden-star",
-            "description": [
-              "Radiance contracts under humility distorted into disappearance. She understates contribution, refuses visibility, and lets less prepared voices define the horizon. Avoiding envy or judgment becomes a reason not to offer what could guide others."
-            ],
-            "declarations": [
-              "Taking space would diminish someone else.",
-              "The work should speak without me.",
-              "Visibility is vanity."
-            ],
-            "balancing": [
-              "Name your contribution accurately.",
-              "Accept one visible role without self-deprecation.",
-              "Let service include being recognizable and findable."
-            ],
-            "gift": "Her modesty becomes grounded presence when she can be seen without making visibility her worth.",
-            "outOfBalance": [
-              "Declines appropriate recognition",
-              "Hides expertise",
-              "Apologizes for impact"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Luminary",
-          "paragraphs": [
-            "The Mature Luminary is willing to be seen and uninterested in being worshiped. Her presence enlarges perspective, gives courage, and directs attention toward what matters. She knows her light is relational—made possible by source, teachers, community, and those who choose to look."
-          ]
+      "activeShadowSlug": "blinding-star",
+      "passiveShadowSlug": "hidden-light",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Luminary is willing to be seen and uninterested in being worshiped. Her presence enlarges perspective, gives courage, and directs attention toward what matters. She knows her light is relational—made possible by source, teachers, community, and those who choose to look.\n\nThe sky, sun, and star current: visible radiance that reveals a wider horizon.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I shine in service of clearer seeing.\n- Visibility is a responsibility, not a rank.\n- Another's brilliance does not reduce mine.\n- I can be fully seen and remain teachable.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Radiance and Humility are mutually correcting.\n\nRadiance makes a gift visible, warming attention and widening what others imagine possible.\n\nHumility remembers interdependence, limitation, and the larger purpose visibility serves.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Shine so others can see more clearly, including their own light.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The sky, sun, and star current: visible radiance that reveals a wider horizon.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Share the platform with someone whose gift differs from yours.\n- Ask what your visibility makes possible beyond recognition.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Luminary",
+          "content": "The Mature Luminary is willing to be seen and uninterested in being worshiped. Her presence enlarges perspective, gives courage, and directs attention toward what matters. She knows her light is relational—made possible by source, teachers, community, and those who choose to look.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Luminary is willing to be seen and uninterested in being worshiped. Her presence enlarges perspective, gives courage, and directs attention toward what matters. She knows her light is relational—made possible by source, teachers, community, and those who choose to look.\n\nThe sky, sun, and star current: visible radiance that reveals a wider horizon.",
         "declarations": [
           "I shine in service of clearer seeing.",
           "Visibility is a responsibility, not a rank.",
           "Another's brilliance does not reduce mine.",
           "I can be fully seen and remain teachable."
         ],
-        "balance": {
-          "balance": "Radiance ↔ Humility",
-          "shadow": "Blinding Star ↔ Hidden Light",
-          "powerAnimals": "Eagle, Solar Horse, Swan",
-          "qualities": "Radiant, Visionary, Expansive, Humble, Noble, Illuminating, Uplifting, Grounded, Warm, Inspirational"
-        },
-        "virtues": [
-          {
-            "title": "Radiance",
-            "paragraphs": [
-              "Radiance makes a gift visible, warming attention and widening what others imagine possible."
-            ]
+        "balance": "Radiance and Humility are mutually correcting.\n\nRadiance makes a gift visible, warming attention and widening what others imagine possible.\n\nHumility remembers interdependence, limitation, and the larger purpose visibility serves.",
+        "applications": "Shine so others can see more clearly, including their own light.",
+        "giftsResponsibilitiesChallenges": "The sky, sun, and star current: visible radiance that reveals a wider horizon.",
+        "practices": [
+          "Share the platform with someone whose gift differs from yours.",
+          "Ask what your visibility makes possible beyond recognition."
+        ],
+        "conclusion": "The Mature Luminary is willing to be seen and uninterested in being worshiped. Her presence enlarges perspective, gives courage, and directs attention toward what matters. She knows her light is relational—made possible by source, teachers, community, and those who choose to look."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Blinding Star",
+          "slug": "blinding-star",
+          "lifecycle": "queen",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/sky-sun-star-goddess/shadows/blinding-sun/"
+          ],
+          "legacyAnchors": [
+            "blinding-sun"
+          ],
+          "qualities": [
+            "Radiance",
+            "Humility"
+          ],
+          "image": "assets/images/shadow/sky-sun-star-goddess--prideful-dominator.jpg",
+          "profile": {
+            "lifecycleStage": "Queen",
+            "coreFunction": "Radiance without Humility",
+            "balancedQualities": "Radiance + Humility",
+            "activeShadow": "Blinding Star",
+            "passiveShadow": "Hidden Light",
+            "mythicResonances": "",
+            "keyQualities": "Redirects attention to herself, Treats admiration as agreement, Competes with emerging voices"
           },
-          {
-            "title": "Humility",
-            "paragraphs": [
-              "Humility remembers interdependence, limitation, and the larger purpose visibility serves."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "queen/shadows/blinding-star.md",
+          "parent": "luminary",
+          "type": "active",
+          "oppositeShadowSlug": "hidden-light",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Radiance demands orbit without humility.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- If I am not seen, the moment is being wasted.\n- My gift deserves the center.\n- Others benefit from my brightness.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Radiance loses humility and becomes a demand for orbit. She converts attention into rank, performs magnitude, and occupies every opening for visibility. Other people's light is welcomed only when it reflects her own.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her charisma becomes illumination when it reveals more than the self displaying it.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Redirects attention to herself\n\nTreats admiration as agreement\n\nCompetes with emerging voices",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Step back without announcing the sacrifice.\n- Credit the people and conditions behind the work.\n- Use visibility to direct attention beyond yourself.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Hidden Light is the opposite imbalance of Radiance + Humility.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Humility and the dynamic relationship between Radiance and Humility. Direct light beyond self; accept accurate visibility.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her charisma becomes illumination when it reveals more than the self displaying it.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Radiance demands orbit without humility.",
+            "declarations": [
+              "If I am not seen, the moment is being wasted.",
+              "My gift deserves the center.",
+              "Others benefit from my brightness."
+            ],
+            "psychologicalMechanics": "Radiance loses humility and becomes a demand for orbit. She converts attention into rank, performs magnitude, and occupies every opening for visibility. Other people's light is welcomed only when it reflects her own.",
+            "hiddenEnergy": "Her charisma becomes illumination when it reveals more than the self displaying it.",
+            "recognition": "Redirects attention to herself\n\nTreats admiration as agreement\n\nCompetes with emerging voices",
+            "practices": [
+              "Step back without announcing the sacrifice.",
+              "Credit the people and conditions behind the work.",
+              "Use visibility to direct attention beyond yourself."
+            ],
+            "oppositeShadow": "Hidden Light is the opposite imbalance of Radiance + Humility.",
+            "transformation": "Integration restores Humility and the dynamic relationship between Radiance and Humility. Direct light beyond self; accept accurate visibility.",
+            "conclusion": "Her charisma becomes illumination when it reveals more than the self displaying it."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Hidden Light",
+          "slug": "hidden-light",
+          "lifecycle": "queen",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/sky-sun-star-goddess/shadows/hidden-star/"
+          ],
+          "legacyAnchors": [
+            "hidden-star"
+          ],
+          "qualities": [
+            "Radiance",
+            "Humility"
+          ],
+          "image": "assets/images/shadow/sky-sun-star-goddess--disconnected-deity.jpg",
+          "profile": {
+            "lifecycleStage": "Queen",
+            "coreFunction": "Radiance collapses while Humility distorts",
+            "balancedQualities": "Radiance + Humility",
+            "activeShadow": "Blinding Star",
+            "passiveShadow": "Hidden Light",
+            "mythicResonances": "",
+            "keyQualities": "Declines appropriate recognition, Hides expertise, Apologizes for impact"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "queen/shadows/hidden-light.md",
+          "parent": "luminary",
+          "type": "passive",
+          "oppositeShadowSlug": "blinding-star",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Radiance collapses while humility becomes disappearance.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Taking space would diminish someone else.\n- The work should speak without me.\n- Visibility is vanity.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Radiance contracts under humility distorted into disappearance. She understates contribution, refuses visibility, and lets less prepared voices define the horizon. Avoiding envy or judgment becomes a reason not to offer what could guide others.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her modesty becomes grounded presence when she can be seen without making visibility her worth.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Declines appropriate recognition\n\nHides expertise\n\nApologizes for impact",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Name your contribution accurately.\n- Accept one visible role without self-deprecation.\n- Let service include being recognizable and findable.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Blinding Star is the opposite imbalance of Radiance + Humility.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Radiance and the dynamic relationship between Radiance and Humility. Direct light beyond self; accept accurate visibility.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her modesty becomes grounded presence when she can be seen without making visibility her worth.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Radiance collapses while humility becomes disappearance.",
+            "declarations": [
+              "Taking space would diminish someone else.",
+              "The work should speak without me.",
+              "Visibility is vanity."
+            ],
+            "psychologicalMechanics": "Radiance contracts under humility distorted into disappearance. She understates contribution, refuses visibility, and lets less prepared voices define the horizon. Avoiding envy or judgment becomes a reason not to offer what could guide others.",
+            "hiddenEnergy": "Her modesty becomes grounded presence when she can be seen without making visibility her worth.",
+            "recognition": "Declines appropriate recognition\n\nHides expertise\n\nApologizes for impact",
+            "practices": [
+              "Name your contribution accurately.",
+              "Accept one visible role without self-deprecation.",
+              "Let service include being recognizable and findable."
+            ],
+            "oppositeShadow": "Blinding Star is the opposite imbalance of Radiance + Humility.",
+            "transformation": "Integration restores Radiance and the dynamic relationship between Radiance and Humility. Direct light beyond self; accept accurate visibility.",
+            "conclusion": "Her modesty becomes grounded presence when she can be seen without making visibility her worth."
+          }
+        }
+      ]
+    },
+    {
+      "kind": "archetype",
+      "name": "Magician",
+      "slug": "magician",
+      "lifecycle": "queen",
+      "order": 4,
+      "aliases": [
+        "Alchemist",
+        "Witch",
+        "Scribe",
+        "Wise Woman"
+      ],
+      "legacyRoutes": [
+        "/queen/magician-alchemist-witch-scribe/"
+      ],
+      "legacyAnchors": [],
+      "qualities": [
+        "Agency",
+        "Integrity"
+      ],
+      "image": "assets/images/magician-alchemist-witch-scribe.jpeg",
+      "profile": {
+        "lifecycleStage": "Queen",
+        "coreFunction": "Exercise ethical, consequential transformation within a domain of responsibility or stewardship.",
+        "balancedQualities": "Agency + Integrity",
+        "activeShadow": "Manipulative Sorceress",
+        "passiveShadow": "Powerless Mystic",
+        "mythicResonances": "",
+        "keyQualities": "Intuitive, Transformative, Wise, Magical, Insightful, Healing, Mysterious, Powerful, Independent, Visionary"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "queen/archetypes/magician.md",
+      "coreFunction": "Exercise ethical, consequential transformation within a domain of responsibility or stewardship.",
+      "keyQualities": [
+        "Intuitive",
+        "Transformative",
+        "Wise",
+        "Magical",
+        "Insightful",
+        "Healing",
+        "Mysterious",
+        "Powerful",
+        "Independent",
+        "Visionary"
+      ],
+      "activeShadowSlug": "manipulative-sorceress",
+      "passiveShadowSlug": "powerless-mystic",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Magician embodies transformative feminine power—she who works with the hidden forces of nature and consciousness to create change, healing, and growth. She represents wisdom, intuition, and the ability to see beyond surface appearances into deeper truths.\n\nPattern recognition, language, spell-craft (reframing reality).",
+          "subsections": []
+        },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I trust my intuition and inner knowing above all external authorities\n- I work with natural forces and cycles to create positive change\n- My wisdom comes from direct experience and deep study\n- I transform challenges into opportunities for growth and learning\n- I see beneath surface appearances to deeper truths\n- My abilities serve healing, growth, and the highest good\n- I am connected to ancient wisdom and contemporary insight\n- I embrace my power to influence reality through consciousness and action\n- I honor the mystery while seeking understanding\n- I use my gifts responsibly and ethically",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Agency and Integrity are mutually correcting.\n\nIntuitive wisdom represents the Magician's greatest treasure—the ability to access knowledge that comes from beyond logical reasoning. This knowing arises from the deep feminine capacity to perceive patterns, energy, and truth not immediately obvious to rational analysis.\n\nThe woman who cultivates intuitive wisdom learns to trust the subtle signals her body and psyche provide, paying attention to dreams, gut feelings, and synchronicities. She understands that intuition complements logic as a different way of knowing.\n\nAgency is essential to the Magician—it channels this archetype’s gifts into meaningful action. Yet power is never meant to stand alone. In healthy balance it moves with integrity, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nPractically, power shows up as clear choices aligned with values. Untethered from integrity, it can skew toward the Manipulative Sorceress—pushing, gripping, or overreaching. In rhythm with integrity, it becomes trustworthy, sustainable, and nourishing for all involved.\n\nIntegrity is essential to the Magician—it channels this archetype’s gifts into meaningful action. Yet integrity is never meant to stand alone. In healthy balance it moves with agency, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nIn practice, integrity provides proportion, pacing, and care. Without power, it can drift toward the Powerless Mystic—hesitating, second-guessing, or withdrawing. Coupled with power, it keeps action timely, humane, and effective.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Use power ethically; transform without manipulating.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "Pattern recognition, language, spell-craft (reframing reality).",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Before advice: mirror + summarize; after: consent check.\n- Daily \"one true sentence.\"",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Magician",
+          "content": "She is skilled in transformation through healing, creative work, or deep psychological insight. The Mature Wise Woman knows how to work with energy, cycles, and the mysterious forces that govern life, connecting ancient wisdom with contemporary needs.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Magician embodies transformative feminine power—she who works with the hidden forces of nature and consciousness to create change, healing, and growth. She represents wisdom, intuition, and the ability to see beyond surface appearances into deeper truths.\n\nPattern recognition, language, spell-craft (reframing reality).",
+        "declarations": [
+          "I trust my intuition and inner knowing above all external authorities",
+          "I work with natural forces and cycles to create positive change",
+          "My wisdom comes from direct experience and deep study",
+          "I transform challenges into opportunities for growth and learning",
+          "I see beneath surface appearances to deeper truths",
+          "My abilities serve healing, growth, and the highest good",
+          "I am connected to ancient wisdom and contemporary insight",
+          "I embrace my power to influence reality through consciousness and action",
+          "I honor the mystery while seeking understanding",
+          "I use my gifts responsibly and ethically"
+        ],
+        "balance": "Agency and Integrity are mutually correcting.\n\nIntuitive wisdom represents the Magician's greatest treasure—the ability to access knowledge that comes from beyond logical reasoning. This knowing arises from the deep feminine capacity to perceive patterns, energy, and truth not immediately obvious to rational analysis.\n\nThe woman who cultivates intuitive wisdom learns to trust the subtle signals her body and psyche provide, paying attention to dreams, gut feelings, and synchronicities. She understands that intuition complements logic as a different way of knowing.\n\nAgency is essential to the Magician—it channels this archetype’s gifts into meaningful action. Yet power is never meant to stand alone. In healthy balance it moves with integrity, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nPractically, power shows up as clear choices aligned with values. Untethered from integrity, it can skew toward the Manipulative Sorceress—pushing, gripping, or overreaching. In rhythm with integrity, it becomes trustworthy, sustainable, and nourishing for all involved.\n\nIntegrity is essential to the Magician—it channels this archetype’s gifts into meaningful action. Yet integrity is never meant to stand alone. In healthy balance it moves with agency, keeping power relational and responsive. This virtue brings the best of the archetype to life without slipping into performance or collapse.\n\nIn practice, integrity provides proportion, pacing, and care. Without power, it can drift toward the Powerless Mystic—hesitating, second-guessing, or withdrawing. Coupled with power, it keeps action timely, humane, and effective.",
+        "applications": "Use power ethically; transform without manipulating.",
+        "giftsResponsibilitiesChallenges": "Pattern recognition, language, spell-craft (reframing reality).",
+        "practices": [
+          "Before advice: mirror + summarize; after: consent check.",
+          "Daily \"one true sentence.\""
+        ],
+        "conclusion": "She is skilled in transformation through healing, creative work, or deep psychological insight. The Mature Wise Woman knows how to work with energy, cycles, and the mysterious forces that govern life, connecting ancient wisdom with contemporary needs."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Manipulative Sorceress",
+          "slug": "manipulative-sorceress",
+          "lifecycle": "queen",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/magician-alchemist-witch-scribe/shadows/manipulative-sorceress/"
+          ],
+          "legacyAnchors": [
+            "manipulative-sorceress"
+          ],
+          "qualities": [
+            "Agency",
+            "Integrity"
+          ],
+          "image": "",
+          "profile": {
+            "lifecycleStage": "Queen",
+            "coreFunction": "Agency without Integrity",
+            "balancedQualities": "Agency + Integrity",
+            "activeShadow": "Manipulative Sorceress",
+            "passiveShadow": "Powerless Mystic",
+            "mythicResonances": "",
+            "keyQualities": "Oversteps boundaries; decides for others, Mistakes speed for effectiveness, Performs care or genius to avoid vulnerability, Micromanages; cannot rest, Seeks admiration or control over connection, Ignores feedback, doubles down under stress"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "queen/shadows/manipulative-sorceress.md",
+          "parent": "magician",
+          "type": "active",
+          "oppositeShadowSlug": "powerless-mystic",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Agency manipulates without integrity.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I stay in control so I never have to feel small.\n- I push harder when I feel doubt instead of slowing down.\n- I confuse urgency with importance.\n- I override my body’s signals to keep things on track.\n- I decide what’s best and expect others to catch up.\n- I use charm, logic, or pressure when I’m afraid.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "The Manipulative Sorceress is the overexpressed shadow of the Magician. She pushes the archetype’s transformation and craft to an extreme—trying to manufacture certainty, safety, or admiration through control. What begins as insight, ritual, innovation becomes performance and pressure. In this stance she overrides signals from body and relationships, doubles down when she should pause, and confuses intensity for truth. Often born from wounds of mistrust, witch-wounds, she learned to stay ahead of pain by taking charge.\n\nFrom the outside this shadow can look competent, charismatic, even selfless; inside there is a tightness and a fear that rest or honest contact will expose vulnerability. In change-work and technology she speeds up, takes over, and makes unilateral moves “for everyone’s good.” Integration begins when she tells the truth about impact, slows her pace, and lets reciprocity, feedback, and limits restore proportion.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "When owned, the Manipulative Sorceress offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Magician’s capacity to move things forward when it truly serves.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Oversteps boundaries; decides for others\n\nMistakes speed for effectiveness\n\nPerforms care or genius to avoid vulnerability\n\nMicromanages; cannot rest\n\nSeeks admiration or control over connection\n\nIgnores feedback, doubles down under stress",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- I pause and feel my body before acting; I let breath slow me down.\n- I name the fear underneath my urgency and let someone I trust witness it.\n- I ask for consent and co-create next steps instead of taking over as the Magician.\n- I replace pressure with clear requests and real timelines.\n- I practice letting something be imperfect and still complete.\n- I track impact, apologize where needed, and repair.\n- I delegate in proportion to others’ capacity and trust their pace.\n- I schedule regular rest so power can be sourced, not forced.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Powerless Mystic is the opposite imbalance of Agency + Integrity.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Integrity and the dynamic relationship between Agency and Integrity. Bind action to impact and jurisdiction; take accountable action.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "When owned, the Manipulative Sorceress offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Magician’s capacity to move things forward when it truly serves.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Agency manipulates without integrity.",
+            "declarations": [
+              "I stay in control so I never have to feel small.",
+              "I push harder when I feel doubt instead of slowing down.",
+              "I confuse urgency with importance.",
+              "I override my body’s signals to keep things on track.",
+              "I decide what’s best and expect others to catch up.",
+              "I use charm, logic, or pressure when I’m afraid."
+            ],
+            "psychologicalMechanics": "The Manipulative Sorceress is the overexpressed shadow of the Magician. She pushes the archetype’s transformation and craft to an extreme—trying to manufacture certainty, safety, or admiration through control. What begins as insight, ritual, innovation becomes performance and pressure. In this stance she overrides signals from body and relationships, doubles down when she should pause, and confuses intensity for truth. Often born from wounds of mistrust, witch-wounds, she learned to stay ahead of pain by taking charge.\n\nFrom the outside this shadow can look competent, charismatic, even selfless; inside there is a tightness and a fear that rest or honest contact will expose vulnerability. In change-work and technology she speeds up, takes over, and makes unilateral moves “for everyone’s good.” Integration begins when she tells the truth about impact, slows her pace, and lets reciprocity, feedback, and limits restore proportion.",
+            "hiddenEnergy": "When owned, the Manipulative Sorceress offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Magician’s capacity to move things forward when it truly serves.",
+            "recognition": "Oversteps boundaries; decides for others\n\nMistakes speed for effectiveness\n\nPerforms care or genius to avoid vulnerability\n\nMicromanages; cannot rest\n\nSeeks admiration or control over connection\n\nIgnores feedback, doubles down under stress",
+            "practices": [
+              "I pause and feel my body before acting; I let breath slow me down.",
+              "I name the fear underneath my urgency and let someone I trust witness it.",
+              "I ask for consent and co-create next steps instead of taking over as the Magician.",
+              "I replace pressure with clear requests and real timelines.",
+              "I practice letting something be imperfect and still complete.",
+              "I track impact, apologize where needed, and repair.",
+              "I delegate in proportion to others’ capacity and trust their pace.",
+              "I schedule regular rest so power can be sourced, not forced."
+            ],
+            "oppositeShadow": "Powerless Mystic is the opposite imbalance of Agency + Integrity.",
+            "transformation": "Integration restores Integrity and the dynamic relationship between Agency and Integrity. Bind action to impact and jurisdiction; take accountable action.",
+            "conclusion": "When owned, the Manipulative Sorceress offers decisive energy and the courage to initiate. Tempered by humility, she becomes the Magician’s capacity to move things forward when it truly serves."
+          }
+        },
+        {
+          "kind": "shadow",
+          "name": "Powerless Mystic",
+          "slug": "powerless-mystic",
+          "lifecycle": "queen",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/queen/magician-alchemist-witch-scribe/shadows/powerless-mystic/"
+          ],
+          "legacyAnchors": [
+            "powerless-mystic"
+          ],
+          "qualities": [
+            "Agency",
+            "Integrity"
+          ],
+          "image": "assets/images/shadow/magician-alchemist-witch-scribe--powerless-mystic.jpg",
+          "profile": {
+            "lifecycleStage": "Queen",
+            "coreFunction": "Agency collapses while Integrity distorts",
+            "balancedQualities": "Agency + Integrity",
+            "activeShadow": "Manipulative Sorceress",
+            "passiveShadow": "Powerless Mystic",
+            "mythicResonances": "",
+            "keyQualities": "Defers decisions; waits for perfect certainty, Disengages from body and relationships, People-pleases to avoid conflict, Lets others set terms then resents them, Creativity stalled by perfectionism and fear, Self-doubt presented as humility"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "queen/shadows/powerless-mystic.md",
+          "parent": "magician",
+          "type": "passive",
+          "oppositeShadowSlug": "manipulative-sorceress",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Agency collapses while integrity becomes purity, scruple, and nonintervention.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I keep quiet so I won’t be wrong.\n- I wait for clarity instead of risking a first step.\n- I make myself small so others will be comfortable.\n- I numb, drift, or fantasize when decisions are needed.\n- I defer to experts and ignore my inner knowing.\n- I avoid conflict even when a boundary is needed.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "The Powerless Mystic is the underexpressed shadow of the Magician. She retreats from the archetype’s transformation and craft into fog, passivity, or fantasy. What begins as insight, ritual, innovation collapses into avoidance: she waits for a sign, defers to others, and lets fear of misstep become an identity. Wounds of mistrust, witch-wounds taught her that having needs or a voice was costly, so she learned to disappear.\n\nIn practice this looks like hesitation, playing small, or outsourcing choice. In change-work and technology she withholds gifts until it’s ‘perfect’ or safe, and resentment builds. Integration begins when she claims a small, honest action, feels feelings without drowning in them, and allows support, structure, and rhythm to rebuild trust in herself.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "When welcomed, the Powerless Mystic offers spaciousness, reflection, and sensitivity. Integrated, she restores the Magician’s ability to listen deeply and act in right timing.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Defers decisions; waits for perfect certainty\n\nDisengages from body and relationships\n\nPeople-pleases to avoid conflict\n\nLets others set terms then resents them\n\nCreativity stalled by perfectionism and fear\n\nSelf-doubt presented as humility",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- I choose one small, honest action and complete it today.\n- I ground in my body—walk, breathe, hydrate—before making choices.\n- I name what I want out loud, allowing the Magician gifts to move.\n- I set a simple boundary and keep it.\n- I replace rumination with a time-boxed plan and a first step.\n- I ask for specific support and stay in relationship while acting.\n- I celebrate progress, not perfection, to build momentum.\n- I keep gentle promises to myself daily to rebuild trust.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Manipulative Sorceress is the opposite imbalance of Agency + Integrity.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Agency and the dynamic relationship between Agency and Integrity. Bind action to impact and jurisdiction; take accountable action.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "When welcomed, the Powerless Mystic offers spaciousness, reflection, and sensitivity. Integrated, she restores the Magician’s ability to listen deeply and act in right timing.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Agency collapses while integrity becomes purity, scruple, and nonintervention.",
+            "declarations": [
+              "I keep quiet so I won’t be wrong.",
+              "I wait for clarity instead of risking a first step.",
+              "I make myself small so others will be comfortable.",
+              "I numb, drift, or fantasize when decisions are needed.",
+              "I defer to experts and ignore my inner knowing.",
+              "I avoid conflict even when a boundary is needed."
+            ],
+            "psychologicalMechanics": "The Powerless Mystic is the underexpressed shadow of the Magician. She retreats from the archetype’s transformation and craft into fog, passivity, or fantasy. What begins as insight, ritual, innovation collapses into avoidance: she waits for a sign, defers to others, and lets fear of misstep become an identity. Wounds of mistrust, witch-wounds taught her that having needs or a voice was costly, so she learned to disappear.\n\nIn practice this looks like hesitation, playing small, or outsourcing choice. In change-work and technology she withholds gifts until it’s ‘perfect’ or safe, and resentment builds. Integration begins when she claims a small, honest action, feels feelings without drowning in them, and allows support, structure, and rhythm to rebuild trust in herself.",
+            "hiddenEnergy": "When welcomed, the Powerless Mystic offers spaciousness, reflection, and sensitivity. Integrated, she restores the Magician’s ability to listen deeply and act in right timing.",
+            "recognition": "Defers decisions; waits for perfect certainty\n\nDisengages from body and relationships\n\nPeople-pleases to avoid conflict\n\nLets others set terms then resents them\n\nCreativity stalled by perfectionism and fear\n\nSelf-doubt presented as humility",
+            "practices": [
+              "I choose one small, honest action and complete it today.",
+              "I ground in my body—walk, breathe, hydrate—before making choices.",
+              "I name what I want out loud, allowing the Magician gifts to move.",
+              "I set a simple boundary and keep it.",
+              "I replace rumination with a time-boxed plan and a first step.",
+              "I ask for specific support and stay in relationship while acting.",
+              "I celebrate progress, not perfection, to build momentum.",
+              "I keep gentle promises to myself daily to rebuild trust."
+            ],
+            "oppositeShadow": "Manipulative Sorceress is the opposite imbalance of Agency + Integrity.",
+            "transformation": "Integration restores Agency and the dynamic relationship between Agency and Integrity. Bind action to impact and jurisdiction; take accountable action.",
+            "conclusion": "When welcomed, the Powerless Mystic offers spaciousness, reflection, and sensitivity. Integrated, she restores the Magician’s ability to listen deeply and act in right timing."
+          }
+        }
+      ]
     }
   ]
 }

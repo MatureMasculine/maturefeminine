@@ -4,10 +4,12 @@
   "version": "1.0.0",
   "description": "The Mature Feminine: static site (11ty) for GitHub Pages",
   "scripts": {
+    "test": "node --test",
     "dev": "eleventy --serve",
     "build": "npm run content:check && eleventy",
     "content:sync": "node scripts/sync_archetypes.js",
-    "content:check": "node scripts/validate_content.js",
+    "content:check": "npm test && node scripts/validate_content.js",
+    "content:publish-check": "npm test && node scripts/validate_content.js --publish",
     "book:check": "python3 book/print-pdf/generate_book.py --check",
     "book:build": "python3 book/print-pdf/generate_book.py",
     "download:shadows": "node scripts/download_shadows.js"

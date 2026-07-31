@@ -1,598 +1,2128 @@
 {
-  "title": "Mother Archetypes",
-  "group": "Mother",
   "name": "Mother",
   "slug": "mother",
+  "order": 3,
+  "title": "Mother Archetypes",
   "summary": "Nurture and protection; the task is to sustain life without possessing it.",
   "essence": "Care that feeds growth, guards what is vulnerable, and strengthens autonomy.",
-  "items": [
+  "archetypes": [
     {
+      "kind": "archetype",
       "name": "Guardian",
-      "slug": "guardian-buffalo-woman",
+      "slug": "guardian",
+      "lifecycle": "mother",
+      "order": 1,
+      "aliases": [
+        "Gatekeeper"
+      ],
+      "legacyRoutes": [
+        "/mother/guardian-buffalo-woman/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "protection",
-        "trust"
+        "Protection",
+        "Trust"
       ],
-      "gifts": "The buffalo-woman current: steadfast protection of people, thresholds, and values.",
-      "growthPath": "Protect what is vulnerable while allowing trusted life to cross the threshold.",
-      "practices": [
-        "Define the threat using evidence rather than alarm.",
-        "Name what would earn a gradual increase of trust."
+      "image": "assets/images/guardian-buffalo-woman.jpeg",
+      "profile": {
+        "lifecycleStage": "Mother",
+        "coreFunction": "Protect vulnerable people, values, and thresholds while preserving trust and capacity.",
+        "balancedQualities": "Protection + Trust",
+        "activeShadow": "Controlling Sentinel",
+        "passiveShadow": "Open Gate",
+        "mythicResonances": "",
+        "keyQualities": "Protective, Discerning, Devout, Grounded, Steadfast, Strong, Courageous, Honorable, Patient, Trustworthy"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "mother/archetypes/guardian.md",
+      "coreFunction": "Protect vulnerable people, values, and thresholds while preserving trust and capacity.",
+      "keyQualities": [
+        "Protective",
+        "Discerning",
+        "Devout",
+        "Grounded",
+        "Steadfast",
+        "Strong",
+        "Courageous",
+        "Honorable",
+        "Patient",
+        "Trustworthy"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Controlling Sentinel",
-            "type": "active",
-            "slug": "rigid-sentinel",
-            "description": [
-              "Protection expands without trust. She scans for danger, restricts others' choices, and treats uncertainty as proof of threat. Those under her care remain safe only by remaining small, dependent, or inside her perimeter."
-            ],
-            "declarations": [
-              "If I relax, harm will enter.",
-              "I know the danger better than you do.",
-              "Freedom is not worth the risk."
-            ],
-            "balancing": [
-              "Separate likely risk from imagined catastrophe.",
-              "Share safety decisions with capable people.",
-              "Test trust through graduated freedom."
-            ],
-            "gift": "Her alertness becomes wise guardianship when it protects capacity instead of replacing it.",
-            "outOfBalance": [
-              "Polices ordinary choices",
-              "Moves boundaries without consent",
-              "Cannot stand down after safety returns"
-            ]
-          },
-          {
-            "name": "Open Gate",
-            "type": "passive",
-            "slug": "naive-pushover",
-            "description": [
-              "Protection collapses into trust without discernment. She minimizes warning signs, avoids the discomfort of refusal, and leaves vulnerable people or values exposed. Calling everyone good substitutes sentiment for stewardship."
-            ],
-            "declarations": [
-              "A boundary would be unkind.",
-              "People deserve trust regardless of pattern.",
-              "Naming danger only creates fear."
-            ],
-            "balancing": [
-              "Act on repeated evidence, not promised intent.",
-              "Make one boundary explicit and enforceable.",
-              "Accept that protection may disappoint someone."
-            ],
-            "gift": "Her openness becomes resilient trust when the gate can also close.",
-            "outOfBalance": [
-              "Ignores repeated breaches",
-              "Delegates safety to hope",
-              "Avoids necessary exclusion"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Guardian",
-          "paragraphs": [
-            "The Mature Guardian keeps a living threshold, not a permanent wall. She reads risk accurately, uses the least force necessary, and relaxes protection when conditions change. Her trust is neither automatic nor cynical; it is built through character, repair, and demonstrated capacity."
-          ]
+      "activeShadowSlug": "controlling-sentinel",
+      "passiveShadowSlug": "open-gate",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Guardian keeps a living threshold, not a permanent wall. She reads risk accurately, uses the least force necessary, and relaxes protection when conditions change. Her trust is neither automatic nor cynical; it is built through character, repair, and demonstrated capacity.\n\nThe buffalo-woman current: steadfast protection of people, thresholds, and values.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I guard what is precious without imprisoning it.\n- Trust can be earned, tested, and repaired.\n- A boundary is an act of stewardship.\n- I stand down when protection is no longer needed.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Protection and Trust are mutually correcting.\n\nProtection preserves vulnerable life, values, and thresholds from credible harm.\n\nTrust permits relationship, freedom, and mutual reliance where evidence makes them warranted.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Protect what is vulnerable while allowing trusted life to cross the threshold.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The buffalo-woman current: steadfast protection of people, thresholds, and values.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Define the threat using evidence rather than alarm.\n- Name what would earn a gradual increase of trust.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Guardian",
+          "content": "The Mature Guardian keeps a living threshold, not a permanent wall. She reads risk accurately, uses the least force necessary, and relaxes protection when conditions change. Her trust is neither automatic nor cynical; it is built through character, repair, and demonstrated capacity.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Guardian keeps a living threshold, not a permanent wall. She reads risk accurately, uses the least force necessary, and relaxes protection when conditions change. Her trust is neither automatic nor cynical; it is built through character, repair, and demonstrated capacity.\n\nThe buffalo-woman current: steadfast protection of people, thresholds, and values.",
         "declarations": [
           "I guard what is precious without imprisoning it.",
           "Trust can be earned, tested, and repaired.",
           "A boundary is an act of stewardship.",
           "I stand down when protection is no longer needed."
         ],
-        "balance": {
-          "balance": "Protection ↔ Trust",
-          "shadow": "Controlling Sentinel ↔ Open Gate",
-          "powerAnimals": "Buffalo, Wolf, Bear",
-          "qualities": "Protective, Discerning, Devout, Grounded, Steadfast, Strong, Courageous, Honorable, Patient, Trustworthy"
-        },
-        "virtues": [
-          {
-            "title": "Protection",
-            "paragraphs": [
-              "Protection preserves vulnerable life, values, and thresholds from credible harm."
-            ]
+        "balance": "Protection and Trust are mutually correcting.\n\nProtection preserves vulnerable life, values, and thresholds from credible harm.\n\nTrust permits relationship, freedom, and mutual reliance where evidence makes them warranted.",
+        "applications": "Protect what is vulnerable while allowing trusted life to cross the threshold.",
+        "giftsResponsibilitiesChallenges": "The buffalo-woman current: steadfast protection of people, thresholds, and values.",
+        "practices": [
+          "Define the threat using evidence rather than alarm.",
+          "Name what would earn a gradual increase of trust."
+        ],
+        "conclusion": "The Mature Guardian keeps a living threshold, not a permanent wall. She reads risk accurately, uses the least force necessary, and relaxes protection when conditions change. Her trust is neither automatic nor cynical; it is built through character, repair, and demonstrated capacity."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Controlling Sentinel",
+          "slug": "controlling-sentinel",
+          "lifecycle": "mother",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/guardian-buffalo-woman/shadows/rigid-sentinel/"
+          ],
+          "legacyAnchors": [
+            "rigid-sentinel"
+          ],
+          "qualities": [
+            "Protection",
+            "Trust"
+          ],
+          "image": "assets/images/shadow/guardian-buffalo-woman--rigid-gatekeeper.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Protection without Trust",
+            "balancedQualities": "Protection + Trust",
+            "activeShadow": "Controlling Sentinel",
+            "passiveShadow": "Open Gate",
+            "mythicResonances": "",
+            "keyQualities": "Polices ordinary choices, Moves boundaries without consent, Cannot stand down after safety returns"
           },
-          {
-            "title": "Trust",
-            "paragraphs": [
-              "Trust permits relationship, freedom, and mutual reliance where evidence makes them warranted."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/controlling-sentinel.md",
+          "parent": "guardian",
+          "type": "active",
+          "oppositeShadowSlug": "open-gate",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Protection controls without trust.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- If I relax, harm will enter.\n- I know the danger better than you do.\n- Freedom is not worth the risk.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Protection expands without trust. She scans for danger, restricts others' choices, and treats uncertainty as proof of threat. Those under her care remain safe only by remaining small, dependent, or inside her perimeter.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her alertness becomes wise guardianship when it protects capacity instead of replacing it.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Polices ordinary choices\n\nMoves boundaries without consent\n\nCannot stand down after safety returns",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Separate likely risk from imagined catastrophe.\n- Share safety decisions with capable people.\n- Test trust through graduated freedom.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Open Gate is the opposite imbalance of Protection + Trust.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Trust and the dynamic relationship between Protection and Trust. Add graduated trust; add discerning protection.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her alertness becomes wise guardianship when it protects capacity instead of replacing it.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Protection controls without trust.",
+            "declarations": [
+              "If I relax, harm will enter.",
+              "I know the danger better than you do.",
+              "Freedom is not worth the risk."
+            ],
+            "psychologicalMechanics": "Protection expands without trust. She scans for danger, restricts others' choices, and treats uncertainty as proof of threat. Those under her care remain safe only by remaining small, dependent, or inside her perimeter.",
+            "hiddenEnergy": "Her alertness becomes wise guardianship when it protects capacity instead of replacing it.",
+            "recognition": "Polices ordinary choices\n\nMoves boundaries without consent\n\nCannot stand down after safety returns",
+            "practices": [
+              "Separate likely risk from imagined catastrophe.",
+              "Share safety decisions with capable people.",
+              "Test trust through graduated freedom."
+            ],
+            "oppositeShadow": "Open Gate is the opposite imbalance of Protection + Trust.",
+            "transformation": "Integration restores Trust and the dynamic relationship between Protection and Trust. Add graduated trust; add discerning protection.",
+            "conclusion": "Her alertness becomes wise guardianship when it protects capacity instead of replacing it."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Open Gate",
+          "slug": "open-gate",
+          "lifecycle": "mother",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/guardian-buffalo-woman/shadows/naive-pushover/"
+          ],
+          "legacyAnchors": [
+            "naive-pushover"
+          ],
+          "qualities": [
+            "Protection",
+            "Trust"
+          ],
+          "image": "assets/images/shadow/unmatched--boundaryless-protector.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Protection collapses while Trust distorts",
+            "balancedQualities": "Protection + Trust",
+            "activeShadow": "Controlling Sentinel",
+            "passiveShadow": "Open Gate",
+            "mythicResonances": "",
+            "keyQualities": "Ignores repeated breaches, Delegates safety to hope, Avoids necessary exclusion"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/open-gate.md",
+          "parent": "guardian",
+          "type": "passive",
+          "oppositeShadowSlug": "controlling-sentinel",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Protection collapses while trust becomes indiscriminate.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- A boundary would be unkind.\n- People deserve trust regardless of pattern.\n- Naming danger only creates fear.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Protection collapses into trust without discernment. She minimizes warning signs, avoids the discomfort of refusal, and leaves vulnerable people or values exposed. Calling everyone good substitutes sentiment for stewardship.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her openness becomes resilient trust when the gate can also close.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Ignores repeated breaches\n\nDelegates safety to hope\n\nAvoids necessary exclusion",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Act on repeated evidence, not promised intent.\n- Make one boundary explicit and enforceable.\n- Accept that protection may disappoint someone.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Controlling Sentinel is the opposite imbalance of Protection + Trust.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Protection and the dynamic relationship between Protection and Trust. Add graduated trust; add discerning protection.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her openness becomes resilient trust when the gate can also close.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Protection collapses while trust becomes indiscriminate.",
+            "declarations": [
+              "A boundary would be unkind.",
+              "People deserve trust regardless of pattern.",
+              "Naming danger only creates fear."
+            ],
+            "psychologicalMechanics": "Protection collapses into trust without discernment. She minimizes warning signs, avoids the discomfort of refusal, and leaves vulnerable people or values exposed. Calling everyone good substitutes sentiment for stewardship.",
+            "hiddenEnergy": "Her openness becomes resilient trust when the gate can also close.",
+            "recognition": "Ignores repeated breaches\n\nDelegates safety to hope\n\nAvoids necessary exclusion",
+            "practices": [
+              "Act on repeated evidence, not promised intent.",
+              "Make one boundary explicit and enforceable.",
+              "Accept that protection may disappoint someone."
+            ],
+            "oppositeShadow": "Controlling Sentinel is the opposite imbalance of Protection + Trust.",
+            "transformation": "Integration restores Protection and the dynamic relationship between Protection and Trust. Add graduated trust; add discerning protection.",
+            "conclusion": "Her openness becomes resilient trust when the gate can also close."
+          }
+        }
+      ]
     },
     {
+      "kind": "archetype",
       "name": "Mother",
       "slug": "mother",
+      "lifecycle": "mother",
+      "order": 2,
+      "aliases": [],
+      "legacyRoutes": [],
+      "legacyAnchors": [],
       "qualities": [
-        "nurture",
-        "autonomy"
+        "Nurture",
+        "Autonomy"
       ],
-      "gifts": "Nurture that protects dependence while preparing it to grow beyond her.",
-      "growthPath": "Give what sustains life, then make room for life to develop its own strength.",
-      "practices": [
-        "Ask whether the moment calls for comfort, help, or space.",
-        "Let a loved one complete an age-appropriate struggle."
+      "image": "assets/images/mother.jpeg",
+      "profile": {
+        "lifecycleStage": "Mother",
+        "coreFunction": "Sustain legitimate dependence so it can develop toward autonomy.",
+        "balancedQualities": "Nurture + Autonomy",
+        "activeShadow": "Engulfing Mother",
+        "passiveShadow": "Unavailable Mother",
+        "mythicResonances": "",
+        "keyQualities": "Nurturing, Steady, Protective, Generous, Patient, Wise, Resilient, Grounded, Empowering, Trustworthy"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "mother/archetypes/mother.md",
+      "coreFunction": "Sustain legitimate dependence so it can develop toward autonomy.",
+      "keyQualities": [
+        "Nurturing",
+        "Steady",
+        "Protective",
+        "Generous",
+        "Patient",
+        "Wise",
+        "Resilient",
+        "Grounded",
+        "Empowering",
+        "Trustworthy"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Engulfing Mother",
-            "type": "active",
-            "slug": "devouring-mother",
-            "description": [
-              "Nurture overrides autonomy. She anticipates needs, prevents difficulty, and keeps herself central to another's functioning. Protection becomes possession when growth is treated as rejection or danger."
-            ],
-            "declarations": [
-              "No one will care for you as I do.",
-              "Your struggle means I have failed.",
-              "Being needed is how I know I matter."
-            ],
-            "balancing": [
-              "Wait for a request before stepping in.",
-              "Celebrate competence that makes you less necessary.",
-              "Build identity and support beyond caregiving."
-            ],
-            "gift": "Her vigilance becomes a secure base when it protects development rather than dependence.",
-            "outOfBalance": [
-              "Solves before being asked",
-              "Treats separation as disloyalty",
-              "Undermines others' competence"
-            ]
-          },
-          {
-            "name": "Unavailable Mother",
-            "type": "passive",
-            "slug": "absent-mother",
-            "description": [
-              "Nurture collapses while autonomy becomes premature self-sufficiency. She withholds comfort, provision, or protection and calls the resulting loneliness resilience. Need is treated as weakness because responding might expose her own limits or longing."
-            ],
-            "declarations": [
-              "They need to learn the hard way.",
-              "Comfort only creates dependence.",
-              "I cannot be responsible for every feeling."
-            ],
-            "balancing": [
-              "Respond to the need that actually exists.",
-              "Offer dependable care without demanding gratitude.",
-              "Repair absences instead of defending them."
-            ],
-            "gift": "Her respect for independence becomes empowering care when it is built on reliable connection.",
-            "outOfBalance": [
-              "Minimizes legitimate dependency",
-              "Withdraws during distress",
-              "Provides freedom without support"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Mother",
-          "paragraphs": [
-            "The Mature Mother offers a secure base and an open gate. She notices real dependency, gives proportionate care, and gradually transfers responsibility as capacity grows. Her love can survive being less needed because its purpose is the flourishing of the life entrusted to her."
-          ]
+      "activeShadowSlug": "engulfing-mother",
+      "passiveShadowSlug": "absent-mother",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Mother offers a secure base and an open gate. She notices real dependency, gives proportionate care, and gradually transfers responsibility as capacity grows. Her love can survive being less needed because its purpose is the flourishing of the life entrusted to her.\n\nNurture that protects dependence while preparing it to grow beyond her.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I nourish growth that will not belong to me.\n- Care and freedom can increase together.\n- I can be needed without making need permanent.\n- I protect vulnerability and welcome emerging strength.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Nurture and Autonomy are mutually correcting.\n\nNurture supplies the attention, protection, and resources on which life depends.\n\nAutonomy honors the other as a distinct person capable of choice, struggle, and development.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Give what sustains life, then make room for life to develop its own strength.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "Nurture that protects dependence while preparing it to grow beyond her.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Ask whether the moment calls for comfort, help, or space.\n- Let a loved one complete an age-appropriate struggle.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Mother",
+          "content": "The Mature Mother offers a secure base and an open gate. She notices real dependency, gives proportionate care, and gradually transfers responsibility as capacity grows. Her love can survive being less needed because its purpose is the flourishing of the life entrusted to her.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Mother offers a secure base and an open gate. She notices real dependency, gives proportionate care, and gradually transfers responsibility as capacity grows. Her love can survive being less needed because its purpose is the flourishing of the life entrusted to her.\n\nNurture that protects dependence while preparing it to grow beyond her.",
         "declarations": [
           "I nourish growth that will not belong to me.",
           "Care and freedom can increase together.",
           "I can be needed without making need permanent.",
           "I protect vulnerability and welcome emerging strength."
         ],
-        "balance": {
-          "balance": "Nurture ↔ Autonomy",
-          "shadow": "Engulfing Mother ↔ Unavailable Mother",
-          "powerAnimals": "Bear, Cow, Elephant",
-          "qualities": "Nurturing, Steady, Protective, Generous, Patient, Wise, Resilient, Grounded, Empowering, Trustworthy"
-        },
-        "virtues": [
-          {
-            "title": "Nurture",
-            "paragraphs": [
-              "Nurture supplies the attention, protection, and resources on which life depends."
-            ]
+        "balance": "Nurture and Autonomy are mutually correcting.\n\nNurture supplies the attention, protection, and resources on which life depends.\n\nAutonomy honors the other as a distinct person capable of choice, struggle, and development.",
+        "applications": "Give what sustains life, then make room for life to develop its own strength.",
+        "giftsResponsibilitiesChallenges": "Nurture that protects dependence while preparing it to grow beyond her.",
+        "practices": [
+          "Ask whether the moment calls for comfort, help, or space.",
+          "Let a loved one complete an age-appropriate struggle."
+        ],
+        "conclusion": "The Mature Mother offers a secure base and an open gate. She notices real dependency, gives proportionate care, and gradually transfers responsibility as capacity grows. Her love can survive being less needed because its purpose is the flourishing of the life entrusted to her."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Engulfing Mother",
+          "slug": "engulfing-mother",
+          "lifecycle": "mother",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/mother/shadows/devouring-mother/"
+          ],
+          "legacyAnchors": [
+            "devouring-mother"
+          ],
+          "qualities": [
+            "Nurture",
+            "Autonomy"
+          ],
+          "image": "assets/images/shadow/mother--smothering-mother.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Nurture without Autonomy",
+            "balancedQualities": "Nurture + Autonomy",
+            "activeShadow": "Engulfing Mother",
+            "passiveShadow": "Unavailable Mother",
+            "mythicResonances": "",
+            "keyQualities": "Solves before being asked, Treats separation as disloyalty, Undermines others' competence"
           },
-          {
-            "title": "Autonomy",
-            "paragraphs": [
-              "Autonomy honors the other as a distinct person capable of choice, struggle, and development."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/engulfing-mother.md",
+          "parent": "mother",
+          "type": "active",
+          "oppositeShadowSlug": "absent-mother",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Nurture engulfs without autonomy.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- No one will care for you as I do.\n- Your struggle means I have failed.\n- Being needed is how I know I matter.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Nurture overrides autonomy. She anticipates needs, prevents difficulty, and keeps herself central to another's functioning. Protection becomes possession when growth is treated as rejection or danger.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her vigilance becomes a secure base when it protects development rather than dependence.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Solves before being asked\n\nTreats separation as disloyalty\n\nUndermines others' competence",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Wait for a request before stepping in.\n- Celebrate competence that makes you less necessary.\n- Build identity and support beyond caregiving.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Unavailable Mother is the opposite imbalance of Nurture + Autonomy.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Autonomy and the dynamic relationship between Nurture and Autonomy. Aim care toward growth; restore reliable care.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her vigilance becomes a secure base when it protects development rather than dependence.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Nurture engulfs without autonomy.",
+            "declarations": [
+              "No one will care for you as I do.",
+              "Your struggle means I have failed.",
+              "Being needed is how I know I matter."
+            ],
+            "psychologicalMechanics": "Nurture overrides autonomy. She anticipates needs, prevents difficulty, and keeps herself central to another's functioning. Protection becomes possession when growth is treated as rejection or danger.",
+            "hiddenEnergy": "Her vigilance becomes a secure base when it protects development rather than dependence.",
+            "recognition": "Solves before being asked\n\nTreats separation as disloyalty\n\nUndermines others' competence",
+            "practices": [
+              "Wait for a request before stepping in.",
+              "Celebrate competence that makes you less necessary.",
+              "Build identity and support beyond caregiving."
+            ],
+            "oppositeShadow": "Unavailable Mother is the opposite imbalance of Nurture + Autonomy.",
+            "transformation": "Integration restores Autonomy and the dynamic relationship between Nurture and Autonomy. Aim care toward growth; restore reliable care.",
+            "conclusion": "Her vigilance becomes a secure base when it protects development rather than dependence."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Unavailable Mother",
+          "slug": "absent-mother",
+          "lifecycle": "mother",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [],
+          "legacyAnchors": [
+            "absent-mother"
+          ],
+          "qualities": [
+            "Nurture",
+            "Autonomy"
+          ],
+          "image": "assets/images/shadow/mother--absent-mother.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Nurture collapses while Autonomy distorts",
+            "balancedQualities": "Nurture + Autonomy",
+            "activeShadow": "Engulfing Mother",
+            "passiveShadow": "Unavailable Mother",
+            "mythicResonances": "",
+            "keyQualities": "Minimizes legitimate dependency, Withdraws during distress, Provides freedom without support"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/absent-mother.md",
+          "parent": "mother",
+          "type": "passive",
+          "oppositeShadowSlug": "engulfing-mother",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Nurture collapses while autonomy becomes premature self-sufficiency.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- They need to learn the hard way.\n- Comfort only creates dependence.\n- I cannot be responsible for every feeling.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Nurture collapses while autonomy becomes premature self-sufficiency. She withholds comfort, provision, or protection and calls the resulting loneliness resilience. Need is treated as weakness because responding might expose her own limits or longing.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her respect for independence becomes empowering care when it is built on reliable connection.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Minimizes legitimate dependency\n\nWithdraws during distress\n\nProvides freedom without support",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Respond to the need that actually exists.\n- Offer dependable care without demanding gratitude.\n- Repair absences instead of defending them.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Engulfing Mother is the opposite imbalance of Nurture + Autonomy.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Nurture and the dynamic relationship between Nurture and Autonomy. Aim care toward growth; restore reliable care.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her respect for independence becomes empowering care when it is built on reliable connection.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Nurture collapses while autonomy becomes premature self-sufficiency.",
+            "declarations": [
+              "They need to learn the hard way.",
+              "Comfort only creates dependence.",
+              "I cannot be responsible for every feeling."
+            ],
+            "psychologicalMechanics": "Nurture collapses while autonomy becomes premature self-sufficiency. She withholds comfort, provision, or protection and calls the resulting loneliness resilience. Need is treated as weakness because responding might expose her own limits or longing.",
+            "hiddenEnergy": "Her respect for independence becomes empowering care when it is built on reliable connection.",
+            "recognition": "Minimizes legitimate dependency\n\nWithdraws during distress\n\nProvides freedom without support",
+            "practices": [
+              "Respond to the need that actually exists.",
+              "Offer dependable care without demanding gratitude.",
+              "Repair absences instead of defending them."
+            ],
+            "oppositeShadow": "Engulfing Mother is the opposite imbalance of Nurture + Autonomy.",
+            "transformation": "Integration restores Nurture and the dynamic relationship between Nurture and Autonomy. Aim care toward growth; restore reliable care.",
+            "conclusion": "Her respect for independence becomes empowering care when it is built on reliable connection."
+          }
+        }
+      ]
     },
     {
+      "kind": "archetype",
       "name": "Peacemaker",
-      "slug": "peacemaker-peace-bringer",
+      "slug": "peacemaker",
+      "lifecycle": "mother",
+      "order": 3,
+      "aliases": [
+        "Peace Bringer"
+      ],
+      "legacyRoutes": [
+        "/mother/peacemaker-peace-bringer/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "reconciliation",
-        "confrontation"
+        "Reconciliation",
+        "Confrontation"
       ],
-      "gifts": "The peace-bringer current: reconciliation that can survive honest conflict.",
-      "growthPath": "Seek a peace that includes the truth, not merely the end of visible tension.",
-      "practices": [
-        "Name the conflict in one neutral sentence before mediating it.",
-        "Ask whose cost is hidden by the current calm."
+      "image": "assets/images/peacemaker-peace-bringer.jpeg",
+      "profile": {
+        "lifecycleStage": "Mother",
+        "coreFunction": "Bring relationship through truthful conflict toward workable repair.",
+        "balancedQualities": "Reconciliation + Confrontation",
+        "activeShadow": "Peace Enforcer",
+        "passiveShadow": "Resentful Bystander",
+        "mythicResonances": "",
+        "keyQualities": "Calm, Courageous, Honest, Restorative, Listening, Fair, Bridging, Patient, Rooted, Compassionate"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "mother/archetypes/peacemaker.md",
+      "coreFunction": "Bring relationship through truthful conflict toward workable repair.",
+      "keyQualities": [
+        "Calm",
+        "Courageous",
+        "Honest",
+        "Restorative",
+        "Listening",
+        "Fair",
+        "Bridging",
+        "Patient",
+        "Rooted",
+        "Compassionate"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Peace Enforcer",
-            "type": "active",
-            "slug": "conflict-avoider",
-            "description": [
-              "Reconciliation becomes intrusive without confrontation. She pressures forgiveness, edits anger, and restores surface calm before harm has been named. Her mediation protects the comfort of the room more than the people carrying the injury."
-            ],
-            "declarations": [
-              "We need to move past this now.",
-              "Anger only makes things worse.",
-              "Both sides must be equally responsible."
-            ],
-            "balancing": [
-              "Let the injured person set the pace of repair.",
-              "Name asymmetry and harm plainly.",
-              "Tolerate unresolved tension without forcing reunion."
-            ],
-            "gift": "Her gift for common ground becomes restorative leadership when truth is allowed to disturb the peace.",
-            "outOfBalance": [
-              "Rushes forgiveness",
-              "Neutralizes legitimate anger",
-              "Equates calm with safety"
-            ]
-          },
-          {
-            "name": "Resentful Bystander",
-            "type": "passive",
-            "slug": "righteous-judge",
-            "description": [
-              "Reconciliation collapses as confrontation is avoided rather than used. She withdraws, keeps a private ledger, and lets conflict harden into moral distance. Silence appears peaceful while relationship decays from the absence of an honest encounter."
-            ],
-            "declarations": [
-              "Speaking will only create more conflict.",
-              "They should know what they did.",
-              "Distance is the mature response."
-            ],
-            "balancing": [
-              "Make one direct, bounded statement of impact.",
-              "Request a specific repair rather than rehearsing blame.",
-              "Allow a difficult answer to remain part of relationship."
-            ],
-            "gift": "Her sensitivity to tension becomes patient timing when it eventually serves contact.",
-            "outOfBalance": [
-              "Withholds grievances",
-              "Punishes through distance",
-              "Waits for mind-reading"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Peacemaker",
-          "paragraphs": [
-            "The Mature Peacemaker knows that conflict and peace are stages of the same repair. She can slow escalation, protect the vulnerable, name what happened, and invite responsibility without predetermining reunion. The peace she serves is not compulsory closeness but restored truth, safety, and choice."
-          ]
+      "activeShadowSlug": "peace-enforcer",
+      "passiveShadowSlug": "resentful-bystander",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Peacemaker knows that conflict and peace are stages of the same repair. She can slow escalation, protect the vulnerable, name what happened, and invite responsibility without predetermining reunion. The peace she serves is not compulsory closeness but restored truth, safety, and choice.\n\nThe peace-bringer current: reconciliation that can survive honest conflict.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- I do not purchase calm with silence.\n- Truth can be spoken without contempt.\n- Repair cannot be forced, but it can be invited.\n- Peace returns choice to everyone affected.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Reconciliation and Confrontation are mutually correcting.\n\nReconciliation rebuilds workable relationship after truth and responsibility have had their place.\n\nConfrontation turns toward a real conflict directly enough for change to become possible.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Seek a peace that includes the truth, not merely the end of visible tension.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The peace-bringer current: reconciliation that can survive honest conflict.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Name the conflict in one neutral sentence before mediating it.\n- Ask whose cost is hidden by the current calm.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Peacemaker",
+          "content": "The Mature Peacemaker knows that conflict and peace are stages of the same repair. She can slow escalation, protect the vulnerable, name what happened, and invite responsibility without predetermining reunion. The peace she serves is not compulsory closeness but restored truth, safety, and choice.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Peacemaker knows that conflict and peace are stages of the same repair. She can slow escalation, protect the vulnerable, name what happened, and invite responsibility without predetermining reunion. The peace she serves is not compulsory closeness but restored truth, safety, and choice.\n\nThe peace-bringer current: reconciliation that can survive honest conflict.",
         "declarations": [
           "I do not purchase calm with silence.",
           "Truth can be spoken without contempt.",
           "Repair cannot be forced, but it can be invited.",
           "Peace returns choice to everyone affected."
         ],
-        "balance": {
-          "balance": "Reconciliation ↔ Confrontation",
-          "shadow": "Peace Enforcer ↔ Resentful Bystander",
-          "powerAnimals": "Dove, Elephant, Lamb",
-          "qualities": "Calm, Courageous, Honest, Restorative, Listening, Fair, Bridging, Patient, Rooted, Compassionate"
-        },
-        "virtues": [
-          {
-            "title": "Reconciliation",
-            "paragraphs": [
-              "Reconciliation rebuilds workable relationship after truth and responsibility have had their place."
-            ]
+        "balance": "Reconciliation and Confrontation are mutually correcting.\n\nReconciliation rebuilds workable relationship after truth and responsibility have had their place.\n\nConfrontation turns toward a real conflict directly enough for change to become possible.",
+        "applications": "Seek a peace that includes the truth, not merely the end of visible tension.",
+        "giftsResponsibilitiesChallenges": "The peace-bringer current: reconciliation that can survive honest conflict.",
+        "practices": [
+          "Name the conflict in one neutral sentence before mediating it.",
+          "Ask whose cost is hidden by the current calm."
+        ],
+        "conclusion": "The Mature Peacemaker knows that conflict and peace are stages of the same repair. She can slow escalation, protect the vulnerable, name what happened, and invite responsibility without predetermining reunion. The peace she serves is not compulsory closeness but restored truth, safety, and choice."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Peace Enforcer",
+          "slug": "peace-enforcer",
+          "lifecycle": "mother",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/peacemaker-peace-bringer/shadows/conflict-avoider/"
+          ],
+          "legacyAnchors": [
+            "conflict-avoider"
+          ],
+          "qualities": [
+            "Reconciliation",
+            "Confrontation"
+          ],
+          "image": "assets/images/shadow/peacemaker-peace-bringer--conflict-avoider.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Reconciliation without Confrontation",
+            "balancedQualities": "Reconciliation + Confrontation",
+            "activeShadow": "Peace Enforcer",
+            "passiveShadow": "Resentful Bystander",
+            "mythicResonances": "",
+            "keyQualities": "Rushes forgiveness, Neutralizes legitimate anger, Equates calm with safety"
           },
-          {
-            "title": "Confrontation",
-            "paragraphs": [
-              "Confrontation turns toward a real conflict directly enough for change to become possible."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/peace-enforcer.md",
+          "parent": "peacemaker",
+          "type": "active",
+          "oppositeShadowSlug": "resentful-bystander",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Reconciliation forces calm without confrontation.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- We need to move past this now.\n- Anger only makes things worse.\n- Both sides must be equally responsible.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Reconciliation becomes intrusive without confrontation. She pressures forgiveness, edits anger, and restores surface calm before harm has been named. Her mediation protects the comfort of the room more than the people carrying the injury.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her gift for common ground becomes restorative leadership when truth is allowed to disturb the peace.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Rushes forgiveness\n\nNeutralizes legitimate anger\n\nEquates calm with safety",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Let the injured person set the pace of repair.\n- Name asymmetry and harm plainly.\n- Tolerate unresolved tension without forcing reunion.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Resentful Bystander is the opposite imbalance of Reconciliation + Confrontation.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Confrontation and the dynamic relationship between Reconciliation and Confrontation. Name harm; turn truth toward a bounded repair attempt.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her gift for common ground becomes restorative leadership when truth is allowed to disturb the peace.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Reconciliation forces calm without confrontation.",
+            "declarations": [
+              "We need to move past this now.",
+              "Anger only makes things worse.",
+              "Both sides must be equally responsible."
+            ],
+            "psychologicalMechanics": "Reconciliation becomes intrusive without confrontation. She pressures forgiveness, edits anger, and restores surface calm before harm has been named. Her mediation protects the comfort of the room more than the people carrying the injury.",
+            "hiddenEnergy": "Her gift for common ground becomes restorative leadership when truth is allowed to disturb the peace.",
+            "recognition": "Rushes forgiveness\n\nNeutralizes legitimate anger\n\nEquates calm with safety",
+            "practices": [
+              "Let the injured person set the pace of repair.",
+              "Name asymmetry and harm plainly.",
+              "Tolerate unresolved tension without forcing reunion."
+            ],
+            "oppositeShadow": "Resentful Bystander is the opposite imbalance of Reconciliation + Confrontation.",
+            "transformation": "Integration restores Confrontation and the dynamic relationship between Reconciliation and Confrontation. Name harm; turn truth toward a bounded repair attempt.",
+            "conclusion": "Her gift for common ground becomes restorative leadership when truth is allowed to disturb the peace."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Resentful Bystander",
+          "slug": "resentful-bystander",
+          "lifecycle": "mother",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/peacemaker-peace-bringer/shadows/righteous-judge/"
+          ],
+          "legacyAnchors": [
+            "righteous-judge"
+          ],
+          "qualities": [
+            "Reconciliation",
+            "Confrontation"
+          ],
+          "image": "assets/images/shadow/peacemaker-peace-bringer--passive-enabler.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Reconciliation collapses while Confrontation distorts",
+            "balancedQualities": "Reconciliation + Confrontation",
+            "activeShadow": "Peace Enforcer",
+            "passiveShadow": "Resentful Bystander",
+            "mythicResonances": "",
+            "keyQualities": "Withholds grievances, Punishes through distance, Waits for mind-reading"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/resentful-bystander.md",
+          "parent": "peacemaker",
+          "type": "passive",
+          "oppositeShadowSlug": "peace-enforcer",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Reconciliation collapses while confrontation becomes private prosecution, indirect hostility, and punitive distance.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Speaking will only create more conflict.\n- They should know what they did.\n- Distance is the mature response.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Reconciliation collapses as confrontation is avoided rather than used. She withdraws, keeps a private ledger, and lets conflict harden into moral distance. Silence appears peaceful while relationship decays from the absence of an honest encounter.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her sensitivity to tension becomes patient timing when it eventually serves contact.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Withholds grievances\n\nPunishes through distance\n\nWaits for mind-reading",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Make one direct, bounded statement of impact.\n- Request a specific repair rather than rehearsing blame.\n- Allow a difficult answer to remain part of relationship.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Peace Enforcer is the opposite imbalance of Reconciliation + Confrontation.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Reconciliation and the dynamic relationship between Reconciliation and Confrontation. Name harm; turn truth toward a bounded repair attempt.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her sensitivity to tension becomes patient timing when it eventually serves contact.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Reconciliation collapses while confrontation becomes private prosecution, indirect hostility, and punitive distance.",
+            "declarations": [
+              "Speaking will only create more conflict.",
+              "They should know what they did.",
+              "Distance is the mature response."
+            ],
+            "psychologicalMechanics": "Reconciliation collapses as confrontation is avoided rather than used. She withdraws, keeps a private ledger, and lets conflict harden into moral distance. Silence appears peaceful while relationship decays from the absence of an honest encounter.",
+            "hiddenEnergy": "Her sensitivity to tension becomes patient timing when it eventually serves contact.",
+            "recognition": "Withholds grievances\n\nPunishes through distance\n\nWaits for mind-reading",
+            "practices": [
+              "Make one direct, bounded statement of impact.",
+              "Request a specific repair rather than rehearsing blame.",
+              "Allow a difficult answer to remain part of relationship."
+            ],
+            "oppositeShadow": "Peace Enforcer is the opposite imbalance of Reconciliation + Confrontation.",
+            "transformation": "Integration restores Reconciliation and the dynamic relationship between Reconciliation and Confrontation. Name harm; turn truth toward a bounded repair attempt.",
+            "conclusion": "Her sensitivity to tension becomes patient timing when it eventually serves contact."
+          }
+        }
+      ]
     },
     {
+      "kind": "archetype",
       "name": "Warrior",
-      "slug": "warrior-warrioress-huntress",
+      "slug": "warrior",
+      "lifecycle": "mother",
+      "order": 4,
+      "aliases": [
+        "Warrioress",
+        "Huntress"
+      ],
+      "legacyRoutes": [
+        "/mother/warrior-warrioress-huntress/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "ferocity",
-        "restraint"
+        "Ferocity",
+        "Restraint"
       ],
-      "gifts": "The huntress current: focused ferocity in defense of life and purpose.",
-      "growthPath": "Mobilize force cleanly, then stop when the work is done.",
-      "practices": [
-        "Define the objective and the stopping condition before conflict.",
-        "Discharge activation through breath and movement after action."
+      "image": "assets/images/warrior-warrioress-huntress.jpeg",
+      "profile": {
+        "lifecycleStage": "Mother",
+        "coreFunction": "Mobilize proportionate force in defense of life, boundary, and purpose.",
+        "balancedQualities": "Ferocity + Restraint",
+        "activeShadow": "Rampaging Warrior",
+        "passiveShadow": "Disarmed Warrior",
+        "mythicResonances": "",
+        "keyQualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Precise, Fierce"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "mother/archetypes/warrior.md",
+      "coreFunction": "Mobilize proportionate force in defense of life, boundary, and purpose.",
+      "keyQualities": [
+        "Focused",
+        "Courageous",
+        "Strategic",
+        "Protective",
+        "Disciplined",
+        "Determined",
+        "Just",
+        "Skilled",
+        "Precise",
+        "Fierce"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Rampaging Warrior",
-            "type": "active",
-            "slug": "destructive-berserker",
-            "description": [
-              "Ferocity breaks restraint and begins serving its own momentum. She escalates, humiliates, or keeps fighting after the boundary is secure, turning a just cause into permission for domination. Victory matters more than the life she meant to defend."
-            ],
-            "declarations": [
-              "Only overwhelming force will make them understand.",
-              "Backing down is weakness.",
-              "My cause justifies my impact."
-            ],
-            "balancing": [
-              "Use force proportionate to the present threat.",
-              "Set and honor a clear stopping condition.",
-              "Repair harm that was not necessary to the aim."
-            ],
-            "gift": "Her fire becomes decisive courage when it remains governed by purpose.",
-            "outOfBalance": [
-              "Escalates after the threat ends",
-              "Dehumanizes opponents",
-              "Treats intensity as moral proof"
-            ]
-          },
-          {
-            "name": "Disarmed Warrior",
-            "type": "passive",
-            "slug": "collapsed-victim",
-            "description": [
-              "Ferocity collapses and restraint becomes inhibition. She cannot access anger, defend a boundary, or pursue a difficult aim because force itself feels dangerous. The body knows a no that the voice will not deliver."
-            ],
-            "declarations": [
-              "Conflict will make me cruel.",
-              "Endurance is more virtuous than resistance.",
-              "Someone stronger should intervene."
-            ],
-            "balancing": [
-              "Practice a direct no at low stakes.",
-              "Let anger identify what needs protection.",
-              "Take one concrete action before seeking consensus."
-            ],
-            "gift": "Her caution becomes disciplined strength when it can mobilize on behalf of what matters.",
-            "outOfBalance": [
-              "Freezes under violation",
-              "Apologizes for firm limits",
-              "Abandons aims at resistance"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Warrior",
-          "paragraphs": [
-            "The Mature Warrior has access to force without being possessed by it. She chooses worthy aims, trains for competence, acts in proportion, and remembers the humanity of everyone involved. Her restraint is not timidity; it is what makes her ferocity precise and trustworthy."
-          ]
+      "activeShadowSlug": "rampaging-warrior",
+      "passiveShadowSlug": "disarmed-warrior",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Warrior has access to force without being possessed by it. She chooses worthy aims, trains for competence, acts in proportion, and remembers the humanity of everyone involved. Her restraint is not timidity; it is what makes her ferocity precise and trustworthy.\n\nThe huntress current: focused ferocity in defense of life and purpose.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- My fire answers to purpose.\n- I can be fierce without becoming cruel.\n- I defend a boundary and stop when it holds.\n- Restraint concentrates my strength.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Ferocity and Restraint are mutually correcting.\n\nFerocity mobilizes concentrated energy against a real obstacle or threat.\n\nRestraint governs timing, proportion, and cessation so force remains in service.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Mobilize force cleanly, then stop when the work is done.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The huntress current: focused ferocity in defense of life and purpose.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Define the objective and the stopping condition before conflict.\n- Discharge activation through breath and movement after action.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Warrior",
+          "content": "The Mature Warrior has access to force without being possessed by it. She chooses worthy aims, trains for competence, acts in proportion, and remembers the humanity of everyone involved. Her restraint is not timidity; it is what makes her ferocity precise and trustworthy.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Warrior has access to force without being possessed by it. She chooses worthy aims, trains for competence, acts in proportion, and remembers the humanity of everyone involved. Her restraint is not timidity; it is what makes her ferocity precise and trustworthy.\n\nThe huntress current: focused ferocity in defense of life and purpose.",
         "declarations": [
           "My fire answers to purpose.",
           "I can be fierce without becoming cruel.",
           "I defend a boundary and stop when it holds.",
           "Restraint concentrates my strength."
         ],
-        "balance": {
-          "balance": "Ferocity ↔ Restraint",
-          "shadow": "Rampaging Warrior ↔ Disarmed Warrior",
-          "powerAnimals": "Wolf, Hawk, Jaguar",
-          "qualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Precise, Fierce"
-        },
-        "virtues": [
-          {
-            "title": "Ferocity",
-            "paragraphs": [
-              "Ferocity mobilizes concentrated energy against a real obstacle or threat."
-            ]
+        "balance": "Ferocity and Restraint are mutually correcting.\n\nFerocity mobilizes concentrated energy against a real obstacle or threat.\n\nRestraint governs timing, proportion, and cessation so force remains in service.",
+        "applications": "Mobilize force cleanly, then stop when the work is done.",
+        "giftsResponsibilitiesChallenges": "The huntress current: focused ferocity in defense of life and purpose.",
+        "practices": [
+          "Define the objective and the stopping condition before conflict.",
+          "Discharge activation through breath and movement after action."
+        ],
+        "conclusion": "The Mature Warrior has access to force without being possessed by it. She chooses worthy aims, trains for competence, acts in proportion, and remembers the humanity of everyone involved. Her restraint is not timidity; it is what makes her ferocity precise and trustworthy."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Rampaging Warrior",
+          "slug": "rampaging-warrior",
+          "lifecycle": "mother",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/warrior-warrioress-huntress/shadows/destructive-berserker/"
+          ],
+          "legacyAnchors": [
+            "destructive-berserker"
+          ],
+          "qualities": [
+            "Ferocity",
+            "Restraint"
+          ],
+          "image": "assets/images/shadow/warrior-warrioress-huntress--aggressive-bully.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Ferocity without Restraint",
+            "balancedQualities": "Ferocity + Restraint",
+            "activeShadow": "Rampaging Warrior",
+            "passiveShadow": "Disarmed Warrior",
+            "mythicResonances": "",
+            "keyQualities": "Escalates after the threat ends, Dehumanizes opponents, Treats intensity as moral proof"
           },
-          {
-            "title": "Restraint",
-            "paragraphs": [
-              "Restraint governs timing, proportion, and cessation so force remains in service."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/rampaging-warrior.md",
+          "parent": "warrior",
+          "type": "active",
+          "oppositeShadowSlug": "disarmed-warrior",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Ferocity rampages without restraint.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Only overwhelming force will make them understand.\n- Backing down is weakness.\n- My cause justifies my impact.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Ferocity breaks restraint and begins serving its own momentum. She escalates, humiliates, or keeps fighting after the boundary is secure, turning a just cause into permission for domination. Victory matters more than the life she meant to defend.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her fire becomes decisive courage when it remains governed by purpose.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Escalates after the threat ends\n\nDehumanizes opponents\n\nTreats intensity as moral proof",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Use force proportionate to the present threat.\n- Set and honor a clear stopping condition.\n- Repair harm that was not necessary to the aim.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Disarmed Warrior is the opposite imbalance of Ferocity + Restraint.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Restraint and the dynamic relationship between Ferocity and Restraint. Add proportion and stopping; restore usable force.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her fire becomes decisive courage when it remains governed by purpose.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Ferocity rampages without restraint.",
+            "declarations": [
+              "Only overwhelming force will make them understand.",
+              "Backing down is weakness.",
+              "My cause justifies my impact."
+            ],
+            "psychologicalMechanics": "Ferocity breaks restraint and begins serving its own momentum. She escalates, humiliates, or keeps fighting after the boundary is secure, turning a just cause into permission for domination. Victory matters more than the life she meant to defend.",
+            "hiddenEnergy": "Her fire becomes decisive courage when it remains governed by purpose.",
+            "recognition": "Escalates after the threat ends\n\nDehumanizes opponents\n\nTreats intensity as moral proof",
+            "practices": [
+              "Use force proportionate to the present threat.",
+              "Set and honor a clear stopping condition.",
+              "Repair harm that was not necessary to the aim."
+            ],
+            "oppositeShadow": "Disarmed Warrior is the opposite imbalance of Ferocity + Restraint.",
+            "transformation": "Integration restores Restraint and the dynamic relationship between Ferocity and Restraint. Add proportion and stopping; restore usable force.",
+            "conclusion": "Her fire becomes decisive courage when it remains governed by purpose."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Disarmed Warrior",
+          "slug": "disarmed-warrior",
+          "lifecycle": "mother",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/warrior-warrioress-huntress/shadows/collapsed-victim/"
+          ],
+          "legacyAnchors": [
+            "collapsed-victim"
+          ],
+          "qualities": [
+            "Ferocity",
+            "Restraint"
+          ],
+          "image": "assets/images/shadow/warrior-warrioress-huntress--collapsed-fighter.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Ferocity collapses while Restraint distorts",
+            "balancedQualities": "Ferocity + Restraint",
+            "activeShadow": "Rampaging Warrior",
+            "passiveShadow": "Disarmed Warrior",
+            "mythicResonances": "",
+            "keyQualities": "Freezes under violation, Apologizes for firm limits, Abandons aims at resistance"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/disarmed-warrior.md",
+          "parent": "warrior",
+          "type": "passive",
+          "oppositeShadowSlug": "rampaging-warrior",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Ferocity collapses while restraint becomes inhibition.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Conflict will make me cruel.\n- Endurance is more virtuous than resistance.\n- Someone stronger should intervene.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Ferocity collapses and restraint becomes inhibition. She cannot access anger, defend a boundary, or pursue a difficult aim because force itself feels dangerous. The body knows a no that the voice will not deliver.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her caution becomes disciplined strength when it can mobilize on behalf of what matters.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Freezes under violation\n\nApologizes for firm limits\n\nAbandons aims at resistance",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Practice a direct no at low stakes.\n- Let anger identify what needs protection.\n- Take one concrete action before seeking consensus.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Rampaging Warrior is the opposite imbalance of Ferocity + Restraint.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Ferocity and the dynamic relationship between Ferocity and Restraint. Add proportion and stopping; restore usable force.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her caution becomes disciplined strength when it can mobilize on behalf of what matters.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Ferocity collapses while restraint becomes inhibition.",
+            "declarations": [
+              "Conflict will make me cruel.",
+              "Endurance is more virtuous than resistance.",
+              "Someone stronger should intervene."
+            ],
+            "psychologicalMechanics": "Ferocity collapses and restraint becomes inhibition. She cannot access anger, defend a boundary, or pursue a difficult aim because force itself feels dangerous. The body knows a no that the voice will not deliver.",
+            "hiddenEnergy": "Her caution becomes disciplined strength when it can mobilize on behalf of what matters.",
+            "recognition": "Freezes under violation\n\nApologizes for firm limits\n\nAbandons aims at resistance",
+            "practices": [
+              "Practice a direct no at low stakes.",
+              "Let anger identify what needs protection.",
+              "Take one concrete action before seeking consensus."
+            ],
+            "oppositeShadow": "Rampaging Warrior is the opposite imbalance of Ferocity + Restraint.",
+            "transformation": "Integration restores Ferocity and the dynamic relationship between Ferocity and Restraint. Add proportion and stopping; restore usable force.",
+            "conclusion": "Her caution becomes disciplined strength when it can mobilize on behalf of what matters."
+          }
+        }
+      ]
     },
     {
+      "kind": "archetype",
       "name": "Community Weaver",
-      "slug": "weaver-community-goddess",
+      "slug": "community-weaver",
+      "lifecycle": "mother",
+      "order": 5,
+      "aliases": [
+        "Community Goddess"
+      ],
+      "legacyRoutes": [
+        "/mother/weaver-community-goddess/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "belonging",
-        "accountability"
+        "Belonging",
+        "Accountability"
       ],
-      "gifts": "The community-goddess current: creating durable belonging across difference.",
-      "growthPath": "Connect people without trading truth, consent, or standards for cohesion.",
-      "practices": [
-        "Make introductions with permission and a clear purpose.",
-        "Name one tension directly before trying to restore belonging."
+      "image": "assets/images/weaver-community-goddess.jpeg",
+      "profile": {
+        "lifecycleStage": "Mother",
+        "coreFunction": "Create reciprocal belonging whose ties remain truthful, consensual, and repairable.",
+        "balancedQualities": "Belonging + Accountability",
+        "activeShadow": "Enmeshing Networker",
+        "passiveShadow": "Isolated Helper",
+        "mythicResonances": "",
+        "keyQualities": "Collaborative, Relational, Generous, Inclusive, Reciprocal, Attentive, Harmonizing, Strategic, Resilient, Joyful"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "mother/archetypes/community-weaver.md",
+      "coreFunction": "Create reciprocal belonging whose ties remain truthful, consensual, and repairable.",
+      "keyQualities": [
+        "Collaborative",
+        "Relational",
+        "Generous",
+        "Inclusive",
+        "Reciprocal",
+        "Attentive",
+        "Harmonizing",
+        "Strategic",
+        "Resilient",
+        "Joyful"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Enmeshing Networker",
-            "type": "active",
-            "slug": "manipulative-networker",
-            "description": [
-              "Belonging outruns accountability. She brokers closeness, loyalty, and information to stay central, smoothing over harm when truth might divide the group. Connection becomes a web that is difficult to leave without social cost."
-            ],
-            "declarations": [
-              "Everyone should be included on my terms.",
-              "Naming harm would fracture the circle.",
-              "I know who needs to be connected."
-            ],
-            "balancing": [
-              "Ask consent before sharing stories or contacts.",
-              "Let relationships exist without your mediation.",
-              "Address harm even when cohesion becomes uncertain."
-            ],
-            "gift": "Her social intelligence becomes connective stewardship when people remain free inside the network.",
-            "outOfBalance": [
-              "Triangulates through private information",
-              "Protects insiders from consequence",
-              "Makes herself the relational hub"
-            ]
-          },
-          {
-            "name": "Isolated Helper",
-            "type": "passive",
-            "slug": "isolated-helper",
-            "description": [
-              "Belonging withdraws behind accountability turned self-sufficiency. She contributes tasks and standards but does not risk mutual need, using usefulness as a substitute for membership. Others can rely on her labor yet cannot know or support her."
-            ],
-            "declarations": [
-              "I belong through what I provide.",
-              "Need would compromise my independence.",
-              "Groups always become messy."
-            ],
-            "balancing": [
-              "Ask the community for one concrete form of support.",
-              "Share experience, not only expertise.",
-              "Remain present through a repairable disappointment."
-            ],
-            "gift": "Her independence becomes dependable contribution when it participates in reciprocal belonging.",
-            "outOfBalance": [
-              "Serves without receiving",
-              "Leaves at ordinary conflict",
-              "Uses critique to remain outside"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Community Weaver",
-          "paragraphs": [
-            "The Mature Community Weaver builds connection sturdy enough for truth. She notices who is absent, links gifts to needs, and creates norms that protect both belonging and consequence. She does not make herself indispensable; a healthy web can redistribute load and survive her stepping back."
-          ]
+      "activeShadowSlug": "enmeshing-networker",
+      "passiveShadowSlug": "isolated-helper",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Community Weaver builds connection sturdy enough for truth. She notices who is absent, links gifts to needs, and creates norms that protect both belonging and consequence. She does not make herself indispensable; a healthy web can redistribute load and survive her stepping back.\n\nThe community-goddess current: creating durable belonging across difference.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- Belonging does not require secrecy or sameness.\n- I connect people without owning their bonds.\n- Accountability can restore the web.\n- I participate as a member, not only a helper.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Belonging and Accountability are mutually correcting.\n\nBelonging creates mutual recognition, participation, and a felt place in the whole.\n\nAccountability makes relationship answerable to agreements, impact, and repair.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Connect people without trading truth, consent, or standards for cohesion.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The community-goddess current: creating durable belonging across difference.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- Make introductions with permission and a clear purpose.\n- Name one tension directly before trying to restore belonging.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Community Weaver",
+          "content": "The Mature Community Weaver builds connection sturdy enough for truth. She notices who is absent, links gifts to needs, and creates norms that protect both belonging and consequence. She does not make herself indispensable; a healthy web can redistribute load and survive her stepping back.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Community Weaver builds connection sturdy enough for truth. She notices who is absent, links gifts to needs, and creates norms that protect both belonging and consequence. She does not make herself indispensable; a healthy web can redistribute load and survive her stepping back.\n\nThe community-goddess current: creating durable belonging across difference.",
         "declarations": [
           "Belonging does not require secrecy or sameness.",
           "I connect people without owning their bonds.",
           "Accountability can restore the web.",
           "I participate as a member, not only a helper."
         ],
-        "balance": {
-          "balance": "Belonging ↔ Accountability",
-          "shadow": "Enmeshing Networker ↔ Isolated Helper",
-          "powerAnimals": "Spider, Ant, Dolphin",
-          "qualities": "Collaborative, Relational, Generous, Inclusive, Reciprocal, Attentive, Harmonizing, Strategic, Resilient, Joyful"
-        },
-        "virtues": [
-          {
-            "title": "Belonging",
-            "paragraphs": [
-              "Belonging creates mutual recognition, participation, and a felt place in the whole."
-            ]
+        "balance": "Belonging and Accountability are mutually correcting.\n\nBelonging creates mutual recognition, participation, and a felt place in the whole.\n\nAccountability makes relationship answerable to agreements, impact, and repair.",
+        "applications": "Connect people without trading truth, consent, or standards for cohesion.",
+        "giftsResponsibilitiesChallenges": "The community-goddess current: creating durable belonging across difference.",
+        "practices": [
+          "Make introductions with permission and a clear purpose.",
+          "Name one tension directly before trying to restore belonging."
+        ],
+        "conclusion": "The Mature Community Weaver builds connection sturdy enough for truth. She notices who is absent, links gifts to needs, and creates norms that protect both belonging and consequence. She does not make herself indispensable; a healthy web can redistribute load and survive her stepping back."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Enmeshing Networker",
+          "slug": "enmeshing-networker",
+          "lifecycle": "mother",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/weaver-community-goddess/shadows/manipulative-networker/"
+          ],
+          "legacyAnchors": [
+            "manipulative-networker"
+          ],
+          "qualities": [
+            "Belonging",
+            "Accountability"
+          ],
+          "image": "assets/images/shadow/weaver-community-goddess--controlling-networker.png",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Belonging without Accountability",
+            "balancedQualities": "Belonging + Accountability",
+            "activeShadow": "Enmeshing Networker",
+            "passiveShadow": "Isolated Helper",
+            "mythicResonances": "",
+            "keyQualities": "Triangulates through private information, Protects insiders from consequence, Makes herself the relational hub"
           },
-          {
-            "title": "Accountability",
-            "paragraphs": [
-              "Accountability makes relationship answerable to agreements, impact, and repair."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/enmeshing-networker.md",
+          "parent": "community-weaver",
+          "type": "active",
+          "oppositeShadowSlug": "isolated-helper",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Belonging enmeshes without accountability.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Everyone should be included on my terms.\n- Naming harm would fracture the circle.\n- I know who needs to be connected.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Belonging outruns accountability. She brokers closeness, loyalty, and information to stay central, smoothing over harm when truth might divide the group. Connection becomes a web that is difficult to leave without social cost.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her social intelligence becomes connective stewardship when people remain free inside the network.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Triangulates through private information\n\nProtects insiders from consequence\n\nMakes herself the relational hub",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Ask consent before sharing stories or contacts.\n- Let relationships exist without your mediation.\n- Address harm even when cohesion becomes uncertain.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Isolated Helper is the opposite imbalance of Belonging + Accountability.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Accountability and the dynamic relationship between Belonging and Accountability. Add consent and consequence; risk reciprocal membership.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her social intelligence becomes connective stewardship when people remain free inside the network.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Belonging enmeshes without accountability.",
+            "declarations": [
+              "Everyone should be included on my terms.",
+              "Naming harm would fracture the circle.",
+              "I know who needs to be connected."
+            ],
+            "psychologicalMechanics": "Belonging outruns accountability. She brokers closeness, loyalty, and information to stay central, smoothing over harm when truth might divide the group. Connection becomes a web that is difficult to leave without social cost.",
+            "hiddenEnergy": "Her social intelligence becomes connective stewardship when people remain free inside the network.",
+            "recognition": "Triangulates through private information\n\nProtects insiders from consequence\n\nMakes herself the relational hub",
+            "practices": [
+              "Ask consent before sharing stories or contacts.",
+              "Let relationships exist without your mediation.",
+              "Address harm even when cohesion becomes uncertain."
+            ],
+            "oppositeShadow": "Isolated Helper is the opposite imbalance of Belonging + Accountability.",
+            "transformation": "Integration restores Accountability and the dynamic relationship between Belonging and Accountability. Add consent and consequence; risk reciprocal membership.",
+            "conclusion": "Her social intelligence becomes connective stewardship when people remain free inside the network."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Isolated Helper",
+          "slug": "isolated-helper",
+          "lifecycle": "mother",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/weaver-community-goddess/shadows/isolated-helper/"
+          ],
+          "legacyAnchors": [
+            "isolated-helper"
+          ],
+          "qualities": [
+            "Belonging",
+            "Accountability"
+          ],
+          "image": "assets/images/shadow/weaver-community-goddess--codependent-helper.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Belonging collapses while Accountability distorts",
+            "balancedQualities": "Belonging + Accountability",
+            "activeShadow": "Enmeshing Networker",
+            "passiveShadow": "Isolated Helper",
+            "mythicResonances": "",
+            "keyQualities": "Serves without receiving, Leaves at ordinary conflict, Uses critique to remain outside"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/isolated-helper.md",
+          "parent": "community-weaver",
+          "type": "passive",
+          "oppositeShadowSlug": "enmeshing-networker",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Belonging collapses while accountability hardens into detached standards, critique, and usefulness without mutual need.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- I belong through what I provide.\n- Need would compromise my independence.\n- Groups always become messy.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Belonging withdraws behind accountability turned self-sufficiency. She contributes tasks and standards but does not risk mutual need, using usefulness as a substitute for membership. Others can rely on her labor yet cannot know or support her.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her independence becomes dependable contribution when it participates in reciprocal belonging.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Serves without receiving\n\nLeaves at ordinary conflict\n\nUses critique to remain outside",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Ask the community for one concrete form of support.\n- Share experience, not only expertise.\n- Remain present through a repairable disappointment.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Enmeshing Networker is the opposite imbalance of Belonging + Accountability.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Belonging and the dynamic relationship between Belonging and Accountability. Add consent and consequence; risk reciprocal membership.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her independence becomes dependable contribution when it participates in reciprocal belonging.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Belonging collapses while accountability hardens into detached standards, critique, and usefulness without mutual need.",
+            "declarations": [
+              "I belong through what I provide.",
+              "Need would compromise my independence.",
+              "Groups always become messy."
+            ],
+            "psychologicalMechanics": "Belonging withdraws behind accountability turned self-sufficiency. She contributes tasks and standards but does not risk mutual need, using usefulness as a substitute for membership. Others can rely on her labor yet cannot know or support her.",
+            "hiddenEnergy": "Her independence becomes dependable contribution when it participates in reciprocal belonging.",
+            "recognition": "Serves without receiving\n\nLeaves at ordinary conflict\n\nUses critique to remain outside",
+            "practices": [
+              "Ask the community for one concrete form of support.",
+              "Share experience, not only expertise.",
+              "Remain present through a repairable disappointment."
+            ],
+            "oppositeShadow": "Enmeshing Networker is the opposite imbalance of Belonging + Accountability.",
+            "transformation": "Integration restores Belonging and the dynamic relationship between Belonging and Accountability. Add consent and consequence; risk reciprocal membership.",
+            "conclusion": "Her independence becomes dependable contribution when it participates in reciprocal belonging."
+          }
+        }
+      ]
     },
     {
-      "name": "Hearth Keeper",
-      "slug": "wife-nurturer-hearth-goddess",
+      "kind": "archetype",
+      "name": "Host",
+      "slug": "host",
+      "lifecycle": "mother",
+      "order": 6,
+      "aliases": [
+        "Hearth Keeper",
+        "Wife",
+        "Nurturer",
+        "Hearth Goddess",
+        "Homemaker",
+        "Hostess"
+      ],
+      "legacyRoutes": [
+        "/mother/wife-nurturer-hearth-goddess/"
+      ],
+      "legacyAnchors": [],
       "qualities": [
-        "hospitality",
-        "privacy"
+        "Hospitality",
+        "Privacy"
       ],
-      "gifts": "The hearth-goddess current: warmth, continuity, and reciprocal domestic care.",
-      "growthPath": "Make welcome without making endless availability the price of belonging.",
-      "practices": [
-        "State the limits of an invitation before resentment does.",
-        "Receive one act of care without managing how it is given."
+      "image": "assets/images/wife-nurturer-hestia.jpeg",
+      "profile": {
+        "lifecycleStage": "Mother",
+        "coreFunction": "Maintain bounded hospitality, domestic continuity, and a usable sanctuary.",
+        "balancedQualities": "Hospitality + Privacy",
+        "activeShadow": "Martyr Host",
+        "passiveShadow": "Closed Hearth",
+        "mythicResonances": "",
+        "keyQualities": "Devoted, Warm, Steady, Reciprocal, Boundaried, Simple, Grounded, Gracious, Attentive, Reliable"
+      },
+      "quotes": {
+        "opening": "",
+        "closing": ""
+      },
+      "research": {
+        "status": "pending",
+        "quoteIds": [],
+        "mythicResonances": [],
+        "mythicSourceIds": []
+      },
+      "sourceFile": "mother/archetypes/host.md",
+      "coreFunction": "Maintain bounded hospitality, domestic continuity, and a usable sanctuary.",
+      "keyQualities": [
+        "Devoted",
+        "Warm",
+        "Steady",
+        "Reciprocal",
+        "Boundaried",
+        "Simple",
+        "Grounded",
+        "Gracious",
+        "Attentive",
+        "Reliable"
       ],
-      "extended": {
-        "shadows": [
-          {
-            "name": "Martyr Host",
-            "type": "active",
-            "slug": "martyr-homemaker",
-            "description": [
-              "Hospitality consumes privacy. She makes herself continually available, monitors everyone's comfort, and hides her needs until resentment leaks through service. The home looks welcoming but depends on one person having no protected interior life."
-            ],
-            "declarations": [
-              "A good home asks nothing of its guests.",
-              "Rest can wait until everyone is content.",
-              "They should notice all I do without being told."
-            ],
-            "balancing": [
-              "Name capacity before offering care.",
-              "Let household labor be visible and shared.",
-              "Protect time and space that are not communal."
-            ],
-            "gift": "Her devotion becomes sustaining warmth when welcome includes the host.",
-            "outOfBalance": [
-              "Overfunctions and keeps score",
-              "Makes unspoken sacrifices",
-              "Treats privacy as selfishness"
-            ]
-          },
-          {
-            "name": "Closed Hearth",
-            "type": "passive",
-            "slug": "withholding-hostess",
-            "description": [
-              "Hospitality goes cold as privacy becomes exclusion. She protects order, energy, or intimacy by making others feel like intruders. The hearth remains pristine but cannot perform its purpose of sheltering real, imperfect life."
-            ],
-            "declarations": [
-              "Other people disturb the peace I built.",
-              "I can connect without opening my space.",
-              "Needs are an invasion."
-            ],
-            "balancing": [
-              "Offer one clear, bounded welcome.",
-              "Allow shared space to bear signs of use.",
-              "Communicate a limit without withdrawing affection."
-            ],
-            "gift": "Her inwardness becomes restorative sanctuary when it can open and close deliberately.",
-            "outOfBalance": [
-              "Makes belonging conditional on tidiness",
-              "Withholds ordinary welcome",
-              "Uses the home to avoid relationship"
-            ]
-          }
-        ],
-        "mature": {
-          "title": "Mature Hearth Keeper",
-          "paragraphs": [
-            "The Mature Hearth Keeper creates places where bodies settle and belonging becomes tangible. She tends rhythm, beauty, food, and rest while preserving privacy and distributing labor. Her hearth has a door: it can welcome generously, close cleanly, and reopen without guilt."
-          ]
+      "activeShadowSlug": "martyr-host",
+      "passiveShadowSlug": "closed-hearth",
+      "bodySections": [
+        {
+          "role": "definition",
+          "heading": "Definition",
+          "content": "The Mature Hearth Keeper creates places where bodies settle and belonging becomes tangible. She tends rhythm, beauty, food, and rest while preserving privacy and distributing labor. Her hearth has a door: it can welcome generously, close cleanly, and reopen without guilt.\n\nThe hearth-goddess current: warmth, continuity, and reciprocal domestic care.",
+          "subsections": []
         },
+        {
+          "role": "declarations",
+          "heading": "Declarations",
+          "content": "- My welcome has shape and limits.\n- Care for the hearth includes care for its keeper.\n- Privacy renews my capacity for hospitality.\n- Belonging is made together.",
+          "subsections": []
+        },
+        {
+          "role": "balance",
+          "heading": "Balance",
+          "content": "Hospitality and Privacy are mutually correcting.\n\nHospitality makes room for another person's body, needs, and presence.\n\nPrivacy preserves inward space, rest, and the intimate boundaries of a household.",
+          "subsections": []
+        },
+        {
+          "role": "applications",
+          "heading": "Applications",
+          "content": "Make welcome without making endless availability the price of belonging.",
+          "subsections": []
+        },
+        {
+          "role": "gifts",
+          "heading": "Gifts, Responsibilities, and Challenges",
+          "content": "The hearth-goddess current: warmth, continuity, and reciprocal domestic care.",
+          "subsections": []
+        },
+        {
+          "role": "practices",
+          "heading": "Practices",
+          "content": "- State the limits of an invitation before resentment does.\n- Receive one act of care without managing how it is given.",
+          "subsections": []
+        },
+        {
+          "role": "conclusion",
+          "heading": "Living as the Host",
+          "content": "The Mature Hearth Keeper creates places where bodies settle and belonging becomes tangible. She tends rhythm, beauty, food, and rest while preserving privacy and distributing labor. Her hearth has a door: it can welcome generously, close cleanly, and reopen without guilt.",
+          "subsections": []
+        }
+      ],
+      "sections": {
+        "definition": "The Mature Hearth Keeper creates places where bodies settle and belonging becomes tangible. She tends rhythm, beauty, food, and rest while preserving privacy and distributing labor. Her hearth has a door: it can welcome generously, close cleanly, and reopen without guilt.\n\nThe hearth-goddess current: warmth, continuity, and reciprocal domestic care.",
         "declarations": [
           "My welcome has shape and limits.",
           "Care for the hearth includes care for its keeper.",
           "Privacy renews my capacity for hospitality.",
           "Belonging is made together."
         ],
-        "balance": {
-          "balance": "Hospitality ↔ Privacy",
-          "shadow": "Martyr Host ↔ Closed Hearth",
-          "powerAnimals": "Cat, Hearth Hound, Wren",
-          "qualities": "Devoted, Warm, Steady, Reciprocal, Boundaried, Simple, Grounded, Gracious, Attentive, Reliable"
-        },
-        "virtues": [
-          {
-            "title": "Hospitality",
-            "paragraphs": [
-              "Hospitality makes room for another person's body, needs, and presence."
-            ]
+        "balance": "Hospitality and Privacy are mutually correcting.\n\nHospitality makes room for another person's body, needs, and presence.\n\nPrivacy preserves inward space, rest, and the intimate boundaries of a household.",
+        "applications": "Make welcome without making endless availability the price of belonging.",
+        "giftsResponsibilitiesChallenges": "The hearth-goddess current: warmth, continuity, and reciprocal domestic care.",
+        "practices": [
+          "State the limits of an invitation before resentment does.",
+          "Receive one act of care without managing how it is given."
+        ],
+        "conclusion": "The Mature Hearth Keeper creates places where bodies settle and belonging becomes tangible. She tends rhythm, beauty, food, and rest while preserving privacy and distributing labor. Her hearth has a door: it can welcome generously, close cleanly, and reopen without guilt."
+      },
+      "shadows": [
+        {
+          "kind": "shadow",
+          "name": "Martyr Host",
+          "slug": "martyr-host",
+          "lifecycle": "mother",
+          "order": 1,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/wife-nurturer-hearth-goddess/shadows/martyr-homemaker/"
+          ],
+          "legacyAnchors": [
+            "martyr-homemaker"
+          ],
+          "qualities": [
+            "Hospitality",
+            "Privacy"
+          ],
+          "image": "assets/images/shadow/wife-nurturer-hearth-goddess--enabling-doormat.jpg",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Hospitality without Privacy",
+            "balancedQualities": "Hospitality + Privacy",
+            "activeShadow": "Martyr Host",
+            "passiveShadow": "Closed Hearth",
+            "mythicResonances": "",
+            "keyQualities": "Overfunctions and keeps score, Makes unspoken sacrifices, Treats privacy as selfishness"
           },
-          {
-            "title": "Privacy",
-            "paragraphs": [
-              "Privacy preserves inward space, rest, and the intimate boundaries of a household."
-            ]
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/martyr-host.md",
+          "parent": "host",
+          "type": "active",
+          "oppositeShadowSlug": "closed-hearth",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Hospitality martyrs without privacy.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- A good home asks nothing of its guests.\n- Rest can wait until everyone is content.\n- They should notice all I do without being told.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Hospitality consumes privacy. She makes herself continually available, monitors everyone's comfort, and hides her needs until resentment leaks through service. The home looks welcoming but depends on one person having no protected interior life.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her devotion becomes sustaining warmth when welcome includes the host.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Overfunctions and keeps score\n\nMakes unspoken sacrifices\n\nTreats privacy as selfishness",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Name capacity before offering care.\n- Let household labor be visible and shared.\n- Protect time and space that are not communal.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Closed Hearth is the opposite imbalance of Hospitality + Privacy.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Privacy and the dynamic relationship between Hospitality and Privacy. Protect host limits; reopen bounded welcome.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her devotion becomes sustaining warmth when welcome includes the host.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Active Shadow",
+            "balanceBreakdown": "Hospitality martyrs without privacy.",
+            "declarations": [
+              "A good home asks nothing of its guests.",
+              "Rest can wait until everyone is content.",
+              "They should notice all I do without being told."
+            ],
+            "psychologicalMechanics": "Hospitality consumes privacy. She makes herself continually available, monitors everyone's comfort, and hides her needs until resentment leaks through service. The home looks welcoming but depends on one person having no protected interior life.",
+            "hiddenEnergy": "Her devotion becomes sustaining warmth when welcome includes the host.",
+            "recognition": "Overfunctions and keeps score\n\nMakes unspoken sacrifices\n\nTreats privacy as selfishness",
+            "practices": [
+              "Name capacity before offering care.",
+              "Let household labor be visible and shared.",
+              "Protect time and space that are not communal."
+            ],
+            "oppositeShadow": "Closed Hearth is the opposite imbalance of Hospitality + Privacy.",
+            "transformation": "Integration restores Privacy and the dynamic relationship between Hospitality and Privacy. Protect host limits; reopen bounded welcome.",
+            "conclusion": "Her devotion becomes sustaining warmth when welcome includes the host."
           }
-        ]
-      }
+        },
+        {
+          "kind": "shadow",
+          "name": "Closed Hearth",
+          "slug": "closed-hearth",
+          "lifecycle": "mother",
+          "order": 2,
+          "aliases": [],
+          "legacyRoutes": [
+            "/mother/wife-nurturer-hearth-goddess/shadows/withholding-hostess/"
+          ],
+          "legacyAnchors": [
+            "withholding-hostess"
+          ],
+          "qualities": [
+            "Hospitality",
+            "Privacy"
+          ],
+          "image": "",
+          "profile": {
+            "lifecycleStage": "Mother",
+            "coreFunction": "Hospitality collapses while Privacy distorts",
+            "balancedQualities": "Hospitality + Privacy",
+            "activeShadow": "Martyr Host",
+            "passiveShadow": "Closed Hearth",
+            "mythicResonances": "",
+            "keyQualities": "Makes belonging conditional on tidiness, Withholds ordinary welcome, Uses the home to avoid relationship"
+          },
+          "quotes": {
+            "opening": "",
+            "closing": ""
+          },
+          "research": {
+            "status": "pending",
+            "quoteIds": [],
+            "mythicResonances": [],
+            "mythicSourceIds": []
+          },
+          "sourceFile": "mother/shadows/closed-hearth.md",
+          "parent": "host",
+          "type": "passive",
+          "oppositeShadowSlug": "martyr-host",
+          "bodySections": [
+            {
+              "role": "balanceBreakdown",
+              "heading": "Balance Breakdown",
+              "content": "Hospitality collapses while privacy becomes exclusion.",
+              "subsections": []
+            },
+            {
+              "role": "declarations",
+              "heading": "Declarations",
+              "content": "- Other people disturb the peace I built.\n- I can connect without opening my space.\n- Needs are an invasion.",
+              "subsections": []
+            },
+            {
+              "role": "psychologicalMechanics",
+              "heading": "Psychological Mechanics",
+              "content": "Hospitality goes cold as privacy becomes exclusion. She protects order, energy, or intimacy by making others feel like intruders. The hearth remains pristine but cannot perform its purpose of sheltering real, imperfect life.",
+              "subsections": []
+            },
+            {
+              "role": "hiddenEnergy",
+              "heading": "Hidden Energy",
+              "content": "Her inwardness becomes restorative sanctuary when it can open and close deliberately.",
+              "subsections": []
+            },
+            {
+              "role": "recognition",
+              "heading": "Recognition",
+              "content": "Makes belonging conditional on tidiness\n\nWithholds ordinary welcome\n\nUses the home to avoid relationship",
+              "subsections": []
+            },
+            {
+              "role": "practices",
+              "heading": "Practices",
+              "content": "- Offer one clear, bounded welcome.\n- Allow shared space to bear signs of use.\n- Communicate a limit without withdrawing affection.",
+              "subsections": []
+            },
+            {
+              "role": "oppositeShadow",
+              "heading": "Opposite Shadow",
+              "content": "Martyr Host is the opposite imbalance of Hospitality + Privacy.",
+              "subsections": []
+            },
+            {
+              "role": "transformation",
+              "heading": "Transformation",
+              "content": "Integration restores Hospitality and the dynamic relationship between Hospitality and Privacy. Protect host limits; reopen bounded welcome.",
+              "subsections": []
+            },
+            {
+              "role": "conclusion",
+              "heading": "Conclusion",
+              "content": "Her inwardness becomes restorative sanctuary when it can open and close deliberately.",
+              "subsections": []
+            }
+          ],
+          "sections": {
+            "designation": "Passive Shadow",
+            "balanceBreakdown": "Hospitality collapses while privacy becomes exclusion.",
+            "declarations": [
+              "Other people disturb the peace I built.",
+              "I can connect without opening my space.",
+              "Needs are an invasion."
+            ],
+            "psychologicalMechanics": "Hospitality goes cold as privacy becomes exclusion. She protects order, energy, or intimacy by making others feel like intruders. The hearth remains pristine but cannot perform its purpose of sheltering real, imperfect life.",
+            "hiddenEnergy": "Her inwardness becomes restorative sanctuary when it can open and close deliberately.",
+            "recognition": "Makes belonging conditional on tidiness\n\nWithholds ordinary welcome\n\nUses the home to avoid relationship",
+            "practices": [
+              "Offer one clear, bounded welcome.",
+              "Allow shared space to bear signs of use.",
+              "Communicate a limit without withdrawing affection."
+            ],
+            "oppositeShadow": "Martyr Host is the opposite imbalance of Hospitality + Privacy.",
+            "transformation": "Integration restores Hospitality and the dynamic relationship between Hospitality and Privacy. Protect host limits; reopen bounded welcome.",
+            "conclusion": "Her inwardness becomes restorative sanctuary when it can open and close deliberately."
+          }
+        }
+      ]
     }
   ]
 }
