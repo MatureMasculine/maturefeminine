@@ -3,6 +3,8 @@ const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
 const test = require("node:test");
+const vm = require("node:vm");
+const nunjucks = require("nunjucks");
 const { after, before } = test;
 
 const Eleventy = require("@11ty/eleventy");
@@ -176,7 +178,7 @@ test("the legacy Lover lifecycle root redirects to the canonical lifecycle", () 
       url: "/lover-creatrix/",
       canonicalUrl: "/lover/",
       canonicalName: "Lover",
-      anchors: redirects[0].anchors,
+      anchors: {},
     },
   );
 });
@@ -196,7 +198,7 @@ test("Eleventy emits lifecycle, archetype, shadow, and legacy redirect pages", (
   }
 });
 
-test("archetype pages render the seven approved profile fields and both shadows", () => {
+test("pending archetype pages render the six populated profile fields and both shadows", () => {
   assert.ifError(buildError);
   const html = outputText("maiden/adventurer/index.html");
   const approvedFields = [
@@ -205,7 +207,6 @@ test("archetype pages render the seven approved profile fields and both shadows"
     "balancedQualities",
     "activeShadow",
     "passiveShadow",
-    "mythicResonances",
     "keyQualities",
   ];
 
@@ -290,6 +291,7 @@ test("legacy redirects expose canonical metadata and map old shadow fragments", 
   assert.match(html, /http-equiv="refresh" content="0; url=\/maiden\/adventurer\/"/);
   assert.match(html, /#shadow-reckless-storm/);
   assert.match(html, /\/maiden\/adventurer\/shadows\/reckless-wanderer\//);
+  assert.doesNotMatch(html, /#shadow-fragile-maiden/);
 });
 
 test("body sections render full Markdown and normalized subsections", () => {
@@ -366,7 +368,7 @@ test("search input is labelled and accordion buttons own aria-expanded state", (
   assert.doesNotMatch(script, /collapse\.setAttribute\(['"]aria-expanded['"]/);
 });
 
-test("all entry profiles render exactly seven ordered approved fields", () => {
+test("pending profiles render six populated fields in canonical relative order", () => {
   assert.ifError(buildError);
   const approvedFields = [
     "lifecycleStage",
@@ -374,7 +376,6 @@ test("all entry profiles render exactly seven ordered approved fields", () => {
     "balancedQualities",
     "activeShadow",
     "passiveShadow",
-    "mythicResonances",
     "keyQualities",
   ];
   const approvedLabels = [
@@ -383,11 +384,10 @@ test("all entry profiles render exactly seven ordered approved fields", () => {
     "Balanced qualities",
     "Active shadow",
     "Passive shadow",
-    "Mythic resonances",
     "Key qualities",
   ];
 
-  for (const entry of archetypeData.entries) {
+  for (const entry of archetypeData.entries.filter((candidate) => !candidate.profile.mythicResonances)) {
     const html = outputTextForUrl(expectedEntryUrl(entry));
     const fields = [...html.matchAll(/data-profile-field="([^"]+)"/g)]
       .map((match) => match[1]);
@@ -396,6 +396,184 @@ test("all entry profiles render exactly seven ordered approved fields", () => {
     assert.deepEqual(fields, approvedFields, `${entry.slug} profile fields`);
     assert.deepEqual(labels, approvedLabels, `${entry.slug} profile labels`);
   }
+});
+
+test("a verified nonblank profile renders all seven fields in canonical order", () => {
+  const source = fs.readFileSync("src/archetype.njk", "utf8");
+  const profileTemplate = source.match(/<dl class="profile-grid mb-0">[\s\S]*?<\/dl>/)?.[0];
+  assert.ok(profileTemplate, "archetype profile template must be present");
+
+  const entry = loadCollections().archetypes[0];
+  const environment = new nunjucks.Environment(null, { autoescape: false });
+  environment.addFilter("url", (value) => value);
+  const html = environment.renderString(profileTemplate, {
+    entry: {
+      ...entry,
+      profile: { ...entry.profile, mythicResonances: "Artemis (Greek)" },
+    },
+  });
+  const fields = [...html.matchAll(/data-profile-field="([^"]+)"/g)].map((match) => match[1]);
+  const labels = [...html.matchAll(/<dt>([^<]+)<\/dt>/g)].map((match) => match[1]);
+
+  assert.deepEqual(fields, [
+    "lifecycleStage",
+    "coreFunction",
+    "balancedQualities",
+    "activeShadow",
+    "passiveShadow",
+    "mythicResonances",
+    "keyQualities",
+  ]);
+  assert.deepEqual(labels, [
+    "Lifecycle stage",
+    "Core function",
+    "Balanced qualities",
+    "Active shadow",
+    "Passive shadow",
+    "Mythic resonances",
+    "Key qualities",
+  ]);
+});
+
+test("legacy anchor maps are scoped to their canonical parent route", () => {
+  const collections = loadCollections();
+  const expectedByPath = {};
+  for (const redirect of archetypeData.redirects.filter((candidate) => candidate.type === "anchor")) {
+    const target = redirect.to.replace(
+      /^(\/[a-z-]+\/[a-z-]+\/)#shadow-([a-z-]+)$/,
+      "$1shadows/$2/",
+    );
+    const parentUrl = target.match(/^(\/[a-z-]+\/[a-z-]+\/)shadows\//)?.[1];
+    assert.ok(parentUrl, `${redirect.from} must resolve to a standalone shadow`);
+    expectedByPath[parentUrl] ||= {};
+    expectedByPath[parentUrl][redirect.from] = target;
+  }
+  const adventurerRedirect = collections.redirects.find(
+    (redirect) => redirect.url === "/maiden/adventurer-storm-tempest/",
+  );
+  const maidenRedirect = collections.redirects.find(
+    (redirect) => redirect.url === "/maiden/maiden/shadows/manipulative-maiden/",
+  );
+
+  assert.deepEqual(Object.keys(adventurerRedirect.anchors).sort(), [
+    "#shadow-paralyzed-dreamer",
+    "#shadow-reckless-storm",
+  ]);
+  assert.deepEqual(maidenRedirect.anchors, {});
+  assert.equal(Object.keys(expectedByPath).length, 22);
+  assert.equal(Object.values(expectedByPath).flatMap(Object.keys).length, 48);
+
+  for (const redirect of collections.redirects) {
+    assert.deepEqual(
+      redirect.anchors,
+      expectedByPath[redirect.canonicalUrl] || {},
+      `${redirect.url} scoped anchors`,
+    );
+    const html = outputTextForUrl(redirect.url);
+    const renderedAnchors = JSON.parse(
+      html.match(/const shadowRedirects = (\{[^;]*\});/)?.[1] || "null",
+    );
+    assert.deepEqual(renderedAnchors, redirect.anchors, `${redirect.url} rendered anchors`);
+  }
+});
+
+test("canonical legacy hashes are selected by the current pathname", () => {
+  const html = outputText("maiden/adventurer/index.html");
+  const script = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)]
+    .map((match) => match[1])
+    .find((source) => source.includes("shadowRedirectsByPath"));
+
+  assert.ok(script, "canonical legacy-hash script must render");
+  assert.match(html, /shadowRedirectsByPath\[window\.location\.pathname\]/);
+  const renderedByPath = JSON.parse(
+    script.match(/const shadowRedirectsByPath = (\{[^;]*\});/)?.[1] || "null",
+  );
+  assert.equal(Object.keys(renderedByPath).length, 22);
+  assert.equal(Object.values(renderedByPath).flatMap(Object.keys).length, 48);
+
+  function replacementsFor(pathname, hash) {
+    const replacements = [];
+    vm.runInNewContext(script, {
+      window: {
+        location: {
+          pathname,
+          hash,
+          replace(target) {
+            replacements.push(target);
+          },
+        },
+      },
+    });
+    return replacements;
+  }
+
+  assert.deepEqual(
+    replacementsFor("/maiden/adventurer/", "#shadow-reckless-storm"),
+    ["/maiden/adventurer/shadows/reckless-wanderer/"],
+  );
+  assert.deepEqual(
+    replacementsFor("/maiden/adventurer/", "#shadow-fragile-maiden"),
+    [],
+  );
+});
+
+test("internal documentation and CNAME have source-owned locations", () => {
+  const plan = "project-docs/superpowers/plans/2026-07-31-mature-feminine-field-guide-implementation.md";
+  const design = "project-docs/superpowers/specs/2026-07-31-mature-feminine-field-guide-design.md";
+
+  assert.ok(fs.existsSync(plan));
+  assert.ok(fs.existsSync(design));
+  assert.ok(!fs.existsSync("docs/superpowers"));
+  assert.equal(fs.readFileSync("src/CNAME", "utf8"), "maturefeminine.org");
+  assert.equal(outputText("CNAME"), "maturefeminine.org");
+  assert.ok(!fs.existsSync(path.join(outputDirectory, "superpowers")));
+  assert.ok(!fs.existsSync(path.join(outputDirectory, "assets/images/shadow/conrolling--networker.png")));
+  assert.doesNotMatch(fs.readFileSync(".gitignore", "utf8"), /conrolling--networker/);
+});
+
+test("site output cleaner accepts only the repository docs directory", () => {
+  const packageJson = require("../package.json");
+  const cleanerPath = path.resolve("scripts/clean_site_output.js");
+  assert.ok(fs.existsSync(cleanerPath), "safe site output cleaner must exist");
+  const cleaner = require(cleanerPath);
+  const repository = path.resolve(".");
+  const expectedOutput = path.join(repository, "docs");
+
+  assert.equal(cleaner.assertSafeOutputDirectory(expectedOutput), expectedOutput);
+  for (const unsafe of [repository, path.parse(repository).root, path.join(repository, "project-docs")]) {
+    assert.throws(() => cleaner.assertSafeOutputDirectory(unsafe), /Refusing to clean/);
+  }
+  assert.equal(
+    packageJson.scripts.build,
+    "npm run content:check && node scripts/clean_site_output.js && eleventy",
+  );
+});
+
+test("legacy anchor normalization accepts numeric slugs and rejects invalid targets", () => {
+  const redirectsPath = path.resolve("scripts/site_redirects.js");
+  assert.ok(fs.existsSync(redirectsPath), "site redirect helper must exist");
+  const { buildAnchorRedirectsByPath } = require(redirectsPath);
+
+  assert.deepEqual(
+    buildAnchorRedirectsByPath([
+      {
+        type: "anchor",
+        from: "#shadow-seer-2",
+        to: "/phase-2/guide-3/#shadow-seer-2",
+      },
+    ]),
+    {
+      "/phase-2/guide-3/": {
+        "#shadow-seer-2": "/phase-2/guide-3/shadows/seer-2/",
+      },
+    },
+  );
+  assert.throws(
+    () => buildAnchorRedirectsByPath([
+      { type: "anchor", from: "#shadow-bad", to: "/not-a-canonical-anchor" },
+    ]),
+    /Invalid legacy anchor target/,
+  );
 });
 
 test("every archetype page links both canonical shadows in its main content", () => {

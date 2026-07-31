@@ -1,6 +1,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const MarkdownIt = require("markdown-it");
+const { buildAnchorRedirectsByPath } = require("./scripts/site_redirects");
 
 const markdown = new MarkdownIt({ html: false, linkify: true });
 
@@ -9,13 +10,6 @@ function entryUrl(entry) {
     return `/${entry.lifecycle}/${entry.slug}/`;
   }
   return `/${entry.lifecycle}/${entry.parent}/shadows/${entry.slug}/`;
-}
-
-function standaloneAnchorTarget(target) {
-  return target.replace(
-    /^(\/[a-z-]+\/[a-z-]+\/)#shadow-([a-z-]+)$/,
-    "$1shadows/$2/",
-  );
 }
 
 function renderSections(sections) {
@@ -76,11 +70,7 @@ function loadSiteData() {
       (entry) => entry.kind === "archetype" && entry.lifecycle === group.slug,
     ),
   }));
-  const anchors = Object.fromEntries(
-    data.redirects
-      .filter((redirect) => redirect.type === "anchor")
-      .map((redirect) => [redirect.from, standaloneAnchorTarget(redirect.to)]),
-  );
+  const anchorsByPath = buildAnchorRedirectsByPath(data.redirects);
   const canonicalNameByUrl = new Map([
     ...groups.map((group) => [group.url, group.name]),
     ...entries.map((entry) => [entry.url, entry.name]),
@@ -94,10 +84,10 @@ function loadSiteData() {
       url: redirect.from,
       canonicalUrl: redirect.to,
       canonicalName: canonicalNameByUrl.get(redirect.to) || "Mature Feminine field guide entry",
-      anchors,
+      anchors: anchorsByPath[redirect.to] || {},
     }));
 
-  return { groups, entries, redirects, anchors };
+  return { groups, entries, redirects, anchorsByPath };
 }
 
 module.exports = function(eleventyConfig) {
@@ -106,6 +96,9 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy({
     "src/.nojekyll": ".nojekyll"
+  });
+  eleventyConfig.addPassthroughCopy({
+    "src/CNAME": "CNAME"
   });
 
   eleventyConfig.addFilter("slug", function(str) {
@@ -146,8 +139,8 @@ module.exports = function(eleventyConfig) {
     return loadSiteData().redirects;
   });
 
-  eleventyConfig.addGlobalData("shadowAnchorRedirects", () => {
-    return loadSiteData().anchors;
+  eleventyConfig.addGlobalData("shadowAnchorRedirectsByPath", () => {
+    return loadSiteData().anchorsByPath;
   });
 
   // Fix common UTF-8/Latin-1 mojibake artifacts at render time

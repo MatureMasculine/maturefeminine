@@ -75,7 +75,8 @@
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
     <script>
       (function () {
-        const shadowRedirects = {{ shadowAnchorRedirects | dump | safe }};
+        const shadowRedirectsByPath = {{ shadowAnchorRedirectsByPath | dump | safe }};
+        const shadowRedirects = shadowRedirectsByPath[window.location.pathname] || {};
         const target = shadowRedirects[window.location.hash];
         if (target) window.location.replace(target);
       }());

@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
     <link rel="canonical" href="{{ redirect.canonicalUrl }}">
     <script>
       (function () {
-        const shadowRedirects = {{ shadowAnchorRedirects | dump | safe }};
+        const shadowRedirects = {{ redirect.anchors | dump | safe }};
         const target = shadowRedirects[window.location.hash] || {{ redirect.canonicalUrl | dump | safe }};
         window.location.replace(target);
       }());

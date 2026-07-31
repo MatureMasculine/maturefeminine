@@ -34,7 +34,9 @@ eleventyComputed:
     <div data-profile-field="balancedQualities"><dt>Balanced qualities</dt><dd>{{ entry.profile.balancedQualities }}</dd></div>
     <div data-profile-field="activeShadow"><dt>Active shadow</dt><dd><a href="{{ entry.activeShadow.url | url }}">{{ entry.profile.activeShadow }}</a></dd></div>
     <div data-profile-field="passiveShadow"><dt>Passive shadow</dt><dd><a href="{{ entry.passiveShadow.url | url }}">{{ entry.profile.passiveShadow }}</a></dd></div>
+{% if entry.profile.mythicResonances %}
     <div data-profile-field="mythicResonances"><dt>Mythic resonances</dt><dd>{{ entry.profile.mythicResonances }}</dd></div>
+{% endif %}
     <div data-profile-field="keyQualities"><dt>Key qualities</dt><dd>{{ entry.profile.keyQualities }}</dd></div>
   </dl>
 </section>
