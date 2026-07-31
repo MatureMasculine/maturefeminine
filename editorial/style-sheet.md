@@ -84,7 +84,7 @@ A shadow spread must include:
 6. psychological mechanics and possible protective purpose;
 7. the useful energy hidden inside the shadow;
 8. recognition in concrete domains where relevant;
-9. practices that restore the missing quality;
+9. practices that restore Quality B for an active shadow or Quality A for a passive shadow;
 10. a clear relation to the opposite shadow;
 11. transformation toward the parent;
 12. a grounded conclusion; and
@@ -112,9 +112,9 @@ State the balance equation exactly once in the profile and explain it in prose:
 
 `Mature [Archetype] = [Quality A] + [Quality B]`
 
-The active shadow is Quality A inflated, weaponized, or overexpressed without Quality B. The passive shadow is the collapse or abdication of Quality A while Quality B becomes a refuge, distortion, or substitute. Show the causal chain in observable behavior; do not merely list two vices.
+The active shadow is Quality A inflated, weaponized, or overexpressed without Quality B; active integration restores Quality B. The passive shadow is the collapse or abdication of Quality A while Quality B becomes a refuge, distortion, or substitute; passive integration restores Quality A. Show the causal chain in observable behavior; do not merely list two vices.
 
-Integration is not suppression of the shadow's energy. It restores the missing quality and the relationship between both qualities. Name the useful energy the shadow carries, the effect of the imbalance, and a concrete practice of return. Never call a shadow evil, toxic, crazy, broken, narcissistic, hysterical, or a fixed personality type.
+Integration is not suppression of the shadow's energy. In both directions, restoring the missing quality also restores the dynamic relationship between Quality A and Quality B. Name the useful energy the shadow carries, the effect of the imbalance, and a concrete practice of return. Never call a shadow evil, toxic, crazy, broken, narcissistic, hysterical, or a fixed personality type.
 
 ## Declarations
 
@@ -156,8 +156,11 @@ Every final archetype and shadow has exactly two short, verified quotations: one
 
 ## Mythic resonances
 
-Mythic figures appear only in the compact **Mythic Resonances** profile field beneath the image. They do not appear in titles, body prose, captions, declarations, headings, or explanatory mythology sections.
+In reader-facing material, mythic figures appear only in the compact **Mythic Resonances** profile field beneath the image. They do not appear in titles, body prose, captions, declarations, headings, or explanatory mythology sections.
 
+- Every parent archetype and every active and passive shadow owns a separate resonance assignment. A shadow's assignment must be specific to that shadow, supported by one or more independently verified research/source identifiers, and must never inherit the parent's figures or use a parent figure to stand for the shadow.
+- Task 1 may preserve internal candidates, but it does not supply print-ready shadow assignments. Tasks 4 and 6 must research and verify all 44 shadow-level values; until each value and its source identifiers are present, that shadow's Mythic Resonances field is not printable and blocks editorial readiness.
+- Seshat, Athena, and every other named figure in the taxonomy or migration records are internal historical references or field-only candidates. A name becomes reader-facing only in a verified Mythic Resonances field and never becomes a title, prose alias, body-copy label, or shadow-by-inheritance.
 - Verify every resonance in the source ledger with the tradition, function claimed, spelling/transliteration, and a reputable source.
 - Label traditions precisely. Do not call a figure merely “ancient,” “Eastern,” “Indigenous,” or “goddess tradition.”
 - Never present figures from different traditions as names for the same universal being or collapse their differences into a type.
