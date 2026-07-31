@@ -459,11 +459,28 @@ test("publish validation independently rejects identical normalized quotation te
   assert.throws(() => validateBook(book, { publish: true }), /identical normalized quotation text/i);
 });
 
+test("publish validation rejects an empty quotation section even when both IDs are populated", () => {
+  const book = loadBook(fixture());
+  assert.equal(book.entries[0].research.quoteIds.length, 2);
+  book.entries[0].quotes.opening = "";
+
+  assert.throws(() => validateBook(book, { publish: true }), /empty required quotation sections/i);
+});
+
 test("publish validation independently rejects a missing verified mythic source", () => {
   const book = loadBook(fixture());
   book.entries[0].research.mythicSourceIds = [];
 
   assert.throws(() => validateBook(book, { publish: true }), /missing verified mythic (assignments or )?source/i);
+});
+
+test("publish validation rejects a parent and shadow that reuse a mythic source ID", () => {
+  const book = loadBook(fixture());
+  const parent = book.entries.find((entry) => entry.slug === "adventurer");
+  const active = book.entries.find((entry) => entry.slug === "reckless-wanderer");
+  active.research.mythicSourceIds = [...parent.research.mythicSourceIds];
+
+  assert.throws(() => validateBook(book, { publish: true }), /reuses mythic source ID myth-parent-1/i);
 });
 
 test("publish validation independently rejects an invalid declaration count", () => {
@@ -513,13 +530,14 @@ test("structural validation permits blank mythic assignments while research is p
   assert.doesNotThrow(() => validateBook(book));
 });
 
-test("publish validation rejects any parent-shadow mythic resonance overlap", () => {
+test("publish validation rejects case- and whitespace-normalized parent-shadow mythic resonance overlap", () => {
   const directory = fixture();
   const book = loadBook(directory);
   const active = book.entries.find((entry) => entry.slug === "reckless-wanderer");
-  active.research.mythicResonances.push("Artemis (Greek)");
+  active.research.mythicResonances.push("  artemis   (Hellenic)  ");
+  active.profile.mythicResonances = active.research.mythicResonances.join(", ");
 
-  assert.throws(() => validateBook(book, { publish: true }), /inherits parent mythic resonance Artemis \(Greek\)/i);
+  assert.throws(() => validateBook(book, { publish: true }), /inherits parent mythic resonance.*artemis.*Hellenic/i);
 });
 
 test("publish validation rejects assigned mythic figures in reader-facing content outside the profile", async (t) => {
@@ -528,6 +546,10 @@ test("publish validation rejects assigned mythic figures in reader-facing conten
     "body heading": (entry) => { entry.bodySections[0].heading = "Artemis and the threshold"; },
     "body subsection heading": (entry) => { entry.bodySections[0].subsections.push({ heading: "Artemis returns", content: "A note." }); },
     "body paragraph": (entry) => { entry.bodySections[0].content += " Artemis changes the pattern."; },
+    "profile key qualities": (entry) => {
+      entry.keyQualities = ["Artemis"];
+      entry.profile.keyQualities = "Artemis";
+    },
     "designation body": (entry) => {
       const shadowEntry = entry.shadows[0];
       shadowEntry.research.mythicResonances = ["Artemis (Greek)"];
@@ -599,35 +621,63 @@ test("canonical validation locks names, lifecycle, qualities, and parent-shadow 
 test("canonical validation rejects explicitly retired balance language", () => {
   const magicianBook = loadBook(contentDir);
   const magician = magicianBook.entries.find((entry) => entry.slug === "magician");
-  magician.sections.balance = "Power acts while Integrity constrains it.";
+  magician.sections.balance = "Power + Integrity are mutually correcting.";
   assert.throws(() => validateCanonicalBook(magicianBook), /magician.*retired balance language.*Power/i);
 
   const storytellerBook = loadBook(contentDir);
   const storyteller = storytellerBook.entries.find((entry) => entry.slug === "storyteller");
-  storyteller.sections.balance = "Honesty and Imagination work together.";
+  storyteller.sections.balance = "Honesty + Imagination are mutually correcting.";
   assert.throws(() => validateCanonicalBook(storytellerBook), /storyteller.*retired balance language.*Honesty|storyteller.*retired balance language.*Imagination/i);
 });
 
-test("restored Magician and Storyteller prose contains only the canonical balance mechanics", () => {
-  const book = loadBook(contentDir);
-  const readerFacingBody = (entry) => entry.bodySections.flatMap((section) => [
-    section.heading,
-    section.content,
-    ...section.subsections.flatMap((subsection) => [subsection.heading, subsection.content]),
-  ]).join("\n");
+test("canonical validation rejects the superseded causal balance formulations", () => {
+  const magicianBook = loadBook(contentDir);
+  const magician = magicianBook.entries.find((entry) => entry.slug === "magician");
+  magician.sections.balance = "Agency acts, yet power is never meant to stand alone. Untethered from Integrity, it overreaches.";
+  assert.throws(() => validateCanonicalBook(magicianBook), /magician.*retired balance language.*Power/i);
 
-  const magicianFamily = ["magician", "manipulative-sorceress", "powerless-mystic"]
-    .map((slug) => readerFacingBody(book.entries.find((entry) => entry.slug === slug)))
-    .join("\n");
+  const storytellerBook = loadBook(contentDir);
+  const storyteller = storytellerBook.entries.find((entry) => entry.slug === "storyteller");
+  storyteller.sections.balance = "Honesty is never meant to stand alone. Untethered from Imagination, the account collapses.";
+  assert.throws(() => validateCanonicalBook(storytellerBook), /storyteller.*retired balance language.*Honesty.*Imagination/i);
+
+  const magicianCausalBook = loadBook(contentDir);
+  const magicianCausal = magicianCausalBook.entries.find((entry) => entry.slug === "magician");
+  magicianCausal.sections.balance = "Power acts while Integrity constrains it.";
+  assert.throws(() => validateCanonicalBook(magicianCausalBook), /magician.*retired balance language.*Power/i);
+
+  const storytellerCausalBook = loadBook(contentDir);
+  const storytellerCausal = storytellerCausalBook.entries.find((entry) => entry.slug === "storyteller");
+  storytellerCausal.sections.balance = "Honesty guides Imagination.";
+  assert.throws(() => validateCanonicalBook(storytellerCausalBook), /storyteller.*retired balance language.*Honesty.*Imagination/i);
+});
+
+test("canonical validation permits ordinary Power, Honesty, and Imagination vocabulary outside legacy balance mechanics", () => {
+  const book = loadBook(contentDir);
+  const magician = book.entries.find((entry) => entry.slug === "magician");
+  const storyteller = book.entries.find((entry) => entry.slug === "storyteller");
+  magician.sections.balance += " Responsible power remains answerable to consequence and Integrity.";
+  storyteller.sections.balance += " Honesty about memory leaves room for creative imagination within Narrative Imagination and Fidelity.";
+
+  assert.doesNotThrow(() => validateCanonicalBook(book));
+});
+
+test("restored Magician and Storyteller semantic balance roles use the canonical mechanics", () => {
+  const book = loadBook(contentDir);
+  const semanticBalanceText = (slug) => {
+    const entry = book.entries.find((candidate) => candidate.slug === slug);
+    return entry.kind === "archetype"
+      ? entry.sections.balance
+      : `${entry.sections.balanceBreakdown}\n${entry.sections.transformation}`;
+  };
+
+  const magicianFamily = ["magician", "manipulative-sorceress", "powerless-mystic"].map(semanticBalanceText).join("\n");
   assert.match(magicianFamily, /\bAgency\b/);
   assert.match(magicianFamily, /\bIntegrity\b/);
-  assert.doesNotMatch(magicianFamily, /\bPower\b/i);
+  assert.doesNotMatch(magicianFamily, /\bPower\s*(?:\+|and)\s*Integrity\b/i);
 
-  const storytellerFamily = ["storyteller", "exaggerating-dramatist", "silent-keeper"]
-    .map((slug) => readerFacingBody(book.entries.find((entry) => entry.slug === slug)))
-    .join("\n");
+  const storytellerFamily = ["storyteller", "exaggerating-dramatist", "silent-keeper"].map(semanticBalanceText).join("\n");
   assert.match(storytellerFamily, /Narrative Imagination/);
   assert.match(storytellerFamily, /\bFidelity\b/);
-  const withoutCanonicalPhrase = storytellerFamily.replaceAll(/Narrative Imagination/gi, "");
-  assert.doesNotMatch(withoutCanonicalPhrase, /\bHonesty\b|\bImagination\b/i);
+  assert.doesNotMatch(storytellerFamily, /\bHonesty\s*(?:\+|and)\s*Imagination\b/i);
 });

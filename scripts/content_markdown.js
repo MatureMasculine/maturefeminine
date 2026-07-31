@@ -321,7 +321,11 @@ function normalizeInlineText(value) {
 }
 
 function normalizeQuotationText(value) {
-  return normalizeInlineText(value).toLocaleLowerCase("en-US");
+  return normalizeComparableText(value);
+}
+
+function normalizeComparableText(value) {
+  return normalizeInlineText(value.normalize("NFKC")).toLocaleLowerCase("en-US");
 }
 
 function mythicFigure(resonance) {
@@ -342,11 +346,16 @@ function readerFacingText(entry) {
   const wrappers = entry.kind === "shadow"
     ? ["Designation", entry.sections.designation, "Opening Quotation", "Closing Quotation"]
     : ["Opening Quotation", "Closing Quotation"];
-  return [entry.name, ...wrappers, entry.quotes.opening, entry.quotes.closing, ...body].join("\n");
+  const profile = PROFILE_FIELDS
+    .filter(([, key]) => key !== "mythicResonances")
+    .map(([, key]) => entry.profile[key]);
+  return [entry.name, ...wrappers, ...profile, entry.quotes.opening, entry.quotes.closing, ...body].join("\n");
 }
 
-function canonicalMechanicsText(entry) {
-  return Object.values(entry.sections).flat().join("\n");
+function semanticBalanceText(entry) {
+  return entry.kind === "archetype"
+    ? entry.sections.balance
+    : `${entry.sections.balanceBreakdown}\n${entry.sections.transformation}`;
 }
 
 function validateBook(book, { publish = false } = {}) {
@@ -438,9 +447,9 @@ function validateBook(book, { publish = false } = {}) {
     if (entry.kind === "shadow") {
       const parent = parents.get(entry.parent);
       if (parent) {
-        const parentResonances = new Set(parent.research.mythicResonances);
+        const parentResonances = new Set(parent.research.mythicResonances.map((resonance) => normalizeComparableText(mythicFigure(resonance))));
         for (const resonance of entry.research.mythicResonances) {
-          if (parentResonances.has(resonance)) failures.push(`${label} inherits parent mythic resonance ${resonance}`);
+          if (parentResonances.has(normalizeComparableText(mythicFigure(resonance)))) failures.push(`${label} inherits parent mythic resonance ${resonance}`);
         }
       }
     }
@@ -502,17 +511,17 @@ function validateCanonicalBook(book, taxonomy = loadCanonicalTaxonomy()) {
   }
   const magician = bySlug.get("magician");
   if (magician) {
-    const retiredPower = [magician, ...magician.shadows].some((entry) => /\bPower\b/i.test(canonicalMechanicsText(entry)));
+    const mechanics = [magician, ...magician.shadows].map(semanticBalanceText).join("\n");
+    const retiredPower = /\b(?:Power\s*(?:\+|and|with|without)\s*Integrity|Integrity\s*(?:\+|and|with|without)\s*Power|Power\s+(?:acts|guides|balances|moves|works|channels|corrects|tempers)[^.!?\n]*\bIntegrity|Integrity\s+(?:acts|guides|balances|moves|works|channels|corrects|tempers)[^.!?\n]*\bPower|power is never meant to stand alone|without power|coupled with power)\b/i.test(mechanics);
     if (retiredPower) failures.push("queen/magician retired balance language Power");
   }
   const storyteller = bySlug.get("storyteller");
   if (storyteller) {
     const mechanics = [storyteller, ...storyteller.shadows]
-      .map(canonicalMechanicsText)
-      .join("\n")
-      .replace(/Narrative\s+Imagination/gi, "");
-    const retired = mechanics.match(/\b(Honesty|Imagination)\b/i);
-    if (retired) failures.push(`crone/storyteller retired balance language ${retired[1]}`);
+      .map(semanticBalanceText)
+      .join("\n");
+    const retired = /\b(?:Honesty\s*(?:\+|and|with|without)\s*Imagination|Imagination\s*(?:\+|and|with|without)\s*Honesty|Honesty\s+(?:acts|guides|balances|moves|works|channels|corrects|tempers)[^.!?\n]*\bImagination|Imagination\s+(?:acts|guides|balances|moves|works|channels|corrects|tempers)[^.!?\n]*\bHonesty|honesty is never meant to stand alone|imagination is never meant to stand alone|untethered from imagination|without honesty|coupled with honesty)\b/i.test(mechanics);
+    if (retired) failures.push("crone/storyteller retired balance language Honesty/Imagination");
   }
   if (failures.length) throw new Error(failures.join("\n"));
   return true;
