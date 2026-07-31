@@ -1,0 +1,28 @@
+---
+pagination:
+  data: collections.redirects
+  size: 1
+  alias: redirect
+permalink: "{{ redirect.url }}index.html"
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Redirecting to {{ redirect.canonicalName }}</title>
+    <link rel="canonical" href="{{ redirect.canonicalUrl }}">
+    <script>
+      (function () {
+        const shadowRedirects = {{ shadowAnchorRedirects | dump | safe }};
+        const target = shadowRedirects[window.location.hash] || {{ redirect.canonicalUrl | dump | safe }};
+        window.location.replace(target);
+      }());
+    </script>
+    <meta http-equiv="refresh" content="0; url={{ redirect.canonicalUrl }}">
+  </head>
+  <body>
+    <p>This page has moved to <a href="{{ redirect.canonicalUrl }}">{{ redirect.canonicalName }}</a>.</p>
+  </body>
+</html>

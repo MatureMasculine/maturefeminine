@@ -1,3 +1,105 @@
+const fs = require("node:fs");
+const path = require("node:path");
+const MarkdownIt = require("markdown-it");
+
+const markdown = new MarkdownIt({ html: false, linkify: true });
+
+function entryUrl(entry) {
+  if (entry.kind === "archetype") {
+    return `/${entry.lifecycle}/${entry.slug}/`;
+  }
+  return `/${entry.lifecycle}/${entry.parent}/shadows/${entry.slug}/`;
+}
+
+function standaloneAnchorTarget(target) {
+  return target.replace(
+    /^(\/[a-z-]+\/[a-z-]+\/)#shadow-([a-z-]+)$/,
+    "$1shadows/$2/",
+  );
+}
+
+function renderSections(sections) {
+  return (sections || []).map((section) => {
+    const subsections = (section.subsections || []).map((subsection) => `
+<section class="entry-subsection">
+  <h3 class="h5">${markdown.utils.escapeHtml(subsection.heading)}</h3>
+  ${markdown.render(subsection.content || "")}
+</section>`).join("");
+
+    return `<section class="mf-box entry-section mb-3">
+  <h2 class="h4">${markdown.utils.escapeHtml(section.heading)}</h2>
+  ${markdown.render(section.content || "")}${subsections}
+</section>`;
+  }).join("\n");
+}
+
+function loadSiteData() {
+  const file = path.join(__dirname, "src", "_data", "archetypes.json");
+  const data = JSON.parse(fs.readFileSync(file, "utf8"));
+  const groupBySlug = new Map(data.groups.map((group) => [group.slug, group]));
+  const baseEntries = data.entries.map((entry) => ({
+    ...entry,
+    url: entryUrl(entry),
+    lifecycleName: groupBySlug.get(entry.lifecycle)?.name || entry.lifecycle,
+  }));
+  const entryByUrl = new Map(baseEntries.map((entry) => [entry.url, entry]));
+
+  const entries = baseEntries.map((entry) => {
+    if (entry.kind === "archetype") {
+      const shadows = baseEntries.filter(
+        (candidate) => candidate.kind === "shadow"
+          && candidate.lifecycle === entry.lifecycle
+          && candidate.parent === entry.slug,
+      );
+      return {
+        ...entry,
+        shadows,
+        activeShadow: shadows.find((shadow) => shadow.type === "active"),
+        passiveShadow: shadows.find((shadow) => shadow.type === "passive"),
+      };
+    }
+
+    const parentUrl = `/${entry.lifecycle}/${entry.parent}/`;
+    const oppositeUrl = `/${entry.lifecycle}/${entry.parent}/shadows/${entry.oppositeShadowSlug}/`;
+    return {
+      ...entry,
+      parentUrl,
+      parentName: entryByUrl.get(parentUrl)?.name || entry.parent,
+      oppositeUrl,
+      oppositeName: entryByUrl.get(oppositeUrl)?.name || entry.oppositeShadowSlug,
+    };
+  });
+  const groups = data.groups.map((group) => ({
+    ...group,
+    url: `/${group.slug}/`,
+    archetypes: entries.filter(
+      (entry) => entry.kind === "archetype" && entry.lifecycle === group.slug,
+    ),
+  }));
+  const anchors = Object.fromEntries(
+    data.redirects
+      .filter((redirect) => redirect.type === "anchor")
+      .map((redirect) => [redirect.from, standaloneAnchorTarget(redirect.to)]),
+  );
+  const canonicalNameByUrl = new Map([
+    ...groups.map((group) => [group.url, group.name]),
+    ...entries.map((entry) => [entry.url, entry.name]),
+  ]);
+  const redirects = [
+    ...data.redirects.filter((redirect) => redirect.type === "route"),
+    { from: "/lover-creatrix/", to: "/lover/", type: "route" },
+  ]
+    .map((redirect) => ({
+      ...redirect,
+      url: redirect.from,
+      canonicalUrl: redirect.to,
+      canonicalName: canonicalNameByUrl.get(redirect.to) || "Mature Feminine field guide entry",
+      anchors,
+    }));
+
+  return { groups, entries, redirects, anchors };
+}
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "src/assets": "assets"
@@ -16,70 +118,36 @@ module.exports = function(eleventyConfig) {
       .replace(/^-|-$/g, "");
   });
 
-  // Helper: load all group_*.json files from src/_data, sorted by filename
-  function loadGroups() {
-    const fs = require("fs");
-    const path = require("path");
-    const dataDir = path.join(__dirname, "src", "_data");
-    const files = fs
-      .readdirSync(dataDir)
-      .filter(f => /^group_.*\.json$/i.test(f))
-      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
-    const groups = [];
-    for (const file of files) {
-      const full = path.join(dataDir, file);
-      let raw = "";
-      try {
-        raw = fs.readFileSync(full, "utf8");
-        if (!raw || !raw.trim()) {
-          console.warn(`[11ty] Skipping empty data file: ${file}`);
-          continue;
-        }
-        const obj = JSON.parse(raw);
-        // Map file schema to group schema
-        groups.push({
-          name: obj.name || obj.group || "",
-          slug: obj.slug || "",
-          summary: obj.summary || "",
-          essence: obj.essence || "",
-          items: Array.isArray(obj.items) ? obj.items : []
-        });
-      } catch (e) {
-        console.warn(`[11ty] Skipping invalid JSON in ${file}: ${e.message}`);
-        continue;
-      }
-    }
-    return groups;
-  }
-
-  // Provide a collection for groups from data
+  // All site collections share the normalized aggregate generated from Markdown.
   eleventyConfig.addCollection("groups", () => {
-    return loadGroups();
+    return loadSiteData().groups;
   });
 
-  // Flatten items with group metadata
-  eleventyConfig.addCollection("items", () => {
-    const groups = loadGroups();
-    const items = [];
-    for (const g of groups) {
-      for (const it of (g.items || [])) {
-        items.push({
-          ...it,
-          groupName: g.name,
-          groupSlug: g.slug,
-          groupSummary: g.summary,
-        });
-      }
-    }
-    return items;
+  eleventyConfig.addCollection("indexes", () => {
+    return [
+      { kind: "home", name: "The Mature Feminine", url: "/" },
+      ...loadSiteData().groups.map((group) => ({ ...group, kind: "lifecycle" })),
+    ];
   });
 
-  // Filters for prev/next navigation
-  eleventyConfig.addFilter("itemsByGroup", (items, groupSlug) => {
-    return (items || []).filter(i => i.groupSlug === groupSlug);
+  eleventyConfig.addCollection("entries", () => {
+    return loadSiteData().entries;
   });
-  eleventyConfig.addFilter("findIndexBySlug", (items, slug) => {
-    return (items || []).findIndex(i => i.slug === slug);
+
+  eleventyConfig.addCollection("archetypes", () => {
+    return loadSiteData().entries.filter((entry) => entry.kind === "archetype");
+  });
+
+  eleventyConfig.addCollection("shadows", () => {
+    return loadSiteData().entries.filter((entry) => entry.kind === "shadow");
+  });
+
+  eleventyConfig.addCollection("redirects", () => {
+    return loadSiteData().redirects;
+  });
+
+  eleventyConfig.addGlobalData("shadowAnchorRedirects", () => {
+    return loadSiteData().anchors;
   });
 
   // Fix common UTF-8/Latin-1 mojibake artifacts at render time
@@ -124,6 +192,8 @@ module.exports = function(eleventyConfig) {
     }
     return str;
   });
+
+  eleventyConfig.addFilter("renderSections", renderSections);
 
   return {
     dir: {

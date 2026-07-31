@@ -1,814 +1,1090 @@
 {
   "items": [
-    
-    
-      
-        {
-          "type": "item",
-          "group": "Maiden",
-          "groupSlug": "maiden",
-          "name": "Adventurer",
-          "slug": "adventurer-storm-tempest",
-          "qualities": ["daring","prudence"],
-          "href": "/maiden/adventurer-storm-tempest/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Maiden",
-              "groupSlug": "maiden",
-              "name": "Reckless Wanderer",
-              "slug": "adventurer-storm-tempest",
-              "qualities": "",
-              "href": "/maiden/adventurer-storm-tempest/#shadow-reckless-storm"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Maiden",
-              "groupSlug": "maiden",
-              "name": "Sheltered Dreamer",
-              "slug": "adventurer-storm-tempest",
-              "qualities": "",
-              "href": "/maiden/adventurer-storm-tempest/#shadow-paralyzed-dreamer"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Maiden",
-          "groupSlug": "maiden",
-          "name": "Maiden",
-          "slug": "maiden",
-          "qualities": ["wonder","discernment"],
-          "href": "/maiden/maiden/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Maiden",
-              "groupSlug": "maiden",
-              "name": "Naive Enthusiast",
-              "slug": "maiden",
-              "qualities": "",
-              "href": "/maiden/maiden/#shadow-manipulative-maiden"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Maiden",
-              "groupSlug": "maiden",
-              "name": "Frozen Beginner",
-              "slug": "maiden",
-              "qualities": "",
-              "href": "/maiden/maiden/#shadow-fragile-maiden"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Maiden",
-          "groupSlug": "maiden",
-          "name": "Young Visionary",
-          "slug": "young-visionary-oracle",
-          "qualities": ["intuition","verification"],
-          "href": "/maiden/young-visionary-oracle/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Maiden",
-              "groupSlug": "maiden",
-              "name": "Inflated Oracle",
-              "slug": "young-visionary-oracle",
-              "qualities": "",
-              "href": "/maiden/young-visionary-oracle/#shadow-fanatic-prophet"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Maiden",
-              "groupSlug": "maiden",
-              "name": "Self-Doubting Seer",
-              "slug": "young-visionary-oracle",
-              "qualities": "",
-              "href": "/maiden/young-visionary-oracle/#shadow-lost-dreamer"
-            }
-            
-          
-        
-      
-    
-      
-        ,{
-          "type": "item",
-          "group": "Lover",
-          "groupSlug": "lover-creatrix",
-          "name": "Creatrix",
-          "slug": "creatrix-spider-weaver",
-          "qualities": ["structure","flow"],
-          "href": "/lover-creatrix/creatrix-spider-weaver/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Compulsive Perfecter",
-              "slug": "creatrix-spider-weaver",
-              "qualities": "",
-              "href": "/lover-creatrix/creatrix-spider-weaver/#shadow-obsessive-perfectionist"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Scattered Maker",
-              "slug": "creatrix-spider-weaver",
-              "qualities": "",
-              "href": "/lover-creatrix/creatrix-spider-weaver/#shadow-scattered-creator"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Lover",
-          "groupSlug": "lover-creatrix",
-          "name": "Devoted Consort",
-          "slug": "devoted-consort-beloved",
-          "qualities": ["surrender","dignity"],
-          "href": "/lover-creatrix/devoted-consort-beloved/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Self-Erasing Worshipper",
-              "slug": "devoted-consort-beloved",
-              "qualities": "",
-              "href": "/lover-creatrix/devoted-consort-beloved/#shadow-enmeshing-worshipper"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Untouchable Beloved",
-              "slug": "devoted-consort-beloved",
-              "qualities": "",
-              "href": "/lover-creatrix/devoted-consort-beloved/#shadow-aloof-sovereign"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Lover",
-          "groupSlug": "lover-creatrix",
-          "name": "Muse",
-          "slug": "muse-song-goddess",
-          "qualities": ["expression","receptivity"],
-          "href": "/lover-creatrix/muse-song-goddess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Flooding Muse",
-              "slug": "muse-song-goddess",
-              "qualities": "",
-              "href": "/lover-creatrix/muse-song-goddess/#shadow-chaotic-inspiration"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Silenced Muse",
-              "slug": "muse-song-goddess",
-              "qualities": "",
-              "href": "/lover-creatrix/muse-song-goddess/#shadow-silent-songbird"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Lover",
-          "groupSlug": "lover-creatrix",
-          "name": "Sacred Lover",
-          "slug": "sacred-lover-love-goddess",
-          "qualities": ["devotion","sovereignty"],
-          "href": "/lover-creatrix/sacred-lover-love-goddess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Enmeshing Enchantress",
-              "slug": "sacred-lover-love-goddess",
-              "qualities": "",
-              "href": "/lover-creatrix/sacred-lover-love-goddess/#shadow-intoxicating-siren"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Armored Lover",
-              "slug": "sacred-lover-love-goddess",
-              "qualities": "",
-              "href": "/lover-creatrix/sacred-lover-love-goddess/#shadow-armored-heart"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Lover",
-          "groupSlug": "lover-creatrix",
-          "name": "Young Healer",
-          "slug": "young-healer-priestess",
-          "qualities": ["compassion","boundaries"],
-          "href": "/lover-creatrix/young-healer-priestess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Rescuing Healer",
-              "slug": "young-healer-priestess",
-              "qualities": "",
-              "href": "/lover-creatrix/young-healer-priestess/#shadow-savior-priestess"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Lover",
-              "groupSlug": "lover-creatrix",
-              "name": "Guarded Healer",
-              "slug": "young-healer-priestess",
-              "qualities": "",
-              "href": "/lover-creatrix/young-healer-priestess/#shadow-wounded-healer"
-            }
-            
-          
-        
-      
-    
-      
-        ,{
-          "type": "item",
-          "group": "Mother",
-          "groupSlug": "mother",
-          "name": "Guardian",
-          "slug": "guardian-buffalo-woman",
-          "qualities": ["protection","trust"],
-          "href": "/mother/guardian-buffalo-woman/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Controlling Sentinel",
-              "slug": "guardian-buffalo-woman",
-              "qualities": "",
-              "href": "/mother/guardian-buffalo-woman/#shadow-rigid-sentinel"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Open Gate",
-              "slug": "guardian-buffalo-woman",
-              "qualities": "",
-              "href": "/mother/guardian-buffalo-woman/#shadow-naive-pushover"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Mother",
-          "groupSlug": "mother",
-          "name": "Mother",
-          "slug": "mother",
-          "qualities": ["nurture","autonomy"],
-          "href": "/mother/mother/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Engulfing Mother",
-              "slug": "mother",
-              "qualities": "",
-              "href": "/mother/mother/#shadow-devouring-mother"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Unavailable Mother",
-              "slug": "mother",
-              "qualities": "",
-              "href": "/mother/mother/#shadow-absent-mother"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Mother",
-          "groupSlug": "mother",
-          "name": "Peacemaker",
-          "slug": "peacemaker-peace-bringer",
-          "qualities": ["reconciliation","confrontation"],
-          "href": "/mother/peacemaker-peace-bringer/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Peace Enforcer",
-              "slug": "peacemaker-peace-bringer",
-              "qualities": "",
-              "href": "/mother/peacemaker-peace-bringer/#shadow-conflict-avoider"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Resentful Bystander",
-              "slug": "peacemaker-peace-bringer",
-              "qualities": "",
-              "href": "/mother/peacemaker-peace-bringer/#shadow-righteous-judge"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Mother",
-          "groupSlug": "mother",
-          "name": "Warrior",
-          "slug": "warrior-warrioress-huntress",
-          "qualities": ["ferocity","restraint"],
-          "href": "/mother/warrior-warrioress-huntress/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Rampaging Warrior",
-              "slug": "warrior-warrioress-huntress",
-              "qualities": "",
-              "href": "/mother/warrior-warrioress-huntress/#shadow-destructive-berserker"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Disarmed Warrior",
-              "slug": "warrior-warrioress-huntress",
-              "qualities": "",
-              "href": "/mother/warrior-warrioress-huntress/#shadow-collapsed-victim"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Mother",
-          "groupSlug": "mother",
-          "name": "Community Weaver",
-          "slug": "weaver-community-goddess",
-          "qualities": ["belonging","accountability"],
-          "href": "/mother/weaver-community-goddess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Enmeshing Networker",
-              "slug": "weaver-community-goddess",
-              "qualities": "",
-              "href": "/mother/weaver-community-goddess/#shadow-manipulative-networker"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Isolated Helper",
-              "slug": "weaver-community-goddess",
-              "qualities": "",
-              "href": "/mother/weaver-community-goddess/#shadow-isolated-helper"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Mother",
-          "groupSlug": "mother",
-          "name": "Hearth Keeper",
-          "slug": "wife-nurturer-hearth-goddess",
-          "qualities": ["hospitality","privacy"],
-          "href": "/mother/wife-nurturer-hearth-goddess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Martyr Host",
-              "slug": "wife-nurturer-hearth-goddess",
-              "qualities": "",
-              "href": "/mother/wife-nurturer-hearth-goddess/#shadow-martyr-homemaker"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Mother",
-              "groupSlug": "mother",
-              "name": "Closed Hearth",
-              "slug": "wife-nurturer-hearth-goddess",
-              "qualities": "",
-              "href": "/mother/wife-nurturer-hearth-goddess/#shadow-withholding-hostess"
-            }
-            
-          
-        
-      
-    
-      
-        ,{
-          "type": "item",
-          "group": "Queen",
-          "groupSlug": "queen",
-          "name": "Justice",
-          "slug": "justice",
-          "qualities": ["truth","mercy"],
-          "href": "/queen/justice/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Queen",
-              "groupSlug": "queen",
-              "name": "Merciless Judge",
-              "slug": "justice",
-              "qualities": "",
-              "href": "/queen/justice/#shadow-merciless-judge"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Queen",
-              "groupSlug": "queen",
-              "name": "Permissive Witness",
-              "slug": "justice",
-              "qualities": "",
-              "href": "/queen/justice/#shadow-enabler-saint"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Queen",
-          "groupSlug": "queen",
-          "name": "Queen",
-          "slug": "queen-hearth-keeper",
-          "qualities": ["authority","service"],
-          "href": "/queen/queen-hearth-keeper/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Queen",
-              "groupSlug": "queen",
-              "name": "Tyrannical Queen",
-              "slug": "queen-hearth-keeper",
-              "qualities": "",
-              "href": "/queen/queen-hearth-keeper/#shadow-tyrannical-empress"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Queen",
-              "groupSlug": "queen",
-              "name": "Abdicating Queen",
-              "slug": "queen-hearth-keeper",
-              "qualities": "",
-              "href": "/queen/queen-hearth-keeper/#shadow-abdicated-ruler"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Queen",
-          "groupSlug": "queen",
-          "name": "Luminary",
-          "slug": "sky-sun-star-goddess",
-          "qualities": ["radiance","humility"],
-          "href": "/queen/sky-sun-star-goddess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Queen",
-              "groupSlug": "queen",
-              "name": "Blinding Star",
-              "slug": "sky-sun-star-goddess",
-              "qualities": "",
-              "href": "/queen/sky-sun-star-goddess/#shadow-blinding-sun"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Queen",
-              "groupSlug": "queen",
-              "name": "Hidden Light",
-              "slug": "sky-sun-star-goddess",
-              "qualities": "",
-              "href": "/queen/sky-sun-star-goddess/#shadow-hidden-star"
-            }
-            
-          
-        
-      
-    
-      
-        ,{
-          "type": "item",
-          "group": "Crone",
-          "groupSlug": "crone",
-          "name": "Crone",
-          "slug": "crone-underworld-queen",
-          "qualities": ["release","remembrance"],
-          "href": "/crone/crone-underworld-queen/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Scorched-Earth Crone",
-              "slug": "crone-underworld-queen",
-              "qualities": "",
-              "href": "/crone/crone-underworld-queen/#shadow-destroying-angel"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Relic Keeper",
-              "slug": "crone-underworld-queen",
-              "qualities": "",
-              "href": "/crone/crone-underworld-queen/#shadow-eternal-mourner"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Crone",
-          "groupSlug": "crone",
-          "name": "Elder Healer",
-          "slug": "elder-healer-priestess",
-          "qualities": ["compassion","detachment"],
-          "href": "/crone/elder-healer-priestess/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Martyred Healer",
-              "slug": "elder-healer-priestess",
-              "qualities": "",
-              "href": "/crone/elder-healer-priestess/#shadow-martyred-healer"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Cynical Healer",
-              "slug": "elder-healer-priestess",
-              "qualities": "",
-              "href": "/crone/elder-healer-priestess/#shadow-cynical-healer"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Crone",
-          "groupSlug": "crone",
-          "name": "Elder Visionary",
-          "slug": "elder-visionary-oracle-moon",
-          "qualities": ["vision","timing"],
-          "href": "/crone/elder-visionary-oracle-moon/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Premature Oracle",
-              "slug": "elder-visionary-oracle-moon",
-              "qualities": "",
-              "href": "/crone/elder-visionary-oracle-moon/#shadow-cryptic-oracle"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Withholding Seer",
-              "slug": "elder-visionary-oracle-moon",
-              "qualities": "",
-              "href": "/crone/elder-visionary-oracle-moon/#shadow-disconnected-hermit"
-            }
-            
-          
-        
-      
-        ,{
-          "type": "item",
-          "group": "Crone",
-          "groupSlug": "crone",
-          "name": "Rebel",
-          "slug": "rebel-revolutionary-trickster",
-          "qualities": ["liberation","responsibility"],
-          "href": "/crone/rebel-revolutionary-trickster/"
-        }
-        
-        
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Chaotic Rebel",
-              "slug": "rebel-revolutionary-trickster",
-              "qualities": "",
-              "href": "/crone/rebel-revolutionary-trickster/#shadow-chaotic-destroyer"
-            }
-            
-          
-            
-            ,{
-              "type": "shadow",
-              "group": "Crone",
-              "groupSlug": "crone",
-              "name": "Compliant Critic",
-              "slug": "rebel-revolutionary-trickster",
-              "qualities": "",
-              "href": "/crone/rebel-revolutionary-trickster/#shadow-conforming-complainer"
-            }
-            
-          
-        
-      
-    
+
+
+      {
+        "type": "lifecycle",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Maiden",
+        "slug": "maiden",
+        "group": "Maiden",
+        "qualities": [],
+        "balanceQualities": [],
+        "keyQualities": "Fresh perception, experimentation, and the courage to make a first choice.",
+        "href": "/maiden/"
+      }
+
+
+      ,{
+        "type": "lifecycle",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Lover",
+        "slug": "lover",
+        "group": "Lover",
+        "qualities": [],
+        "balanceQualities": [],
+        "keyQualities": "The Lover stage includes a generative current: eros becomes relationship, art, healing, and form.",
+        "href": "/lover/"
+      }
+
+
+      ,{
+        "type": "lifecycle",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Mother",
+        "slug": "mother",
+        "group": "Mother",
+        "qualities": [],
+        "balanceQualities": [],
+        "keyQualities": "Care that feeds growth, guards what is vulnerable, and strengthens autonomy.",
+        "href": "/mother/"
+      }
+
+
+      ,{
+        "type": "lifecycle",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Queen",
+        "slug": "queen",
+        "group": "Queen",
+        "qualities": [],
+        "balanceQualities": [],
+        "keyQualities": "Clear rule, proportionate judgment, and visible leadership that enlarges others.",
+        "href": "/queen/"
+      }
+
+
+      ,{
+        "type": "lifecycle",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Crone",
+        "slug": "crone",
+        "group": "Crone",
+        "qualities": [],
+        "balanceQualities": [],
+        "keyQualities": "Truth beyond approval, reverence for cycles, and service free of the need to be central.",
+        "href": "/crone/"
+      }
+
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Adventurer",
+        "slug": "adventurer",
+        "group": "Maiden",
+        "qualities": ["Daring","Prudence"],
+        "balanceQualities": ["Daring","Prudence"],
+        "keyQualities": "Adventurous, Resilient, Free-spirited, Thoughtful, Resourceful, Adaptable, Bold, Wise, Spirited, Grounded",
+        "href": "/maiden/adventurer/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Maiden",
+        "slug": "maiden",
+        "group": "Maiden",
+        "qualities": ["Wonder","Discernment"],
+        "balanceQualities": ["Wonder","Discernment"],
+        "keyQualities": "Fresh, Curious, Trusting, Open-hearted, Playful, Hopeful, Receptive, Wise, Discerning, Grounded",
+        "href": "/maiden/maiden/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Visionary",
+        "slug": "visionary",
+        "group": "Maiden",
+        "qualities": ["Intuition","Verification"],
+        "balanceQualities": ["Intuition","Verification"],
+        "keyQualities": "Visionary, Intuitive, Humble, Attuned, Imaginative, Grounded, Clear, Curious, Wise, Purposeful",
+        "href": "/maiden/visionary/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Creator",
+        "slug": "creator",
+        "group": "Lover",
+        "qualities": ["Structure","Flow"],
+        "balanceQualities": ["Structure","Flow"],
+        "keyQualities": "Creative, Patient, Inventive, Organized, Visionary, Generative, Bold, Resourceful, Iterative, Systematic, Inspiring, Expressive, Attuned, Magnetic, Rhythmic, Refined, Courageous, Flowing, Disciplined, Generous",
+        "href": "/lover/creator/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Lover",
+        "slug": "lover",
+        "group": "Lover",
+        "qualities": ["Devotion","Sovereignty"],
+        "balanceQualities": ["Devotion","Sovereignty"],
+        "keyQualities": "Radiant, Sensual, Boundaried, Tender, Magnetic, Joyful, Reverent, Creative, Whole, Generous, Devoted, Noble, Humble, Loyal, Present, Self-possessed, Receptive",
+        "href": "/lover/lover/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Healer",
+        "slug": "healer",
+        "group": "Lover",
+        "qualities": ["Compassion","Boundaries"],
+        "balanceQualities": ["Compassion","Boundaries"],
+        "keyQualities": "Compassionate, Boundaried, Present, Restorative, Empathic, Clear, Centered, Ethical, Grounded, Devotional",
+        "href": "/lover/healer/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Guardian",
+        "slug": "guardian",
+        "group": "Mother",
+        "qualities": ["Protection","Trust"],
+        "balanceQualities": ["Protection","Trust"],
+        "keyQualities": "Protective, Discerning, Devout, Grounded, Steadfast, Strong, Courageous, Honorable, Patient, Trustworthy",
+        "href": "/mother/guardian/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Mother",
+        "slug": "mother",
+        "group": "Mother",
+        "qualities": ["Nurture","Autonomy"],
+        "balanceQualities": ["Nurture","Autonomy"],
+        "keyQualities": "Nurturing, Steady, Protective, Generous, Patient, Wise, Resilient, Grounded, Empowering, Trustworthy",
+        "href": "/mother/mother/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Peacemaker",
+        "slug": "peacemaker",
+        "group": "Mother",
+        "qualities": ["Reconciliation","Confrontation"],
+        "balanceQualities": ["Reconciliation","Confrontation"],
+        "keyQualities": "Calm, Courageous, Honest, Restorative, Listening, Fair, Bridging, Patient, Rooted, Compassionate",
+        "href": "/mother/peacemaker/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Warrior",
+        "slug": "warrior",
+        "group": "Mother",
+        "qualities": ["Ferocity","Restraint"],
+        "balanceQualities": ["Ferocity","Restraint"],
+        "keyQualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Precise, Fierce",
+        "href": "/mother/warrior/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Community Weaver",
+        "slug": "community-weaver",
+        "group": "Mother",
+        "qualities": ["Belonging","Accountability"],
+        "balanceQualities": ["Belonging","Accountability"],
+        "keyQualities": "Collaborative, Relational, Generous, Inclusive, Reciprocal, Attentive, Harmonizing, Strategic, Resilient, Joyful",
+        "href": "/mother/community-weaver/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Host",
+        "slug": "host",
+        "group": "Mother",
+        "qualities": ["Hospitality","Privacy"],
+        "balanceQualities": ["Hospitality","Privacy"],
+        "keyQualities": "Devoted, Warm, Steady, Reciprocal, Boundaried, Simple, Grounded, Gracious, Attentive, Reliable",
+        "href": "/mother/host/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Justice",
+        "slug": "justice",
+        "group": "Queen",
+        "qualities": ["Truth","Mercy"],
+        "balanceQualities": ["Truth","Mercy"],
+        "keyQualities": "Fair, Clear, Steady, Principled, Courageous, Measured, Compassionate, Honest, Balanced, Resolute",
+        "href": "/queen/justice/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Queen",
+        "slug": "queen",
+        "group": "Queen",
+        "qualities": ["Authority","Service"],
+        "balanceQualities": ["Authority","Service"],
+        "keyQualities": "Sovereign, Nurturing, Wise, Generous, Protective, Creative, Gracious, Confident, Harmonious, Inspiring",
+        "href": "/queen/queen/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Luminary",
+        "slug": "luminary",
+        "group": "Queen",
+        "qualities": ["Radiance","Humility"],
+        "balanceQualities": ["Radiance","Humility"],
+        "keyQualities": "Radiant, Visionary, Expansive, Humble, Noble, Illuminating, Uplifting, Grounded, Warm, Inspirational",
+        "href": "/queen/luminary/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Magician",
+        "slug": "magician",
+        "group": "Queen",
+        "qualities": ["Agency","Integrity"],
+        "balanceQualities": ["Agency","Integrity"],
+        "keyQualities": "Accountable, Consequential, Discerning, Bounded, Transparent, Responsive, Decisive, Proportionate, Repairing, Stewarding",
+        "href": "/queen/magician/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Crone",
+        "slug": "crone",
+        "group": "Crone",
+        "qualities": ["Release","Remembrance"],
+        "balanceQualities": ["Release","Remembrance"],
+        "keyQualities": "Truthful, Fearless, Catalytic, Sovereign, Compassionate, Deep, Transformative, Clear, Mystic, Liberating",
+        "href": "/crone/crone/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Witness",
+        "slug": "witness",
+        "group": "Crone",
+        "qualities": ["Compassion","Detachment"],
+        "balanceQualities": ["Compassion","Detachment"],
+        "keyQualities": "Compassionate, Boundaried, Wise, Restorative, Devotional, Grounded, Humble, Ethical, Steady, Nourishing",
+        "href": "/crone/witness/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Seer",
+        "slug": "seer",
+        "group": "Crone",
+        "qualities": ["Vision","Timing"],
+        "balanceQualities": ["Vision","Timing"],
+        "keyQualities": "Attuned, Seasoned, Far-seeing, Cyclic, Gentle, Exact, Listening, Guiding, Patient, Kind",
+        "href": "/crone/seer/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Rebel",
+        "slug": "rebel",
+        "group": "Crone",
+        "qualities": ["Liberation","Responsibility"],
+        "balanceQualities": ["Liberation","Responsibility"],
+        "keyQualities": "Playful, Subversive, Liberating, Ethical, Quick, Inventive, Insightful, Courageous, Light-hearted, Purposeful",
+        "href": "/crone/rebel/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Sage",
+        "slug": "sage",
+        "group": "Crone",
+        "qualities": ["Clarity","Curiosity"],
+        "balanceQualities": ["Clarity","Curiosity"],
+        "keyQualities": "Wise, Discerning, Curious, Strategic, Calm, Perceptive, Measured, Ethical, Insightful, Practical",
+        "href": "/crone/sage/"
+      }
+
+
+      ,{
+        "type": "archetype",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Storyteller",
+        "slug": "storyteller",
+        "group": "Crone",
+        "qualities": ["Narrative Imagination","Fidelity"],
+        "balanceQualities": ["Narrative Imagination","Fidelity"],
+        "keyQualities": "Meaningful, Vivid, Source-aware, Contextual, Memorable, Consent-aware, Precise, Integrative, Correctable, Transmissible",
+        "href": "/crone/storyteller/"
+      }
+
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Reckless Wanderer",
+        "slug": "reckless-wanderer",
+        "parent": "Adventurer",
+        "parentSlug": "adventurer",
+        "group": "Maiden",
+        "qualities": ["Daring","Prudence"],
+        "balanceQualities": ["Daring","Prudence"],
+        "keyQualities": "Creates preventable emergencies, Breaks agreements for novelty, Uses motion to avoid feeling",
+        "href": "/maiden/adventurer/shadows/reckless-wanderer/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Sheltered Dreamer",
+        "slug": "sheltered-dreamer",
+        "parent": "Adventurer",
+        "parentSlug": "adventurer",
+        "group": "Maiden",
+        "qualities": ["Daring","Prudence"],
+        "balanceQualities": ["Daring","Prudence"],
+        "keyQualities": "Plans without departure, Overstates unlikely dangers, Lives through others' courage",
+        "href": "/maiden/adventurer/shadows/sheltered-dreamer/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Naive Enthusiast",
+        "slug": "naive-enthusiast",
+        "parent": "Maiden",
+        "parentSlug": "maiden",
+        "group": "Maiden",
+        "qualities": ["Wonder","Discernment"],
+        "balanceQualities": ["Wonder","Discernment"],
+        "keyQualities": "Commits before understanding, Idealizes unfamiliar people, Leaves consequences to others",
+        "href": "/maiden/maiden/shadows/naive-enthusiast/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Frozen Beginner",
+        "slug": "frozen-beginner",
+        "parent": "Maiden",
+        "parentSlug": "maiden",
+        "group": "Maiden",
+        "qualities": ["Wonder","Discernment"],
+        "balanceQualities": ["Wonder","Discernment"],
+        "keyQualities": "Research replaces participation, Defers ordinary choices, Dismisses curiosity as childish",
+        "href": "/maiden/maiden/shadows/frozen-beginner/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Inflated Oracle",
+        "slug": "inflated-oracle",
+        "parent": "Visionary",
+        "parentSlug": "visionary",
+        "group": "Maiden",
+        "qualities": ["Intuition","Verification"],
+        "balanceQualities": ["Intuition","Verification"],
+        "keyQualities": "Speaks uncertain futures as facts, Claims special access to truth, Reframes disagreement as spiritual failure",
+        "href": "/maiden/visionary/shadows/inflated-oracle/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Maiden",
+        "lifecycleSlug": "maiden",
+        "name": "Self-Doubting Seer",
+        "slug": "self-doubting-seer",
+        "parent": "Visionary",
+        "parentSlug": "visionary",
+        "group": "Maiden",
+        "qualities": ["Intuition","Verification"],
+        "balanceQualities": ["Intuition","Verification"],
+        "keyQualities": "Edits insight out of speech, Outsources inner authority, Waits for impossible proof",
+        "href": "/maiden/visionary/shadows/self-doubting-seer/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Compulsive Perfecter",
+        "slug": "compulsive-perfecter",
+        "parent": "Creator",
+        "parentSlug": "creator",
+        "group": "Lover",
+        "qualities": ["Structure","Flow"],
+        "balanceQualities": ["Structure","Flow"],
+        "keyQualities": "Reworks settled details, Confuses polish with value, Never exposes work to use, Edits herself before creating, Imitates the prevailing taste, Waits indefinitely for permission",
+        "href": "/lover/creator/shadows/compulsive-perfecter/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Scattered Maker",
+        "slug": "scattered-maker",
+        "parent": "Creator",
+        "parentSlug": "creator",
+        "group": "Lover",
+        "qualities": ["Structure","Flow"],
+        "balanceQualities": ["Structure","Flow"],
+        "keyQualities": "Accumulates unfinished projects, Changes direction at ordinary friction, Depends on mood to work, Broadcasts unfinished impulses, Abandons work after the first excitement, Overruns collaborators",
+        "href": "/lover/creator/shadows/scattered-maker/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Enmeshing Lover",
+        "slug": "enmeshing-lover",
+        "parent": "Lover",
+        "parentSlug": "lover",
+        "group": "Lover",
+        "qualities": ["Devotion","Sovereignty"],
+        "balanceQualities": ["Devotion","Sovereignty"],
+        "keyQualities": "Escalates closeness without consent, Performs desire for reassurance, Resents ordinary separateness, Treats sacrifice as proof of love, Idealizes authority, Uses service to create obligation",
+        "href": "/lover/lover/shadows/enmeshing-lover/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Armored Lover",
+        "slug": "armored-lover",
+        "parent": "Lover",
+        "parentSlug": "lover",
+        "group": "Lover",
+        "qualities": ["Devotion","Sovereignty"],
+        "balanceQualities": ["Devotion","Sovereignty"],
+        "keyQualities": "Keeps relationships performative, Turns tenderness into analysis, Leaves before dependence can form, Receives more than she reciprocates, Equates vulnerability with loss of status, Keeps partners in an admiring role",
+        "href": "/lover/lover/shadows/armored-lover/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Rescuing Healer",
+        "slug": "rescuing-healer",
+        "parent": "Healer",
+        "parentSlug": "healer",
+        "group": "Lover",
+        "qualities": ["Compassion","Boundaries"],
+        "balanceQualities": ["Compassion","Boundaries"],
+        "keyQualities": "Gives unsolicited treatment, Takes responsibility for outcomes, Ignores fatigue and scope",
+        "href": "/lover/healer/shadows/rescuing-healer/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Lover",
+        "lifecycleSlug": "lover",
+        "name": "Guarded Healer",
+        "slug": "guarded-healer",
+        "parent": "Healer",
+        "parentSlug": "healer",
+        "group": "Lover",
+        "qualities": ["Compassion","Boundaries"],
+        "balanceQualities": ["Compassion","Boundaries"],
+        "keyQualities": "Uses policy to avoid contact, Withdraws at visible need, Confuses non-rescue with non-care",
+        "href": "/lover/healer/shadows/guarded-healer/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Controlling Sentinel",
+        "slug": "controlling-sentinel",
+        "parent": "Guardian",
+        "parentSlug": "guardian",
+        "group": "Mother",
+        "qualities": ["Protection","Trust"],
+        "balanceQualities": ["Protection","Trust"],
+        "keyQualities": "Polices ordinary choices, Moves boundaries without consent, Cannot stand down after safety returns",
+        "href": "/mother/guardian/shadows/controlling-sentinel/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Open Gate",
+        "slug": "open-gate",
+        "parent": "Guardian",
+        "parentSlug": "guardian",
+        "group": "Mother",
+        "qualities": ["Protection","Trust"],
+        "balanceQualities": ["Protection","Trust"],
+        "keyQualities": "Ignores repeated breaches, Delegates safety to hope, Avoids necessary exclusion",
+        "href": "/mother/guardian/shadows/open-gate/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Engulfing Mother",
+        "slug": "engulfing-mother",
+        "parent": "Mother",
+        "parentSlug": "mother",
+        "group": "Mother",
+        "qualities": ["Nurture","Autonomy"],
+        "balanceQualities": ["Nurture","Autonomy"],
+        "keyQualities": "Solves before being asked, Treats separation as disloyalty, Undermines others' competence",
+        "href": "/mother/mother/shadows/engulfing-mother/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Unavailable Mother",
+        "slug": "absent-mother",
+        "parent": "Mother",
+        "parentSlug": "mother",
+        "group": "Mother",
+        "qualities": ["Nurture","Autonomy"],
+        "balanceQualities": ["Nurture","Autonomy"],
+        "keyQualities": "Minimizes legitimate dependency, Withdraws during distress, Provides freedom without support",
+        "href": "/mother/mother/shadows/absent-mother/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Peace Enforcer",
+        "slug": "peace-enforcer",
+        "parent": "Peacemaker",
+        "parentSlug": "peacemaker",
+        "group": "Mother",
+        "qualities": ["Reconciliation","Confrontation"],
+        "balanceQualities": ["Reconciliation","Confrontation"],
+        "keyQualities": "Rushes forgiveness, Neutralizes legitimate anger, Equates calm with safety",
+        "href": "/mother/peacemaker/shadows/peace-enforcer/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Resentful Bystander",
+        "slug": "resentful-bystander",
+        "parent": "Peacemaker",
+        "parentSlug": "peacemaker",
+        "group": "Mother",
+        "qualities": ["Reconciliation","Confrontation"],
+        "balanceQualities": ["Reconciliation","Confrontation"],
+        "keyQualities": "Withholds grievances, Punishes through distance, Waits for mind-reading",
+        "href": "/mother/peacemaker/shadows/resentful-bystander/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Rampaging Warrior",
+        "slug": "rampaging-warrior",
+        "parent": "Warrior",
+        "parentSlug": "warrior",
+        "group": "Mother",
+        "qualities": ["Ferocity","Restraint"],
+        "balanceQualities": ["Ferocity","Restraint"],
+        "keyQualities": "Escalates after the threat ends, Dehumanizes opponents, Treats intensity as moral proof",
+        "href": "/mother/warrior/shadows/rampaging-warrior/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Disarmed Warrior",
+        "slug": "disarmed-warrior",
+        "parent": "Warrior",
+        "parentSlug": "warrior",
+        "group": "Mother",
+        "qualities": ["Ferocity","Restraint"],
+        "balanceQualities": ["Ferocity","Restraint"],
+        "keyQualities": "Freezes under violation, Apologizes for firm limits, Abandons aims at resistance",
+        "href": "/mother/warrior/shadows/disarmed-warrior/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Enmeshing Networker",
+        "slug": "enmeshing-networker",
+        "parent": "Community Weaver",
+        "parentSlug": "community-weaver",
+        "group": "Mother",
+        "qualities": ["Belonging","Accountability"],
+        "balanceQualities": ["Belonging","Accountability"],
+        "keyQualities": "Triangulates through private information, Protects insiders from consequence, Makes herself the relational hub",
+        "href": "/mother/community-weaver/shadows/enmeshing-networker/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Isolated Helper",
+        "slug": "isolated-helper",
+        "parent": "Community Weaver",
+        "parentSlug": "community-weaver",
+        "group": "Mother",
+        "qualities": ["Belonging","Accountability"],
+        "balanceQualities": ["Belonging","Accountability"],
+        "keyQualities": "Serves without receiving, Leaves at ordinary conflict, Uses critique to remain outside",
+        "href": "/mother/community-weaver/shadows/isolated-helper/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Martyr Host",
+        "slug": "martyr-host",
+        "parent": "Host",
+        "parentSlug": "host",
+        "group": "Mother",
+        "qualities": ["Hospitality","Privacy"],
+        "balanceQualities": ["Hospitality","Privacy"],
+        "keyQualities": "Overfunctions and keeps score, Makes unspoken sacrifices, Treats privacy as selfishness",
+        "href": "/mother/host/shadows/martyr-host/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Mother",
+        "lifecycleSlug": "mother",
+        "name": "Closed Hearth",
+        "slug": "closed-hearth",
+        "parent": "Host",
+        "parentSlug": "host",
+        "group": "Mother",
+        "qualities": ["Hospitality","Privacy"],
+        "balanceQualities": ["Hospitality","Privacy"],
+        "keyQualities": "Makes belonging conditional on tidiness, Withholds ordinary welcome, Uses the home to avoid relationship",
+        "href": "/mother/host/shadows/closed-hearth/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Merciless Judge",
+        "slug": "merciless-judge",
+        "parent": "Justice",
+        "parentSlug": "justice",
+        "group": "Queen",
+        "qualities": ["Truth","Mercy"],
+        "balanceQualities": ["Truth","Mercy"],
+        "keyQualities": "Globalizes a single failure, Punishes beyond protection, Uses exposure as moral theater",
+        "href": "/queen/justice/shadows/merciless-judge/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Permissive Witness",
+        "slug": "permissive-witness",
+        "parent": "Justice",
+        "parentSlug": "justice",
+        "group": "Queen",
+        "qualities": ["Truth","Mercy"],
+        "balanceQualities": ["Truth","Mercy"],
+        "keyQualities": "Excuses repeated harm, Centers intent over impact, Offers forgiveness without change",
+        "href": "/queen/justice/shadows/permissive-witness/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Tyrannical Queen",
+        "slug": "tyrannical-queen",
+        "parent": "Queen",
+        "parentSlug": "queen",
+        "group": "Queen",
+        "qualities": ["Authority","Service"],
+        "balanceQualities": ["Authority","Service"],
+        "keyQualities": "Hoards decisions, Rewards personal loyalty, Confuses obedience with alignment",
+        "href": "/queen/queen/shadows/tyrannical-queen/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Abdicating Queen",
+        "slug": "abdicating-queen",
+        "parent": "Queen",
+        "parentSlug": "queen",
+        "group": "Queen",
+        "qualities": ["Authority","Service"],
+        "balanceQualities": ["Authority","Service"],
+        "keyQualities": "Defers necessary decisions, Lets informal power dominate, Apologizes for role authority",
+        "href": "/queen/queen/shadows/abdicating-queen/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Blinding Star",
+        "slug": "blinding-star",
+        "parent": "Luminary",
+        "parentSlug": "luminary",
+        "group": "Queen",
+        "qualities": ["Radiance","Humility"],
+        "balanceQualities": ["Radiance","Humility"],
+        "keyQualities": "Redirects attention to herself, Treats admiration as agreement, Competes with emerging voices",
+        "href": "/queen/luminary/shadows/blinding-star/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Hidden Light",
+        "slug": "hidden-light",
+        "parent": "Luminary",
+        "parentSlug": "luminary",
+        "group": "Queen",
+        "qualities": ["Radiance","Humility"],
+        "balanceQualities": ["Radiance","Humility"],
+        "keyQualities": "Declines appropriate recognition, Hides expertise, Apologizes for impact",
+        "href": "/queen/luminary/shadows/hidden-light/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Manipulative Sorceress",
+        "slug": "manipulative-sorceress",
+        "parent": "Magician",
+        "parentSlug": "magician",
+        "group": "Queen",
+        "qualities": ["Agency","Integrity"],
+        "balanceQualities": ["Agency","Integrity"],
+        "keyQualities": "Treats capability as authorization, Bypasses consent to preserve momentum, Hides means, risks, or tradeoffs, Defines the end without affected parties, Dismisses feedback that challenges the intervention, Counts compliance as evidence of benefit",
+        "href": "/queen/magician/shadows/manipulative-sorceress/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Queen",
+        "lifecycleSlug": "queen",
+        "name": "Powerless Mystic",
+        "slug": "powerless-mystic",
+        "parent": "Magician",
+        "parentSlug": "magician",
+        "group": "Queen",
+        "qualities": ["Agency","Integrity"],
+        "balanceQualities": ["Agency","Integrity"],
+        "keyQualities": "Requires certainty before a bounded intervention, Treats limited jurisdiction as no jurisdiction, Expands ethical review without a decision point, Uses possible harm to excuse ongoing inaction, Calls nonintervention principled despite consequences, Transfers responsibility while continuing to object",
+        "href": "/queen/magician/shadows/powerless-mystic/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Scorched-Earth Crone",
+        "slug": "scorched-earth-crone",
+        "parent": "Crone",
+        "parentSlug": "crone",
+        "group": "Crone",
+        "qualities": ["Release","Remembrance"],
+        "balanceQualities": ["Release","Remembrance"],
+        "keyQualities": "Uses total severance as first response, Rewrites the past as worthless, Destroys supports needed for transition",
+        "href": "/crone/crone/shadows/scorched-earth-crone/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Relic Keeper",
+        "slug": "relic-keeper",
+        "parent": "Crone",
+        "parentSlug": "crone",
+        "group": "Crone",
+        "qualities": ["Release","Remembrance"],
+        "balanceQualities": ["Release","Remembrance"],
+        "keyQualities": "Keeps expired commitments, Organizes identity around loss, Resists new life as betrayal",
+        "href": "/crone/crone/shadows/relic-keeper/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Martyred Healer",
+        "slug": "martyred-healer",
+        "parent": "Witness",
+        "parentSlug": "witness",
+        "group": "Crone",
+        "qualities": ["Compassion","Detachment"],
+        "balanceQualities": ["Compassion","Detachment"],
+        "keyQualities": "Cannot conclude care, Makes outcomes personal, Sacrifices health to preserve a healer identity",
+        "href": "/crone/witness/shadows/martyred-healer/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Cynical Healer",
+        "slug": "cynical-healer",
+        "parent": "Witness",
+        "parentSlug": "witness",
+        "group": "Crone",
+        "qualities": ["Compassion","Detachment"],
+        "balanceQualities": ["Compassion","Detachment"],
+        "keyQualities": "Reduces people to diagnoses, Withholds warmth as realism, Uses experience to foreclose possibility",
+        "href": "/crone/witness/shadows/cynical-healer/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Premature Oracle",
+        "slug": "premature-oracle",
+        "parent": "Seer",
+        "parentSlug": "seer",
+        "group": "Crone",
+        "qualities": ["Vision","Timing"],
+        "balanceQualities": ["Vision","Timing"],
+        "keyQualities": "Predicts instead of listening, Overloads people with distant implications, Uses mystery to claim authority",
+        "href": "/crone/seer/shadows/premature-oracle/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Withholding Seer",
+        "slug": "withholding-seer",
+        "parent": "Seer",
+        "parentSlug": "seer",
+        "group": "Crone",
+        "qualities": ["Vision","Timing"],
+        "balanceQualities": ["Vision","Timing"],
+        "keyQualities": "Speaks only after outcomes are obvious, Hides clarity behind riddles, Confuses noninterference with wisdom",
+        "href": "/crone/seer/shadows/withholding-seer/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Chaotic Rebel",
+        "slug": "chaotic-rebel",
+        "parent": "Rebel",
+        "parentSlug": "rebel",
+        "group": "Crone",
+        "qualities": ["Liberation","Responsibility"],
+        "balanceQualities": ["Liberation","Responsibility"],
+        "keyQualities": "Breaks alliances for purity, Escalates without strategy, Leaves others to absorb fallout",
+        "href": "/crone/rebel/shadows/chaotic-rebel/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Compliant Critic",
+        "slug": "compliant-critic",
+        "parent": "Rebel",
+        "parentSlug": "rebel",
+        "group": "Crone",
+        "qualities": ["Liberation","Responsibility"],
+        "balanceQualities": ["Liberation","Responsibility"],
+        "keyQualities": "Complains without organizing, Waits for moral certainty, Complies publicly and rebels privately",
+        "href": "/crone/rebel/shadows/compliant-critic/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Arrogant Know-It-All",
+        "slug": "arrogant-know-it-all",
+        "parent": "Sage",
+        "parentSlug": "sage",
+        "group": "Crone",
+        "qualities": ["Clarity","Curiosity"],
+        "balanceQualities": ["Clarity","Curiosity"],
+        "keyQualities": "Oversteps boundaries; decides for others, Mistakes speed for effectiveness, Performs care or genius to avoid vulnerability, Micromanages; cannot rest, Seeks admiration or control over connection, Ignores feedback, doubles down under stress",
+        "href": "/crone/sage/shadows/arrogant-know-it-all/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Withholding Sage",
+        "slug": "withholding-sage",
+        "parent": "Sage",
+        "parentSlug": "sage",
+        "group": "Crone",
+        "qualities": ["Clarity","Curiosity"],
+        "balanceQualities": ["Clarity","Curiosity"],
+        "keyQualities": "Defers decisions; waits for perfect certainty, Disengages from body and relationships, People-pleases to avoid conflict, Lets others set terms then resents them, Creativity stalled by perfectionism and fear, Self-doubt presented as humility",
+        "href": "/crone/sage/shadows/withholding-sage/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Exaggerating Dramatist",
+        "slug": "exaggerating-dramatist",
+        "parent": "Storyteller",
+        "parentSlug": "storyteller",
+        "group": "Crone",
+        "qualities": ["Narrative Imagination","Fidelity"],
+        "balanceQualities": ["Narrative Imagination","Fidelity"],
+        "keyQualities": "Adds connective detail that was not remembered, Turns inference into stated fact, Removes uncertainty to strengthen the arc, Centers the narrator in another person's account, Shares entrusted material without sufficient consent, Protects a compelling version from correction",
+        "href": "/crone/storyteller/shadows/exaggerating-dramatist/"
+      }
+
+
+      ,{
+        "type": "shadow",
+        "lifecycle": "Crone",
+        "lifecycleSlug": "crone",
+        "name": "Silent Keeper",
+        "slug": "silent-keeper",
+        "parent": "Storyteller",
+        "parentSlug": "storyteller",
+        "group": "Crone",
+        "qualities": ["Narrative Imagination","Fidelity"],
+        "balanceQualities": ["Narrative Imagination","Fidelity"],
+        "keyQualities": "Requires exhaustive certainty before telling, Treats every finite selection as betrayal, Archives entrusted experience without transmission, Confuses privacy with a ban on responsible redaction, Preserves so much context that meaning cannot travel, Calls silence Fidelity despite the loss of memory",
+        "href": "/crone/storyteller/shadows/silent-keeper/"
+      }
+
+
   ]
 }

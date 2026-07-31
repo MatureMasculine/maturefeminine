@@ -1,0 +1,52 @@
+---
+layout: layout.njk
+pagination:
+  data: collections.shadows
+  size: 1
+  alias: entry
+permalink: "{{ entry.url }}index.html"
+eleventyComputed:
+  title: "{{ entry.name }} | The Mature Feminine"
+---
+
+<a class="small" href="{{ entry.parentUrl | url }}">← <span class="visually-hidden">Back to </span>{{ entry.parentName }}</a>
+<header class="entry-header mt-2 mb-4">
+  <p class="entry-kicker">{{ entry.type | capitalize }} shadow</p>
+  <h1>{{ entry.name }}</h1>
+  <p class="text-muted">Shadow of <a href="{{ entry.parentUrl | url }}">{{ entry.parentName }}</a></p>
+</header>
+
+{% if entry.quotes.opening %}
+<blockquote class="entry-quote entry-quote-opening">{{ entry.quotes.opening | fixEncoding | stripOuterQuotes }}</blockquote>
+{% endif %}
+
+{% if entry.image %}
+<figure class="entry-image">
+  <img class="img-fluid rounded" src="{{ ('/' ~ entry.image) | url }}" alt="{{ entry.name }} illustration" loading="lazy">
+  <figcaption class="small text-muted mt-1">{{ entry.name }}</figcaption>
+</figure>
+{% endif %}
+
+<section class="profile-card mb-4" aria-labelledby="profile-heading">
+  <h2 class="h4" id="profile-heading">Profile</h2>
+  <dl class="profile-grid mb-0">
+    <div data-profile-field="lifecycleStage"><dt>Lifecycle stage</dt><dd>{{ entry.profile.lifecycleStage }}</dd></div>
+    <div data-profile-field="coreFunction"><dt>Core function</dt><dd>{{ entry.profile.coreFunction }}</dd></div>
+    <div data-profile-field="balancedQualities"><dt>Balanced qualities</dt><dd>{{ entry.profile.balancedQualities }}</dd></div>
+    <div data-profile-field="activeShadow"><dt>Active shadow</dt><dd>{{ entry.profile.activeShadow }}</dd></div>
+    <div data-profile-field="passiveShadow"><dt>Passive shadow</dt><dd>{{ entry.profile.passiveShadow }}</dd></div>
+    {% if entry.profile.mythicResonances %}<div data-profile-field="mythicResonances"><dt>Mythic resonances</dt><dd>{{ entry.profile.mythicResonances }}</dd></div>{% endif %}
+    <div data-profile-field="keyQualities"><dt>Key qualities</dt><dd>{{ entry.profile.keyQualities }}</dd></div>
+  </dl>
+</section>
+
+<aside class="opposite-link mb-4">
+  <span class="entry-kicker">Opposite shadow</span>
+  <a href="{{ entry.oppositeUrl | url }}">{{ entry.oppositeName }}</a>
+</aside>
+
+{{ entry.bodySections | renderSections | safe }}
+
+{% if entry.quotes.closing %}
+<blockquote class="entry-quote entry-quote-closing">{{ entry.quotes.closing | fixEncoding | stripOuterQuotes }}</blockquote>
+{% endif %}

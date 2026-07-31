@@ -1,14 +1,19 @@
 ---
 layout: layout.njk
-permalink: "/index.html"
+pagination:
+  data: collections.indexes
+  size: 1
+  alias: indexPage
+permalink: "{{ indexPage.url }}index.html"
 title: "The Mature Feminine"
 ---
 
+{% if indexPage.kind == "home" %}
 <h1 class="text-center mb-1">{{ siteContent.title }}</h1>
 <p class="text-center fst-italic text-muted">{{ siteContent.subtitle }}</p>
 
 <div class="text-center my-3">
-  <img src="assets/images/cover.jpeg" alt="Cover image for The Mature Feminine: A Field Guide" class="img-fluid rounded shadow-sm" />
+  <img src="{{ '/assets/images/cover.jpeg' | url }}" alt="Cover image for The Mature Feminine: A Field Guide" class="img-fluid rounded shadow-sm" />
 </div>
 
 {% if siteContent.quote %}
@@ -20,11 +25,11 @@ title: "The Mature Feminine"
   <div class="col-12 col-md-6">
     <div class="card card-platinum h-100">
       <div class="card-body">
-        <h5 class="card-title">{{ group.name }}</h5>
+        <h2 class="h5 card-title"><a href="{{ group.url | url }}">{{ group.name }}</a></h2>
         <p class="card-text small">{{ group.summary }}</p>
         <ul class="small">
-          {% for item in group.items %}
-          <li><a href="{{ group.slug }}/{{ item.slug }}/">{{ item.name }}</a></li>
+          {% for entry in group.archetypes %}
+          <li><a href="{{ entry.url | url }}">{{ entry.name }}</a></li>
           {% endfor %}
         </ul>
       </div>
@@ -32,3 +37,30 @@ title: "The Mature Feminine"
   </div>
   {% endfor %}
 </div>
+{% else %}
+<header class="entry-header mb-4">
+  <p class="entry-kicker">Lifecycle</p>
+  <h1>{{ indexPage.name }}</h1>
+  <p class="lead text-muted">{{ indexPage.summary }}</p>
+  {% if indexPage.essence %}<p class="lifecycle-essence">{{ indexPage.essence }}</p>{% endif %}
+</header>
+
+<div class="row g-3">
+  {% for entry in indexPage.archetypes %}
+  <div class="col-12 col-md-6">
+    <article class="card card-platinum h-100">
+      <div class="card-body">
+        <h2 class="h4"><a href="{{ entry.url | url }}">{{ entry.name }}</a></h2>
+        <p>{{ entry.profile.coreFunction }}</p>
+        <p class="small text-muted mb-2">{{ entry.profile.balancedQualities }}</p>
+        <ul class="list-unstyled small mb-0">
+          {% for shadow in entry.shadows %}
+          <li><a href="{{ shadow.url | url }}">{{ shadow.name }}</a> · {{ shadow.type }} shadow</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </article>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

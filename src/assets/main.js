@@ -99,7 +99,10 @@
       const res = await fetch('search.json');
       if(!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      fuse = new Fuse(data.items, { keys: ['name','qualities','group'], threshold: 0.4 });
+      fuse = new Fuse(data.items, {
+        keys: ['name', 'qualities', 'group', 'keyQualities', 'balanceQualities', 'parent'],
+        threshold: 0.4
+      });
     } catch (err) {
       console.error('Search index failed to load (fallback to simple filter):', err);
       // keep fallback behavior
@@ -107,4 +110,3 @@
   }
   initSearch();
 })();
-

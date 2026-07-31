@@ -5,33 +5,51 @@ permalink: "/search.json"
   "items": [
     {% set sep = "" %}
     {% for group in collections.groups %}
-      {% for item in group.items %}
-        {{ sep }}{
-          "type": "item",
-          "group": "{{ group.name | escape }}",
-          "groupSlug": "{{ group.slug }}",
-          "name": "{{ item.name | escape }}",
-          "slug": "{{ item.slug }}",
-          "qualities": {{ (item.qualities or []) | dump | safe }},
-          "href": "/{{ group.slug }}/{{ item.slug }}/"
-        }
-        {% set sep = "," %}
-        {% if item.extended and item.extended.shadows %}
-          {% for sh in item.extended.shadows %}
-            {% set shSlug = sh.slug or (sh.name | slug) %}
-            {{ sep }}{
-              "type": "shadow",
-              "group": "{{ group.name | escape }}",
-              "groupSlug": "{{ group.slug }}",
-              "name": "{{ sh.name | escape }}",
-              "slug": "{{ item.slug }}",
-              "qualities": {{ (sh.qualities or '') | dump | safe }},
-              "href": "/{{ group.slug }}/{{ item.slug }}/#shadow-{{ shSlug }}"
-            }
-            {% set sep = "," %}
-          {% endfor %}
-        {% endif %}
-      {% endfor %}
+      {{ sep }}{
+        "type": "lifecycle",
+        "lifecycle": {{ group.name | dump | safe }},
+        "lifecycleSlug": {{ group.slug | dump | safe }},
+        "name": {{ group.name | dump | safe }},
+        "slug": {{ group.slug | dump | safe }},
+        "group": {{ group.name | dump | safe }},
+        "qualities": [],
+        "balanceQualities": [],
+        "keyQualities": {{ (group.essence or group.summary) | dump | safe }},
+        "href": {{ group.url | dump | safe }}
+      }
+      {% set sep = "," %}
+    {% endfor %}
+    {% for entry in collections.archetypes %}
+      {{ sep }}{
+        "type": "archetype",
+        "lifecycle": {{ entry.lifecycleName | dump | safe }},
+        "lifecycleSlug": {{ entry.lifecycle | dump | safe }},
+        "name": {{ entry.name | dump | safe }},
+        "slug": {{ entry.slug | dump | safe }},
+        "group": {{ entry.lifecycleName | dump | safe }},
+        "qualities": {{ entry.qualities | dump | safe }},
+        "balanceQualities": {{ entry.qualities | dump | safe }},
+        "keyQualities": {{ entry.profile.keyQualities | dump | safe }},
+        "href": {{ entry.url | dump | safe }}
+      }
+      {% set sep = "," %}
+    {% endfor %}
+    {% for entry in collections.shadows %}
+      {{ sep }}{
+        "type": "shadow",
+        "lifecycle": {{ entry.lifecycleName | dump | safe }},
+        "lifecycleSlug": {{ entry.lifecycle | dump | safe }},
+        "name": {{ entry.name | dump | safe }},
+        "slug": {{ entry.slug | dump | safe }},
+        "parent": {{ entry.parentName | dump | safe }},
+        "parentSlug": {{ entry.parent | dump | safe }},
+        "group": {{ entry.lifecycleName | dump | safe }},
+        "qualities": {{ entry.qualities | dump | safe }},
+        "balanceQualities": {{ entry.qualities | dump | safe }},
+        "keyQualities": {{ entry.profile.keyQualities | dump | safe }},
+        "href": {{ entry.url | dump | safe }}
+      }
+      {% set sep = "," %}
     {% endfor %}
   ]
 }
