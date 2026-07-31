@@ -42,13 +42,13 @@ The stages are revisitable psychological territories. Never present them as:
 - a universal sequence every woman completes; or
 - ranks in which a later stage is inherently more valuable.
 
-“Young” in Young Visionary and Young Healer names early formation in that function. “Elder” in Elder Healer and Elder Visionary names experience with limits, consequence, and stewardship. Neither word asserts chronological age. Mother names the capacity to sustain development; it does not require pregnancy or parenting. Lover and Devoted Consort do not require sex, romance, marriage, or partnership.
+Canonical functional titles avoid chronology: Visionary, Healer, Witness, and Seer. The legacy labels Young Visionary, Young Healer, Elder Healer, and Elder Visionary may appear only when explaining migration history, never as maturity ranks. Witness means active, responsive accompaniment at the limit of cure or control; it never means passive observation. Mother names the capacity to sustain development and does not require pregnancy or parenting. Lover names intimate devotion held with sovereignty and does not require sex, romance, marriage, or partnership.
 
 ## Canonical names, aliases, and capitalization
 
 - Use exactly one canonical title from `canonical-taxonomy.md` in the H1, running head, table of contents, navigation, URL, profile panel, and declaration lead-in.
 - Do not use slash-separated titles, parenthetical deity names, stacked aliases, or deity epithets in headings.
-- Alternate functional names such as Creatrix, Huntress, Oracle, Hearth Keeper, Love Goddess, Priestess, Alchemist, Witch, or Scribe may appear sparingly in body prose only when the alternate clarifies an expression that the canonical name alone does not.
+- Alternate functional names such as Creatrix, Muse, Huntress, Oracle, Hearth Keeper, Love Goddess, Devoted Consort, Beloved, Priestess, Alchemist, Witch, or Scribe may appear sparingly in body prose only when the alternate clarifies an expression that the canonical name alone does not.
 - Capitalize a canonical archetype or shadow when personified as the named pattern: “the Mature Creator,” “the Compulsive Perfecter.” Lowercase a generic role: “a creator,” “a perfectionist habit.”
 - Capitalize **Active Shadow** and **Passive Shadow** in profile labels and designation lines. Use lowercase in ordinary prose: “the active shadow inflates daring.”
 - Capitalize the two canonical qualities when they appear as profile labels or section terms. Lowercase them in ordinary syntax unless personified.
@@ -91,6 +91,20 @@ A shadow spread must include:
 13. one verified closing quotation.
 
 Avoid generic headings such as “In Daily Life” when a precise heading can name the entry's actual tension. Do not turn every paragraph into a heading or repeat the title in adjacent headings.
+
+## Printed profile panel
+
+The compact profile beneath the image contains **exactly these seven fields**, in this order:
+
+1. Lifecycle stage
+2. Core function
+3. Balanced qualities
+4. Active shadow
+5. Passive shadow
+6. Mythic resonances
+7. Key qualities
+
+Do not add elements, directions, centers, power animals, planets, colors, chakras, correspondences, or any other profile field. The book has no separate virtue chapters and no separate skill chapters; qualities and practices remain inside the relevant archetype or shadow spread.
 
 ## Balance and shadow language
 
@@ -142,7 +156,7 @@ Every final archetype and shadow has exactly two short, verified quotations: one
 
 ## Mythic resonances
 
-Mythic figures appear only in the compact **Mythic Resonances** profile field and, when indispensable, in one restrained body reference that clarifies a psychological function. They do not appear in titles or explanatory mythology sections.
+Mythic figures appear only in the compact **Mythic Resonances** profile field beneath the image. They do not appear in titles, body prose, captions, declarations, headings, or explanatory mythology sections.
 
 - Verify every resonance in the source ledger with the tradition, function claimed, spelling/transliteration, and a reputable source.
 - Label traditions precisely. Do not call a figure merely “ancient,” “Eastern,” “Indigenous,” or “goddess tradition.”
