@@ -19,13 +19,26 @@
     "sectionSize": 16
   },
   "metrics": {
-    "contentBounds": {
-      "left": 56,
-      "right": 556,
-      "top": 48,
-      "bottom": 750
+    "bodyBounds": {
+      "odd": {
+        "left": 56,
+        "right": 564,
+        "top": 48,
+        "bottom": 750
+      },
+      "even": {
+        "left": 49,
+        "right": 557,
+        "top": 48,
+        "bottom": 750
+      }
     },
-    "minimumFinalFill": 0.2,
+    "overflowTolerance": 2,
+    "numericFooter": {
+      "centerTolerance": 12,
+      "maxDigits": 4
+    },
+    "minimumFinalFill": 0.75,
     "maximumFinalFill": 0.95
   }
 }

@@ -13,13 +13,22 @@ import fitz
 PRINT_DIR = Path(__file__).resolve().parents[1] / "book" / "print-pdf"
 sys.path.insert(0, str(PRINT_DIR))
 
-from pdf_metrics import measure_pdf
+from pdf_metrics import load_metrics_config, measure_pdf
 
 
 PAGE = fitz.Rect(0, 0, 612, 792)
 
 
-def add_page(document: fitz.Document, *, fill: str = "full", overflow: bool = False) -> None:
+def add_page(
+    document: fitz.Document,
+    *,
+    fill: str = "full",
+    overflow: bool = False,
+    below_body: bool = False,
+    horizontal: str | None = None,
+    image_overflow: bool = False,
+    numeric_footer: bool = False,
+) -> None:
     page = document.new_page(width=PAGE.width, height=PAGE.height)
     if fill == "blank":
         return
@@ -27,7 +36,7 @@ def add_page(document: fitz.Document, *, fill: str = "full", overflow: bool = Fa
         page.insert_text((72, 150), "A brief line.", fontsize=12)
         return
     if overflow:
-        page.insert_text((72, 748), "This block crosses the content boundary.", fontsize=12)
+        page.insert_text((72, 752), "This block crosses the content boundary.", fontsize=12)
         return
 
     # A text block and an image block both inside the configured content bounds.
@@ -40,6 +49,16 @@ def add_page(document: fitz.Document, *, fill: str = "full", overflow: bool = Fa
     pixmap = fitz.Pixmap(fitz.csRGB, (0, 0, 36, 36), False)
     pixmap.clear_with(120)
     page.insert_image(fitz.Rect(72, 485, 180, 590), pixmap=pixmap)
+    if below_body:
+        page.insert_text((72, 770), "Unapproved below-body content.", fontsize=12)
+    if horizontal == "left":
+        page.insert_text((12, 400), "Left overflow.", fontsize=12)
+    if horizontal == "right":
+        page.insert_text((550, 400), "Right overflow.", fontsize=12)
+    if image_overflow:
+        page.insert_image(fitz.Rect(540, 300, 600, 370), pixmap=pixmap)
+    if numeric_footer:
+        page.insert_text((303, 770), "2", fontsize=10)
 
 
 class PdfMetricsTests(unittest.TestCase):
@@ -63,7 +82,7 @@ class PdfMetricsTests(unittest.TestCase):
         measurement = measure_pdf(self.fixture("two-pages.pdf", [{}, {}]))
 
         self.assertEqual(measurement.pages, 2)
-        self.assertGreater(measurement.final_fill, 0.20)
+        self.assertGreater(measurement.final_fill, load_metrics_config()["minimumFinalFill"])
         self.assertEqual(measurement.blank_pages, ())
         self.assertEqual(measurement.overflow_blocks, 0)
         self.assertTrue(measurement.passed)
@@ -98,6 +117,36 @@ class PdfMetricsTests(unittest.TestCase):
 
         self.assertGreater(measurement.overflow_blocks, 0)
         self.assertFalse(measurement.passed)
+
+    def test_wholly_below_body_content_is_overflow_not_furniture(self) -> None:
+        measurement = measure_pdf(self.fixture("below-body.pdf", [{}, {"below_body": True}]))
+
+        self.assertGreater(measurement.overflow_blocks, 0)
+        self.assertFalse(measurement.passed)
+
+    def test_left_overflow_on_odd_page_is_reported(self) -> None:
+        measurement = measure_pdf(self.fixture("odd-left.pdf", [{"horizontal": "left"}, {}]))
+
+        self.assertGreater(measurement.overflow_blocks, 0)
+        self.assertFalse(measurement.passed)
+
+    def test_right_overflow_on_even_page_is_reported(self) -> None:
+        measurement = measure_pdf(self.fixture("even-right.pdf", [{}, {"horizontal": "right"}]))
+
+        self.assertGreater(measurement.overflow_blocks, 0)
+        self.assertFalse(measurement.passed)
+
+    def test_image_overflow_on_even_page_is_reported(self) -> None:
+        measurement = measure_pdf(self.fixture("even-image-overflow.pdf", [{}, {"image_overflow": True}]))
+
+        self.assertGreater(measurement.overflow_blocks, 0)
+        self.assertFalse(measurement.passed)
+
+    def test_centered_numeric_footer_is_ignored_narrowly(self) -> None:
+        measurement = measure_pdf(self.fixture("numeric-footer.pdf", [{}, {"numeric_footer": True}]))
+
+        self.assertEqual(measurement.overflow_blocks, 0)
+        self.assertTrue(measurement.passed)
 
 
 if __name__ == "__main__":

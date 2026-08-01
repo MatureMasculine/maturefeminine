@@ -11,7 +11,7 @@ PRINT_DIR = Path(__file__).resolve().parents[1] / "book" / "print-pdf"
 sys.path.insert(0, str(PRINT_DIR))
 
 from adjust_content_size import console_report, editorial_direction, report_markdown
-from pdf_metrics import SpreadMeasurement
+from pdf_metrics import SpreadMeasurement, load_metrics_config
 from validate_spreads import compiled_entry_passes
 
 
@@ -19,7 +19,19 @@ class SpreadToolsTests(unittest.TestCase):
     def test_editorial_direction_is_non_mutating_and_specific(self) -> None:
         self.assertEqual(editorial_direction(SpreadMeasurement(3, 0.7, (), 0, False)), "Cut redundancy; the entry spills beyond its spread.")
         self.assertEqual(editorial_direction(SpreadMeasurement(2, 0.1, (), 0, False)), "Add a missing substantive distinction; the final page is underfilled.")
-        self.assertEqual(editorial_direction(SpreadMeasurement(2, 0.7, (), 0, True)), "No edit direction; the spread meets the configured contract.")
+        self.assertEqual(editorial_direction(SpreadMeasurement(2, 0.8, (), 0, True)), "No edit direction; the spread meets the configured contract.")
+
+    def test_editorial_direction_uses_configured_fill_bounds(self) -> None:
+        metrics = load_metrics_config()
+
+        self.assertEqual(
+            editorial_direction(SpreadMeasurement(2, metrics["minimumFinalFill"] - 0.0001, (), 0, False)),
+            "Add a missing substantive distinction; the final page is underfilled.",
+        )
+        self.assertEqual(
+            editorial_direction(SpreadMeasurement(2, metrics["maximumFinalFill"] + 0.0001, (), 0, False)),
+            "Cut redundancy; the final page is overfilled.",
+        )
 
     def test_markdown_report_is_deterministic(self) -> None:
         report = {

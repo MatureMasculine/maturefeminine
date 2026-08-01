@@ -32,7 +32,7 @@ def tex(value: Any) -> str:
     """Escape source prose for LuaLaTeX without changing its wording."""
     return (
         str(value)
-        .replace("\\", r"\textbackslash{}")
+        .replace("\\", "\ue000")
         .replace("&", r"\&")
         .replace("%", r"\%")
         .replace("$", r"\$")
@@ -42,6 +42,7 @@ def tex(value: Any) -> str:
         .replace("}", r"\}")
         .replace("~", r"\textasciitilde{}")
         .replace("^", r"\textasciicircum{}")
+        .replace("\ue000", r"\textbackslash{}")
     )
 
 
@@ -131,7 +132,15 @@ def tex_list(values: list[str]) -> str:
 
 
 def render_quote(value: str) -> str:
-    return "\\begin{quote}\\itshape " + tex(value).replace("\n\n", "\\par ") + "\\end{quote}"
+    quote, separator, attribution = value.partition("\n\n")
+    quote_lines = "\\\\\n".join(tex(line) for line in quote.splitlines())
+    attribution_tex = _tex_attribution(attribution if separator else "")
+    return "\\begin{quote}\\itshape " + quote_lines + ("\\par\\smallskip " + attribution_tex if attribution_tex else "") + "\\end{quote}"
+
+
+def _tex_attribution(value: str) -> str:
+    parts = re.split(r"(\*[^*\n]+\*)", value)
+    return "".join(f"\\emph{{{tex(part[1:-1])}}}" if part.startswith("*") and part.endswith("*") else tex(part) for part in parts)
 
 
 def render_profile(entry: dict[str, Any]) -> str:

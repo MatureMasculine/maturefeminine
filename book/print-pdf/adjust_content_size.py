@@ -9,10 +9,11 @@ from pathlib import Path
 from typing import Any
 
 from generate_book import BUILD_DIR, render_entry, select_entries
-from pdf_metrics import SpreadMeasurement, measurement_dict, measure_pdf
+from pdf_metrics import SpreadMeasurement, load_metrics_config, measurement_dict, measure_pdf
 
 
 def editorial_direction(measurement: SpreadMeasurement) -> str:
+    metrics = load_metrics_config()
     if measurement.pages > 2:
         return "Cut redundancy; the entry spills beyond its spread."
     if measurement.pages < 2:
@@ -20,9 +21,11 @@ def editorial_direction(measurement: SpreadMeasurement) -> str:
     if measurement.blank_pages:
         return "Restore missing body content; a spread page is blank."
     if measurement.overflow_blocks:
-        return "Cut or restructure body content; it crosses the configured bottom boundary."
-    if measurement.final_fill < 0.2:
+        return "Cut or restructure body content; it crosses a configured body boundary."
+    if measurement.final_fill < float(metrics["minimumFinalFill"]):
         return "Add a missing substantive distinction; the final page is underfilled."
+    if measurement.final_fill > float(metrics["maximumFinalFill"]):
+        return "Cut redundancy; the final page is overfilled."
     if not measurement.passed:
         return "Review the global spread configuration and body structure."
     return "No edit direction; the spread meets the configured contract."

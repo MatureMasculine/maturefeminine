@@ -46,6 +46,23 @@ class GenerateBookTests(unittest.TestCase):
 
         self.assertIn("\\section*{Lover}", content)
 
+    def test_render_quote_preserves_verse_and_emphasizes_only_work_titles(self) -> None:
+        rendered = generate_book.render_quote(
+            "“I love thee freely, as men strive for Right;\nI love thee purely, as they turn from Praise.”\n\n—Elizabeth Barrett Browning, *Sonnet 43*"
+        )
+
+        self.assertIn("Right;\\\\\nI love", rendered)
+        self.assertIn("\\par\\smallskip", rendered)
+        self.assertIn("\\emph{Sonnet 43}", rendered)
+        self.assertNotIn("*Sonnet 43*", rendered)
+
+    def test_render_quote_escapes_literal_latex_in_verse_and_attribution(self) -> None:
+        rendered = generate_book.render_quote("“A & B\\danger”\nSecond line.\n\n—Author, *Work & \\unsafe*")
+
+        self.assertIn(r"A \& B\textbackslash{}danger”\\", rendered)
+        self.assertIn(r"\emph{Work \& \textbackslash{}unsafe}", rendered)
+        self.assertNotIn(r"\unsafe", rendered)
+
     def test_manifest_uses_anchor_pages_for_start_end_and_parity(self) -> None:
         manifest = generate_book.manifest_from_aux(
             """\\newlabel{entry:lover:start}{{}{12}}\n\\newlabel{entry:lover:end}{{}{13}}\n""",

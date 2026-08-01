@@ -67,3 +67,27 @@ Sample generated artifacts (ignored):
 
 - No hosted API dependency, key check, Anthropic import, prose mutation, generated-data edit, virtual environment, or sibling-repository dependency was added.
 - The full book compiles, but only the independently approved Lover trio was run through exact-spread validation. Pending entries are intentionally not represented as publication-ready; later tasks must run `--all`, resolve any failures, and complete content/research/image readiness before claiming print readiness.
+
+## Review remediation (post-`66339ea`)
+
+- Replaced the symmetric measurement rectangle with parity-aware body rectangles and a configured 2-point overflow tolerance.
+- Every text or image block outside any body edge is overflow. The only ignored outside-body block is a narrow configured exception: centered, wholly-below-body text containing only a 1–4 digit page number. Arbitrary below-body text is overflow.
+- Final-page fill uses the selected physical page's body rectangle and clipped in-body blocks, so it remains deterministic for asymmetric pages.
+- Corrected LaTeX escaping so literal source backslashes become `\\textbackslash{}` without exposing raw TeX. Quote rendering preserves source line breaks, keeps the blank-line attribution separation, and translates only simple canonical `*work title*` attribution spans into escaped `\\emph{...}`.
+- Raised the shared lower fill bound to `0.75`. `editorial_direction()` now reads both configured fill bounds.
+- Did not add dedication or lifecycle front matter. Those canonical sources are intentionally deferred to Task 7, which owns the exact dedication and lifecycle explanation. The Task 5 title/entry compilation scaffold remains only a structural development artifact and is not publication-ready front matter.
+
+### RED → GREEN evidence
+
+- RED command: `python3 -m unittest test/test_pdf_metrics.py test/test_generate_book.py test/test_spread_tools.py -v`.
+- RED failures were expected: wholly-below, odd-left, even-right, and image overflow blocks were missed; verse lineation and safe italic attribution rendering failed; and the configured upper-fill editorial direction fell through to the generic review message.
+- GREEN: the same command passed with **23 Python tests**. The focused fixtures now cover wholly-below body text, odd-page left overflow, even-page right overflow, even-page image overflow, and the narrowly ignored numeric footer, in addition to the original page-count/blank/sparse/bottom-overflow cases.
+
+### Final verification
+
+- Passed: Python focused tests, `npm run content:check`, `npm run book:check`, `npm run book:measure -- --entry lover`, `npm run book:spreads -- --entry lover`, `npm run book:validate -- --entry lover`, `npm run book:build`, and `git diff --check`.
+- Node/content: 86 tests passed; generated data remained in sync.
+- Lover trio standalone measurements: `lover` `0.8496`, `enmeshing-lover` `0.8554`, and `armored-lover` `0.8839`; all are two pages with no blank pages and zero overflow under the `0.75–0.95` shared fill band.
+- Compiled anchor spans remained `lover` 2–3, `enmeshing-lover` 4–5, and `armored-lover` 6–7; every start is even and every end is odd.
+- Rebuilt the full 66-entry normalized PDF successfully.
+- Rendered and visually inspected all six Lover-trio pages at 120 DPI. Browning, Teasdale, and Dickinson lineation is preserved; attributions are separated and long-work titles render in italics; no literal Markdown asterisks, clipping, or page-furniture false positives were observed.
