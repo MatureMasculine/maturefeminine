@@ -19,12 +19,18 @@ test("Whitman closing matches the authoritative 1855 text and exposes inspectabl
   );
   assert.equal(
     whitman.sourceUrl,
-    "https://whitmanarchive.org/item/ppp.00271_preface",
+    "https://raw.githubusercontent.com/whitmanarchive/whitman-leaves_of_grass/main/source/tei/ppp.00271.xml",
   );
   assert.equal(
     whitman.corroboratingUrl,
     "https://raw.githubusercontent.com/whitmanarchive/whitman-leaves_of_grass/main/source/tei/ppp.00271.xml",
   );
+  assert.equal(
+    whitman.publicationEvidenceUrl,
+    "https://whitmanarchive.org/item/ppp.00271",
+  );
+  assert.match(whitman.verificationNotes, /403/i);
+  assert.match(whitman.verificationNotes, /bot restriction/i);
   assert.match(whitman.verificationNotes, /1855/i);
   assert.match(whitman.verificationNotes, /no comma/i);
 });
@@ -121,6 +127,8 @@ test("Healer closes with Nightingale's historically scoped do-no-harm principle"
     "https://archive.org/details/cu31924012356485",
   );
   assert.match(nightingale.verificationNotes, /opening unnumbered page \[iii\]/i);
+  assert.match(nightingale.verificationNotes, /repository image numbering differs/i);
+  assert.doesNotMatch(nightingale.verificationNotes, /PDF image 7/i);
   assert.match(nightingale.verificationNotes, /hospital construction/i);
   assert.equal(
     quotations.some((item) => item.id === "quote-healer-closing-nightingale-nature-cures"),

@@ -24,7 +24,7 @@
 ## Research and source resolution
 
 - Appended 12 unique verified quotation records and six unique independently verified myth records. Each manuscript resolves to exactly two quote IDs in opening/closing order and one myth source ID assigned to that spread.
-- Verified the assigned evidence against nonempty source content rather than relying on HTTP status alone. This caught and replaced a nominally successful but empty UVA *Dorian Gray* endpoint with Project Gutenberg 174.
+- Verified the assigned evidence against nonempty source content rather than relying on HTTP status alone. This caught and replaced a nominally successful but empty UVA *Dorian Gray* endpoint with Project Gutenberg 174. The Whitman Archive's browser-facing item is retained as publication evidence but returns HTTP 403 to command-line clients under its bot restriction, so the authoritative, nonempty official raw TEI is the audited quotation source.
 - The final quotation slate is:
   - Creator: John Ruskin, “Then FINE ART is that in which the hand, the head, and the heart of man go together”; Walt Whitman, “The art of art, the glory of expression and the sunshine of the light of letters is simplicity.”
   - Compulsive Perfecter: Oscar Wilde, “An artist should create beautiful things, but should put nothing of his own life into them”; Emily Dickinson, “A Word.”
