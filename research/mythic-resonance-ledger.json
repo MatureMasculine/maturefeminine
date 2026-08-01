@@ -253,6 +253,132 @@
       "verificationStatus": "verified",
       "culturalContextNote": "Recorded as a character in a nineteenth-century English novel set in Renaissance Florence. Coercive marriage and spiritual manipulation materially constrain her choice; the assignment does not blame an abused woman for her confinement, generalize about Catholicism or the Dominican tradition, or treat deference as a trait of Italian culture. The Maiden lifecycle remains psychological, not an age claim.",
       "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-creator-hephaestus-homer-iliad-18",
+      "assignedSpread": "creator",
+      "assignmentScope": "parent-only",
+      "figure": "Hephaestus",
+      "figureType": "mythic deity",
+      "tradition": "archaic Greek epic tradition",
+      "relevantFunction": "Thetis brings him a concrete need for Achilles. He sets twenty bellows to work at differing force as he chooses, selects metals and tools, fashions a layered shield filled with varied scenes inside a defined rim, completes the remaining armor, and places the finished work before her. The narrow resonance joins responsive invention, governing structure, craft, and delivery.",
+      "source": {
+        "title": "The Iliad, Book 18",
+        "authorOrInstitution": "Homer; translated by A. T. Murray; Theoi Classical Texts Library",
+        "originatingWork": "Homer, Iliad",
+        "location": "book 18, lines 368–617, especially 468–482 and 606–617",
+        "publicationDetails": "English translation by A. T. Murray in the Loeb Classical Library, first published in 1924–25.",
+        "url": "https://www.theoi.com/Text/HomerIliad18.html"
+      },
+      "verificationNotes": "The accessible primary epic translation shows the request, responsive bellows, chosen materials and tools, ordered shield construction, many images held within its rim, completion of the full armor, and delivery to Thetis. The resonance concerns one making sequence, not the armor's use in war or a claim that divine craft defines all creativity.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a male deity in archaic Greek epic. His bodily difference, rejection history, divine status, and the martial purpose of the armor are not metaphors for feminine creativity, disability, or psychological maturity. The figure is not equated with weaving or creator figures from other traditions.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-compulsive-perfecter-frenhofer-balzac-masterpiece",
+      "assignedSpread": "compulsive-perfecter",
+      "assignmentScope": "shadow-specific",
+      "figure": "Frenhofer",
+      "figureType": "literary artist",
+      "tradition": "nineteenth-century French literary tradition",
+      "relevantFunction": "For ten years Frenhofer privately revises a painting he regards as complete yet still unable to show. When other painters finally see it, nearly the whole figure has disappeared beneath accumulated color and revisions, leaving only a foot legible. The resonance isolates Structure and refinement overextended until contact and coherent form are lost.",
+      "source": {
+        "title": "The Unknown Masterpiece",
+        "authorOrInstitution": "Honoré de Balzac; translated by Ellen Marriage; Project Gutenberg",
+        "originatingWork": "Honoré de Balzac, Le Chef-d’œuvre inconnu",
+        "location": "part II, ‘Catherine Lescault,’ especially the final studio viewing",
+        "publicationDetails": "The story first appeared in 1831 and was revised through 1845; the cited English translation appears in Project Gutenberg ebook 23060.",
+        "url": "https://www.gutenberg.org/files/23060/23060-h/23060-h.htm"
+      },
+      "verificationNotes": "The displayed text gives the ten-year private labor, his repeated insistence that the work is not ready for outside sight, the viewers' discovery of incoherent color with one surviving foot, and his destruction of the paintings. The ledger does not treat artistic ambition, revision, or abstraction as pathology.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a fictional male painter in a nineteenth-century French story and an English public-domain translation. The assignment does not use Gillette's coerced modeling or Frenhofer's death as instruction, punishment, or proof of the shadow model.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-scattered-maker-sorcerers-apprentice-goethe",
+      "assignedSpread": "scattered-maker",
+      "assignmentScope": "shadow-specific",
+      "figure": "The Sorcerer's Apprentice",
+      "figureType": "literary ballad character",
+      "tradition": "German literary tradition",
+      "relevantFunction": "The apprentice animates a broom to carry water while the master is absent, delights in the multiplying current, then cannot recall the governing word that would stop it. Cutting the broom produces two carriers and doubles the flood until the master returns and restores order. The resonance isolates generative force released without adequate containment, sequence, or closure.",
+      "source": {
+        "title": "The Sorcerer's Apprentice",
+        "authorOrInstitution": "Johann Wolfgang von Goethe; translated by John Bowring; reproduced by Philip H. Goepp; Project Gutenberg",
+        "originatingWork": "Goethe, Der Zauberlehrling",
+        "location": "complete ballad and Goepp's episode summary under ‘Dukas. The Sorcerer's Apprentice’",
+        "publicationDetails": "Goethe's ballad was first published in 1797; Bowring's English translation is reproduced in Symphonies and Their Meaning, Third Series: Modern Symphonies (Philadelphia: J. B. Lippincott, 1913), Project Gutenberg ebook 12903.",
+        "url": "https://www.gutenberg.org/cache/epub/12903/pg12903-images.html"
+      },
+      "verificationNotes": "The accessible source reproduces Bowring's complete translation and summarizes the apprentice's invocation, repeated water-carrying, forgotten stop formula, destructive doubling, flood, and the master's return. The assignment concerns uncontained output, not literal magic or moral inferiority of apprentices.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a fictional male character in a German literary ballad through a public-domain English translation and musicological source. It is not equated with ritual practitioners, occult traditions, or creator deities.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-healer-good-samaritan-luke-10",
+      "assignedSpread": "healer",
+      "assignmentScope": "parent-only",
+      "figure": "The Good Samaritan",
+      "figureType": "scriptural parable figure",
+      "tradition": "Christian scriptural tradition",
+      "relevantFunction": "The Samaritan sees an injured stranger, approaches with compassion, gives immediate bodily care, transports him to an inn, transfers ongoing tending to a host, provides finite resources, and promises a later accounting. The narrow resonance joins responsive care with movement, handoff, provision, and a bounded continuing commitment.",
+      "source": {
+        "title": "The Gospel According to Luke",
+        "authorOrInstitution": "Anonymous King James Version translation; Project Gutenberg",
+        "originatingWork": "New Testament, Gospel of Luke",
+        "location": "Luke 10:25–37, especially verses 33–35",
+        "publicationDetails": "King James Version first published in 1611; cited from Project Gutenberg ebook 8042, Book 42: Luke.",
+        "url": "https://www.gutenberg.org/cache/epub/8042/pg8042-images.html"
+      },
+      "verificationNotes": "The displayed text explicitly names compassion, wound care, transport, an inn handoff, finite payment, and later reimbursement. Because the injured person is described as half dead, the scene cannot model ordinary verbal consent; the manuscript separately requires consent wherever capacity and urgency permit.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a figure in a Jewish teacher's first-century parable preserved in Christian scripture. ‘Samaritan’ names a historically distinct community, not a generic synonym for helper; the assignment does not erase Jewish–Samaritan conflict, prescribe Christian belief, or claim the parable supplies a complete modern care ethic.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-rescuing-healer-asclepius-apollodorus-3",
+      "assignedSpread": "rescuing-healer",
+      "assignmentScope": "shadow-specific",
+      "figure": "Asclepius",
+      "figureType": "mythic healing deity",
+      "tradition": "ancient Greek mythographic tradition",
+      "relevantFunction": "Apollodorus says that Asclepius carries surgery so far that he not only prevents deaths but repeatedly raises the dead. Zeus fears that people will acquire this power and strikes him with a thunderbolt. The narrow resonance is healing extended beyond the story's governing mortal scope, not a verdict that saving life deserves punishment.",
+      "source": {
+        "title": "The Library, Book 3",
+        "authorOrInstitution": "Pseudo-Apollodorus; translated by J. G. Frazer; Theoi Classical Texts Library",
+        "originatingWork": "Pseudo-Apollodorus, Bibliotheca",
+        "location": "book 3.10.3–3.10.4",
+        "publicationDetails": "English translation by J. G. Frazer in the Loeb Classical Library, 1921.",
+        "url": "https://www.theoi.com/Text/Apollodorus3.html"
+      },
+      "verificationNotes": "The primary mythographic translation lists several people Asclepius was reported to have raised and gives Zeus's stated fear before the thunderbolt. Other ancient versions attribute payment or name different restored figures; this record makes no claim about a single universal motive or version.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a male healing deity in one ancient Greek mythographic account. Zeus's violence is not endorsed as justice, disability or death is not framed as personal failure, and the story is not used to limit real medical care, emergency aid, or collective health provision.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-guarded-healer-silas-marner-eliot",
+      "assignedSpread": "guarded-healer",
+      "assignmentScope": "shadow-specific",
+      "figure": "Silas Marner",
+      "figureType": "literary protagonist",
+      "tradition": "nineteenth-century English literary tradition",
+      "relevantFunction": "After false accusation, betrayal, and expulsion from his religious community, Silas withdraws from human relation and narrows his life around solitary work and hoarded money. When an abandoned child enters his home, practical care reconnects him with neighbors, mutual help, affection, and a wider world. The resonance isolates protection generalized into human distance and Compassion restored through bounded daily care.",
+      "source": {
+        "title": "Silas Marner: The Weaver of Raveloe",
+        "authorOrInstitution": "George Eliot; Project Gutenberg",
+        "originatingWork": "George Eliot, Silas Marner",
+        "location": "part I, chapters 1–2 and 12–14; especially chapter 14's account of Eppie linking Silas with the world",
+        "publicationDetails": "Silas Marner: The Weaver of Raveloe (Edinburgh and London: William Blackwood and Sons, 1861); Project Gutenberg ebook 550.",
+        "url": "https://www.gutenberg.org/files/550/550-h/550-h.htm"
+      },
+      "verificationNotes": "The primary novel establishes betrayal and false accusation, prolonged withdrawal and hoarding, his choice to care for the child, reliance on Dolly Winthrop's advice, renewed everyday contact, and the narrator's statement that Eppie links him again with the whole world. The assignment concerns a narrative movement, not a diagnosis of Silas.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a fictional male weaver in a nineteenth-century English novel. His trauma, class position, religious exclusion, and unusual episodes are not reduced to a feminine shadow, and the abandoned child is not presented as responsible for healing an adult.",
+      "accessDate": "2026-07-31"
     }
   ]
 }

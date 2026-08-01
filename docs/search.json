@@ -124,7 +124,7 @@
         "group": "Lover",
         "qualities": ["Structure","Flow"],
         "balanceQualities": ["Structure","Flow"],
-        "keyQualities": "Creative, Patient, Inventive, Organized, Visionary, Generative, Bold, Resourceful, Iterative, Systematic, Inspiring, Expressive, Attuned, Magnetic, Rhythmic, Refined, Courageous, Flowing, Disciplined, Generous",
+        "keyQualities": "Inventive, Receptive, Disciplined, Adaptive, Patient, Expressive, Iterative, Resourceful, Discerning, Generous",
         "href": "/lover/creator/"
       }
 
@@ -152,7 +152,7 @@
         "group": "Lover",
         "qualities": ["Compassion","Boundaries"],
         "balanceQualities": ["Compassion","Boundaries"],
-        "keyQualities": "Compassionate, Boundaried, Present, Restorative, Empathic, Clear, Centered, Ethical, Grounded, Devotional",
+        "keyQualities": "Compassionate, Boundaried, Present, Consent-led, Restorative, Clear, Ethical, Grounded, Skilled, Sustainable",
         "href": "/lover/healer/"
       }
 
@@ -489,7 +489,7 @@
         "group": "Lover",
         "qualities": ["Structure","Flow"],
         "balanceQualities": ["Structure","Flow"],
-        "keyQualities": "Reworks settled details, Confuses polish with value, Never exposes work to use, Edits herself before creating, Imitates the prevailing taste, Waits indefinitely for permission",
+        "keyQualities": "Reworks settled details, Confuses polish with value, Delays exposure indefinitely, Controls the process before making, Edits her own voice out, Treats criticism as invalidation, Expands scope whenever completion approaches",
         "href": "/lover/creator/shadows/compulsive-perfecter/"
       }
 
@@ -553,7 +553,7 @@
         "group": "Lover",
         "qualities": ["Compassion","Boundaries"],
         "balanceQualities": ["Compassion","Boundaries"],
-        "keyQualities": "Gives unsolicited treatment, Takes responsibility for outcomes, Ignores fatigue and scope",
+        "keyQualities": "Gives unsolicited help, Takes responsibility for outcomes, Overpromises availability, Exceeds role or competence, Makes need a source of identity, Ignores fatigue and refusal",
         "href": "/lover/healer/shadows/rescuing-healer/"
       }
 
@@ -569,7 +569,7 @@
         "group": "Lover",
         "qualities": ["Compassion","Boundaries"],
         "balanceQualities": ["Compassion","Boundaries"],
-        "keyQualities": "Uses policy to avoid contact, Withdraws at visible need, Confuses non-rescue with non-care",
+        "keyQualities": "Uses policy to avoid contact, Withdraws at visible need, Anticipates engulfment, Intellectualizes distress, Refuses finite care, Confuses non-rescue with non-care",
         "href": "/lover/healer/shadows/guarded-healer/"
       }
 

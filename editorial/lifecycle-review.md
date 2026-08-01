@@ -128,3 +128,72 @@ All nine entries passed the shared `0.75–0.95` fill band on the first exact-sp
 Compiled trio anchors passed even-to-odd parity: each parent occupied pages 2–3, its active shadow pages 4–5, and its passive shadow pages 6–7 in the scoped compilation. All 18 rendered pages were visually inspected. Quotation lineation, upright attributions with italic work titles, image and profile hierarchy, headings, columns, and page furniture were intact; no clipping, collisions, blank pages, literal Markdown, orphaned headings, or conspicuous imbalance required remediation. No prose was added or removed solely to affect pagination, and no typography or print-tool setting changed.
 
 After independent-review repairs, all three trio measurement, spread, and validation commands passed again. Frozen Beginner's fuller Alcott sentence moved its final-page fill to `0.8687`; Visionary remained `0.7889` and Self-Doubting Seer remained `0.9033`. Both pages of those three changed entries were rendered and visually re-inspected with no clipping, collision, orphan, blank page, overflow, or broken quotation/profile hierarchy.
+
+## Lover
+
+Date: 2026-07-31
+
+Scope: remaining entries `creator`, `compulsive-perfecter`, `scattered-maker`, `healer`, `rescuing-healer`, and `guarded-healer`; calibrated `lover`, `enmeshing-lover`, and `armored-lover` preserved unchanged
+
+Authority: `editorial/canonical-taxonomy.md`, `editorial/style-sheet.md`, and `editorial/calibration-notes.md`
+
+### Lifecycle Frame and Functional Boundaries
+
+Lover remains revisitable psychological territory rather than an age, sexual status, partnership status, reproductive condition, biological claim, or rank. Its three parent functions are distinct:
+
+- Creator receives generative inspiration and completes a form another person can encounter. It does not own Storyteller's transmission of communal memory, Luminary's visible orientation of a field, or Magician's consequential transformation within accountable stewardship.
+- Lover enters chosen intimacy and shared commitment without surrendering sovereignty. It does not make creation or helping a requirement of devotion.
+- Healer responds where relief, repair, treatment, or increased capacity is possible. Witness accompanies suffering at the limit of cure or control; Guardian and Warrior protect or defend rather than organize care.
+
+The legacy Creatrix, Spider Weaver, Muse, and Song Goddess labels are absorbed as phases or currents inside Creator and never used as alternate titles. Young Healer, Young Priestess, Savior Complex, and Wounded Healer remain migration provenance only. No lifecycle language implies chronology.
+
+### Pass 1: Developmental Edit
+
+#### Creator Trio
+
+- Printed `Mature Creator = Structure + Flow` in all three profiles. Creator uses Structure to gather effort into sequence and completion while Flow keeps the work responsive to material, discovery, audience, and time.
+- Compulsive Perfecter inflates Structure without Flow. Its chain moves from disproportionate standards and a moving finish line through private revision, silenced authorship, controlled collaboration, and indefinite protection from contact. Practices restore Flow through rough trials, responsive feedback, consequence-ranked defects, fixed revision budgets, and release.
+- Scattered Maker collapses Structure while Flow distorts. Its chain moves from ordinary friction through novelty switching, broadcast impulses, unrecorded pauses, scope drift, and unfinished commitments. Practices restore Structure through one active project, a visible finish line, scheduled capture review, scope-change rules, and completion review.
+- Added a necessary distinction between intentional incubation and unrecorded abandonment. A conscious pause names why work is resting, what would reopen it, and when it will be reviewed.
+
+#### Healer Trio
+
+- Printed `Mature Healer = Compassion + Boundaries` in all three profiles. Compassion lets suffering register and motivates response; Boundaries govern consent, role, competence, capacity, privacy, duration, and ownership of outcome.
+- Rescuing Healer inflates Compassion without Boundaries. Its chain moves from visible need through assumed mandate, unsolicited intervention, role expansion, outcome ownership, hidden cost, and depletion. Practices restore Boundaries through explicit requests, finite offers, handoffs, consultation, review dates, and returned agency.
+- Guarded Healer collapses Compassion while Boundaries become armor. Its chain moves from remembered depletion or danger through anticipated engulfment, policy-first distance, analysis without recognition, and refusal of finite contact. Practices restore Compassion through accurate acknowledgment, present-context checks, bounded offers, warm refusal, and consensual handoff.
+- Distinguished institutional overload from an individual rescue pattern. Understaffing, inaccessibility, discrimination, and abandoned public duties can create genuinely unsafe loads; mature care names the unmet obligation and recruits shared power instead of treating private overextension as the solution.
+- Distinguished advocacy from takeover and triage from armor. Advocacy preserves the affected person's authorship of the goal. Triage can remain compassionate when risk, limits, and the next viable step are legible.
+
+#### Safety and Scope
+
+No entry diagnoses the reader, romanticizes self-sacrifice, treats illness or trauma as a failure, promises cure, or makes boundaries synonymous with coldness. Emergency action is separated from ordinary consent; unsafe access is never prescribed. Professional authority, systems, disability, money, privacy, and structural neglect remain materially relevant.
+
+### Pass 2: Anti-Fluff and Redundancy Edit
+
+- Removed the migration drafts' repeated current labels, duplicate definition/conclusion language, one-line applications, generic “mutually correcting” summaries, and formulaic “add the missing quality” transformations.
+- Replaced decorative loom, song, and priestess language with observable craft and care decisions. The absorbed labels appear once only where their functional contribution is clarified.
+- Removed generic uplift about creativity, service, and healing. Every paragraph now adds a mechanism, domain, limit, consequence, distinction, or practice.
+- Preserved framework language only where causality requires it. No exact declaration or practice from the six entries duplicates another canonical entry.
+- Compared 16,668 paragraph pairs involving the six entries against verified Maiden and Lover material. None reached Jaccard `0.55`; the highest was `0.259` between unrelated mechanism paragraphs.
+- Named mythic and literary figures appear in reader-facing material only in the profile row. No mythology is used as psychological proof or atmosphere.
+
+### Pass 3: Line Edit
+
+- Used tailored headings that name the actual work: vessel/current, craft as concealment, possibility without shape, reach/edge of care, help as possession, and boundary as wall.
+- Led every shadow with the exact causal quality failure before protective history, domains, hidden energy, recognition, practice, opposite swing, transformation, and return.
+- Kept all declarations first-person and specific. All practices use shared `we/our` invitations and name an observable action, limit, recipient, date, handoff, decision owner, or review condition.
+- Reworked page-break fragments found during the first visual pass. Paragraph boundaries now prevent split sentences at the tops of pages, and the Healer declarations remain together before the next heading.
+
+### Pass 4: Copy Edit and Research Record
+
+- Confirmed canonical H1s, slugs, lifecycle and order, quality order, parent/opposite links, aliases, legacy routes and anchors, images, literal equations, and seven profile rows.
+- Confirmed 10 declarations and seven practices for each parent; eight declarations and seven practices for each shadow. All declaration and practice strings are unique.
+- Assigned 12 unique verified, public-domain quotations. The final slate is Ruskin/Whitman, Wilde/Dickinson, Alcott/Thoreau, Eliot/Nightingale, Eliot/Nightingale, and Wilde/Eliot. Thoreau's complete castles-and-foundations movement replaced an anti-detail fragment; Eliot's direct account of compassion replaced a Dickinson poem that could have tied worth to rescue; Wilde's excluding garden replaced a Dickinson grief stanza whose full context remained compassionate.
+- Assigned six independent resonances: Hephaestus, Frenhofer, the Sorcerer's Apprentice, the Good Samaritan, Asclepius, and Silas Marner. The ledgers bound each to a narrow source-supported function and record gender, translation, sacred-text, cultural, violence, consent, disability, trauma, and version limits where relevant.
+- Live URL audit returned HTTP 200 for all 18 assigned quote and myth sources. Resolver checks found 12 unique quote IDs and texts, six unique myth IDs and figures, exact spread/position assignments, and verified status throughout.
+
+### Production Fit Record
+
+Final standalone fills are Creator `0.7567`, Compulsive Perfecter `0.7796`, Scattered Maker `0.7871`, Healer `0.7885`, Rescuing Healer `0.8384`, and Guarded Healer `0.7976`. Every entry occupies exactly two nonblank pages with zero overflow.
+
+Both compiled trios pass even-to-odd parity: parent pages 2–3, active shadow pages 4–5, and passive shadow pages 6–7. All 12 pages were rendered at 105 DPI and visually inspected. The second pass confirmed clean quotation lineation and attribution, image/profile hierarchy, headings, columns, page furniture, and paragraph starts, with no clipping, collision, literal Markdown, blank page, orphaned heading, sentence fragment, or conspicuous imbalance. No typography or print-tool setting changed.

@@ -200,7 +200,7 @@ test("Eleventy emits lifecycle, archetype, shadow, and legacy redirect pages", (
 
 test("pending archetype pages render the six populated profile fields and both shadows", () => {
   assert.ifError(buildError);
-  const html = outputText("lover/creator/index.html");
+  const html = outputText("mother/mother/index.html");
   const approvedFields = [
     "lifecycleStage",
     "coreFunction",
@@ -214,15 +214,15 @@ test("pending archetype pages render the six populated profile fields and both s
   for (const field of approvedFields) {
     assert.match(html, new RegExp(`data-profile-field="${field}"`));
   }
-  assert.match(html, /href="\/lover\/creator\/shadows\/compulsive-perfecter\/"/);
-  assert.match(html, /href="\/lover\/creator\/shadows\/scattered-maker\/"/);
+  assert.match(html, /href="\/mother\/mother\/shadows\/engulfing-mother\/"/);
+  assert.match(html, /href="\/mother\/mother\/shadows\/absent-mother\/"/);
   assert.doesNotMatch(html, /quoteIds|mythicSourceIds|researchStatus/);
 });
 
 test("blank quotations do not render ornamental quotation blocks", () => {
   assert.ifError(buildError);
-  const archetype = outputText("lover/creator/index.html");
-  const shadow = outputText("lover/creator/shadows/compulsive-perfecter/index.html");
+  const archetype = outputText("mother/mother/index.html");
+  const shadow = outputText("mother/mother/shadows/engulfing-mother/index.html");
 
   assert.doesNotMatch(archetype, /entry-quote/);
   assert.doesNotMatch(shadow, /entry-quote/);

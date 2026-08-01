@@ -462,6 +462,234 @@
       "assignedSpread": "self-doubting-seer",
       "position": "closing",
       "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-creator-opening-ruskin-unity-art",
+      "exactQuotation": "Then FINE ART is that in which the hand, the head, and the heart of man go together.",
+      "author": "John Ruskin",
+      "origin": {
+        "work": "The Two Paths",
+        "workType": "lecture collection",
+        "location": "lecture II, ‘The Unity of Art’",
+        "publicationDetails": "The Two Paths: Being Lectures on Art, and Its Application to Decoration and Manufacture (London: Smith, Elder, and Co., 1859)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/7291/pg7291-images.html",
+      "context": "Ruskin distinguishes mechanical handwork from fine art in which execution, thought, and feeling act together. The sentence gives the Creator a compact image of Structure and Flow cooperating rather than competing.",
+      "verificationNotes": "Exact wording, capitalization, and punctuation checked in Project Gutenberg ebook 7291 under lecture II. The complete sentence is quoted; source capitalization of ‘FINE ART’ is preserved.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1859; John Ruskin died in 1900.",
+      "assignedSpread": "creator",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-creator-closing-whitman-simplicity",
+      "exactQuotation": "The art of art, the glory of expression and the sunshine of the light of letters, is simplicity.",
+      "author": "Walt Whitman",
+      "origin": {
+        "work": "Leaves of Grass",
+        "workType": "poetry collection preface",
+        "location": "preface to the 1855 edition",
+        "publicationDetails": "Leaves of Grass (Brooklyn, New York: self-published, 1855)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/8388/pg8388-images.html",
+      "context": "Whitman locates artistic achievement in simplicity and clear expression. The sentence closes on the discipline of making a finished form receivable rather than preserving every possible addition.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 8388 in the 1855 preface. The sentence is complete and contains no alteration or omission.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1855; Walt Whitman died in 1892.",
+      "assignedSpread": "creator",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-compulsive-perfecter-opening-wilde-conceal-life",
+      "exactQuotation": "An artist should create beautiful things, but should put nothing of his own life into them.",
+      "author": "Oscar Wilde",
+      "origin": {
+        "work": "The Picture of Dorian Gray",
+        "workType": "novel",
+        "location": "chapter 1; spoken by Basil Hallward",
+        "publicationDetails": "Revised book edition (London: Ward, Lock and Co., 1891)."
+      },
+      "sourceUrl": "https://anthology.lib.virginia.edu/work/Wilde/wilde-picture.pdf",
+      "context": "Basil Hallward uses an ideal of aesthetic purity while explaining why a work containing too much of himself cannot be exhibited. The sentence voices technical beauty used to protect vulnerable authorship from exposure.",
+      "verificationNotes": "Exact wording and punctuation checked in the University of Virginia anthology PDF of the 1891 text, chapter 1. The attribution names the fictional speaker in the manuscript so the line is not presented as Wilde's uncomplicated artistic principle.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: book edition published in 1891; Oscar Wilde died in 1900.",
+      "assignedSpread": "compulsive-perfecter",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-compulsive-perfecter-closing-dickinson-word-lives",
+      "exactQuotation": "A word is dead\nWhen it is said,\n  Some say.\nI say it just\nBegins to live\n  That day.",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "A Word",
+        "workType": "poem",
+        "location": "complete poem; Poems by Emily Dickinson: Third Series, ‘Forbidden Fruit,’ poem VI",
+        "publicationDetails": "Poems by Emily Dickinson: Third Series, edited by Mabel Loomis Todd (Boston: Roberts Brothers, 1896)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/12241/pg12241.html",
+      "context": "The complete poem rejects the idea that expression dies at utterance and instead locates its living beginning there. It restores Flow by making release the start of relationship rather than the destruction of private perfection.",
+      "verificationNotes": "Exact wording, capitalization, punctuation, and six-line arrangement checked against the 1896 Todd edition transcribed in Project Gutenberg ebook 12241. This is identified as the normalized posthumous print text, not a diplomatic manuscript transcription.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1896; Emily Dickinson died in 1886.",
+      "assignedSpread": "compulsive-perfecter",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-scattered-maker-opening-alcott-enthusiasm-inspiration",
+      "exactQuotation": "Amy was learning this distinction through much tribulation, for mistaking enthusiasm for inspiration, she attempted every branch of art with youthful audacity.",
+      "author": "Louisa May Alcott",
+      "origin": {
+        "work": "Little Women",
+        "workType": "novel",
+        "location": "chapter 26, ‘Artistic Attempts’",
+        "publicationDetails": "Part II first issued as Good Wives (Boston: Roberts Brothers, 1869) and later incorporated into Little Women."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/514/514-h/514-h.htm",
+      "context": "The narrator distinguishes sustained inspiration from enthusiasm dispersed across every available art. The sentence names creative abundance losing continuity without treating experimentation itself as failure.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 514, chapter 26. The complete sentence is quoted without alteration.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1869; Louisa May Alcott died in 1888.",
+      "assignedSpread": "scattered-maker",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-scattered-maker-closing-thoreau-foundations",
+      "exactQuotation": "If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them.",
+      "author": "Henry David Thoreau",
+      "origin": {
+        "work": "Walden",
+        "workType": "prose nonfiction",
+        "location": "‘Conclusion’",
+        "publicationDetails": "Walden; or, Life in the Woods (Boston: Ticknor and Fields, 1854)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/205/205-h/205-h.htm",
+      "context": "Thoreau preserves the imaginative reach of the castles and then calls for foundations beneath them. The complete two-sentence movement restores Structure without shaming Flow.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 205 under ‘Conclusion.’ The source says ‘have built castles,’ without ‘your’ before castles; that wording is preserved.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1854; Henry David Thoreau died in 1862.",
+      "assignedSpread": "scattered-maker",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-healer-opening-eliot-compassion-speaks",
+      "exactQuotation": "Pity is strong only because we are strongly impressed by suffering; and only in proportion as it is compassion that speaks through the eyes when we soothe, and moves the arm when we succor, is a deed strictly benevolent.",
+      "author": "George Eliot",
+      "origin": {
+        "work": "Evangelical Teaching: Dr. Cumming",
+        "workType": "critical essay",
+        "location": "The Essays of George Eliot, page 95 in the 1883 collection",
+        "publicationDetails": "Collected in The Essays of George Eliot, edited by Nathan Sheppard (New York: Funk & Wagnalls, 1883); the essay first appeared in The Westminster Review in 1855."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/28289/28289-h/28289-h.htm",
+      "context": "Eliot argues that benevolence must arise from direct human sympathy rather than obedience, vanity, or an abstract religious motive. The sentence gives Compassion an active but non-heroic human source; the Healer manuscript supplies consent and scope.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 28289, transcribed from the 1883 Funk & Wagnalls edition, under ‘Evangelical Teaching: Dr. Cumming,’ page 95. The semicolon-linked sentence is quoted complete.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: essay first published in 1855; George Eliot died in 1880.",
+      "assignedSpread": "healer",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-healer-closing-nightingale-nature-cures",
+      "exactQuotation": "Neither can do anything but remove obstructions; neither can cure; nature alone cures.",
+      "author": "Florence Nightingale",
+      "origin": {
+        "work": "Notes on Nursing: What It Is, and What It Is Not",
+        "workType": "nursing treatise",
+        "location": "chapter 13, ‘Observation of the Sick’",
+        "publicationDetails": "Notes on Nursing: What It Is, and What It Is Not (London: Harrison, 1860)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/12439/pg12439-images.html",
+      "context": "In a comparison of medicine and surgery, Nightingale rejects professional ownership of cure and describes their work as removing obstructions. The sentence supports care that serves conditions without claiming another person's outcome.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 12439 under ‘Observation of the Sick.’ The historical clinical claim is not generalized in the manuscript into a theory of all illness or suffering.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1860; Florence Nightingale died in 1910.",
+      "assignedSpread": "healer",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-rescuing-healer-opening-eliot-less-difficult",
+      "exactQuotation": "What do we live for, if it is not to make life less difficult to each other?",
+      "author": "George Eliot",
+      "origin": {
+        "work": "Middlemarch",
+        "workType": "novel",
+        "location": "book VIII, chapter 72; spoken by Dorothea Brooke",
+        "publicationDetails": "Middlemarch (Edinburgh and London: William Blackwood and Sons, 1871–72)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/145/145-h/145-h.htm",
+      "context": "Dorothea voices an ardent wish to help while considering intervention in Lydgate's troubles; the surrounding conversation cautions that she cannot manage his life for him. The tension gives the shadow's compelling compassionate premise without endorsing ownership.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 145, chapter 72. The manuscript attribution keeps the quotation in the novel and does not present it as an unlimited command to rescue.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1871–72; George Eliot died in 1880.",
+      "assignedSpread": "rescuing-healer",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-rescuing-healer-closing-nightingale-not-everything",
+      "exactQuotation": "It is neither to do everything yourself nor to appoint a number of people to each duty, but to ensure that each does that duty to which he is appointed.",
+      "author": "Florence Nightingale",
+      "origin": {
+        "work": "Notes on Nursing: What It Is, and What It Is Not",
+        "workType": "nursing treatise",
+        "location": "chapter 3, ‘Petty Management’",
+        "publicationDetails": "Notes on Nursing: What It Is, and What It Is Not (London: Harrison, 1860)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/12439/pg12439-images.html",
+      "context": "Nightingale rejects both doing everything oneself and multiplying unclear assignments. She redirects care toward defined responsibility and reliable coordination, restoring Boundaries to active help.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 12439 under ‘Petty Management.’ Source pronouns are preserved rather than silently modernized.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1860; Florence Nightingale died in 1910.",
+      "assignedSpread": "rescuing-healer",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-guarded-healer-opening-wilde-selfish-garden",
+      "exactQuotation": "My own garden is my own garden; any one can understand that, and I will allow nobody to play in it but myself.",
+      "author": "Oscar Wilde",
+      "origin": {
+        "work": "The Selfish Giant",
+        "workType": "literary fairy tale",
+        "location": "the Giant's return and exclusion of the children",
+        "publicationDetails": "The Happy Prince and Other Tales (London: David Nutt, 1888)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/30120/pg30120-images.html",
+      "context": "The Giant turns legitimate ownership into total exclusion and builds a wall around the garden. The statement gives Boundaries-as-armor a clear voice before the tale later reopens contact.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 30120 under ‘The Selfish Giant.’ The manuscript attributes the sentence to the fictional speaker rather than to Wilde as personal doctrine.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1888; Oscar Wilde died in 1900.",
+      "assignedSpread": "guarded-healer",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-guarded-healer-closing-eliot-diffusive",
+      "exactQuotation": "But the effect of her being on those around her was incalculably diffusive.",
+      "author": "George Eliot",
+      "origin": {
+        "work": "Middlemarch",
+        "workType": "novel",
+        "location": "Finale; describing Dorothea Brooke",
+        "publicationDetails": "Middlemarch (Edinburgh and London: William Blackwood and Sons, 1871–72)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/145/145-h/145-h.htm",
+      "context": "The Finale describes Dorothea's ordinary, relationally consequential life without casting her as a heroic cure. The sentence closes on warmth whose influence can be real without taking over another person's path.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 145 under ‘Finale.’ The initial conjunction is retained because it belongs to the source sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1871–72; George Eliot died in 1880.",
+      "assignedSpread": "guarded-healer",
+      "position": "closing",
+      "accessDate": "2026-07-31"
     }
   ]
 }
