@@ -730,7 +730,7 @@
           },
           "quotes": {
             "opening": "“My cocoon tightens, colors tease,\nI’m feeling for the air;\nA dim capacity for wings\nDegrades the dress I wear.”\n\n—Emily Dickinson, “From the Chrysalis,” stanza 1",
-            "closing": "“I don’t know how long it will last, but I’m not afraid of storms, for I’m learning how to sail my ship.”\n\n—Louisa May Alcott, *Little Women*, part II, chapter 23"
+            "closing": "“Lovely weather so far; I don’t know how long it will last, but I’m not afraid of storms, for I’m learning how to sail my ship.”\n\n—Louisa May Alcott, *Little Women*, chapter XLIV, “My Lord and Lady”"
           },
           "research": {
             "status": "verified",
@@ -866,7 +866,7 @@
         "keyQualities": "Intuitive, Observant, Imaginative, Humble, Testable, Clear, Curious, Grounded, Revisable, Purposeful"
       },
       "quotes": {
-        "opening": "“Invention, it must be humbly admitted, does not consist in creating out of void, but out of chaos.”\n\n—Mary Shelley, introduction to the 1831 edition of *Frankenstein*",
+        "opening": "“Invention, it must be humbly admitted, does not consist in creating out of void, but out of chaos; the materials must, in the first place, be afforded: it can give form to dark, shapeless substances, but cannot bring into being the substance itself.”\n\n—Mary Shelley, introduction to the 1831 edition of *Frankenstein*",
         "closing": "“But we have a hunger of the mind which asks for knowledge of all around us, and the more we gain, the more is our desire; the more we see, the more are we capable of seeing.\nBesides learning to see, there is another art to be learned,—not to see what is not.”\n\n—Maria Mitchell, “The Need of a Larger Culture”"
       },
       "research": {
@@ -1145,24 +1145,24 @@
             "balancedQualities": "Mature Visionary = Intuition + Verification",
             "activeShadow": "Inflated Oracle",
             "passiveShadow": "Self-Doubting Seer",
-            "mythicResonances": "Hamlet (English literary tradition)",
+            "mythicResonances": "Romola (nineteenth-century English literary tradition)",
             "keyQualities": "Edits an impression out of speech before deciding whether it is testable, Waits for proof no emerging pattern could initially provide, Outsources direct perception to credentials, consensus, or a more confident voice, Explains away recurring bodily signals without recording their conditions, Offers the insight only after someone else has made it socially safe, Confuses humility with having no legitimate observation to contribute"
           },
           "quotes": {
             "opening": "“Much madness is divinest sense\nTo a discerning eye;\nMuch sense the starkest madness.\n’T is the majority\nIn this, as all, prevails.\nAssent, and you are sane;\nDemur,—you’re straightway dangerous,\nAnd handled with a chain.”\n\n—Emily Dickinson, “Much madness is divinest sense,” complete poem",
-            "closing": "“I care for myself. The more solitary, the more friendless, the more unsustained I am, the more I will respect myself.”\n\n—Charlotte Brontë, *Jane Eyre*, chapter 27"
+            "closing": "“It is worthy of notice that in Table VI the brighter variables have the longer periods.”\n\n—Henrietta S. Leavitt, “1777 Variables in the Magellanic Clouds,” p. 107"
           },
           "research": {
             "status": "verified",
             "quoteIds": [
               "quote-self-doubting-seer-opening-dickinson-much-madness",
-              "quote-self-doubting-seer-closing-bronte-care-self"
+              "quote-self-doubting-seer-closing-leavitt-brighter-variables"
             ],
             "mythicResonances": [
-              "Hamlet (English literary tradition)"
+              "Romola (nineteenth-century English literary tradition)"
             ],
             "mythicSourceIds": [
-              "myth-self-doubting-seer-hamlet-shakespeare-proof-delay"
+              "myth-self-doubting-seer-romola-eliot-chapter-40"
             ]
           },
           "sourceFile": "maiden/shadows/self-doubting-seer.md",

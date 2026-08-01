@@ -72,7 +72,7 @@
       "figure": "Atalanta",
       "figureType": "mythic heroine",
       "tradition": "Greek literary tradition",
-      "relevantFunction": "A wilderness hunter and athlete who remains armed, joins the Calydonian boar hunt, first wounds the boar, and wins a wrestling contest. The resonance is limited to skilled movement into danger and capability tested through action.",
+      "relevantFunction": "A wilderness hunter and athlete who remains armed, joins the Calydonian boar hunt, and wins a wrestling contest. The resonance is limited to skilled movement into danger and capability tested through action.",
       "source": {
         "title": "The Library, Book 3",
         "authorOrInstitution": "Pseudo-Apollodorus; translated by James George Frazer; Theoi Classical Texts Library",
@@ -81,7 +81,7 @@
         "publicationDetails": "English translation by James George Frazer in the Loeb Classical Library, 1921.",
         "url": "https://www.theoi.com/Text/Apollodorus3.html"
       },
-      "verificationNotes": "The accessible text states that Atalanta hunted in the wilderness under arms, joined the boar hunt, first wounded the animal, and wrestled with Peleus and won. It also contains exposure, attempted sexual violence, lethal race terms, and transformation; the assignment does not present the whole narrative as mature Prudence or a modern risk model.",
+      "verificationNotes": "The accessible text states that Atalanta hunted in the wilderness under arms, joined the boar hunt, and wrestled with Peleus and won. It also contains exposure, attempted sexual violence, lethal race terms, and transformation; the assignment does not present the whole narrative as mature Prudence or a modern risk model.",
       "verificationStatus": "verified",
       "culturalContextNote": "Recorded specifically as a Greek literary and mythographic figure. She is not equated with Artemis or hunting figures from other traditions, and dangerous contest is not treated as proof that fear or caution is inferior.",
       "accessDate": "2026-07-31"
@@ -234,24 +234,24 @@
       "accessDate": "2026-07-31"
     },
     {
-      "id": "myth-self-doubting-seer-hamlet-shakespeare-proof-delay",
+      "id": "myth-self-doubting-seer-romola-eliot-chapter-40",
       "assignedSpread": "self-doubting-seer",
       "assignmentScope": "shadow-specific",
-      "figure": "Hamlet",
-      "figureType": "literary tragic character",
-      "tradition": "English literary tradition",
-      "relevantFunction": "He suspects that the apparition may deceive him, demands firmer grounds, designs a theatrical test, and repeatedly reproaches his delay. The resonance is confined to a real impression held back by escalating proof requirements.",
+      "figure": "Romola",
+      "figureType": "literary heroine",
+      "tradition": "nineteenth-century English literary tradition",
+      "relevantFunction": "She has direct lived grounds for leaving her marriage and insists that no one else can know or judge them. Under Savonarola's asserted spiritual authority, she finds it impossible to question him, stands silent, suppresses an unfinished warning, and yields until her own will needs outside direction even in small things. The resonance isolates perception surrendered to a more confident authority before it can remain available for judgment.",
       "source": {
-        "title": "Hamlet",
-        "authorOrInstitution": "William Shakespeare; Folger Shakespeare Library",
-        "originatingWork": "William Shakespeare, Hamlet",
-        "location": "act II, scene 2, lines 1665–1698; act III, scene 2",
-        "publicationDetails": "First printed in a substantive second quarto in 1604–1605; Folger Digital Texts edition.",
-        "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/2/2/"
+        "title": "Romola",
+        "authorOrInstitution": "George Eliot; Project Gutenberg",
+        "originatingWork": "George Eliot, Romola",
+        "location": "chapter XL, ‘An Arresting Voice,’ and chapter XLI, ‘Coming Back’; earlier doubts about Tito in chapters XXVII–XXIX",
+        "publicationDetails": "Serialized in The Cornhill Magazine from 1862 to 1863 and published in book form by Smith, Elder and Co. in 1863; Project Gutenberg ebook 24020.",
+        "url": "https://www.gutenberg.org/files/24020/24020-h/24020-h.htm"
       },
-      "verificationNotes": "The Folger text shows the character question whether the apparition is deceptive, seek ‘grounds more relative,’ construct the play as a test, and describe himself as delayed. The test itself is prudent; the assignment concerns proof-seeking joined to prolonged self-silencing, not a claim that verification is a defect.",
+      "verificationNotes": "The primary text shows Romola doubt her perception of Tito and avoid asking what she fears to know; later she states that only she knows her reasons for leaving. Savonarola's authority then makes questioning feel impossible: she stands silent, begins an unfinished warning and seeks to banish it, yields, and in the next chapter feels her will bruised enough to need direction in small things. Later events substantiate her perception of Tito. The resonance concerns one fictional sequence of self-silencing under coercive authority, not the whole character or novel.",
       "verificationStatus": "verified",
-      "culturalContextNote": "Recorded as a male tragic character in an English play. The resonance does not diagnose grief, melancholy, or caution and does not equate responsible evidence gathering with passivity.",
+      "culturalContextNote": "Recorded as a character in a nineteenth-century English novel set in Renaissance Florence. Coercive marriage and spiritual manipulation materially constrain her choice; the assignment does not blame an abused woman for her confinement, generalize about Catholicism or the Dominican tradition, or treat deference as a trait of Italian culture. The Maiden lifecycle remains psychological, not an age claim.",
       "accessDate": "2026-07-31"
     }
   ]

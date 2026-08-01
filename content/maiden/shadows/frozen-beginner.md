@@ -117,6 +117,6 @@ The Frozen Beginner returns to the Maiden when judgment opens a door instead of 
 
 ## Closing Quotation
 
-“I don’t know how long it will last, but I’m not afraid of storms, for I’m learning how to sail my ship.”
+“Lovely weather so far; I don’t know how long it will last, but I’m not afraid of storms, for I’m learning how to sail my ship.”
 
-—Louisa May Alcott, *Little Women*, part II, chapter 23
+—Louisa May Alcott, *Little Women*, chapter XLIV, “My Lord and Lady”

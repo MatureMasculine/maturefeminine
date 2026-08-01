@@ -302,9 +302,8 @@
         "publicationDetails": "First published in London for J. Johnson in 1792."
       },
       "sourceUrl": "https://www.gutenberg.org/cache/epub/3420/pg3420.html",
-      "corroboratingUrl": "https://www.cambridge.org/core/books/wollstonecraft-and-religion/prevailing-opinion-of-a-sexual-character-discussed/D4D9EC69D152E4F8AC08F1DEA0D7D35F",
       "context": "Wollstonecraft argues against keeping women ignorant under the name of innocence. The sentence restores knowledge and tested judgment as conditions of stable openness rather than barriers to it.",
-      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 3420, chapter 2, and corroborated against Cambridge University Press's displayed chapter text. The quotation remains inside Wollstonecraft's argument about women's education.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 3420, chapter 2. The quotation remains inside Wollstonecraft's argument about women's education.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: first published in 1792; Mary Wollstonecraft died in 1797.",
       "assignedSpread": "naive-enthusiast",
@@ -332,17 +331,17 @@
     },
     {
       "id": "quote-frozen-beginner-closing-alcott-learning-sail",
-      "exactQuotation": "I don’t know how long it will last, but I’m not afraid of storms, for I’m learning how to sail my ship.",
+      "exactQuotation": "Lovely weather so far; I don’t know how long it will last, but I’m not afraid of storms, for I’m learning how to sail my ship.",
       "author": "Louisa May Alcott",
       "origin": {
         "work": "Little Women",
         "workType": "novel",
-        "location": "part II, chapter 23, ‘Surprises’",
+        "location": "global chapter XLIV, ‘My Lord and Lady’",
         "publicationDetails": "The second part was first published in Boston by Roberts Brothers in 1869."
       },
       "sourceUrl": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm",
       "context": "Amy acknowledges uncertainty while locating confidence in the process of learning. The sentence closes the passive shadow with experience-built capacity rather than a promise of stable conditions.",
-      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 37106, part II, chapter 23. The first sentence of Amy's speech is quoted complete.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 37106 under the global heading XLIV, ‘My Lord and Lady.’ The quotation is the complete first sentence of Amy's speech, including its opening weather clause; the source then continues with a new sentence.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: published in 1869; Louisa May Alcott died in 1888.",
       "assignedSpread": "frozen-beginner",
@@ -351,7 +350,7 @@
     },
     {
       "id": "quote-visionary-opening-shelley-invention-chaos",
-      "exactQuotation": "Invention, it must be humbly admitted, does not consist in creating out of void, but out of chaos.",
+      "exactQuotation": "Invention, it must be humbly admitted, does not consist in creating out of void, but out of chaos; the materials must, in the first place, be afforded: it can give form to dark, shapeless substances, but cannot bring into being the substance itself.",
       "author": "Mary Shelley",
       "origin": {
         "work": "Frankenstein; or, The Modern Prometheus",
@@ -361,7 +360,7 @@
       },
       "sourceUrl": "https://www.gutenberg.org/files/42324/42324-h/42324-h.htm",
       "context": "Shelley explains invention as finding form in available material rather than producing from a void. The sentence supports intuition as emerging pattern shaped from what is present, with humility about authorship.",
-      "verificationNotes": "Exact wording and punctuation checked against Project Gutenberg ebook 42324's photo-reprint transcription of the 1831 edition. The first independent clause of a longer sentence is quoted at its semicolon boundary as a complete grammatical sentence in the source.",
+      "verificationNotes": "Exact wording and punctuation checked against Project Gutenberg ebook 42324's photo-reprint transcription of the 1831 edition. The complete source sentence is quoted, preserving its semicolon and colon.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: published in 1831; Mary Shelley died in 1851.",
       "assignedSpread": "visionary",
@@ -446,20 +445,20 @@
       "accessDate": "2026-07-31"
     },
     {
-      "id": "quote-self-doubting-seer-closing-bronte-care-self",
-      "exactQuotation": "I care for myself. The more solitary, the more friendless, the more unsustained I am, the more I will respect myself.",
-      "author": "Charlotte Brontë",
+      "id": "quote-self-doubting-seer-closing-leavitt-brighter-variables",
+      "exactQuotation": "It is worthy of notice that in Table VI the brighter variables have the longer periods.",
+      "author": "Henrietta S. Leavitt",
       "origin": {
-        "work": "Jane Eyre: An Autobiography",
-        "workType": "novel",
-        "location": "chapter 27",
-        "publicationDetails": "First published in London by Smith, Elder and Co. in 1847."
+        "work": "1777 Variables in the Magellanic Clouds",
+        "workType": "scientific paper",
+        "location": "page 107, paragraph following Table VI",
+        "publicationDetails": "Annals of the Astronomical Observatory of Harvard College, volume 60, number 4 (Cambridge, Massachusetts: Harvard College Observatory, 1908), pages 87–108."
       },
-      "sourceUrl": "https://www.gutenberg.org/files/1260/1260-h/1260-h.htm",
-      "context": "Jane asserts respect for her own principles under intense internal and relational pressure. The excerpt supports restored inner authority while the manuscript separately keeps intuitive claims open to testing.",
-      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 1260, chapter 27. The two opening sentences of Jane's longer reply are quoted without internal omission.",
+      "sourceUrl": "https://articles.adsabs.harvard.edu/pdf/1908AnHar..60...87L",
+      "context": "Leavitt states an observed relation modestly and locates it in a named table where other observers can inspect and test it. The sentence closes the passive shadow by placing a noticed pattern into public, correctable exchange rather than waiting for certainty or treating perception as private authority.",
+      "verificationNotes": "Exact wording and punctuation checked in the NASA Astrophysics Data System scan of the 1908 Harvard College Observatory paper, page 107. The page prints the sentence immediately after Table VI; the paper's title page names Henrietta S. Leavitt as author. The complete sentence is quoted.",
       "verificationStatus": "verified",
-      "rightsStatus": "Public domain: first published in 1847; Charlotte Brontë died in 1855.",
+      "rightsStatus": "Public domain in the United States: published in 1908; Henrietta S. Leavitt died in 1921.",
       "assignedSpread": "self-doubting-seer",
       "position": "closing",
       "accessDate": "2026-07-31"

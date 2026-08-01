@@ -27,9 +27,18 @@
 - Appended 18 unique verified quotation records and nine unique independently verified myth records. Each manuscript resolves to exactly two quote IDs in opening/closing order and one myth source ID assigned to that spread.
 - Checked all 27 Maiden source URLs for accessibility. Poetry Foundation returned HTTP 403 for the Prufrock page, so the sole source was replaced with the University of Virginia's accessible, first-edition-checked Literature in Context transcription.
 - Corrected the research-packet transcription of Sara Teasdale's “Barter” from “like a cup” to the primary-source wording “in a cup.” Preserved verified poetic lineation and documented Dickinson edition normalization.
-- Chose independent, function-specific resonances: Atalanta, Phaëton, the Cowardly Lion, Nausicaa, Pinocchio, J. Alfred Prufrock, Penelope, Macbeth, and Hamlet. Pandora, an imposed-confinement figure, and cursed-speech figures were rejected where their narratives did not establish the manuscript mechanism through the figure's own action.
+- Chose independent, function-specific resonances: Atalanta, Phaëton, the Cowardly Lion, Nausicaa, Pinocchio, J. Alfred Prufrock, Penelope, Macbeth, and Romola. Pandora, an imposed-confinement figure, cursed-speech figures, and Hamlet were rejected where their narratives did not establish the manuscript mechanism closely enough through the figure's own action.
 - Scoped resolver audit result: nine verified entries, 18 unique verified quotation IDs/texts, nine unique verified myth IDs/figures, exact display-text resolution, correct spread and position assignments, and no unresolved or inherited source.
 - Raw-prefix audit proved the first six quotation records and first three myth records from base `244d761` remain byte-for-byte identical; only the append comma follows each preserved prefix.
+
+### Independent-review remediation
+
+- Added a focused seven-test source regression suite, observed the expected failures, and brought it to green after the repairs.
+- Replaced Shelley's semicolon-truncated opening with her complete sentence. Restored Alcott's opening clause and corrected the source locator from the erroneous part/chapter label to global chapter XLIV, “My Lord and Lady.”
+- Removed the unsupported claim that Atalanta first wounded the Calydonian boar. Her record now stays within the source-displayed armed wilderness participation, hunt participation, and wrestling victory.
+- Replaced the generic Hamlet resonance with Romola, whose lived judgment, silenced warning, and submission to asserted spiritual authority match the passive-shadow mechanism. Rejected *The Yellow Wallpaper* because it could imply intuition equals psychosis; recorded coercive-marriage, abuse, religious-generalization, cultural-generalization, and non-age caveats.
+- Replaced the *Jane Eyre* closing with Henrietta S. Leavitt's modest, testable Table VI observation. The exact sentence and page placement were verified in the stable NASA ADS scan at `https://articles.adsabs.harvard.edu/pdf/1908AnHar..60...87L`.
+- Removed the Cambridge corroboration claim from the Wollstonecraft record; verification now relies only on the displayed Project Gutenberg source.
 
 ## Editorial audits
 
@@ -62,7 +71,7 @@ npm run book:validate -- --entry visionary
 
 Results:
 
-- Node/content: 86 tests passed; structural validation confirmed five lifecycle groups, 22 archetypes, 44 shadows, and generated data in sync.
+- Node/content: 93 tests passed, including the seven focused repair regressions; structural validation confirmed five lifecycle groups, 22 archetypes, 44 shadows, and generated data in sync.
 - Python: all 24 tests passed.
 - Site build completed; full normalized PDF compiled all 66 entries.
 - Scoped quote/myth resolver, exact-reuse, high-overlap, ledger-preservation, and accessible-URL audits passed.
@@ -74,14 +83,16 @@ Results:
 | Sheltered Dreamer | 2 | 0.8479 | none | 0 | 6–7 |
 | Maiden | 2 | 0.8258 | none | 0 | 2–3 |
 | Naive Enthusiast | 2 | 0.8303 | none | 0 | 4–5 |
-| Frozen Beginner | 2 | 0.8673 | none | 0 | 6–7 |
+| Frozen Beginner | 2 | 0.8687 | none | 0 | 6–7 |
 | Visionary | 2 | 0.7889 | none | 0 | 2–3 |
 | Inflated Oracle | 2 | 0.8489 | none | 0 | 4–5 |
 | Self-Doubting Seer | 2 | 0.9033 | none | 0 | 6–7 |
 
 Every scoped compiled entry starts even and ends odd. All 18 standalone pages were rendered at 105 DPI and visually inspected: quotation lineation and attribution styling, title/image/profile hierarchy, headings, columns, and page furniture are intact, with no blank page, clipping, collision, literal Markdown, orphaned heading, or conspicuous imbalance.
 
-`npm run content:publish-check` ran the same 86-test suite successfully, then reported the expected pending research and incomplete publication fields in later Lover, Mother, Queen, and Crone work. It reported no Maiden publication error. Full-book publication readiness therefore remains intentionally deferred to later lifecycle tasks.
+After remediation, all three exact-spread command trios passed again. Both pages of Visionary, Frozen Beginner, and Self-Doubting Seer were re-rendered and visually checked; the longer quotations, Romola profile field, and Leavitt closing fit cleanly. The six affected source URLs returned HTTP 200; the NASA ADS PDF required one command-line retry before returning `200 application/pdf`.
+
+At the original delivery, `npm run content:publish-check` ran the then-current 86-test suite successfully, then reported the expected pending research and incomplete publication fields in later Lover, Mother, Queen, and Crone work. It reported no Maiden publication error. Full-book publication readiness therefore remains intentionally deferred to later lifecycle tasks.
 
 ## Remaining risk
 

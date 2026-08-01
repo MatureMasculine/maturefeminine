@@ -11,9 +11,9 @@ aliases:
 legacyRoutes: /maiden/young-visionary-oracle/shadows/lost-dreamer/
 legacyAnchors: lost-dreamer
 image: assets/images/shadow/young-visionary-oracle--lost-dreamer.jpg
-quoteIds: quote-self-doubting-seer-opening-dickinson-much-madness|quote-self-doubting-seer-closing-bronte-care-self
-mythicResonances: Hamlet (English literary tradition)
-mythicSourceIds: myth-self-doubting-seer-hamlet-shakespeare-proof-delay
+quoteIds: quote-self-doubting-seer-opening-dickinson-much-madness|quote-self-doubting-seer-closing-leavitt-brighter-variables
+mythicResonances: Romola (nineteenth-century English literary tradition)
+mythicSourceIds: myth-self-doubting-seer-romola-eliot-chapter-40
 researchStatus: verified
 sectionRoles: balanceBreakdown=When Proof Silences Perception|declarations=The Logic of the Withheld Impression|psychologicalMechanics=How Skepticism Prevents Inquiry|hiddenEnergy=The Humility Inside the Doubt|recognition=Signs That Intuition Is Missing|practices=Giving the Impression Testable Form|oppositeShadow=The Swing Toward Inflation|transformation=Speaking Before Certainty|conclusion=Where She Returns
 ---
@@ -43,7 +43,7 @@ And handled with a chain.”
 - Balanced qualities: Mature Visionary = Intuition + Verification
 - Active shadow: Inflated Oracle
 - Passive shadow: Self-Doubting Seer
-- Mythic resonances: Hamlet (English literary tradition)
+- Mythic resonances: Romola (nineteenth-century English literary tradition)
 - Key qualities: Edits an impression out of speech before deciding whether it is testable, Waits for proof no emerging pattern could initially provide, Outsources direct perception to credentials, consensus, or a more confident voice, Explains away recurring bodily signals without recording their conditions, Offers the insight only after someone else has made it socially safe, Confuses humility with having no legitimate observation to contribute
 
 ## When Proof Silences Perception
@@ -121,6 +121,6 @@ The Self-Doubting Seer returns to the Visionary when she lets an impression take
 
 ## Closing Quotation
 
-“I care for myself. The more solitary, the more friendless, the more unsustained I am, the more I will respect myself.”
+“It is worthy of notice that in Table VI the brighter variables have the longer periods.”
 
-—Charlotte Brontë, *Jane Eyre*, chapter 27
+—Henrietta S. Leavitt, “1777 Variables in the Magellanic Clouds,” p. 107

@@ -94,6 +94,7 @@ Passed. The argument order is legible, transitions follow mechanism, and the few
 - Confirmed six or seven concrete `we/our` practices per entry. Active practices restore Quality B; passive practices restore Quality A.
 - Matched all 18 manuscript quote IDs to unique verified ledger records and all nine mythic source IDs to independent verified assignments.
 - Preserved verified poetic lineation and source punctuation. Corrected a research-packet transcription error in Teasdale's “Barter”: the source reads “Holding wonder in a cup,” not “like a cup.”
+- Restored Shelley's complete source sentence after independent review identified that the opening Visionary quotation stopped at an internal semicolon. Restored Alcott's opening weather clause and corrected its locator to global chapter XLIV, “My Lord and Lady.”
 - Used the normalized 1890 or 1891 published texts for four Dickinson selections and recorded each edition choice rather than claiming manuscript punctuation.
 - Kept Maria Mitchell's two adjacent source paragraphs within one quote block using a single line break because an internal blank line would be parsed as the attribution boundary.
 - Confirmed named mythic figures do not appear outside each entry's Mythic Resonances profile field.
@@ -103,7 +104,7 @@ Passed. The argument order is legible, transitions follow mechanism, and the few
 
 - Atalanta and Phaëton provide source-specific threshold competence and warned-against overreach. The Cowardly Lion replaced an imposed-confinement figure because his narrative actually shows disowned Daring restored through action while fear remains.
 - Nausicaa supports open, practical, socially aware first contact. Pinocchio replaced Pandora to avoid a misogynistic punitive frame and to show available warnings overridden by exciting trust. J. Alfred Prufrock replaces cursed or forcibly sleeping figures with a character who actually multiplies indecision and imagined scrutiny before ordinary participation.
-- Penelope's built-bed recognition test precisely joins emerging recognition with a check. Macbeth literalizes equivocal prediction into personal certainty. Hamlet's suspicion, escalating proof demand, staged test, and self-reproached delay provide a limited resonance for perception withheld pending stronger grounds.
+- Penelope's built-bed recognition test precisely joins emerging recognition with a check. Macbeth literalizes equivocal prediction into personal certainty. Romola provides a mechanism-specific passive-shadow sequence: her lived judgment is silenced under a more confident spiritual authority, an unfinished warning is suppressed, and later events substantiate the perception she had doubted.
 - No figure is reused within Maiden or inherited from the approved Lover trio. The sources do not equate traditions, validate divination, diagnose characters, or turn a whole narrative into evidence for the archetype.
 - The final 18 quotations are all public domain in the United States and come from 11 women and one man across distinct quotation texts. Repeated authors are assigned different works or exact passages; no quotation text or ID is reused.
 
@@ -111,8 +112,10 @@ Passed. The argument order is legible, transitions follow mechanism, and the few
 
 - The Project Gutenberg text of *A Doll's House* is a public-domain English translation; the ledger makes no claim that its wording is Ibsen's original Danish.
 - The Prufrock myth record reproduces no poem text and uses the University of Virginia's first-edition-checked public transcription. The poem first appeared in an American periodical in 1915.
-- The Atalanta source also contains coercion, lethal race terms, and transformation; only demonstrated wilderness and contest competence support the profile resonance.
-- The Hamlet verification test is prudent in isolation. The resonance is limited to its relationship with prolonged delay and self-silencing, not a claim that seeking evidence is passive.
+- The Atalanta source also contains coercion, lethal race terms, and transformation; only demonstrated wilderness participation, the boar hunt, and wrestling victory support the profile resonance. An unsupported claim that she first wounded the boar was removed.
+- Romola is a fictional character shaped by coercive marriage and spiritual manipulation. The resonance neither blames an abused woman for her confinement nor generalizes about Catholicism, the Dominican tradition, or Italian culture. A *Yellow Wallpaper* alternative was rejected because it risked collapsing intuition into psychosis instead of isolating the manuscript's self-silencing mechanism.
+- Leavitt's closing sentence gives the Self-Doubting Seer a concrete epistemic bridge: a noticed pattern is stated modestly, anchored to Table VI, and made available for correction. The NASA ADS scan preserves the exact sentence on page 107 immediately after that table.
+- Wollstonecraft verification is based only on the displayed Project Gutenberg text; the unsupported Cambridge corroboration field was removed.
 
 #### Gate
 
@@ -123,3 +126,5 @@ Passed pending production verification. Canonical mechanics, profile structure, 
 All nine entries passed the shared `0.75–0.95` fill band on the first exact-spread run, with two nonblank pages and zero overflow each: Adventurer `0.7709`, Reckless Wanderer `0.8995`, Sheltered Dreamer `0.8479`, Maiden `0.8258`, Naive Enthusiast `0.8303`, Frozen Beginner `0.8673`, Visionary `0.7889`, Inflated Oracle `0.8489`, and Self-Doubting Seer `0.9033`.
 
 Compiled trio anchors passed even-to-odd parity: each parent occupied pages 2–3, its active shadow pages 4–5, and its passive shadow pages 6–7 in the scoped compilation. All 18 rendered pages were visually inspected. Quotation lineation, upright attributions with italic work titles, image and profile hierarchy, headings, columns, and page furniture were intact; no clipping, collisions, blank pages, literal Markdown, orphaned headings, or conspicuous imbalance required remediation. No prose was added or removed solely to affect pagination, and no typography or print-tool setting changed.
+
+After independent-review repairs, all three trio measurement, spread, and validation commands passed again. Frozen Beginner's fuller Alcott sentence moved its final-page fill to `0.8687`; Visionary remained `0.7889` and Self-Doubting Seer remained `0.9033`. Both pages of those three changed entries were rendered and visually re-inspected with no clipping, collision, orphan, blank page, overflow, or broken quotation/profile hierarchy.
