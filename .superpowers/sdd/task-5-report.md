@@ -91,3 +91,11 @@ Sample generated artifacts (ignored):
 - Compiled anchor spans remained `lover` 2–3, `enmeshing-lover` 4–5, and `armored-lover` 6–7; every start is even and every end is odd.
 - Rebuilt the full 66-entry normalized PDF successfully.
 - Rendered and visually inspected all six Lover-trio pages at 120 DPI. Browning, Teasdale, and Dickinson lineation is preserved; attributions are separated and long-work titles render in italics; no literal Markdown asterisks, clipping, or page-furniture false positives were observed.
+
+## Final attribution-font remediation (post-`a6bdd34`)
+
+- RED: added a rendered-PDF regression test that compiles `render_quote()` and inspects PyMuPDF font spans. It failed because attribution prose used `TeXGyrePagella-Italic`; this was an observed font result, not a TeX-token assertion.
+- GREEN: scoped `\\normalfont` to the attribution before supported `\\emph{...}` work-title rendering. The compiled-PDF test now proves verse is italic, attribution prose is upright, and the `*Book Title*` span is italic. Literal source escaping remains covered by the existing test.
+- Verification passed: 24 Python tests; 86 Node/content tests; `npm run book:measure -- --entry lover`; `npm run book:validate -- --entry lover`; and a full 66-entry `npm run book:build`, plus `git diff --check`.
+- Final trio results remain unchanged: fills `0.8496`, `0.8554`, and `0.8839`; compiled anchors `2–3`, `4–5`, and `6–7` (all even-to-odd). No prose or per-entry typography changed.
+- Rendered and visually inspected all six Lover-trio pages at 120 DPI: verse lineation remains intact, attribution prose is upright, long-work titles are italic, literal asterisks are absent, and no clipping is visible. Front matter remains intentionally deferred to Task 7.

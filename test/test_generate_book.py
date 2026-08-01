@@ -63,6 +63,33 @@ class GenerateBookTests(unittest.TestCase):
         self.assertIn(r"\emph{Work \& \textbackslash{}unsafe}", rendered)
         self.assertNotIn(r"\unsafe", rendered)
 
+    def test_rendered_quote_keeps_attribution_upright_and_work_title_italic(self) -> None:
+        tex_path = generate_book.BUILD_DIR / "test-quote-font.tex"
+        output = Path(tempfile.gettempdir()) / "mature-feminine-quote-font.pdf"
+        tex_path.write_text(
+            "\\documentclass{article}\n"
+            "\\usepackage{fontspec}\n"
+            "\\setmainfont{TeX Gyre Pagella}\n"
+            "\\begin{document}\n"
+            + generate_book.render_quote("“Verse line.”\n\n—Author, *Book Title*")
+            + "\n\\end{document}\n",
+            encoding="utf-8",
+        )
+        generate_book.compile_pdf(tex_path, output)
+
+        document = fitz.open(output)
+        try:
+            spans = [span for block in document[0].get_text("dict")["blocks"] for line in block.get("lines", []) for span in line.get("spans", [])]
+        finally:
+            document.close()
+        attribution = next(span for span in spans if "—Author," in span["text"])
+        title = next(span for span in spans if "Book Title" in span["text"])
+        verse = next(span for span in spans if "Verse line" in span["text"])
+
+        self.assertNotIn("Italic", attribution["font"])
+        self.assertIn("Italic", title["font"])
+        self.assertIn("Italic", verse["font"])
+
     def test_manifest_uses_anchor_pages_for_start_end_and_parity(self) -> None:
         manifest = generate_book.manifest_from_aux(
             """\\newlabel{entry:lover:start}{{}{12}}\n\\newlabel{entry:lover:end}{{}{13}}\n""",

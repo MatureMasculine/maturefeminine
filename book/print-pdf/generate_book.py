@@ -135,7 +135,7 @@ def render_quote(value: str) -> str:
     quote, separator, attribution = value.partition("\n\n")
     quote_lines = "\\\\\n".join(tex(line) for line in quote.splitlines())
     attribution_tex = _tex_attribution(attribution if separator else "")
-    return "\\begin{quote}\\itshape " + quote_lines + ("\\par\\smallskip " + attribution_tex if attribution_tex else "") + "\\end{quote}"
+    return "\\begin{quote}\\itshape " + quote_lines + ("\\par\\smallskip \\normalfont " + attribution_tex if attribution_tex else "") + "\\end{quote}"
 
 
 def _tex_attribution(value: str) -> str:
