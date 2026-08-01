@@ -27,7 +27,7 @@ The approved Maiden and Lover manuscripts were not edited. The remaining Mother 
 
 | Entry | Pages | Final fill | Blank pages | Overflow | Compiled span |
 | --- | ---: | ---: | --- | ---: | --- |
-| Mother | 2 | 0.8634 | none | 0 | 2–3 |
+| Mother | 2 | 0.8463 | none | 0 | 2–3 |
 | Engulfing Mother | 2 | 0.8161 | none | 0 | 4–5 |
 | Unavailable Mother | 2 | 0.8369 | none | 0 | 6–7 |
 | Guardian | 2 | 0.9128 | none | 0 | 2–3 |
@@ -38,6 +38,8 @@ The approved Maiden and Lover manuscripts were not edited. The remaining Mother 
 | Disarmed Warrior | 2 | 0.8142 | none | 0 | 6–7 |
 
 All 18 rendered pages were visually inspected at 120 DPI. Quotation lineation, attribution, artwork/profile hierarchy, headings, column flow, paragraph continuity, and page furniture are intact; no clipping, collision, blank page, overflow, literal Markdown, orphaned heading, or conspicuous imbalance remains.
+
+Independent review then rechecked all 27 sources, all nine manuscripts, and all 18 pages. The repair pass transparently bracketed Mill's excerpted initial, expanded Hamlet evidence to the three scenes supporting the limited mechanism while naming suicide and revenge contexts, removed two facing-page word splits, and shortened two attribution locations that had stranded Roman numerals. Fresh focused, full-suite, spread, and visual checks passed after the repairs.
 
 ## Verification
 

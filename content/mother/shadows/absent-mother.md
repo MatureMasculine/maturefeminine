@@ -120,4 +120,4 @@ The Unavailable Mother returns to the Mother when Nurture becomes reachable and 
 
 “I ought to be thy Adam, but I am rather the fallen angel, whom thou drivest from joy for no misdeed.”
 
-—the Creature, Mary Shelley, *Frankenstein*, chapter X
+—the Creature, Mary Shelley, *Frankenstein*, ch. X

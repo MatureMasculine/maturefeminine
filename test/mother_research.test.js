@@ -48,6 +48,8 @@ test("Mother and Guardian source records retain their necessary scope limits", (
   assert.match(mill.context, /mature faculties|competent adults/i);
   assert.match(mill.verificationNotes, /children|dependent/i);
   assert.equal(mill.exactQuotation.includes("civilised"), true);
+  assert.match(mill.exactQuotation, /^\[T\]he only purpose/);
+  assert.match(mill.verificationNotes, /source begins.*That the only purpose/i);
 
   const burnett = record(quotations, "quote-absent-mother-opening-burnett-out-of-sight");
   assert.match(burnett.exactQuotation, /keep the child out of sight as much as possible\.$/);
@@ -72,6 +74,13 @@ test("active and passive Mother shadows use exact restoration evidence", () => {
   assert.match(disarmed.culturalContextNote, /freeze|fawn/i);
   assert.match(disarmed.culturalContextNote, /revenge/i);
   assert.match(disarmed.culturalContextNote, /not.*integration/i);
+  assert.match(disarmed.relevantFunction, /suicide soliloquy/i);
+  assert.match(disarmed.verificationNotes, /act II, scene 2/i);
+  assert.match(disarmed.verificationNotes, /act III, scene 1/i);
+  assert.match(disarmed.verificationNotes, /act III, scene 4/i);
+  assert.match(disarmed.culturalContextNote, /suicid/i);
+  assert.equal(Array.isArray(disarmed.corroboratingUrls), true);
+  assert.equal(disarmed.corroboratingUrls.length >= 3, true);
 });
 
 test("Mulan evidence is verification-only and excludes later adaptations", () => {

@@ -112,4 +112,4 @@ Living as the Mother means becoming trustworthy to need and loyal to growth. She
 
 “At the beginning I was only a little mass of possibilities. It was my teacher who unfolded and developed them.”
 
-—Helen Keller, *The Story of My Life*, part I, chapter VII
+—Helen Keller, *The Story of My Life*, ch. VII

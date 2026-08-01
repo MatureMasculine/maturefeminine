@@ -65,7 +65,7 @@ The pattern becomes visible when external conditions allow some choice but the o
 
 Anger turns inward. She criticizes her body for freezing, her mind for confusion, and her character for failing to be brave. Shame consumes the very energy needed for the next action. Because direct opposition feels unavailable, resistance may emerge indirectly through delay, withdrawal, sarcasm, forgetting, somatic collapse, or hoping someone else will notice.
 
-At work, she documents harm but never sends the report, accepts an impossible assignment, or watches a colleague be targeted while waiting for certainty. In relationship, she says yes while her body says no and later disappears. In community, she may confuse nuance with neutrality and let the most forceful voice define what is realistic.
+At work, she documents harm but never sends the report, accepts an impossible assignment, or watches a colleague be targeted while waiting for certainty. In relationship, she says yes while her body says no and later disappears. In public life, she may confuse nuance with neutrality and let the most forceful voice define what is realistic.
 
 Deliberation is not disarmament. Restraint may rightly delay action while facts are gathered, allies are protected, or a safer strategy is built. Nor is nonviolence passive; disciplined noncooperation can require immense ferocity. The distinction is whether delay serves a chosen plan or merely reduces immediate anxiety while the preventable harm continues.
 

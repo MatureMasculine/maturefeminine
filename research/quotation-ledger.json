@@ -813,7 +813,7 @@
     },
     {
       "id": "quote-guardian-opening-mill-harm",
-      "exactQuotation": "The only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others.",
+      "exactQuotation": "[T]he only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others.",
       "author": "John Stuart Mill",
       "origin": {
         "work": "On Liberty",
@@ -823,7 +823,7 @@
       },
       "sourceUrl": "https://www.gutenberg.org/cache/epub/34901/pg34901.txt",
       "context": "Mill places a limit on coercive protection among people with mature faculties: preventing harm to others, not imposing another person's conception of the protected adult's good.",
-      "verificationNotes": "Exact wording, punctuation, and British spelling ‘civilised’ checked in the nonempty UTF-8 Project Gutenberg text. Mill immediately says the doctrine is not directed to children or people who still require dependent care, so it is not applied mechanically to caregiving or emergency safety.",
+      "verificationNotes": "The source begins ‘That the only purpose’; the transparent bracket in ‘[T]he’ marks removal of the dependent opening word so the excerpt can stand as a sentence. The remaining wording, punctuation, and British spelling ‘civilised’ were checked in the nonempty UTF-8 Project Gutenberg text. Mill immediately says the doctrine is not directed to children or people who still require dependent care, so it is not applied mechanically to caregiving or emergency safety.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: first published in 1859; John Stuart Mill died in 1873.",
       "assignedSpread": "guardian",

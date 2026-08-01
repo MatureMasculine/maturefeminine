@@ -556,19 +556,23 @@
       "figure": "Hamlet",
       "figureType": "literary tragic protagonist",
       "tradition": "English Renaissance revenge-tragedy tradition",
-      "relevantFunction": "Hamlet describes resolution losing the name of action under the pressure of thought, while the wider play shows delay, self-reproach, and later impulsive violence. The narrow resonance is deliberation consuming usable capacity under an uncertain demanded act, not a model of the act he is asked to perform.",
+      "relevantFunction": "In act II, scene 2, Hamlet reproaches himself for delayed action and devises a test; in act III, scene 1's suicide soliloquy, he describes thought turning resolution away until enterprises ‘lose the name of action’; in act III, scene 4, he kills Polonius impulsively. The narrow resonance is the contrast between inhibited deliberate action and force that escapes deliberation, not a model of revenge, suicide, or the act he is asked to perform.",
       "source": {
         "title": "Hamlet",
         "authorOrInstitution": "William Shakespeare; Folger Shakespeare Library",
         "originatingWork": "William Shakespeare, Hamlet",
-        "location": "act III, scene 1, Folger scene lines 89–96 / global lines 1789–1794",
+        "location": "act II, scene 2, closing soliloquy beginning ‘O what a rogue and peasant slave am I’; act III, scene 1, the full ‘To be or not to be’ suicide soliloquy, especially the final movement through ‘lose the name of action’; and act III, scene 4, the impulsive killing of Polonius",
         "publicationDetails": "Hamlet was first printed in the early seventeenth century; cited from the Folger Shakespeare Library digital edition, last updated June 2, 2020.",
-        "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3/1/"
+        "url": "https://www.gutenberg.org/cache/epub/1524/pg1524.txt"
       },
-      "corroboratingUrl": "https://www.gutenberg.org/cache/epub/1524/pg1524.txt",
-      "verificationNotes": "The content-bearing Folger page supplies numbered text from ‘Thus conscience’ through ‘lose the name of action’; the public-domain Gutenberg transcription corroborates the passage. Folger's modern editorial brackets and wording are verification material, not reproduced quotation text.",
+      "corroboratingUrls": [
+        "https://www.folger.edu/explore/shakespeares-works/hamlet/read/2/2/",
+        "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3/1/",
+        "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3/4/"
+      ],
+      "verificationNotes": "The nonempty public-domain Project Gutenberg transcription contains all three cited scenes: act II, scene 2's self-reproach and plan for the players; act III, scene 1's suicide soliloquy and its movement from ‘Thus conscience’ through ‘lose the name of action’; and act III, scene 4's impulsive killing of Polonius. The three Folger scene pages provide scene-specific corroboration. Folger's modern editorial markings are verification material, not reproduced quotation text.",
       "verificationStatus": "verified",
-      "culturalContextNote": "Recorded as an English revenge-tragedy protagonist. The assignment does not repeat the passage's coward language, shame freeze or fawn survival, pathologize imposed incapacity, validate revenge, or present Hamlet's later impulsive violence as integration.",
+      "culturalContextNote": "Recorded as an English revenge-tragedy protagonist. Act III, scene 1 is a suicide soliloquy, not generic advice about courage or action. The assignment does not repeat the passage's coward language, shame freeze or fawn survival, pathologize imposed incapacity, validate suicide or revenge, or present Hamlet's later impulsive violence as integration.",
       "accessDate": "2026-08-01"
     }
   ]

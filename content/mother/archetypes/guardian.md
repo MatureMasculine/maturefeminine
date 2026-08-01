@@ -21,7 +21,7 @@ sectionRoles: definition=A Threshold That Can Breathe|declarations=The Guardian'
 
 ## Opening Quotation
 
-“The only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others.”
+“[T]he only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others.”
 
 —John Stuart Mill, *On Liberty*, chapter I
 

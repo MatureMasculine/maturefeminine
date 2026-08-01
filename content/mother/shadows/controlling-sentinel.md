@@ -65,7 +65,9 @@ The Controlling Sentinel often speaks the language of care. She checks devices, 
 
 Risk categories broaden under anxiety. Discomfort becomes danger; novelty becomes recklessness; privacy becomes deception. A single breach can be made to justify permanent surveillance. Demonstrated reliability has no cumulative weight, while every mistake resets the account. No behavior can earn more trust because the system is organized to preserve control, not evaluate capacity.
 
-In families, the pattern delays development and trains secrecy. In organizations, it produces permissions that accumulate but are rarely retired, opaque decisions, and gatekeepers who become indispensable. In communities, protection language can legitimate censorship, confinement, discriminatory scrutiny, or coercion whose burdens fall on people with the least power.
+In families, the pattern delays development and trains secrecy. In organizations, it produces accumulating permissions, opaque decisions, and gatekeepers with unchecked authority. In communities, protection language can legitimate bans.
+
+It can also justify confinement, discriminatory scrutiny, or coercion whose burdens fall on people with the least power.
 
 Not every firm restriction is controlling. Immediate threats, fiduciary duties, safeguarding obligations, and limited decision-making capacity can require nonconsensual action. The test is whether authority is lawful and accountable, tied to a specific danger, no broader or longer than necessary, and reviewed as capacity or conditions change. Protection becomes shadow when it seeks immunity from those questions.
 

@@ -262,6 +262,17 @@ Gate: passed. Taxonomy, reader-facing copy, quotation evidence, myth placement, 
 
 ### Production Fit Record
 
-Final standalone fills are Mother `0.8634`, Engulfing Mother `0.8161`, Unavailable Mother `0.8369`, Guardian `0.9128`, Controlling Sentinel `0.8161`, Open Gate `0.7658`, Warrior `0.8248`, Rampaging Warrior `0.7677`, and Disarmed Warrior `0.8142`. Every entry occupies exactly two nonblank pages with zero overflow and remains within the shared `0.75–0.95` band. Rampaging Warrior's initial `0.7492` was resolved with one substantive sentence distinguishing protective strength from imposed pain; no typography or print setting changed.
+Final standalone fills are Mother `0.8463`, Engulfing Mother `0.8161`, Unavailable Mother `0.8369`, Guardian `0.9128`, Controlling Sentinel `0.8161`, Open Gate `0.7658`, Warrior `0.8248`, Rampaging Warrior `0.7677`, and Disarmed Warrior `0.8142`. Every entry occupies exactly two nonblank pages with zero overflow and remains within the shared `0.75–0.95` band. Rampaging Warrior's initial `0.7492` was resolved with one substantive sentence distinguishing protective strength from imposed pain; no typography or print setting changed.
 
 All three compiled trios pass even-to-odd parity: parent pages 2–3, active shadow pages 4–5, and passive shadow pages 6–7. All 18 pages were rasterized at 120 DPI and visually inspected. Quotation lineation and attributions, artwork, seven-row profiles, headings, two-column flow, page furniture, paragraph continuity, and closing quotations are intact. No clipping, collision, blank page, overflow, literal Markdown, broken column start, orphaned heading, or conspicuous imbalance required further repair.
+
+### Independent Review Repairs
+
+An independent audit re-resolved all 27 sources, reread all nine manuscripts, and inspected all 18 rendered pages. It identified three medium and two low defects, all repaired before approval:
+
+- Mill's source begins “That the only purpose.” The printed excerpt now begins transparently with `[T]he`, and the ledger records the removed dependent opening word rather than claiming unaltered exactness.
+- The Hamlet record now cites act II, scene 2; the full suicide soliloquy in act III, scene 1; and the impulsive killing in act III, scene 4. The record explicitly names the suicide and revenge-tragedy contexts and rejects suicide, revenge, coward language, and impulsive violence as integration.
+- Controlling Sentinel and Disarmed Warrior were substantively reflowed so no word is hyphenated across a facing-page turn. Controlling Sentinel ends page 1 with a complete sentence and begins page 2 with a complete sentence; Disarmed Warrior crosses between complete words.
+- Mother and Unavailable Mother closing locations use compact `ch. VII` and `ch. X` attributions so no Roman numeral sits alone on a line; full locations remain in the research ledger.
+
+The focused source tests were tightened before the records changed, then returned green. The full 109-test Node suite, structural sync, site build, 24 Python print tests, all three exact-spread validations, and a fresh page-image inspection passed after the final reflow.
