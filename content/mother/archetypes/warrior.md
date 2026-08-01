@@ -9,64 +9,107 @@ passiveShadowSlug: disarmed-warrior
 aliases: Warrioress|Huntress
 legacyRoutes: /mother/warrior-warrioress-huntress/
 coreFunction: Mobilize proportionate force in defense of life, boundary, and purpose.
-keyQualities: Focused|Courageous|Strategic|Protective|Disciplined|Determined|Just|Skilled|Precise|Fierce
+keyQualities: Fierce|Disciplined|Strategic|Courageous|Proportionate|Focused|Protective|Accountable|Skilled|Decisive|Enduring|Restorative
 image: assets/images/warrior-warrioress-huntress.jpeg
-quoteIds:
-mythicResonances:
-mythicSourceIds:
-researchStatus: pending
-sectionRoles: definition=Definition|declarations=Declarations|balance=Balance|applications=Applications|gifts=Gifts, Responsibilities, and Challenges|practices=Practices|conclusion=Living as the Warrior
+quoteIds: quote-warrior-opening-cooper-cause-freedom|quote-warrior-closing-gaskell-damage-cause
+mythicResonances: Mulan (Northern Dynasties Chinese ballad tradition)
+mythicSourceIds: myth-warrior-mulan-ballad
+researchStatus: verified
+sectionRoles: definition=Force in Service of Life|declarations=The Warrior's Inner Stance|balance=The Living Balance|applications=Where Courage Takes Form|gifts=What Force Asks of Her|practices=Practices of Disciplined Ferocity|conclusion=Living as the Warrior
 ---
 # Warrior
 
 ## Opening Quotation
 
+“The cause of freedom is not the cause of a race or a sect, a party or a class,—it is the cause of human kind, the very birthright of humanity.”
+
+—Anna Julia Cooper, *A Voice from the South*, “Woman versus the Indian”
+
 ## Profile
 
 - Lifecycle stage: Mother
 - Core function: Mobilize proportionate force in defense of life, boundary, and purpose.
-- Balanced qualities: Ferocity + Restraint
+- Balanced qualities: Mature Warrior = Ferocity + Restraint
 - Active shadow: Rampaging Warrior
 - Passive shadow: Disarmed Warrior
-- Mythic resonances:
-- Key qualities: Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Precise, Fierce
+- Mythic resonances: Mulan (Northern Dynasties Chinese ballad tradition)
+- Key qualities: Fierce, Disciplined, Strategic, Courageous, Proportionate, Focused, Protective, Accountable, Skilled, Decisive, Enduring, Restorative
 
-## Definition
+## Force in Service of Life
 
-The Mature Warrior has access to force without being possessed by it. She chooses worthy aims, trains for competence, acts in proportion, and remembers the humanity of everyone involved. Her restraint is not timidity; it is what makes her ferocity precise and trustworthy.
+The Warrior mobilizes proportionate force in defense of life, boundary, and purpose. She can focus aggression, tolerate conflict, and move toward an obstacle when avoidance would surrender something worthy. Her force may be physical, verbal, legal, political, creative, or organizational. What makes it mature is not intensity but service: a chosen aim governs the energy.
 
-The huntress current: focused ferocity in defense of life and purpose.
+She prepares before crisis. Training gives her more than power; it gives her options. She can distinguish warning, refusal, containment, interruption, escape, and direct confrontation. She does not use a larger force merely because it is available, and she does not confuse a dramatic gesture with effective action.
 
-## Declarations
+The Warrior also knows how to stop. Victory is not the opponent's humiliation or her own permanent mobilization. It is the protected boundary, interrupted harm, secured objective, or restored capacity that justified action. Restraint lets force end before it becomes a new threat.
 
-- My fire answers to purpose.
-- I can be fierce without becoming cruel.
-- I defend a boundary and stop when it holds.
-- Restraint concentrates my strength.
+## The Warrior's Inner Stance
 
-## Balance
+- My ferocity answers to a worthy and specific purpose.
+- I define the objective before adrenaline defines it for me.
+- I can act while afraid and reassess while moving.
+- I use no more force than the situation requires.
+- Anger gives information; it does not receive command.
+- I protect people without turning them into symbols for my battle.
+- I preserve exits, surrender, and repair where conditions allow.
+- I do not make cruelty proof of seriousness.
+- I train so that restraint is a choice, not helplessness.
+- When the objective is secured, I stop.
 
-Ferocity and Restraint are mutually correcting.
+## The Living Balance
 
-Ferocity mobilizes concentrated energy against a real obstacle or threat.
+Ferocity is concentrated life energy available for defense, pursuit, interruption, and endurance. It cuts through appeasement and inertia. It lets the Warrior say *enough*, endure opposition, and keep moving when a meaningful aim costs comfort or approval. Without Ferocity, principle remains an opinion that pressure can easily displace.
 
-Restraint governs timing, proportion, and cessation so force remains in service.
+Restraint governs timing, target, method, proportion, and cessation. It asks whether the action serves the stated aim, who else may be harmed, what escalation could follow, and what less damaging option remains. Restraint is not the absence of force. It is trained authorship of force. Without it, aggression recruits moral language to justify appetite, revenge, or discharge.
 
-## Applications
+Ferocity without Restraint produces the Rampaging Warrior, who enlarges the enemy and continues after the protective purpose is lost. When Ferocity collapses and Restraint becomes inhibition, the Disarmed Warrior cannot mobilize even when action is necessary. Mature force holds both truths: *This matters enough to fight for, and the way I fight must remain answerable to what matters.*
 
-Mobilize force cleanly, then stop when the work is done.
+## Where Courage Takes Form
 
-## Gifts, Responsibilities, and Challenges
+The Warrior's force changes with the terrain. In every setting, she seeks an effective action that remains accountable to its purpose and effects.
 
-The huntress current: focused ferocity in defense of life and purpose.
+### Inner Life
 
-## Practices
+She notices activation in breath, jaw, hands, temperature, and attention. Rather than shame the body's preparation, she uses it deliberately. She can slow enough to identify the true target and act before rumination consumes the available energy.
 
-- Define the objective and the stopping condition before conflict.
-- Discharge activation through breath and movement after action.
+### Relationship
+
+The Warrior makes a clean refusal, interrupts contempt, leaves unsafe contact, and defends a boundary without requiring agreement. She does not weaponize private knowledge or recruit an audience merely to win. After conflict, she evaluates impact and repairs what exceeded the purpose without withdrawing the boundary itself.
+
+### Work and Leadership
+
+She confronts exploitation, names an unworkable demand, documents misconduct, organizes allies, and carries a difficult decision. Strategy matters: she maps power, protects sources, selects timing, and defines a fallback. Courage includes building conditions in which others can act safely, not only becoming the most visible fighter.
+
+### Community
+
+Collective struggle asks the Warrior to join force to accountability. Those most affected help define the objective and acceptable costs. She distinguishes solidarity from using another community's pain as a stage for her own purity, rage, or heroism.
+
+## What Force Asks of Her
+
+The Warrior's gifts are courage, clarity, stamina, skill, and the ability to concentrate effort. She can remain present when conflict exposes what politeness concealed. She reminds a group that some values require defense, not merely affirmation.
+
+These gifts carry responsibility. She must verify the threat, identify the actual decision-maker, and notice when dehumanizing language makes excess feel righteous. She must account for power: identical tactics do not carry identical risks for every body. She must also refuse demands for calm that protect an abusive order by pathologizing justified anger.
+
+After action, the nervous system needs completion. Rest, grief, tending wounds, reviewing consequences, and rebuilding ordinary life are part of disciplined force. A warrior identity that requires permanent enemies cannot protect peace because peace would dissolve its purpose.
+
+## Practices of Disciplined Ferocity
+
+- We write the objective, legitimate target, acceptable methods, and stopping condition before entering a planned conflict.
+- We identify the smallest action that could interrupt the harm and the evidence that would require escalation.
+- We rehearse one sentence of refusal until it can be spoken without explanation or insult.
+- We locate allies, witnesses, exits, documentation, and professional help before confronting concentrated power.
+- We track activation in the body and choose a regulating action that preserves readiness rather than suppressing it.
+- We remove dehumanizing descriptions from our strategy and replace them with observable conduct and responsibility.
+- We review impact after action, repair collateral harm, and retain the boundary that made action necessary.
+- We mark the stopping condition publicly enough that allies can help us honor it.
+- We discharge completed mobilization through movement, rest, tears, ritual, or quiet companionship.
 
 ## Living as the Warrior
 
-The Mature Warrior has access to force without being possessed by it. She chooses worthy aims, trains for competence, acts in proportion, and remembers the humanity of everyone involved. Her restraint is not timidity; it is what makes her ferocity precise and trustworthy.
+Living as the Warrior means keeping force available without building a home inside battle. Ferocity allows her to meet what must be opposed; Restraint keeps opposition from remaking her in its image. She fights for conditions in which life can resume, choice can return, and fewer people need to fight alone. Her strength is trustworthy because it has an aim, a discipline, and an end.
 
 ## Closing Quotation
+
+“For God’s sake! do not damage your cause by this violence. You do not know what you are doing.”
+
+—Margaret Hale, Elizabeth Gaskell, *North and South*, chapter XXII

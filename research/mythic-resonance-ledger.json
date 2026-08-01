@@ -379,6 +379,197 @@
       "verificationStatus": "verified",
       "culturalContextNote": "Recorded as a fictional male weaver in a nineteenth-century English novel. His trauma, class position, religious exclusion, and unusual episodes are not reduced to a feminine shadow, and the abandoned child is not presented as responsible for healing an adult.",
       "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-mother-marmee-march-little-women-8",
+      "assignedSpread": "mother",
+      "assignmentScope": "parent-only",
+      "figure": "Marmee March",
+      "figureType": "literary maternal figure",
+      "tradition": "nineteenth-century American literary tradition",
+      "relevantFunction": "When Jo is horrified by the consequences of her anger, Marmee offers sympathy rather than humiliation, discloses her own long practice of governing anger, and lets example strengthen Jo's capacity to undertake that work herself. The narrow resonance joins reachable care with development of self-government.",
+      "source": {
+        "title": "Little Women",
+        "authorOrInstitution": "Louisa May Alcott; Project Gutenberg",
+        "originatingWork": "Louisa May Alcott, Little Women",
+        "location": "chapter VIII, ‘Jo Meets Apollyon,’ especially Jo's remorse and Marmee's account of her own anger practice",
+        "publicationDetails": "Little Women (Boston: Roberts Brothers, 1868); Project Gutenberg ebook 514.",
+        "url": "https://www.gutenberg.org/cache/epub/514/pg514.txt"
+      },
+      "verificationNotes": "The primary novel shows Marmee comforting Jo, acknowledging a parallel struggle without centering herself, and modeling self-regulation in a way the narrator says strengthens Jo's resolution. Chapter XI's household experiment was rejected because avoidable harm to Pip would muddy the mature care mechanism.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as one bounded scene in a nineteenth-century American novel. It does not endorse every March-family norm, the period's domestic gender expectations, emotional suppression, or biological motherhood as destiny.",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "myth-engulfing-mother-mrs-morel-sons-lovers",
+      "assignedSpread": "engulfing-mother",
+      "assignmentScope": "shadow-specific",
+      "figure": "Mrs. Morel",
+      "figureType": "literary maternal figure",
+      "tradition": "early twentieth-century English literary tradition",
+      "relevantFunction": "After bereavement and Paul's dangerous illness, the novel says mother and son knit together in perfect intimacy and that Mrs. Morel's life roots itself in Paul. Later, his separate attachments become entangled with that bond. The resonance isolates care and grief narrowing relational boundaries until a dependent's separateness becomes difficult to bear.",
+      "source": {
+        "title": "Sons and Lovers",
+        "authorOrInstitution": "D. H. Lawrence; Project Gutenberg",
+        "originatingWork": "D. H. Lawrence, Sons and Lovers",
+        "location": "part I, chapter VI, ‘Death in the Family,’ read with part II, chapter VIII, ‘Strife in Love’",
+        "publicationDetails": "Sons and Lovers (London: Duckworth and Company, 1913); Project Gutenberg ebook 217.",
+        "url": "https://www.gutenberg.org/cache/epub/217/pg217.txt"
+      },
+      "verificationNotes": "The text supplies the exact narrowed-life image and later relational conflict. The assignment concerns a narrative mechanism and does not claim a modern psychological diagnosis, a single motive, or a verdict on the whole character.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a working-class English literary character shaped by grief, marriage, economics, and family circumstance. Intense caregiving and closeness are not themselves engulfment; the narrow issue is lost relational separateness.",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "myth-absent-mother-victor-frankenstein-chapter-5",
+      "assignedSpread": "absent-mother",
+      "assignmentScope": "shadow-specific",
+      "figure": "Victor Frankenstein",
+      "figureType": "literary creator figure",
+      "tradition": "English Gothic literary tradition",
+      "relevantFunction": "Victor brings dependent life into being, recoils as soon as it becomes real, and leaves the newly animated Creature without care, orientation, or relationship. The Creature later names the broken duty directly. The resonance makes unavailable nurture legible without tying the function to biology or gender.",
+      "source": {
+        "title": "Frankenstein; or, The Modern Prometheus",
+        "authorOrInstitution": "Mary Shelley; Project Gutenberg",
+        "originatingWork": "Mary Shelley, Frankenstein",
+        "location": "chapter V, creation and flight, corroborated by the Creature's appeal in chapter X",
+        "publicationDetails": "Frankenstein was first published in 1818; Project Gutenberg ebook 84 does not declare its underlying print witness.",
+        "url": "https://www.gutenberg.org/cache/epub/84/pg84.txt"
+      },
+      "verificationNotes": "The nonempty primary text shows Victor's immediate flight and the later claim of relational duty. The source edition is not overidentified, and the record does not treat the Creature's later violence as excused or inevitable.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "This is a non-biological maker-and-dependent resonance. Deliberate abandonment is not equated with disability, limited capacity, systemic deprivation, coerced absence, an overwhelmed caregiver seeking help, or a necessary safety separation.",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "myth-guardian-scylding-coastguard-beowulf-4",
+      "assignedSpread": "guardian",
+      "assignmentScope": "parent-only",
+      "figure": "The Scylding coastguard",
+      "figureType": "epic threshold guardian",
+      "tradition": "Old English heroic literary tradition",
+      "relevantFunction": "The coastguard sees armed strangers, challenges them plainly, hears Beowulf's account, judges the difference between words and works, recognizes that the group bears no malice, grants passage, guides them, and arranges protection for their ship. The threshold changes from guarded to open as evidence changes.",
+      "source": {
+        "title": "Beowulf: An Anglo-Saxon Epic Poem",
+        "authorOrInstitution": "Anonymous; translated by J. Lesslie Hall; Project Gutenberg",
+        "originatingWork": "Beowulf",
+        "location": "section IV, approximately original lines 229–300, from the coastguard's challenge through his return to the shore",
+        "publicationDetails": "Translated from the Heyne-Socin text by J. Lesslie Hall (Boston, New York, and Chicago: D. C. Heath and Company, 1892); Project Gutenberg ebook 16328.",
+        "url": "https://www.gutenberg.org/cache/epub/16328/pg16328.txt"
+      },
+      "verificationNotes": "The primary text contains each step: observation, challenge, account, judgment, admission, guidance, and continued care of the vessel. The figure is used for a threshold mechanism rather than for combat.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded from one Christianized Old English epic through Hall's dated translation. The figure is not presented as a universal Norse archetype, a deity, or a sacred equivalence.",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "myth-controlling-sentinel-dame-gothel-rapunzel-grimm",
+      "assignedSpread": "controlling-sentinel",
+      "assignmentScope": "shadow-specific",
+      "figure": "Dame Gothel",
+      "figureType": "literary fairy-tale captor",
+      "tradition": "German literary fairy-tale tradition",
+      "relevantFunction": "Gothel promises to care for Rapunzel like a mother, then confines her at twelve in a tower without stairs or door. When Rapunzel forms a separate attachment, Gothel treats it as deception and responds with punishment and exile. The resonance isolates protection becoming captivity when separation is treated as betrayal.",
+      "source": {
+        "title": "Rapunzel",
+        "authorOrInstitution": "Jacob and Wilhelm Grimm; uncredited English translation; Project Gutenberg",
+        "originatingWork": "Grimms' Rapunzel",
+        "location": "complete tale, especially the care promise, tower confinement, and discovery of the prince",
+        "publicationDetails": "Grimm's Fairy Stories, 1922 illustrated collection; Project Gutenberg ebook 11027. The source does not credit the English translator.",
+        "url": "https://www.gutenberg.org/cache/epub/11027/pg11027.txt"
+      },
+      "verificationNotes": "The public-domain source explicitly says ‘care for it like a mother,’ gives the age and doorless tower, and records the punishment after separate relationship is discovered. No benevolent motive is invented.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a German literary fairy-tale captor, not a diagnostic label for parents or guardians. Confinement, surveillance, and abuse are not legitimate protection, and the story's rescue plot is not a modern consent model.",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "myth-open-gate-shepherd-wolf-aesop",
+      "assignedSpread": "open-gate",
+      "assignmentScope": "shadow-specific",
+      "figure": "The Shepherd",
+      "figureType": "literary fable character",
+      "tradition": "Aesopic literary-fable tradition",
+      "relevantFunction": "After a Wolf follows the flock without attacking, the Shepherd moves from watchfulness to treating him as a guardian and then leaves the entire flock in his charge. The Wolf destroys most of it. The resonance isolates limited evidence inflated into proof of character and followed by all-at-once delegation of safety.",
+      "source": {
+        "title": "The Wolf and the Shepherd",
+        "authorOrInstitution": "Aesop; translated by George Fyler Townsend; Project Gutenberg",
+        "originatingWork": "Three Hundred Æsop's Fables",
+        "location": "complete fable ‘The Wolf and the Shepherd’",
+        "publicationDetails": "Three Hundred Æsop's Fables, translated by George Fyler Townsend (London: George Routledge and Sons; title page undated); Project Gutenberg ebook 21.",
+        "url": "https://www.gutenberg.org/cache/epub/21/pg21.txt"
+      },
+      "verificationNotes": "The source explicitly gives the Shepherd's initial guard, gradual reclassification, total delegation, and loss. The fable was selected over the collective Trojan-horse episode to provide a single figure and a cleaner shadow-specific mechanism.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "The predator-prey fable is not mapped onto fixed human essences and does not imply that trust can never grow. Its narrow caution is against granting total access without sufficient testing, boundaries, or safeguards.",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "myth-warrior-mulan-ballad",
+      "assignedSpread": "warrior",
+      "assignmentScope": "parent-only",
+      "figure": "Mulan",
+      "figureType": "literary ballad heroine",
+      "tradition": "Northern Dynasties Chinese ballad tradition",
+      "relevantFunction": "In the early ballad, Mulan takes her drafted father's place, serves for years, returns after the campaign, declines a ministerial post, removes her wartime clothing, and resumes home life. The narrow resonance joins force mobilized for a defined protective duty with the capacity to relinquish martial role when that duty ends.",
+      "source": {
+        "title": "The Ballad of Mulan (Ode of Mulan)",
+        "authorOrInstitution": "Anonymous; Columbia University Asia for Educators",
+        "originatingWork": "Northern Dynasties Ballad of Mulan",
+        "location": "longer selection, pages 2–3, from the father's draft through Mulan's return home",
+        "publicationDetails": "Poem composed in the fifth or sixth century CE. Columbia reproduces Han H. Frankel's translation from The Flowering Plum and the Palace Lady (Yale University Press, 1976), pages 68–72.",
+        "url": "https://afe.easia.columbia.edu/ps/china/mulan.pdf"
+      },
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Translation:Ballad_of_Mulan",
+      "verificationNotes": "The searchable Columbia PDF is used for verification only and explicitly marks Frankel's translation © 1976 Yale University Press, reproduced by permission, all rights reserved. No translation wording is reproduced in the book. A Jack Yuan translation at Wikisource, licensed CC BY-SA 3.0, corroborates the narrative sequence.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded specifically as the fifth- or sixth-century northern Chinese ballad, which is not sacred. No Disney or later adaptation details are imported. The assignment does not reduce the poem to Western gender archetyping or claim that war itself is mature.",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "myth-rampaging-warrior-achilles-iliad-22-24",
+      "assignedSpread": "rampaging-warrior",
+      "assignmentScope": "shadow-specific",
+      "figure": "Achilles",
+      "figureType": "epic warrior",
+      "tradition": "archaic Greek epic literary tradition",
+      "relevantFunction": "After killing Hector, Achilles refuses ransom and burial, desecrates the body, and continues dragging it after the battlefield threat is over. Priam's appeal later returns him to shared grief and restitution. The resonance isolates force outliving its purpose and becoming humiliation and revenge.",
+      "source": {
+        "title": "The Iliad of Homer",
+        "authorOrInstitution": "Homer; translated by William Cowper; Project Gutenberg",
+        "originatingWork": "Homer, Iliad",
+        "location": "book XXII, approximately lines 370–445, and book XXIV, especially lines 1–530 onward",
+        "publicationDetails": "William Cowper translation, edited by Robert Southey with notes by M. A. Dwight (New York: D. Appleton and Company, 1860); Project Gutenberg ebook 16452.",
+        "url": "https://www.gutenberg.org/cache/epub/16452/pg16452.txt"
+      },
+      "verificationNotes": "The primary epic contains Hector's burial plea, Achilles' refusal and desecration, continued post-battle dragging, Priam's appeal, and the body's return. Divine protection and command are not treated as ethical proof.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as an archaic Greek literary figure through Cowper's public-domain translation. The assignment does not endorse vengeance or divine punishment, equate anger with abuse, or present desecration as heroic integration.",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "myth-disarmed-warrior-hamlet-shakespeare-3-1",
+      "assignedSpread": "disarmed-warrior",
+      "assignmentScope": "shadow-specific",
+      "figure": "Hamlet",
+      "figureType": "literary tragic protagonist",
+      "tradition": "English Renaissance revenge-tragedy tradition",
+      "relevantFunction": "Hamlet describes resolution losing the name of action under the pressure of thought, while the wider play shows delay, self-reproach, and later impulsive violence. The narrow resonance is deliberation consuming usable capacity under an uncertain demanded act, not a model of the act he is asked to perform.",
+      "source": {
+        "title": "Hamlet",
+        "authorOrInstitution": "William Shakespeare; Folger Shakespeare Library",
+        "originatingWork": "William Shakespeare, Hamlet",
+        "location": "act III, scene 1, Folger scene lines 89–96 / global lines 1789–1794",
+        "publicationDetails": "Hamlet was first printed in the early seventeenth century; cited from the Folger Shakespeare Library digital edition, last updated June 2, 2020.",
+        "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3/1/"
+      },
+      "corroboratingUrl": "https://www.gutenberg.org/cache/epub/1524/pg1524.txt",
+      "verificationNotes": "The content-bearing Folger page supplies numbered text from ‘Thus conscience’ through ‘lose the name of action’; the public-domain Gutenberg transcription corroborates the passage. Folger's modern editorial brackets and wording are verification material, not reproduced quotation text.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as an English revenge-tragedy protagonist. The assignment does not repeat the passage's coward language, shame freeze or fawn survival, pathologize imposed incapacity, validate revenge, or present Hamlet's later impulsive violence as integration.",
+      "accessDate": "2026-08-01"
     }
   ]
 }

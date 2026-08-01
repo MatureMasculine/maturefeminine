@@ -198,3 +198,70 @@ No entry diagnoses the reader, romanticizes self-sacrifice, treats illness or tr
 Final standalone fills are Creator `0.7567`, Compulsive Perfecter `0.7796`, Scattered Maker `0.7871`, Healer `0.7885`, Rescuing Healer `0.8384`, and Guarded Healer `0.8317`. Every entry occupies exactly two nonblank pages with zero overflow.
 
 Both compiled trios pass even-to-odd parity: parent pages 2–3, active shadow pages 4–5, and passive shadow pages 6–7. After the independent-review repairs, every changed page was rendered again at 105 DPI. The final pass confirmed clean exact and bracketed quotation lineation, attribution, the Swallow profile wrap, image/profile hierarchy, headings, columns, page furniture, and paragraph starts, with no clipping, collision, literal Markdown, blank page, orphaned heading, sentence fragment, or conspicuous imbalance. No typography or print-tool setting changed.
+
+## Mother — Care, Protection, and Defense
+
+Date: 2026-08-01
+
+Scope: `mother`, `engulfing-mother`, `absent-mother` (reader-facing title Unavailable Mother), `guardian`, `controlling-sentinel`, `open-gate`, `warrior`, `rampaging-warrior`, and `disarmed-warrior`
+
+Authority: `editorial/canonical-taxonomy.md`, `editorial/style-sheet.md`, and `.superpowers/sdd/task-6-mother-a-brief.md`
+
+### Lifecycle Frame and Functional Boundaries
+
+Mother remains revisitable psychological territory, not a biological, reproductive, chronological, gender-essential, or compulsory parenting identity. The batch separates three adjacent functions:
+
+- Mother sustains legitimate dependence while developing or preserving the recipient's autonomy. Guardian protects access and safety; Host sustains a place; Healer organizes relief or increased capacity; Witness accompanies what cannot presently be fixed.
+- Guardian governs a threshold through proportionate Protection and evidence-responsive Trust. Mother develops capacity within care; Warrior mobilizes force against a defined threat.
+- Warrior concentrates force in service of a defined protective aim. Guardian decides access; Rebel contests illegitimate authority. The Warrior need not make authority itself the opponent.
+
+Dependency is treated contextually. Infancy, illness, disability, grief, trauma, and age can require substantial or continuing support. Autonomy may mean consent, accessible choice, privacy, communication, and meaningful participation rather than unsupported independence. Limited caregiver capacity and systemic deprivation are named without turning an absent safety net into an individual character accusation.
+
+### Pass 1: Developmental Edit
+
+- Printed `Mature Mother = Nurture + Autonomy` in all three Mother profiles. Engulfing Mother expands Nurture without Autonomy and restores Autonomy through consent, privacy, transferred tasks, reviewable assistance, and a life beyond indispensability. Unavailable Mother collapses Nurture while Autonomy becomes compulsory self-sufficiency and restores Nurture through reliable contact, sustainable promises, accountable handoffs, early response, and repair.
+- Printed `Mature Guardian = Protection + Trust` in all three Guardian profiles. Controlling Sentinel expands Protection without Trust and restores Trust through named evidence, least-restrictive safeguards, preserved agency, review criteria, counted reliability, and oversight. Open Gate collapses Protection while Trust becomes indiscriminate access and restores Protection through verification, staged permissions, pattern recognition, consequence, and behavior-based repair.
+- Printed `Mature Warrior = Ferocity + Restraint` in all three Warrior profiles. Rampaging Warrior expands Ferocity without Restraint and restores Restraint through a legitimate target, strategic relation to purpose, consent from those bearing risk, a stopping condition, repair, and aftermath. Disarmed Warrior collapses Ferocity while Restraint becomes inhibition and restores Ferocity through embodied orientation, concise refusal, scaled action, allies, power mapping, and contained mobilization.
+- Distinguished intensive care from engulfment by testing responsiveness, reviewability, consent where possible, participation, and present capacity rather than the quantity of assistance alone.
+- Distinguished firm protection from control by requiring lawful and accountable authority tied to a specific danger, proportional scope, and reassessment as conditions change.
+- Distinguished welcome from indiscriminate access. Inclusion removes arbitrary barriers but does not make every room, role, relationship, or system universally accessible.
+- Distinguished fierce or disruptive action from rampage through target, purpose, proportionality, accountability, and cessation. Freeze, appeasement, strategic submission, nonviolence, and constrained options are not shamed or equated with cowardice.
+
+Gate: passed. Each shadow is a causal imbalance of its parent's exact qualities, preserves useful energy, and restores the specifically missing quality without prescribing unsafe trust, contact, or confrontation.
+
+### Pass 2: Anti-Fluff and Redundancy Edit
+
+- Replaced placeholder definitions, duplicate slogans, generic “mutually correcting” paragraphs, one-line applications, and repeated conclusions with mechanisms, material context, domain distinctions, and observable consequences.
+- Removed inherited labels from reader-facing titles and body prose. Warrioress and Huntress remain aliases/provenance only; Unavailable Mother remains the canonical printed title while `absent-mother` remains the stable slug.
+- Kept named mythic figures exclusively in the seven-row profile beneath the image. No figure supplies psychological proof or decorative atmosphere.
+- Compared declarations and practices across all 27 verified entries: 234 declaration strings and 197 practice strings are unique, with zero exact reuse.
+- Compared batch paragraphs against approved Maiden and Lover paragraphs and one another across 44,692 eligible pairs. No pair reached Jaccard `0.55`; the maximum was `0.286` between unrelated boundary/accountability mechanisms.
+- Retained framework terms only where needed to state the balance, missing quality, opposite swing, or return. Every remaining paragraph contributes mechanism, boundary, context, consequence, distinction, or practice.
+
+Gate: passed. The manuscripts do not rely on generic uplift, synonym cycling, decorative mysticism, diagnosis, biological destiny, or padding.
+
+### Pass 3: Line Edit
+
+- Tailored headings name each actual tension: secure base/open gate, care becoming control, autonomy used to abandon, breathing threshold, protection becoming jurisdiction, trust leaving the threshold unkept, force serving life, ferocity forgetting purpose, and restraint forbidding action.
+- Led every shadow with the exact quality failure, then protective history, behavioral mechanics, retained energy, recognition, practices, opposite swing, transformation, and return.
+- Kept parent declarations at ten and shadow declarations at eight. All are first-person, present-tense, specific, and punctuated.
+- Used nine shared `we/our` practices for every parent and eight for every shadow. Practices name an observable action, limit, owner, evidence standard, review point, handoff, ally, or stopping condition.
+- Read each trio across its page turn to ensure the second column and facing page continue complete arguments. Short section leads were added to the three parent application sections so subsection rendering and argument transitions remain clean.
+
+Gate: passed. Argument order, headings, column starts, and transitions remain legible at print density.
+
+### Pass 4: Copy Edit and Research Record
+
+- Confirmed canonical H1s, slugs, lifecycle and order, quality order, parent/opposite links, aliases, legacy routes/anchors, image paths, seven profile rows, and literal parent-linked balance equations.
+- Assigned 18 unique verified public-domain quotations. Exact normalized text for every quotation was found in the nonempty cited source body during the final resolver audit. Mill's adult-scope qualification, Montessori's accommodation/continuing-support limit, Burnett's colonial household and Ayah context, Austen's bracketed initial, and the complete source sentences remain explicit in the ledger.
+- Assigned nine unique, noninherited resonances: Marmee March, Mrs. Morel, Victor Frankenstein, the Scylding coastguard, Dame Gothel, the Shepherd, Mulan, Achilles, and Hamlet. All nine primary source bodies resolved nonempty. Mulan's Columbia PDF is verification-only and later Disney adaptations are excluded; the assignment is literary, not sacred equivalence. The tragic and shadow figures are limited to the cited mechanism rather than treated as diagnoses or moral endorsements.
+- The final quote slate draws on Maria Montessori, Helen Keller, Dorothy Canfield Fisher, Kate Chopin, Frances Hodgson Burnett, Mary Shelley, John Stuart Mill, Anna Julia Cooper, Charlotte Perkins Gilman, Henrik Ibsen, Samuel Johnson, Aesop, Elizabeth Gaskell, Emily Brontë, Jane Austen, Jane Addams, and Charlotte Brontë. Cooper supplies two distinct passages for different functions; no quotation text or ID is reused.
+- Source records preserve precise work locations, translation/edition limits, rights, context, verification status, and access dates. The content-bearing audit returned HTTP 200 and nonempty bodies for all 18 quotation assignments and all nine myth assignments; every quotation matched its source text after punctuation normalization.
+
+Gate: passed. Taxonomy, reader-facing copy, quotation evidence, myth placement, contextual safeguards, and generated data conform to the governing contracts.
+
+### Production Fit Record
+
+Final standalone fills are Mother `0.8634`, Engulfing Mother `0.8161`, Unavailable Mother `0.8369`, Guardian `0.9128`, Controlling Sentinel `0.8161`, Open Gate `0.7658`, Warrior `0.8248`, Rampaging Warrior `0.7677`, and Disarmed Warrior `0.8142`. Every entry occupies exactly two nonblank pages with zero overflow and remains within the shared `0.75–0.95` band. Rampaging Warrior's initial `0.7492` was resolved with one substantive sentence distinguishing protective strength from imposed pain; no typography or print setting changed.
+
+All three compiled trios pass even-to-odd parity: parent pages 2–3, active shadow pages 4–5, and passive shadow pages 6–7. All 18 pages were rasterized at 120 DPI and visually inspected. Quotation lineation and attributions, artwork, seven-row profiles, headings, two-column flow, page furniture, paragraph continuity, and closing quotations are intact. No clipping, collision, blank page, overflow, literal Markdown, broken column start, orphaned heading, or conspicuous imbalance required further repair.

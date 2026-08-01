@@ -166,7 +166,7 @@
         "group": "Mother",
         "qualities": ["Protection","Trust"],
         "balanceQualities": ["Protection","Trust"],
-        "keyQualities": "Protective, Discerning, Devout, Grounded, Steadfast, Strong, Courageous, Honorable, Patient, Trustworthy",
+        "keyQualities": "Vigilant, Discerning, Steadfast, Proportionate, Courageous, Boundaried, Accountable, Calm, Responsive, Trustworthy, Strategic, Restorative",
         "href": "/mother/guardian/"
       }
 
@@ -180,7 +180,7 @@
         "group": "Mother",
         "qualities": ["Nurture","Autonomy"],
         "balanceQualities": ["Nurture","Autonomy"],
-        "keyQualities": "Nurturing, Steady, Protective, Generous, Patient, Wise, Resilient, Grounded, Empowering, Trustworthy",
+        "keyQualities": "Attentive, Nourishing, Steady, Responsive, Patient, Empowering, Protective, Realistic, Generous, Adaptable, Trustworthy, Releasing",
         "href": "/mother/mother/"
       }
 
@@ -208,7 +208,7 @@
         "group": "Mother",
         "qualities": ["Ferocity","Restraint"],
         "balanceQualities": ["Ferocity","Restraint"],
-        "keyQualities": "Focused, Courageous, Strategic, Protective, Disciplined, Determined, Just, Skilled, Precise, Fierce",
+        "keyQualities": "Fierce, Disciplined, Strategic, Courageous, Proportionate, Focused, Protective, Accountable, Skilled, Decisive, Enduring, Restorative",
         "href": "/mother/warrior/"
       }
 
@@ -585,7 +585,7 @@
         "group": "Mother",
         "qualities": ["Protection","Trust"],
         "balanceQualities": ["Protection","Trust"],
-        "keyQualities": "Polices ordinary choices, Moves boundaries without consent, Cannot stand down after safety returns",
+        "keyQualities": "Polices ordinary choices, Treats uncertainty as danger, Moves boundaries without consent, Demands access while denying it, Ignores demonstrated capacity, Cannot stand down",
         "href": "/mother/guardian/shadows/controlling-sentinel/"
       }
 
@@ -601,7 +601,7 @@
         "group": "Mother",
         "qualities": ["Protection","Trust"],
         "balanceQualities": ["Protection","Trust"],
-        "keyQualities": "Ignores repeated breaches, Delegates safety to hope, Avoids necessary exclusion",
+        "keyQualities": "Ignores repeated breaches, Delegates safety to hope, Confuses access with inclusion, Avoids necessary exclusion, Makes vulnerable people absorb risk, Has no response plan",
         "href": "/mother/guardian/shadows/open-gate/"
       }
 
@@ -617,7 +617,7 @@
         "group": "Mother",
         "qualities": ["Nurture","Autonomy"],
         "balanceQualities": ["Nurture","Autonomy"],
-        "keyQualities": "Solves before being asked, Treats separation as disloyalty, Undermines others' competence",
+        "keyQualities": "Anticipates every need, Solves before being asked, Treats separation as disloyalty, Uses worry as authority, Undermines competence, Makes sacrifice an invoice",
         "href": "/mother/mother/shadows/engulfing-mother/"
       }
 
@@ -633,7 +633,7 @@
         "group": "Mother",
         "qualities": ["Nurture","Autonomy"],
         "balanceQualities": ["Nurture","Autonomy"],
-        "keyQualities": "Minimizes legitimate dependency, Withdraws during distress, Provides freedom without support",
+        "keyQualities": "Minimizes legitimate dependency, Withdraws during distress, Confuses neglect with freedom, Delegates without accountability, Shames ordinary need, Returns only after crisis",
         "href": "/mother/mother/shadows/absent-mother/"
       }
 
@@ -681,7 +681,7 @@
         "group": "Mother",
         "qualities": ["Ferocity","Restraint"],
         "balanceQualities": ["Ferocity","Restraint"],
-        "keyQualities": "Escalates after the threat ends, Dehumanizes opponents, Treats intensity as moral proof",
+        "keyQualities": "Escalates after the threat ends, Dehumanizes opponents, Treats intensity as moral proof, Broadens the target, Rejects surrender or repair, Makes conflict an identity",
         "href": "/mother/warrior/shadows/rampaging-warrior/"
       }
 
@@ -697,7 +697,7 @@
         "group": "Mother",
         "qualities": ["Ferocity","Restraint"],
         "balanceQualities": ["Ferocity","Restraint"],
-        "keyQualities": "Freezes under violation, Apologizes for firm limits, Abandons aims at resistance",
+        "keyQualities": "Freezes under violation, Apologizes for firm limits, Abandons aims at resistance, Turns anger inward, Waits for certainty, Confuses inhibition with goodness",
         "href": "/mother/warrior/shadows/disarmed-warrior/"
       }
 

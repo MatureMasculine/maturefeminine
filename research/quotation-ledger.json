@@ -696,6 +696,349 @@
       "assignedSpread": "guarded-healer",
       "position": "closing",
       "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-mother-opening-montessori-individual-aims",
+      "exactQuotation": "We must give such help as shall make it possible for children to achieve the satisfaction of their own individual aims and desires.",
+      "author": "Maria Montessori",
+      "origin": {
+        "work": "The Montessori Method",
+        "workType": "education treatise",
+        "location": "chapter V, ‘Discipline,’ subsection ‘Independence’",
+        "publicationDetails": "The Montessori Method, translated by Anne E. George (New York: Frederick A. Stokes Company, 1912)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/39863/pg39863.txt",
+      "context": "Montessori argues that developmental care should give the help through which a child can achieve individual aims rather than replacing the child's activity. The sentence joins Nurture with growing Autonomy.",
+      "verificationNotes": "Exact wording and punctuation checked in the nonempty UTF-8 Project Gutenberg text. The source applies to education and development; it is not used to deny disability accommodation, interdependence, or legitimate continuing support.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1912; Maria Montessori died in 1952.",
+      "assignedSpread": "mother",
+      "position": "opening",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-mother-closing-keller-possibilities",
+      "exactQuotation": "At the beginning I was only a little mass of possibilities. It was my teacher who unfolded and developed them.",
+      "author": "Helen Keller",
+      "origin": {
+        "work": "The Story of My Life",
+        "workType": "autobiography",
+        "location": "part I, chapter VII",
+        "publicationDetails": "The Story of My Life (1903), Project Gutenberg ebook 2397, special edition edited by John Albert Macy."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2397/pg2397.txt",
+      "context": "Keller's own account credits Anne Sullivan's loving instruction with developing capacities that remained Keller's. The sentence supports care that increases capacity rather than ownership.",
+      "verificationNotes": "Exact wording and punctuation checked in the nonempty UTF-8 Project Gutenberg text, chapter VII. The record does not turn Sullivan into a savior or imply that disability is undeveloped personhood.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: first published in 1903.",
+      "assignedSpread": "mother",
+      "position": "closing",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-engulfing-mother-opening-fisher-explaining",
+      "exactQuotation": "Somebody had always been explaining things to Elizabeth Ann so industriously that she had never found out a single thing for herself before.",
+      "author": "Dorothy Canfield Fisher",
+      "origin": {
+        "work": "Understood Betsy",
+        "workType": "novel",
+        "location": "chapter II, ‘Betsy Holds the Reins’",
+        "publicationDetails": "Understood Betsy (New York: Henry Holt and Company, 1916)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/5347/pg5347.txt",
+      "context": "The narrator describes how loving anticipation and constant explanation have kept Elizabeth Ann from discovering and thinking for herself. It gives Nurture without Autonomy a specific consequence without condemning Aunt Frances as a whole person.",
+      "verificationNotes": "Exact wording and punctuation checked in the nonempty UTF-8 Project Gutenberg text. The surrounding scene contrasts prior overhelp with an original discovery; the record critiques a behavior, not anxious caregivers generally.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1916.",
+      "assignedSpread": "engulfing-mother",
+      "position": "opening",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-engulfing-mother-closing-chopin-give-myself",
+      "exactQuotation": "I would give up the unessential; I would give my money, I would give my life for my children; but I wouldn’t give myself.",
+      "author": "Kate Chopin",
+      "origin": {
+        "work": "The Awakening",
+        "workType": "novel",
+        "location": "chapter XVI; spoken by Edna Pontellier",
+        "publicationDetails": "The Awakening (Chicago and New York: Herbert S. Stone, 1899)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/160/pg160.txt",
+      "context": "Edna distinguishes devoted giving from surrender of the self. The sentence restores Autonomy inside care without being treated as approval of every choice the character makes.",
+      "verificationNotes": "Exact wording, semicolons, and contraction checked in the nonempty UTF-8 Project Gutenberg text, chapter XVI. No omission or alteration is made.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1899; Kate Chopin died in 1904.",
+      "assignedSpread": "engulfing-mother",
+      "position": "closing",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-absent-mother-opening-burnett-out-of-sight",
+      "exactQuotation": "She had not wanted a little girl at all, and when Mary was born she handed her over to the care of an Ayah, who was made to understand that if she wished to please the Mem Sahib she must keep the child out of sight as much as possible.",
+      "author": "Frances Hodgson Burnett",
+      "origin": {
+        "work": "The Secret Garden",
+        "workType": "novel",
+        "location": "chapter I, ‘There Is No One Left’",
+        "publicationDetails": "The Secret Garden (New York: Frederick A. Stokes Company, August 1911)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/17396/pg17396.txt",
+      "context": "Mary's mother delegates physical care while deliberately excluding the child from relationship. The colonial household also makes clear that the Indian Ayah is carrying care under the Mem Sahib's direction and is not the target of blame.",
+      "verificationNotes": "The complete sentence, including ‘Ayah’ and ‘Mem Sahib,’ was checked against the nonempty UTF-8 Project Gutenberg text. Those colonial terms are retained only because they are part of the exact quotation; the manuscript must not reproduce the source's racial hierarchy as a care ideal.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1911.",
+      "assignedSpread": "absent-mother",
+      "position": "opening",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-absent-mother-closing-shelley-adam",
+      "exactQuotation": "I ought to be thy Adam, but I am rather the fallen angel, whom thou drivest from joy for no misdeed.",
+      "author": "Mary Shelley",
+      "origin": {
+        "work": "Frankenstein; or, The Modern Prometheus",
+        "workType": "novel",
+        "location": "chapter X; spoken by the Creature to Victor Frankenstein",
+        "publicationDetails": "Frankenstein was first published in 1818; the cited Project Gutenberg ebook 84 does not declare its underlying print witness."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/84/pg84.txt",
+      "context": "The Creature names the relational claim of a dependent being rejected by his maker. The sentence does not excuse his later violence or imply that nurture controls every outcome.",
+      "verificationNotes": "Exact wording and punctuation checked in the nonempty UTF-8 Project Gutenberg text, chapter X. The e-text's precise print edition is not stated, so no edition-specific claim is made.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: the novel was first published in 1818; Mary Shelley died in 1851.",
+      "assignedSpread": "absent-mother",
+      "position": "closing",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-guardian-opening-mill-harm",
+      "exactQuotation": "The only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others.",
+      "author": "John Stuart Mill",
+      "origin": {
+        "work": "On Liberty",
+        "workType": "political philosophy treatise",
+        "location": "chapter I, ‘Introductory’",
+        "publicationDetails": "On Liberty was first published in 1859; Project Gutenberg ebook 34901 transcribes an undated Walter Scott Publishing Company edition."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/34901/pg34901.txt",
+      "context": "Mill places a limit on coercive protection among people with mature faculties: preventing harm to others, not imposing another person's conception of the protected adult's good.",
+      "verificationNotes": "Exact wording, punctuation, and British spelling ‘civilised’ checked in the nonempty UTF-8 Project Gutenberg text. Mill immediately says the doctrine is not directed to children or people who still require dependent care, so it is not applied mechanically to caregiving or emergency safety.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1859; John Stuart Mill died in 1873.",
+      "assignedSpread": "guardian",
+      "position": "opening",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-guardian-closing-cooper-defender",
+      "exactQuotation": "Hers is every interest that has lacked an interpreter and a defender. Her cause is linked with that of every agony that has been dumb—every wrong that needs a voice.",
+      "author": "Anna Julia Cooper",
+      "origin": {
+        "work": "A Voice from the South",
+        "workType": "essay collection",
+        "location": "‘Woman versus the Indian’",
+        "publicationDetails": "A Voice from the South (Xenia, Ohio: The Aldine Printing House, 1892)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/61741/pg61741.txt",
+      "context": "Cooper links the newly audible public voice of women to interests and wrongs that have lacked defenders. The sentence supports protection in service of vulnerable people rather than the protector's control.",
+      "verificationNotes": "Exact wording, punctuation, and em dash checked in the nonempty UTF-8 Project Gutenberg text. Cooper's Black feminist and post-emancipation setting remains part of the record rather than being reduced to generic uplift.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1892.",
+      "assignedSpread": "guardian",
+      "position": "closing",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-controlling-sentinel-opening-gilman-special-direction",
+      "exactQuotation": "He is very careful and loving, and hardly lets me stir without special direction.",
+      "author": "Charlotte Perkins Gilman",
+      "origin": {
+        "work": "The Yellow Wallpaper",
+        "workType": "short story",
+        "location": "early journal entry",
+        "publicationDetails": "First published in The New England Magazine, January 1892."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1952/pg1952.txt",
+      "context": "The narrator's irony exposes care that removes an adult's movement, judgment, work, and authority over her own experience. It is coercive protection, not ordinary assistance.",
+      "verificationNotes": "Exact wording and punctuation checked in the nonempty UTF-8 Project Gutenberg text. The line does not equate legitimate medical support, consensual help, or temporary safety planning with control.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: first published in 1892.",
+      "assignedSpread": "controlling-sentinel",
+      "position": "opening",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-controlling-sentinel-closing-ibsen-reasonable-human",
+      "exactQuotation": "I believe that before all else I am a reasonable human being, just as you are—or, at all events, that I must try and become one.",
+      "author": "Henrik Ibsen",
+      "speaker": "Nora Helmer",
+      "origin": {
+        "work": "A Doll's House",
+        "workType": "play",
+        "location": "act III",
+        "publicationDetails": "Original play published in 1879; cited in R. Farquharson Sharp's English translation, Project Gutenberg ebook 2542."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2542/pg2542.txt",
+      "context": "Nora claims the adult capacity to think, judge, and develop rather than remain subject to a husband's paternal direction. The line restores Trust in an adult's agency.",
+      "verificationNotes": "Exact wording, punctuation, and em dash checked in the nonempty UTF-8 Project Gutenberg text. The adult-marriage context is not generalized into a claim that dependent children never require protective limits.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: the play and cited translation were published before 1931.",
+      "assignedSpread": "controlling-sentinel",
+      "position": "closing",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-open-gate-opening-johnson-integrity-knowledge",
+      "exactQuotation": "Integrity without knowledge is weak and useless, and knowledge without integrity is dangerous and dreadful.",
+      "author": "Samuel Johnson",
+      "origin": {
+        "work": "Rasselas, Prince of Abyssinia",
+        "workType": "novel",
+        "location": "chapter XLI, ‘The Astronomer Discovers the Cause of His Uneasiness’",
+        "publicationDetails": "Rasselas was first published in 1759; cited from Cassell's National Library edition (London: Cassell & Company, 1889)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/652/pg652.txt",
+      "context": "The astronomer explains why good intent and knowledge must be joined before responsibility can safely be entrusted. Goodwill alone is not adequate protection.",
+      "verificationNotes": "Exact wording and punctuation checked in the nonempty UTF-8 Project Gutenberg transcription of the 1889 Cassell edition. The line does not imply that imperfect knowledge makes a person worthless.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: original work published in 1759; cited edition published in 1889.",
+      "assignedSpread": "open-gate",
+      "position": "opening",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-open-gate-closing-aesop-try-trust",
+      "exactQuotation": "Try before you trust.",
+      "author": "Aesop",
+      "origin": {
+        "work": "The Lion and the Eagle",
+        "workType": "fable",
+        "location": "closing moral",
+        "publicationDetails": "Three Hundred Æsop's Fables, translated by George Fyler Townsend (London: George Routledge and Sons; title page undated), Project Gutenberg ebook 21."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/21/pg21.txt",
+      "context": "The Lion asks for evidence of the Eagle's good faith before entering an alliance. The moral supports graduated trust rather than automatic access.",
+      "verificationNotes": "Exact four-word moral and punctuation checked under ‘The Lion and the Eagle’ in the nonempty UTF-8 Project Gutenberg text. ‘Try’ means proportionate verification, not entrapment, manipulation, or perpetual suspicion.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: ancient fable in a nineteenth-century translation; George Fyler Townsend died in 1900.",
+      "assignedSpread": "open-gate",
+      "position": "closing",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-warrior-opening-cooper-cause-freedom",
+      "exactQuotation": "The cause of freedom is not the cause of a race or a sect, a party or a class,—it is the cause of human kind, the very birthright of humanity.",
+      "author": "Anna Julia Cooper",
+      "origin": {
+        "work": "A Voice from the South",
+        "workType": "essay collection",
+        "location": "‘Woman versus the Indian’",
+        "publicationDetails": "A Voice from the South (Xenia, Ohio: The Aldine Printing House, 1892)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/61741/pg61741.txt",
+      "context": "Cooper names a worthy, human purpose larger than factional victory. The sentence gives Ferocity an aim that does not reduce opponents or beneficiaries to party identity.",
+      "verificationNotes": "Exact wording, punctuation, and the comma before the em dash checked in the nonempty UTF-8 Project Gutenberg text. Cooper's Black feminist reform context remains explicit.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1892.",
+      "assignedSpread": "warrior",
+      "position": "opening",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-warrior-closing-gaskell-damage-cause",
+      "exactQuotation": "For God’s sake! do not damage your cause by this violence. You do not know what you are doing.",
+      "author": "Elizabeth Gaskell",
+      "origin": {
+        "work": "North and South",
+        "workType": "novel",
+        "location": "chapter XXII, ‘A Blow and Its Consequences’; spoken by Margaret Hale",
+        "publicationDetails": "North and South (London: Chapman and Hall, 1855)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/4276/pg4276.txt",
+      "context": "Margaret does not dismiss the workers' cause; she urges the crowd not to let uncontrolled violence betray it. The line makes Restraint answerable to purpose and consequence.",
+      "verificationNotes": "Exact wording, punctuation, lowercase ‘do,’ and apostrophe checked in the nonempty UTF-8 Project Gutenberg text. The scene's industrial and class conflict is not flattened, and the intervention is not a general instruction to enter unsafe violence physically.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1855; Elizabeth Gaskell died in 1865.",
+      "assignedSpread": "warrior",
+      "position": "closing",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-rampaging-warrior-opening-bronte-no-pity",
+      "exactQuotation": "I have no pity! I have no pity! The more the worms writhe, the more I yearn to crush out their entrails! It is a moral teething; and I grind with greater energy in proportion to the increase of pain.",
+      "author": "Emily Brontë",
+      "origin": {
+        "work": "Wuthering Heights",
+        "workType": "novel",
+        "location": "chapter XIV; spoken by Heathcliff",
+        "publicationDetails": "Wuthering Heights (London: Thomas Cautley Newby, 1847)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/768/pg768.txt",
+      "context": "Heathcliff makes another person's pain an incentive to intensify force and calls the cruelty moral. The passage gives Ferocity severed from Restraint an unmistakable voice.",
+      "verificationNotes": "Exact contiguous wording and punctuation checked in chapter XIV of the nonempty UTF-8 Project Gutenberg text. The record concerns character-specific cruelty and does not claim that anger, force, or trauma inevitably becomes abuse.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1847; Emily Brontë died in 1848.",
+      "assignedSpread": "rampaging-warrior",
+      "position": "opening",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-rampaging-warrior-closing-austen-angry-wise",
+      "exactQuotation": "[A]ngry people are not always wise.",
+      "author": "Jane Austen",
+      "origin": {
+        "work": "Pride and Prejudice",
+        "workType": "novel",
+        "location": "chapter XLV; narrator on Miss Bingley",
+        "publicationDetails": "Pride and Prejudice was first published in 1813; cited from Project Gutenberg ebook 1342."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+      "context": "The narrator observes that jealousy and anger have made Miss Bingley's chosen tactic unwise. The sentence restores reflection without condemning anger itself.",
+      "verificationNotes": "The source reads ‘but angry people are not always wise’ after a semicolon. The editorial bracket transparently capitalizes the excerpt's lowercase initial; no omission or verbatim capital is claimed.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1813; Jane Austen died in 1817.",
+      "assignedSpread": "rampaging-warrior",
+      "position": "closing",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-disarmed-warrior-opening-addams-action-ethics",
+      "exactQuotation": "For action is indeed the sole medium of expression for ethics.",
+      "author": "Jane Addams",
+      "origin": {
+        "work": "Democracy and Social Ethics",
+        "workType": "social ethics treatise",
+        "location": "chapter VII, ‘Political Reform’",
+        "publicationDetails": "Democracy and Social Ethics (New York: The Macmillan Company, 1902)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/15487/pg15487.txt",
+      "context": "Addams argues that an ethical understanding becomes testable in concrete social action. The sentence supports movement from conviction into a proportionate deed.",
+      "verificationNotes": "Exact complete sentence and punctuation checked in the nonempty UTF-8 Project Gutenberg text. It is not used to demand immediate confrontation from someone who is unsafe, frozen, coerced, disabled, or without capacity; preparation and help-seeking can be action.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1902.",
+      "assignedSpread": "disarmed-warrior",
+      "position": "opening",
+      "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-disarmed-warrior-closing-bronte-resist-unjustly",
+      "exactQuotation": "I must resist those who punish me unjustly. It is as natural as that I should love those who show me affection, or submit to punishment when I feel it is deserved.",
+      "author": "Charlotte Brontë",
+      "origin": {
+        "work": "Jane Eyre: An Autobiography",
+        "workType": "novel",
+        "location": "chapter VI; spoken by Jane",
+        "publicationDetails": "Jane Eyre (London: Smith, Elder and Co., 1847)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1260/pg1260.txt",
+      "context": "Young Jane distinguishes resistance to unjust punishment from indiscriminate rejection of correction. The full two-sentence unit joins usable force with proportion.",
+      "verificationNotes": "Exact wording and punctuation checked in chapter VI of the nonempty UTF-8 Project Gutenberg text. Because the scene occurs inside an abusive institution, the line is not used to prescribe direct confrontation when withdrawal, support, or another survival response is safer.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1847; Charlotte Brontë died in 1855.",
+      "assignedSpread": "disarmed-warrior",
+      "position": "closing",
+      "accessDate": "2026-08-01"
     }
   ]
 }
