@@ -1,2 +1,2 @@
-# The generator uses only the Python standard library.
-# Install the LaTeX prerequisites listed in book/README.md.
+PyMuPDF==1.26.7
+# Install the LuaLaTeX prerequisites listed in book/README.md.

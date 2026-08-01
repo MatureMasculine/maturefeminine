@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the Mature Feminine book from verified site data using LuaLaTeX."""
+"""Render normalized archetype and shadow entries with LuaLaTeX."""
 
 from __future__ import annotations
 
@@ -8,20 +8,20 @@ import json
 import re
 import shutil
 import subprocess
-import sys
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterable
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 BOOK_DIR = SCRIPT_DIR.parent
 ROOT_DIR = BOOK_DIR.parent
-DATA_DIR = ROOT_DIR / "src" / "_data"
-IMAGE_DIR = ROOT_DIR / "src" / "assets" / "images"
+DATA_PATH = ROOT_DIR / "src" / "_data" / "archetypes.json"
+IMAGE_DIR = ROOT_DIR / "src"
 CONTENT_CHECK = ROOT_DIR / "scripts" / "validate_content.js"
 CONFIG_PATH = SCRIPT_DIR / "print_config.json"
 BUILD_DIR = SCRIPT_DIR / ".latex-build"
 DEFAULT_OUTPUT = BOOK_DIR / "mature-feminine.pdf"
+MANIFEST_NAME = "spread-manifest.json"
 
 
 def fail(message: str) -> None:
@@ -29,7 +29,7 @@ def fail(message: str) -> None:
 
 
 def tex(value: Any) -> str:
-    """Escape user-authored content for LuaLaTeX without changing its wording."""
+    """Escape source prose for LuaLaTeX without changing its wording."""
     return (
         str(value)
         .replace("\\", r"\textbackslash{}")
@@ -45,14 +45,6 @@ def tex(value: Any) -> str:
     )
 
 
-def tex_paragraphs(values: list[str]) -> str:
-    return "\n\n".join(tex(value) for value in values)
-
-
-def tex_list(values: list[str]) -> str:
-    return "\n".join(f"\\item {tex(value)}" for value in values)
-
-
 def read_json(path: Path) -> Any:
     try:
         return json.loads(path.read_text(encoding="utf-8"))
@@ -62,326 +54,278 @@ def read_json(path: Path) -> Any:
 
 def source_check() -> None:
     if not CONTENT_CHECK.exists():
-        fail("missing scripts/validate_content.js; cannot verify the Markdown-to-JSON source contract")
+        fail("missing scripts/validate_content.js")
     result = subprocess.run(["node", str(CONTENT_CHECK)], cwd=ROOT_DIR, text=True, capture_output=True)
     if result.returncode:
-        output = (result.stdout + result.stderr).strip()
-        fail(f"canonical Markdown and generated JSON are out of sync. Run npm run content:sync, then retry.\n{output}")
+        fail(f"canonical Markdown and generated JSON are out of sync.\n{(result.stdout + result.stderr).strip()}")
 
 
-def group_sort_key(path: Path) -> list[Any]:
-    return [int(part) if part.isdigit() else part.lower() for part in re.split(r"(\d+)", path.name)]
-
-
-def load_source() -> tuple[list[dict[str, Any]], dict[str, str], dict[str, Any]]:
+def load_book() -> dict[str, Any]:
     source_check()
-    group_paths = sorted(DATA_DIR.glob("group_*.json"), key=group_sort_key)
-    if not group_paths:
-        fail("no generated lifecycle group files found under src/_data")
-    groups = [read_json(path) for path in group_paths]
-    images = read_json(DATA_DIR / "images.json")
-    site_content = read_json(DATA_DIR / "siteContent.json")
-
-    required_item_fields = ("name", "slug", "qualities", "gifts", "growthPath", "practices", "extended")
-    for group in groups:
-        for field in ("name", "slug", "summary", "essence", "items"):
-            if not group.get(field):
-                fail(f"group is missing {field}")
-        for item in group["items"]:
-            missing = [field for field in required_item_fields if not item.get(field)]
-            if missing:
-                fail(f"{group['name']} > {item.get('name', '<unnamed>')} is missing {', '.join(missing)}")
-            extended = item["extended"]
-            if len(extended.get("shadows", [])) != 2:
-                fail(f"{item['name']} must have one active and one passive shadow")
-            if [shadow.get("type") for shadow in extended["shadows"]] != ["active", "passive"]:
-                fail(f"{item['name']} shadows must be ordered active, passive")
-            if len(extended.get("virtues", [])) != 2:
-                fail(f"{item['name']} must have two balance virtues")
-            image_name = images.get(item["slug"])
-            image_path = IMAGE_DIR / image_name if image_name else None
-            if not image_path or not image_path.is_file():
-                fail(f"{item['name']} has no available hero image mapping")
-    return groups, images, site_content
+    book = read_json(DATA_PATH)
+    if not isinstance(book.get("groups"), list) or not isinstance(book.get("entries"), list):
+        fail("archetypes.json must contain normalized groups and entries")
+    return book
 
 
-def normalized_image_suffix(path: Path) -> str:
-    if path.suffix:
-        return path.suffix.lower()
-    header = path.read_bytes()[:12]
-    if header.startswith(b"\x89PNG"):
-        return ".png"
-    if header.startswith(b"\xff\xd8"):
-        return ".jpg"
-    fail(f"cannot determine image format for {path.relative_to(ROOT_DIR)}")
+def lookup_entry(entry_slug: str) -> dict[str, Any]:
+    for entry in load_book()["entries"]:
+        if entry["slug"] == entry_slug:
+            return entry
+    fail(f"unknown normalized entry {entry_slug!r}")
 
 
-def half_dimension(value: str) -> str:
-    match = re.fullmatch(r"([0-9]+(?:\.[0-9]+)?)([a-zA-Z]+)", value)
-    if not match:
-        fail(f"cannot halve the configured dimension {value!r}")
-    return f"{float(match.group(1)) / 2:g}{match.group(2)}"
+def _entry_sort_key(entry: dict[str, Any]) -> tuple[int, int, str]:
+    return (int(entry.get("order", 0)), 0 if entry.get("kind") == "archetype" else 1, entry["slug"])
 
 
-def copy_hero_images(groups: list[dict[str, Any]], images: dict[str, str]) -> dict[str, str]:
+def select_entries(entry_slug: str | None = None, all_entries: bool = False) -> list[dict[str, Any]]:
+    book = load_book()
+    entries = book["entries"]
+    if all_entries:
+        return entries
+    if not entry_slug:
+        return entries
+    selected = lookup_entry(entry_slug)
+    if selected["kind"] == "shadow":
+        return [selected]
+    shadows = [entry for entry in entries if entry.get("parent") == selected["slug"]]
+    return [selected, *sorted(shadows, key=_entry_sort_key)]
+
+
+def image_path(entry: dict[str, Any]) -> Path | None:
+    path = IMAGE_DIR / entry.get("image", "")
+    return path if path.is_file() else None
+
+
+def copy_images(entries: Iterable[dict[str, Any]]) -> dict[str, str | None]:
     target_dir = BUILD_DIR / "images"
     target_dir.mkdir(parents=True, exist_ok=True)
-    image_paths: dict[str, str] = {}
-    for group in groups:
-        for item in group["items"]:
-            source = IMAGE_DIR / images[item["slug"]]
-            target = target_dir / f"{item['slug']}{normalized_image_suffix(source)}"
-            shutil.copy2(source, target)
-            image_paths[item["slug"]] = f"images/{target.name}"
-    return image_paths
+    copied: dict[str, str | None] = {}
+    for entry in entries:
+        source = image_path(entry)
+        if not source:
+            copied[entry["slug"]] = None
+            continue
+        target = target_dir / f"{entry['slug']}{source.suffix.lower()}"
+        shutil.copy2(source, target)
+        copied[entry["slug"]] = f"images/{target.name}"
+    return copied
 
 
-def render_front_matter(site: dict[str, Any]) -> str:
-    quote = site.get("quote", {})
-    how_to_use = site.get("howToUse", [])
-    poles = site.get("poles", [])
-    wheel = site.get("devWheel", [])
-    return f"""
-\\frontmatter
-\\begin{{titlepage}}
-\\centering
-\\vspace*{{1.55in}}
-{{\\TitleFont\\fontsize{{30pt}}{{36pt}}\\selectfont {tex(site.get('title', 'The Mature Feminine'))}\\par}}
-\\vspace{{0.22in}}
-{{\\Large {tex(site.get('subtitle', 'A Field Guide'))}\\par}}
-\\vfill
-\\begin{{tcolorbox}}[bookbox, width=0.78\\textwidth]
-\\itshape {tex(quote.get('text', ''))}\\par
-\\smallskip\\hfill— {tex(quote.get('author', ''))}
-\\end{{tcolorbox}}
-\\vfill
-\\end{{titlepage}}
-
-\\chapter*{{How to Use This Book}}
-\\addcontentsline{{toc}}{{chapter}}{{How to Use This Book}}
-\\begin{{description}}
-{''.join(f'\\item[{tex(entry.get("label", ""))}] {tex(entry.get("text", ""))}\n' for entry in how_to_use)}
-\\end{{description}}
-
-\\section*{{Four Core Poles}}
-\\begin{{description}}
-{''.join(f'\\item[{tex(entry.get("name", ""))}] {tex(entry.get("description", ""))}\n' for entry in poles)}
-\\end{{description}}
-
-\\section*{{Lifecycle Wheel}}
-\\begin{{description}}
-{''.join(f'\\item[{tex(entry.get("stage", ""))}] {tex(entry.get("task", ""))}\n' for entry in wheel)}
-\\end{{description}}
-
-\\tableofcontents
-\\mainmatter
-"""
+def tex_paragraphs(value: str) -> str:
+    lines: list[str] = []
+    for paragraph in value.split("\n\n"):
+        paragraph = paragraph.strip()
+        if not paragraph:
+            continue
+        if paragraph.startswith("### "):
+            lines.append(f"\\subsubsection*{{{tex(paragraph[4:])}}}")
+        else:
+            lines.append(f"{tex(paragraph)}\\par")
+    return "\n\n".join(lines)
 
 
-def render_shadow(shadow: dict[str, Any]) -> str:
-    return f"""
-\\subsubsection*{{{tex(shadow['type'].title())} Shadow: {tex(shadow['name'])}}}
-\\begin{{tcolorbox}}[shadowbox, title={tex(shadow['type'].title())} shadow]
-{tex_paragraphs(shadow.get('description', []))}
-
-\\textbf{{Declarations}}\\begin{{itemize}}{tex_list(shadow.get('declarations', []))}\\end{{itemize}}
-\\textbf{{Balancing practices}}\\begin{{itemize}}{tex_list(shadow.get('balancing', []))}\\end{{itemize}}
-\\textbf{{Integration gift.}} {tex(shadow.get('gift', ''))}
-
-\\textbf{{Out of balance}}\\begin{{itemize}}{tex_list(shadow.get('outOfBalance', []))}\\end{{itemize}}
-\\end{{tcolorbox}}
-"""
+def tex_list(values: list[str]) -> str:
+    return "\\begin{itemize}" + "".join(f"\\item {tex(value)}" for value in values) + "\\end{itemize}"
 
 
-def render_item(item: dict[str, Any], image_path: str) -> str:
-    extended = item["extended"]
-    balance = extended.get("balance", {})
-    mature = extended.get("mature", {})
-    virtues = "\n".join(
-        f"\\subsubsection*{{{tex(virtue['title'])}}}\n"
-        + (f"\\begin{{quote}}{tex(virtue['quote'])}\\end{{quote}}\n" if virtue.get("quote") else "")
-        + tex_paragraphs(virtue.get("paragraphs", []))
-        for virtue in extended.get("virtues", [])
+def render_quote(value: str) -> str:
+    return "\\begin{quote}\\itshape " + tex(value).replace("\n\n", "\\par ") + "\\end{quote}"
+
+
+def render_profile(entry: dict[str, Any]) -> str:
+    labels = (
+        ("Lifecycle stage", "lifecycleStage"),
+        ("Core function", "coreFunction"),
+        ("Balanced qualities", "balancedQualities"),
+        ("Active shadow", "activeShadow"),
+        ("Passive shadow", "passiveShadow"),
+        ("Mythic resonances", "mythicResonances"),
+        ("Key qualities", "keyQualities"),
     )
-    shadows = "\n".join(render_shadow(shadow) for shadow in extended.get("shadows", []))
+    profile = entry.get("profile", {})
+    values = "\\par\\smallskip ".join(f"\\textbf{{{label}.}} {tex(profile.get(key, "Pending"))}" for label, key in labels)
+    return f"\\begin{{tcolorbox}}[profilebox]{values}\\end{{tcolorbox}}"
+
+
+def render_body_section(entry: dict[str, Any], section: dict[str, Any]) -> str:
+    role = section.get("role")
+    sections = entry.get("sections", {})
+    if role == "declarations":
+        content = tex_list(sections.get("declarations", []))
+    elif role == "practices":
+        content = tex_list(sections.get("practices", []))
+    else:
+        content = tex_paragraphs(section.get("content", ""))
+    subsections = "\n".join(
+        f"\\subsubsection*{{{tex(subsection['heading'])}}}\n{tex_paragraphs(subsection['content'])}"
+        for subsection in section.get("subsections", [])
+    )
+    return f"\\subsection*{{{tex(section['heading'])}}}\n{content}\n{subsections}"
+
+
+def render_entry_content(entry: dict[str, Any], image: str | None) -> str:
+    designation = ""
+    if entry["kind"] == "shadow":
+        fallback_designation = f"{entry.get('type', '').title()} Shadow"
+        designation_text = entry.get("sections", {}).get("designation", fallback_designation)
+        designation = f"\\textit{{{tex(designation_text)}}}\\par\\medskip"
+    hero = f"\\EntryImage{{{image}}}" if image else "\\begin{tcolorbox}[missingimage]Image pending.\\end{tcolorbox}"
+    body = "\n".join(render_body_section(entry, section) for section in entry.get("bodySections", []))
     return f"""
-\\section{{{tex(item['name'])}}}
-\\FullWidthImage{{{image_path}}}
+\\section*{{{tex(entry['name'])}}}
+{designation}
+{render_quote(entry.get('quotes', {}).get('opening', 'Quotation pending.'))}
+{hero}
+{render_profile(entry)}
 \\begin{{multicols}}{{2}}
-\\begin{{tcolorbox}}[profilebox]
-\\textbf{{Essence.}} {tex(item['gifts'])}\\par\\smallskip
-\\textbf{{Growth path.}} {tex(item['growthPath'])}\\par\\smallskip
-\\textbf{{Balance.}} {tex(balance.get('balance', ''))}\\par
-\\textbf{{Shadow continuum.}} {tex(balance.get('shadow', ''))}\\par
-\\textbf{{Power animals.}} {tex(balance.get('powerAnimals', ''))}
-\\end{{tcolorbox}}
-
-\\subsection*{{Qualities}}
-\\begin{{itemize}}{tex_list(item.get('qualities', []))}\\end{{itemize}}
-
-\\subsection*{{{tex(mature.get('title', 'Mature Expression'))}}}
-{tex_paragraphs(mature.get('paragraphs', []))}
-
-\\subsection*{{Mature Declarations}}
-\\begin{{itemize}}{tex_list(extended.get('declarations', []))}\\end{{itemize}}
-
-\\subsection*{{Practices}}
-\\begin{{itemize}}{tex_list(item.get('practices', []))}\\end{{itemize}}
-
-\\subsection*{{Balance Virtues}}
-{virtues}
-
-\\subsection*{{Shadows and Integration}}
-{shadows}
+{body}
+{render_quote(entry.get('quotes', {}).get('closing', 'Quotation pending.'))}
 \\end{{multicols}}
 """
 
 
-def render_groups(groups: list[dict[str, Any]], image_paths: dict[str, str]) -> str:
-    chapters = []
-    for group in groups:
-        items = "\n".join(render_item(item, image_paths[item["slug"]]) for item in group["items"])
-        chapters.append(f"""
-\\chapter{{{tex(group['name'])}}}
-\\begin{{tcolorbox}}[groupbox]
-\\textbf{{{tex(group['summary'])}}}\\par\\smallskip
-{tex(group['essence'])}
-\\end{{tcolorbox}}
-{items}
-""")
-    return "\n".join(chapters)
-
-
-def render_back_matter(site: dict[str, Any]) -> str:
-    alchemy = site.get("shadowAlchemy", [])
-    assessment = site.get("selfAssessment", [])
+def entry_start(slug: str) -> str:
     return f"""
-\\backmatter
-\\chapter*{{Integration Materials}}
-\\addcontentsline{{toc}}{{chapter}}{{Integration Materials}}
-\\section*{{Shadow Alchemy}}
-\\begin{{itemize}}{tex_list(alchemy)}\\end{{itemize}}
-\\section*{{Self-Assessment Prompts}}
-\\begin{{enumerate}}{tex_list(assessment)}\\end{{enumerate}}
+\\clearpage
+\\ifodd\\value{{page}}\\thispagestyle{{empty}}\\null\\clearpage\\fi
+\\phantomsection\\label{{entry:{slug}:start}}
 """
 
 
-def render_document(config: dict[str, Any], site: dict[str, Any], groups: list[dict[str, Any]], image_paths: dict[str, str]) -> str:
+def entry_end(slug: str) -> str:
+    return f"\\par\\mbox{{}}\\phantomsection\\label{{entry:{slug}:end}}\\clearpage"
+
+
+def render_entries(entries: Iterable[dict[str, Any]], images: dict[str, str | None], *, enforce_parity: bool) -> str:
+    rendered = []
+    for entry in entries:
+        start = entry_start(entry["slug"]) if enforce_parity else f"\\phantomsection\\label{{entry:{entry['slug']}:start}}"
+        rendered.append(start + render_entry_content(entry, images[entry["slug"]]) + entry_end(entry["slug"]))
+    return "\n".join(rendered)
+
+
+def render_document(config: dict[str, Any], entries: list[dict[str, Any]], images: dict[str, str | None], *, standalone: bool) -> str:
     page = config["page"]
     layout = config["layout"]
     typography = config["type"]
-    title = tex(site.get("title", "The Mature Feminine"))
-    hero_center = half_dimension(layout["heroHeight"])
+    initial = "\\setcounter{page}{1}" if not standalone else "\\setcounter{page}{1}"
+    title_page = "" if standalone else "\\thispagestyle{empty}\\vspace*{3in}\\begin{center}{\\TitleFont\\fontsize{30pt}{36pt}\\selectfont The Mature Feminine}\\end{center}\\clearpage"
     return f"""\\documentclass[10pt,twoside,openany]{{book}}
 \\usepackage[paperwidth={page['width']},paperheight={page['height']},inner={page['insideMargin']},outer={page['outsideMargin']},top={page['topMargin']},bottom={page['bottomMargin']}]{{geometry}}
-\\usepackage{{fontspec}}
-\\usepackage{{graphicx}}
-\\usepackage{{multicol}}
-\\usepackage{{tikz}}
+\\usepackage{{fontspec,graphicx,multicol,tikz}}
 \\usepackage[most]{{tcolorbox}}
-\\usepackage{{enumitem}}
-\\usepackage{{fancyhdr}}
-\\usepackage{{hyperref}}
-\\usepackage[protrusion=true,expansion=false]{{microtype}}
-\\usepackage{{setspace}}
+\\usepackage{{enumitem,fancyhdr,hyperref,microtype,setspace}}
 \\setmainfont{{TeX Gyre Pagella}}
 \\newfontfamily\\TitleFont{{TeX Gyre Chorus}}
 \\definecolor{{FemininePlum}}{{HTML}}{{512B4B}}
 \\definecolor{{FeminineRose}}{{HTML}}{{A55C7A}}
 \\definecolor{{FeminineMist}}{{HTML}}{{F6EFF2}}
-\\definecolor{{FeminineShadow}}{{HTML}}{{EEE1E6}}
-\\hypersetup{{hidelinks,pdftitle={{{title}}}}}
 \\setlength\\columnsep{{{layout['columnGap']}}}
 \\setlength\\parindent{{0pt}}
-\\setlength\\parskip{{5pt}}
-\\setstretch{{1.02}}
+\\setlength\\parskip{{3pt}}
+\\setstretch{{1.0}}
 \\AtBeginDocument{{\\fontsize{{{typography['bodySize']}pt}}{{{typography['bodyLeading']}pt}}\\selectfont}}
 \\clubpenalty=10000
 \\widowpenalty=10000
 \\displaywidowpenalty=10000
-\\setlist[itemize]{{leftmargin=1.25em,itemsep=2pt,topsep=3pt}}
-\\setlist[enumerate]{{leftmargin=1.45em,itemsep=3pt,topsep=3pt}}
-\\tcbset{{groupbox/.style={{colback=FeminineMist,colframe=FeminineRose,boxrule=.55pt,arc=2pt,left=8pt,right=8pt,top=7pt,bottom=7pt}},profilebox/.style={{colback=FeminineMist,colframe=FeminineRose,boxrule=.4pt,arc=1pt,left=7pt,right=7pt,top=6pt,bottom=6pt}},shadowbox/.style={{colback=FeminineShadow,colframe=FeminineRose,boxrule=.4pt,arc=1pt,fonttitle=\\bfseries,left=7pt,right=7pt,top=6pt,bottom=6pt}},bookbox/.style={{colback=FeminineMist,colframe=FeminineRose,boxrule=.5pt,arc=2pt,left=10pt,right=10pt,top=10pt,bottom=10pt}}}}
-\\newcommand{{\\FullWidthImage}}[1]{{%
-  \\begin{{center}}\\begin{{tikzpicture}}[baseline]
-  \\clip (0,0) rectangle (\\textwidth,{layout['heroHeight']});
-  \\node[inner sep=0pt] at (.5\\textwidth,{hero_center}) {{\\includegraphics[width=\\textwidth]{{#1}}}};
-  \\end{{tikzpicture}}\\end{{center}}%
-}}
-\\fancypagestyle{{plain}}{{\\fancyhf{{}}\\fancyfoot[C]{{\\thepage}}\\renewcommand{{\\headrulewidth}}{{0pt}}}}
-\\pagestyle{{fancy}}
-\\fancyhf{{}}
-\\fancyhead[LE]{{\\small\\itshape {title}}}
-\\fancyhead[RO]{{\\small\\itshape \\leftmark}}
-\\fancyfoot[C]{{\\thepage}}
-\\renewcommand{{\\headrulewidth}}{{.25pt}}
+\\setlist[itemize]{{leftmargin=1.15em,itemsep=1pt,topsep=2pt,parsep=0pt}}
+\\tcbset{{profilebox/.style={{colback=FeminineMist,colframe=FeminineRose,boxrule=.35pt,arc=1pt,left=5pt,right=5pt,top=4pt,bottom=4pt}},missingimage/.style={{colback=FeminineMist,colframe=FeminineRose,boxrule=.35pt,arc=1pt,left=5pt,right=5pt,top=4pt,bottom=4pt}}}}
+\\newcommand{{\\EntryImage}}[1]{{\\begin{{center}}\\includegraphics[width=\\linewidth,height=1.45in,keepaspectratio]{{#1}}\\end{{center}}}}
+\\pagestyle{{fancy}}\\fancyhf{{}}\\fancyfoot[C]{{\\thepage}}\\renewcommand{{\\headrulewidth}}{{0pt}}
 \\begin{{document}}
-{render_front_matter(site)}
-{render_groups(groups, image_paths)}
-{render_back_matter(site)}
+{initial}
+{title_page}
+{render_entries(entries, images, enforce_parity=not standalone)}
 \\end{{document}}
 """
 
 
-def write_tex() -> tuple[Path, dict[str, int]]:
+def write_tex(entries: list[dict[str, Any]], *, standalone: bool = False, name: str = "mature-feminine") -> Path:
     config = read_json(CONFIG_PATH)
-    groups, images, site = load_source()
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
-    image_paths = copy_hero_images(groups, images)
-    document = render_document(config, site, groups, image_paths)
-    tex_path = BUILD_DIR / "mature-feminine.tex"
-    tex_path.write_text(document, encoding="utf-8")
-    totals = {
-        "groups": len(groups),
-        "archetypes": sum(len(group["items"]) for group in groups),
-        "shadows": sum(len(item["extended"]["shadows"]) for group in groups for item in group["items"]),
-        "virtues": sum(len(item["extended"]["virtues"]) for group in groups for item in group["items"]),
-        "practices": sum(len(item["practices"]) for group in groups for item in group["items"]),
-    }
-    return tex_path, totals
+    images = copy_images(entries)
+    tex_path = BUILD_DIR / f"{name}.tex"
+    tex_path.write_text(render_document(config, entries, images, standalone=standalone), encoding="utf-8")
+    return tex_path
 
 
 def latex_command() -> str | None:
-    mac_tex = Path("/Library/TeX/texbin/lualatex")
-    if mac_tex.is_file():
-        return str(mac_tex)
-    return shutil.which("lualatex")
+    return shutil.which("lualatex") or (str(Path("/Library/TeX/texbin/lualatex")) if Path("/Library/TeX/texbin/lualatex").is_file() else None)
 
 
 def compile_pdf(tex_path: Path, output: Path) -> None:
     command = latex_command()
     if not command:
-        fail("LuaLaTeX is not installed. Install MacTeX so /Library/TeX/texbin/lualatex exists (or add lualatex to PATH), then run npm run book:build.")
+        fail("LuaLaTeX is not installed or not on PATH")
     for _ in range(2):
-        result = subprocess.run(
-            [command, "-interaction=nonstopmode", "-halt-on-error", tex_path.name],
-            cwd=BUILD_DIR,
-            text=True,
-            capture_output=True,
-        )
+        result = subprocess.run([command, "-interaction=nonstopmode", "-halt-on-error", tex_path.name], cwd=BUILD_DIR, text=True, capture_output=True)
         if result.returncode:
-            log_path = BUILD_DIR / "mature-feminine.log"
-            detail = log_path if log_path.exists() else "LuaLaTeX output"
-            fail(f"LuaLaTeX could not compile the book; inspect {detail}")
-    pdf_path = BUILD_DIR / "mature-feminine.pdf"
-    if not pdf_path.is_file():
-        fail("LuaLaTeX completed without producing mature-feminine.pdf")
+            log_path = BUILD_DIR / f"{tex_path.stem}.log"
+            fail(f"LuaLaTeX could not compile the book; inspect {log_path}")
+    built = BUILD_DIR / f"{tex_path.stem}.pdf"
+    if not built.is_file():
+        fail(f"LuaLaTeX completed without producing {built.name}")
     output.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(pdf_path, output)
+    shutil.copy2(built, output)
+
+
+def manifest_from_aux(auxiliary: str, slugs: Iterable[str]) -> dict[str, Any]:
+    labels: dict[tuple[str, str], int] = {}
+    for slug, marker, page in re.findall(r"\\newlabel\{entry:([^:}]+):(start|end)\}\{\{[^}]*\}\{(\d+)\}", auxiliary):
+        labels[(slug, marker)] = int(page)
+    entries: dict[str, dict[str, Any]] = {}
+    for slug in slugs:
+        start = labels.get((slug, "start"))
+        end = labels.get((slug, "end"))
+        entries[slug] = {
+            "start_page": start,
+            "end_page": end,
+            "pages": end - start + 1 if start is not None and end is not None else None,
+            "starts_even": start is not None and start % 2 == 0,
+            "ends_odd": end is not None and end % 2 == 1,
+        }
+    return {"entries": entries}
+
+
+def write_manifest(entries: list[dict[str, Any]], output: Path, tex_path: Path) -> Path:
+    aux_path = BUILD_DIR / f"{tex_path.stem}.aux"
+    if not aux_path.is_file():
+        fail(f"missing anchor file {aux_path.name}")
+    manifest = manifest_from_aux(aux_path.read_text(encoding="utf-8"), [entry["slug"] for entry in entries])
+    manifest_path = output.with_name(MANIFEST_NAME)
+    manifest_path.write_text(json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return manifest_path
+
+
+def render_entry(entry_slug: str, output_path: Path | str) -> Path:
+    entry = lookup_entry(entry_slug)
+    tex_path = write_tex([entry], standalone=True, name=f"entry-{entry_slug}")
+    output = Path(output_path).resolve()
+    compile_pdf(tex_path, output)
+    return output
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate the Mature Feminine PDF book with LuaLaTeX.")
-    parser.add_argument("--check", action="store_true", help="Verify source coverage and generate TeX without requiring LuaLaTeX.")
-    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT, help="Destination PDF path.")
+    parser = argparse.ArgumentParser(description="Generate normalized Mature Feminine entry PDFs with LuaLaTeX.")
+    parser.add_argument("--check", action="store_true", help="Verify normalized source data and write TeX without LuaLaTeX.")
+    parser.add_argument("--entry", help="Render one entry; an archetype selection includes its two shadows.")
+    parser.add_argument("--all", action="store_true", help="Render every normalized entry.")
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT, help="Destination compiled PDF path.")
     args = parser.parse_args()
-    tex_path, totals = write_tex()
-    summary = ", ".join(f"{value} {name}" for name, value in totals.items())
-    print(f"Prepared {tex_path.relative_to(ROOT_DIR)} ({summary}).")
+    if args.entry and args.all:
+        fail("--entry and --all cannot be used together")
+    entries = select_entries(args.entry, args.all)
+    tex_path = write_tex(entries)
+    print(f"Prepared {tex_path.relative_to(ROOT_DIR)} ({len(entries)} normalized entries).")
     if args.check:
         return
-    compile_pdf(tex_path, args.output.resolve())
-    print(f"Generated {args.output.resolve()}")
+    output = args.output.resolve()
+    compile_pdf(tex_path, output)
+    manifest = write_manifest(entries, output, tex_path)
+    print(f"Generated {output}")
+    print(f"Recorded anchor pages in {manifest}")
 
 
 if __name__ == "__main__":

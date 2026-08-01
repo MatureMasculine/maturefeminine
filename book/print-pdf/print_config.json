@@ -13,9 +13,19 @@
     "heroHeight": "2.25in"
   },
   "type": {
-    "bodySize": 9.4,
-    "bodyLeading": 12.2,
+    "bodySize": 9.1,
+    "bodyLeading": 11.7,
     "chapterSize": 22,
     "sectionSize": 16
+  },
+  "metrics": {
+    "contentBounds": {
+      "left": 56,
+      "right": 556,
+      "top": 48,
+      "bottom": 750
+    },
+    "minimumFinalFill": 0.2,
+    "maximumFinalFill": 0.95
   }
 }

@@ -12,6 +12,9 @@
     "content:publish-check": "npm test && node scripts/validate_content.js --publish",
     "book:check": "python3 book/print-pdf/generate_book.py --check",
     "book:build": "python3 book/print-pdf/generate_book.py",
+    "book:measure": "python3 book/print-pdf/adjust_content_size.py",
+    "book:spreads": "python3 book/print-pdf/validate_spreads.py",
+    "book:validate": "python3 book/print-pdf/validate_spreads.py --validate",
     "download:shadows": "node scripts/download_shadows.js"
   },
   "devDependencies": {
