@@ -119,6 +119,350 @@
       "assignedSpread": "armored-lover",
       "position": "closing",
       "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-adventurer-opening-bronte-jane-eyre",
+      "exactQuotation": "I am no bird; and no net ensnares me; I am a free human being with an independent will, which I now exert to leave you.",
+      "author": "Charlotte Brontë",
+      "origin": {
+        "work": "Jane Eyre: An Autobiography",
+        "workType": "novel",
+        "location": "chapter 23",
+        "publicationDetails": "First published in London by Smith, Elder and Co. in 1847."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/1260/1260-h/1260-h.htm",
+      "context": "Jane rejects Rochester's image of her as a trapped bird and asserts independent will at the moment she believes she must leave. The sentence supports self-directed threshold crossing without making departure the only form of freedom.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 1260 at chapter 23. The complete sentence is quoted; curly apostrophes follow the manuscript's established typographic treatment.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1847; Charlotte Brontë died in 1855.",
+      "assignedSpread": "adventurer",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-adventurer-closing-ibsen-dolls-house",
+      "exactQuotation": "I must stand quite alone, if I am to understand myself and everything about me.",
+      "author": "Henrik Ibsen",
+      "origin": {
+        "work": "A Doll's House",
+        "workType": "play",
+        "location": "act III, Nora's final conversation with Helmer",
+        "publicationDetails": "First published in Copenhagen by Gyldendal in 1879; the cited public-domain English text is Project Gutenberg ebook 2542."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/2542/2542-h/2542-h.htm",
+      "context": "Nora names independent self-education as the task requiring her departure. The sentence supports an accountable move into direct experience; the ledger does not treat leaving a relationship as a universal prescription.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 2542, act III, immediately after Nora says she must educate herself and before she explains why she cannot remain.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: the play was published in 1879, and this English translation is distributed as public domain in Project Gutenberg ebook 2542.",
+      "assignedSpread": "adventurer",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-reckless-wanderer-opening-millay-first-fig",
+      "exactQuotation": "My candle burns at both ends;\nIt will not last the night;\nBut ah, my foes, and oh, my friends—\nIt gives a lovely light!",
+      "author": "Edna St. Vincent Millay",
+      "origin": {
+        "work": "First Fig",
+        "workType": "poem",
+        "location": "complete poem",
+        "publicationDetails": "A Few Figs from Thistles (New York: Frank Shay, 1920)."
+      },
+      "sourceUrl": "https://poets.org/poem/first-fig",
+      "context": "The complete poem gives unsustainable expenditure an alluring first-person voice. It opens the shadow as an image of the rush's seduction, not as advice or praise for preventable harm.",
+      "verificationNotes": "Exact wording, punctuation, and four-line lineation checked against the Academy of American Poets transcription, which explicitly labels the poem public domain.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1920; the source page explicitly labels the poem public domain.",
+      "assignedSpread": "reckless-wanderer",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-reckless-wanderer-closing-montgomery-look-before-leap",
+      "exactQuotation": "You must learn to think a little, Anne, that’s what. The proverb you need to go by is ‘Look before you leap’—especially into spare-room beds.",
+      "author": "L. M. Montgomery",
+      "origin": {
+        "work": "Anne of Green Gables",
+        "workType": "novel",
+        "location": "chapter 16, ‘Diana Is Invited to Tea with Tragic Results’",
+        "publicationDetails": "First published in Boston by L. C. Page and Company in 1908."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/45/45-h/45-h",
+      "context": "Mrs. Lynde answers Anne's defense of spontaneous action after an impulsive stunt has harmed Diana's opportunity. The comic final phrase keeps the lesson proportionate while restoring thought before the leap.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 45, chapter 16. The full speech is quoted without alteration; quotation marks are set in house curly style.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1908.",
+      "assignedSpread": "reckless-wanderer",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-sheltered-dreamer-opening-austen-emma-worse-air",
+      "exactQuotation": "Better not move at all, better stay in London altogether than travel forty miles to get into a worse air.",
+      "author": "Jane Austen",
+      "origin": {
+        "work": "Emma",
+        "workType": "novel",
+        "location": "volume I, chapter 12",
+        "publicationDetails": "First published in London by John Murray in 1815."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/158/pg158-images.html",
+      "context": "Mr. Woodhouse uses concern about air and health to argue that no movement is safest. The sentence compactly voices caution distorted into a reason to remain still.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 158, volume I, chapter 12. The excerpt begins after an em dash in the source and is a grammatically complete sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1815; Jane Austen died in 1817.",
+      "assignedSpread": "sheltered-dreamer",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-sheltered-dreamer-closing-dickinson-called-rise",
+      "exactQuotation": "We never know how high we are\nTill we are called to rise;\nAnd then, if we are true to plan,\nOur statures touch the skies—",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "We never know how high we are (Franklin 1176)",
+        "workType": "poem",
+        "location": "stanza 1",
+        "publicationDetails": "First published posthumously in Poems by Emily Dickinson, Second Series (Boston: Roberts Brothers, 1891)."
+      },
+      "sourceUrl": "https://poets.org/poem/we-never-know-how-high-we-are-1176",
+      "context": "The stanza locates knowledge of capacity in the occasion to act. It closes the passive shadow by restoring Daring through contact rather than by promising fearlessness.",
+      "verificationNotes": "Exact wording, punctuation, capitalization, and lineation checked against the Academy of American Poets transcription. The source explicitly labels the poem public domain and presents this as the first complete stanza.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1891; the source page explicitly labels the poem public domain.",
+      "assignedSpread": "sheltered-dreamer",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-maiden-opening-teasdale-barter",
+      "exactQuotation": "Life has loveliness to sell,\nAll beautiful and splendid things,\nBlue waves whitened on a cliff,\nSoaring fire that sways and sings,\nAnd children’s faces looking up\nHolding wonder in a cup.",
+      "author": "Sara Teasdale",
+      "origin": {
+        "work": "Barter",
+        "workType": "poem",
+        "location": "stanza 1",
+        "publicationDetails": "Rivers to the Sea (New York: The Macmillan Company, 1915)."
+      },
+      "sourceUrl": "https://poets.org/poem/barter/embed",
+      "context": "The stanza attends openly to sensory beauty and to wonder itself. It supports the Maiden's receptive first encounter without making delight sufficient grounds for a consequential choice.",
+      "verificationNotes": "Exact wording and six-line lineation checked against the Academy of American Poets transcription. Independent review caught and rejected a research-packet error: the verified final line is ‘Holding wonder in a cup,’ not ‘like a cup.’",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1915; the source identifies the poem as public domain.",
+      "assignedSpread": "maiden",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-maiden-closing-dickinson-faith-microscopes",
+      "exactQuotation": "Faith is a fine invention\nFor gentlemen who see;\nBut microscopes are prudent\nIn an emergency!",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "Faith is a fine invention",
+        "workType": "poem",
+        "location": "complete poem; poem XXX, page 53",
+        "publicationDetails": "Poems by Emily Dickinson, Second Series, edited by T. W. Higginson and Mabel Loomis Todd (Boston: Roberts Brothers, 1891)."
+      },
+      "sourceUrl": "https://en.wikisource.org/wiki/Page:Emily_Dickinson_Poems_-_second_series_(1891).djvu/65",
+      "context": "The complete poem puts faith beside the practical need to look closely. It closes the Maiden with a compact relationship between Wonder and Discernment rather than a dismissal of either.",
+      "verificationNotes": "Exact wording, lowercase nouns, punctuation, and lineation checked against the scan-backed, validated 1891 page. The manuscript follows this early published text rather than a later manuscript edition.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1891; Emily Dickinson died in 1886.",
+      "assignedSpread": "maiden",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-naive-enthusiast-opening-austen-emma-evils",
+      "exactQuotation": "The real evils, indeed, of Emma’s situation were the power of having rather too much her own way, and a disposition to think a little too well of herself; these were the disadvantages which threatened alloy to her many enjoyments.",
+      "author": "Jane Austen",
+      "origin": {
+        "work": "Emma",
+        "workType": "novel",
+        "location": "volume I, chapter 1",
+        "publicationDetails": "First published in London by John Murray in 1815."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/158/pg158-images.html",
+      "context": "The narrator identifies unchecked preference and overconfidence as dangers that remain invisible to the heroine. The sentence opens the shadow without reducing enthusiasm itself to a defect.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 158 at the novel's opening. The first sentence of a two-sentence paragraph is quoted complete.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1815; Jane Austen died in 1817.",
+      "assignedSpread": "naive-enthusiast",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-naive-enthusiast-closing-wollstonecraft-unstable-mind",
+      "exactQuotation": "The mind will ever be unstable that has only prejudices to rest on, and the current will run with destructive fury when there are no barriers to break its force.",
+      "author": "Mary Wollstonecraft",
+      "origin": {
+        "work": "A Vindication of the Rights of Woman: With Strictures on Political and Moral Subjects",
+        "workType": "political and philosophical treatise",
+        "location": "chapter 2, ‘The Prevailing Opinion of a Sexual Character Discussed’",
+        "publicationDetails": "First published in London for J. Johnson in 1792."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3420/pg3420.html",
+      "corroboratingUrl": "https://www.cambridge.org/core/books/wollstonecraft-and-religion/prevailing-opinion-of-a-sexual-character-discussed/D4D9EC69D152E4F8AC08F1DEA0D7D35F",
+      "context": "Wollstonecraft argues against keeping women ignorant under the name of innocence. The sentence restores knowledge and tested judgment as conditions of stable openness rather than barriers to it.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 3420, chapter 2, and corroborated against Cambridge University Press's displayed chapter text. The quotation remains inside Wollstonecraft's argument about women's education.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1792; Mary Wollstonecraft died in 1797.",
+      "assignedSpread": "naive-enthusiast",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-frozen-beginner-opening-dickinson-cocoon",
+      "exactQuotation": "My cocoon tightens, colors tease,\nI’m feeling for the air;\nA dim capacity for wings\nDegrades the dress I wear.",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "From the Chrysalis",
+        "workType": "poem",
+        "location": "stanza 1",
+        "publicationDetails": "Poems by Emily Dickinson, edited by T. W. Higginson and Mabel Loomis Todd (Boston: Roberts Brothers, 1890)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/ebooks/2678.html.noimages",
+      "context": "The stanza gives potential and constriction a first-person image: capacity is present but has not entered the air. It opens the Frozen Beginner without treating immobility as an identity.",
+      "verificationNotes": "Exact wording, punctuation, and four-line lineation checked against the normalized 1890 published text in Project Gutenberg ebook 2678. The record does not claim diplomatic manuscript punctuation.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1890; Emily Dickinson died in 1886.",
+      "assignedSpread": "frozen-beginner",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-frozen-beginner-closing-alcott-learning-sail",
+      "exactQuotation": "I don’t know how long it will last, but I’m not afraid of storms, for I’m learning how to sail my ship.",
+      "author": "Louisa May Alcott",
+      "origin": {
+        "work": "Little Women",
+        "workType": "novel",
+        "location": "part II, chapter 23, ‘Surprises’",
+        "publicationDetails": "The second part was first published in Boston by Roberts Brothers in 1869."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/37106/37106-h/37106-h.htm",
+      "context": "Amy acknowledges uncertainty while locating confidence in the process of learning. The sentence closes the passive shadow with experience-built capacity rather than a promise of stable conditions.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 37106, part II, chapter 23. The first sentence of Amy's speech is quoted complete.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1869; Louisa May Alcott died in 1888.",
+      "assignedSpread": "frozen-beginner",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-visionary-opening-shelley-invention-chaos",
+      "exactQuotation": "Invention, it must be humbly admitted, does not consist in creating out of void, but out of chaos.",
+      "author": "Mary Shelley",
+      "origin": {
+        "work": "Frankenstein; or, The Modern Prometheus",
+        "workType": "novel introduction",
+        "location": "author's introduction to the 1831 edition",
+        "publicationDetails": "Revised edition published in London by Henry Colburn and Richard Bentley in 1831."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/42324/42324-h/42324-h.htm",
+      "context": "Shelley explains invention as finding form in available material rather than producing from a void. The sentence supports intuition as emerging pattern shaped from what is present, with humility about authorship.",
+      "verificationNotes": "Exact wording and punctuation checked against Project Gutenberg ebook 42324's photo-reprint transcription of the 1831 edition. The first independent clause of a longer sentence is quoted at its semicolon boundary as a complete grammatical sentence in the source.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1831; Mary Shelley died in 1851.",
+      "assignedSpread": "visionary",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-visionary-closing-mitchell-learn-see",
+      "exactQuotation": "But we have a hunger of the mind which asks for knowledge of all around us, and the more we gain, the more is our desire; the more we see, the more are we capable of seeing.\nBesides learning to see, there is another art to be learned,—not to see what is not.",
+      "author": "Maria Mitchell",
+      "origin": {
+        "work": "The Need of a Larger Culture",
+        "workType": "address",
+        "location": "closing discussion of observational education, print pages 258–259",
+        "publicationDetails": "Collected in Maria Mitchell: Life, Letters, and Journals, edited by Phebe Mitchell Kendall (Boston: Lee and Shepard, 1896)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/10202/pg10202.html",
+      "context": "Mitchell joins expanding perceptual capacity with the discipline of resisting false perception. The adjacent sentences state the Visionary's Intuition–Verification relationship with unusual precision.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 10202 at lines 1859–1861. The source prints the two sentences as adjacent paragraphs; the manuscript preserves the boundary as a single line break so the quote renderer does not mistake an internal blank line for attribution.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: the collection was published in 1896; Maria Mitchell died in 1889.",
+      "assignedSpread": "visionary",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-inflated-oracle-opening-shelley-life-death-bounds",
+      "exactQuotation": "Life and death appeared to me ideal bounds, which I should first break through, and pour a torrent of light into our dark world.",
+      "author": "Mary Shelley",
+      "origin": {
+        "work": "Frankenstein; or, The Modern Prometheus",
+        "workType": "novel",
+        "location": "chapter 4",
+        "publicationDetails": "First published in London by Lackington, Hughes, Harding, Mavor and Jones in 1818."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/84/84-h/84-h.htm",
+      "context": "Victor imagines breaking life's limits and illuminating the world immediately before the consequences of his grandiose project unfold. The sentence voices private certainty expanded beyond accountable limits.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 84, chapter 4. The sentence is quoted complete and remains explicitly attributed to a fictional speaker, not to Shelley as personal doctrine.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1818; Mary Shelley died in 1851.",
+      "assignedSpread": "inflated-oracle",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-inflated-oracle-closing-eliot-outside-determines",
+      "exactQuotation": "For there is no creature whose inward being is so strong that it is not greatly determined by what lies outside it.",
+      "author": "George Eliot",
+      "origin": {
+        "work": "Middlemarch: A Study of Provincial Life",
+        "workType": "novel",
+        "location": "finale",
+        "publicationDetails": "First published in eight parts by William Blackwood and Sons in 1871–1872."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/145/145-h/145-h.htm",
+      "context": "The narrator describes how inward impulse is shaped by imperfect social conditions. The sentence closes the shadow by restoring the authority of external conditions without denying interior life.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 145 at the finale. The final sentence of the paragraph is quoted complete.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published by 1872; George Eliot died in 1880.",
+      "assignedSpread": "inflated-oracle",
+      "position": "closing",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-self-doubting-seer-opening-dickinson-much-madness",
+      "exactQuotation": "Much madness is divinest sense\nTo a discerning eye;\nMuch sense the starkest madness.\n’T is the majority\nIn this, as all, prevails.\nAssent, and you are sane;\nDemur,—you’re straightway dangerous,\nAnd handled with a chain.",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "Much madness is divinest sense",
+        "workType": "poem",
+        "location": "complete poem; poem XI in the 1890 volume",
+        "publicationDetails": "Poems by Emily Dickinson, edited by T. W. Higginson and Mabel Loomis Todd (Boston: Roberts Brothers, 1890)."
+      },
+      "sourceUrl": "https://en.wikisource.org/wiki/Poems_(Dickinson)/Much_madness_is_divinest_sense",
+      "corroboratingUrl": "https://www.gutenberg.org/ebooks/2678.html.noimages",
+      "context": "The poem shows social assent determining which perception may be voiced safely. It opens the shadow's possible history of learned self-silencing without claiming that Dickinson's speaker doubts her own perception.",
+      "verificationNotes": "Exact wording, normalized 1890 punctuation, and eight-line lineation checked against the Wikisource transcription and corroborated in Project Gutenberg ebook 2678. Curly apostrophes reproduce print typography; this record does not claim later manuscript dashes or capitalization.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1890; Emily Dickinson died in 1886.",
+      "assignedSpread": "self-doubting-seer",
+      "position": "opening",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "quote-self-doubting-seer-closing-bronte-care-self",
+      "exactQuotation": "I care for myself. The more solitary, the more friendless, the more unsustained I am, the more I will respect myself.",
+      "author": "Charlotte Brontë",
+      "origin": {
+        "work": "Jane Eyre: An Autobiography",
+        "workType": "novel",
+        "location": "chapter 27",
+        "publicationDetails": "First published in London by Smith, Elder and Co. in 1847."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/1260/1260-h/1260-h.htm",
+      "context": "Jane asserts respect for her own principles under intense internal and relational pressure. The excerpt supports restored inner authority while the manuscript separately keeps intuitive claims open to testing.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 1260, chapter 27. The two opening sentences of Jane's longer reply are quoted without internal omission.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1847; Charlotte Brontë died in 1855.",
+      "assignedSpread": "self-doubting-seer",
+      "position": "closing",
+      "accessDate": "2026-07-31"
     }
   ]
 }

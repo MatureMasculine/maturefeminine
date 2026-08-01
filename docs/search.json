@@ -82,7 +82,7 @@
         "group": "Maiden",
         "qualities": ["Daring","Prudence"],
         "balanceQualities": ["Daring","Prudence"],
-        "keyQualities": "Adventurous, Resilient, Free-spirited, Thoughtful, Resourceful, Adaptable, Bold, Wise, Spirited, Grounded",
+        "keyQualities": "Bold, Prepared, Adaptable, Resourceful, Curious, Accountable, Resilient, Observant, Decisive, Grounded",
         "href": "/maiden/adventurer/"
       }
 
@@ -96,7 +96,7 @@
         "group": "Maiden",
         "qualities": ["Wonder","Discernment"],
         "balanceQualities": ["Wonder","Discernment"],
-        "keyQualities": "Fresh, Curious, Trusting, Open-hearted, Playful, Hopeful, Receptive, Wise, Discerning, Grounded",
+        "keyQualities": "Curious, Receptive, Discerning, Fresh, Playful, Observant, Hopeful, Teachable, Grounded, Self-trusting",
         "href": "/maiden/maiden/"
       }
 
@@ -110,7 +110,7 @@
         "group": "Maiden",
         "qualities": ["Intuition","Verification"],
         "balanceQualities": ["Intuition","Verification"],
-        "keyQualities": "Visionary, Intuitive, Humble, Attuned, Imaginative, Grounded, Clear, Curious, Wise, Purposeful",
+        "keyQualities": "Intuitive, Observant, Imaginative, Humble, Testable, Clear, Curious, Grounded, Revisable, Purposeful",
         "href": "/maiden/visionary/"
       }
 
@@ -393,7 +393,7 @@
         "group": "Maiden",
         "qualities": ["Daring","Prudence"],
         "balanceQualities": ["Daring","Prudence"],
-        "keyQualities": "Creates preventable emergencies, Breaks agreements for novelty, Uses motion to avoid feeling",
+        "keyQualities": "Creates preventable emergencies and treats recovery as triumph, Breaks agreements when a more vivid option appears, Commits shared money, labor, time, or exposure without consent, Confuses bodily activation with evidence that a choice is right, Changes jobs, projects, places, or partners to outrun an unresolved consequence, Expects companions to supply the margin she refused to build",
         "href": "/maiden/adventurer/shadows/reckless-wanderer/"
       }
 
@@ -409,7 +409,7 @@
         "group": "Maiden",
         "qualities": ["Daring","Prudence"],
         "balanceQualities": ["Daring","Prudence"],
-        "keyQualities": "Plans without departure, Overstates unlikely dangers, Lives through others' courage",
+        "keyQualities": "Plans, trains, or researches without setting a departure, Inflates rare dangers while ignoring the cost of continued confinement, Waits for confidence that only participation could build, Consumes stories of other people's courage instead of testing her own range, Calls avoidance responsibility after the practical requirements have been met, Lets an imagined worst case outweigh available, direct evidence",
         "href": "/maiden/adventurer/shadows/sheltered-dreamer/"
       }
 
@@ -425,7 +425,7 @@
         "group": "Maiden",
         "qualities": ["Wonder","Discernment"],
         "balanceQualities": ["Wonder","Discernment"],
-        "keyQualities": "Commits before understanding, Idealizes unfamiliar people, Leaves consequences to others",
+        "keyQualities": "Commits before reading the terms or understanding the role, Treats excitement, synchronicity, or familiarity as proof, Grants trust before observing how someone handles limits, Idealizes unfamiliar people, groups, methods, or places, Minimizes warnings because they interrupt a desired story, Leaves preventable financial, relational, or practical consequences to others",
         "href": "/maiden/maiden/shadows/naive-enthusiast/"
       }
 
@@ -441,7 +441,7 @@
         "group": "Maiden",
         "qualities": ["Wonder","Discernment"],
         "balanceQualities": ["Wonder","Discernment"],
-        "keyQualities": "Research replaces participation, Defers ordinary choices, Dismisses curiosity as childish",
+        "keyQualities": "Researches methods, teachers, or tools after enough information exists to try, Defers ordinary reversible choices as though they were permanent, Waits to feel qualified before entering the setting that teaches beginners, Imagines evaluation more vividly than the possible experience itself, Outsources a personal first decision to experts, tests, or group consensus, Dismisses an unproven curiosity as childish, impractical, or not part of her identity",
         "href": "/maiden/maiden/shadows/frozen-beginner/"
       }
 
@@ -457,7 +457,7 @@
         "group": "Maiden",
         "qualities": ["Intuition","Verification"],
         "balanceQualities": ["Intuition","Verification"],
-        "keyQualities": "Speaks uncertain futures as facts, Claims special access to truth, Reframes disagreement as spiritual failure",
+        "keyQualities": "Speaks uncertain futures, diagnoses, or motives as settled facts, Treats coincidence, intensity, or repetition as sufficient confirmation, Claims privileged access that places her interpretation above another person's account, Reframes disagreement as fear, blindness, disloyalty, or spiritual failure, Makes predictions vague enough that every result can confirm them, Pressures others to risk money, health, work, or relationship on private certainty",
         "href": "/maiden/visionary/shadows/inflated-oracle/"
       }
 
@@ -473,7 +473,7 @@
         "group": "Maiden",
         "qualities": ["Intuition","Verification"],
         "balanceQualities": ["Intuition","Verification"],
-        "keyQualities": "Edits insight out of speech, Outsources inner authority, Waits for impossible proof",
+        "keyQualities": "Edits an impression out of speech before deciding whether it is testable, Waits for proof no emerging pattern could initially provide, Outsources direct perception to credentials, consensus, or a more confident voice, Explains away recurring bodily signals without recording their conditions, Offers the insight only after someone else has made it socially safe, Confuses humility with having no legitimate observation to contribute",
         "href": "/maiden/visionary/shadows/self-doubting-seer/"
       }
 

@@ -64,6 +64,195 @@
       "verificationStatus": "verified",
       "culturalContextNote": "Recorded as Andersen's nineteenth-century Danish literary fairy tale, not as an inherited sacred figure or a cross-cultural equivalent.",
       "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-adventurer-atalanta-apollodorus-library-3",
+      "assignedSpread": "adventurer",
+      "assignmentScope": "parent-only",
+      "figure": "Atalanta",
+      "figureType": "mythic heroine",
+      "tradition": "Greek literary tradition",
+      "relevantFunction": "A wilderness hunter and athlete who remains armed, joins the Calydonian boar hunt, first wounds the boar, and wins a wrestling contest. The resonance is limited to skilled movement into danger and capability tested through action.",
+      "source": {
+        "title": "The Library, Book 3",
+        "authorOrInstitution": "Pseudo-Apollodorus; translated by James George Frazer; Theoi Classical Texts Library",
+        "originatingWork": "Pseudo-Apollodorus, Library",
+        "location": "book 3, section 9.2",
+        "publicationDetails": "English translation by James George Frazer in the Loeb Classical Library, 1921.",
+        "url": "https://www.theoi.com/Text/Apollodorus3.html"
+      },
+      "verificationNotes": "The accessible text states that Atalanta hunted in the wilderness under arms, joined the boar hunt, first wounded the animal, and wrestled with Peleus and won. It also contains exposure, attempted sexual violence, lethal race terms, and transformation; the assignment does not present the whole narrative as mature Prudence or a modern risk model.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded specifically as a Greek literary and mythographic figure. She is not equated with Artemis or hunting figures from other traditions, and dangerous contest is not treated as proof that fear or caution is inferior.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-reckless-wanderer-phaethon-ovid-metamorphoses-2",
+      "assignedSpread": "reckless-wanderer",
+      "assignmentScope": "shadow-specific",
+      "figure": "Phaëton",
+      "figureType": "mythic youth",
+      "tradition": "Roman literary tradition",
+      "relevantFunction": "He insists on driving the sun chariot after detailed warnings that the request exceeds his strength and experience, then loses the path and control of the horses. The resonance isolates daring severed from counsel, capacity, and consequence.",
+      "source": {
+        "title": "Metamorphoses, Book 2",
+        "authorOrInstitution": "Ovid; translated by Brookes More; Theoi Classical Texts Library",
+        "originatingWork": "Ovid, Metamorphoses",
+        "location": "book 2, lines 49–205, especially 90–103 and 150–167",
+        "publicationDetails": "English translation by Brookes More, published in 1922.",
+        "url": "https://www.theoi.com/Text/OvidMetamorphoses2.html"
+      },
+      "verificationNotes": "The primary text calls the request unsafe, supplies warnings and a middle course, shows the youth persist, and then states that he loses control and cannot find the road. The assignment does not treat youth, ambition, or exploration themselves as reckless.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as Ovid's Roman literary telling of a mythic male youth. ‘Wanderer’ is the project's functional shadow title, not an epithet from the source, and no cross-traditional equivalence is asserted.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-sheltered-dreamer-cowardly-lion-baum-wizard-oz",
+      "assignedSpread": "sheltered-dreamer",
+      "assignmentScope": "shadow-specific",
+      "figure": "The Cowardly Lion",
+      "figureType": "literary fairy-tale character",
+      "tradition": "American literary fairy-tale tradition",
+      "relevantFunction": "He believes he lacks courage, asks an external authority to supply it, and nevertheless joins a dangerous journey and acts protectively while afraid. The resonance holds collapsed self-recognition of Daring and its recovery through bounded action.",
+      "source": {
+        "title": "The Wonderful Wizard of Oz",
+        "authorOrInstitution": "L. Frank Baum; Project Gutenberg",
+        "originatingWork": "L. Frank Baum, The Wonderful Wizard of Oz",
+        "location": "chapters 6, 12, 16, and 21",
+        "publicationDetails": "First published in Chicago by George M. Hill Company in 1900; Project Gutenberg ebook 43936 reproduces the first-edition text and illustrations.",
+        "url": "https://www.gutenberg.org/files/43936/43936-h/43936-h"
+      },
+      "verificationNotes": "The text shows the Lion call himself afraid of everything, seek courage from Oz, proceed toward danger, protect companions, and finally hear that courage is acting in the face of danger. His fear is not erased. The assignment does not use the character to mock anxiety or prescribe unsafe exposure.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a named character in Baum's American literary fantasy, not as a sacred or inherited cultural figure. The resonance is confined to disowned courage revealed through action.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-maiden-nausicaa-homer-odyssey-6",
+      "assignedSpread": "maiden",
+      "assignmentScope": "parent-only",
+      "figure": "Nausicaa",
+      "figureType": "epic heroine",
+      "tradition": "archaic Greek epic tradition",
+      "relevantFunction": "She meets an unknown and vulnerable stranger with humane openness, provides practical help, respects the bathing party's boundaries, and makes a socially aware plan for entering the city. The resonance joins receptive first contact with situational judgment.",
+      "source": {
+        "title": "The Odyssey, Book 6",
+        "authorOrInstitution": "Homer; translated by A. T. Murray; Theoi Classical Texts Library",
+        "originatingWork": "Homer, Odyssey",
+        "location": "book 6, lines 185–315, especially 205–256",
+        "publicationDetails": "English translation by A. T. Murray in the Loeb Classical Library, 1919.",
+        "url": "https://www.theoi.com/Text/HomerOdyssey6.html"
+      },
+      "verificationNotes": "The text shows Nausicaa stop her fleeing attendants, direct food, clothing, shelter, and privacy for the stranger, then propose an ordered escort and city entry. The assignment does not generalize the epic's gender, class, hospitality, or reputation norms into obligations for modern women.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a figure in archaic Greek epic. Her conduct is a limited resonance for open and discerning first engagement, not a claim that women owe strangers care or must manage public perception.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-naive-enthusiast-pinocchio-collodi-field-miracles",
+      "assignedSpread": "naive-enthusiast",
+      "assignmentScope": "shadow-specific",
+      "figure": "Pinocchio",
+      "figureType": "literary fairy-tale character",
+      "tradition": "Italian literary fairy-tale tradition",
+      "relevantFunction": "After recalling earlier warnings, he accepts an exciting promise that buried coins will multiply, follows the flattering deceivers, and surrenders his money. The resonance isolates enthusiasm and trust overruling available contradictory evidence.",
+      "source": {
+        "title": "Pinocchio: The Tale of a Puppet",
+        "authorOrInstitution": "Carlo Collodi; translated by Mary Alice Murray; Project Gutenberg",
+        "originatingWork": "Carlo Collodi, Le avventure di Pinocchio",
+        "location": "chapters 12 and 18, the Fox and Cat and the Field of Miracles",
+        "publicationDetails": "The Italian book was published in 1883; Mary Alice Murray's English translation was published in 1892; Project Gutenberg ebook 16865.",
+        "url": "https://www.gutenberg.org/cache/epub/16865/pg16865-images.html"
+      },
+      "verificationNotes": "The accessible text shows the puppet initially refuse, remember prior warnings, become excited by promised multiplication, hesitate, and still follow the deceivers and bury his coins. The source uses punitive moralizing language about children; the assignment does not reproduce that language or treat curiosity as guilt.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a male character in a nineteenth-century Italian literary fairy tale. The resonance is the specific failure to apply available evidence, not a fixed judgment about children, innocence, or intelligence.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-frozen-beginner-prufrock-eliot-poetry-1915",
+      "assignedSpread": "frozen-beginner",
+      "assignmentScope": "shadow-specific",
+      "figure": "J. Alfred Prufrock",
+      "figureType": "literary speaker-character",
+      "tradition": "Anglo-American literary tradition",
+      "relevantFunction": "He rehearses an encounter, imagines scrutiny, asks repeatedly whether he dares, and multiplies indecisions and revisions before ordinary participation. The resonance isolates over-analysis and anticipated judgment preventing a beginning.",
+      "source": {
+        "title": "The Love Song of J. Alfred Prufrock",
+        "authorOrInstitution": "T. S. Eliot; Literature in Context, University of Virginia",
+        "originatingWork": "The Love Song of J. Alfred Prufrock",
+        "location": "opening through the repeated ‘Do I dare?’ passage and later self-questioning",
+        "publicationDetails": "First published in Poetry, volume 6, number 3, June 1915; the University of Virginia transcription is checked against the first edition and preserves its page breaks.",
+        "url": "https://anthology.lib.virginia.edu/work/Eliot/eliot-prufrock"
+      },
+      "verificationNotes": "The full text repeatedly defers the visit, gives time for ‘a hundred indecisions’ and revisions, imagines others' scrutiny, and asks whether the speaker dares. The University of Virginia page identifies Poetry: A Magazine of Verse (1915), provides a first-edition citation, and is publicly accessible; the assignment reproduces no poem text.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a fictional male speaker in a 1915 Anglo-American modernist poem. The assignment does not diagnose the speaker or claim that caution, aging, social anxiety, or reflection are inherently passive.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-visionary-penelope-homer-odyssey-23",
+      "assignedSpread": "visionary",
+      "assignmentScope": "parent-only",
+      "figure": "Penelope",
+      "figureType": "epic heroine",
+      "tradition": "archaic Greek epic tradition",
+      "relevantFunction": "She receives the possibility that the disguised stranger is her returned husband but does not accept resemblance or testimony alone; she devises the immovable-bed test and recognizes him through his exact response. The resonance joins an emerging perception with a concrete check.",
+      "source": {
+        "title": "The Odyssey, Book 23",
+        "authorOrInstitution": "Homer; translated by A. T. Murray; Theoi Classical Texts Library",
+        "originatingWork": "Homer, Odyssey",
+        "location": "book 23, lines 85–230, especially 173–205",
+        "publicationDetails": "English translation by A. T. Murray in the Loeb Classical Library, 1919.",
+        "url": "https://www.theoi.com/Text/HomerOdyssey23.html"
+      },
+      "verificationNotes": "The text states that Penelope tests the stranger by ordering their built-in bed moved; his knowledge of its construction supplies the sure token by which she recognizes him. The assignment does not universalize marital loyalty or treat deception and violence in the epic as mature relationship models.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a figure in archaic Greek epic. The narrow resonance is the recognition test, not an equation of epic identity proof with modern evidence standards or a prescription that women must test intimate partners.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-inflated-oracle-macbeth-shakespeare-equivocation",
+      "assignedSpread": "inflated-oracle",
+      "assignmentScope": "shadow-specific",
+      "figure": "Macbeth",
+      "figureType": "literary tragic character",
+      "tradition": "English literary tradition",
+      "relevantFunction": "He treats equivocal predictions as guarantees of invulnerability, discounts contradictory evidence, and acts from the certainty until the literal conditions reveal how his interpretation failed. The resonance isolates prophecy converted into untestable personal assurance.",
+      "source": {
+        "title": "Macbeth",
+        "authorOrInstitution": "William Shakespeare; Folger Shakespeare Library",
+        "originatingWork": "William Shakespeare, Macbeth",
+        "location": "act IV, scene 1; act V, scenes 5 and 8",
+        "publicationDetails": "First printed in the First Folio in 1623; Folger Digital Texts edition, last updated July 31, 2015.",
+        "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/read/5/5/"
+      },
+      "verificationNotes": "The Folger text shows Macbeth rely on the Birnam Wood and ‘none of woman born’ assurances, threaten the messenger who reports contrary evidence, then recognize equivocation when the predictions resolve literally. The assignment does not call the prophetic speakers false or make spirituality responsible for Macbeth's violence.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a male tragic character in an English play. The resonance concerns his interpretive certainty and actions, not witchcraft as a real practice, Scottish identity, or women as sources of irrationality.",
+      "accessDate": "2026-07-31"
+    },
+    {
+      "id": "myth-self-doubting-seer-hamlet-shakespeare-proof-delay",
+      "assignedSpread": "self-doubting-seer",
+      "assignmentScope": "shadow-specific",
+      "figure": "Hamlet",
+      "figureType": "literary tragic character",
+      "tradition": "English literary tradition",
+      "relevantFunction": "He suspects that the apparition may deceive him, demands firmer grounds, designs a theatrical test, and repeatedly reproaches his delay. The resonance is confined to a real impression held back by escalating proof requirements.",
+      "source": {
+        "title": "Hamlet",
+        "authorOrInstitution": "William Shakespeare; Folger Shakespeare Library",
+        "originatingWork": "William Shakespeare, Hamlet",
+        "location": "act II, scene 2, lines 1665–1698; act III, scene 2",
+        "publicationDetails": "First printed in a substantive second quarto in 1604–1605; Folger Digital Texts edition.",
+        "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/2/2/"
+      },
+      "verificationNotes": "The Folger text shows the character question whether the apparition is deceptive, seek ‘grounds more relative,’ construct the play as a test, and describe himself as delayed. The test itself is prudent; the assignment concerns proof-seeking joined to prolonged self-silencing, not a claim that verification is a defect.",
+      "verificationStatus": "verified",
+      "culturalContextNote": "Recorded as a male tragic character in an English play. The resonance does not diagnose grief, melancholy, or caution and does not equate responsible evidence gathering with passivity.",
+      "accessDate": "2026-07-31"
     }
   ]
 }

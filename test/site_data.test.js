@@ -200,7 +200,7 @@ test("Eleventy emits lifecycle, archetype, shadow, and legacy redirect pages", (
 
 test("pending archetype pages render the six populated profile fields and both shadows", () => {
   assert.ifError(buildError);
-  const html = outputText("maiden/adventurer/index.html");
+  const html = outputText("lover/creator/index.html");
   const approvedFields = [
     "lifecycleStage",
     "coreFunction",
@@ -214,15 +214,15 @@ test("pending archetype pages render the six populated profile fields and both s
   for (const field of approvedFields) {
     assert.match(html, new RegExp(`data-profile-field="${field}"`));
   }
-  assert.match(html, /href="\/maiden\/adventurer\/shadows\/reckless-wanderer\/"/);
-  assert.match(html, /href="\/maiden\/adventurer\/shadows\/sheltered-dreamer\/"/);
+  assert.match(html, /href="\/lover\/creator\/shadows\/compulsive-perfecter\/"/);
+  assert.match(html, /href="\/lover\/creator\/shadows\/scattered-maker\/"/);
   assert.doesNotMatch(html, /quoteIds|mythicSourceIds|researchStatus/);
 });
 
 test("blank quotations do not render ornamental quotation blocks", () => {
   assert.ifError(buildError);
-  const archetype = outputText("maiden/adventurer/index.html");
-  const shadow = outputText("maiden/adventurer/shadows/reckless-wanderer/index.html");
+  const archetype = outputText("lover/creator/index.html");
+  const shadow = outputText("lover/creator/shadows/compulsive-perfecter/index.html");
 
   assert.doesNotMatch(archetype, /entry-quote/);
   assert.doesNotMatch(shadow, /entry-quote/);
@@ -277,7 +277,7 @@ test("search emits one unique canonical record per lifecycle and entry", () => {
       parent: "Adventurer",
       parentSlug: "adventurer",
       balanceQualities: ["Daring", "Prudence"],
-      keyQualities: "Creates preventable emergencies, Breaks agreements for novelty, Uses motion to avoid feeling",
+      keyQualities: "Creates preventable emergencies and treats recovery as triumph, Breaks agreements when a more vivid option appears, Commits shared money, labor, time, or exposure without consent, Confuses bodily activation with evidence that a choice is right, Changes jobs, projects, places, or partners to outrun an unresolved consequence, Expects companions to supply the margin she refused to build",
       href: "/maiden/adventurer/shadows/reckless-wanderer/",
     },
   );
