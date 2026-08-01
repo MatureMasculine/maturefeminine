@@ -484,17 +484,18 @@
     },
     {
       "id": "quote-creator-closing-whitman-simplicity",
-      "exactQuotation": "The art of art, the glory of expression and the sunshine of the light of letters, is simplicity.",
+      "exactQuotation": "The art of art, the glory of expression and the sunshine of the light of letters is simplicity.",
       "author": "Walt Whitman",
       "origin": {
         "work": "Leaves of Grass",
         "workType": "poetry collection preface",
-        "location": "preface to the 1855 edition",
+        "location": "preface to the 1855 edition, page vi",
         "publicationDetails": "Leaves of Grass (Brooklyn, New York: self-published, 1855)."
       },
-      "sourceUrl": "https://www.gutenberg.org/cache/epub/8388/pg8388-images.html",
+      "sourceUrl": "https://whitmanarchive.org/item/ppp.00271_preface",
+      "corroboratingUrl": "https://raw.githubusercontent.com/whitmanarchive/whitman-leaves_of_grass/main/source/tei/ppp.00271.xml",
       "context": "Whitman locates artistic achievement in simplicity and clear expression. The sentence closes on the discipline of making a finished form receivable rather than preserving every possible addition.",
-      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 8388 in the 1855 preface. The sentence is complete and contains no alteration or omission.",
+      "verificationNotes": "Exact wording and punctuation checked against the Walt Whitman Archive's authoritative 1855 preface transcription and its inspectable official TEI source file. The 1855 text has no comma before ‘is’; the comma found in later edited collections is not imported here.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: first published in 1855; Walt Whitman died in 1892.",
       "assignedSpread": "creator",
@@ -511,9 +512,9 @@
         "location": "chapter 1; spoken by Basil Hallward",
         "publicationDetails": "Revised book edition (London: Ward, Lock and Co., 1891)."
       },
-      "sourceUrl": "https://anthology.lib.virginia.edu/work/Wilde/wilde-picture.pdf",
+      "sourceUrl": "https://www.gutenberg.org/files/174/174-h/174-h.htm",
       "context": "Basil Hallward uses an ideal of aesthetic purity while explaining why a work containing too much of himself cannot be exhibited. The sentence voices technical beauty used to protect vulnerable authorship from exposure.",
-      "verificationNotes": "Exact wording and punctuation checked in the University of Virginia anthology PDF of the 1891 text, chapter 1. The attribution names the fictional speaker in the manuscript so the line is not presented as Wilde's uncomplicated artistic principle.",
+      "verificationNotes": "Project Gutenberg ebook 174 was retrieved as nonempty HTML, and chapter 1 contains the exact sentence in Basil Hallward's dialogue. The attribution names the fictional speaker in the manuscript so the line is not presented as Wilde's uncomplicated artistic principle.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: book edition published in 1891; Oscar Wilde died in 1900.",
       "assignedSpread": "compulsive-perfecter",
@@ -579,7 +580,7 @@
     },
     {
       "id": "quote-healer-opening-eliot-compassion-speaks",
-      "exactQuotation": "Pity is strong only because we are strongly impressed by suffering; and only in proportion as it is compassion that speaks through the eyes when we soothe, and moves the arm when we succor, is a deed strictly benevolent.",
+      "exactQuotation": "[P]ity is strong only because we are strongly impressed by suffering; and only in proportion as it is compassion that speaks through the eyes when we soothe, and moves the arm when we succor, is a deed strictly benevolent.",
       "author": "George Eliot",
       "origin": {
         "work": "Evangelical Teaching: Dr. Cumming",
@@ -589,7 +590,7 @@
       },
       "sourceUrl": "https://www.gutenberg.org/files/28289/28289-h/28289-h.htm",
       "context": "Eliot argues that benevolence must arise from direct human sympathy rather than obedience, vanity, or an abstract religious motive. The sentence gives Compassion an active but non-heroic human source; the Healer manuscript supplies consent and scope.",
-      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 28289, transcribed from the 1883 Funk & Wagnalls edition, under ‘Evangelical Teaching: Dr. Cumming,’ page 95. The semicolon-linked sentence is quoted complete.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 28289, transcribed from the 1883 Funk & Wagnalls edition, under ‘Evangelical Teaching: Dr. Cumming,’ page 95. The source begins lowercase ‘pity’ after an omitted clause in a longer semicolon-linked sentence; the editorial bracket transparently marks capitalization at the excerpt opening and does not claim a verbatim initial capital.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: essay first published in 1855; George Eliot died in 1880.",
       "assignedSpread": "healer",
@@ -597,20 +598,22 @@
       "accessDate": "2026-07-31"
     },
     {
-      "id": "quote-healer-closing-nightingale-nature-cures",
-      "exactQuotation": "Neither can do anything but remove obstructions; neither can cure; nature alone cures.",
+      "id": "quote-healer-closing-nightingale-do-no-harm",
+      "exactQuotation": "It may seem a strange principle to enunciate as the very first requirement in a Hospital that it should do the sick no harm.",
       "author": "Florence Nightingale",
       "origin": {
-        "work": "Notes on Nursing: What It Is, and What It Is Not",
-        "workType": "nursing treatise",
-        "location": "chapter 13, ‘Observation of the Sick’",
-        "publicationDetails": "Notes on Nursing: What It Is, and What It Is Not (London: Harrison, 1860)."
+        "work": "Notes on Hospitals",
+        "workType": "hospital reform treatise",
+        "location": "preface, opening unnumbered page [iii]",
+        "publicationDetails": "Notes on Hospitals, third edition, enlarged and for the most part re-written (London: Longman, Green, Longman, Roberts, and Green, 1863)."
       },
-      "sourceUrl": "https://www.gutenberg.org/cache/epub/12439/pg12439-images.html",
-      "context": "In a comparison of medicine and surgery, Nightingale rejects professional ownership of cure and describes their work as removing obstructions. The sentence supports care that serves conditions without claiming another person's outcome.",
-      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 12439 under ‘Observation of the Sick.’ The historical clinical claim is not generalized in the manuscript into a theory of all illness or suffering.",
+      "sourceUrl": "https://archive.org/details/cu31924012356485",
+      "corroboratingUrl": "https://archive.org/download/cu31924012356485/cu31924012356485.pdf",
+      "publicationEvidenceUrl": "https://wellcomecollection.org/works/mb4h6m85",
+      "context": "Nightingale opens a historically specific argument about excess mortality in crowded hospitals and the effects of hospital construction, sanitation, and institutional conditions. The sentence supports a Healer's obligation to prevent care systems from adding avoidable harm; it is not presented as a complete modern consent framework or as the origin of the Hippocratic maxim.",
+      "verificationNotes": "Exact casing and punctuation checked on the preface's opening unnumbered page [iii] in the 1863 third-edition scan (PDF image 7 in the Internet Archive derivative; repositories number preliminary images differently). The following paragraph explicitly frames the principle through hospital mortality and hospital construction, so the quotation is not generalized into a judgment that treatment itself cannot cure.",
       "verificationStatus": "verified",
-      "rightsStatus": "Public domain: published in 1860; Florence Nightingale died in 1910.",
+      "rightsStatus": "Public domain: published in 1863; Florence Nightingale died in 1910. The Wellcome record applies a Public Domain Mark.",
       "assignedSpread": "healer",
       "position": "closing",
       "accessDate": "2026-07-31"
@@ -645,8 +648,8 @@
         "publicationDetails": "Notes on Nursing: What It Is, and What It Is Not (London: Harrison, 1860)."
       },
       "sourceUrl": "https://www.gutenberg.org/cache/epub/12439/pg12439-images.html",
-      "context": "Nightingale rejects both doing everything oneself and multiplying unclear assignments. She redirects care toward defined responsibility and reliable coordination, restoring Boundaries to active help.",
-      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 12439 under ‘Petty Management.’ Source pronouns are preserved rather than silently modernized.",
+      "context": "Within a chapter on hierarchical household management, Nightingale rejects both doing everything oneself and multiplying unclear assignments. The line is used narrowly for defined responsibility and reliable coordination, not as a modern consent model or a complete account of shared care.",
+      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 12439 under ‘Petty Management.’ The source addresses the Victorian ‘person in charge’ directing servants and appointed duties; that hierarchy is not imported into the manuscript, and source pronouns are preserved rather than silently modernized.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: published in 1860; Florence Nightingale died in 1910.",
       "assignedSpread": "rescuing-healer",
@@ -655,7 +658,7 @@
     },
     {
       "id": "quote-guarded-healer-opening-wilde-selfish-garden",
-      "exactQuotation": "My own garden is my own garden; any one can understand that, and I will allow nobody to play in it but myself.",
+      "exactQuotation": "“My own garden is my own garden,” said the Giant; “any one can understand that, and I will allow nobody to play in it but myself.”",
       "author": "Oscar Wilde",
       "origin": {
         "work": "The Selfish Giant",
@@ -665,7 +668,7 @@
       },
       "sourceUrl": "https://www.gutenberg.org/cache/epub/30120/pg30120-images.html",
       "context": "The Giant turns legitimate ownership into total exclusion and builds a wall around the garden. The statement gives Boundaries-as-armor a clear voice before the tale later reopens contact.",
-      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 30120 under ‘The Selfish Giant.’ The manuscript attributes the sentence to the fictional speaker rather than to Wilde as personal doctrine.",
+      "verificationNotes": "Exact contiguous wording and punctuation checked in Project Gutenberg ebook 30120 under ‘The Selfish Giant.’ The dialogue tag and the semicolon between the Giant's two speeches are retained; the manuscript attributes the sentence to the fictional speaker rather than to Wilde as personal doctrine.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: published in 1888; Oscar Wilde died in 1900.",
       "assignedSpread": "guarded-healer",
@@ -673,20 +676,22 @@
       "accessDate": "2026-07-31"
     },
     {
-      "id": "quote-guarded-healer-closing-eliot-diffusive",
-      "exactQuotation": "But the effect of her being on those around her was incalculably diffusive.",
-      "author": "George Eliot",
+      "id": "quote-guarded-healer-closing-addams-common-life",
+      "exactQuotation": "[T]he good we secure for ourselves is precarious and uncertain, is floating in mid-air, until it is secured for all of us and incorporated into our common life.",
+      "author": "Jane Addams",
       "origin": {
-        "work": "Middlemarch",
-        "workType": "novel",
-        "location": "Finale; describing Dorothea Brooke",
-        "publicationDetails": "Middlemarch (Edinburgh and London: William Blackwood and Sons, 1871–72)."
+        "work": "The Subjective Necessity for Social Settlements",
+        "workType": "social reform essay",
+        "location": "Philanthropy and Social Progress, page 7",
+        "publicationDetails": "Philanthropy and Social Progress: Seven Essays (New York: Thomas Y. Crowell, 1893)."
       },
-      "sourceUrl": "https://www.gutenberg.org/files/145/145-h/145-h.htm",
-      "context": "The Finale describes Dorothea's ordinary, relationally consequential life without casting her as a heroic cure. The sentence closes on warmth whose influence can be real without taking over another person's path.",
-      "verificationNotes": "Exact wording and punctuation checked in Project Gutenberg ebook 145 under ‘Finale.’ The initial conjunction is retained because it belongs to the source sentence.",
+      "sourceUrl": "https://archive.org/details/philanthropysoci00newy/page/n23/mode/2up",
+      "corroboratingUrl": "https://archive.org/download/philanthropysoci00newy/philanthropysoci00newy.pdf",
+      "publicationEvidenceUrl": "https://digital.janeaddams.ramapo.edu/items/show/34839",
+      "context": "Addams argues that democratic and civic goods become durable through common life rather than private insulation. The excerpt closes Guarded Healer on shared social conditions, not on an individual's duty to rescue or disappear into another person's needs. The historical settlement context is not treated as a complete modern care or consent model.",
+      "verificationNotes": "Exact internal wording, commas, hyphenation, and final clause checked in the 1893 first-edition scan, page 7. The source begins “that the good” inside a larger semicolon series; the editorial bracket transparently capitalizes the excerpt's first displayed letter while omitting the subordinate ‘that,’ and no verbatim initial capital is claimed. The 1892 Jane Addams Digital Edition witness uses dashes and ‘[midair]’ and is recorded only as publication evidence, not as the exact-text source for this edition-specific wording.",
       "verificationStatus": "verified",
-      "rightsStatus": "Public domain: published in 1871–72; George Eliot died in 1880.",
+      "rightsStatus": "Public domain: published in the United States in 1893; Jane Addams died in 1935. The earlier Jane Addams Digital Edition witness is marked public domain.",
       "assignedSpread": "guarded-healer",
       "position": "closing",
       "accessDate": "2026-07-31"

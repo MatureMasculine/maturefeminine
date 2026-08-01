@@ -12,7 +12,7 @@ legacyRoutes: /lover-creatrix/young-healer-priestess/shadows/wounded-healer/
 legacyAnchors: wounded-healer
 image: assets/images/shadow/young-healer-priestess--burned-out-healer.jpg
 keyQualities: Uses policy to avoid contact|Withdraws at visible need|Anticipates engulfment|Intellectualizes distress|Refuses finite care|Confuses non-rescue with non-care
-quoteIds: quote-guarded-healer-opening-wilde-selfish-garden|quote-guarded-healer-closing-eliot-diffusive
+quoteIds: quote-guarded-healer-opening-wilde-selfish-garden|quote-guarded-healer-closing-addams-common-life
 mythicResonances: Silas Marner (nineteenth-century English literary tradition)
 mythicSourceIds: myth-guarded-healer-silas-marner-eliot
 researchStatus: verified
@@ -26,7 +26,7 @@ Passive Shadow
 
 ## Opening Quotation
 
-“My own garden is my own garden; any one can understand that, and I will allow nobody to play in it but myself.”
+“My own garden is my own garden,” said the Giant; “any one can understand that, and I will allow nobody to play in it but myself.”
 
 —the Giant in Oscar Wilde's “The Selfish Giant”
 
@@ -117,6 +117,6 @@ The Guarded Healer returns to the Healer when Compassion can cross the boundary 
 
 ## Closing Quotation
 
-“But the effect of her being on those around her was incalculably diffusive.”
+“[T]he good we secure for ourselves is precarious and uncertain, is floating in mid-air, until it is secured for all of us and incorporated into our common life.”
 
-—George Eliot, *Middlemarch*, finale
+—Jane Addams, “The Subjective Necessity for Social Settlements”

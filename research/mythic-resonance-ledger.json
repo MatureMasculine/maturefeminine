@@ -324,7 +324,7 @@
       "figure": "The Good Samaritan",
       "figureType": "scriptural parable figure",
       "tradition": "Christian scriptural tradition",
-      "relevantFunction": "The Samaritan sees an injured stranger, approaches with compassion, gives immediate bodily care, transports him to an inn, transfers ongoing tending to a host, provides finite resources, and promises a later accounting. The narrow resonance joins responsive care with movement, handoff, provision, and a bounded continuing commitment.",
+      "relevantFunction": "The Samaritan sees an injured stranger, approaches with compassion, gives immediate bodily care, transports him to an inn, transfers ongoing tending to a host, makes a finite immediate payment, and promises to return and reimburse whatever further expense the host incurs. The narrow resonance joins responsive care with finite immediate presence, practical handoff, and continuing accountability; the open reimbursement promise is not itself financially bounded.",
       "source": {
         "title": "The Gospel According to Luke",
         "authorOrInstitution": "Anonymous King James Version translation; Project Gutenberg",
@@ -333,30 +333,30 @@
         "publicationDetails": "King James Version first published in 1611; cited from Project Gutenberg ebook 8042, Book 42: Luke.",
         "url": "https://www.gutenberg.org/cache/epub/8042/pg8042-images.html"
       },
-      "verificationNotes": "The displayed text explicitly names compassion, wound care, transport, an inn handoff, finite payment, and later reimbursement. Because the injured person is described as half dead, the scene cannot model ordinary verbal consent; the manuscript separately requires consent wherever capacity and urgency permit.",
+      "verificationNotes": "The displayed text explicitly names compassion, wound care, transport, an inn handoff, two pence paid immediately, and a promise to repay ‘whatsoever’ more the host spends. The record therefore does not call the open reimbursement promise bounded. Because the injured person is described as half dead, the scene cannot model ordinary verbal consent; the manuscript separately requires consent wherever capacity and urgency permit.",
       "verificationStatus": "verified",
       "culturalContextNote": "Recorded as a figure in a Jewish teacher's first-century parable preserved in Christian scripture. ‘Samaritan’ names a historically distinct community, not a generic synonym for helper; the assignment does not erase Jewish–Samaritan conflict, prescribe Christian belief, or claim the parable supplies a complete modern care ethic.",
       "accessDate": "2026-07-31"
     },
     {
-      "id": "myth-rescuing-healer-asclepius-apollodorus-3",
+      "id": "myth-rescuing-healer-swallow-wilde-happy-prince",
       "assignedSpread": "rescuing-healer",
       "assignmentScope": "shadow-specific",
-      "figure": "Asclepius",
-      "figureType": "mythic healing deity",
-      "tradition": "ancient Greek mythographic tradition",
-      "relevantFunction": "Apollodorus says that Asclepius carries surgery so far that he not only prevents deaths but repeatedly raises the dead. Zeus fears that people will acquire this power and strikes him with a thunderbolt. The narrow resonance is healing extended beyond the story's governing mortal scope, not a verdict that saving life deserves punishment.",
+      "figure": "The Swallow",
+      "figureType": "literary fairy-tale character",
+      "tradition": "nineteenth-century Irish literary tradition",
+      "relevantFunction": "Moved by the Happy Prince's sorrow, the Swallow first offers one night of help and delivers practical aid. The Prince repeatedly extends the messenger role, twice answers hesitation with ‘do as I command you,’ and asks for further distribution. The Swallow postpones migration, escalates the offer to ‘stay with you always,’ continues after the Prince finally urges departure, grows ‘colder and colder,’ and dies. The narrow resonance is genuine Compassion becoming permanent availability while bodily capacity and a renewable stopping point disappear.",
       "source": {
-        "title": "The Library, Book 3",
-        "authorOrInstitution": "Pseudo-Apollodorus; translated by J. G. Frazer; Theoi Classical Texts Library",
-        "originatingWork": "Pseudo-Apollodorus, Bibliotheca",
-        "location": "book 3.10.3–3.10.4",
-        "publicationDetails": "English translation by J. G. Frazer in the Loeb Classical Library, 1921.",
-        "url": "https://www.theoi.com/Text/Apollodorus3.html"
+        "title": "The Happy Prince",
+        "authorOrInstitution": "Oscar Wilde; Project Gutenberg",
+        "originatingWork": "Oscar Wilde, The Happy Prince and Other Tales",
+        "location": "complete tale, especially pages 23–38 in the displayed illustrated edition",
+        "publicationDetails": "The Happy Prince and Other Tales was first published in London by David Nutt in 1888; cited from the 1913 Charles Robinson illustrated edition transcribed in Project Gutenberg ebook 30120.",
+        "url": "https://www.gutenberg.org/cache/epub/30120/pg30120-images.html"
       },
-      "verificationNotes": "The primary mythographic translation lists several people Asclepius was reported to have raised and gives Zeus's stated fear before the thunderbolt. Other ancient versions attribute payment or name different restored figures; this record makes no claim about a single universal motive or version.",
+      "verificationNotes": "The displayed tale supports each step: pity and a finite one-night offer; repeated delays of the planned migration; commands after the Swallow voices limits; ‘stay with you always’; continued distribution; worsening cold; and death. The ending calls the bird and lead heart the city's most precious things and rewards them in Paradise, so the tale morally honors the sacrifice. This ledger uses that honored ending as a warning about cultural ideals of self-emptying, not as evidence that death or exhaustion completes mature care.",
       "verificationStatus": "verified",
-      "culturalContextNote": "Recorded as a male healing deity in one ancient Greek mythographic account. Zeus's violence is not endorsed as justice, disability or death is not framed as personal failure, and the story is not used to limit real medical care, emergency aid, or collective health provision.",
+      "culturalContextNote": "Recorded as a fictional male bird in an Irish author's nineteenth-century literary fairy tale. The story honors the sacrifice, but death and exhaustion are not mature care, proof of love, or a prescription for helpers. The exploited or recruited helper is not blamed for the pressure placed on his limits, and the Prince–Swallow dynamic is not a modern consent model. The tale's class, religious, and exoticizing imagery is not generalized into a psychological claim. Demeter nursing Demophon was rejected despite its secret scope overreach because the infant-care scene would blur Lover with Mother; the Swallow more directly matches this manuscript's renewable-capacity and escalating-role chain.",
       "accessDate": "2026-07-31"
     },
     {

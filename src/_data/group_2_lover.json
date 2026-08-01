@@ -39,7 +39,7 @@
       },
       "quotes": {
         "opening": "“Then FINE ART is that in which the hand, the head, and the heart of man go together.”\n\n—John Ruskin, *The Two Paths*, lecture II, “The Unity of Art”",
-        "closing": "“The art of art, the glory of expression and the sunshine of the light of letters, is simplicity.”\n\n—Walt Whitman, preface to *Leaves of Grass*"
+        "closing": "“The art of art, the glory of expression and the sunshine of the light of letters is simplicity.”\n\n—Walt Whitman, preface to *Leaves of Grass*"
       },
       "research": {
         "status": "verified",
@@ -901,14 +901,14 @@
         "keyQualities": "Compassionate, Boundaried, Present, Consent-led, Restorative, Clear, Ethical, Grounded, Skilled, Sustainable"
       },
       "quotes": {
-        "opening": "“Pity is strong only because we are strongly impressed by suffering; and only in proportion as it is compassion that speaks through the eyes when we soothe, and moves the arm when we succor, is a deed strictly benevolent.”\n\n—George Eliot, “Evangelical Teaching: Dr. Cumming”",
-        "closing": "“Neither can do anything but remove obstructions; neither can cure; nature alone cures.”\n\n—Florence Nightingale, *Notes on Nursing*, “Observation of the Sick”"
+        "opening": "“[P]ity is strong only because we are strongly impressed by suffering; and only in proportion as it is compassion that speaks through the eyes when we soothe, and moves the arm when we succor, is a deed strictly benevolent.”\n\n—George Eliot, “Evangelical Teaching: Dr. Cumming”",
+        "closing": "“It may seem a strange principle to enunciate as the very first requirement in a Hospital that it should do the sick no harm.”\n\n—Florence Nightingale, *Notes on Hospitals*, preface"
       },
       "research": {
         "status": "verified",
         "quoteIds": [
           "quote-healer-opening-eliot-compassion-speaks",
-          "quote-healer-closing-nightingale-nature-cures"
+          "quote-healer-closing-nightingale-do-no-harm"
         ],
         "mythicResonances": [
           "The Good Samaritan (Christian scriptural tradition)"
@@ -943,7 +943,7 @@
         {
           "role": "declarations",
           "heading": "The Healer's Ethical Stance",
-          "content": "- Suffering can move me without making me its owner.\n- I ask what help is wanted before deciding what should happen.\n- Consent guides ordinary care, and urgent danger requires the least intrusive effective response.\n- My role has a scope, and naming it protects everyone involved.\n- I can offer skill without claiming control over the outcome.\n- A referral can be an act of care rather than abandonment.\n- My limits keep my yes honest and renewable.\n- I notice the person, not only the problem presented.\n- Care includes the conditions that let capacity return.\n- I remain present when there is nothing more to fix.",
+          "content": "- Suffering can move me without making me its owner.\n- I ask what help is wanted before deciding what should happen.\n- Consent guides ordinary care, and urgent danger requires the least intrusive effective response.\n- My role has a scope, and naming it protects everyone involved.\n- I can offer skill without claiming control over the outcome.\n- A referral can be an act of care rather than abandonment.\n- My limits keep my yes honest and renewable.\n- I notice the person, not only the problem presented.\n- Care includes the conditions that let capacity return.\n- I return responsibility as capacity grows rather than making my help permanent.",
           "subsections": []
         },
         {
@@ -1006,7 +1006,7 @@
           "My limits keep my yes honest and renewable.",
           "I notice the person, not only the problem presented.",
           "Care includes the conditions that let capacity return.",
-          "I remain present when there is nothing more to fix."
+          "I return responsibility as capacity grows rather than making my help permanent."
         ],
         "balance": "Compassion approaches suffering. It notices pain, deprivation, isolation, overload, or injury and permits an appropriate response. It listens for the lived reality behind the presenting problem and resists reducing a person to a case. Without Boundaries, Compassion becomes the Rescuing Healer's compulsion to intervene, overpromise, and own what belongs to another person or a larger system.\n\nBoundaries define who is choosing, what role is active, what care has been agreed, what competence is available, how long the offer lasts, and where responsibility returns. Boundaries protect privacy, rest, fairness, and the recipient's right to refuse or seek another path. Without Compassion, they distort into the Guarded Healer's armor: correct policy with no reachable warmth, distance presented as neutrality, or self-protection applied after the actual danger has passed.\n\nTogether, the qualities create trustworthy help. Compassion ensures that limits do not erase the person. Boundaries ensure that feeling does not become entitlement to direct, invade, or remain indefinitely. The Healer can stay responsive as facts change because neither her identity nor the other person's dignity depends on a guaranteed cure.",
         "applications": "The Healer's balance changes with role, urgency, power, and available skill. Warmth alone is not sufficient, and professional authority is never a substitute for consent or accountability.\n\n### Inner Life\n\nInwardly, she meets pain with curiosity and proportion. She can rest, seek assessment, use treatment, ask for support, or change a harmful condition without interpreting need as failure. Self-care is not a private optimization project. It includes access, money, disability, work demands, caregiving loads, and the systems that shape what recovery can require.\n\n### Relationship\n\nWith people she loves, the Healer asks whether they want listening, practical help, information, advocacy, or space. She does not make disclosure a debt or assume intimacy grants clinical authority. When safety permits, she accepts no. She can also name the effect a crisis has on shared agreements without making the suffering person responsible for reassuring her.\n\n### Work and Practice\n\nIn a helping role, she works within training, policy, ethics, and supervision while remaining more than procedural. She documents, refers, protects confidentiality, and attends to power. She knows when a problem exceeds her competence or when a system is asking individual care to compensate for structural neglect.\n\n### Community\n\nIn community, she helps organize meals, rides, funds, respite, access, or skilled services with the recipient rather than around them. She asks who is missing, who is carrying invisible labor, and what support will remain after the urgent moment. Repair becomes distributed capacity, not a heroic central figure.",
@@ -1047,7 +1047,7 @@
             "balancedQualities": "Mature Healer = Compassion + Boundaries",
             "activeShadow": "Rescuing Healer",
             "passiveShadow": "Guarded Healer",
-            "mythicResonances": "Asclepius (ancient Greek mythographic tradition)",
+            "mythicResonances": "The Swallow (nineteenth-century Irish literary tradition)",
             "keyQualities": "Gives unsolicited help, Takes responsibility for outcomes, Overpromises availability, Exceeds role or competence, Makes need a source of identity, Ignores fatigue and refusal"
           },
           "quotes": {
@@ -1061,10 +1061,10 @@
               "quote-rescuing-healer-closing-nightingale-not-everything"
             ],
             "mythicResonances": [
-              "Asclepius (ancient Greek mythographic tradition)"
+              "The Swallow (nineteenth-century Irish literary tradition)"
             ],
             "mythicSourceIds": [
-              "myth-rescuing-healer-asclepius-apollodorus-3"
+              "myth-rescuing-healer-swallow-wilde-happy-prince"
             ]
           },
           "sourceFile": "lover/shadows/rescuing-healer.md",
@@ -1185,14 +1185,14 @@
             "keyQualities": "Uses policy to avoid contact, Withdraws at visible need, Anticipates engulfment, Intellectualizes distress, Refuses finite care, Confuses non-rescue with non-care"
           },
           "quotes": {
-            "opening": "“My own garden is my own garden; any one can understand that, and I will allow nobody to play in it but myself.”\n\n—the Giant in Oscar Wilde's “The Selfish Giant”",
-            "closing": "“But the effect of her being on those around her was incalculably diffusive.”\n\n—George Eliot, *Middlemarch*, finale"
+            "opening": "“My own garden is my own garden,” said the Giant; “any one can understand that, and I will allow nobody to play in it but myself.”\n\n—the Giant in Oscar Wilde's “The Selfish Giant”",
+            "closing": "“[T]he good we secure for ourselves is precarious and uncertain, is floating in mid-air, until it is secured for all of us and incorporated into our common life.”\n\n—Jane Addams, “The Subjective Necessity for Social Settlements”"
           },
           "research": {
             "status": "verified",
             "quoteIds": [
               "quote-guarded-healer-opening-wilde-selfish-garden",
-              "quote-guarded-healer-closing-eliot-diffusive"
+              "quote-guarded-healer-closing-addams-common-life"
             ],
             "mythicResonances": [
               "Silas Marner (nineteenth-century English literary tradition)"

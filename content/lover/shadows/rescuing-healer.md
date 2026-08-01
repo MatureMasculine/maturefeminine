@@ -13,8 +13,8 @@ legacyAnchors: savior-priestess
 image: assets/images/shadow/young-healer-priestess--savior-complex.jpg
 keyQualities: Gives unsolicited help|Takes responsibility for outcomes|Overpromises availability|Exceeds role or competence|Makes need a source of identity|Ignores fatigue and refusal
 quoteIds: quote-rescuing-healer-opening-eliot-less-difficult|quote-rescuing-healer-closing-nightingale-not-everything
-mythicResonances: Asclepius (ancient Greek mythographic tradition)
-mythicSourceIds: myth-rescuing-healer-asclepius-apollodorus-3
+mythicResonances: The Swallow (nineteenth-century Irish literary tradition)
+mythicSourceIds: myth-rescuing-healer-swallow-wilde-happy-prince
 researchStatus: verified
 sectionRoles: balanceBreakdown=When Compassion Claims the Outcome|declarations=The Rescuer's Contract|psychologicalMechanics=How Help Becomes Possession|hiddenEnergy=The Responsiveness Inside the Rescue|recognition=Signs That Boundaries Are Missing|practices=Returning Scope and Choice|oppositeShadow=The Swing Toward Guardedness|transformation=Care Without Ownership|conclusion=Where She Returns
 ---
@@ -37,7 +37,7 @@ Active Shadow
 - Balanced qualities: Mature Healer = Compassion + Boundaries
 - Active shadow: Rescuing Healer
 - Passive shadow: Guarded Healer
-- Mythic resonances: Asclepius (ancient Greek mythographic tradition)
+- Mythic resonances: The Swallow (nineteenth-century Irish literary tradition)
 - Key qualities: Gives unsolicited help, Takes responsibility for outcomes, Overpromises availability, Exceeds role or competence, Makes need a source of identity, Ignores fatigue and refusal
 
 ## When Compassion Claims the Outcome

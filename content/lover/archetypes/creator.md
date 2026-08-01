@@ -106,6 +106,6 @@ Living as the Creator means becoming dependable to inspiration without becoming 
 
 ## Closing Quotation
 
-“The art of art, the glory of expression and the sunshine of the light of letters, is simplicity.”
+“The art of art, the glory of expression and the sunshine of the light of letters is simplicity.”
 
 —Walt Whitman, preface to *Leaves of Grass*

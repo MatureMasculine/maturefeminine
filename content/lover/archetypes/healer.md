@@ -11,7 +11,7 @@ legacyRoutes: /lover-creatrix/young-healer-priestess/
 coreFunction: Respond to suffering with compassion governed by consent, scope, and capacity.
 keyQualities: Compassionate|Boundaried|Present|Consent-led|Restorative|Clear|Ethical|Grounded|Skilled|Sustainable
 image: assets/images/young-healer-priestess.jpeg
-quoteIds: quote-healer-opening-eliot-compassion-speaks|quote-healer-closing-nightingale-nature-cures
+quoteIds: quote-healer-opening-eliot-compassion-speaks|quote-healer-closing-nightingale-do-no-harm
 mythicResonances: The Good Samaritan (Christian scriptural tradition)
 mythicSourceIds: myth-healer-good-samaritan-luke-10
 researchStatus: verified
@@ -21,7 +21,7 @@ sectionRoles: definition=Care That Remains Ethical|declarations=The Healer's Eth
 
 ## Opening Quotation
 
-“Pity is strong only because we are strongly impressed by suffering; and only in proportion as it is compassion that speaks through the eyes when we soothe, and moves the arm when we succor, is a deed strictly benevolent.”
+“[P]ity is strong only because we are strongly impressed by suffering; and only in proportion as it is compassion that speaks through the eyes when we soothe, and moves the arm when we succor, is a deed strictly benevolent.”
 
 —George Eliot, “Evangelical Teaching: Dr. Cumming”
 
@@ -52,7 +52,7 @@ The absorbed young priestess language points to devotional attention, not age, r
 - My limits keep my yes honest and renewable.
 - I notice the person, not only the problem presented.
 - Care includes the conditions that let capacity return.
-- I remain present when there is nothing more to fix.
+- I return responsibility as capacity grows rather than making my help permanent.
 
 ## The Reach and the Edge of Care
 
@@ -106,6 +106,6 @@ Living as the Healer means keeping both the reach and the edge of care available
 
 ## Closing Quotation
 
-“Neither can do anything but remove obstructions; neither can cure; nature alone cures.”
+“It may seem a strange principle to enunciate as the very first requirement in a Hospital that it should do the sick no harm.”
 
-—Florence Nightingale, *Notes on Nursing*, “Observation of the Sick”
+—Florence Nightingale, *Notes on Hospitals*, preface

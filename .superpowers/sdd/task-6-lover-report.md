@@ -24,17 +24,18 @@
 ## Research and source resolution
 
 - Appended 12 unique verified quotation records and six unique independently verified myth records. Each manuscript resolves to exactly two quote IDs in opening/closing order and one myth source ID assigned to that spread.
-- Verified all 18 assigned source URLs returned HTTP 200 at review time.
+- Verified the assigned evidence against nonempty source content rather than relying on HTTP status alone. This caught and replaced a nominally successful but empty UVA *Dorian Gray* endpoint with Project Gutenberg 174.
 - The final quotation slate is:
-  - Creator: John Ruskin, “Then FINE ART is that in which the hand, the head, and the heart of man go together”; Walt Whitman, “The art of art, the glory of expression and the sunshine of the light of letters, is simplicity.”
+  - Creator: John Ruskin, “Then FINE ART is that in which the hand, the head, and the heart of man go together”; Walt Whitman, “The art of art, the glory of expression and the sunshine of the light of letters is simplicity.”
   - Compulsive Perfecter: Oscar Wilde, “An artist should create beautiful things, but should put nothing of his own life into them”; Emily Dickinson, “A Word.”
   - Scattered Maker: Louisa May Alcott on enthusiasm and inspiration; Henry David Thoreau, “If you have built castles in the air ... Now put the foundations under them.”
-  - Healer: George Eliot on pity becoming compassion; Florence Nightingale, “Neither can do anything but remove obstructions; neither can cure; nature alone cures.”
+  - Healer: George Eliot on pity becoming compassion; Florence Nightingale's first hospital requirement that it “should do the sick no harm.”
   - Rescuing Healer: George Eliot, “What do we live for, if it is not to make life less difficult to each other?”; Florence Nightingale, “It is neither to do everything yourself nor to appoint a number of people to each duty.”
-  - Guarded Healer: Oscar Wilde's Giant claiming the garden solely for himself; George Eliot on the incalculably diffusive effect of a life on those around it.
-- The final mythic-resonance slate is Hephaestus in *Iliad* 18, Frenhofer in Balzac's “The Unknown Masterpiece,” Goethe's Sorcerer's Apprentice, the Good Samaritan in Luke 10, Asclepius in Apollodorus, and Silas Marner in George Eliot's novel.
+  - Guarded Healer: Oscar Wilde's Giant claiming the garden solely for himself; Jane Addams on the precarity of good secured only for oneself rather than incorporated into common life.
+- The final mythic-resonance slate is Hephaestus in *Iliad* 18, Frenhofer in Balzac's “The Unknown Masterpiece,” Goethe's Sorcerer's Apprentice, the Good Samaritan in Luke 10, the Swallow in Wilde's “The Happy Prince,” and Silas Marner in George Eliot's novel.
+- Independent review corrected Whitman's punctuation, made Eliot's and Addams's mid-sentence openings transparent with brackets and source notes, restored Wilde's contiguous dialogue tag, and replaced contextually unsafe Eliot and Nightingale closers. The Swallow replaced Asclepius because the story directly shows finite pity becoming repeated role expansion, postponed migration, exhaustion, and death. Demeter was considered but rejected because infant-care and lifecycle associations would blur renewable-capacity boundaries.
 - Rejected or replaced quotations whose full context undermined the intended mechanism: Dickinson's “If I can stop one heart” risked dignifying rescue through self-worth; Dickinson's analytical grief poem was compassionate rather than guarded in full; and an anti-detail Thoreau fragment did not support Scattered Maker as accurately as the complete “castles in the air” passage.
-- Ledger caveats keep sacred-text, cultural, disability/death, care-without-consent, child-responsibility, and moral-punishment overreadings out of the manuscript claim.
+- Ledger caveats keep sacred-text, cultural, disability/death, care-without-consent, child-responsibility, and moral-punishment overreadings out of the manuscript claim. They explicitly state that Wilde's moral honoring of the Swallow's sacrifice is not evidence that exhaustion or death is mature care or proof of love, does not blame the helper, and does not create a modern consent model. The Good Samaritan record claims only finite immediate help and handoff, while Nightingale's household-management example is identified as historically hierarchical rather than modern consent guidance.
 - Scoped resolver result: six verified entries, 12 unique verified quotation IDs/texts, six unique verified myth IDs/figures, exact display-text resolution, correct spread and position assignments, and no unresolved or inherited source.
 
 ## Editorial audits
@@ -68,7 +69,7 @@ git diff --check
 
 Results:
 
-- Node/content: 93 tests passed; structural validation confirmed five lifecycle groups, 22 archetypes, 44 shadows, and generated data in sync.
+- Node/content: 104 tests passed, including 11 focused regression tests added for the independently reviewed Lover sources and mechanisms; structural validation confirmed five lifecycle groups, 22 archetypes, 44 shadows, and generated data in sync.
 - Python: all 24 tests passed.
 - Site build completed; full normalized PDF compiled all 66 entries.
 - Scoped quote/myth resolver, exact-reuse, high-overlap, and accessible-URL audits passed.
@@ -80,11 +81,11 @@ Results:
 | Scattered Maker | 2 | 0.7871 | none | 0 | 6–7 |
 | Healer | 2 | 0.7885 | none | 0 | 2–3 |
 | Rescuing Healer | 2 | 0.8384 | none | 0 | 4–5 |
-| Guarded Healer | 2 | 0.7976 | none | 0 | 6–7 |
+| Guarded Healer | 2 | 0.8317 | none | 0 | 6–7 |
 
-Every scoped compiled entry starts even and ends odd. All 12 standalone pages were rendered at 105 DPI and visually inspected. The first pass caught a Healer declaration orphan, three sentence/paragraph fragments crossing page boundaries, and a Guarded Healer page-top widow. Surgical paragraph-boundary edits resolved them; a fresh measurement and second visual pass confirmed intact quotation lineation, title/image/profile hierarchy, headings, columns, page furniture, and no blank page, clipping, collision, literal Markdown, orphaned heading, or conspicuous imbalance.
+Every scoped compiled entry starts even and ends odd. All 12 standalone pages were rendered at 105 DPI and visually inspected. The first pass caught a Healer declaration orphan, three sentence/paragraph fragments crossing page boundaries, and a Guarded Healer page-top widow. Surgical paragraph-boundary edits resolved them. After independent source repairs, every changed page was rendered again; exact and bracketed quotation lineation, the Swallow profile wrap, title/image/profile hierarchy, headings, columns, and page furniture remained clean, with no blank page, clipping, collision, literal Markdown, orphaned heading, split fragment, or conspicuous imbalance.
 
-`npm run content:publish-check` ran its 93-test suite successfully, then reported the expected pending research and incomplete publication fields exclusively in untouched Mother, Queen, and Crone entries. It reported no Maiden or Lover publication error. Whole-book publication readiness therefore remains intentionally deferred to later lifecycle tasks.
+`npm run content:publish-check` ran its 104-test suite successfully, then reported the expected pending research and incomplete publication fields exclusively in untouched Mother, Queen, and Crone entries. It reported no Maiden or Lover publication error. Whole-book publication readiness therefore remains intentionally deferred to later lifecycle tasks.
 
 ## Remaining risk
 
