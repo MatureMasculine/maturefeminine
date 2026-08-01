@@ -27,6 +27,22 @@ function renderSections(sections) {
   }).join("\n");
 }
 
+function renderQuote(value) {
+  if (value === undefined || value === null) return "";
+  const normalized = String(value).replace(/\r\n?/g, "\n").trim();
+  if (!normalized) return "";
+
+  const parts = normalized.match(/^([\s\S]*?)\n[ \t]*\n(—[\s\S]+)$/u);
+  const quotation = parts ? parts[1].trim() : normalized;
+  const attribution = parts ? parts[2].trim() : "";
+  const quotationHtml = markdown.utils.escapeHtml(quotation).replace(/\n/g, "<br>\n");
+  const citationHtml = attribution
+    ? `\n<cite class="entry-quote-attribution">${markdown.renderInline(attribution)}</cite>`
+    : "";
+
+  return `<span class="entry-quote-text">${quotationHtml}</span>${citationHtml}`;
+}
+
 function loadSiteData() {
   const file = path.join(__dirname, "src", "_data", "archetypes.json");
   const data = JSON.parse(fs.readFileSync(file, "utf8"));
@@ -173,20 +189,8 @@ module.exports = function(eleventyConfig) {
     return str;
   });
 
-  // Strip outermost wrapping quotes (smart/straight, single/double)
-  eleventyConfig.addFilter("stripOuterQuotes", (value) => {
-    if (value === undefined || value === null) return value;
-    let str = String(value).trim();
-    const opens = ['"', '“', '„', '«', '‹', '‘', "'"];
-    const closes = ['"', '”', '‟', '»', '›', '’', "'"];
-    // Remove matching outer quote pairs iteratively to handle multiple layers
-    while (str.length >= 2 && opens.includes(str[0]) && closes.includes(str[str.length - 1])) {
-      str = str.slice(1, -1).trim();
-    }
-    return str;
-  });
-
   eleventyConfig.addFilter("renderSections", renderSections);
+  eleventyConfig.addFilter("renderQuote", renderQuote);
 
   return {
     dir: {

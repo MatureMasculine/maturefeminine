@@ -16,7 +16,7 @@ eleventyComputed:
 </header>
 
 {% if entry.quotes.opening %}
-<blockquote class="entry-quote entry-quote-opening">{{ entry.quotes.opening | fixEncoding | stripOuterQuotes }}</blockquote>
+<blockquote class="entry-quote entry-quote-opening">{{ entry.quotes.opening | fixEncoding | renderQuote | safe }}</blockquote>
 {% endif %}
 
 {% if entry.image %}
@@ -59,5 +59,5 @@ eleventyComputed:
 {{ entry.bodySections | renderSections | safe }}
 
 {% if entry.quotes.closing %}
-<blockquote class="entry-quote entry-quote-closing">{{ entry.quotes.closing | fixEncoding | stripOuterQuotes }}</blockquote>
+<blockquote class="entry-quote entry-quote-closing">{{ entry.quotes.closing | fixEncoding | renderQuote | safe }}</blockquote>
 {% endif %}

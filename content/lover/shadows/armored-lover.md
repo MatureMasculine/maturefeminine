@@ -36,7 +36,7 @@ Like costumes grandsires wore.”
 
 - Lifecycle stage: Lover
 - Core function: Devotion collapses while Sovereignty distorts
-- Balanced qualities: Devotion + Sovereignty
+- Balanced qualities: Mature Lover = Devotion + Sovereignty
 - Active shadow: Enmeshing Lover
 - Passive shadow: Armored Lover
 - Mythic resonances: The Snow Queen (Danish literary tradition)
@@ -91,13 +91,13 @@ Holds the body composed when grief or affection asks it to soften
 
 ## Restoring Chosen Devotion
 
-- Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.
-- Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.
-- Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.
-- Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.
-- Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.
-- Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.
-- Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second.
+- We name one ordinary want with a trustworthy person—“I want,” “I miss,” or “I need”—and stop before explaining why it is reasonable.
+- We receive one finite act of care and answer with thanks, letting repayment wait long enough for receiving to register.
+- We stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.
+- We accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.
+- We make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.
+- We name the safe scope and exit before disclosure: what will be shared, with whom, and what would end the conversation.
+- We distinguish present danger from the discomfort of mattering, honoring the first and taking one measured step toward the second.
 
 ## The Swing Toward Enmeshment
 
@@ -121,4 +121,4 @@ The Armored Lover returns when protection becomes a door rather than a wall: abl
 
 “She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”
 
-—Jane Austen, Persuasion, chapter 4
+—Jane Austen, *Persuasion*, chapter 4

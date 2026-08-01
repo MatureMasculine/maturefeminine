@@ -8,7 +8,7 @@ Authority: `editorial/canonical-taxonomy.md` and `editorial/style-sheet.md`
 
 ## Calibration Result
 
-The trio uses one relational function throughout: entering wholehearted intimacy and shared commitment while remaining a sovereign participant. Its canonical equation is Devotion + Sovereignty.
+The trio uses one relational function throughout: entering wholehearted intimacy and shared commitment while remaining a sovereign participant. Its printed canonical equation is `Mature Lover = Devotion + Sovereignty`.
 
 - The Lover gives attachment real consequence while keeping judgment, consent, other commitments, and the right to leave.
 - The Enmeshing Lover is the active shadow: Devotion expands without Sovereignty. Integration restores Sovereignty so devotion becomes voluntary.
@@ -83,34 +83,44 @@ Passed. Section order is legible on one reading, sentences lead with mechanism, 
 
 ### Recorded Exceptions and Edition Notes
 
-- Long-work titles remain plain text inside the attribution source because the current quote wrapper escapes inline HTML and does not run Markdown. The rendered quote block is italic as a whole, so the visible title receives the required treatment; separating quotation and attribution semantics is deferred to the rendering task rather than changing a site template during manuscript calibration.
-- Attributions that would otherwise end in a quoted chapter or first-line title include a chapter or catalog locator. This prevents the existing outer-quote filter from mistaking the attribution's final curly mark for the quotation's wrapper.
+- The quote renderer preserves poetic lineation, separates attribution into a semantic `cite` element, accepts Markdown emphasis for long-work titles, and escapes raw HTML. This resolved the earlier renderer exception during calibration rather than deferring it.
 - The Dickinson quotation follows the normalized 1896 text in Mabel Loomis Todd's posthumous edition. The ledger does not represent it as a diplomatic transcription of Dickinson's manuscript.
 - Browning's work is identified as Sonnet XLIII in the ledger and as “Sonnet 43” in the reader attribution for immediate readability; the quoted text itself is unchanged.
 
 ### Gate
 
-Passed. No factual or research placeholder remains. The renderer exception and edition qualifications above are deliberate and scoped.
+Passed. No factual or research placeholder remains. The edition qualifications above are deliberate and scoped.
 
 ## Source Selection Record
 
-The second-source pass improved four provisional choices before copy lock:
+The source passes improved the provisional choices before copy lock:
 
-- Charlotte Brontë replaced Kahlil Gibran at the Lover close, preserving the same freedom-within-togetherness function with a scan-backed first edition and an all-women quotation set.
+- Kahlil Gibran's two-line passage from *The Prophet* replaced Charlotte Brontë at the Lover close after independent review found the Brontë sentence contextually strained. Gibran directly joins wholehearted giving with non-possession. This is the one approved exception to the preference for quotations by women in the calibration set.
 - Sara Teasdale replaced Kate Chopin at the Enmeshing Lover opening because the stanza speaks the longing for self-loss from inside the shadow; Wollstonecraft remains the closing restoration of self-government.
 - Emily Dickinson replaced a truncated Millay opening with a complete four-line poem whose drawer image precisely enacts defended containment.
 - Jane Austen replaced a broader George Eliot care maxim with a sentence that directly names restored attachment after over-anxious prudence.
 
-The final six quotations come from six women and six distinct works. All are verified against institutional transcriptions, digitized editions, or scan-backed first editions and are public domain in the United States.
+The final six quotations come from five women and one man across six distinct works. All are verified against institutional transcriptions or digitized editions and are public domain in the United States.
 
 ## Pre-Pagination Verification
 
 - JSON integrity passed for six quotation records and three mythic records; every record is unique and marked `verified`.
 - A cross-ledger check resolved all six manuscript quote IDs to exact displayed text and all three mythic source IDs to separate spread assignments.
-- `npm test` passed all 78 tests.
+- `npm test` passed all 86 tests.
 - `npm run content:sync` synchronized five lifecycle groups, 22 archetypes, and 44 shadows.
 - `npm run content:check` passed structural validation and confirmed generated data in sync.
 - `npm run build` passed and regenerated the site.
-- Rendered-page inspection found exactly seven profile fields and two quote blocks on each trio page, working parent/opposite links, balanced visible quotation marks, no escaped citation markup, no leaked research metadata, and no trailing horizontal whitespace.
+- Rendered-page inspection found exactly seven profile fields and two quote blocks on each trio page, preserved poem lineation, semantic attribution lines, working parent/opposite links, no unsafe raw HTML, no leaked research metadata, and no trailing horizontal whitespace.
 - Publish diagnostics reported no failures for `lover`, `enmeshing-lover`, or `armored-lover`. The remaining 63 entries continue to report their expected pending-research state for later tasks.
 - `git diff --check` passed.
+
+## Independent-Review Remediation
+
+The calibration gate was reopened after independent review and closed only after these systemic corrections:
+
+- All three verified profiles now print the literal parent-linked equation `Mature Lover = Devotion + Sovereignty`; structural tests allow the abbreviated pair only for pending entries during migration.
+- All practice bullets now use the shared `we/our` invitation voice.
+- The Brontë closing quotation was replaced with the exact Gibran passage described above.
+- Psyche's source is now the accessible Project Gutenberg text of Apuleius and directly supports the broken hidden marriage, Venus's successive ordeals, and reunion. Echo and the Snow Queen likewise use accessible Project Gutenberg primary texts.
+- Optional corroborating URLs that returned 403, 405, or connection failures were removed or replaced without weakening any required claim.
+- Safe semantic quote rendering is covered by focused tests for line breaks, blank-line attribution separation, title emphasis, and raw-HTML escaping.

@@ -11,9 +11,9 @@ legacyRoutes: /lover-creatrix/sacred-lover-love-goddess/|/lover-creatrix/devoted
 coreFunction: Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.
 keyQualities: Wholehearted|Sensual|Loyal|Discerning|Self-possessed|Receptive|Boundaried|Playful|Faithful|Mutual|Present|Courageous
 image: assets/images/sacred-whore-love-goddess.jpeg
-quoteIds: quote-lover-opening-browning-sonnet-43|quote-lover-closing-bronte-jane-eyre
+quoteIds: quote-lover-opening-browning-sonnet-43|quote-lover-closing-gibran-on-marriage
 mythicResonances: Psyche (Greco-Roman literary tradition)
-mythicSourceIds: myth-lover-psyche-apuleius-met
+mythicSourceIds: myth-lover-psyche-apuleius-golden-ass
 researchStatus: verified
 sectionRoles: definition=Wholehearted Without Self-Loss|declarations=The Lover's Inner Stance|balance=The Living Balance|applications=Where Devotion Takes Form|gifts=What Love Asks of Her|practices=Practices of Intimate Freedom|conclusion=Living as the Lover
 ---
@@ -30,7 +30,7 @@ I love thee purely, as they turn from Praise.”
 
 - Lifecycle stage: Lover
 - Core function: Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.
-- Balanced qualities: Devotion + Sovereignty
+- Balanced qualities: Mature Lover = Devotion + Sovereignty
 - Active shadow: Enmeshing Lover
 - Passive shadow: Armored Lover
 - Mythic resonances: Psyche (Greco-Roman literary tradition)
@@ -93,12 +93,12 @@ Love also brings grief within range. Sovereignty lets her meet loss without aban
 
 ## Practices of Intimate Freedom
 
-- Divide a page into “ours” and “mine.” Name the promises, decisions, time, and responsibilities that belong in each column.
-- Before escalating intimacy, ask what is wanted now, what remains undecided, and how either person can pause without penalty.
-- Make one direct request and allow the answer to be no; do not improve the offer, punish the refusal, or withdraw affection.
-- Keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.
-- Examine a sacrifice before offering it: Was it requested? Is it freely chosen, sustainable, and open to revision?
-- After self-abandonment or defended withdrawal, name the exact moment contact was lost and propose one observable repair.
+- We divide a page into “ours” and “mine,” then name the promises, decisions, time, and responsibilities that belong in each column.
+- We ask what is wanted now, what remains undecided, and how either person can pause without penalty before escalating intimacy.
+- We make one direct request and allow the answer to be no; we neither improve the offer, punish the refusal, nor withdraw affection.
+- We keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.
+- We examine a sacrifice before offering it by asking whether it was requested, freely chosen, sustainable, and open to revision.
+- We name the exact moment contact was lost after self-abandonment or defended withdrawal, then propose one observable repair.
 
 ## Living as the Lover
 
@@ -106,6 +106,7 @@ Living as the Lover means letting what matters have real consequence without giv
 
 ## Closing Quotation
 
-“To be together is for us to be at once as free as in solitude, as gay as in company.”
+“Give your hearts, but not into each other’s keeping.
+For only the hand of Life can contain your hearts.”
 
-—Charlotte Brontë, Jane Eyre, “Conclusion,” chapter 38
+—Kahlil Gibran, *The Prophet*, “On Marriage”

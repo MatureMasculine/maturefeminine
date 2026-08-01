@@ -3,22 +3,22 @@
   "lastVerified": "2026-07-31",
   "records": [
     {
-      "id": "myth-lover-psyche-apuleius-met",
+      "id": "myth-lover-psyche-apuleius-golden-ass",
       "assignedSpread": "lover",
       "assignmentScope": "parent-only",
       "figure": "Psyche",
       "figureType": "literary mythic figure",
       "tradition": "Greco-Roman literary tradition",
-      "relevantFunction": "A mortal beloved whose desire to see and know for herself ruptures a hidden arrangement; she endures imposed ordeals before rescue and reunion with Cupid. The resonance joins desire, agency, consequence, ordeal, and renewed union without making any one element the whole of mature love.",
+      "relevantFunction": "A mortal beloved whose secret marriage with Cupid breaks after she looks at him despite his prohibition; Venus then subjects her to successive ordeals before Jupiter reunites the pair. The resonance joins desire, agency, consequence, ordeal, and renewed union without making any one element the whole of mature love.",
       "source": {
-        "title": "Cupid and Psyche",
-        "authorOrInstitution": "The Metropolitan Museum of Art",
-        "originatingWork": "Apuleius, The Golden Ass (Metamorphoses)",
-        "location": "collection object 05.46, interpretive object record",
-        "publicationDetails": "Antonio Canova's marble Cupid and Psyche, 1794; Metropolitan Museum of Art, European Sculpture and Decorative Arts.",
-        "url": "https://www.metmuseum.org/art/collection/search/188954"
+        "title": "The Golden Asse",
+        "authorOrInstitution": "Lucius Apuleius; translated by William Adlington; Project Gutenberg",
+        "originatingWork": "Apuleius, Metamorphoses (commonly called The Golden Ass)",
+        "location": "‘The Marriage of Cupid and Psyches,’ Adlington chapters 22–23, especially Venus's labors and Jupiter's reunion",
+        "publicationDetails": "William Adlington's English translation, first published in 1566 and presented from the 1639 edition; Project Gutenberg ebook 1666.",
+        "url": "https://www.gutenberg.org/files/1666/1666-h/1666-h.htm"
       },
-      "verificationNotes": "The Met record identifies the tale as an episode in Apuleius's Latin novel and summarizes Cupid's prohibited nocturnal visits, Psyche's attempt to see him, Aphrodite's punishment, and the lovers' reunion. The assignment is a resonance, not proof that the story models consent, equality, or the entire Devotion–Sovereignty balance.",
+      "verificationNotes": "The primary text describes the broken hidden marriage, then explicitly gives Psyche Venus's mixed-grain, golden-fleece, Styx-water, and underworld labors before Jupiter makes Psyche immortal and reunites her with Cupid. The assignment is a resonance, not proof that the story models consent, equality, or the entire Devotion–Sovereignty balance.",
       "verificationStatus": "verified",
       "culturalContextNote": "Recorded specifically as the Roman literary version associated with Apuleius. It is not equated with figures from other traditions, and its dynamics are not prescribed as relationship ideals.",
       "accessDate": "2026-07-31"
@@ -32,15 +32,14 @@
       "tradition": "Roman literary tradition",
       "relevantFunction": "After losing independent speech, Echo can answer only with another person's last words. She follows Narcissus, her unreturned fixation grows under rejection, and her body wastes until only her voice remains. The resonance makes lost voice and self-erasure legible within enmeshment.",
       "source": {
-        "title": "Ovid, Metamorphoses, Book 3, lines 337–434",
-        "authorOrInstitution": "Perseus Digital Library, Tufts University",
+        "title": "The Metamorphoses of Ovid, Volume I, Books I–VII",
+        "authorOrInstitution": "Ovid; translated by Henry Thomas Riley; Project Gutenberg",
         "originatingWork": "Ovid, Metamorphoses",
-        "location": "book 3, lines 337–434",
-        "publicationDetails": "English translation by Brookes More (Boston: Cornhill Publishing Co., 1922), digitized by Perseus with National Endowment for the Humanities support.",
-        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0028%3Abook%3D3%3Acard%3D337",
-        "stableCitationUri": "http://data.perseus.org/citations/urn:cts:latinLit:phi0959.phi006.perseus-eng1:3.337-3.434"
+        "location": "book 3, fable VI, lines 362–401 and 402–413 in the Riley edition",
+        "publicationDetails": "English translation by Henry Thomas Riley (1851), reprinted by George Bell & Sons in 1893 and David McKay around 1899; Project Gutenberg ebook 21765.",
+        "url": "https://www.gutenberg.org/files/21765/21765-h/21765-h.htm"
       },
-      "verificationNotes": "The cited passage establishes Echo's restricted speech, pursuit of Narcissus, rejection, wasting body, and surviving voice. The assignment describes a shadow resonance; it neither blames Echo for punishment and rejection nor treats survivors of unreturned love as pathological.",
+      "verificationNotes": "The accessible primary text establishes Echo's inability to speak first, repetition of another person's final words, pursuit of Narcissus, rejection, wasting body, and surviving voice. The assignment describes a shadow resonance; it neither blames Echo for punishment and rejection nor treats survivors of unreturned love as pathological.",
       "verificationStatus": "verified",
       "culturalContextNote": "Recorded as Ovid's Roman literary telling. No equivalence is asserted with similar figures, spirits, or motifs in other traditions.",
       "accessDate": "2026-07-31"
@@ -54,16 +53,14 @@
       "tradition": "Danish literary tradition",
       "relevantFunction": "Her beauty and brilliant order inhabit an empty, frigid palace; her kisses chill Kai's heart and memory until warmth and tears undo the ice. The figure resonates with defended splendor, reason severed from affection, and contact frozen into untouchability.",
       "source": {
-        "title": "The Snow Queen",
-        "authorOrInstitution": "Hans Christian Andersen Centre, University of Southern Denmark",
+        "title": "Andersen's Fairy Tales",
+        "authorOrInstitution": "Hans Christian Andersen; Project Gutenberg",
         "originatingWork": "Hans Christian Andersen, The Snow Queen",
-        "location": "Jean Hersholt English translation, especially stories 2, 5, and 7",
-        "publicationDetails": "First published December 21, 1844, in Nye Eventyr. Første Bind. Anden Samling. 1845; Hersholt translation published in The Complete Andersen, six volumes (New York, 1949).",
-        "url": "https://andersen.sdu.dk/vaerk/hersholt/TheSnowQueen_e.html?oph=1",
-        "publicationEvidenceUrl": "https://andersen.sdu.dk/vaerk/register/info_e.html?vid=68",
-        "translationEvidenceUrl": "https://andersen.sdu.dk/vaerk/hersholt/om_e.html"
+        "location": "‘The Snow Queen,’ especially stories 2, 6, and 7",
+        "publicationDetails": "English public-domain collection text in Project Gutenberg ebook 1597; the Danish tale was first published in 1844.",
+        "url": "https://www.gutenberg.org/files/1597/1597-h/1597-h.htm"
       },
-      "verificationNotes": "The university-hosted text describes the Snow Queen's ice-bright lack of peace, her empty palace and Mirror of Reason, her kisses that freeze Kai's heart and memory, and the warmth and tears that melt the ice. The assignment is an image for the shadow's emotional structure, not a diagnostic label for women or a claim that intellect itself is cold.",
+      "verificationNotes": "The primary text describes the Snow Queen's second kiss making Kay forget Gerda, her empty halls of ice, Kay's heart as a lump of ice, and Gerda's warm tears melting it. The assignment is an image for the shadow's emotional structure, not a diagnostic label for women or a claim that intellect itself is cold.",
       "verificationStatus": "verified",
       "culturalContextNote": "Recorded as Andersen's nineteenth-century Danish literary fairy tale, not as an inherited sacred figure or a cross-cultural equivalent.",
       "accessDate": "2026-07-31"

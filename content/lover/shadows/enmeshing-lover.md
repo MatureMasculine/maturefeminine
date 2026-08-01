@@ -36,7 +36,7 @@ Lost as a light is lost in light.”
 
 - Lifecycle stage: Lover
 - Core function: Devotion without Sovereignty
-- Balanced qualities: Devotion + Sovereignty
+- Balanced qualities: Mature Lover = Devotion + Sovereignty
 - Active shadow: Enmeshing Lover
 - Passive shadow: Armored Lover
 - Mythic resonances: Echo (Roman literary tradition)
@@ -91,13 +91,13 @@ Shrinks friendships, projects, and privacy around one bond
 
 ## Restoring a Distinct Self
 
-- Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.
-- Name a personal preference before asking what the other person wants, even when the two answers may conflict.
-- Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.
-- Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.
-- Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.
-- Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.
-- Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.
+- We ask, “Was this requested?” before helping; when it was not, we wait or make a clean offer that permits refusal.
+- We name a personal preference before asking what the other person wants, even when the two answers may conflict.
+- We place a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.
+- We replace an invisible contract with a direct request for the care, reassurance, time, or commitment actually wanted.
+- We keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.
+- We practice a renewable yes by noticing bodily willingness, naming the scope, and making clear that consent can change.
+- We retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.
 
 ## The Swing Toward Armor
 
@@ -121,4 +121,4 @@ The Enmeshing Lover does not need less heart. She needs a place to stand while l
 
 “I do not wish them to have power over men; but over themselves.”
 
-—Mary Wollstonecraft, A Vindication of the Rights of Woman, chapter 3
+—Mary Wollstonecraft, *A Vindication of the Rights of Woman*, chapter 3

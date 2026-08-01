@@ -1496,7 +1496,7 @@
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.",
-            "balancedQualities": "Devotion + Sovereignty",
+            "balancedQualities": "Mature Lover = Devotion + Sovereignty",
             "activeShadow": "Enmeshing Lover",
             "passiveShadow": "Armored Lover",
             "mythicResonances": "Psyche (Greco-Roman literary tradition)",
@@ -1504,19 +1504,19 @@
           },
           "quotes": {
             "opening": "“I love thee freely, as men strive for Right;\nI love thee purely, as they turn from Praise.”\n\n—Elizabeth Barrett Browning, “Sonnet 43,” lines 7–8",
-            "closing": "“To be together is for us to be at once as free as in solitude, as gay as in company.”\n\n—Charlotte Brontë, Jane Eyre, “Conclusion,” chapter 38"
+            "closing": "“Give your hearts, but not into each other’s keeping.\nFor only the hand of Life can contain your hearts.”\n\n—Kahlil Gibran, *The Prophet*, “On Marriage”"
           },
           "research": {
             "status": "verified",
             "quoteIds": [
               "quote-lover-opening-browning-sonnet-43",
-              "quote-lover-closing-bronte-jane-eyre"
+              "quote-lover-closing-gibran-on-marriage"
             ],
             "mythicResonances": [
               "Psyche (Greco-Roman literary tradition)"
             ],
             "mythicSourceIds": [
-              "myth-lover-psyche-apuleius-met"
+              "myth-lover-psyche-apuleius-golden-ass"
             ]
           },
           "sourceFile": "lover/archetypes/lover.md",
@@ -1588,7 +1588,7 @@
             {
               "role": "practices",
               "heading": "Practices of Intimate Freedom",
-              "content": "- Divide a page into “ours” and “mine.” Name the promises, decisions, time, and responsibilities that belong in each column.\n- Before escalating intimacy, ask what is wanted now, what remains undecided, and how either person can pause without penalty.\n- Make one direct request and allow the answer to be no; do not improve the offer, punish the refusal, or withdraw affection.\n- Keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.\n- Examine a sacrifice before offering it: Was it requested? Is it freely chosen, sustainable, and open to revision?\n- After self-abandonment or defended withdrawal, name the exact moment contact was lost and propose one observable repair.",
+              "content": "- We divide a page into “ours” and “mine,” then name the promises, decisions, time, and responsibilities that belong in each column.\n- We ask what is wanted now, what remains undecided, and how either person can pause without penalty before escalating intimacy.\n- We make one direct request and allow the answer to be no; we neither improve the offer, punish the refusal, nor withdraw affection.\n- We keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.\n- We examine a sacrifice before offering it by asking whether it was requested, freely chosen, sustainable, and open to revision.\n- We name the exact moment contact was lost after self-abandonment or defended withdrawal, then propose one observable repair.",
               "subsections": []
             },
             {
@@ -1616,12 +1616,12 @@
             "applications": "The Lover treats desire as information, neither an order nor an embarrassment.\n\n### Inner Life\n\nShe notices what draws her and asks whether it can be welcomed with integrity. A bodily yes does not cancel practical judgment; a bodily no is not something affection must overcome. Pleasure and reluctance both receive a hearing.\n\n### Relationship\n\nIn close relationship, she permits dependence without making it total. People may matter to one another enough to grieve, need, disappoint, and repair. She asks directly rather than arranging a test, and she can hear a boundary without translating it into rejection. Consent stays alive after the first yes. It can become more specific, change pace, or be withdrawn.\n\n### Work and Shared Purpose\n\nThe devoted-consort aspect of the Lover joins a common undertaking without handing over conscience. She can support another person's leadership, carry an unglamorous share, and remain loyal through difficulty. She also speaks when the mission departs from its stated values. Her judgment strengthens shared purpose.\n\n### Community and Creation\n\nHer relational gift warms a team or community without demanding that everyone become intimate. In creative life, devotion helps her return to the work after novelty fades, while sovereignty keeps praise and criticism from becoming commands. She loves the work enough to serve it and enough to let it meet a world she cannot control.",
             "giftsResponsibilitiesChallenges": "The Lover's gifts are warmth, erotic vitality, loyalty, delight, and the courage to be affected. As Beloved, she receives attention without turning admiration into rank. She lets care arrive and answers it freely rather than performing helplessness or perfection.\n\nThese gifts carry responsibilities. She must keep consent renewable, make hidden expectations speakable, and protect obligations outside the bond. She must notice when sacrifice has become a bid for control, when loyalty conceals fear, or when sensuality is being used to avoid a necessary conversation. Her challenge is to remain available through ordinariness. Mature devotion survives laundry, deadlines, changed bodies, unequal seasons of capacity, and the discovery that no beloved can complete an unlived life.\n\nLove also brings grief within range. Sovereignty lets her meet loss without abandoning herself. The Lover learns that being changed is different from being erased and that a bond can end without making its meaning false.",
             "practices": [
-              "Divide a page into “ours” and “mine.” Name the promises, decisions, time, and responsibilities that belong in each column.",
-              "Before escalating intimacy, ask what is wanted now, what remains undecided, and how either person can pause without penalty.",
-              "Make one direct request and allow the answer to be no; do not improve the offer, punish the refusal, or withdraw affection.",
-              "Keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.",
-              "Examine a sacrifice before offering it: Was it requested? Is it freely chosen, sustainable, and open to revision?",
-              "After self-abandonment or defended withdrawal, name the exact moment contact was lost and propose one observable repair."
+              "We divide a page into “ours” and “mine,” then name the promises, decisions, time, and responsibilities that belong in each column.",
+              "We ask what is wanted now, what remains undecided, and how either person can pause without penalty before escalating intimacy.",
+              "We make one direct request and allow the answer to be no; we neither improve the offer, punish the refusal, nor withdraw affection.",
+              "We keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.",
+              "We examine a sacrifice before offering it by asking whether it was requested, freely chosen, sustainable, and open to revision.",
+              "We name the exact moment contact was lost after self-abandonment or defended withdrawal, then propose one observable repair."
             ],
             "conclusion": "Living as the Lover means letting what matters have real consequence without giving it possession of the self. She can bow, follow, receive, lead, refuse, and return. Her surrender has dignity because it is chosen; her sovereignty has warmth because it remains open to influence. She offers neither disappearance nor invulnerability as proof of love. She offers a whole participant, capable of keeping faith and capable of choosing again."
           },
@@ -1652,7 +1652,7 @@
               "profile": {
                 "lifecycleStage": "Lover",
                 "coreFunction": "Devotion without Sovereignty",
-                "balancedQualities": "Devotion + Sovereignty",
+                "balancedQualities": "Mature Lover = Devotion + Sovereignty",
                 "activeShadow": "Enmeshing Lover",
                 "passiveShadow": "Armored Lover",
                 "mythicResonances": "Echo (Roman literary tradition)",
@@ -1660,7 +1660,7 @@
               },
               "quotes": {
                 "opening": "“You love me, and I find you still\nA spirit beautiful and bright,\nYet I am I, who long to be\nLost as a light is lost in light.”\n\n—Sara Teasdale, “I Am Not Yours,” stanza 2",
-                "closing": "“I do not wish them to have power over men; but over themselves.”\n\n—Mary Wollstonecraft, A Vindication of the Rights of Woman, chapter 3"
+                "closing": "“I do not wish them to have power over men; but over themselves.”\n\n—Mary Wollstonecraft, *A Vindication of the Rights of Woman*, chapter 3"
               },
               "research": {
                 "status": "verified",
@@ -1713,7 +1713,7 @@
                 {
                   "role": "practices",
                   "heading": "Restoring a Distinct Self",
-                  "content": "- Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.\n- Name a personal preference before asking what the other person wants, even when the two answers may conflict.\n- Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.\n- Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.\n- Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.\n- Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.\n- Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.",
+                  "content": "- We ask, “Was this requested?” before helping; when it was not, we wait or make a clean offer that permits refusal.\n- We name a personal preference before asking what the other person wants, even when the two answers may conflict.\n- We place a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.\n- We replace an invisible contract with a direct request for the care, reassurance, time, or commitment actually wanted.\n- We keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.\n- We practice a renewable yes by noticing bodily willingness, naming the scope, and making clear that consent can change.\n- We retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.",
                   "subsections": []
                 },
                 {
@@ -1752,13 +1752,13 @@
                 "hiddenEnergy": "The shadow carries real gifts in distorted form. Her attunement can notice nuance; her erotic vitality can enliven contact; her loyalty can sustain a difficult promise; her willingness to yield can deepen trust. Integration does not require becoming less ardent. It separates these capacities from the task of guaranteeing another person's response.\n\nWhen Sovereignty returns, attunement becomes curiosity instead of mind-reading. Service becomes an offer that can be accepted, declined, or renegotiated. Surrender becomes a bounded act by an intact self. Her longing can remain strong without being placed in charge of both people.",
                 "recognition": "Accelerates intimacy and treats a pause as rejection\n\nVolunteers at work and reads limits as disloyalty\n\nRehearses another person's mood before naming her own\n\nOverrides hunger, fatigue, pain, or reluctance to stay pleasing\n\nUses gifts, sex, service, or crisis to obtain reassurance indirectly\n\nShrinks friendships, projects, and privacy around one bond",
                 "practices": [
-                  "Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.",
-                  "Name a personal preference before asking what the other person wants, even when the two answers may conflict.",
-                  "Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.",
-                  "Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.",
-                  "Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.",
-                  "Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.",
-                  "Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love."
+                  "We ask, “Was this requested?” before helping; when it was not, we wait or make a clean offer that permits refusal.",
+                  "We name a personal preference before asking what the other person wants, even when the two answers may conflict.",
+                  "We place a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.",
+                  "We replace an invisible contract with a direct request for the care, reassurance, time, or commitment actually wanted.",
+                  "We keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.",
+                  "We practice a renewable yes by noticing bodily willingness, naming the scope, and making clear that consent can change.",
+                  "We retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love."
                 ],
                 "oppositeShadow": "The Enmeshing Lover can swing toward the Armored Lover after exhaustion, humiliation, or resentment. She may decide that needing anyone was the mistake and replace constant reach with abrupt distance. The Armored Lover protects Sovereignty by collapsing Devotion; the Enmeshing Lover protects Devotion by abandoning Sovereignty. Both avoid the slower risk of mutual influence between distinct people.\n\nRecognizing the swing prevents overcorrection. A boundary need not become disappearance. Time alone need not punish anyone. The goal is enough distance to recover choice while remaining honest about care.",
                 "transformation": "These practices may feel undevotional at first because uncertainty returns. That uncertainty is part of mutual relationship. No technique can force a free person to stay, and no sacrifice can make consent permanent.\n\nTransformation begins when she can locate herself before she moves toward the beloved. What do I feel? What do I want? What has actually been asked of me? What remains mine to decide? Each answered question restores the participant whose absence made closeness coercive.\n\nWith Sovereignty present, she can tolerate a delayed reply, a separate friendship, a difference of opinion, or a no. She can grieve when a bond cannot meet her without bargaining away her dignity. Her devotion becomes more trustworthy because it is no longer an emergency measure.",
@@ -1790,7 +1790,7 @@
               "profile": {
                 "lifecycleStage": "Lover",
                 "coreFunction": "Devotion collapses while Sovereignty distorts",
-                "balancedQualities": "Devotion + Sovereignty",
+                "balancedQualities": "Mature Lover = Devotion + Sovereignty",
                 "activeShadow": "Enmeshing Lover",
                 "passiveShadow": "Armored Lover",
                 "mythicResonances": "The Snow Queen (Danish literary tradition)",
@@ -1798,7 +1798,7 @@
               },
               "quotes": {
                 "opening": "“We outgrow love like other things\nAnd put it in the drawer,\nTill it an antique fashion shows\nLike costumes grandsires wore.”\n\n—Emily Dickinson, “We outgrow love like other things,” Franklin 1094",
-                "closing": "“She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”\n\n—Jane Austen, Persuasion, chapter 4"
+                "closing": "“She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”\n\n—Jane Austen, *Persuasion*, chapter 4"
               },
               "research": {
                 "status": "verified",
@@ -1851,7 +1851,7 @@
                 {
                   "role": "practices",
                   "heading": "Restoring Chosen Devotion",
-                  "content": "- Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.\n- Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.\n- Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.\n- Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.\n- Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.\n- Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.\n- Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second.",
+                  "content": "- We name one ordinary want with a trustworthy person—“I want,” “I miss,” or “I need”—and stop before explaining why it is reasonable.\n- We receive one finite act of care and answer with thanks, letting repayment wait long enough for receiving to register.\n- We stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.\n- We accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.\n- We make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.\n- We name the safe scope and exit before disclosure: what will be shared, with whom, and what would end the conversation.\n- We distinguish present danger from the discomfort of mattering, honoring the first and taking one measured step toward the second.",
                   "subsections": []
                 },
                 {
@@ -1890,13 +1890,13 @@
                 "hiddenEnergy": "Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.\n\nWhen Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.",
                 "recognition": "Keeps intimacy articulate but emotionally negotiated\n\nTurns tenderness into analysis, humor, or sexual performance\n\nLeaves when another person matters enough to disappoint her\n\nReceives admiration while concealing ordinary need\n\nTreats help as debt and influence as loss of rank\n\nHolds the body composed when grief or affection asks it to soften",
                 "practices": [
-                  "Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.",
-                  "Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.",
-                  "Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.",
-                  "Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.",
-                  "Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.",
-                  "Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.",
-                  "Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second."
+                  "We name one ordinary want with a trustworthy person—“I want,” “I miss,” or “I need”—and stop before explaining why it is reasonable.",
+                  "We receive one finite act of care and answer with thanks, letting repayment wait long enough for receiving to register.",
+                  "We stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.",
+                  "We accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.",
+                  "We make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.",
+                  "We name the safe scope and exit before disclosure: what will be shared, with whom, and what would end the conversation.",
+                  "We distinguish present danger from the discomfort of mattering, honoring the first and taking one measured step toward the second."
                 ],
                 "oppositeShadow": "The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.\n\nBoth shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.",
                 "transformation": "Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.\n\nTransformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.\n\nAs devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.",
@@ -10446,7 +10446,7 @@
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.",
-        "balancedQualities": "Devotion + Sovereignty",
+        "balancedQualities": "Mature Lover = Devotion + Sovereignty",
         "activeShadow": "Enmeshing Lover",
         "passiveShadow": "Armored Lover",
         "mythicResonances": "Psyche (Greco-Roman literary tradition)",
@@ -10454,19 +10454,19 @@
       },
       "quotes": {
         "opening": "“I love thee freely, as men strive for Right;\nI love thee purely, as they turn from Praise.”\n\n—Elizabeth Barrett Browning, “Sonnet 43,” lines 7–8",
-        "closing": "“To be together is for us to be at once as free as in solitude, as gay as in company.”\n\n—Charlotte Brontë, Jane Eyre, “Conclusion,” chapter 38"
+        "closing": "“Give your hearts, but not into each other’s keeping.\nFor only the hand of Life can contain your hearts.”\n\n—Kahlil Gibran, *The Prophet*, “On Marriage”"
       },
       "research": {
         "status": "verified",
         "quoteIds": [
           "quote-lover-opening-browning-sonnet-43",
-          "quote-lover-closing-bronte-jane-eyre"
+          "quote-lover-closing-gibran-on-marriage"
         ],
         "mythicResonances": [
           "Psyche (Greco-Roman literary tradition)"
         ],
         "mythicSourceIds": [
-          "myth-lover-psyche-apuleius-met"
+          "myth-lover-psyche-apuleius-golden-ass"
         ]
       },
       "sourceFile": "lover/archetypes/lover.md",
@@ -10538,7 +10538,7 @@
         {
           "role": "practices",
           "heading": "Practices of Intimate Freedom",
-          "content": "- Divide a page into “ours” and “mine.” Name the promises, decisions, time, and responsibilities that belong in each column.\n- Before escalating intimacy, ask what is wanted now, what remains undecided, and how either person can pause without penalty.\n- Make one direct request and allow the answer to be no; do not improve the offer, punish the refusal, or withdraw affection.\n- Keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.\n- Examine a sacrifice before offering it: Was it requested? Is it freely chosen, sustainable, and open to revision?\n- After self-abandonment or defended withdrawal, name the exact moment contact was lost and propose one observable repair.",
+          "content": "- We divide a page into “ours” and “mine,” then name the promises, decisions, time, and responsibilities that belong in each column.\n- We ask what is wanted now, what remains undecided, and how either person can pause without penalty before escalating intimacy.\n- We make one direct request and allow the answer to be no; we neither improve the offer, punish the refusal, nor withdraw affection.\n- We keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.\n- We examine a sacrifice before offering it by asking whether it was requested, freely chosen, sustainable, and open to revision.\n- We name the exact moment contact was lost after self-abandonment or defended withdrawal, then propose one observable repair.",
           "subsections": []
         },
         {
@@ -10566,12 +10566,12 @@
         "applications": "The Lover treats desire as information, neither an order nor an embarrassment.\n\n### Inner Life\n\nShe notices what draws her and asks whether it can be welcomed with integrity. A bodily yes does not cancel practical judgment; a bodily no is not something affection must overcome. Pleasure and reluctance both receive a hearing.\n\n### Relationship\n\nIn close relationship, she permits dependence without making it total. People may matter to one another enough to grieve, need, disappoint, and repair. She asks directly rather than arranging a test, and she can hear a boundary without translating it into rejection. Consent stays alive after the first yes. It can become more specific, change pace, or be withdrawn.\n\n### Work and Shared Purpose\n\nThe devoted-consort aspect of the Lover joins a common undertaking without handing over conscience. She can support another person's leadership, carry an unglamorous share, and remain loyal through difficulty. She also speaks when the mission departs from its stated values. Her judgment strengthens shared purpose.\n\n### Community and Creation\n\nHer relational gift warms a team or community without demanding that everyone become intimate. In creative life, devotion helps her return to the work after novelty fades, while sovereignty keeps praise and criticism from becoming commands. She loves the work enough to serve it and enough to let it meet a world she cannot control.",
         "giftsResponsibilitiesChallenges": "The Lover's gifts are warmth, erotic vitality, loyalty, delight, and the courage to be affected. As Beloved, she receives attention without turning admiration into rank. She lets care arrive and answers it freely rather than performing helplessness or perfection.\n\nThese gifts carry responsibilities. She must keep consent renewable, make hidden expectations speakable, and protect obligations outside the bond. She must notice when sacrifice has become a bid for control, when loyalty conceals fear, or when sensuality is being used to avoid a necessary conversation. Her challenge is to remain available through ordinariness. Mature devotion survives laundry, deadlines, changed bodies, unequal seasons of capacity, and the discovery that no beloved can complete an unlived life.\n\nLove also brings grief within range. Sovereignty lets her meet loss without abandoning herself. The Lover learns that being changed is different from being erased and that a bond can end without making its meaning false.",
         "practices": [
-          "Divide a page into “ours” and “mine.” Name the promises, decisions, time, and responsibilities that belong in each column.",
-          "Before escalating intimacy, ask what is wanted now, what remains undecided, and how either person can pause without penalty.",
-          "Make one direct request and allow the answer to be no; do not improve the offer, punish the refusal, or withdraw affection.",
-          "Keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.",
-          "Examine a sacrifice before offering it: Was it requested? Is it freely chosen, sustainable, and open to revision?",
-          "After self-abandonment or defended withdrawal, name the exact moment contact was lost and propose one observable repair."
+          "We divide a page into “ours” and “mine,” then name the promises, decisions, time, and responsibilities that belong in each column.",
+          "We ask what is wanted now, what remains undecided, and how either person can pause without penalty before escalating intimacy.",
+          "We make one direct request and allow the answer to be no; we neither improve the offer, punish the refusal, nor withdraw affection.",
+          "We keep one promise to a friendship, craft, bodily need, or private practice when new closeness intensifies.",
+          "We examine a sacrifice before offering it by asking whether it was requested, freely chosen, sustainable, and open to revision.",
+          "We name the exact moment contact was lost after self-abandonment or defended withdrawal, then propose one observable repair."
         ],
         "conclusion": "Living as the Lover means letting what matters have real consequence without giving it possession of the self. She can bow, follow, receive, lead, refuse, and return. Her surrender has dignity because it is chosen; her sovereignty has warmth because it remains open to influence. She offers neither disappearance nor invulnerability as proof of love. She offers a whole participant, capable of keeping faith and capable of choosing again."
       },
@@ -10602,7 +10602,7 @@
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Devotion without Sovereignty",
-            "balancedQualities": "Devotion + Sovereignty",
+            "balancedQualities": "Mature Lover = Devotion + Sovereignty",
             "activeShadow": "Enmeshing Lover",
             "passiveShadow": "Armored Lover",
             "mythicResonances": "Echo (Roman literary tradition)",
@@ -10610,7 +10610,7 @@
           },
           "quotes": {
             "opening": "“You love me, and I find you still\nA spirit beautiful and bright,\nYet I am I, who long to be\nLost as a light is lost in light.”\n\n—Sara Teasdale, “I Am Not Yours,” stanza 2",
-            "closing": "“I do not wish them to have power over men; but over themselves.”\n\n—Mary Wollstonecraft, A Vindication of the Rights of Woman, chapter 3"
+            "closing": "“I do not wish them to have power over men; but over themselves.”\n\n—Mary Wollstonecraft, *A Vindication of the Rights of Woman*, chapter 3"
           },
           "research": {
             "status": "verified",
@@ -10663,7 +10663,7 @@
             {
               "role": "practices",
               "heading": "Restoring a Distinct Self",
-              "content": "- Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.\n- Name a personal preference before asking what the other person wants, even when the two answers may conflict.\n- Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.\n- Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.\n- Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.\n- Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.\n- Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.",
+              "content": "- We ask, “Was this requested?” before helping; when it was not, we wait or make a clean offer that permits refusal.\n- We name a personal preference before asking what the other person wants, even when the two answers may conflict.\n- We place a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.\n- We replace an invisible contract with a direct request for the care, reassurance, time, or commitment actually wanted.\n- We keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.\n- We practice a renewable yes by noticing bodily willingness, naming the scope, and making clear that consent can change.\n- We retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.",
               "subsections": []
             },
             {
@@ -10702,13 +10702,13 @@
             "hiddenEnergy": "The shadow carries real gifts in distorted form. Her attunement can notice nuance; her erotic vitality can enliven contact; her loyalty can sustain a difficult promise; her willingness to yield can deepen trust. Integration does not require becoming less ardent. It separates these capacities from the task of guaranteeing another person's response.\n\nWhen Sovereignty returns, attunement becomes curiosity instead of mind-reading. Service becomes an offer that can be accepted, declined, or renegotiated. Surrender becomes a bounded act by an intact self. Her longing can remain strong without being placed in charge of both people.",
             "recognition": "Accelerates intimacy and treats a pause as rejection\n\nVolunteers at work and reads limits as disloyalty\n\nRehearses another person's mood before naming her own\n\nOverrides hunger, fatigue, pain, or reluctance to stay pleasing\n\nUses gifts, sex, service, or crisis to obtain reassurance indirectly\n\nShrinks friendships, projects, and privacy around one bond",
             "practices": [
-              "Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.",
-              "Name a personal preference before asking what the other person wants, even when the two answers may conflict.",
-              "Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.",
-              "Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.",
-              "Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.",
-              "Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.",
-              "Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love."
+              "We ask, “Was this requested?” before helping; when it was not, we wait or make a clean offer that permits refusal.",
+              "We name a personal preference before asking what the other person wants, even when the two answers may conflict.",
+              "We place a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.",
+              "We replace an invisible contract with a direct request for the care, reassurance, time, or commitment actually wanted.",
+              "We keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.",
+              "We practice a renewable yes by noticing bodily willingness, naming the scope, and making clear that consent can change.",
+              "We retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love."
             ],
             "oppositeShadow": "The Enmeshing Lover can swing toward the Armored Lover after exhaustion, humiliation, or resentment. She may decide that needing anyone was the mistake and replace constant reach with abrupt distance. The Armored Lover protects Sovereignty by collapsing Devotion; the Enmeshing Lover protects Devotion by abandoning Sovereignty. Both avoid the slower risk of mutual influence between distinct people.\n\nRecognizing the swing prevents overcorrection. A boundary need not become disappearance. Time alone need not punish anyone. The goal is enough distance to recover choice while remaining honest about care.",
             "transformation": "These practices may feel undevotional at first because uncertainty returns. That uncertainty is part of mutual relationship. No technique can force a free person to stay, and no sacrifice can make consent permanent.\n\nTransformation begins when she can locate herself before she moves toward the beloved. What do I feel? What do I want? What has actually been asked of me? What remains mine to decide? Each answered question restores the participant whose absence made closeness coercive.\n\nWith Sovereignty present, she can tolerate a delayed reply, a separate friendship, a difference of opinion, or a no. She can grieve when a bond cannot meet her without bargaining away her dignity. Her devotion becomes more trustworthy because it is no longer an emergency measure.",
@@ -10740,7 +10740,7 @@
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Devotion collapses while Sovereignty distorts",
-            "balancedQualities": "Devotion + Sovereignty",
+            "balancedQualities": "Mature Lover = Devotion + Sovereignty",
             "activeShadow": "Enmeshing Lover",
             "passiveShadow": "Armored Lover",
             "mythicResonances": "The Snow Queen (Danish literary tradition)",
@@ -10748,7 +10748,7 @@
           },
           "quotes": {
             "opening": "“We outgrow love like other things\nAnd put it in the drawer,\nTill it an antique fashion shows\nLike costumes grandsires wore.”\n\n—Emily Dickinson, “We outgrow love like other things,” Franklin 1094",
-            "closing": "“She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”\n\n—Jane Austen, Persuasion, chapter 4"
+            "closing": "“She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”\n\n—Jane Austen, *Persuasion*, chapter 4"
           },
           "research": {
             "status": "verified",
@@ -10801,7 +10801,7 @@
             {
               "role": "practices",
               "heading": "Restoring Chosen Devotion",
-              "content": "- Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.\n- Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.\n- Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.\n- Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.\n- Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.\n- Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.\n- Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second.",
+              "content": "- We name one ordinary want with a trustworthy person—“I want,” “I miss,” or “I need”—and stop before explaining why it is reasonable.\n- We receive one finite act of care and answer with thanks, letting repayment wait long enough for receiving to register.\n- We stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.\n- We accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.\n- We make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.\n- We name the safe scope and exit before disclosure: what will be shared, with whom, and what would end the conversation.\n- We distinguish present danger from the discomfort of mattering, honoring the first and taking one measured step toward the second.",
               "subsections": []
             },
             {
@@ -10840,13 +10840,13 @@
             "hiddenEnergy": "Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.\n\nWhen Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.",
             "recognition": "Keeps intimacy articulate but emotionally negotiated\n\nTurns tenderness into analysis, humor, or sexual performance\n\nLeaves when another person matters enough to disappoint her\n\nReceives admiration while concealing ordinary need\n\nTreats help as debt and influence as loss of rank\n\nHolds the body composed when grief or affection asks it to soften",
             "practices": [
-              "Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.",
-              "Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.",
-              "Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.",
-              "Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.",
-              "Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.",
-              "Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.",
-              "Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second."
+              "We name one ordinary want with a trustworthy person—“I want,” “I miss,” or “I need”—and stop before explaining why it is reasonable.",
+              "We receive one finite act of care and answer with thanks, letting repayment wait long enough for receiving to register.",
+              "We stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.",
+              "We accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.",
+              "We make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.",
+              "We name the safe scope and exit before disclosure: what will be shared, with whom, and what would end the conversation.",
+              "We distinguish present danger from the discomfort of mattering, honoring the first and taking one measured step toward the second."
             ],
             "oppositeShadow": "The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.\n\nBoth shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.",
             "transformation": "Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.\n\nTransformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.\n\nAs devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.",
@@ -10881,7 +10881,7 @@
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Devotion without Sovereignty",
-        "balancedQualities": "Devotion + Sovereignty",
+        "balancedQualities": "Mature Lover = Devotion + Sovereignty",
         "activeShadow": "Enmeshing Lover",
         "passiveShadow": "Armored Lover",
         "mythicResonances": "Echo (Roman literary tradition)",
@@ -10889,7 +10889,7 @@
       },
       "quotes": {
         "opening": "“You love me, and I find you still\nA spirit beautiful and bright,\nYet I am I, who long to be\nLost as a light is lost in light.”\n\n—Sara Teasdale, “I Am Not Yours,” stanza 2",
-        "closing": "“I do not wish them to have power over men; but over themselves.”\n\n—Mary Wollstonecraft, A Vindication of the Rights of Woman, chapter 3"
+        "closing": "“I do not wish them to have power over men; but over themselves.”\n\n—Mary Wollstonecraft, *A Vindication of the Rights of Woman*, chapter 3"
       },
       "research": {
         "status": "verified",
@@ -10942,7 +10942,7 @@
         {
           "role": "practices",
           "heading": "Restoring a Distinct Self",
-          "content": "- Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.\n- Name a personal preference before asking what the other person wants, even when the two answers may conflict.\n- Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.\n- Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.\n- Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.\n- Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.\n- Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.",
+          "content": "- We ask, “Was this requested?” before helping; when it was not, we wait or make a clean offer that permits refusal.\n- We name a personal preference before asking what the other person wants, even when the two answers may conflict.\n- We place a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.\n- We replace an invisible contract with a direct request for the care, reassurance, time, or commitment actually wanted.\n- We keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.\n- We practice a renewable yes by noticing bodily willingness, naming the scope, and making clear that consent can change.\n- We retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love.",
           "subsections": []
         },
         {
@@ -10981,13 +10981,13 @@
         "hiddenEnergy": "The shadow carries real gifts in distorted form. Her attunement can notice nuance; her erotic vitality can enliven contact; her loyalty can sustain a difficult promise; her willingness to yield can deepen trust. Integration does not require becoming less ardent. It separates these capacities from the task of guaranteeing another person's response.\n\nWhen Sovereignty returns, attunement becomes curiosity instead of mind-reading. Service becomes an offer that can be accepted, declined, or renegotiated. Surrender becomes a bounded act by an intact self. Her longing can remain strong without being placed in charge of both people.",
         "recognition": "Accelerates intimacy and treats a pause as rejection\n\nVolunteers at work and reads limits as disloyalty\n\nRehearses another person's mood before naming her own\n\nOverrides hunger, fatigue, pain, or reluctance to stay pleasing\n\nUses gifts, sex, service, or crisis to obtain reassurance indirectly\n\nShrinks friendships, projects, and privacy around one bond",
         "practices": [
-          "Before helping, ask, “Was this requested?” If it was not, wait or make a clean offer that permits refusal.",
-          "Name a personal preference before asking what the other person wants, even when the two answers may conflict.",
-          "Put a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.",
-          "Replace an invisible contract with a direct request: name the care, reassurance, time, or commitment actually wanted.",
-          "Keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.",
-          "Practice a renewable yes: notice bodily willingness, name the scope, and make clear that consent can change.",
-          "Retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love."
+          "We ask, “Was this requested?” before helping; when it was not, we wait or make a clean offer that permits refusal.",
+          "We name a personal preference before asking what the other person wants, even when the two answers may conflict.",
+          "We place a day's pause between the urge to escalate and a new promise, disclosure, rescue, or sacrifice.",
+          "We replace an invisible contract with a direct request for the care, reassurance, time, or commitment actually wanted.",
+          "We keep regular time for sleep, food, movement, friendship, work, and privacy when a bond becomes intense.",
+          "We practice a renewable yes by noticing bodily willingness, naming the scope, and making clear that consent can change.",
+          "We retract an unsustainable offer plainly, without blaming the person who accepted it or demanding proof of love."
         ],
         "oppositeShadow": "The Enmeshing Lover can swing toward the Armored Lover after exhaustion, humiliation, or resentment. She may decide that needing anyone was the mistake and replace constant reach with abrupt distance. The Armored Lover protects Sovereignty by collapsing Devotion; the Enmeshing Lover protects Devotion by abandoning Sovereignty. Both avoid the slower risk of mutual influence between distinct people.\n\nRecognizing the swing prevents overcorrection. A boundary need not become disappearance. Time alone need not punish anyone. The goal is enough distance to recover choice while remaining honest about care.",
         "transformation": "These practices may feel undevotional at first because uncertainty returns. That uncertainty is part of mutual relationship. No technique can force a free person to stay, and no sacrifice can make consent permanent.\n\nTransformation begins when she can locate herself before she moves toward the beloved. What do I feel? What do I want? What has actually been asked of me? What remains mine to decide? Each answered question restores the participant whose absence made closeness coercive.\n\nWith Sovereignty present, she can tolerate a delayed reply, a separate friendship, a difference of opinion, or a no. She can grieve when a bond cannot meet her without bargaining away her dignity. Her devotion becomes more trustworthy because it is no longer an emergency measure.",
@@ -11019,7 +11019,7 @@
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Devotion collapses while Sovereignty distorts",
-        "balancedQualities": "Devotion + Sovereignty",
+        "balancedQualities": "Mature Lover = Devotion + Sovereignty",
         "activeShadow": "Enmeshing Lover",
         "passiveShadow": "Armored Lover",
         "mythicResonances": "The Snow Queen (Danish literary tradition)",
@@ -11027,7 +11027,7 @@
       },
       "quotes": {
         "opening": "“We outgrow love like other things\nAnd put it in the drawer,\nTill it an antique fashion shows\nLike costumes grandsires wore.”\n\n—Emily Dickinson, “We outgrow love like other things,” Franklin 1094",
-        "closing": "“She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”\n\n—Jane Austen, Persuasion, chapter 4"
+        "closing": "“She had been forced into prudence in her youth, she learned romance as she grew older—the natural sequel of an unnatural beginning.”\n\n—Jane Austen, *Persuasion*, chapter 4"
       },
       "research": {
         "status": "verified",
@@ -11080,7 +11080,7 @@
         {
           "role": "practices",
           "heading": "Restoring Chosen Devotion",
-          "content": "- Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.\n- Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.\n- Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.\n- Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.\n- Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.\n- Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.\n- Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second.",
+          "content": "- We name one ordinary want with a trustworthy person—“I want,” “I miss,” or “I need”—and stop before explaining why it is reasonable.\n- We receive one finite act of care and answer with thanks, letting repayment wait long enough for receiving to register.\n- We stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.\n- We accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.\n- We make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.\n- We name the safe scope and exit before disclosure: what will be shared, with whom, and what would end the conversation.\n- We distinguish present danger from the discomfort of mattering, honoring the first and taking one measured step toward the second.",
           "subsections": []
         },
         {
@@ -11119,13 +11119,13 @@
         "hiddenEnergy": "Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.\n\nWhen Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.",
         "recognition": "Keeps intimacy articulate but emotionally negotiated\n\nTurns tenderness into analysis, humor, or sexual performance\n\nLeaves when another person matters enough to disappoint her\n\nReceives admiration while concealing ordinary need\n\nTreats help as debt and influence as loss of rank\n\nHolds the body composed when grief or affection asks it to soften",
         "practices": [
-          "Name one ordinary want with a trustworthy person: “I want,” “I miss,” or “I need.” Stop before explaining why it is reasonable.",
-          "Receive one finite act of care and answer with thanks; let repayment wait long enough for receiving to register.",
-          "Stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.",
-          "Accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.",
-          "Make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.",
-          "Before disclosure, name the safe scope and exit: what will be shared, with whom, and what would end the conversation.",
-          "Distinguish present danger from the discomfort of mattering. Honor the first; take one measured step toward the second."
+          "We name one ordinary want with a trustworthy person—“I want,” “I miss,” or “I need”—and stop before explaining why it is reasonable.",
+          "We receive one finite act of care and answer with thanks, letting repayment wait long enough for receiving to register.",
+          "We stay with warmth, ache, or tenderness in the body for 90 seconds before analyzing, joking, or changing the subject.",
+          "We accept one low-stakes influence, such as a changed plan or useful suggestion, and name the choice plainly.",
+          "We make a specific bid for contact, put it on the calendar, and follow through instead of waiting to be pursued.",
+          "We name the safe scope and exit before disclosure: what will be shared, with whom, and what would end the conversation.",
+          "We distinguish present danger from the discomfort of mattering, honoring the first and taking one measured step toward the second."
         ],
         "oppositeShadow": "The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.\n\nBoth shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.",
         "transformation": "Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.\n\nTransformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.\n\nAs devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.",

@@ -316,6 +316,36 @@ test("body sections render full Markdown and normalized subsections", () => {
   assert.match(html, /<blockquote>/);
 });
 
+test("renderQuote preserves poem lineation and renders a separate semantic citation", () => {
+  const { renderQuote } = loadConfiguration().filters;
+  assert.equal(typeof renderQuote, "function", "renderQuote filter must be registered");
+
+  const html = renderQuote("“Line one\nLine two.”\n\n—Poet, *Book*, lines 1–2");
+
+  assert.match(html, /<span class="entry-quote-text">“Line one<br>\nLine two\.”<\/span>/);
+  assert.match(html, /<cite class="entry-quote-attribution">—Poet, <em>Book<\/em>, lines 1–2<\/cite>/);
+  assert.ok(html.indexOf("entry-quote-attribution") > html.indexOf("entry-quote-text"));
+});
+
+test("renderQuote separates prose attribution only after a blank line", () => {
+  const { renderQuote } = loadConfiguration().filters;
+
+  const html = renderQuote("“Wholehearted prose remains one line.”\n\n—Writer, *Title*");
+
+  assert.match(html, /<span class="entry-quote-text">“Wholehearted prose remains one line\.”<\/span>/);
+  assert.match(html, /<cite class="entry-quote-attribution">—Writer, <em>Title<\/em><\/cite>/);
+});
+
+test("renderQuote escapes raw HTML while retaining safe Markdown title emphasis", () => {
+  const { renderQuote } = loadConfiguration().filters;
+
+  const html = renderQuote("<img src=x onerror=alert(1)>\n\n—Writer, *<script>alert(2)</script>*");
+
+  assert.doesNotMatch(html, /<(?:img|script)\b/i);
+  assert.match(html, /&lt;img src=x onerror=alert\(1\)&gt;/);
+  assert.match(html, /<em>&lt;script&gt;alert\(2\)&lt;\/script&gt;<\/em>/);
+});
+
 test("search indexes emitted metadata and exposes it to the no-index fallback", () => {
   assert.ifError(buildError);
   const script = fs.readFileSync("src/assets/main.js", "utf8");

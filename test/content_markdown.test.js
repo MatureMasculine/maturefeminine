@@ -51,7 +51,7 @@ Opening quotation text.
 
 - Lifecycle stage: Maiden
 - Core function: Expand life's range through intelligent, accountable risk.
-- Balanced qualities: Daring + Prudence
+- Balanced qualities: Mature Adventurer = Daring + Prudence
 - Active shadow: Reckless Wanderer
 - Passive shadow: Sheltered Dreamer
 - Mythic resonances: Artemis (Greek)
@@ -138,7 +138,7 @@ Opening quotation text.
 
 - Lifecycle stage: Maiden
 - Core function: ${active ? "Daring without Prudence" : "Daring collapses while Prudence distorts"}
-- Balanced qualities: Daring + Prudence
+- Balanced qualities: Mature Adventurer = Daring + Prudence
 - Active shadow: Reckless Wanderer
 - Passive shadow: Sheltered Dreamer
 - Mythic resonances: ${active ? "Phaethon (Greek)" : "Sleeping Beauty (literary)"}
@@ -592,6 +592,64 @@ test("structural validation rejects printed profile drift from normalized metada
   book.entries[0].profile.mythicResonances = "Unverified Figure";
 
   assert.throws(() => validateBook(book), /profile mythic resonance drift/i);
+});
+
+test("pending entries may retain the abbreviated balance pair", () => {
+  const book = loadBook(fixture());
+  for (const entry of book.entries) {
+    entry.research.status = "pending";
+    entry.profile.balancedQualities = "Daring + Prudence";
+  }
+
+  assert.doesNotThrow(() => validateBook(book));
+});
+
+test("verified parent and shadow profiles accept the literal parent-linked balance equation", () => {
+  const book = loadBook(fixture());
+  for (const entry of book.entries) {
+    entry.profile.balancedQualities = "Mature Adventurer = Daring + Prudence";
+  }
+
+  assert.doesNotThrow(() => validateBook(book));
+});
+
+test("verified profiles reject an abbreviated balance pair", () => {
+  const book = loadBook(fixture());
+  for (const entry of book.entries) {
+    entry.profile.balancedQualities = "Daring + Prudence";
+  }
+
+  assert.throws(
+    () => validateBook(book),
+    /profile quality drift: expected Mature Adventurer = Daring \+ Prudence/i,
+  );
+});
+
+test("verified shadow profiles reject an equation naming the wrong parent", () => {
+  const book = loadBook(fixture());
+  for (const entry of book.entries) {
+    entry.profile.balancedQualities = "Mature Adventurer = Daring + Prudence";
+  }
+  const active = book.entries.find((entry) => entry.slug === "reckless-wanderer");
+  active.profile.balancedQualities = "Mature Reckless Wanderer = Daring + Prudence";
+
+  assert.throws(
+    () => validateBook(book),
+    /profile quality drift: expected Mature Adventurer = Daring \+ Prudence/i,
+  );
+});
+
+test("calibrated Lover trio practices use shared we/our invitations", () => {
+  const book = loadBook(contentDir);
+  const trio = ["lover", "enmeshing-lover", "armored-lover"]
+    .map((slug) => book.entries.find((entry) => entry.slug === slug));
+
+  for (const entry of trio) {
+    assert.ok(entry, "calibrated Lover trio entry must exist");
+    for (const practice of entry.sections.practices) {
+      assert.match(practice, /^(?:We|Our)\b/, `${entry.slug}: ${practice}`);
+    }
+  }
 });
 
 test("structural validation rejects shadow profile key qualities that drift from Recognition", () => {

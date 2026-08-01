@@ -388,7 +388,13 @@ function validateBook(book, { publish = false } = {}) {
     if (entry.aliases.some((alias) => /[/()]/.test(alias))) failures.push(`${label} has compound alias`);
     if (!RESEARCH_STATUSES.has(entry.research.status)) failures.push(`${label} has invalid research status`);
     if (entry.profile.lifecycleStage.toLowerCase() !== entry.lifecycle) failures.push(`${label} profile lifecycle drift`);
-    if (entry.profile.balancedQualities !== `${entry.qualities[0]} + ${entry.qualities[1]}`) failures.push(`${label} profile quality drift`);
+    const abbreviatedBalance = `${entry.qualities[0]} + ${entry.qualities[1]}`;
+    const parentEntry = entry.kind === "archetype" ? entry : parents.get(entry.parent);
+    const linkedBalance = parentEntry ? `Mature ${parentEntry.name} = ${abbreviatedBalance}` : abbreviatedBalance;
+    const acceptedBalances = entry.research.status === "verified"
+      ? [linkedBalance]
+      : [abbreviatedBalance, linkedBalance];
+    if (!acceptedBalances.includes(entry.profile.balancedQualities)) failures.push(`${label} profile quality drift: expected ${acceptedBalances.join(" or ")}`);
     if (entry.profile.mythicResonances !== entry.research.mythicResonances.join(", ")) failures.push(`${label} profile mythic resonance drift`);
 
     const expectedCoreFunction = entry.kind === "archetype"
@@ -406,15 +412,14 @@ function validateBook(book, { publish = false } = {}) {
         .filter(Boolean)
         .join(", ");
       if (entry.profile.keyQualities !== expectedKeyQualities) failures.push(`${label} profile key qualities drift from Recognition`);
-      const parent = parents.get(entry.parent);
-      if (!parent) {
+      if (!parentEntry) {
         failures.push(`${label} missing parent ${entry.parent}`);
       } else {
-        if (entry.lifecycle !== parent.lifecycle) failures.push(`${label} has wrong lifecycle`);
-        if (entry.qualities[0] !== parent.qualities[0] || entry.qualities[1] !== parent.qualities[1]) failures.push(`${label} parent/child quality drift`);
-        const expectedSlug = entry.type === "active" ? parent.activeShadowSlug : parent.passiveShadowSlug;
+        if (entry.lifecycle !== parentEntry.lifecycle) failures.push(`${label} has wrong lifecycle`);
+        if (entry.qualities[0] !== parentEntry.qualities[0] || entry.qualities[1] !== parentEntry.qualities[1]) failures.push(`${label} parent/child quality drift`);
+        const expectedSlug = entry.type === "active" ? parentEntry.activeShadowSlug : parentEntry.passiveShadowSlug;
         if (entry.slug !== expectedSlug) failures.push(`${label} has wrong ${entry.type} shadow relationship`);
-        const oppositeSlug = entry.type === "active" ? parent.passiveShadowSlug : parent.activeShadowSlug;
+        const oppositeSlug = entry.type === "active" ? parentEntry.passiveShadowSlug : parentEntry.activeShadowSlug;
         if (entry.oppositeShadowSlug !== oppositeSlug) failures.push(`${label} has wrong opposite shadow`);
       }
     }
