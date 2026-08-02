@@ -37,11 +37,11 @@ sectionRoles: definition=Force in Service of Life|declarations=The Warrior's Inn
 
 ## Force in Service of Life
 
-The Warrior mobilizes proportionate force in defense of life, boundary, and purpose. She can focus aggression, tolerate conflict, and move toward an obstacle when avoidance would surrender something worthy. Her force may be physical, verbal, legal, political, creative, or organizational. What makes it mature is not intensity but service: a chosen aim governs the energy.
+The Warrior mobilizes proportionate force in defense of life, boundary, and purpose. She focuses aggression and moves toward obstacles when avoidance would surrender something worthy. Her force may be physical, verbal, legal, political, creative, or organizational. Maturity lies not in intensity but in service to a chosen aim.
 
-She prepares before crisis. Training gives her more than power; it gives her options. She can distinguish warning, refusal, containment, interruption, escape, and direct confrontation. She does not use a larger force merely because it is available, and she does not confuse a dramatic gesture with effective action.
+She prepares before crisis. Training gives her options: warning, refusal, containment, interruption, escape, or confrontation. She uses no larger force merely because it is available and does not confuse drama with effectiveness.
 
-The Warrior also knows how to stop. Victory is not the opponent's humiliation or her own permanent mobilization. It is the protected boundary, interrupted harm, secured objective, or restored capacity that justified action. Restraint lets force end before it becomes a new threat.
+She also knows how to stop. Victory is a protected boundary, interrupted harm, secured objective, or restored capacity, not humiliation or permanent mobilization. Restraint ends force before it becomes a new threat.
 
 ## The Warrior's Inner Stance
 
@@ -58,9 +58,9 @@ The Warrior also knows how to stop. Victory is not the opponent's humiliation or
 
 ## The Living Balance
 
-Ferocity is concentrated life energy available for defense, pursuit, interruption, and endurance. It cuts through appeasement and inertia. It lets the Warrior say *enough*, endure opposition, and keep moving when a meaningful aim costs comfort or approval. Without Ferocity, principle remains an opinion that pressure can easily displace.
+Ferocity is concentrated energy for defense, pursuit, interruption, and endurance. It cuts through appeasement and lets the Warrior say *enough* when a meaningful aim costs comfort or approval. Without Ferocity, pressure easily displaces principle.
 
-Restraint governs timing, target, method, proportion, and cessation. It asks whether the action serves the stated aim, who else may be harmed, what escalation could follow, and what less damaging option remains. Restraint is not the absence of force. It is trained authorship of force. Without it, aggression recruits moral language to justify appetite, revenge, or discharge.
+Restraint governs timing, target, method, proportion, and cessation. It asks whether action serves the aim, who else may be harmed, and what less damaging option remains. It is trained authorship of force; without it, aggression recruits moral language to justify revenge or discharge.
 
 Ferocity without Restraint produces the Rampaging Warrior, who enlarges the enemy and continues after the protective purpose is lost. When Ferocity collapses and Restraint becomes inhibition, the Disarmed Warrior cannot mobilize even when action is necessary. Mature force holds both truths: *This matters enough to fight for, and the way I fight must remain answerable to what matters.*
 
@@ -70,19 +70,19 @@ The Warrior's force changes with the terrain. In every setting, she seeks an eff
 
 ### Inner Life
 
-She notices activation in breath, jaw, hands, temperature, and attention. Rather than shame the body's preparation, she uses it deliberately. She can slow enough to identify the true target and act before rumination consumes the available energy.
+She notices activation in breath, jaw, hands, and attention. Without shaming the body's preparation, she slows enough to identify the target and act before rumination consumes the energy.
 
 ### Relationship
 
-The Warrior makes a clean refusal, interrupts contempt, leaves unsafe contact, and defends a boundary without requiring agreement. She does not weaponize private knowledge or recruit an audience merely to win. After conflict, she evaluates impact and repairs what exceeded the purpose without withdrawing the boundary itself.
+She makes a clean refusal, interrupts contempt, leaves unsafe contact, and defends a boundary without requiring agreement. She neither weaponizes private knowledge nor recruits an audience to win. Afterward, she repairs what exceeded the purpose without withdrawing the boundary.
 
 ### Work and Leadership
 
-She confronts exploitation, names an unworkable demand, documents misconduct, organizes allies, and carries a difficult decision. Strategy matters: she maps power, protects sources, selects timing, and defines a fallback. Courage includes building conditions in which others can act safely, not only becoming the most visible fighter.
+She confronts exploitation, documents misconduct, organizes allies, and carries difficult decisions. She maps power, protects sources, selects timing, and defines a fallback. Courage builds conditions in which others can act safely; it is not merely visible fighting.
 
 ### Community
 
-Collective struggle asks the Warrior to join force to accountability. Those most affected help define the objective and acceptable costs. She distinguishes solidarity from using another community's pain as a stage for her own purity, rage, or heroism.
+In collective struggle, those most affected help define the objective and acceptable costs. She distinguishes solidarity from using another community's pain as a stage for purity, rage, or heroism.
 
 ## What Force Asks of Her
 
