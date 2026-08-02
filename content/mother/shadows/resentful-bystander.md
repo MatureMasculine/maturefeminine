@@ -10,7 +10,7 @@ qualityB: Confrontation
 aliases:
 legacyRoutes: /mother/peacemaker-peace-bringer/shadows/righteous-judge/
 legacyAnchors: righteous-judge
-image: assets/images/shadow/resentful-bystander.png
+image: assets/images/shadow/resentful-bystander.jpg
 keyQualities: Keeps private grievance logs|Expects mind-reading|Uses distance to punish|Rehearses imagined trials|Lets silence mimic peace|Makes repair feel surrender
 quoteIds: quote-resentful-bystander-opening-eliot-reticence|quote-resentful-bystander-closing-bronte-animosity
 mythicResonances: Edward Casaubon (nineteenth-century English literary tradition)

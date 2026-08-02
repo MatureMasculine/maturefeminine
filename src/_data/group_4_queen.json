@@ -19,7 +19,7 @@
         "Truth",
         "Mercy"
       ],
-      "image": "assets/images/justice.png",
+      "image": "assets/images/justice.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Apply truthful, proportionate consequence while preserving the possibility of repair.",
@@ -1045,7 +1045,7 @@
             "Radiance",
             "Humility"
           ],
-          "image": "assets/images/shadow/blinding-star.png",
+          "image": "assets/images/shadow/blinding-star.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Radiance without Humility",
@@ -1485,7 +1485,7 @@
             "Agency",
             "Integrity"
           ],
-          "image": "assets/images/shadow/manipulative-sorceress.png",
+          "image": "assets/images/shadow/manipulative-sorceress.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Agency without Integrity",

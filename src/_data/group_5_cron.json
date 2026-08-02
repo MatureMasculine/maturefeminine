@@ -175,7 +175,7 @@
             "Release",
             "Remembrance"
           ],
-          "image": "assets/images/shadow/scorched-earth-crone.png",
+          "image": "assets/images/shadow/scorched-earth-crone.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Release without Remembrance",
@@ -465,7 +465,7 @@
         "Compassion",
         "Detachment"
       ],
-      "image": "assets/images/witness.png",
+      "image": "assets/images/witness.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Compassionately accompany suffering at the limit of cure or control without owning outcome or turning away.",
@@ -616,7 +616,7 @@
             "Compassion",
             "Detachment"
           ],
-          "image": "assets/images/shadow/martyred-healer.png",
+          "image": "assets/images/shadow/martyred-healer.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Compassion without Detachment",
@@ -759,7 +759,7 @@
             "Compassion",
             "Detachment"
           ],
-          "image": "assets/images/shadow/cynical-healer.png",
+          "image": "assets/images/shadow/cynical-healer.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Compassion collapses while Detachment distorts",
@@ -1057,7 +1057,7 @@
             "Vision",
             "Timing"
           ],
-          "image": "assets/images/shadow/premature-oracle.png",
+          "image": "assets/images/shadow/premature-oracle.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Vision without Timing",
@@ -1200,7 +1200,7 @@
             "Vision",
             "Timing"
           ],
-          "image": "assets/images/shadow/withholding-seer.png",
+          "image": "assets/images/shadow/withholding-seer.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Vision collapses while Timing distorts",
@@ -1640,7 +1640,7 @@
             "Liberation",
             "Responsibility"
           ],
-          "image": "assets/images/shadow/compliant-critic.png",
+          "image": "assets/images/shadow/compliant-critic.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Liberation collapses while Responsibility distorts",
@@ -1785,7 +1785,7 @@
         "Clarity",
         "Curiosity"
       ],
-      "image": "assets/images/sage.png",
+      "image": "assets/images/sage.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Form and offer sound, revisable counsel from evidence, experience, and reflection.",

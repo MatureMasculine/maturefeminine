@@ -10,7 +10,7 @@ qualityB: Privacy
 aliases:
 legacyRoutes: /mother/wife-nurturer-hearth-goddess/shadows/martyr-homemaker/
 legacyAnchors: martyr-homemaker
-image: assets/images/shadow/martyr-host.png
+image: assets/images/shadow/martyr-host.jpg
 keyQualities: Monitors all but herself|Makes welcome cost service|Hides needs until resentful|Tallies unasked sacrifice|Calls rest selfish|Erases herself as host
 quoteIds: quote-martyr-host-opening-stanton-self-development|quote-martyr-host-closing-nightingale-half-hour
 mythicResonances: Mrs. Ramsay (twentieth-century English modernist literary tradition)

@@ -10,7 +10,7 @@ qualityB: Timing
 aliases:
 legacyRoutes: /crone/elder-visionary-oracle-moon/shadows/disconnected-hermit/
 legacyAnchors: disconnected-hermit
-image: assets/images/shadow/withholding-seer.png
+image: assets/images/shadow/withholding-seer.jpg
 keyQualities: Delays clear speech|Waits until all can see it|Hides guidance in riddles|Calls silence wisdom|Avoids early exposure|Misses the useful moment
 quoteIds: quote-withholding-seer-opening-shakespeare-julius-caesar|quote-withholding-seer-closing-wollstonecraft-vindication
 mythicResonances: Tiresias (classical Greek tragedy)

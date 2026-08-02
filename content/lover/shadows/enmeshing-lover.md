@@ -10,7 +10,7 @@ qualityB: Sovereignty
 aliases: Enmeshing Enchantress|Self-Erasing Worshipper
 legacyRoutes: /lover-creatrix/sacred-lover-love-goddess/shadows/intoxicating-siren/|/lover-creatrix/devoted-consort-beloved/shadows/enmeshing-worshipper/
 legacyAnchors: intoxicating-siren|enmeshing-worshipper
-image: assets/images/shadow/enmeshing-lover.png
+image: assets/images/shadow/enmeshing-lover.jpg
 keyQualities: Rushes intimacy for safety|Monitors mood, hides needs|Turns service into debt|Uses crisis for closeness|Reads distance as refusal|Shrinks life to one bond
 quoteIds: quote-enmeshing-lover-opening-teasdale-not-yours|quote-enmeshing-lover-closing-wollstonecraft-vindication
 mythicResonances: Echo (Roman literary tradition)

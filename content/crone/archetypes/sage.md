@@ -10,7 +10,7 @@ aliases: Wisdom
 legacyRoutes: /queen/sage-wisdom/
 coreFunction: Form and offer sound, revisable counsel from evidence, experience, and reflection.
 keyQualities: Wise|Discerning|Curious|Strategic|Calm|Perceptive|Measured|Ethical|Insightful|Practical
-image: assets/images/sage.png
+image: assets/images/sage.jpg
 quoteIds: quote-sage-opening-bacon-advancement-learning|quote-sage-closing-lovelace-analytical-engine
 mythicResonances: Athena
 mythicSourceIds: myth-sage-athena-odyssey

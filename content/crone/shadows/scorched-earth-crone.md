@@ -10,7 +10,7 @@ qualityB: Remembrance
 aliases:
 legacyRoutes: /crone/crone-underworld-queen/shadows/destroying-angel/
 legacyAnchors: destroying-angel
-image: assets/images/shadow/scorched-earth-crone.png
+image: assets/images/shadow/scorched-earth-crone.jpg
 keyQualities: Chooses severance first|Erases a mixed past|Destroys needed supports|Calls reflection weakness|Ends bonds to avoid grief|Leaves nothing to compost
 quoteIds: quote-scorched-opening-euripides-medea|quote-scorched-closing-bronte-jane-eyre
 mythicResonances: Hecuba (classical Greek tragedy)

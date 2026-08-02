@@ -10,7 +10,7 @@ qualityB: Responsibility
 aliases:
 legacyRoutes: /crone/rebel-revolutionary-trickster/shadows/conforming-complainer/
 legacyAnchors: conforming-complainer
-image: assets/images/shadow/compliant-critic.png
+image: assets/images/shadow/compliant-critic.jpg
 keyQualities: Dissents only in safety|Obeys publicly, rebels alone|Waits for spotless action|Analyzes, never acts|Lets power define choices|Uses critique to stay pure
 quoteIds: quote-compliant-opening-mill-on-liberty|quote-compliant-closing-stanton-solitude-self
 mythicResonances: J. Alfred Prufrock (Anglo-American modernist poem)

@@ -10,7 +10,7 @@ qualityB: Restraint
 aliases:
 legacyRoutes: /mother/warrior-warrioress-huntress/shadows/destructive-berserker/
 legacyAnchors: destructive-berserker
-image: assets/images/shadow/rampaging-warrior.png
+image: assets/images/shadow/rampaging-warrior.jpg
 keyQualities: Broadens the target|Calls criticism betrayal|Makes escalation self-proof|Moves the stopping condition|Punishes after safety|Dehumanizes to mute cost
 quoteIds: quote-rampaging-warrior-opening-bronte-no-pity|quote-rampaging-warrior-closing-austen-angry-wise
 mythicResonances: Achilles (archaic Greek epic literary tradition)

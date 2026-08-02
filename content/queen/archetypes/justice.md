@@ -10,7 +10,7 @@ aliases:
 legacyRoutes:
 coreFunction: Apply truthful, proportionate consequence while preserving the possibility of repair.
 keyQualities: Fair|Clear|Steady|Principled|Courageous|Measured|Compassionate|Honest|Balanced|Resolute
-image: assets/images/justice.png
+image: assets/images/justice.jpg
 quoteIds: quote-justice-opening-eliot-consequences|quote-justice-closing-shakespeare-mercy
 mythicResonances: Portia (English Renaissance drama)
 mythicSourceIds: myth-justice-portia-merchant-venice-4-1

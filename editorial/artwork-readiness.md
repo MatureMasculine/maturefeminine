@@ -71,9 +71,9 @@ Repository evidence establishes project-specific, no-input generation provenance
 
 ## Retired and noncanonical assets
 
-The repository still contains **75 image files that are not canonical spread mappings**. One is the cover support asset. The other 74 are retired legacy sources, historical alternates, or unused candidates. They remain for migration traceability and are not included in the printed guide or canonical site entries.
+The repository now retains exactly **67 production image files**: one cover support asset and one approved image for each of the 66 canonical spreads. The 75 retired legacy sources, historical alternates, and unused candidates were removed after the final mapping and provenance audit. They remain recoverable from Git history but are no longer copied into the generated site or carried as possible alternatives.
 
-They should not be counted as approved alternatives, and their presence does not create additional archetypes or shadows. No deletion is required for publication because canonical mapping and provenance tests exclude them.
+The cover is intentionally outside the spread provenance count. No retired file is present in a print or site mapping, and no noncanonical artwork is available to create an accidental extra archetype or shadow.
 
 ## Automated gates
 

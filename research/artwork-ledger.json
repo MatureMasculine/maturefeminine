@@ -5,7 +5,7 @@
     {
       "id": "art-closed-hearth-generated-2026-08-02",
       "assignment": "closed-hearth",
-      "file": "assets/images/shadow/closed-hearth.png",
+      "file": "assets/images/shadow/closed-hearth.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -18,7 +18,7 @@
     {
       "id": "art-manipulative-sorceress-generated-2026-08-02",
       "assignment": "manipulative-sorceress",
-      "file": "assets/images/shadow/manipulative-sorceress.png",
+      "file": "assets/images/shadow/manipulative-sorceress.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -31,7 +31,7 @@
     {
       "id": "art-scattered-maker-generated-2026-08-02",
       "assignment": "scattered-maker",
-      "file": "assets/images/shadow/scattered-maker.png",
+      "file": "assets/images/shadow/scattered-maker.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -44,7 +44,7 @@
     {
       "id": "art-enmeshing-lover-generated-2026-08-02",
       "assignment": "enmeshing-lover",
-      "file": "assets/images/shadow/enmeshing-lover.png",
+      "file": "assets/images/shadow/enmeshing-lover.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -57,7 +57,7 @@
     {
       "id": "art-guarded-healer-generated-2026-08-02",
       "assignment": "guarded-healer",
-      "file": "assets/images/shadow/guarded-healer.png",
+      "file": "assets/images/shadow/guarded-healer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -70,7 +70,7 @@
     {
       "id": "art-guardian-generated-2026-08-02",
       "assignment": "guardian",
-      "file": "assets/images/guardian.png",
+      "file": "assets/images/guardian.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -83,7 +83,7 @@
     {
       "id": "art-controlling-sentinel-generated-2026-08-02",
       "assignment": "controlling-sentinel",
-      "file": "assets/images/shadow/controlling-sentinel.png",
+      "file": "assets/images/shadow/controlling-sentinel.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -96,7 +96,7 @@
     {
       "id": "art-host-generated-2026-08-02",
       "assignment": "host",
-      "file": "assets/images/host.png",
+      "file": "assets/images/host.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -109,7 +109,7 @@
     {
       "id": "art-martyr-host-generated-2026-08-02",
       "assignment": "martyr-host",
-      "file": "assets/images/shadow/martyr-host.png",
+      "file": "assets/images/shadow/martyr-host.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -122,7 +122,7 @@
     {
       "id": "art-peace-enforcer-generated-2026-08-02",
       "assignment": "peace-enforcer",
-      "file": "assets/images/shadow/peace-enforcer.png",
+      "file": "assets/images/shadow/peace-enforcer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -135,7 +135,7 @@
     {
       "id": "art-resentful-bystander-generated-2026-08-02",
       "assignment": "resentful-bystander",
-      "file": "assets/images/shadow/resentful-bystander.png",
+      "file": "assets/images/shadow/resentful-bystander.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -148,7 +148,7 @@
     {
       "id": "art-isolated-helper-generated-2026-08-02",
       "assignment": "isolated-helper",
-      "file": "assets/images/shadow/isolated-helper-v2.png",
+      "file": "assets/images/shadow/isolated-helper-v2.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -161,7 +161,7 @@
     {
       "id": "art-rampaging-warrior-generated-2026-08-02",
       "assignment": "rampaging-warrior",
-      "file": "assets/images/shadow/rampaging-warrior.png",
+      "file": "assets/images/shadow/rampaging-warrior.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -174,7 +174,7 @@
     {
       "id": "art-justice-generated-2026-08-02",
       "assignment": "justice",
-      "file": "assets/images/justice.png",
+      "file": "assets/images/justice.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -187,7 +187,7 @@
     {
       "id": "art-blinding-star-generated-2026-08-02",
       "assignment": "blinding-star",
-      "file": "assets/images/shadow/blinding-star.png",
+      "file": "assets/images/shadow/blinding-star.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -200,7 +200,7 @@
     {
       "id": "art-sage-generated-2026-08-02",
       "assignment": "sage",
-      "file": "assets/images/sage.png",
+      "file": "assets/images/sage.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -213,7 +213,7 @@
     {
       "id": "art-compliant-critic-generated-2026-08-02",
       "assignment": "compliant-critic",
-      "file": "assets/images/shadow/compliant-critic.png",
+      "file": "assets/images/shadow/compliant-critic.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -226,7 +226,7 @@
     {
       "id": "art-witness-generated-2026-08-02",
       "assignment": "witness",
-      "file": "assets/images/witness.png",
+      "file": "assets/images/witness.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -239,7 +239,7 @@
     {
       "id": "art-martyred-healer-generated-2026-08-02",
       "assignment": "martyred-healer",
-      "file": "assets/images/shadow/martyred-healer.png",
+      "file": "assets/images/shadow/martyred-healer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -252,7 +252,7 @@
     {
       "id": "art-cynical-healer-generated-2026-08-02",
       "assignment": "cynical-healer",
-      "file": "assets/images/shadow/cynical-healer.png",
+      "file": "assets/images/shadow/cynical-healer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -265,7 +265,7 @@
     {
       "id": "art-premature-oracle-generated-2026-08-02",
       "assignment": "premature-oracle",
-      "file": "assets/images/shadow/premature-oracle.png",
+      "file": "assets/images/shadow/premature-oracle.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -278,7 +278,7 @@
     {
       "id": "art-withholding-seer-generated-2026-08-02",
       "assignment": "withholding-seer",
-      "file": "assets/images/shadow/withholding-seer.png",
+      "file": "assets/images/shadow/withholding-seer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -291,7 +291,7 @@
     {
       "id": "art-scorched-earth-crone-generated-2026-08-02",
       "assignment": "scorched-earth-crone",
-      "file": "assets/images/shadow/scorched-earth-crone.png",
+      "file": "assets/images/shadow/scorched-earth-crone.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",

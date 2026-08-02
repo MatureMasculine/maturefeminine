@@ -10,7 +10,7 @@ qualityB: Detachment
 aliases:
 legacyRoutes: /crone/elder-healer-priestess/shadows/martyred-healer/
 legacyAnchors: martyred-healer
-image: assets/images/shadow/martyred-healer.png
+image: assets/images/shadow/martyred-healer.jpg
 keyQualities: Answers every pain|Stays beyond useful witness|Makes love endless duty|Claims others' outcomes|Refuses limits and endings|Spends health to keep watch
 quoteIds: quote-martyred-opening-wilde-happy-prince|quote-martyred-closing-nightingale-nurses
 mythicResonances: The Little Mermaid (Danish literary fairy tale)

@@ -10,7 +10,7 @@ aliases: Elder Healer|Elder Priestess|Wise Woman
 legacyRoutes: /crone/elder-healer-priestess/
 coreFunction: Compassionately accompany suffering at the limit of cure or control without owning outcome or turning away.
 keyQualities: Compassionate|Boundaried|Wise|Restorative|Devotional|Grounded|Humble|Ethical|Steady|Nourishing
-image: assets/images/witness.png
+image: assets/images/witness.jpg
 quoteIds: quote-witness-opening-eliot-middlemarch|quote-witness-closing-julian-revelations
 mythicResonances: Sofya (Sonya) Semyonovna Marmeladova (nineteenth-century Russian novel)
 mythicSourceIds: myth-witness-sonya-crime-and-punishment

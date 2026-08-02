@@ -10,7 +10,7 @@ qualityB: Integrity
 aliases:
 legacyRoutes: /queen/magician-alchemist-witch-scribe/shadows/manipulative-sorceress/
 legacyAnchors: manipulative-sorceress
-image: assets/images/shadow/manipulative-sorceress.png
+image: assets/images/shadow/manipulative-sorceress.jpg
 keyQualities: Claims ability as mandate|Leverages without consent|Hides costs and tradeoffs|Defines others' benefit|Calls resistance ignorance|Calls compliance success
 quoteIds: quote-manipulative-sorceress-opening-shakespeare-flower|quote-manipulative-sorceress-closing-shakespeare-rarer-action
 mythicResonances: Aylmer (nineteenth-century American literary tradition)

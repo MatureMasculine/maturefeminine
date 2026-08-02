@@ -10,7 +10,7 @@ qualityB: Trust
 aliases:
 legacyRoutes: /mother/guardian-buffalo-woman/shadows/rigid-sentinel/
 legacyAnchors: rigid-sentinel
-image: assets/images/shadow/controlling-sentinel.png
+image: assets/images/shadow/controlling-sentinel.jpg
 keyQualities: Polices ordinary choices|Treats novelty as danger|Moves boundaries alone|Demands one-way access|Ignores proven capacity|Cannot stand down
 quoteIds: quote-controlling-sentinel-opening-gilman-special-direction|quote-controlling-sentinel-closing-ibsen-reasonable-human
 mythicResonances: Dame Gothel (German literary fairy-tale tradition)

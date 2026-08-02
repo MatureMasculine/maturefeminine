@@ -1641,7 +1641,7 @@
                 "Structure",
                 "Flow"
               ],
-              "image": "assets/images/shadow/scattered-maker.png",
+              "image": "assets/images/shadow/scattered-maker.jpg",
               "profile": {
                 "lifecycleStage": "Lover",
                 "coreFunction": "Structure collapses while Flow distorts",
@@ -1945,7 +1945,7 @@
                 "Devotion",
                 "Sovereignty"
               ],
-              "image": "assets/images/shadow/enmeshing-lover.png",
+              "image": "assets/images/shadow/enmeshing-lover.jpg",
               "profile": {
                 "lifecycleStage": "Lover",
                 "coreFunction": "Devotion without Sovereignty",
@@ -2528,7 +2528,7 @@
                 "Compassion",
                 "Boundaries"
               ],
-              "image": "assets/images/shadow/guarded-healer.png",
+              "image": "assets/images/shadow/guarded-healer.jpg",
               "profile": {
                 "lifecycleStage": "Lover",
                 "coreFunction": "Compassion collapses while Boundaries distorts",
@@ -2682,7 +2682,7 @@
             "Protection",
             "Trust"
           ],
-          "image": "assets/images/guardian.png",
+          "image": "assets/images/guardian.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Protect vulnerable people, values, and thresholds while preserving trust and capacity.",
@@ -2836,7 +2836,7 @@
                 "Protection",
                 "Trust"
               ],
-              "image": "assets/images/shadow/controlling-sentinel.png",
+              "image": "assets/images/shadow/controlling-sentinel.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Protection without Trust",
@@ -3712,7 +3712,7 @@
                 "Reconciliation",
                 "Confrontation"
               ],
-              "image": "assets/images/shadow/peace-enforcer.png",
+              "image": "assets/images/shadow/peace-enforcer.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Reconciliation without Confrontation",
@@ -3855,7 +3855,7 @@
                 "Reconciliation",
                 "Confrontation"
               ],
-              "image": "assets/images/shadow/resentful-bystander.png",
+              "image": "assets/images/shadow/resentful-bystander.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Reconciliation collapses while Confrontation distorts",
@@ -4155,7 +4155,7 @@
                 "Ferocity",
                 "Restraint"
               ],
-              "image": "assets/images/shadow/rampaging-warrior.png",
+              "image": "assets/images/shadow/rampaging-warrior.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Ferocity without Restraint",
@@ -4738,7 +4738,7 @@
                 "Belonging",
                 "Accountability"
               ],
-              "image": "assets/images/shadow/isolated-helper-v2.png",
+              "image": "assets/images/shadow/isolated-helper-v2.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Belonging collapses while Accountability distorts",
@@ -4888,7 +4888,7 @@
             "Hospitality",
             "Privacy"
           ],
-          "image": "assets/images/host.png",
+          "image": "assets/images/host.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Maintain bounded hospitality, domestic continuity, and a usable sanctuary.",
@@ -5040,7 +5040,7 @@
                 "Hospitality",
                 "Privacy"
               ],
-              "image": "assets/images/shadow/martyr-host.png",
+              "image": "assets/images/shadow/martyr-host.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Hospitality without Privacy",
@@ -5183,7 +5183,7 @@
                 "Hospitality",
                 "Privacy"
               ],
-              "image": "assets/images/shadow/closed-hearth.png",
+              "image": "assets/images/shadow/closed-hearth.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Hospitality collapses while Privacy distorts",
@@ -5334,7 +5334,7 @@
             "Truth",
             "Mercy"
           ],
-          "image": "assets/images/justice.png",
+          "image": "assets/images/justice.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Apply truthful, proportionate consequence while preserving the possibility of repair.",
@@ -6360,7 +6360,7 @@
                 "Radiance",
                 "Humility"
               ],
-              "image": "assets/images/shadow/blinding-star.png",
+              "image": "assets/images/shadow/blinding-star.jpg",
               "profile": {
                 "lifecycleStage": "Queen",
                 "coreFunction": "Radiance without Humility",
@@ -6800,7 +6800,7 @@
                 "Agency",
                 "Integrity"
               ],
-              "image": "assets/images/shadow/manipulative-sorceress.png",
+              "image": "assets/images/shadow/manipulative-sorceress.jpg",
               "profile": {
                 "lifecycleStage": "Queen",
                 "coreFunction": "Agency without Integrity",
@@ -7249,7 +7249,7 @@
                 "Release",
                 "Remembrance"
               ],
-              "image": "assets/images/shadow/scorched-earth-crone.png",
+              "image": "assets/images/shadow/scorched-earth-crone.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Release without Remembrance",
@@ -7539,7 +7539,7 @@
             "Compassion",
             "Detachment"
           ],
-          "image": "assets/images/witness.png",
+          "image": "assets/images/witness.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Compassionately accompany suffering at the limit of cure or control without owning outcome or turning away.",
@@ -7690,7 +7690,7 @@
                 "Compassion",
                 "Detachment"
               ],
-              "image": "assets/images/shadow/martyred-healer.png",
+              "image": "assets/images/shadow/martyred-healer.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Compassion without Detachment",
@@ -7833,7 +7833,7 @@
                 "Compassion",
                 "Detachment"
               ],
-              "image": "assets/images/shadow/cynical-healer.png",
+              "image": "assets/images/shadow/cynical-healer.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Compassion collapses while Detachment distorts",
@@ -8131,7 +8131,7 @@
                 "Vision",
                 "Timing"
               ],
-              "image": "assets/images/shadow/premature-oracle.png",
+              "image": "assets/images/shadow/premature-oracle.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Vision without Timing",
@@ -8274,7 +8274,7 @@
                 "Vision",
                 "Timing"
               ],
-              "image": "assets/images/shadow/withholding-seer.png",
+              "image": "assets/images/shadow/withholding-seer.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Vision collapses while Timing distorts",
@@ -8714,7 +8714,7 @@
                 "Liberation",
                 "Responsibility"
               ],
-              "image": "assets/images/shadow/compliant-critic.png",
+              "image": "assets/images/shadow/compliant-critic.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Liberation collapses while Responsibility distorts",
@@ -8859,7 +8859,7 @@
             "Clarity",
             "Curiosity"
           ],
-          "image": "assets/images/sage.png",
+          "image": "assets/images/sage.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Form and offer sound, revisable counsel from evidence, experience, and reflection.",
@@ -12160,7 +12160,7 @@
             "Structure",
             "Flow"
           ],
-          "image": "assets/images/shadow/scattered-maker.png",
+          "image": "assets/images/shadow/scattered-maker.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Structure collapses while Flow distorts",
@@ -12454,7 +12454,7 @@
         "Structure",
         "Flow"
       ],
-      "image": "assets/images/shadow/scattered-maker.png",
+      "image": "assets/images/shadow/scattered-maker.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Structure collapses while Flow distorts",
@@ -12756,7 +12756,7 @@
             "Devotion",
             "Sovereignty"
           ],
-          "image": "assets/images/shadow/enmeshing-lover.png",
+          "image": "assets/images/shadow/enmeshing-lover.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Devotion without Sovereignty",
@@ -13051,7 +13051,7 @@
         "Devotion",
         "Sovereignty"
       ],
-      "image": "assets/images/shadow/enmeshing-lover.png",
+      "image": "assets/images/shadow/enmeshing-lover.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Devotion without Sovereignty",
@@ -13632,7 +13632,7 @@
             "Compassion",
             "Boundaries"
           ],
-          "image": "assets/images/shadow/guarded-healer.png",
+          "image": "assets/images/shadow/guarded-healer.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Compassion collapses while Boundaries distorts",
@@ -13918,7 +13918,7 @@
         "Compassion",
         "Boundaries"
       ],
-      "image": "assets/images/shadow/guarded-healer.png",
+      "image": "assets/images/shadow/guarded-healer.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Compassion collapses while Boundaries distorts",
@@ -14060,7 +14060,7 @@
         "Protection",
         "Trust"
       ],
-      "image": "assets/images/guardian.png",
+      "image": "assets/images/guardian.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Protect vulnerable people, values, and thresholds while preserving trust and capacity.",
@@ -14214,7 +14214,7 @@
             "Protection",
             "Trust"
           ],
-          "image": "assets/images/shadow/controlling-sentinel.png",
+          "image": "assets/images/shadow/controlling-sentinel.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Protection without Trust",
@@ -14502,7 +14502,7 @@
         "Protection",
         "Trust"
       ],
-      "image": "assets/images/shadow/controlling-sentinel.png",
+      "image": "assets/images/shadow/controlling-sentinel.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Protection without Trust",
@@ -15660,7 +15660,7 @@
             "Reconciliation",
             "Confrontation"
           ],
-          "image": "assets/images/shadow/peace-enforcer.png",
+          "image": "assets/images/shadow/peace-enforcer.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Reconciliation without Confrontation",
@@ -15803,7 +15803,7 @@
             "Reconciliation",
             "Confrontation"
           ],
-          "image": "assets/images/shadow/resentful-bystander.png",
+          "image": "assets/images/shadow/resentful-bystander.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Reconciliation collapses while Confrontation distorts",
@@ -15948,7 +15948,7 @@
         "Reconciliation",
         "Confrontation"
       ],
-      "image": "assets/images/shadow/peace-enforcer.png",
+      "image": "assets/images/shadow/peace-enforcer.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Reconciliation without Confrontation",
@@ -16091,7 +16091,7 @@
         "Reconciliation",
         "Confrontation"
       ],
-      "image": "assets/images/shadow/resentful-bystander.png",
+      "image": "assets/images/shadow/resentful-bystander.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Reconciliation collapses while Confrontation distorts",
@@ -16389,7 +16389,7 @@
             "Ferocity",
             "Restraint"
           ],
-          "image": "assets/images/shadow/rampaging-warrior.png",
+          "image": "assets/images/shadow/rampaging-warrior.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Ferocity without Restraint",
@@ -16677,7 +16677,7 @@
         "Ferocity",
         "Restraint"
       ],
-      "image": "assets/images/shadow/rampaging-warrior.png",
+      "image": "assets/images/shadow/rampaging-warrior.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Ferocity without Restraint",
@@ -17258,7 +17258,7 @@
             "Belonging",
             "Accountability"
           ],
-          "image": "assets/images/shadow/isolated-helper-v2.png",
+          "image": "assets/images/shadow/isolated-helper-v2.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Belonging collapses while Accountability distorts",
@@ -17546,7 +17546,7 @@
         "Belonging",
         "Accountability"
       ],
-      "image": "assets/images/shadow/isolated-helper-v2.png",
+      "image": "assets/images/shadow/isolated-helper-v2.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Belonging collapses while Accountability distorts",
@@ -17694,7 +17694,7 @@
         "Hospitality",
         "Privacy"
       ],
-      "image": "assets/images/host.png",
+      "image": "assets/images/host.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Maintain bounded hospitality, domestic continuity, and a usable sanctuary.",
@@ -17846,7 +17846,7 @@
             "Hospitality",
             "Privacy"
           ],
-          "image": "assets/images/shadow/martyr-host.png",
+          "image": "assets/images/shadow/martyr-host.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Hospitality without Privacy",
@@ -17989,7 +17989,7 @@
             "Hospitality",
             "Privacy"
           ],
-          "image": "assets/images/shadow/closed-hearth.png",
+          "image": "assets/images/shadow/closed-hearth.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Hospitality collapses while Privacy distorts",
@@ -18134,7 +18134,7 @@
         "Hospitality",
         "Privacy"
       ],
-      "image": "assets/images/shadow/martyr-host.png",
+      "image": "assets/images/shadow/martyr-host.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Hospitality without Privacy",
@@ -18277,7 +18277,7 @@
         "Hospitality",
         "Privacy"
       ],
-      "image": "assets/images/shadow/closed-hearth.png",
+      "image": "assets/images/shadow/closed-hearth.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Hospitality collapses while Privacy distorts",
@@ -18416,7 +18416,7 @@
         "Truth",
         "Mercy"
       ],
-      "image": "assets/images/justice.png",
+      "image": "assets/images/justice.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Apply truthful, proportionate consequence while preserving the possibility of repair.",
@@ -20008,7 +20008,7 @@
             "Radiance",
             "Humility"
           ],
-          "image": "assets/images/shadow/blinding-star.png",
+          "image": "assets/images/shadow/blinding-star.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Radiance without Humility",
@@ -20294,7 +20294,7 @@
         "Radiance",
         "Humility"
       ],
-      "image": "assets/images/shadow/blinding-star.png",
+      "image": "assets/images/shadow/blinding-star.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Radiance without Humility",
@@ -20732,7 +20732,7 @@
             "Agency",
             "Integrity"
           ],
-          "image": "assets/images/shadow/manipulative-sorceress.png",
+          "image": "assets/images/shadow/manipulative-sorceress.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Agency without Integrity",
@@ -21019,7 +21019,7 @@
         "Agency",
         "Integrity"
       ],
-      "image": "assets/images/shadow/manipulative-sorceress.png",
+      "image": "assets/images/shadow/manipulative-sorceress.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Agency without Integrity",
@@ -21456,7 +21456,7 @@
             "Release",
             "Remembrance"
           ],
-          "image": "assets/images/shadow/scorched-earth-crone.png",
+          "image": "assets/images/shadow/scorched-earth-crone.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Release without Remembrance",
@@ -21744,7 +21744,7 @@
         "Release",
         "Remembrance"
       ],
-      "image": "assets/images/shadow/scorched-earth-crone.png",
+      "image": "assets/images/shadow/scorched-earth-crone.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Release without Remembrance",
@@ -22032,7 +22032,7 @@
         "Compassion",
         "Detachment"
       ],
-      "image": "assets/images/witness.png",
+      "image": "assets/images/witness.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Compassionately accompany suffering at the limit of cure or control without owning outcome or turning away.",
@@ -22183,7 +22183,7 @@
             "Compassion",
             "Detachment"
           ],
-          "image": "assets/images/shadow/martyred-healer.png",
+          "image": "assets/images/shadow/martyred-healer.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Compassion without Detachment",
@@ -22326,7 +22326,7 @@
             "Compassion",
             "Detachment"
           ],
-          "image": "assets/images/shadow/cynical-healer.png",
+          "image": "assets/images/shadow/cynical-healer.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Compassion collapses while Detachment distorts",
@@ -22471,7 +22471,7 @@
         "Compassion",
         "Detachment"
       ],
-      "image": "assets/images/shadow/martyred-healer.png",
+      "image": "assets/images/shadow/martyred-healer.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Compassion without Detachment",
@@ -22614,7 +22614,7 @@
         "Compassion",
         "Detachment"
       ],
-      "image": "assets/images/shadow/cynical-healer.png",
+      "image": "assets/images/shadow/cynical-healer.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Compassion collapses while Detachment distorts",
@@ -22910,7 +22910,7 @@
             "Vision",
             "Timing"
           ],
-          "image": "assets/images/shadow/premature-oracle.png",
+          "image": "assets/images/shadow/premature-oracle.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Vision without Timing",
@@ -23053,7 +23053,7 @@
             "Vision",
             "Timing"
           ],
-          "image": "assets/images/shadow/withholding-seer.png",
+          "image": "assets/images/shadow/withholding-seer.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Vision collapses while Timing distorts",
@@ -23198,7 +23198,7 @@
         "Vision",
         "Timing"
       ],
-      "image": "assets/images/shadow/premature-oracle.png",
+      "image": "assets/images/shadow/premature-oracle.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Vision without Timing",
@@ -23341,7 +23341,7 @@
         "Vision",
         "Timing"
       ],
-      "image": "assets/images/shadow/withholding-seer.png",
+      "image": "assets/images/shadow/withholding-seer.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Vision collapses while Timing distorts",
@@ -23779,7 +23779,7 @@
             "Liberation",
             "Responsibility"
           ],
-          "image": "assets/images/shadow/compliant-critic.png",
+          "image": "assets/images/shadow/compliant-critic.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Liberation collapses while Responsibility distorts",
@@ -24067,7 +24067,7 @@
         "Liberation",
         "Responsibility"
       ],
-      "image": "assets/images/shadow/compliant-critic.png",
+      "image": "assets/images/shadow/compliant-critic.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Liberation collapses while Responsibility distorts",
@@ -24210,7 +24210,7 @@
         "Clarity",
         "Curiosity"
       ],
-      "image": "assets/images/sage.png",
+      "image": "assets/images/sage.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Form and offer sound, revisable counsel from evidence, experience, and reflection.",

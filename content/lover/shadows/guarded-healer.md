@@ -10,7 +10,7 @@ qualityB: Boundaries
 aliases:
 legacyRoutes: /lover-creatrix/young-healer-priestess/shadows/wounded-healer/
 legacyAnchors: wounded-healer
-image: assets/images/shadow/guarded-healer.png
+image: assets/images/shadow/guarded-healer.jpg
 keyQualities: Expects an invoice in need|Uses rules to avoid contact|Analyzes instead of caring|Fears finite care|Generalizes one danger|Calls non-rescue non-care
 quoteIds: quote-guarded-healer-opening-wilde-selfish-garden|quote-guarded-healer-closing-addams-common-life
 mythicResonances: Silas Marner (nineteenth-century English literary tradition)

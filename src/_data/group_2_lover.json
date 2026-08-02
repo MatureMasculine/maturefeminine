@@ -327,7 +327,7 @@
             "Structure",
             "Flow"
           ],
-          "image": "assets/images/shadow/scattered-maker.png",
+          "image": "assets/images/shadow/scattered-maker.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Structure collapses while Flow distorts",
@@ -631,7 +631,7 @@
             "Devotion",
             "Sovereignty"
           ],
-          "image": "assets/images/shadow/enmeshing-lover.png",
+          "image": "assets/images/shadow/enmeshing-lover.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Devotion without Sovereignty",
@@ -1214,7 +1214,7 @@
             "Compassion",
             "Boundaries"
           ],
-          "image": "assets/images/shadow/guarded-healer.png",
+          "image": "assets/images/shadow/guarded-healer.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Compassion collapses while Boundaries distorts",

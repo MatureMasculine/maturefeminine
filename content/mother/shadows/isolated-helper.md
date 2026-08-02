@@ -10,7 +10,7 @@ qualityB: Accountability
 aliases:
 legacyRoutes: /mother/weaver-community-goddess/shadows/isolated-helper/
 legacyAnchors: isolated-helper
-image: assets/images/shadow/isolated-helper-v2.png
+image: assets/images/shadow/isolated-helper-v2.jpg
 keyQualities: Works instead of belonging|Gives labor, hides need|Judges from the margins|Leaves at normal conflict|Refuses mutual support|Uses critique to avoid stake
 quoteIds: quote-isolated-helper-opening-addams-loneliness|quote-isolated-helper-closing-levy-social-intercourse
 mythicResonances: Amy Dorrit (nineteenth-century English literary tradition)

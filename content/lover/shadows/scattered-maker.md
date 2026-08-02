@@ -10,7 +10,7 @@ qualityB: Flow
 aliases: Flooding Muse
 legacyRoutes: /lover-creatrix/creatrix-spider-weaver/shadows/scattered-creator/|/lover-creatrix/muse-song-goddess/shadows/chaotic-inspiration/
 legacyAnchors: scattered-creator|chaotic-inspiration
-image: assets/images/shadow/scattered-maker.png
+image: assets/images/shadow/scattered-maker.jpg
 keyQualities: Starts, never continues|Switches at normal friction|Lets mood gatekeep work|Broadcasts raw impulses|Changes shared scope alone|Avoids every finish
 quoteIds: quote-scattered-maker-opening-alcott-enthusiasm-inspiration|quote-scattered-maker-closing-thoreau-foundations
 mythicResonances: The Sorcerer's Apprentice (German literary tradition)

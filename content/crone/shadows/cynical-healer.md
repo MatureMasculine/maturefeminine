@@ -10,7 +10,7 @@ qualityB: Detachment
 aliases:
 legacyRoutes: /crone/elder-healer-priestess/shadows/cynical-healer/
 legacyAnchors: cynical-healer
-image: assets/images/shadow/cynical-healer.png
+image: assets/images/shadow/cynical-healer.jpg
 keyQualities: Predicts failure at arrival|Turns patterns into verdicts|Uses realism as armor|Listens only for futility|Withholds care without cure|Calls numbness wisdom
 quoteIds: quote-cynical-opening-dickens-christmas-carol|quote-cynical-closing-tolstoy-what-men-live-by
 mythicResonances: Silas Marner (Victorian English novel)

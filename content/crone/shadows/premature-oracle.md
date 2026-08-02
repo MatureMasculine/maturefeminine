@@ -10,7 +10,7 @@ qualityB: Timing
 aliases:
 legacyRoutes: /crone/elder-visionary-oracle-moon/shadows/cryptic-oracle/
 legacyAnchors: cryptic-oracle
-image: assets/images/shadow/premature-oracle.png
+image: assets/images/shadow/premature-oracle.jpg
 keyQualities: Speaks before trust|Predicts, does not receive|Overloads present choices|Calls unreadiness resistance|Mystifies her authority|Makes vision create urgency
 quoteIds: quote-premature-opening-shakespeare-othello|quote-premature-closing-dickinson-tell-all-truth
 mythicResonances: The Weird Sisters (early modern Scottish tragedy drawing on chronicle and witch lore)
