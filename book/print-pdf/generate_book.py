@@ -9,6 +9,7 @@ import math
 import re
 import shutil
 import subprocess
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -18,12 +19,41 @@ BOOK_DIR = SCRIPT_DIR.parent
 ROOT_DIR = BOOK_DIR.parent
 DATA_PATH = ROOT_DIR / "src" / "_data" / "archetypes.json"
 IMAGE_DIR = ROOT_DIR / "src"
+SPECIAL_DIR = ROOT_DIR / "content" / "special"
 CONTENT_CHECK = ROOT_DIR / "scripts" / "validate_content.js"
 CONFIG_PATH = SCRIPT_DIR / "print_config.json"
 ASSET_DIR = SCRIPT_DIR / "assets"
 BUILD_DIR = SCRIPT_DIR / ".latex-build"
 DEFAULT_OUTPUT = BOOK_DIR / "mature-feminine.pdf"
 MANIFEST_NAME = "spread-manifest.json"
+
+
+@dataclass(frozen=True)
+class SpecialPageSpec:
+    filename: str
+    page_type: str = "chapter"
+    two_column: bool = False
+    in_toc: bool = True
+
+
+FRONT_MATTER_SPECS = (
+    SpecialPageSpec("title-page.md", page_type="title", in_toc=False),
+    SpecialPageSpec("copyright.md", page_type="copyright", in_toc=False),
+    SpecialPageSpec("dedication.md", page_type="dedication", in_toc=False),
+    SpecialPageSpec("introduction.md", two_column=True),
+    SpecialPageSpec("how-to-use.md", two_column=True),
+    SpecialPageSpec("working-with-archetypes.md", two_column=True),
+    SpecialPageSpec("working-with-shadows.md", two_column=True),
+    SpecialPageSpec("understanding-feminine-lifecycle.md", two_column=True),
+    SpecialPageSpec("reading-a-spread.md", two_column=True),
+)
+
+BACK_MATTER_SPECS = (
+    SpecialPageSpec("integrating-the-lifecycle.md", two_column=True),
+    SpecialPageSpec("self-assessment-and-reflection.md", two_column=True),
+    SpecialPageSpec("conclusion.md"),
+    SpecialPageSpec("bibliography.md"),
+)
 
 
 def fail(message: str) -> None:
@@ -45,6 +75,149 @@ def tex(value: Any) -> str:
         .replace("~", r"\textasciitilde{}")
         .replace("^", r"\textasciicircum{}")
         .replace("\ue000", r"\textbackslash{}")
+    )
+
+
+def tex_inline(value: str) -> str:
+    """Render the small inline Markdown subset used by special-page sources."""
+    rendered: list[str] = []
+    offset = 0
+    for match in re.finditer(r"(\*\*[^*\n]+\*\*|\*[^*\n]+\*)", value):
+        rendered.append(tex(value[offset : match.start()]))
+        token = match.group(0)
+        if token.startswith("**"):
+            rendered.append(f"\\textbf{{{tex(token[2:-2])}}}")
+        else:
+            rendered.append(f"\\emph{{{tex(token[1:-1])}}}")
+        offset = match.end()
+    rendered.append(tex(value[offset:]))
+    return "".join(rendered)
+
+
+def render_special_markdown(value: str, *, drop_cap: bool = False) -> tuple[str, str]:
+    """Convert controlled reader-facing Markdown into local LuaLaTeX."""
+    lines = value.replace("\r\n", "\n").replace("\r", "\n").splitlines()
+    title = ""
+    rendered: list[str] = []
+    drop_cap_pending = drop_cap
+    index = 0
+    while index < len(lines):
+        line = lines[index].strip()
+        if not line:
+            index += 1
+            continue
+        if line.startswith("# "):
+            if not title:
+                title = line[2:].strip()
+            index += 1
+            continue
+        if line.startswith("## "):
+            rendered.append(f"\\SpecialHTwo{{{tex_inline(line[3:].strip())}}}")
+            index += 1
+            continue
+        if line.startswith("### "):
+            rendered.append(f"\\SpecialHThree{{{tex_inline(line[4:].strip())}}}")
+            index += 1
+            continue
+        if line.startswith("- "):
+            items: list[str] = []
+            while index < len(lines) and lines[index].strip().startswith("- "):
+                items.append(lines[index].strip()[2:].strip())
+                index += 1
+            rendered.append(
+                "\\begin{itemize}[itemsep=0.035in]"
+                + "".join(f"\\item {tex_inline(item)}" for item in items)
+                + "\\end{itemize}"
+            )
+            continue
+
+        paragraph_lines = [line]
+        index += 1
+        while index < len(lines):
+            candidate = lines[index].strip()
+            if not candidate or candidate.startswith(("# ", "## ", "### ", "- ")):
+                break
+            paragraph_lines.append(candidate)
+            index += 1
+        paragraph = " ".join(paragraph_lines)
+        if drop_cap_pending and re.match(r'^[“"\'‘]*[A-Z][A-Za-z]*', paragraph):
+            rendered.append(apply_drop_cap(paragraph) + "\\par")
+            drop_cap_pending = False
+        else:
+            rendered.append(tex_inline(paragraph) + "\\par")
+            if re.search(r"[A-Za-z]", paragraph):
+                drop_cap_pending = False
+    return title, "\n\n".join(rendered)
+
+
+def render_special_page(spec: SpecialPageSpec) -> str:
+    path = SPECIAL_DIR / spec.filename
+    if not path.is_file():
+        fail(f"missing special-page source content/special/{spec.filename}")
+    source = path.read_text(encoding="utf-8")
+    title, body = render_special_markdown(source, drop_cap=spec.two_column and spec.page_type == "chapter")
+
+    if spec.page_type == "title":
+        return f"""\\cleardoublepage
+\\thispagestyle{{empty}}
+\\vspace*{{0.2\\textheight}}
+{{\\centering
+\\SpecialTitlePage{{{tex(title)}}}
+\\vspace{{0.35in}}
+{{\\SpecialTitlePageBody {body}}}
+}}
+\\vspace*{{\\fill}}
+"""
+    if spec.page_type == "copyright":
+        return f"""\\clearpage
+\\thispagestyle{{empty}}
+\\vspace*{{\\fill}}
+{{\\BodyFont
+\\setlength\\parskip{{0.10in}}
+{body}
+}}
+"""
+    if spec.page_type == "dedication":
+        dedication = "\\\\\n".join(tex_inline(line) for line in source.strip().splitlines())
+        return f"""\\clearpage
+\\thispagestyle{{empty}}
+\\vspace*{{0.3\\textheight}}
+{{\\centering\\itshape
+{dedication}\\par
+}}
+\\vspace*{{\\fill}}
+"""
+
+    toc_entry = f"\\phantomsection\n\\addcontentsline{{toc}}{{chapter}}{{{tex(title)}}}\n" if spec.in_toc else ""
+    if spec.two_column:
+        body = f"\\begin{{multicols}}{{2}}\n{{\\BodyFont\n\\setlength\\parskip{{0.10in}}\n{body}\n}}\n\\end{{multicols}}"
+    else:
+        body = f"{{\\BodyFont\n\\setlength\\parskip{{0.10in}}\n{body}\n}}"
+    return f"""\\clearpage
+\\thispagestyle{{chapter-start}}
+{toc_entry}\\SpecialTitle{{{tex(title)}}}
+\\vspace{{0.40in}}
+{body}
+"""
+
+
+def render_front_matter() -> str:
+    preliminary = "\n".join(render_special_page(spec) for spec in FRONT_MATTER_SPECS[:3])
+    chapters = "\n".join(render_special_page(spec) for spec in FRONT_MATTER_SPECS[3:])
+    return (
+        "\\pagenumbering{roman}\n"
+        + preliminary
+        + "\n\\clearpage\n\\renewcommand{\\contentsname}{Table of Contents}\n\\tableofcontents\n"
+        + "\\cleardoublepage\n\\pagenumbering{arabic}\n"
+        + "\\phantomsection\n\\addcontentsline{toc}{part}{Front Matter}\n"
+        + chapters
+    )
+
+
+def render_back_matter() -> str:
+    return (
+        "\\clearpage\n\\phantomsection\n\\addcontentsline{toc}{part}{Back Matter}\n"
+        + "\n".join(render_special_page(spec) for spec in BACK_MATTER_SPECS)
     )
 
 
@@ -303,11 +476,27 @@ def entry_end(slug: str) -> str:
     return "\\clearpage"
 
 
-def render_entries(entries: Iterable[dict[str, Any]], images: dict[str, str | None], *, enforce_parity: bool) -> str:
+def render_entries(
+    entries: Iterable[dict[str, Any]],
+    images: dict[str, str | None],
+    *,
+    enforce_parity: bool,
+    include_toc: bool = False,
+) -> str:
     rendered = []
+    seen_lifecycles: set[str] = set()
     for variant_index, entry in enumerate(entries):
         start = entry_start(entry["slug"]) if enforce_parity else f"\\thispagestyle{{chapter-start}}\\phantomsection\\label{{entry:{entry['slug']}:start}}"
-        rendered.append(start + render_entry_content(entry, images[entry["slug"]], variant_index) + entry_end(entry["slug"]))
+        toc = ""
+        if include_toc:
+            lifecycle = entry["lifecycle"]
+            if lifecycle not in seen_lifecycles:
+                lifecycle_name = lifecycle.replace("-", " ").title()
+                toc += f"\\phantomsection\n\\addcontentsline{{toc}}{{part}}{{{tex(lifecycle_name)}}}\n"
+                seen_lifecycles.add(lifecycle)
+            level = "chapter" if entry.get("kind") == "archetype" else "section"
+            toc += f"\\phantomsection\n\\addcontentsline{{toc}}{{{level}}}{{{tex(entry['name'])}}}\n"
+        rendered.append(start + toc + render_entry_content(entry, images[entry["slug"]], variant_index) + entry_end(entry["slug"]))
     return "\n".join(rendered)
 
 
@@ -315,8 +504,14 @@ def render_document(config: dict[str, Any], entries: list[dict[str, Any]], image
     page = config["page"]
     layout = config["layout"]
     typography = config["type"]
-    initial = "\\setcounter{page}{1}" if not standalone else "\\setcounter{page}{2}"
-    title_page = "" if standalone else "\\thispagestyle{empty}\\vspace*{3in}\\begin{center}{\\TitleFont\\fontsize{30pt}{36pt}\\selectfont The Mature Feminine}\\end{center}\\clearpage"
+    if standalone:
+        book_content = "\\setcounter{page}{2}\n" + render_entries(entries, images, enforce_parity=False)
+    else:
+        book_content = (
+            render_front_matter()
+            + render_entries(entries, images, enforce_parity=True, include_toc=True)
+            + render_back_matter()
+        )
     return f"""\\documentclass[10pt,twoside,openany]{{book}}
 \\usepackage[paperwidth={page['width']},paperheight={page['height']},inner={page['insideMargin']},outer={page['outsideMargin']},top={page['topMargin']},bottom={page['bottomMargin']}]{{geometry}}
 \\usepackage{{fontspec,graphicx,multicol,tikz,adjustbox}}
@@ -352,11 +547,19 @@ def render_document(config: dict[str, Any], entries: list[dict[str, Any]], image
 \\newcommand\\QuoteBodyGap{{\\vspace{{{layout['quoteBodyGap']}}}}}
 \\newcommand\\MetaIcon[1]{{\\textcolor{{ProfileIcon}}{{\\faIcon{{#1}}}}}}
 \\newcommand\\EntryTitle[1]{{{{\\centering\\TitleFont\\bfseries\\fontsize{{{typography['chapterSize']}pt}}{{{typography['chapterLeading']}pt}}\\selectfont #1\\par}}}}
+\\newcommand\\SpecialTitle[1]{{{{\\parbox{{\\linewidth}}{{\\centering\\TitleFont\\bfseries\\fontsize{{18pt}}{{22pt}}\\selectfont #1\\par}}}}}}
+\\newcommand\\SpecialTitlePage[1]{{{{\\centering\\TitleFont\\bfseries\\fontsize{{30pt}}{{36pt}}\\selectfont #1\\par}}}}
+\\newcommand\\SpecialTitlePageBody{{\\fontsize{{14pt}}{{19pt}}\\selectfont}}
+\\makeatletter
+\\renewcommand\\tableofcontents{{\\thispagestyle{{chapter-start}}\\SpecialTitle{{\\contentsname}}\\vspace{{0.40in}}\\@starttoc{{toc}}}}
+\\makeatother
 \\newcommand\\OpeningQuote[2]{{\\vspace{{{layout['titleQuoteGap']}}}{{\\centering{{\\QuoteFont #1}}\\if\\relax\\detokenize{{#2}}\\relax\\else\\par{{\\CiteFont #2}}\\fi\\par}}}}
 \\newcommand\\OpeningQuoteInline[2]{{\\vspace{{{layout['titleQuoteGap']}}}{{\\centering{{\\QuoteFont #1}}\\if\\relax\\detokenize{{#2}}\\relax\\else\\hspace{{0.5em}}{{\\CiteFont #2}}\\fi\\par}}}}
 \\newcommand\\ClosingQuote[2]{{\\par\\vspace{{0.20in}}{{\\centering{{\\QuoteFont #1}}\\if\\relax\\detokenize{{#2}}\\relax\\else\\hspace{{0.5em}}{{\\CiteFont #2}}\\fi\\par}}}}
 \\newcommand\\ChapterHTwo[1]{{\\needspace{{2\\baselineskip}}\\par\\ifdim\\prevdepth=-1000pt\\relax\\else\\vspace{{14.25pt}}\\fi\\begingroup\\setlength\\parskip{{0pt}}\\noindent{{\\TitleFont\\bfseries\\fontsize{{{typography['sectionSize']}pt}}{{11.4pt}}\\selectfont #1}}\\par\\endgroup}}
 \\newcommand\\ChapterHThree[1]{{\\needspace{{2\\baselineskip}}\\par\\ifdim\\prevdepth=-1000pt\\relax\\else\\vspace{{10.5pt}}\\fi\\begingroup\\setlength\\parskip{{0pt}}\\noindent{{\\bfseries\\fontsize{{{typography['subsectionSize']}pt}}{{12.6pt}}\\selectfont #1}}\\par\\endgroup}}
+\\newcommand\\SpecialHTwo[1]{{\\ChapterHTwo{{#1}}}}
+\\newcommand\\SpecialHThree[1]{{\\ChapterHThree{{#1}}}}
 \\newcommand\\ArtworkRail[1]{{\\noindent\\begin{{tikzpicture}}[baseline=(current bounding box.south)]\\clip (0,0) rectangle (\\linewidth,{layout['artworkHeight']});\\node[anchor=center,inner sep=0pt] at (.5\\linewidth,2.625in){{\\adjustbox{{min height={layout['artworkHeight']}}}{{\\includegraphics[width=\\linewidth]{{#1}}}}}};\\end{{tikzpicture}}\\par\\vspace{{-3pt}}\\noindent}}
 \\newcommand\\MissingArtworkRail{{\\noindent\\begin{{tcolorbox}}[width=\\linewidth,height={layout['artworkHeight']},colback=ProfileBlack,colframe=ProfileBlack,boxrule=0pt,arc=0pt]\\centering\\color{{white}}Artwork pending.\\end{{tcolorbox}}\\vspace{{-3pt}}}}
 \\newcommand\\ProfileRow[3]{{\\noindent\\parbox[t]{{0.18in}}{{\\MetaIcon{{#1}}}}\\parbox[t]{{\\dimexpr\\linewidth-0.18in\\relax}}{{\\textbf{{#2}}\\ \\textit{{#3}}}}\\par\\vspace{{1pt}}}}
@@ -366,9 +569,7 @@ def render_document(config: dict[str, Any], entries: list[dict[str, Any]], image
 \\pagestyle{{chapter}}
 \\hypersetup{{hidelinks}}
 \\begin{{document}}
-{initial}
-{title_page}
-{render_entries(entries, images, enforce_parity=not standalone)}
+{book_content}
 \\end{{document}}
 """
 
