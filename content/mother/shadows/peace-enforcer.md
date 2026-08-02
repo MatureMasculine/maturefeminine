@@ -120,4 +120,4 @@ The Peace Enforcer returns to the Peacemaker when her hope for relationship can 
 
 “The people must know before they can act, and there is no educator to compare with the press.”
 
-—Ida B. Wells, *Southern Horrors: Lynch Law in All Its Phases*, “The Remedy”
+—Ida B. Wells, *Southern Horrors: Lynch Law in All Its Phases*, section 6, “Self-Help,” p. 23

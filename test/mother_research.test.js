@@ -189,6 +189,8 @@ test("reviewed repair, belonging, and place manuscripts print canonical mechanic
   assert.match(community, /Mature Community Weaver = Belonging \+ Accountability/);
   assert.match(host, /Mature Host = Hospitality \+ Privacy/);
   assert.match(peaceEnforcer, /myth-peace-enforcer-torvald-helmer-dolls-house-3/);
+  assert.match(peaceEnforcer, /—Ida B\. Wells, \*Southern Horrors: Lynch Law in All Its Phases\*, section 6, “Self-Help,” p\. 23/);
+  assert.doesNotMatch(peaceEnforcer, /“The Remedy”/);
   assert.match(isolated, /myth-isolated-helper-amy-dorrit-little-dorrit-1-7/);
   assert.match(closed, /myth-closed-hearth-miss-havisham-great-expectations-8-49/);
 });
