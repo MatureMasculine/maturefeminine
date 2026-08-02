@@ -10,7 +10,7 @@ qualityB: Integrity
 aliases:
 legacyRoutes: /queen/magician-alchemist-witch-scribe/shadows/manipulative-sorceress/
 legacyAnchors: manipulative-sorceress
-image:
+image: assets/images/shadow/manipulative-sorceress.png
 keyQualities: Claims ability as mandate|Leverages without consent|Hides costs and tradeoffs|Defines others' benefit|Calls resistance ignorance|Calls compliance success
 quoteIds:
 mythicResonances:

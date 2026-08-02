@@ -12,7 +12,16 @@ function record(assignment) {
 }
 
 test("newly commissioned shadow artwork is local, distinct, and provenance-complete", () => {
-  const assignments = ["closed-hearth", "manipulative-sorceress"];
+  const assignments = [
+    "closed-hearth",
+    "manipulative-sorceress",
+    "scattered-maker",
+    "enmeshing-lover",
+    "guarded-healer",
+    "guardian",
+    "controlling-sentinel",
+    "host",
+  ];
   const records = assignments.map(record);
 
   assert.equal(new Set(records.map((item) => item.id)).size, records.length);
@@ -30,8 +39,20 @@ test("newly commissioned shadow artwork is local, distinct, and provenance-compl
   }
 });
 
-test("the Closed Hearth manuscript uses its dedicated generated artwork", () => {
-  const source = fs.readFileSync("content/mother/shadows/closed-hearth.md", "utf8");
+test("commissioned artwork is mapped by its canonical manuscript", () => {
+  const sources = {
+    "closed-hearth": "content/mother/shadows/closed-hearth.md",
+    "manipulative-sorceress": "content/queen/shadows/manipulative-sorceress.md",
+    "scattered-maker": "content/lover/shadows/scattered-maker.md",
+    "enmeshing-lover": "content/lover/shadows/enmeshing-lover.md",
+    "guarded-healer": "content/lover/shadows/guarded-healer.md",
+    guardian: "content/mother/archetypes/guardian.md",
+    "controlling-sentinel": "content/mother/shadows/controlling-sentinel.md",
+    host: "content/mother/archetypes/host.md",
+  };
 
-  assert.match(source, /^image: assets\/images\/shadow\/closed-hearth\.png$/m);
+  for (const [assignment, sourcePath] of Object.entries(sources)) {
+    const source = fs.readFileSync(sourcePath, "utf8");
+    assert.match(source, new RegExp(`^image: ${record(assignment).file.replaceAll(".", "\\.")}$`, "m"));
+  }
 });

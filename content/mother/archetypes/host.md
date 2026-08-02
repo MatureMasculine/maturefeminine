@@ -10,7 +10,7 @@ aliases: Hearth Keeper|Wife|Nurturer|Hearth Goddess|Homemaker|Hostess
 legacyRoutes: /mother/wife-nurturer-hearth-goddess/
 coreFunction: Maintain bounded hospitality, domestic continuity, and a usable sanctuary.
 keyQualities: Devoted|Warm|Steady|Reciprocal|Boundaried|Simple|Grounded|Gracious|Attentive|Reliable
-image: assets/images/wife-nurturer-hestia.jpeg
+image: assets/images/host.png
 quoteIds: quote-host-opening-addams-hospitable-house|quote-host-closing-woolf-fortress-sanctuary
 mythicResonances: Betsey Trotwood (nineteenth-century English literary tradition)
 mythicSourceIds: myth-host-betsey-trotwood-david-copperfield-13-15

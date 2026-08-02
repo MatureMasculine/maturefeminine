@@ -10,7 +10,7 @@ aliases: Gatekeeper
 legacyRoutes: /mother/guardian-buffalo-woman/
 coreFunction: Protect vulnerable people, values, and thresholds while preserving trust and capacity.
 keyQualities: Vigilant|Discerning|Steadfast|Proportionate|Courageous|Boundaried|Accountable|Calm|Responsive|Trustworthy|Strategic|Restorative
-image: assets/images/guardian-buffalo-woman.jpeg
+image: assets/images/guardian.png
 quoteIds: quote-guardian-opening-mill-harm|quote-guardian-closing-cooper-defender
 mythicResonances: The Scylding coastguard (Old English heroic literary tradition)
 mythicSourceIds: myth-guardian-scylding-coastguard-beowulf-4
