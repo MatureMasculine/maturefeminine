@@ -10,7 +10,7 @@ qualityB: Remembrance
 aliases:
 legacyRoutes: /crone/crone-underworld-queen/shadows/eternal-mourner/
 legacyAnchors: eternal-mourner
-image: assets/images/commissioned/crone/relic-keeper.png
+image: assets/images/commissioned/crone/relic-keeper.jpg
 keyQualities: Keeps roles past use|Calls release erasure|Builds identity around loss|Treats memory as command|Calls new bonds betrayal|Freezes the past in place
 quoteIds: quote-relic-opening-bronte-wuthering-heights|quote-relic-closing-longfellow-psalm-of-life
 mythicResonances: Miss Havisham (Victorian English novel)

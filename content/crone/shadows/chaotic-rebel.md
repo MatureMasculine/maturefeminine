@@ -10,7 +10,7 @@ qualityB: Responsibility
 aliases:
 legacyRoutes: /crone/rebel-revolutionary-trickster/shadows/chaotic-destroyer/
 legacyAnchors: chaotic-destroyer
-image: assets/images/commissioned/crone/chaotic-rebel.png
+image: assets/images/commissioned/crone/chaotic-rebel.jpg
 keyQualities: Opposes limits by reflex|Purges imperfect allies|Escalates without strategy|Makes disruption the goal|Exports rupture's costs|Destroys without rebuilding
 quoteIds: quote-chaotic-opening-dickens-tale-two-cities|quote-chaotic-closing-ruskin-seven-lamps
 mythicResonances: Jack Cade (early modern English history play)

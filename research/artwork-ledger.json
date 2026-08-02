@@ -304,7 +304,7 @@
     {
       "id": "art-adventurer-generated-2026-08-02-refresh",
       "assignment": "adventurer",
-      "file": "assets/images/commissioned/maiden/adventurer.png",
+      "file": "assets/images/commissioned/maiden/adventurer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -317,7 +317,7 @@
     {
       "id": "art-reckless-wanderer-generated-2026-08-02-refresh",
       "assignment": "reckless-wanderer",
-      "file": "assets/images/commissioned/maiden/reckless-wanderer.png",
+      "file": "assets/images/commissioned/maiden/reckless-wanderer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -330,7 +330,7 @@
     {
       "id": "art-sheltered-dreamer-generated-2026-08-02-refresh",
       "assignment": "sheltered-dreamer",
-      "file": "assets/images/commissioned/maiden/sheltered-dreamer.png",
+      "file": "assets/images/commissioned/maiden/sheltered-dreamer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -343,7 +343,7 @@
     {
       "id": "art-maiden-generated-2026-08-02-refresh",
       "assignment": "maiden",
-      "file": "assets/images/commissioned/maiden/maiden.png",
+      "file": "assets/images/commissioned/maiden/maiden.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -356,7 +356,7 @@
     {
       "id": "art-naive-enthusiast-generated-2026-08-02-refresh",
       "assignment": "naive-enthusiast",
-      "file": "assets/images/commissioned/maiden/naive-enthusiast.png",
+      "file": "assets/images/commissioned/maiden/naive-enthusiast.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -369,7 +369,7 @@
     {
       "id": "art-frozen-beginner-generated-2026-08-02-refresh",
       "assignment": "frozen-beginner",
-      "file": "assets/images/commissioned/maiden/frozen-beginner.png",
+      "file": "assets/images/commissioned/maiden/frozen-beginner.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -382,7 +382,7 @@
     {
       "id": "art-visionary-generated-2026-08-02-refresh",
       "assignment": "visionary",
-      "file": "assets/images/commissioned/maiden/visionary.png",
+      "file": "assets/images/commissioned/maiden/visionary.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -395,7 +395,7 @@
     {
       "id": "art-inflated-oracle-generated-2026-08-02-refresh",
       "assignment": "inflated-oracle",
-      "file": "assets/images/commissioned/maiden/inflated-oracle.png",
+      "file": "assets/images/commissioned/maiden/inflated-oracle.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -408,7 +408,7 @@
     {
       "id": "art-self-doubting-seer-generated-2026-08-02-refresh",
       "assignment": "self-doubting-seer",
-      "file": "assets/images/commissioned/maiden/self-doubting-seer.png",
+      "file": "assets/images/commissioned/maiden/self-doubting-seer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -421,7 +421,7 @@
     {
       "id": "art-creator-generated-2026-08-02-refresh",
       "assignment": "creator",
-      "file": "assets/images/commissioned/lover/creator.png",
+      "file": "assets/images/commissioned/lover/creator.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -434,7 +434,7 @@
     {
       "id": "art-compulsive-perfecter-generated-2026-08-02-refresh",
       "assignment": "compulsive-perfecter",
-      "file": "assets/images/commissioned/lover/compulsive-perfecter.png",
+      "file": "assets/images/commissioned/lover/compulsive-perfecter.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -447,7 +447,7 @@
     {
       "id": "art-lover-generated-2026-08-02-refresh",
       "assignment": "lover",
-      "file": "assets/images/commissioned/lover/lover.png",
+      "file": "assets/images/commissioned/lover/lover.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -460,7 +460,7 @@
     {
       "id": "art-armored-lover-generated-2026-08-02-refresh",
       "assignment": "armored-lover",
-      "file": "assets/images/commissioned/lover/armored-lover.png",
+      "file": "assets/images/commissioned/lover/armored-lover.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -473,7 +473,7 @@
     {
       "id": "art-healer-generated-2026-08-02-refresh",
       "assignment": "healer",
-      "file": "assets/images/commissioned/lover/healer.png",
+      "file": "assets/images/commissioned/lover/healer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -486,7 +486,7 @@
     {
       "id": "art-rescuing-healer-generated-2026-08-02-refresh",
       "assignment": "rescuing-healer",
-      "file": "assets/images/commissioned/lover/rescuing-healer.png",
+      "file": "assets/images/commissioned/lover/rescuing-healer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -499,7 +499,7 @@
     {
       "id": "art-mother-generated-2026-08-02-refresh",
       "assignment": "mother",
-      "file": "assets/images/commissioned/mother/mother.png",
+      "file": "assets/images/commissioned/mother/mother.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -512,7 +512,7 @@
     {
       "id": "art-engulfing-mother-generated-2026-08-02-refresh",
       "assignment": "engulfing-mother",
-      "file": "assets/images/commissioned/mother/engulfing-mother.png",
+      "file": "assets/images/commissioned/mother/engulfing-mother.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -525,7 +525,7 @@
     {
       "id": "art-absent-mother-generated-2026-08-02-refresh",
       "assignment": "absent-mother",
-      "file": "assets/images/commissioned/mother/absent-mother.png",
+      "file": "assets/images/commissioned/mother/absent-mother.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -538,7 +538,7 @@
     {
       "id": "art-peacemaker-generated-2026-08-02-refresh",
       "assignment": "peacemaker",
-      "file": "assets/images/commissioned/mother/peacemaker.png",
+      "file": "assets/images/commissioned/mother/peacemaker.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -551,7 +551,7 @@
     {
       "id": "art-warrior-generated-2026-08-02-refresh",
       "assignment": "warrior",
-      "file": "assets/images/commissioned/mother/warrior.png",
+      "file": "assets/images/commissioned/mother/warrior.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -564,7 +564,7 @@
     {
       "id": "art-community-weaver-generated-2026-08-02-refresh",
       "assignment": "community-weaver",
-      "file": "assets/images/commissioned/mother/community-weaver.png",
+      "file": "assets/images/commissioned/mother/community-weaver.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI image_gen built-in tool",
@@ -577,7 +577,7 @@
     {
       "id": "art-enmeshing-networker-generated-2026-08-02-refresh",
       "assignment": "enmeshing-networker",
-      "file": "assets/images/commissioned/mother/enmeshing-networker.png",
+      "file": "assets/images/commissioned/mother/enmeshing-networker.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -590,7 +590,7 @@
     {
       "id": "art-open-gate-generated-2026-08-02-refresh",
       "assignment": "open-gate",
-      "file": "assets/images/commissioned/mother/open-gate.png",
+      "file": "assets/images/commissioned/mother/open-gate.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -603,7 +603,7 @@
     {
       "id": "art-disarmed-warrior-generated-2026-08-02-refresh",
       "assignment": "disarmed-warrior",
-      "file": "assets/images/commissioned/mother/disarmed-warrior.png",
+      "file": "assets/images/commissioned/mother/disarmed-warrior.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -616,7 +616,7 @@
     {
       "id": "art-queen-generated-2026-08-02-refresh",
       "assignment": "queen",
-      "file": "assets/images/commissioned/queen/queen.png",
+      "file": "assets/images/commissioned/queen/queen.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -629,7 +629,7 @@
     {
       "id": "art-tyrannical-queen-generated-2026-08-02-refresh",
       "assignment": "tyrannical-queen",
-      "file": "assets/images/commissioned/queen/tyrannical-queen.png",
+      "file": "assets/images/commissioned/queen/tyrannical-queen.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -642,7 +642,7 @@
     {
       "id": "art-abdicating-queen-generated-2026-08-02-refresh",
       "assignment": "abdicating-queen",
-      "file": "assets/images/commissioned/queen/abdicating-queen.png",
+      "file": "assets/images/commissioned/queen/abdicating-queen.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -655,7 +655,7 @@
     {
       "id": "art-luminary-generated-2026-08-02-refresh",
       "assignment": "luminary",
-      "file": "assets/images/commissioned/queen/luminary.png",
+      "file": "assets/images/commissioned/queen/luminary.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -668,7 +668,7 @@
     {
       "id": "art-hidden-light-generated-2026-08-02-refresh",
       "assignment": "hidden-light",
-      "file": "assets/images/commissioned/queen/hidden-light.png",
+      "file": "assets/images/commissioned/queen/hidden-light.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -681,7 +681,7 @@
     {
       "id": "art-magician-generated-2026-08-02-refresh",
       "assignment": "magician",
-      "file": "assets/images/commissioned/queen/magician.png",
+      "file": "assets/images/commissioned/queen/magician.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -694,7 +694,7 @@
     {
       "id": "art-powerless-mystic-generated-2026-08-02-refresh",
       "assignment": "powerless-mystic",
-      "file": "assets/images/commissioned/queen/powerless-mystic.png",
+      "file": "assets/images/commissioned/queen/powerless-mystic.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -707,7 +707,7 @@
     {
       "id": "art-merciless-judge-generated-2026-08-02-refresh",
       "assignment": "merciless-judge",
-      "file": "assets/images/commissioned/queen/merciless-judge.png",
+      "file": "assets/images/commissioned/queen/merciless-judge.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -720,7 +720,7 @@
     {
       "id": "art-permissive-witness-generated-2026-08-02-refresh",
       "assignment": "permissive-witness",
-      "file": "assets/images/commissioned/queen/permissive-witness.png",
+      "file": "assets/images/commissioned/queen/permissive-witness.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -733,7 +733,7 @@
     {
       "id": "art-crone-generated-2026-08-02-refresh",
       "assignment": "crone",
-      "file": "assets/images/commissioned/crone/crone.png",
+      "file": "assets/images/commissioned/crone/crone.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -746,7 +746,7 @@
     {
       "id": "art-relic-keeper-generated-2026-08-02-refresh",
       "assignment": "relic-keeper",
-      "file": "assets/images/commissioned/crone/relic-keeper.png",
+      "file": "assets/images/commissioned/crone/relic-keeper.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -759,7 +759,7 @@
     {
       "id": "art-seer-generated-2026-08-02-refresh",
       "assignment": "seer",
-      "file": "assets/images/commissioned/crone/seer.png",
+      "file": "assets/images/commissioned/crone/seer.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -772,7 +772,7 @@
     {
       "id": "art-rebel-generated-2026-08-02-refresh",
       "assignment": "rebel",
-      "file": "assets/images/commissioned/crone/rebel.png",
+      "file": "assets/images/commissioned/crone/rebel.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -785,7 +785,7 @@
     {
       "id": "art-chaotic-rebel-generated-2026-08-02-refresh",
       "assignment": "chaotic-rebel",
-      "file": "assets/images/commissioned/crone/chaotic-rebel.png",
+      "file": "assets/images/commissioned/crone/chaotic-rebel.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -798,7 +798,7 @@
     {
       "id": "art-storyteller-generated-2026-08-02-refresh",
       "assignment": "storyteller",
-      "file": "assets/images/commissioned/crone/storyteller.png",
+      "file": "assets/images/commissioned/crone/storyteller.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -811,7 +811,7 @@
     {
       "id": "art-exaggerating-dramatist-generated-2026-08-02-refresh",
       "assignment": "exaggerating-dramatist",
-      "file": "assets/images/commissioned/crone/exaggerating-dramatist.png",
+      "file": "assets/images/commissioned/crone/exaggerating-dramatist.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -824,7 +824,7 @@
     {
       "id": "art-silent-keeper-generated-2026-08-02-refresh",
       "assignment": "silent-keeper",
-      "file": "assets/images/commissioned/crone/silent-keeper.png",
+      "file": "assets/images/commissioned/crone/silent-keeper.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -837,7 +837,7 @@
     {
       "id": "art-arrogant-know-it-all-generated-2026-08-02-refresh",
       "assignment": "arrogant-know-it-all",
-      "file": "assets/images/commissioned/crone/arrogant-know-it-all.png",
+      "file": "assets/images/commissioned/crone/arrogant-know-it-all.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",
@@ -850,7 +850,7 @@
     {
       "id": "art-withholding-sage-generated-2026-08-02-refresh",
       "assignment": "withholding-sage",
-      "file": "assets/images/commissioned/crone/withholding-sage.png",
+      "file": "assets/images/commissioned/crone/withholding-sage.jpg",
       "status": "approved",
       "created": "2026-08-02",
       "generator": "OpenAI built-in image-generation tool",

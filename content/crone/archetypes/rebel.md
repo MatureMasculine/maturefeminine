@@ -10,7 +10,7 @@ aliases: Revolutionary|Trickster
 legacyRoutes: /crone/rebel-revolutionary-trickster/
 coreFunction: Refuse stale or illegitimate authority and build responsible freedom beyond it.
 keyQualities: Playful|Subversive|Liberating|Ethical|Quick|Inventive|Insightful|Courageous|Light-hearted|Purposeful
-image: assets/images/commissioned/crone/rebel.png
+image: assets/images/commissioned/crone/rebel.jpg
 quoteIds: quote-rebel-opening-grimke-letters-beecher|quote-rebel-closing-douglass-west-india-emancipation
 mythicResonances: Antigone (classical Greek tragedy)
 mythicSourceIds: myth-rebel-antigone-sophocles

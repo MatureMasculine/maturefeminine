@@ -27,7 +27,7 @@
         "Structure",
         "Flow"
       ],
-      "image": "assets/images/commissioned/lover/creator.png",
+      "image": "assets/images/commissioned/lover/creator.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Receive generative inspiration and bring it through craft into finished, shareable form.",
@@ -181,7 +181,7 @@
             "Structure",
             "Flow"
           ],
-          "image": "assets/images/commissioned/lover/compulsive-perfecter.png",
+          "image": "assets/images/commissioned/lover/compulsive-perfecter.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Structure without Flow",
@@ -475,7 +475,7 @@
         "Devotion",
         "Sovereignty"
       ],
-      "image": "assets/images/commissioned/lover/lover.png",
+      "image": "assets/images/commissioned/lover/lover.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.",
@@ -777,7 +777,7 @@
             "Devotion",
             "Sovereignty"
           ],
-          "image": "assets/images/commissioned/lover/armored-lover.png",
+          "image": "assets/images/commissioned/lover/armored-lover.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Devotion collapses while Sovereignty distorts",
@@ -922,7 +922,7 @@
         "Compassion",
         "Boundaries"
       ],
-      "image": "assets/images/commissioned/lover/healer.png",
+      "image": "assets/images/commissioned/lover/healer.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Respond to suffering with compassion governed by consent, scope, and capacity.",
@@ -1072,7 +1072,7 @@
             "Compassion",
             "Boundaries"
           ],
-          "image": "assets/images/commissioned/lover/rescuing-healer.png",
+          "image": "assets/images/commissioned/lover/rescuing-healer.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Compassion without Boundaries",

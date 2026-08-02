@@ -320,7 +320,7 @@
             "Protection",
             "Trust"
           ],
-          "image": "assets/images/commissioned/mother/open-gate.png",
+          "image": "assets/images/commissioned/mother/open-gate.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Protection collapses while Trust distorts",
@@ -461,7 +461,7 @@
         "Nurture",
         "Autonomy"
       ],
-      "image": "assets/images/commissioned/mother/mother.png",
+      "image": "assets/images/commissioned/mother/mother.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Sustain legitimate dependence so it can develop toward autonomy.",
@@ -615,7 +615,7 @@
             "Nurture",
             "Autonomy"
           ],
-          "image": "assets/images/commissioned/mother/engulfing-mother.png",
+          "image": "assets/images/commissioned/mother/engulfing-mother.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Nurture without Autonomy",
@@ -756,7 +756,7 @@
             "Nurture",
             "Autonomy"
           ],
-          "image": "assets/images/commissioned/mother/absent-mother.png",
+          "image": "assets/images/commissioned/mother/absent-mother.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Nurture collapses while Autonomy distorts",
@@ -901,7 +901,7 @@
         "Reconciliation",
         "Confrontation"
       ],
-      "image": "assets/images/commissioned/mother/peacemaker.png",
+      "image": "assets/images/commissioned/mother/peacemaker.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Bring relationship through truthful conflict toward workable repair.",
@@ -1342,7 +1342,7 @@
         "Ferocity",
         "Restraint"
       ],
-      "image": "assets/images/commissioned/mother/warrior.png",
+      "image": "assets/images/commissioned/mother/warrior.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Mobilize proportionate force in defense of life, boundary, and purpose.",
@@ -1639,7 +1639,7 @@
             "Ferocity",
             "Restraint"
           ],
-          "image": "assets/images/commissioned/mother/disarmed-warrior.png",
+          "image": "assets/images/commissioned/mother/disarmed-warrior.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Ferocity collapses while Restraint distorts",
@@ -1784,7 +1784,7 @@
         "Belonging",
         "Accountability"
       ],
-      "image": "assets/images/commissioned/mother/community-weaver.png",
+      "image": "assets/images/commissioned/mother/community-weaver.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Create reciprocal belonging whose ties remain truthful, consensual, and repairable.",
@@ -1936,7 +1936,7 @@
             "Belonging",
             "Accountability"
           ],
-          "image": "assets/images/commissioned/mother/enmeshing-networker.png",
+          "image": "assets/images/commissioned/mother/enmeshing-networker.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Belonging without Accountability",

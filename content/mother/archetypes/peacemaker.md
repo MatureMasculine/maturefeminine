@@ -10,7 +10,7 @@ aliases: Peace Bringer
 legacyRoutes: /mother/peacemaker-peace-bringer/
 coreFunction: Bring relationship through truthful conflict toward workable repair.
 keyQualities: Calm|Courageous|Honest|Restorative|Listening|Fair|Bridging|Patient|Rooted|Compassionate
-image: assets/images/commissioned/mother/peacemaker.png
+image: assets/images/commissioned/mother/peacemaker.jpg
 quoteIds: quote-peacemaker-opening-bronte-conventionality|quote-peacemaker-closing-follett-agree
 mythicResonances: Dorothea Brooke (nineteenth-century English literary tradition)
 mythicSourceIds: myth-peacemaker-dorothea-brooke-middlemarch-80-81

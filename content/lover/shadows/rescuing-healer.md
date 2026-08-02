@@ -10,7 +10,7 @@ qualityB: Boundaries
 aliases:
 legacyRoutes: /lover-creatrix/young-healer-priestess/shadows/savior-priestess/
 legacyAnchors: savior-priestess
-image: assets/images/commissioned/lover/rescuing-healer.png
+image: assets/images/commissioned/lover/rescuing-healer.jpg
 keyQualities: Turns pain into her mandate|Intervenes before consent|Turns requests into missions|Owns another's outcome|Promises beyond capacity|Crosses role limits
 quoteIds: quote-rescuing-healer-opening-eliot-less-difficult|quote-rescuing-healer-closing-nightingale-not-everything
 mythicResonances: The Swallow (nineteenth-century Irish literary tradition)

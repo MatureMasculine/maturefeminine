@@ -10,7 +10,7 @@ qualityB: Autonomy
 aliases:
 legacyRoutes: /mother/mother/shadows/devouring-mother/
 legacyAnchors: devouring-mother
-image: assets/images/commissioned/mother/engulfing-mother.png
+image: assets/images/commissioned/mother/engulfing-mother.jpg
 keyQualities: Anticipates every need|Solves before being asked|Makes separation betrayal|Uses worry as authority|Undermines growing skill|Makes sacrifice an invoice
 quoteIds: quote-engulfing-mother-opening-fisher-explaining|quote-engulfing-mother-closing-chopin-give-myself
 mythicResonances: Mrs. Morel (early twentieth-century English literary tradition)

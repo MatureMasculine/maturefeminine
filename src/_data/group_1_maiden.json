@@ -24,7 +24,7 @@
         "Daring",
         "Prudence"
       ],
-      "image": "assets/images/commissioned/maiden/adventurer.png",
+      "image": "assets/images/commissioned/maiden/adventurer.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Expand life's range through intelligent, accountable risk.",
@@ -169,7 +169,7 @@
             "Daring",
             "Prudence"
           ],
-          "image": "assets/images/commissioned/maiden/reckless-wanderer.png",
+          "image": "assets/images/commissioned/maiden/reckless-wanderer.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Daring without Prudence",
@@ -311,7 +311,7 @@
             "Daring",
             "Prudence"
           ],
-          "image": "assets/images/commissioned/maiden/sheltered-dreamer.png",
+          "image": "assets/images/commissioned/maiden/sheltered-dreamer.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Daring collapses while Prudence distorts",
@@ -451,7 +451,7 @@
         "Wonder",
         "Discernment"
       ],
-      "image": "assets/images/commissioned/maiden/maiden.png",
+      "image": "assets/images/commissioned/maiden/maiden.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Meet a beginning with open wonder and make a trustworthy first choice.",
@@ -600,7 +600,7 @@
             "Wonder",
             "Discernment"
           ],
-          "image": "assets/images/commissioned/maiden/naive-enthusiast.png",
+          "image": "assets/images/commissioned/maiden/naive-enthusiast.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Wonder without Discernment",
@@ -742,7 +742,7 @@
             "Wonder",
             "Discernment"
           ],
-          "image": "assets/images/commissioned/maiden/frozen-beginner.png",
+          "image": "assets/images/commissioned/maiden/frozen-beginner.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Wonder collapses while Discernment distorts",
@@ -887,7 +887,7 @@
         "Intuition",
         "Verification"
       ],
-      "image": "assets/images/commissioned/maiden/visionary.png",
+      "image": "assets/images/commissioned/maiden/visionary.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Notice emerging intuitive patterns and test them without demanding impossible certainty.",
@@ -1036,7 +1036,7 @@
             "Intuition",
             "Verification"
           ],
-          "image": "assets/images/commissioned/maiden/inflated-oracle.png",
+          "image": "assets/images/commissioned/maiden/inflated-oracle.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Intuition without Verification",
@@ -1178,7 +1178,7 @@
             "Intuition",
             "Verification"
           ],
-          "image": "assets/images/commissioned/maiden/self-doubting-seer.png",
+          "image": "assets/images/commissioned/maiden/self-doubting-seer.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Intuition collapses while Verification distorts",

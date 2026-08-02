@@ -10,7 +10,7 @@ aliases: Storm|Tempest
 legacyRoutes: /maiden/adventurer-storm-tempest/
 coreFunction: Expand life's range through intelligent, accountable risk.
 keyQualities: Bold|Prepared|Adaptable|Resourceful|Curious|Accountable|Resilient|Observant|Decisive|Grounded
-image: assets/images/commissioned/maiden/adventurer.png
+image: assets/images/commissioned/maiden/adventurer.jpg
 quoteIds: quote-adventurer-opening-bronte-jane-eyre|quote-adventurer-closing-ibsen-dolls-house
 mythicResonances: Atalanta (Greek literary tradition)
 mythicSourceIds: myth-adventurer-atalanta-apollodorus-library-3

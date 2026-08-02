@@ -10,7 +10,7 @@ qualityB: Verification
 aliases:
 legacyRoutes: /maiden/young-visionary-oracle/shadows/lost-dreamer/
 legacyAnchors: lost-dreamer
-image: assets/images/commissioned/maiden/self-doubting-seer.png
+image: assets/images/commissioned/maiden/self-doubting-seer.jpg
 keyQualities: Rejects untested impressions|Privileges others' dismissal|Demands proof to speak|Defers sight to experts|Explains away body signals|Waits for consensus
 quoteIds: quote-self-doubting-seer-opening-dickinson-much-madness|quote-self-doubting-seer-closing-leavitt-brighter-variables
 mythicResonances: Romola (nineteenth-century English literary tradition)

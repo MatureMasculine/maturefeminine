@@ -10,7 +10,7 @@ qualityB: Fidelity
 aliases:
 legacyRoutes: /queen/storyteller/shadows/silent-keeper/
 legacyAnchors: silent-keeper
-image: assets/images/commissioned/crone/silent-keeper.png
+image: assets/images/commissioned/crone/silent-keeper.jpg
 keyQualities: Demands total certainty|Calls selection betrayal|Archives, never transmits|Lets privacy forbid telling|Keeps context too long|Lets memory vanish unused
 quoteIds: quote-silent-opening-gray-elegy|quote-silent-closing-dickinson-letter-world
 mythicResonances: Lucy Snowe

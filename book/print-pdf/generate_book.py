@@ -293,13 +293,24 @@ def copy_images(entries: Iterable[dict[str, Any]]) -> dict[str, str | None]:
     target_dir = BUILD_DIR / "images"
     target_dir.mkdir(parents=True, exist_ok=True)
     copied: dict[str, str | None] = {}
+    sips = shutil.which("sips")
     for entry in entries:
         source = image_path(entry)
         if not source:
             copied[entry["slug"]] = None
             continue
-        target = target_dir / f"{entry['slug']}{source.suffix.lower()}"
-        shutil.copy2(source, target)
+        if source.suffix.lower() == ".png" and sips:
+            target = target_dir / f"{entry['slug']}.jpg"
+            result = subprocess.run(
+                [sips, "-s", "format", "jpeg", "-s", "formatOptions", "90", str(source), "--out", str(target)],
+                text=True,
+                capture_output=True,
+            )
+            if result.returncode:
+                fail(f"could not prepare print image {source.relative_to(ROOT_DIR)}")
+        else:
+            target = target_dir / f"{entry['slug']}{source.suffix.lower()}"
+            shutil.copy2(source, target)
         copied[entry["slug"]] = f"images/{target.name}"
     return copied
 
@@ -602,7 +613,7 @@ def compile_pdf(tex_path: Path, output: Path) -> None:
     if not built.is_file():
         fail(f"LuaLaTeX completed without producing {built.name}")
     output.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(built, output)
+    built.replace(output)
 
 
 def manifest_from_aux(auxiliary: str, slugs: Iterable[str]) -> dict[str, Any]:

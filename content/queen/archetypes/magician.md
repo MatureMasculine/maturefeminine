@@ -10,7 +10,7 @@ aliases: Alchemist|Witch|Scribe|Wise Woman
 legacyRoutes: /queen/magician-alchemist-witch-scribe/
 coreFunction: Exercise ethical, consequential transformation within a domain of responsibility or stewardship.
 keyQualities: Accountable|Consequential|Discerning|Bounded|Transparent|Responsive|Decisive|Proportionate|Repairing|Stewarding
-image: assets/images/commissioned/queen/magician.png
+image: assets/images/commissioned/queen/magician.jpg
 quoteIds: quote-magician-opening-shelley-dangerous-knowledge|quote-magician-closing-addams-social-morality
 mythicResonances: Paulina (English Renaissance drama)
 mythicSourceIds: myth-magician-paulina-winters-tale

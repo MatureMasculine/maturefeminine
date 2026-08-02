@@ -10,7 +10,7 @@ qualityB: Autonomy
 aliases:
 legacyRoutes:
 legacyAnchors: absent-mother
-image: assets/images/commissioned/mother/absent-mother.png
+image: assets/images/commissioned/mother/absent-mother.jpg
 keyQualities: Minimizes ordinary need|Withdraws during distress|Calls neglect freedom|Delegates without a handoff|Shames dependency|Returns only after crisis
 quoteIds: quote-absent-mother-opening-burnett-out-of-sight|quote-absent-mother-closing-shelley-adam
 mythicResonances: Victor Frankenstein (English Gothic literary tradition)

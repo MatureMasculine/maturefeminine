@@ -10,7 +10,7 @@ qualityB: Mercy
 aliases:
 legacyRoutes:
 legacyAnchors: merciless-judge
-image: assets/images/commissioned/queen/merciless-judge.png
+image: assets/images/commissioned/queen/merciless-judge.jpg
 keyQualities: Fixes identity to one act|Calls context an excuse|Punishes beyond protection|Turns exposure into theater|Uses blame to prove rigor|Closes paths to repair
 quoteIds: quote-merciless-judge-opening-shakespeare-giant|quote-merciless-judge-closing-pope-forgive
 mythicResonances: Inspector Javert (nineteenth-century French literary tradition in English translation)

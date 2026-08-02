@@ -168,7 +168,7 @@
             "Truth",
             "Mercy"
           ],
-          "image": "assets/images/commissioned/queen/merciless-judge.png",
+          "image": "assets/images/commissioned/queen/merciless-judge.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Truth without Mercy",
@@ -310,7 +310,7 @@
             "Truth",
             "Mercy"
           ],
-          "image": "assets/images/commissioned/queen/permissive-witness.png",
+          "image": "assets/images/commissioned/queen/permissive-witness.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Truth collapses while Mercy distorts",
@@ -455,7 +455,7 @@
         "Authority",
         "Service"
       ],
-      "image": "assets/images/commissioned/queen/queen.png",
+      "image": "assets/images/commissioned/queen/queen.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Occupy legitimate authority and order shared life in service of flourishing.",
@@ -606,7 +606,7 @@
             "Authority",
             "Service"
           ],
-          "image": "assets/images/commissioned/queen/tyrannical-queen.png",
+          "image": "assets/images/commissioned/queen/tyrannical-queen.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Authority without Service",
@@ -748,7 +748,7 @@
             "Authority",
             "Service"
           ],
-          "image": "assets/images/commissioned/queen/abdicating-queen.png",
+          "image": "assets/images/commissioned/queen/abdicating-queen.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Authority collapses while Service distorts",
@@ -894,7 +894,7 @@
         "Radiance",
         "Humility"
       ],
-      "image": "assets/images/commissioned/queen/luminary.png",
+      "image": "assets/images/commissioned/queen/luminary.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Use visibility and radiance to reveal possibility beyond the self.",
@@ -1187,7 +1187,7 @@
             "Radiance",
             "Humility"
           ],
-          "image": "assets/images/commissioned/queen/hidden-light.png",
+          "image": "assets/images/commissioned/queen/hidden-light.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Radiance collapses while Humility distorts",
@@ -1334,7 +1334,7 @@
         "Agency",
         "Integrity"
       ],
-      "image": "assets/images/commissioned/queen/magician.png",
+      "image": "assets/images/commissioned/queen/magician.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Exercise ethical, consequential transformation within a domain of responsibility or stewardship.",
@@ -1627,7 +1627,7 @@
             "Agency",
             "Integrity"
           ],
-          "image": "assets/images/commissioned/queen/powerless-mystic.png",
+          "image": "assets/images/commissioned/queen/powerless-mystic.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Agency collapses while Integrity distorts",

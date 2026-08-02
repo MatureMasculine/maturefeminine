@@ -24,7 +24,7 @@
         "Release",
         "Remembrance"
       ],
-      "image": "assets/images/commissioned/crone/crone.png",
+      "image": "assets/images/commissioned/crone/crone.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Release what has ended while preserving its grief, learning, and continuity.",
@@ -318,7 +318,7 @@
             "Release",
             "Remembrance"
           ],
-          "image": "assets/images/commissioned/crone/relic-keeper.png",
+          "image": "assets/images/commissioned/crone/relic-keeper.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Release collapses while Remembrance distorts",
@@ -906,7 +906,7 @@
         "Vision",
         "Timing"
       ],
-      "image": "assets/images/commissioned/crone/seer.png",
+      "image": "assets/images/commissioned/crone/seer.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Voice long-range, seasoned pattern at the time and in the form it can serve.",
@@ -1346,7 +1346,7 @@
         "Liberation",
         "Responsibility"
       ],
-      "image": "assets/images/commissioned/crone/rebel.png",
+      "image": "assets/images/commissioned/crone/rebel.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Refuse stale or illegitimate authority and build responsible freedom beyond it.",
@@ -1497,7 +1497,7 @@
             "Liberation",
             "Responsibility"
           ],
-          "image": "assets/images/commissioned/crone/chaotic-rebel.png",
+          "image": "assets/images/commissioned/crone/chaotic-rebel.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Liberation without Responsibility",
@@ -1919,7 +1919,7 @@
             "Clarity",
             "Curiosity"
           ],
-          "image": "assets/images/commissioned/crone/arrogant-know-it-all.png",
+          "image": "assets/images/commissioned/crone/arrogant-know-it-all.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Clarity without Curiosity",
@@ -2062,7 +2062,7 @@
             "Clarity",
             "Curiosity"
           ],
-          "image": "assets/images/commissioned/crone/withholding-sage.png",
+          "image": "assets/images/commissioned/crone/withholding-sage.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Clarity collapses while Curiosity distorts",
@@ -2205,7 +2205,7 @@
         "Narrative Imagination",
         "Fidelity"
       ],
-      "image": "assets/images/commissioned/crone/storyteller.png",
+      "image": "assets/images/commissioned/crone/storyteller.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Carry lived truth across people and time as memorable shared meaning.",
@@ -2339,7 +2339,7 @@
             "Narrative Imagination",
             "Fidelity"
           ],
-          "image": "assets/images/commissioned/crone/exaggerating-dramatist.png",
+          "image": "assets/images/commissioned/crone/exaggerating-dramatist.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Narrative Imagination without Fidelity",
@@ -2482,7 +2482,7 @@
             "Narrative Imagination",
             "Fidelity"
           ],
-          "image": "assets/images/commissioned/crone/silent-keeper.png",
+          "image": "assets/images/commissioned/crone/silent-keeper.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Narrative Imagination collapses while Fidelity distorts",

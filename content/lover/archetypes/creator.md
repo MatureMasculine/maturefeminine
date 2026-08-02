@@ -10,7 +10,7 @@ aliases: Creatrix|Spider Weaver|Muse|Song Goddess
 legacyRoutes: /lover-creatrix/creatrix-spider-weaver/|/lover-creatrix/muse-song-goddess/
 coreFunction: Receive generative inspiration and bring it through craft into finished, shareable form.
 keyQualities: Inventive|Receptive|Disciplined|Adaptive|Patient|Expressive|Iterative|Resourceful|Discerning|Generous
-image: assets/images/commissioned/lover/creator.png
+image: assets/images/commissioned/lover/creator.jpg
 quoteIds: quote-creator-opening-ruskin-unity-art|quote-creator-closing-whitman-simplicity
 mythicResonances: Hephaestus (archaic Greek epic tradition)
 mythicSourceIds: myth-creator-hephaestus-homer-iliad-18

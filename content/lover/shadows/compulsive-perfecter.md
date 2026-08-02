@@ -10,7 +10,7 @@ qualityB: Flow
 aliases: Silenced Muse
 legacyRoutes: /lover-creatrix/creatrix-spider-weaver/shadows/obsessive-perfectionist/|/lover-creatrix/muse-song-goddess/shadows/silent-songbird/
 legacyAnchors: obsessive-perfectionist|silent-songbird
-image: assets/images/commissioned/lover/compulsive-perfecter.png
+image: assets/images/commissioned/lover/compulsive-perfecter.jpg
 keyQualities: Moves the finish line|Revises to delay exposure|Controls against discovery|Polishes trivial details|Edits out distinctive voice|Calls feedback rejection
 quoteIds: quote-compulsive-perfecter-opening-wilde-conceal-life|quote-compulsive-perfecter-closing-dickinson-word-lives
 mythicResonances: Frenhofer (nineteenth-century French literary tradition)

@@ -10,7 +10,7 @@ aliases: Underworld Queen|Death Bringer
 legacyRoutes: /crone/crone-underworld-queen/
 coreFunction: Release what has ended while preserving its grief, learning, and continuity.
 keyQualities: Truthful|Fearless|Catalytic|Sovereign|Compassionate|Deep|Transformative|Clear|Mystic|Liberating
-image: assets/images/commissioned/crone/crone.png
+image: assets/images/commissioned/crone/crone.jpg
 quoteIds: quote-crone-opening-dickinson-my-life-closed-twice|quote-crone-closing-rossetti-remember
 mythicResonances: Demeter (archaic Greek hymn tradition)
 mythicSourceIds: myth-crone-demeter-homeric-hymn

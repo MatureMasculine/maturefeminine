@@ -10,7 +10,7 @@ aliases: Empress|Ruler
 legacyRoutes: /queen/queen-hearth-keeper/
 coreFunction: Occupy legitimate authority and order shared life in service of flourishing.
 keyQualities: Sovereign|Nurturing|Wise|Generous|Protective|Creative|Gracious|Confident|Harmonious|Inspiring
-image: assets/images/commissioned/queen/queen.png
+image: assets/images/commissioned/queen/queen.jpg
 quoteIds: quote-queen-opening-kings-understanding-heart|quote-queen-closing-follett-group-idea
 mythicResonances: King Arthur (medieval English Arthurian literary tradition)
 mythicSourceIds: myth-queen-arthur-morte-darthur-book-1

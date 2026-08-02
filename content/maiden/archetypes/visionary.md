@@ -10,7 +10,7 @@ aliases: Young Visionary|Young Oracle
 legacyRoutes: /maiden/young-visionary-oracle/
 coreFunction: Notice emerging intuitive patterns and test them without demanding impossible certainty.
 keyQualities: Intuitive|Observant|Imaginative|Humble|Testable|Clear|Curious|Grounded|Revisable|Purposeful
-image: assets/images/commissioned/maiden/visionary.png
+image: assets/images/commissioned/maiden/visionary.jpg
 quoteIds: quote-visionary-opening-shelley-invention-chaos|quote-visionary-closing-mitchell-learn-see
 mythicResonances: Penelope (archaic Greek epic tradition)
 mythicSourceIds: myth-visionary-penelope-homer-odyssey-23

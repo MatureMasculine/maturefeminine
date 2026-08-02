@@ -10,7 +10,7 @@ aliases: Young Healer|Young Priestess
 legacyRoutes: /lover-creatrix/young-healer-priestess/
 coreFunction: Respond to suffering with compassion governed by consent, scope, and capacity.
 keyQualities: Compassionate|Boundaried|Present|Consent-led|Restorative|Clear|Ethical|Grounded|Skilled|Sustainable
-image: assets/images/commissioned/lover/healer.png
+image: assets/images/commissioned/lover/healer.jpg
 quoteIds: quote-healer-opening-eliot-compassion-speaks|quote-healer-closing-nightingale-do-no-harm
 mythicResonances: The Good Samaritan (Christian scriptural tradition)
 mythicSourceIds: myth-healer-good-samaritan-luke-10

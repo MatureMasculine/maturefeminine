@@ -29,7 +29,7 @@
             "Daring",
             "Prudence"
           ],
-          "image": "assets/images/commissioned/maiden/adventurer.png",
+          "image": "assets/images/commissioned/maiden/adventurer.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Expand life's range through intelligent, accountable risk.",
@@ -174,7 +174,7 @@
                 "Daring",
                 "Prudence"
               ],
-              "image": "assets/images/commissioned/maiden/reckless-wanderer.png",
+              "image": "assets/images/commissioned/maiden/reckless-wanderer.jpg",
               "profile": {
                 "lifecycleStage": "Maiden",
                 "coreFunction": "Daring without Prudence",
@@ -316,7 +316,7 @@
                 "Daring",
                 "Prudence"
               ],
-              "image": "assets/images/commissioned/maiden/sheltered-dreamer.png",
+              "image": "assets/images/commissioned/maiden/sheltered-dreamer.jpg",
               "profile": {
                 "lifecycleStage": "Maiden",
                 "coreFunction": "Daring collapses while Prudence distorts",
@@ -456,7 +456,7 @@
             "Wonder",
             "Discernment"
           ],
-          "image": "assets/images/commissioned/maiden/maiden.png",
+          "image": "assets/images/commissioned/maiden/maiden.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Meet a beginning with open wonder and make a trustworthy first choice.",
@@ -605,7 +605,7 @@
                 "Wonder",
                 "Discernment"
               ],
-              "image": "assets/images/commissioned/maiden/naive-enthusiast.png",
+              "image": "assets/images/commissioned/maiden/naive-enthusiast.jpg",
               "profile": {
                 "lifecycleStage": "Maiden",
                 "coreFunction": "Wonder without Discernment",
@@ -747,7 +747,7 @@
                 "Wonder",
                 "Discernment"
               ],
-              "image": "assets/images/commissioned/maiden/frozen-beginner.png",
+              "image": "assets/images/commissioned/maiden/frozen-beginner.jpg",
               "profile": {
                 "lifecycleStage": "Maiden",
                 "coreFunction": "Wonder collapses while Discernment distorts",
@@ -892,7 +892,7 @@
             "Intuition",
             "Verification"
           ],
-          "image": "assets/images/commissioned/maiden/visionary.png",
+          "image": "assets/images/commissioned/maiden/visionary.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Notice emerging intuitive patterns and test them without demanding impossible certainty.",
@@ -1041,7 +1041,7 @@
                 "Intuition",
                 "Verification"
               ],
-              "image": "assets/images/commissioned/maiden/inflated-oracle.png",
+              "image": "assets/images/commissioned/maiden/inflated-oracle.jpg",
               "profile": {
                 "lifecycleStage": "Maiden",
                 "coreFunction": "Intuition without Verification",
@@ -1183,7 +1183,7 @@
                 "Intuition",
                 "Verification"
               ],
-              "image": "assets/images/commissioned/maiden/self-doubting-seer.png",
+              "image": "assets/images/commissioned/maiden/self-doubting-seer.jpg",
               "profile": {
                 "lifecycleStage": "Maiden",
                 "coreFunction": "Intuition collapses while Verification distorts",
@@ -1341,7 +1341,7 @@
             "Structure",
             "Flow"
           ],
-          "image": "assets/images/commissioned/lover/creator.png",
+          "image": "assets/images/commissioned/lover/creator.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Receive generative inspiration and bring it through craft into finished, shareable form.",
@@ -1495,7 +1495,7 @@
                 "Structure",
                 "Flow"
               ],
-              "image": "assets/images/commissioned/lover/compulsive-perfecter.png",
+              "image": "assets/images/commissioned/lover/compulsive-perfecter.jpg",
               "profile": {
                 "lifecycleStage": "Lover",
                 "coreFunction": "Structure without Flow",
@@ -1789,7 +1789,7 @@
             "Devotion",
             "Sovereignty"
           ],
-          "image": "assets/images/commissioned/lover/lover.png",
+          "image": "assets/images/commissioned/lover/lover.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.",
@@ -2091,7 +2091,7 @@
                 "Devotion",
                 "Sovereignty"
               ],
-              "image": "assets/images/commissioned/lover/armored-lover.png",
+              "image": "assets/images/commissioned/lover/armored-lover.jpg",
               "profile": {
                 "lifecycleStage": "Lover",
                 "coreFunction": "Devotion collapses while Sovereignty distorts",
@@ -2236,7 +2236,7 @@
             "Compassion",
             "Boundaries"
           ],
-          "image": "assets/images/commissioned/lover/healer.png",
+          "image": "assets/images/commissioned/lover/healer.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Respond to suffering with compassion governed by consent, scope, and capacity.",
@@ -2386,7 +2386,7 @@
                 "Compassion",
                 "Boundaries"
               ],
-              "image": "assets/images/commissioned/lover/rescuing-healer.png",
+              "image": "assets/images/commissioned/lover/rescuing-healer.jpg",
               "profile": {
                 "lifecycleStage": "Lover",
                 "coreFunction": "Compassion without Boundaries",
@@ -2979,7 +2979,7 @@
                 "Protection",
                 "Trust"
               ],
-              "image": "assets/images/commissioned/mother/open-gate.png",
+              "image": "assets/images/commissioned/mother/open-gate.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Protection collapses while Trust distorts",
@@ -3120,7 +3120,7 @@
             "Nurture",
             "Autonomy"
           ],
-          "image": "assets/images/commissioned/mother/mother.png",
+          "image": "assets/images/commissioned/mother/mother.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Sustain legitimate dependence so it can develop toward autonomy.",
@@ -3274,7 +3274,7 @@
                 "Nurture",
                 "Autonomy"
               ],
-              "image": "assets/images/commissioned/mother/engulfing-mother.png",
+              "image": "assets/images/commissioned/mother/engulfing-mother.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Nurture without Autonomy",
@@ -3415,7 +3415,7 @@
                 "Nurture",
                 "Autonomy"
               ],
-              "image": "assets/images/commissioned/mother/absent-mother.png",
+              "image": "assets/images/commissioned/mother/absent-mother.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Nurture collapses while Autonomy distorts",
@@ -3560,7 +3560,7 @@
             "Reconciliation",
             "Confrontation"
           ],
-          "image": "assets/images/commissioned/mother/peacemaker.png",
+          "image": "assets/images/commissioned/mother/peacemaker.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Bring relationship through truthful conflict toward workable repair.",
@@ -4001,7 +4001,7 @@
             "Ferocity",
             "Restraint"
           ],
-          "image": "assets/images/commissioned/mother/warrior.png",
+          "image": "assets/images/commissioned/mother/warrior.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Mobilize proportionate force in defense of life, boundary, and purpose.",
@@ -4298,7 +4298,7 @@
                 "Ferocity",
                 "Restraint"
               ],
-              "image": "assets/images/commissioned/mother/disarmed-warrior.png",
+              "image": "assets/images/commissioned/mother/disarmed-warrior.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Ferocity collapses while Restraint distorts",
@@ -4443,7 +4443,7 @@
             "Belonging",
             "Accountability"
           ],
-          "image": "assets/images/commissioned/mother/community-weaver.png",
+          "image": "assets/images/commissioned/mother/community-weaver.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Create reciprocal belonging whose ties remain truthful, consensual, and repairable.",
@@ -4595,7 +4595,7 @@
                 "Belonging",
                 "Accountability"
               ],
-              "image": "assets/images/commissioned/mother/enmeshing-networker.png",
+              "image": "assets/images/commissioned/mother/enmeshing-networker.jpg",
               "profile": {
                 "lifecycleStage": "Mother",
                 "coreFunction": "Belonging without Accountability",
@@ -5483,7 +5483,7 @@
                 "Truth",
                 "Mercy"
               ],
-              "image": "assets/images/commissioned/queen/merciless-judge.png",
+              "image": "assets/images/commissioned/queen/merciless-judge.jpg",
               "profile": {
                 "lifecycleStage": "Queen",
                 "coreFunction": "Truth without Mercy",
@@ -5625,7 +5625,7 @@
                 "Truth",
                 "Mercy"
               ],
-              "image": "assets/images/commissioned/queen/permissive-witness.png",
+              "image": "assets/images/commissioned/queen/permissive-witness.jpg",
               "profile": {
                 "lifecycleStage": "Queen",
                 "coreFunction": "Truth collapses while Mercy distorts",
@@ -5770,7 +5770,7 @@
             "Authority",
             "Service"
           ],
-          "image": "assets/images/commissioned/queen/queen.png",
+          "image": "assets/images/commissioned/queen/queen.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Occupy legitimate authority and order shared life in service of flourishing.",
@@ -5921,7 +5921,7 @@
                 "Authority",
                 "Service"
               ],
-              "image": "assets/images/commissioned/queen/tyrannical-queen.png",
+              "image": "assets/images/commissioned/queen/tyrannical-queen.jpg",
               "profile": {
                 "lifecycleStage": "Queen",
                 "coreFunction": "Authority without Service",
@@ -6063,7 +6063,7 @@
                 "Authority",
                 "Service"
               ],
-              "image": "assets/images/commissioned/queen/abdicating-queen.png",
+              "image": "assets/images/commissioned/queen/abdicating-queen.jpg",
               "profile": {
                 "lifecycleStage": "Queen",
                 "coreFunction": "Authority collapses while Service distorts",
@@ -6209,7 +6209,7 @@
             "Radiance",
             "Humility"
           ],
-          "image": "assets/images/commissioned/queen/luminary.png",
+          "image": "assets/images/commissioned/queen/luminary.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Use visibility and radiance to reveal possibility beyond the self.",
@@ -6502,7 +6502,7 @@
                 "Radiance",
                 "Humility"
               ],
-              "image": "assets/images/commissioned/queen/hidden-light.png",
+              "image": "assets/images/commissioned/queen/hidden-light.jpg",
               "profile": {
                 "lifecycleStage": "Queen",
                 "coreFunction": "Radiance collapses while Humility distorts",
@@ -6649,7 +6649,7 @@
             "Agency",
             "Integrity"
           ],
-          "image": "assets/images/commissioned/queen/magician.png",
+          "image": "assets/images/commissioned/queen/magician.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Exercise ethical, consequential transformation within a domain of responsibility or stewardship.",
@@ -6942,7 +6942,7 @@
                 "Agency",
                 "Integrity"
               ],
-              "image": "assets/images/commissioned/queen/powerless-mystic.png",
+              "image": "assets/images/commissioned/queen/powerless-mystic.jpg",
               "profile": {
                 "lifecycleStage": "Queen",
                 "coreFunction": "Agency collapses while Integrity distorts",
@@ -7098,7 +7098,7 @@
             "Release",
             "Remembrance"
           ],
-          "image": "assets/images/commissioned/crone/crone.png",
+          "image": "assets/images/commissioned/crone/crone.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Release what has ended while preserving its grief, learning, and continuity.",
@@ -7392,7 +7392,7 @@
                 "Release",
                 "Remembrance"
               ],
-              "image": "assets/images/commissioned/crone/relic-keeper.png",
+              "image": "assets/images/commissioned/crone/relic-keeper.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Release collapses while Remembrance distorts",
@@ -7980,7 +7980,7 @@
             "Vision",
             "Timing"
           ],
-          "image": "assets/images/commissioned/crone/seer.png",
+          "image": "assets/images/commissioned/crone/seer.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Voice long-range, seasoned pattern at the time and in the form it can serve.",
@@ -8420,7 +8420,7 @@
             "Liberation",
             "Responsibility"
           ],
-          "image": "assets/images/commissioned/crone/rebel.png",
+          "image": "assets/images/commissioned/crone/rebel.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Refuse stale or illegitimate authority and build responsible freedom beyond it.",
@@ -8571,7 +8571,7 @@
                 "Liberation",
                 "Responsibility"
               ],
-              "image": "assets/images/commissioned/crone/chaotic-rebel.png",
+              "image": "assets/images/commissioned/crone/chaotic-rebel.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Liberation without Responsibility",
@@ -8993,7 +8993,7 @@
                 "Clarity",
                 "Curiosity"
               ],
-              "image": "assets/images/commissioned/crone/arrogant-know-it-all.png",
+              "image": "assets/images/commissioned/crone/arrogant-know-it-all.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Clarity without Curiosity",
@@ -9136,7 +9136,7 @@
                 "Clarity",
                 "Curiosity"
               ],
-              "image": "assets/images/commissioned/crone/withholding-sage.png",
+              "image": "assets/images/commissioned/crone/withholding-sage.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Clarity collapses while Curiosity distorts",
@@ -9279,7 +9279,7 @@
             "Narrative Imagination",
             "Fidelity"
           ],
-          "image": "assets/images/commissioned/crone/storyteller.png",
+          "image": "assets/images/commissioned/crone/storyteller.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Carry lived truth across people and time as memorable shared meaning.",
@@ -9413,7 +9413,7 @@
                 "Narrative Imagination",
                 "Fidelity"
               ],
-              "image": "assets/images/commissioned/crone/exaggerating-dramatist.png",
+              "image": "assets/images/commissioned/crone/exaggerating-dramatist.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Narrative Imagination without Fidelity",
@@ -9556,7 +9556,7 @@
                 "Narrative Imagination",
                 "Fidelity"
               ],
-              "image": "assets/images/commissioned/crone/silent-keeper.png",
+              "image": "assets/images/commissioned/crone/silent-keeper.jpg",
               "profile": {
                 "lifecycleStage": "Crone",
                 "coreFunction": "Narrative Imagination collapses while Fidelity distorts",
@@ -9706,7 +9706,7 @@
         "Daring",
         "Prudence"
       ],
-      "image": "assets/images/commissioned/maiden/adventurer.png",
+      "image": "assets/images/commissioned/maiden/adventurer.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Expand life's range through intelligent, accountable risk.",
@@ -9851,7 +9851,7 @@
             "Daring",
             "Prudence"
           ],
-          "image": "assets/images/commissioned/maiden/reckless-wanderer.png",
+          "image": "assets/images/commissioned/maiden/reckless-wanderer.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Daring without Prudence",
@@ -9993,7 +9993,7 @@
             "Daring",
             "Prudence"
           ],
-          "image": "assets/images/commissioned/maiden/sheltered-dreamer.png",
+          "image": "assets/images/commissioned/maiden/sheltered-dreamer.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Daring collapses while Prudence distorts",
@@ -10137,7 +10137,7 @@
         "Daring",
         "Prudence"
       ],
-      "image": "assets/images/commissioned/maiden/reckless-wanderer.png",
+      "image": "assets/images/commissioned/maiden/reckless-wanderer.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Daring without Prudence",
@@ -10279,7 +10279,7 @@
         "Daring",
         "Prudence"
       ],
-      "image": "assets/images/commissioned/maiden/sheltered-dreamer.png",
+      "image": "assets/images/commissioned/maiden/sheltered-dreamer.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Daring collapses while Prudence distorts",
@@ -10417,7 +10417,7 @@
         "Wonder",
         "Discernment"
       ],
-      "image": "assets/images/commissioned/maiden/maiden.png",
+      "image": "assets/images/commissioned/maiden/maiden.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Meet a beginning with open wonder and make a trustworthy first choice.",
@@ -10566,7 +10566,7 @@
             "Wonder",
             "Discernment"
           ],
-          "image": "assets/images/commissioned/maiden/naive-enthusiast.png",
+          "image": "assets/images/commissioned/maiden/naive-enthusiast.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Wonder without Discernment",
@@ -10708,7 +10708,7 @@
             "Wonder",
             "Discernment"
           ],
-          "image": "assets/images/commissioned/maiden/frozen-beginner.png",
+          "image": "assets/images/commissioned/maiden/frozen-beginner.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Wonder collapses while Discernment distorts",
@@ -10852,7 +10852,7 @@
         "Wonder",
         "Discernment"
       ],
-      "image": "assets/images/commissioned/maiden/naive-enthusiast.png",
+      "image": "assets/images/commissioned/maiden/naive-enthusiast.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Wonder without Discernment",
@@ -10994,7 +10994,7 @@
         "Wonder",
         "Discernment"
       ],
-      "image": "assets/images/commissioned/maiden/frozen-beginner.png",
+      "image": "assets/images/commissioned/maiden/frozen-beginner.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Wonder collapses while Discernment distorts",
@@ -11137,7 +11137,7 @@
         "Intuition",
         "Verification"
       ],
-      "image": "assets/images/commissioned/maiden/visionary.png",
+      "image": "assets/images/commissioned/maiden/visionary.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Notice emerging intuitive patterns and test them without demanding impossible certainty.",
@@ -11286,7 +11286,7 @@
             "Intuition",
             "Verification"
           ],
-          "image": "assets/images/commissioned/maiden/inflated-oracle.png",
+          "image": "assets/images/commissioned/maiden/inflated-oracle.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Intuition without Verification",
@@ -11428,7 +11428,7 @@
             "Intuition",
             "Verification"
           ],
-          "image": "assets/images/commissioned/maiden/self-doubting-seer.png",
+          "image": "assets/images/commissioned/maiden/self-doubting-seer.jpg",
           "profile": {
             "lifecycleStage": "Maiden",
             "coreFunction": "Intuition collapses while Verification distorts",
@@ -11572,7 +11572,7 @@
         "Intuition",
         "Verification"
       ],
-      "image": "assets/images/commissioned/maiden/inflated-oracle.png",
+      "image": "assets/images/commissioned/maiden/inflated-oracle.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Intuition without Verification",
@@ -11714,7 +11714,7 @@
         "Intuition",
         "Verification"
       ],
-      "image": "assets/images/commissioned/maiden/self-doubting-seer.png",
+      "image": "assets/images/commissioned/maiden/self-doubting-seer.jpg",
       "profile": {
         "lifecycleStage": "Maiden",
         "coreFunction": "Intuition collapses while Verification distorts",
@@ -11860,7 +11860,7 @@
         "Structure",
         "Flow"
       ],
-      "image": "assets/images/commissioned/lover/creator.png",
+      "image": "assets/images/commissioned/lover/creator.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Receive generative inspiration and bring it through craft into finished, shareable form.",
@@ -12014,7 +12014,7 @@
             "Structure",
             "Flow"
           ],
-          "image": "assets/images/commissioned/lover/compulsive-perfecter.png",
+          "image": "assets/images/commissioned/lover/compulsive-perfecter.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Structure without Flow",
@@ -12308,7 +12308,7 @@
         "Structure",
         "Flow"
       ],
-      "image": "assets/images/commissioned/lover/compulsive-perfecter.png",
+      "image": "assets/images/commissioned/lover/compulsive-perfecter.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Structure without Flow",
@@ -12600,7 +12600,7 @@
         "Devotion",
         "Sovereignty"
       ],
-      "image": "assets/images/commissioned/lover/lover.png",
+      "image": "assets/images/commissioned/lover/lover.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.",
@@ -12902,7 +12902,7 @@
             "Devotion",
             "Sovereignty"
           ],
-          "image": "assets/images/commissioned/lover/armored-lover.png",
+          "image": "assets/images/commissioned/lover/armored-lover.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Devotion collapses while Sovereignty distorts",
@@ -13197,7 +13197,7 @@
         "Devotion",
         "Sovereignty"
       ],
-      "image": "assets/images/commissioned/lover/armored-lover.png",
+      "image": "assets/images/commissioned/lover/armored-lover.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Devotion collapses while Sovereignty distorts",
@@ -13340,7 +13340,7 @@
         "Compassion",
         "Boundaries"
       ],
-      "image": "assets/images/commissioned/lover/healer.png",
+      "image": "assets/images/commissioned/lover/healer.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Respond to suffering with compassion governed by consent, scope, and capacity.",
@@ -13490,7 +13490,7 @@
             "Compassion",
             "Boundaries"
           ],
-          "image": "assets/images/commissioned/lover/rescuing-healer.png",
+          "image": "assets/images/commissioned/lover/rescuing-healer.jpg",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Compassion without Boundaries",
@@ -13776,7 +13776,7 @@
         "Compassion",
         "Boundaries"
       ],
-      "image": "assets/images/commissioned/lover/rescuing-healer.png",
+      "image": "assets/images/commissioned/lover/rescuing-healer.jpg",
       "profile": {
         "lifecycleStage": "Lover",
         "coreFunction": "Compassion without Boundaries",
@@ -14357,7 +14357,7 @@
             "Protection",
             "Trust"
           ],
-          "image": "assets/images/commissioned/mother/open-gate.png",
+          "image": "assets/images/commissioned/mother/open-gate.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Protection collapses while Trust distorts",
@@ -14645,7 +14645,7 @@
         "Protection",
         "Trust"
       ],
-      "image": "assets/images/commissioned/mother/open-gate.png",
+      "image": "assets/images/commissioned/mother/open-gate.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Protection collapses while Trust distorts",
@@ -14784,7 +14784,7 @@
         "Nurture",
         "Autonomy"
       ],
-      "image": "assets/images/commissioned/mother/mother.png",
+      "image": "assets/images/commissioned/mother/mother.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Sustain legitimate dependence so it can develop toward autonomy.",
@@ -14938,7 +14938,7 @@
             "Nurture",
             "Autonomy"
           ],
-          "image": "assets/images/commissioned/mother/engulfing-mother.png",
+          "image": "assets/images/commissioned/mother/engulfing-mother.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Nurture without Autonomy",
@@ -15079,7 +15079,7 @@
             "Nurture",
             "Autonomy"
           ],
-          "image": "assets/images/commissioned/mother/absent-mother.png",
+          "image": "assets/images/commissioned/mother/absent-mother.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Nurture collapses while Autonomy distorts",
@@ -15224,7 +15224,7 @@
         "Nurture",
         "Autonomy"
       ],
-      "image": "assets/images/commissioned/mother/engulfing-mother.png",
+      "image": "assets/images/commissioned/mother/engulfing-mother.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Nurture without Autonomy",
@@ -15365,7 +15365,7 @@
         "Nurture",
         "Autonomy"
       ],
-      "image": "assets/images/commissioned/mother/absent-mother.png",
+      "image": "assets/images/commissioned/mother/absent-mother.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Nurture collapses while Autonomy distorts",
@@ -15508,7 +15508,7 @@
         "Reconciliation",
         "Confrontation"
       ],
-      "image": "assets/images/commissioned/mother/peacemaker.png",
+      "image": "assets/images/commissioned/mother/peacemaker.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Bring relationship through truthful conflict toward workable repair.",
@@ -16235,7 +16235,7 @@
         "Ferocity",
         "Restraint"
       ],
-      "image": "assets/images/commissioned/mother/warrior.png",
+      "image": "assets/images/commissioned/mother/warrior.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Mobilize proportionate force in defense of life, boundary, and purpose.",
@@ -16532,7 +16532,7 @@
             "Ferocity",
             "Restraint"
           ],
-          "image": "assets/images/commissioned/mother/disarmed-warrior.png",
+          "image": "assets/images/commissioned/mother/disarmed-warrior.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Ferocity collapses while Restraint distorts",
@@ -16820,7 +16820,7 @@
         "Ferocity",
         "Restraint"
       ],
-      "image": "assets/images/commissioned/mother/disarmed-warrior.png",
+      "image": "assets/images/commissioned/mother/disarmed-warrior.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Ferocity collapses while Restraint distorts",
@@ -16963,7 +16963,7 @@
         "Belonging",
         "Accountability"
       ],
-      "image": "assets/images/commissioned/mother/community-weaver.png",
+      "image": "assets/images/commissioned/mother/community-weaver.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Create reciprocal belonging whose ties remain truthful, consensual, and repairable.",
@@ -17115,7 +17115,7 @@
             "Belonging",
             "Accountability"
           ],
-          "image": "assets/images/commissioned/mother/enmeshing-networker.png",
+          "image": "assets/images/commissioned/mother/enmeshing-networker.jpg",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Belonging without Accountability",
@@ -17403,7 +17403,7 @@
         "Belonging",
         "Accountability"
       ],
-      "image": "assets/images/commissioned/mother/enmeshing-networker.png",
+      "image": "assets/images/commissioned/mother/enmeshing-networker.jpg",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Belonging without Accountability",
@@ -18565,7 +18565,7 @@
             "Truth",
             "Mercy"
           ],
-          "image": "assets/images/commissioned/queen/merciless-judge.png",
+          "image": "assets/images/commissioned/queen/merciless-judge.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Truth without Mercy",
@@ -18707,7 +18707,7 @@
             "Truth",
             "Mercy"
           ],
-          "image": "assets/images/commissioned/queen/permissive-witness.png",
+          "image": "assets/images/commissioned/queen/permissive-witness.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Truth collapses while Mercy distorts",
@@ -18849,7 +18849,7 @@
         "Truth",
         "Mercy"
       ],
-      "image": "assets/images/commissioned/queen/merciless-judge.png",
+      "image": "assets/images/commissioned/queen/merciless-judge.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Truth without Mercy",
@@ -18991,7 +18991,7 @@
         "Truth",
         "Mercy"
       ],
-      "image": "assets/images/commissioned/queen/permissive-witness.png",
+      "image": "assets/images/commissioned/queen/permissive-witness.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Truth collapses while Mercy distorts",
@@ -19134,7 +19134,7 @@
         "Authority",
         "Service"
       ],
-      "image": "assets/images/commissioned/queen/queen.png",
+      "image": "assets/images/commissioned/queen/queen.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Occupy legitimate authority and order shared life in service of flourishing.",
@@ -19285,7 +19285,7 @@
             "Authority",
             "Service"
           ],
-          "image": "assets/images/commissioned/queen/tyrannical-queen.png",
+          "image": "assets/images/commissioned/queen/tyrannical-queen.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Authority without Service",
@@ -19427,7 +19427,7 @@
             "Authority",
             "Service"
           ],
-          "image": "assets/images/commissioned/queen/abdicating-queen.png",
+          "image": "assets/images/commissioned/queen/abdicating-queen.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Authority collapses while Service distorts",
@@ -19571,7 +19571,7 @@
         "Authority",
         "Service"
       ],
-      "image": "assets/images/commissioned/queen/tyrannical-queen.png",
+      "image": "assets/images/commissioned/queen/tyrannical-queen.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Authority without Service",
@@ -19713,7 +19713,7 @@
         "Authority",
         "Service"
       ],
-      "image": "assets/images/commissioned/queen/abdicating-queen.png",
+      "image": "assets/images/commissioned/queen/abdicating-queen.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Authority collapses while Service distorts",
@@ -19857,7 +19857,7 @@
         "Radiance",
         "Humility"
       ],
-      "image": "assets/images/commissioned/queen/luminary.png",
+      "image": "assets/images/commissioned/queen/luminary.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Use visibility and radiance to reveal possibility beyond the self.",
@@ -20150,7 +20150,7 @@
             "Radiance",
             "Humility"
           ],
-          "image": "assets/images/commissioned/queen/hidden-light.png",
+          "image": "assets/images/commissioned/queen/hidden-light.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Radiance collapses while Humility distorts",
@@ -20436,7 +20436,7 @@
         "Radiance",
         "Humility"
       ],
-      "image": "assets/images/commissioned/queen/hidden-light.png",
+      "image": "assets/images/commissioned/queen/hidden-light.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Radiance collapses while Humility distorts",
@@ -20581,7 +20581,7 @@
         "Agency",
         "Integrity"
       ],
-      "image": "assets/images/commissioned/queen/magician.png",
+      "image": "assets/images/commissioned/queen/magician.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Exercise ethical, consequential transformation within a domain of responsibility or stewardship.",
@@ -20874,7 +20874,7 @@
             "Agency",
             "Integrity"
           ],
-          "image": "assets/images/commissioned/queen/powerless-mystic.png",
+          "image": "assets/images/commissioned/queen/powerless-mystic.jpg",
           "profile": {
             "lifecycleStage": "Queen",
             "coreFunction": "Agency collapses while Integrity distorts",
@@ -21161,7 +21161,7 @@
         "Agency",
         "Integrity"
       ],
-      "image": "assets/images/commissioned/queen/powerless-mystic.png",
+      "image": "assets/images/commissioned/queen/powerless-mystic.jpg",
       "profile": {
         "lifecycleStage": "Queen",
         "coreFunction": "Agency collapses while Integrity distorts",
@@ -21305,7 +21305,7 @@
         "Release",
         "Remembrance"
       ],
-      "image": "assets/images/commissioned/crone/crone.png",
+      "image": "assets/images/commissioned/crone/crone.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Release what has ended while preserving its grief, learning, and continuity.",
@@ -21599,7 +21599,7 @@
             "Release",
             "Remembrance"
           ],
-          "image": "assets/images/commissioned/crone/relic-keeper.png",
+          "image": "assets/images/commissioned/crone/relic-keeper.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Release collapses while Remembrance distorts",
@@ -21887,7 +21887,7 @@
         "Release",
         "Remembrance"
       ],
-      "image": "assets/images/commissioned/crone/relic-keeper.png",
+      "image": "assets/images/commissioned/crone/relic-keeper.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Release collapses while Remembrance distorts",
@@ -22759,7 +22759,7 @@
         "Vision",
         "Timing"
       ],
-      "image": "assets/images/commissioned/crone/seer.png",
+      "image": "assets/images/commissioned/crone/seer.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Voice long-range, seasoned pattern at the time and in the form it can serve.",
@@ -23485,7 +23485,7 @@
         "Liberation",
         "Responsibility"
       ],
-      "image": "assets/images/commissioned/crone/rebel.png",
+      "image": "assets/images/commissioned/crone/rebel.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Refuse stale or illegitimate authority and build responsible freedom beyond it.",
@@ -23636,7 +23636,7 @@
             "Liberation",
             "Responsibility"
           ],
-          "image": "assets/images/commissioned/crone/chaotic-rebel.png",
+          "image": "assets/images/commissioned/crone/chaotic-rebel.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Liberation without Responsibility",
@@ -23924,7 +23924,7 @@
         "Liberation",
         "Responsibility"
       ],
-      "image": "assets/images/commissioned/crone/chaotic-rebel.png",
+      "image": "assets/images/commissioned/crone/chaotic-rebel.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Liberation without Responsibility",
@@ -24344,7 +24344,7 @@
             "Clarity",
             "Curiosity"
           ],
-          "image": "assets/images/commissioned/crone/arrogant-know-it-all.png",
+          "image": "assets/images/commissioned/crone/arrogant-know-it-all.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Clarity without Curiosity",
@@ -24487,7 +24487,7 @@
             "Clarity",
             "Curiosity"
           ],
-          "image": "assets/images/commissioned/crone/withholding-sage.png",
+          "image": "assets/images/commissioned/crone/withholding-sage.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Clarity collapses while Curiosity distorts",
@@ -24632,7 +24632,7 @@
         "Clarity",
         "Curiosity"
       ],
-      "image": "assets/images/commissioned/crone/arrogant-know-it-all.png",
+      "image": "assets/images/commissioned/crone/arrogant-know-it-all.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Clarity without Curiosity",
@@ -24775,7 +24775,7 @@
         "Clarity",
         "Curiosity"
       ],
-      "image": "assets/images/commissioned/crone/withholding-sage.png",
+      "image": "assets/images/commissioned/crone/withholding-sage.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Clarity collapses while Curiosity distorts",
@@ -24916,7 +24916,7 @@
         "Narrative Imagination",
         "Fidelity"
       ],
-      "image": "assets/images/commissioned/crone/storyteller.png",
+      "image": "assets/images/commissioned/crone/storyteller.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Carry lived truth across people and time as memorable shared meaning.",
@@ -25050,7 +25050,7 @@
             "Narrative Imagination",
             "Fidelity"
           ],
-          "image": "assets/images/commissioned/crone/exaggerating-dramatist.png",
+          "image": "assets/images/commissioned/crone/exaggerating-dramatist.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Narrative Imagination without Fidelity",
@@ -25193,7 +25193,7 @@
             "Narrative Imagination",
             "Fidelity"
           ],
-          "image": "assets/images/commissioned/crone/silent-keeper.png",
+          "image": "assets/images/commissioned/crone/silent-keeper.jpg",
           "profile": {
             "lifecycleStage": "Crone",
             "coreFunction": "Narrative Imagination collapses while Fidelity distorts",
@@ -25338,7 +25338,7 @@
         "Narrative Imagination",
         "Fidelity"
       ],
-      "image": "assets/images/commissioned/crone/exaggerating-dramatist.png",
+      "image": "assets/images/commissioned/crone/exaggerating-dramatist.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Narrative Imagination without Fidelity",
@@ -25481,7 +25481,7 @@
         "Narrative Imagination",
         "Fidelity"
       ],
-      "image": "assets/images/commissioned/crone/silent-keeper.png",
+      "image": "assets/images/commissioned/crone/silent-keeper.jpg",
       "profile": {
         "lifecycleStage": "Crone",
         "coreFunction": "Narrative Imagination collapses while Fidelity distorts",

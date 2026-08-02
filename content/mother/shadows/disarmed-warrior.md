@@ -10,7 +10,7 @@ qualityB: Restraint
 aliases:
 legacyRoutes: /mother/warrior-warrioress-huntress/shadows/collapsed-victim/
 legacyAnchors: collapsed-victim
-image: assets/images/commissioned/mother/disarmed-warrior.png
+image: assets/images/commissioned/mother/disarmed-warrior.jpg
 keyQualities: Waits for airtight proof|Softens every firm limit|Calls anger proof of guilt|Turns anger against herself|Resists only indirectly|Calls inhibition restraint
 quoteIds: quote-disarmed-warrior-opening-addams-action-ethics|quote-disarmed-warrior-closing-bronte-resist-unjustly
 mythicResonances: Hamlet (English Renaissance revenge-tragedy tradition)

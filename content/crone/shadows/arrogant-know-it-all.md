@@ -10,7 +10,7 @@ qualityB: Curiosity
 aliases:
 legacyRoutes: /queen/sage-wisdom/shadows/arrogant-know-it-all/
 legacyAnchors: arrogant-know-it-all
-image: assets/images/commissioned/crone/arrogant-know-it-all.png
+image: assets/images/commissioned/crone/arrogant-know-it-all.jpg
 keyQualities: Declares conclusions final|Answers before inquiry|Treats dissent as ignorance|Advises beyond her scope|Uses speed to guard status|Doubles down on error
 quoteIds: quote-arrogant-opening-pope-essay-criticism|quote-arrogant-closing-austen-pride-prejudice
 mythicResonances: Oedipus

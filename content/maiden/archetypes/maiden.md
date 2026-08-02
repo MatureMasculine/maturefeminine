@@ -10,7 +10,7 @@ aliases:
 legacyRoutes:
 coreFunction: Meet a beginning with open wonder and make a trustworthy first choice.
 keyQualities: Curious|Receptive|Discerning|Fresh|Playful|Observant|Hopeful|Teachable|Grounded|Self-trusting
-image: assets/images/commissioned/maiden/maiden.png
+image: assets/images/commissioned/maiden/maiden.jpg
 quoteIds: quote-maiden-opening-teasdale-barter|quote-maiden-closing-dickinson-faith-microscopes
 mythicResonances: Nausicaa (archaic Greek epic tradition)
 mythicSourceIds: myth-maiden-nausicaa-homer-odyssey-6

@@ -10,7 +10,7 @@ aliases: Warrioress|Huntress
 legacyRoutes: /mother/warrior-warrioress-huntress/
 coreFunction: Mobilize proportionate force in defense of life, boundary, and purpose.
 keyQualities: Fierce|Disciplined|Strategic|Courageous|Proportionate|Focused|Protective|Accountable|Skilled|Decisive|Enduring|Restorative
-image: assets/images/commissioned/mother/warrior.png
+image: assets/images/commissioned/mother/warrior.jpg
 quoteIds: quote-warrior-opening-cooper-cause-freedom|quote-warrior-closing-gaskell-damage-cause
 mythicResonances: Mulan (Northern Dynasties Chinese ballad tradition)
 mythicSourceIds: myth-warrior-mulan-ballad
