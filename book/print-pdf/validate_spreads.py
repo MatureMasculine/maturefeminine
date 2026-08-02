@@ -12,8 +12,19 @@ from adjust_content_size import measure_entries, report_markdown
 from generate_book import BUILD_DIR, compile_pdf, select_entries, write_manifest, write_tex
 
 
+def compiled_entry_failure_reasons(entry: dict[str, Any]) -> list[str]:
+    reasons = []
+    if entry.get("pages") != 2:
+        reasons.append(f"compiled entry must span 2 pages, found {entry.get('pages')}")
+    if entry.get("starts_even") is not True:
+        reasons.append("compiled entry must start on an even page")
+    if entry.get("ends_odd") is not True:
+        reasons.append("compiled entry must end on an odd page")
+    return reasons
+
+
 def compiled_entry_passes(entry: dict[str, Any]) -> bool:
-    return entry.get("pages") == 2 and entry.get("starts_even") is True and entry.get("ends_odd") is True
+    return not compiled_entry_failure_reasons(entry)
 
 
 def validate_compiled(entries: list[dict[str, Any]], output_dir: Path) -> dict[str, Any]:
@@ -22,19 +33,21 @@ def validate_compiled(entries: list[dict[str, Any]], output_dir: Path) -> dict[s
     compile_pdf(tex_path, output)
     manifest_path = write_manifest(entries, output, tex_path)
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    compiled = [
-        {"slug": entry["slug"], "anchor": manifest["entries"][entry["slug"]], "passed": compiled_entry_passes(manifest["entries"][entry["slug"]])}
-        for entry in entries
-    ]
+    compiled = []
+    for entry in entries:
+        anchor = manifest["entries"][entry["slug"]]
+        failure_reasons = compiled_entry_failure_reasons(anchor)
+        compiled.append({"slug": entry["slug"], "anchor": anchor, "failure_reasons": failure_reasons, "passed": not failure_reasons})
     return {"pdf": str(output), "manifest": str(manifest_path), "entries": compiled, "passed": all(entry["passed"] for entry in compiled)}
 
 
 def report_markdown_with_compiled(report: dict[str, Any]) -> str:
     markdown = report_markdown(report["standalone"])
-    rows = [markdown.rstrip(), "", "# Compiled Anchor Validation", "", "| Entry | Start | End | Pages | Starts even | Ends odd | Pass |", "| --- | ---: | ---: | ---: | --- | --- | --- |"]
+    rows = [markdown.rstrip(), "", "# Compiled Anchor Validation", "", "| Entry | Start | End | Pages | Starts even | Ends odd | Failure reasons | Pass |", "| --- | ---: | ---: | ---: | --- | --- | --- | --- |"]
     for entry in report["compiled"]["entries"]:
         anchor = entry["anchor"]
-        rows.append(f"| {entry['slug']} | {anchor['start_page']} | {anchor['end_page']} | {anchor['pages']} | {'yes' if anchor['starts_even'] else 'no'} | {'yes' if anchor['ends_odd'] else 'no'} | {'yes' if entry['passed'] else 'no'} |")
+        failures = "; ".join(entry.get("failure_reasons", [])) or "none"
+        rows.append(f"| {entry['slug']} | {anchor['start_page']} | {anchor['end_page']} | {anchor['pages']} | {'yes' if anchor['starts_even'] else 'no'} | {'yes' if anchor['ends_odd'] else 'no'} | {failures} | {'yes' if entry['passed'] else 'no'} |")
     rows.extend(["", f"Overall: **{'PASS' if report['passed'] else 'FAIL'}**", ""])
     return "\n".join(rows)
 

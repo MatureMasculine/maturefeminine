@@ -33,22 +33,56 @@
   "metrics": {
     "bodyBounds": {
       "odd": {
-        "left": 56,
-        "right": 564,
-        "top": 48,
-        "bottom": 750
+        "left": 54.0,
+        "right": 565.2,
+        "top": 54.0,
+        "bottom": 738.0
       },
       "even": {
-        "left": 49,
-        "right": 557,
-        "top": 48,
-        "bottom": 750
+        "left": 46.8,
+        "right": 558.0,
+        "top": 54.0,
+        "bottom": 738.0
       }
     },
     "overflowTolerance": 2,
-    "numericFooter": {
-      "centerTolerance": 12,
-      "maxDigits": 4
+    "numericFolio": {
+      "maxDigits": 4,
+      "openingCentered": {
+        "left": 288.0,
+        "right": 324.0,
+        "top": 738.0,
+        "bottom": 780.0
+      },
+      "continuationOuter": {
+        "odd": {
+          "left": 550.0,
+          "right": 575.0,
+          "top": 18.0,
+          "bottom": 54.0
+        },
+        "even": {
+          "left": 37.0,
+          "right": 62.0,
+          "top": 18.0,
+          "bottom": 54.0
+        }
+      }
+    },
+    "visual": {
+      "firstColumnRight": 291.6,
+      "artwork": {
+        "minimumWidth": 200.0,
+        "minimumHeight": 300.0
+      },
+      "blackPanel": {
+        "minimumWidth": 200.0,
+        "minimumHeight": 150.0,
+        "maximumChannel": 0.12
+      },
+      "requiredFonts": [
+        "Cinzel Decorative"
+      ]
     },
     "minimumFinalFill": 0.75,
     "maximumFinalFill": 0.95

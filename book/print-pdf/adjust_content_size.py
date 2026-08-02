@@ -35,15 +35,19 @@ def report_markdown(report: dict[str, Any]) -> str:
     rows = [
         "# Spread Measurement Report",
         "",
-        "| Entry | Pages | Final fill | Blank pages | Overflow blocks | Pass | Editorial direction |",
-        "| --- | ---: | ---: | --- | ---: | --- | --- |",
+        "| Entry | Pages | Final fill | Blank pages | Overflow blocks | Visual checked | Artwork | Black panel | Opening quote | Closing quote | Fonts | Failure reasons | Pass | Editorial direction |",
+        "| --- | ---: | ---: | --- | ---: | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
     ]
     for entry in report["entries"]:
         measurement = entry["measurement"]
         blank = ", ".join(str(page) for page in measurement["blank_pages"]) or "none"
+        failures = "; ".join(measurement["failure_reasons"]) or "none"
+        flag = lambda key: "yes" if measurement[key] else "no"
         rows.append(
             f"| {entry['slug']} | {measurement['pages']} | {measurement['final_fill']:.4f} | {blank} | "
-            f"{measurement['overflow_blocks']} | {'yes' if measurement['passed'] else 'no'} | {entry['editorial_direction']} |"
+            f"{measurement['overflow_blocks']} | {flag('visual_checked')} | {flag('artwork_on_first')} | "
+            f"{flag('black_panel_on_first')} | {flag('opening_quote_first_only')} | {flag('closing_quote_on_second')} | "
+            f"{flag('required_fonts_embedded')} | {failures} | {flag('passed')} | {entry['editorial_direction']} |"
         )
     rows.extend(["", f"Overall: **{'PASS' if report['passed'] else 'FAIL'}**", ""])
     return "\n".join(rows)
@@ -59,7 +63,7 @@ def measure_entries(entry_slug: str | None, all_entries: bool, output_dir: Path)
     for entry in select_entries(entry_slug, all_entries):
         output = output_dir / f"{entry['slug']}.pdf"
         render_entry(entry["slug"], output)
-        measurement = measure_pdf(output)
+        measurement = measure_pdf(output, expected_entry=entry, physical_start_page=2)
         entries.append(
             {
                 "slug": entry["slug"],
