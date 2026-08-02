@@ -71,7 +71,7 @@ Not every excessive load is a private rescue pattern. Understaffing, inaccessibl
 
 The distinction lies in response: the Rescuing Healer treats personal overextension as the solution and hides its cost, while mature care names the unmet obligation, documents risk, recruits shared power, and refuses to let institutional failure masquerade as individual devotion.
 
-Advocacy is also different from takeover. She may use access, expertise, or status to challenge a barrier while the affected person retains authorship of the goal. Rescue decides what a better life should look like and makes assistance conditional on moving toward it. Advocacy asks what outcome is sought, what risks are acceptable, and when the advocate should step back.
+Advocacy differs from takeover. She may use access, expertise, or status to challenge a barrier while the affected person retains authorship of the goal. Rescue defines a better life and makes assistance conditional on moving toward it.
 
 ## The Responsiveness Inside the Rescue
 
@@ -117,7 +117,7 @@ Boundaries also let her receive help. Supervision, consultation, rest, and distr
 
 ## Where She Returns
 
-The Rescuing Healer returns to the Healer when Compassion can make an offer without claiming the outcome. She responds to what is real, checks consent and scope, and brings in support proportionate to the need. Her warmth remains active. What ends is the demand that she become indispensable in order for her care to count.
+The Rescuing Healer returns to the Healer when Compassion can make an offer without claiming the outcome. She responds to what is real, checks consent and scope, and brings in support proportionate to the need.
 
 ## Closing Quotation
 

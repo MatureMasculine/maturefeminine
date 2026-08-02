@@ -4,8 +4,10 @@
 from __future__ import annotations
 
 import argparse
+import errno
 import json
 import math
+import os
 import re
 import shutil
 import subprocess
@@ -23,7 +25,7 @@ SPECIAL_DIR = ROOT_DIR / "content" / "special"
 CONTENT_CHECK = ROOT_DIR / "scripts" / "validate_content.js"
 CONFIG_PATH = SCRIPT_DIR / "print_config.json"
 ASSET_DIR = SCRIPT_DIR / "assets"
-BUILD_DIR = SCRIPT_DIR / ".latex-build"
+BUILD_DIR = Path(os.environ.get("MF_BUILD_DIR", SCRIPT_DIR / ".latex-build")).resolve()
 DEFAULT_OUTPUT = BOOK_DIR / "mature-feminine.pdf"
 MANIFEST_NAME = "spread-manifest.json"
 
@@ -307,7 +309,9 @@ def copy_images(entries: Iterable[dict[str, Any]]) -> dict[str, str | None]:
                 capture_output=True,
             )
             if result.returncode:
-                fail(f"could not prepare print image {source.relative_to(ROOT_DIR)}")
+                target.unlink(missing_ok=True)
+                target = target_dir / f"{entry['slug']}{source.suffix.lower()}"
+                shutil.copy2(source, target)
         else:
             target = target_dir / f"{entry['slug']}{source.suffix.lower()}"
             shutil.copy2(source, target)
@@ -613,7 +617,12 @@ def compile_pdf(tex_path: Path, output: Path) -> None:
     if not built.is_file():
         fail(f"LuaLaTeX completed without producing {built.name}")
     output.parent.mkdir(parents=True, exist_ok=True)
-    built.replace(output)
+    try:
+        built.replace(output)
+    except OSError as error:
+        if error.errno != errno.EXDEV:
+            raise
+        shutil.move(str(built), output)
 
 
 def manifest_from_aux(auxiliary: str, slugs: Iterable[str]) -> dict[str, Any]:
@@ -663,7 +672,8 @@ def main() -> None:
         fail("--entry and --all cannot be used together")
     entries = select_entries(args.entry, args.all)
     tex_path = write_tex(entries)
-    print(f"Prepared {tex_path.relative_to(ROOT_DIR)} ({len(entries)} normalized entries).")
+    prepared_path = tex_path.relative_to(ROOT_DIR) if tex_path.is_relative_to(ROOT_DIR) else tex_path
+    print(f"Prepared {prepared_path} ({len(entries)} normalized entries).")
     if args.check:
         return
     output = args.output.resolve()

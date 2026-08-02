@@ -102,7 +102,7 @@ Her challenge is accepting limits without turning them into indifference. Some o
 
 ## Living as the Healer
 
-Living as the Healer means keeping both the reach and the edge of care available. Compassion brings her close enough to respond; Boundaries make the response honest, consensual, and sustainable. She does not have to become indispensable, and she does not have to become unreachable. Her mature offering is skilled presence that helps without taking possession of the life being helped.
+Living as the Healer means keeping both the reach and the edge of care available. Compassion brings her close enough to respond; Boundaries make the response honest, consensual, and sustainable.
 
 ## Closing Quotation
 

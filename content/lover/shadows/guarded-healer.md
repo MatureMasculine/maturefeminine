@@ -113,7 +113,7 @@ She also learns that warmth can survive refusal. A person may be disappointed by
 
 ## Where She Returns
 
-The Guarded Healer returns to the Healer when Compassion can cross the boundary without dismantling it. She sees the person, names what she can offer, and remains clear about what she cannot. Her caution becomes ethical judgment rather than absence. Care is no longer a trap or a takeover. It is a reachable, proportionate response.
+The Guarded Healer returns to the Healer when Compassion can cross the boundary without dismantling it. She sees the person, names what she can offer, and remains clear about what she cannot. Care becomes a reachable, proportionate response.
 
 ## Closing Quotation
 
