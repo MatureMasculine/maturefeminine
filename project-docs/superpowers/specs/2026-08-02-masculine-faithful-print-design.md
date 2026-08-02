@@ -125,7 +125,7 @@ Only the seven approved feminine fields appear, in this order:
 
 No element, direction, center, power animal, cultural explanation, or extra profile row may be added. Profile content may wrap naturally. The global panel height must accommodate the longest validated profile without clipping; shorter profiles retain the same panel height so the book keeps a consistent visual rhythm.
 
-Shadow `Key qualities` must be migrated from the current full Recognition prose to a dedicated pipe-delimited source field containing five to eight compact, behaviorally precise qualities. Archetype profiles retain their existing compact `keyQualities` source field. The body Recognition section remains full prose and is no longer duplicated into the image profile. This corrects the current schema's conflict with the original requirement for a compact image panel.
+Shadow `Key qualities` must be migrated from the current full Recognition prose to a dedicated pipe-delimited source field containing five to eight compact, behaviorally precise qualities. Each phrase is at most 28 characters and the comma-joined profile value is at most 160 characters, so the seven-row panel remains legible at the global profile size. Archetype profiles retain their existing compact `keyQualities` source field. The body Recognition section remains full prose and is no longer duplicated into the image profile. This corrects the current schema's conflict with the original requirement for a compact image panel.
 
 ## Shadow Design
 

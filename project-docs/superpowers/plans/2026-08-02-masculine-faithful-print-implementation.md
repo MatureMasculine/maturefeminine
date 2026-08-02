@@ -14,7 +14,7 @@
 - Entry titles use localized Cinzel Decorative Bold at 20/24 pt; body copy uses Palatino at 9.5/11.4 pt; no entry-specific typography or geometry override is allowed.
 - The opener rail is globally fixed at 7.90 inches: 5.25 inches of cropped artwork plus a 2.65-inch black profile panel.
 - The profile panel contains exactly Lifecycle stage, Core function, Balanced qualities, Active shadow, Passive shadow, Mythic resonances, and Key qualities, in that order.
-- Shadow Key qualities are five to eight compact source-authored phrases, not copied Recognition paragraphs.
+- Shadow Key qualities are five to eight compact source-authored phrases, not copied Recognition paragraphs; each phrase is at most 28 characters and the comma-joined value is at most 160 characters.
 - Every standalone entry remains exactly two nonblank pages; compiled entries begin even and end odd.
 - The feminine renderer has no runtime dependency on `../maturemasculinedeck`, a browser, a remote stylesheet, Anthropic, or network access.
 - Generated JSON is derived only through `npm run content:sync`; never hand-edit it.
@@ -190,6 +190,8 @@ assert.equal(shadow.profile.keyQualities, shadow.keyQualities.join(", "));
 
 Add a negative fixture with four qualities and assert publish validation contains `shadow key qualities must contain 5–8 items`.
 
+Add negative fixtures for a 29-character phrase and a comma-joined value over 160 characters. Assert publish validation reports `shadow key quality must be at most 28 characters` and `shadow key qualities must be at most 160 characters joined` respectively.
+
 - [ ] **Step 2: Run the focused tests and confirm RED**
 
 Run:
@@ -217,11 +219,17 @@ if (entry.profile.keyQualities !== entry.keyQualities.join(", ")) {
 if (publish && (entry.keyQualities.length < 5 || entry.keyQualities.length > 8)) {
   failures.push(`${label} shadow key qualities must contain 5–8 items`);
 }
+if (publish && entry.keyQualities.some((quality) => quality.length > 28)) {
+  failures.push(`${label} shadow key quality must be at most 28 characters`);
+}
+if (publish && entry.keyQualities.join(", ").length > 160) {
+  failures.push(`${label} shadow key qualities must be at most 160 characters joined`);
+}
 ```
 
 - [ ] **Step 4: Migrate all 44 shadow sources**
 
-Add five to eight compact, behaviorally precise `keyQualities` values to each shadow's front matter and print the same comma-separated values in its Profile. Do not shorten or remove the full Recognition section. Preserve all in-progress Mother prose and research fields.
+Add five to eight compact, behaviorally precise `keyQualities` values to each shadow's front matter and print the same comma-separated values in its Profile. Keep every phrase at or below 28 characters and every joined value at or below 160 characters. Do not shorten or remove the full Recognition section. Preserve all approved Mother prose and research fields.
 
 - [ ] **Step 5: Regenerate data and run all content gates**
 
