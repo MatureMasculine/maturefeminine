@@ -37,7 +37,7 @@ sectionRoles: definition=Crossing With Consequence in View|declarations=The Adve
 
 ## Crossing With Consequence in View
 
-The Adventurer expands life's range through intelligent, accountable risk. She leaves familiar ground because a real possibility calls for her participation, not because ordinary limits have become intolerable. She prepares for likely conditions, crosses the threshold, and keeps learning once the map stops being exact. Her freedom includes the people, resources, and promises affected by her movement.
+The Adventurer expands life's range through accountable risk. A real possibility calls her beyond familiar ground; ordinary limits have not merely become intolerable. She prepares for likely conditions, crosses the threshold, and keeps learning when the map stops being exact. Her freedom includes the people, resources, and promises affected.
 
 Adventure can be geographic, but it need not involve a passport or a mountain. A woman enters this territory when she accepts work beyond her proven competence, moves into a new community, tries an unfamiliar art, tells a truth that changes a relationship, or tests a way of living she cannot fully preview. The defining act is a responsible encounter with uncertainty. Unlike the Rebel, she is not organized around resistance to stale authority; she moves toward range, experience, and discovery.
 
@@ -64,7 +64,7 @@ Together, the qualities create informed courage. The Adventurer cannot know ever
 
 ## Where Range Expands
 
-Her range grows through experiments scaled to the life in front of her, from private assumptions to shared commitments and unfamiliar places.
+Her range grows through experiments scaled to the life in front of her.
 
 ### Inner Life
 

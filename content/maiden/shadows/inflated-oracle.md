@@ -59,19 +59,19 @@ The missing quality is Verification: the discipline of separating observation fr
 
 ## How Interpretation Becomes Unanswerable
 
-This pattern can protect against helplessness, ambiguity, or environments in which ordinary knowledge received no respect. She may have learned that certainty attracted attention, that spiritual or intuitive language gave inaccessible feelings authority, or that being the one who knew prevented others from defining reality for her. The strategy can organize chaos. It becomes shadow when certainty is maintained by making correction impossible.
+This pattern can protect against helplessness, ambiguity, or contempt for ordinary knowledge. She may have learned that certainty drew attention, intuitive language gave inaccessible feelings authority, or being the one who knew kept others from defining reality for her. It organizes chaos but becomes shadow when correction is made impossible.
 
-The Inflated Oracle collapses several steps into one. She notices a dream, coincidence, bodily surge, facial expression, or recurring image and immediately supplies its meaning. The meaning then predicts motive, danger, destiny, or outcome. Because each link feels continuous from inside, she may not recognize where interpretation entered. Other explanations sound like denial rather than inquiry.
+The Inflated Oracle collapses several steps. A dream, coincidence, bodily surge, expression, or recurring image immediately acquires meaning; that meaning predicts motive, danger, destiny, or outcome. Because each link feels continuous, she may not see where interpretation entered. Alternatives sound like denial rather than inquiry.
 
-The social reward can strengthen the pattern. Confidence calms anxious groups, and ambiguous language lets listeners find themselves in a claim. If a forecast is broad, successful instances are remembered while misses disappear. If someone resists, their resistance can be absorbed as proof that the insight touched a defended truth. The claim becomes sealed against every possible answer.
+Social reward strengthens the pattern. Confidence calms anxious groups, while ambiguity lets listeners find themselves in a claim. Broad forecasts preserve hits and lose misses; resistance becomes proof that insight touched a defended truth. The claim is sealed against every answer.
 
 In relationship, she may announce what another person secretly fears, who they are meant to become, or what their boundary “really” means. At work, a felt direction may bypass data, domain expertise, or review while others are expected to carry the risk. In community, dissent is recast as insufficient consciousness. In the body, inflation may appear as sleepless energy, rapid association, narrowed attention, and a compelling need to transmit before checking context.
 
 ## The Perception Inside the Inflation
 
-The shadow carries sensitivity, imagination, synthesis, and courage to name what others have not articulated. She may notice a real tension, contradiction, or emerging possibility. Integration does not require treating every perception as meaningless. It requires releasing the claim to certainty so the useful part can be found.
+The shadow carries sensitivity, imagination, synthesis, and courage to name what others have not. She may notice real tension, contradiction, or possibility. Integration releases certainty so the useful perception can be found; it does not declare every impression meaningless.
 
-With Verification present, confidence becomes a willingness to expose the idea to consequence. She can say what she observed, state the inference, and design a check. A pattern that survives testing gains precision. One that fails gives information rather than humiliation.
+With Verification, confidence exposes the idea to consequence. She states observation and inference, then designs a check. A pattern that survives gains precision; one that fails gives information rather than humiliation.
 
 ## Signs That Verification Is Missing
 

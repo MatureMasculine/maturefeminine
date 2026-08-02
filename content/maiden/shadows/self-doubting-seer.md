@@ -28,14 +28,9 @@ Passive Shadow
 
 “Much madness is divinest sense
 To a discerning eye;
-Much sense the starkest madness.
-’T is the majority
-In this, as all, prevails.
-Assent, and you are sane;
-Demur,—you’re straightway dangerous,
-And handled with a chain.”
+Much sense the starkest madness.”
 
-—Emily Dickinson, “Much madness is divinest sense,” complete poem
+—Emily Dickinson, “Much madness is divinest sense,” lines 1–3
 
 ## Profile
 
@@ -66,19 +61,19 @@ The missing quality is Intuition: permission to register a pattern before every 
 
 ## How Skepticism Prevents Inquiry
 
-This pattern can protect against ridicule, manipulation, or histories in which her perception was repeatedly contradicted by people with more status. She may have learned that an uncertain statement would be attacked as weakness, that intuitive language was used irresponsibly around her, or that being wrong carried disproportionate cost. Withholding can be careful. It becomes shadow when only externally authorized perception is allowed to count.
+This pattern can protect against ridicule, manipulation, or repeated contradiction by higher-status people. She may have learned that uncertainty invited attack, intuitive language was used irresponsibly, or error carried disproportionate cost. Withholding can be careful; it becomes shadow when only externally authorized perception counts.
 
-The Self-Doubting Seer often performs the correction before anyone else can. A bodily tightening becomes fatigue; a recurring inconsistency becomes coincidence; an image that could guide creative work becomes indulgence. Each explanation may be plausible. The distortion lies in granting the dismissive explanation automatic priority while calling that neutrality.
+The Self-Doubting Seer corrects herself before anyone else can. Bodily tightening becomes fatigue; recurring inconsistency, coincidence; a generative image, indulgence. Each explanation may be plausible. The distortion is granting dismissal automatic priority and calling it neutrality.
 
-Her proof standard also moves. She waits for another example, then a clearer one, then confirmation from someone with credentials. Once that person speaks, she may say she had sensed it all along, but the original perception never entered the shared record. Verification therefore has nothing to calibrate. Misses cannot be counted, hits cannot be examined, and the quality she hopes to make rigorous remains undeveloped.
+Her proof standard moves: another example, then a clearer one, then credentialed confirmation. When that person speaks, she may say she sensed it all along, but the original perception never entered the record. Verification has nothing to calibrate; misses and hits cannot be examined, so the quality remains undeveloped.
 
-At work, she may withhold an emerging risk until the metric confirms it too late to respond cheaply. In relationship, she notices a change but talks herself out of asking. In community, she defers to confident speakers despite direct contradictory experience. In creation, she abandons the strange image that carried energy because she cannot justify it before making the work. The body can hold the pattern as a stopped breath, softened voice, unfinished sentence, or mental fog when attention turns toward her.
+At work, she withholds risk until metrics confirm it too late for cheap response. In relationship, she notices change but talks herself out of asking. In community, she defers to confidence despite direct contrary experience. In creation, she abandons an energetic image because she cannot justify it before making the work. The body may stop breath, soften voice, leave sentences unfinished, or fog when attention turns toward her.
 
 ## The Humility Inside the Doubt
 
-The shadow carries intellectual honesty, caution about projection, respect for evidence, and concern for impact. She knows that patterns can be imagined and that confidence can harm. These are essential parts of the mature Visionary. Their purpose is to make perception correctable, not absent.
+The shadow carries intellectual honesty, caution about projection, respect for evidence, and concern for impact. She knows patterns can be imagined and confidence can harm. These mature resources make perception correctable, not absent.
 
-When Intuition returns, humility changes form. She can mark a statement as tentative, ask rather than announce, and distinguish private meaning from shared claim. She risks being wrong in a way that lets everyone learn.
+When Intuition returns, humility changes form. She marks statements tentative, asks rather than announces, and separates private meaning from shared claim. She risks being wrong so everyone can learn.
 
 ## Signs That Intuition Is Missing
 

@@ -37,7 +37,7 @@ sectionRoles: definition=Giving an Impression a Fair Test|declarations=The Visio
 
 ## Giving an Impression a Fair Test
 
-The Visionary notices an emerging intuitive pattern and tests it without demanding impossible certainty. She receives a hunch, image, bodily signal, dream, or convergence before she can fully explain it. Then she turns the impression into language clear enough to compare with observation. Intuition is allowed to speak, and reality is allowed to answer.
+The Visionary notices an intuitive pattern and tests it without demanding impossible certainty. A hunch, image, bodily signal, dream, or convergence arrives before explanation. She gives the impression language clear enough to compare with observation. Intuition speaks, and reality answers.
 
 Her work is early calibration. Unlike the Seer, she is not deciding when seasoned long-range insight should be delivered. Unlike the Sage, she is not assembling evidence and experience into counsel. The Visionary asks a more provisional question: Is there something here, and what would help us find out?
 
@@ -64,7 +64,7 @@ Together, the qualities create calibrated perception. Verification does not guar
 
 ## Where the Pattern Becomes Useful
 
-The practice becomes useful wherever an emerging pattern can guide a modest inquiry without being promoted into unquestionable fact.
+An emerging pattern can guide modest inquiry without becoming unquestionable fact.
 
 ### Inner Life
 
@@ -84,11 +84,11 @@ In creative work, intuition often arrives as an image, rhythm, structural pull, 
 
 ## What Emerging Insight Requires
 
-The Visionary brings imagination, sensitivity, synthesis, and the courage to voice what is not yet settled. She can recognize weak signals, propose an unexpected connection, and help a group perceive a future that current categories conceal. Her humility makes collaboration possible because the insight does not depend on her remaining special.
+The Visionary brings imagination, sensitivity, synthesis, and courage to voice what is unsettled. She recognizes weak signals, proposes unexpected connections, and helps a group perceive what current categories conceal. Humility makes collaboration possible because insight does not require her to remain special.
 
-Her responsibilities are epistemic and relational. She must disclose uncertainty, avoid exploiting fear, respect privacy, and distinguish a compelling story from a supported claim. Predictions that affect health, money, reputation, or safety require stronger evidence than a private creative choice. A failed impression calls for revision, not a new explanation that makes failure impossible.
+She must disclose uncertainty, avoid exploiting fear, respect privacy, and distinguish compelling stories from supported claims. Predictions affecting health, money, reputation, or safety require stronger evidence than private creative choices. A failed impression calls for revision, not an explanation that makes failure impossible.
 
-Her challenge is to stay present through the ordinary labor of checking. The first flash can feel complete; verification is slower and less glamorous. Yet this is where discernment of the gift develops. She learns which contexts sharpen perception, which wishes distort it, and which patterns remain useful after other minds test them.
+Her challenge is the ordinary labor of checking. The first flash feels complete; verification is slower and less glamorous. There she learns which contexts sharpen perception, which wishes distort it, and which patterns remain useful after other minds test them.
 
 ## Practices of Calibrated Intuition
 

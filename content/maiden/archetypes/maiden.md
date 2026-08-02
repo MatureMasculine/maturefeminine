@@ -22,13 +22,9 @@ sectionRoles: definition=The Intelligence of a First Encounter|declarations=The 
 ## Opening Quotation
 
 “Life has loveliness to sell,
-All beautiful and splendid things,
-Blue waves whitened on a cliff,
-Soaring fire that sways and sings,
-And children’s faces looking up
-Holding wonder in a cup.”
+All beautiful and splendid things,”
 
-—Sara Teasdale, “Barter,” stanza 1
+—Sara Teasdale, “Barter,” stanza 1, lines 1–2
 
 ## Profile
 
@@ -42,9 +38,9 @@ Holding wonder in a cup.”
 
 ## The Intelligence of a First Encounter
 
-The Maiden meets a beginning with open wonder and makes a trustworthy first choice. She lets the unfamiliar address her before habit declares what it must be. Then she notices evidence, context, bodily response, and consequence closely enough to choose a next step that belongs to her. She does not need a complete map. She needs an honest encounter and enough judgment for the first commitment.
+The Maiden meets a beginning with wonder and makes a trustworthy first choice. She lets the unfamiliar address her before habit declares what it must be, then notices evidence, context, bodily response, and consequence. She needs no complete map—only an honest encounter and enough judgment for the first commitment.
 
-This psychological territory is revisitable. A woman can enter it at any age when she starts a language, relationship, role, recovery, practice, neighborhood, or way of understanding herself. Maiden does not name biological innocence, sexual status, reproductive capacity, or a lower rank of maturity. It names the fresh attention required whenever experience cannot be borrowed in advance.
+This territory returns at any age with a new language, relationship, role, recovery, practice, neighborhood, or self-understanding. Maiden names neither biological innocence, sexual status, reproductive capacity, nor lesser maturity. It names fresh attention where experience cannot be borrowed in advance.
 
 ## The Maiden's First Stance
 
@@ -61,39 +57,39 @@ This psychological territory is revisitable. A woman can enter it at any age whe
 
 ## Wonder With a Way to Choose
 
-Wonder makes perception available. It slows automatic naming, welcomes surprise, and lets pleasure, curiosity, and possibility register before cynicism closes the case. Without wonder, discernment works only on inherited categories. The Frozen Beginner can become so skilled at identifying problems that no living encounter is permitted to offer new information.
+Wonder slows automatic naming and lets pleasure, curiosity, and possibility register before cynicism closes the case. Without it, discernment works only on inherited categories. The Frozen Beginner can identify problems so expertly that no encounter may offer new information.
 
-Discernment compares the first impression with behavior, facts, limits, values, and consequence. It asks whether enthusiasm is reciprocal, whether a guide is credible, whether the terms are clear, and whether a step can be revised. Without discernment, wonder becomes easy to recruit. The Naive Enthusiast grants trust to novelty itself and may leave other people to absorb the cost of her unexamined yes.
+Discernment compares first impressions with behavior, facts, limits, values, and consequence. It asks whether enthusiasm is reciprocal, a guide credible, terms clear, and a step revisable. Without it, wonder is easy to recruit. The Naive Enthusiast trusts novelty itself and may leave others to absorb her unexamined yes.
 
-Together, Wonder and Discernment make innocence renewable rather than ignorant. The Maiden can be impressed without becoming credulous, cautious without becoming closed, and inexperienced without pretending helplessness. She expects learning to change her view.
+Together, Wonder and Discernment make innocence renewable rather than ignorant. The Maiden can be impressed without credulity, cautious without closure, and inexperienced without helplessness. She expects learning to change her view.
 
 ## Where Beginnings Ask for Her
 
-Beginnings appear at many scales, and she meets each one by opening attention before deciding how much access or commitment to give.
+She opens attention before deciding how much access or commitment to give.
 
 ### Inner Life
 
-The Maiden hears a new desire before forcing it into a verdict. She may notice envy, relief, fascination, or resistance and ask what each sensation reveals. A feeling opens inquiry; it does not issue instructions. She can hold “I want to know more” as a complete first answer.
+The Maiden hears a new desire before forcing a verdict. Envy, relief, fascination, or resistance may open inquiry, but feeling does not issue instructions. “I want to know more” can be a complete first answer.
 
 ### Relationship
 
-With an unfamiliar person or a changed phase of an existing bond, she lets trust accumulate through consistency. Warmth, disclosure, credentials, chemistry, and shared language can all matter without proving safety. She asks direct questions, notices how a no is received, and keeps other sources of counsel available. Openness is strongest when access remains graduated.
+With a new person or changed bond, she lets trust accumulate through consistency. Warmth, disclosure, credentials, chemistry, and shared language matter without proving safety. She asks directly, notices how no is received, keeps counsel available, and graduates access.
 
 ### Work and Learning
 
-At work, she allows herself to be teachable without performing incompetence. She clarifies the task, attempts a bounded part, and returns with specific questions. In formal or self-directed learning, she compares instruction with evidence and practice. Admiration for a teacher never transfers responsibility for her choices.
+At work, she is teachable without performing incompetence: she clarifies the task, attempts a bounded part, and returns with specific questions. She compares instruction with evidence and practice; admiring a teacher never transfers responsibility for her choices.
 
 ### Community and Creation
 
-Entering a community, she observes its ordinary conduct before accepting its account of itself. Who can disagree? How are mistakes handled? Whose labor remains invisible? In creation, the Maiden protects early play from premature judgment while still choosing a form, material, or constraint that lets the experiment become real.
+Entering community, she observes ordinary conduct: who may disagree, how mistakes are handled, and whose labor stays invisible. In creation, she protects early play from premature judgment while choosing a form, material, or constraint that makes the experiment real.
 
 ## What Openness Must Carry
 
-The Maiden brings curiosity, hope, receptivity, and the capacity to make old surroundings visible again. She can ask the simple question that exposes an unnecessary custom and notice the possibility experts have stopped seeing. Her willingness to be changed keeps institutions, relationships, and crafts from becoming sealed systems.
+The Maiden's curiosity, hope, and receptivity make old surroundings visible again. Her simple question may expose an unnecessary custom or recover a possibility experts stopped seeing. Willingness to change keeps institutions, relationships, and crafts from sealing themselves.
 
-These gifts carry responsibilities. She must distinguish a fresh view from ignorance of history, seek consent before turning other people into part of an experiment, and receive correction without demanding that others preserve her excitement. Being new may explain a mistake. It does not remove the need to repair its effect.
+She must distinguish fresh sight from ignorance of history, seek consent before involving others in an experiment, and receive correction without asking them to preserve her excitement. Newness may explain a mistake; it does not cancel repair.
 
-Her challenge is to keep experience from hardening into either shame or superiority. A poor first choice need not make openness foolish. A fortunate first choice does not make instinct infallible. Discernment grows through review: what she noticed, what she missed, whose knowledge mattered, and what she will do differently when the next beginning arrives.
+Experience must harden into neither shame nor superiority. A poor choice does not make openness foolish; a fortunate one does not make instinct infallible. Discernment reviews what she noticed, missed, learned from others, and will change at the next beginning.
 
 ## Practices for a Trustworthy Beginning
 
@@ -106,7 +102,7 @@ Her challenge is to keep experience from hardening into either shame or superior
 
 ## Living as the Maiden
 
-Living as the Maiden means remaining educable at the edge of what we do not yet know. She receives the brightness of a beginning and gives it the dignity of judgment. Wonder opens contact; discernment chooses the terms of the next step. Neither requires certainty, and neither asks her to become less alive. She begins with enough openness to discover and enough self-trust to choose again.
+Living as the Maiden means remaining educable at the edge of the unknown. She receives a beginning's brightness and gives it the dignity of judgment. Wonder opens contact; discernment chooses the next step. She begins open enough to discover and self-trusting enough to choose again.
 
 ## Closing Quotation
 

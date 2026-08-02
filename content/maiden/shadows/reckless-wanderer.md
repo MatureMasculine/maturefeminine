@@ -62,19 +62,19 @@ The missing quality is Prudence: judgment that estimates stakes, preserves optio
 
 ## How Freedom Becomes Fallout
 
-This pattern can protect against confinement, deadening routine, or the shame of feeling unsure. She may have learned that decisive motion drew praise, that stopping exposed vulnerability, or that leaving first prevented someone else from controlling the terms. The strategy can restore a sense of agency. It becomes shadow when motion repeatedly transfers foreseeable risk to bodies, budgets, agreements, and people who did not choose it.
+This pattern can protect against confinement, deadening routine, or the shame of uncertainty. She may have learned that decisive motion drew praise, stopping exposed vulnerability, or leaving first preserved control. The strategy restores agency but becomes shadow when motion transfers foreseeable risk to bodies, budgets, agreements, and people who did not choose it.
 
-The Reckless Wanderer treats activation as information about destiny. A sudden attraction becomes a life plan; frustration at work becomes an unfinanced exit; an invitation becomes a commitment before dates, care duties, or physical demands are checked. Once public, the choice becomes harder to revise because revision feels like cowardice. She escalates to protect the identity of the brave one.
+The Reckless Wanderer treats activation as information about destiny. A sudden attraction becomes a life plan; work frustration, an unfinanced exit; an invitation, a commitment before dates, care duties, or physical demands are checked. Once public, the choice becomes harder to revise because revision feels like cowardice. She escalates to remain the brave one.
 
-Her improvisational skill can conceal the pattern. She may solve the immediate problem brilliantly, then cite the rescue as proof that planning was unnecessary. Missing is the full ledger: the person who lost sleep, the colleague who absorbed the deadline, the friend who lent money, the body pushed through a warning, or the promise quietly dropped. A thrilling recovery is still evidence of a preventable emergency.
+Improvisational skill can conceal the pattern. She solves the immediate problem brilliantly, then cites the rescue as proof that planning was unnecessary. Missing is the full ledger: lost sleep, an absorbed deadline, lent money, a body pushed through warning, or a dropped promise. A thrilling recovery may still reveal a preventable emergency.
 
 At work, unchecked daring appears as deadlines promised on behalf of a team, experiments run without guardrails, or strategic pivots that discard accumulated knowledge. In relationship, she may vanish from a commitment, demand sudden participation, or frame another person's limit as a lack of love. In the body, the pattern can feel like speed, shortened breath, skipped meals, contempt for fatigue, and an urgent need to act before the energy changes.
 
 ## The Force Inside the Rush
 
-The shadow carries initiative, appetite, resilience, and a high tolerance for uncertainty. These are genuine resources. They help a group act when fear has made every option look impossible, and they let her improvise when reality departs from the plan. Integration keeps the force and gives it a trustworthy container.
+The shadow carries initiative, appetite, resilience, and tolerance for uncertainty. These resources help a group act when fear makes every option look impossible and help her improvise when reality departs from plan. Integration gives that force a trustworthy container.
 
-With Prudence present, boldness can serve a chosen purpose instead of protecting an image. She can ask for expertise, define a stop condition, and alter course before crisis. The capacity to retreat becomes part of daring because it requires her to disappoint the audience that applauded the leap.
+With Prudence present, boldness serves a chosen purpose instead of an image. She can seek expertise, define a stop condition, and alter course before crisis. Retreat becomes part of daring when it disappoints the audience that applauded the leap.
 
 ## Signs That Prudence Is Missing
 
@@ -102,15 +102,15 @@ Expects companions to supply the margin she refused to build
 
 ## The Swing Toward Shelter
 
-After injury, debt, public failure, or another person's anger, the Reckless Wanderer may swing into the Sheltered Dreamer. She decides that movement itself was the error and replaces impulsive action with endless preparation. The active shadow abandons Prudence to keep Daring unconstrained; the passive shadow abandons Daring while Prudence tries to eliminate uncertainty.
+After injury, debt, failure, or another person's anger, the Reckless Wanderer may swing into the Sheltered Dreamer. She calls movement itself the error and replaces impulsive action with endless preparation. The active shadow abandons Prudence; the passive abandons Daring while Prudence tries to eliminate uncertainty.
 
-Overcorrection preserves the same refusal to calibrate. One position acts before evidence can matter; the other waits until evidence can promise an outcome it never can. The return lies in bounded experiments, honest stakes, and permission to learn without either spectacle or paralysis.
+Both refuse calibration: one acts before evidence can matter; the other waits for evidence to promise an outcome it never can. Bounded experiments and honest stakes permit learning without spectacle or paralysis.
 
 ## Daring That Can Be Trusted
 
-Transformation begins when consequence enters the decision before the leap. She asks what the choice serves, who can decline, and what resources must remain intact if the attempt fails. These questions may lower the emotional voltage. They also release daring from the job of proving that she is fearless.
+Transformation begins when consequence enters before the leap. She asks what the choice serves, who can decline, and what must remain intact if it fails. These questions lower the emotional voltage and release daring from proving she is fearless.
 
-Prudence makes her more responsive, not merely more cautious. She notices weather, fatigue, new evidence, unequal risk, and the moment enthusiasm has become escalation. She can continue with clearer consent or stop before the world is forced to stop her.
+Prudence makes her responsive, not merely cautious. She notices weather, fatigue, evidence, unequal risk, and the moment enthusiasm becomes escalation. She can continue with clearer consent or stop before the world stops her.
 
 ## Where She Returns
 
