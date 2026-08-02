@@ -92,13 +92,13 @@ The first page uses the masculine `chapter-start` folio treatment: centered page
 ## Artwork Rail
 
 - The combined artwork and profile rail is fixed at 7.90 inches high.
-- Artwork occupies the full left-column width and a fixed height of 5.50 inches.
+- Artwork occupies the full left-column width and a fixed height of 5.25 inches.
 - It is cropped to a fixed portrait frame rather than stretched.
 - Crop uses a centered focal point. If that crop removes an essential subject, the artwork itself must be remapped or replaced during the artwork workstream rather than receiving entry-specific print geometry.
 - The image meets the black profile panel with the same near-seamless transition as the masculine book; no colored border, rounded box, caption, or white gap is introduced.
 - The artwork and black profile panel together create one vertical slab.
 
-The black profile field occupies the remaining 2.40 inches of the fixed rail. These global dimensions reproduce the masculine opener's tall visual mass while accommodating the longer feminine profile. Calibration may change them once as a global pair, but the final values must be recorded in `print_config.json` and used for every entry.
+The black profile field occupies the remaining 2.65 inches of the fixed rail. These global dimensions reproduce the masculine opener's tall visual mass while accommodating the longer feminine profile. Calibration may change them once as a global pair, but the final values must be recorded in `print_config.json` and used for every entry.
 
 ## Black Floral Profile Panel
 
@@ -109,7 +109,7 @@ The panel is rendered directly in LuaLaTeX rather than through the masculine ren
 - Icons: muted gray.
 - Horizontal padding: 0.15 inch.
 - Top padding: 0.12 inch.
-- Bottom reserve: 0.35 inch for the white botanical transition.
+- Bottom reserve: 0.52 inch for the white botanical transition, matching the masculine panel's 50 CSS-pixel reserve.
 - White floral/grass artwork is anchored to the panel's lower edge and scaled to full panel width.
 - The five masculine `grasswide` variants rotate deterministically by canonical entry order.
 
@@ -144,8 +144,10 @@ Shadows use the same opener architecture, typography, black profile rail, and pa
 Copy into `book/print-pdf/assets/`:
 
 - Cinzel Decorative Regular and Bold font files.
+- The authoritative SIL Open Font License text corresponding to the localized Cinzel files.
 - `grasswide1.png` through `grasswide5.png`.
 - `endofchapter.png`.
+- `lettrine.cfl`.
 
 The generator depends only on assets within the feminine repository at runtime. It uses the installed LuaLaTeX packages already required by the local print pipeline, including `fontspec`, `graphicx`, `multicol`, `tikz`, `tcolorbox`, `lettrine`, `needspace`, `fancyhdr`, `microtype`, and `fontawesome5`. It must not require Anthropic, a browser, a remote stylesheet, or network access to measure, build, or validate the book. A missing required LaTeX package fails preflight with its exact package name; it never silently drops a profile field or icon.
 
