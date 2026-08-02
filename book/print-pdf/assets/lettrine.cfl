@@ -1,0 +1,43 @@
+%% Custom lettrine configuration for Mature Masculine book
+%% Per-letter settings for contour-following drop caps
+%%
+%% Format: \LettrineOptionsFor{<letter>}{<options>}
+%% Options: lhang, loversize, lraise, findent, nindent, slope
+%%
+%% Note: Using loversize=-0.15 to simulate ~2.5 line height (with lines=3)
+
+% Letters with diagonal left edge - text should follow the slope
+\LettrineOptionsFor{A}{lhang=0.3, loversize=-0.15, lraise=0.1, slope=0.8em, nindent=0.2em, findent=-0.5em}
+\LettrineOptionsFor{V}{lhang=0.1, loversize=-0.15, lraise=0.1, slope=-0.5em, nindent=0pt, findent=0.3em}
+\LettrineOptionsFor{W}{lhang=0.1, loversize=-0.15, lraise=0.1, slope=-0.4em, nindent=0pt, findent=0.4em}
+\LettrineOptionsFor{Y}{lhang=0.2, loversize=-0.15, lraise=0.1, slope=-0.3em, nindent=0pt, findent=0.4em}
+
+% Letters with space underneath - allow text to tuck in
+\LettrineOptionsFor{L}{lhang=0.1, loversize=-0.15, lraise=0.1, nindent=0.8em, findent=0em}
+\LettrineOptionsFor{P}{lhang=0.1, loversize=-0.05, lraise=0.1, nindent=0pt, findent=0em}
+\LettrineOptionsFor{F}{lhang=0.1, loversize=-0.15, lraise=0.1, nindent=0.2em, findent=0em}
+\LettrineOptionsFor{T}{lhang=0.3, loversize=0.05, lraise=0.1, nindent=-0.5em, findent=0.4em, slope=0em}
+\LettrineOptionsFor{J}{lhang=0.2, loversize=-0.05, lraise=0.1, nindent=0pt, findent=0em}
+
+% Round letters - slight hang
+\LettrineOptionsFor{C}{lhang=0.1, loversize=-0.15, lraise=0.1, nindent=0.2em, findent=0em}
+\LettrineOptionsFor{G}{lhang=0.1, loversize=-0.15, lraise=0.1, nindent=0.8em, findent=0em}
+\LettrineOptionsFor{O}{lhang=0.1, loversize=-0.15, lraise=0.1, nindent=0pt, findent=0em}
+\LettrineOptionsFor{Q}{lhang=0.1, loversize=-0.15, lraise=0.1, nindent=1.5em, findent=0em}
+\LettrineOptionsFor{S}{lhang=0.1, loversize=-0.15, lraise=0.1, nindent=0pt, findent=0em}
+
+% Straight letters - minimal adjustment
+\LettrineOptionsFor{B}{lhang=0, loversize=-0.05, lraise=0.1, nindent=0pt, findent=0.1em}
+\LettrineOptionsFor{D}{lhang=0, loversize=-0.05, lraise=0.1, nindent=0pt, findent=0.1em}
+\LettrineOptionsFor{E}{lhang=0, loversize=-0.15, lraise=0.1, nindent=0pt, findent=0.1em}
+\LettrineOptionsFor{H}{lhang=0, loversize=-0.15, lraise=0.1, nindent=0pt, findent=0.1em}
+\LettrineOptionsFor{I}{lhang=0, loversize=-0.05, lraise=0.1, nindent=0pt, findent=0.1em}
+\LettrineOptionsFor{K}{lhang=0, loversize=-0.15, lraise=0.1, nindent=0.8em, findent=0.2em, slope=0.3em}
+\LettrineOptionsFor{M}{lhang=0, loversize=-0.15, lraise=0.1, nindent=0.8em, findent=0.1em}
+\LettrineOptionsFor{N}{lhang=0, loversize=-0.15, lraise=0.1, nindent=0.8em, findent=0.1em}
+\LettrineOptionsFor{R}{lhang=0, loversize=-0.05, lraise=0.1, nindent=0.8em, findent=0.1em}
+\LettrineOptionsFor{U}{lhang=0, loversize=-0.15, lraise=0.1, nindent=0pt, findent=0.1em}
+\LettrineOptionsFor{X}{lhang=0, loversize=-0.15, lraise=0.1, nindent=0pt, findent=0.5em}
+\LettrineOptionsFor{Z}{lhang=0, loversize=-0.15, lraise=0.1, nindent=0.5em, findent=0.1em}
+
+%% End of lettrine.cfl

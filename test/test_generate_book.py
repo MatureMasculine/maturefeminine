@@ -17,6 +17,18 @@ import generate_book
 
 
 class GenerateBookTests(unittest.TestCase):
+    def test_required_print_assets_are_local_and_complete(self) -> None:
+        assets = generate_book.required_print_assets(generate_book.read_json(generate_book.CONFIG_PATH))
+
+        self.assertEqual(
+            set(assets),
+            {"title_regular", "title_bold", "font_license", "grasswide1", "grasswide2", "grasswide3", "grasswide4", "grasswide5", "end_ornament", "lettrine_config"},
+        )
+        for path in assets.values():
+            self.assertTrue(path.is_file())
+            self.assertTrue(path.is_relative_to(generate_book.SCRIPT_DIR))
+            self.assertNotIn("maturemasculinedeck", str(path))
+
     def test_lookup_returns_a_standalone_shadow_from_normalized_entries(self) -> None:
         entry = generate_book.lookup_entry("armored-lover")
 

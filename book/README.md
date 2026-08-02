@@ -13,6 +13,8 @@ npm run book:build
 
 The final PDF is written to `book/mature-feminine.pdf`. Intermediate LaTeX and copied print assets are written to `book/print-pdf/.latex-build/` and are ignored by Git.
 
+Cinzel Decorative is bundled for print-title use under the SIL Open Font License. Its license text was retrieved from https://raw.githubusercontent.com/google/fonts/main/ofl/cinzeldecorative/OFL.txt on 2026-08-02.
+
 ## Prerequisites
 
 - Python 3.10 or later (standard library only)

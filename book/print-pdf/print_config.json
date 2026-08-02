@@ -2,21 +2,33 @@
   "page": {
     "width": "8.5in",
     "height": "11in",
-    "insideMargin": "0.78in",
-    "outsideMargin": "0.68in",
-    "topMargin": "0.72in",
-    "bottomMargin": "0.72in"
+    "insideMargin": "0.75in",
+    "outsideMargin": "0.65in",
+    "topMargin": "0.75in",
+    "bottomMargin": "0.75in"
   },
   "layout": {
     "columns": 2,
-    "columnGap": "0.28in",
-    "heroHeight": "2.25in"
+    "columnGap": "0.30in",
+    "paragraphSpacing": "0.10in",
+    "artworkHeight": "5.25in",
+    "profileHeight": "2.65in",
+    "railHeight": "7.90in",
+    "titleQuoteGap": "0.25in",
+    "quoteBodyGap": "0.40in"
   },
   "type": {
-    "bodySize": 9.1,
-    "bodyLeading": 11.7,
-    "chapterSize": 22,
-    "sectionSize": 16
+    "bodySize": 9.5,
+    "bodyLeading": 11.4,
+    "chapterSize": 20,
+    "chapterLeading": 24,
+    "sectionSize": 9.5,
+    "subsectionSize": 10.5,
+    "quoteSize": 10,
+    "quoteLeading": 12,
+    "profileSize": 7.6,
+    "profileLeading": 9.2,
+    "folioSize": 9
   },
   "metrics": {
     "bodyBounds": {

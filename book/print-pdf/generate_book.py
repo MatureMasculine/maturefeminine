@@ -19,6 +19,7 @@ DATA_PATH = ROOT_DIR / "src" / "_data" / "archetypes.json"
 IMAGE_DIR = ROOT_DIR / "src"
 CONTENT_CHECK = ROOT_DIR / "scripts" / "validate_content.js"
 CONFIG_PATH = SCRIPT_DIR / "print_config.json"
+ASSET_DIR = SCRIPT_DIR / "assets"
 BUILD_DIR = SCRIPT_DIR / ".latex-build"
 DEFAULT_OUTPUT = BOOK_DIR / "mature-feminine.pdf"
 MANIFEST_NAME = "spread-manifest.json"
@@ -51,6 +52,21 @@ def read_json(path: Path) -> Any:
         return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as error:
         fail(f"cannot read {path.relative_to(ROOT_DIR)}: {error}")
+
+
+def required_print_assets(config: dict[str, Any]) -> dict[str, Path]:
+    relative = {
+        "title_regular": Path("fonts/CinzelDecorative-Regular.ttf"),
+        "title_bold": Path("fonts/CinzelDecorative-Bold.ttf"),
+        "font_license": Path("fonts/OFL.txt"),
+        **{f"grasswide{i}": Path(f"ornaments/grasswide{i}.png") for i in range(1, 6)},
+        "end_ornament": Path("ornaments/endofchapter.png"),
+        "lettrine_config": Path("lettrine.cfl"),
+    }
+    missing = [str(path) for path in relative.values() if not (ASSET_DIR / path).is_file()]
+    if missing:
+        fail("missing local print assets: " + ", ".join(missing))
+    return {name: ASSET_DIR / path for name, path in relative.items()}
 
 
 def source_check() -> None:
@@ -253,6 +269,7 @@ def render_document(config: dict[str, Any], entries: list[dict[str, Any]], image
 
 def write_tex(entries: list[dict[str, Any]], *, standalone: bool = False, name: str = "mature-feminine") -> Path:
     config = read_json(CONFIG_PATH)
+    required_print_assets(config)
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
     images = copy_images(entries)
     tex_path = BUILD_DIR / f"{name}.tex"
