@@ -1849,6 +1849,729 @@
       "assignedSpread": "powerless-mystic",
       "position": "closing",
       "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-crone-opening-dickinson-my-life-closed-twice",
+      "exactQuotation": "Parting is all we know of heaven,\nAnd all we need of hell.",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "My life closed twice before its close (96)",
+        "workType": "poem",
+        "location": "lines 7–8",
+        "publicationDetails": "US public domain; poem first published 1896; Academy of American Poets marks this text public domain."
+      },
+      "sourceUrl": "https://poets.org/anthology/emily-dickinson-34",
+      "corroboratingUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Poems_by_Emily_Dickinson_%28IA_poemsbyemilydick00dickrich%29.pdf",
+      "context": "Release permits an ending to be real while Remembrance keeps its usable meaning; either erasure or permanent preservation collapses the balance. This opening quotation is assigned to crone for that mechanism; Do not universalize maternal grief or imply that maturity requires bereavement. Demeter is a Greek literary-religious figure; cite the hymn and keep the analogy narrow.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://poets.org/anthology/emily-dickinson-34 and https://upload.wikimedia.org/wikipedia/commons/6/68/Poems_by_Emily_Dickinson_%28IA_poemsbyemilydick00dickrich%29.pdf. Editorial treatment: None; line break retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; poem first published 1896; Academy of American Poets marks this text public domain.",
+      "assignedSpread": "crone",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-crone-closing-rossetti-remember",
+      "exactQuotation": "Better by far you should forget and smile\nThan that you should remember and be sad.",
+      "author": "Christina Rossetti",
+      "origin": {
+        "work": "Remember",
+        "workType": "poem",
+        "location": "lines 13–14",
+        "publicationDetails": "US public domain; first published 1862; Academy of American Poets marks this text public domain."
+      },
+      "sourceUrl": "https://poets.org/poem/remember",
+      "corroboratingUrl": "https://www.gutenberg.org/files/60637/60637-h/60637-h.htm",
+      "context": "Release permits an ending to be real while Remembrance keeps its usable meaning; either erasure or permanent preservation collapses the balance. This closing quotation is assigned to crone for that mechanism; Do not universalize maternal grief or imply that maturity requires bereavement. Demeter is a Greek literary-religious figure; cite the hymn and keep the analogy narrow.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://poets.org/poem/remember and https://www.gutenberg.org/files/60637/60637-h/60637-h.htm. Editorial treatment: None; indentation omitted, wording and line break retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; first published 1862; Academy of American Poets marks this text public domain.",
+      "assignedSpread": "crone",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-scorched-opening-euripides-medea",
+      "exactQuotation": "Let no one think me mean-spirited and weak, nor of a gentle temper, but of a contrary disposition to my foes relentless, and to my friends kind.",
+      "author": "Euripides",
+      "translator": "Theodore Alois Buckley",
+      "origin": {
+        "work": "Medea",
+        "workType": "play",
+        "location": "Medea's speech before the final catastrophe; Gutenberg HTML around line 3324",
+        "publicationDetails": "Ancient play and 19th-century Buckley translation are US public domain."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/15081/15081-h/15081-h.htm",
+      "corroboratingUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/The_tragedies_of_Euripides_Vol_I_Buckley.pdf",
+      "context": "Release overruns Remembrance: pain is converted into irreversible severing, destruction, or retaliation so nothing can call the self back into grief. This opening quotation is assigned to scorched-earth-crone for that mechanism; Avoid treating justified departure from abuse as pathology. Hecuba is a literary tragedy resonance, not a claim about trauma survivors or Greek women.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/15081/15081-h/15081-h.htm and https://upload.wikimedia.org/wikipedia/commons/6/63/The_tragedies_of_Euripides_Vol_I_Buckley.pdf. Editorial treatment: Excerpt ends before the source's colon; terminal colon changed to a period, otherwise verbatim.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: Ancient play and 19th-century Buckley translation are US public domain.",
+      "assignedSpread": "scorched-earth-crone",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-scorched-closing-bronte-jane-eyre",
+      "exactQuotation": "I can live alone, if self-respect, and circumstances require me so to do. I need not sell my soul to buy bliss.",
+      "author": "Charlotte Brontë",
+      "origin": {
+        "work": "Jane Eyre",
+        "workType": "novel",
+        "location": "Chapter XIX, Rochester reading Jane's forehead",
+        "publicationDetails": "US public domain; novel first published 1847."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/1260/1260-h/1260-h.htm",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Jane_Eyre/Chapter_XIX",
+      "context": "Release overruns Remembrance: pain is converted into irreversible severing, destruction, or retaliation so nothing can call the self back into grief. This closing quotation is assigned to scorched-earth-crone for that mechanism; Avoid treating justified departure from abuse as pathology. Hecuba is a literary tragedy resonance, not a claim about trauma survivors or Greek women.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/1260/1260-h/1260-h.htm and https://en.wikisource.org/wiki/Jane_Eyre/Chapter_XIX. Editorial treatment: Exact continuous excerpt; following sentence omitted after a complete sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; novel first published 1847.",
+      "assignedSpread": "scorched-earth-crone",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-relic-opening-bronte-wuthering-heights",
+      "exactQuotation": "I cannot live without my life! I cannot live without my soul!",
+      "author": "Emily Brontë",
+      "origin": {
+        "work": "Wuthering Heights",
+        "workType": "novel",
+        "location": "Chapter XVI, Heathcliff after Catherine's death",
+        "publicationDetails": "US public domain; novel first published 1847."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/768/768-h/768-h.htm",
+      "corroboratingUrl": "https://standardebooks.org/ebooks/emily-bronte/wuthering-heights/text/chapter-16",
+      "context": "Remembrance overruns Release: objects, roles, routines, and grief are frozen so continuity never has to risk becoming change. This opening quotation is assigned to relic-keeper for that mechanism; Do not prescribe a timetable for mourning or shame culturally meaningful keeping. Miss Havisham is a Victorian literary figure, not a clinical label.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/768/768-h/768-h.htm and https://standardebooks.org/ebooks/emily-bronte/wuthering-heights/text/chapter-16. Editorial treatment: Exact continuous excerpt.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; novel first published 1847.",
+      "assignedSpread": "relic-keeper",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-relic-closing-longfellow-psalm-of-life",
+      "exactQuotation": "Trust no Future, howe’er pleasant!\nLet the dead Past bury its dead!\nAct,—act in the living Present!",
+      "author": "Henry Wadsworth Longfellow",
+      "origin": {
+        "work": "A Psalm of Life",
+        "workType": "poem",
+        "location": "stanza 6, lines 21–23",
+        "publicationDetails": "US public domain; poem first published 1838."
+      },
+      "sourceUrl": "https://poets.org/poem/psalm-life",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Voices_of_the_Night/A_Psalm_of_Life",
+      "context": "Remembrance overruns Release: objects, roles, routines, and grief are frozen so continuity never has to risk becoming change. This closing quotation is assigned to relic-keeper for that mechanism; Do not prescribe a timetable for mourning or shame culturally meaningful keeping. Miss Havisham is a Victorian literary figure, not a clinical label.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://poets.org/poem/psalm-life and https://en.wikisource.org/wiki/Voices_of_the_Night/A_Psalm_of_Life. Editorial treatment: Final line of the stanza omitted after a complete exclamation; wording, capitalization, punctuation, and line breaks retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; poem first published 1838.",
+      "assignedSpread": "relic-keeper",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-witness-opening-eliot-middlemarch",
+      "exactQuotation": "What do we live for, if it is not to make life less difficult to each other?",
+      "author": "George Eliot",
+      "origin": {
+        "work": "Middlemarch",
+        "workType": "novel",
+        "location": "Book VIII, Chapter LXXII, Dorothea speaking",
+        "publicationDetails": "US public domain; novel published 1871–1872."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/145/145-h/145-h.htm",
+      "corroboratingUrl": "https://books.google.com/books?id=jzcJAAAAQAAJ&pg=PA180",
+      "context": "Compassion stays present to suffering while Detachment accepts the limit of control, preventing both rescue and abandonment. This opening quotation is assigned to witness for that mechanism; Do not sanctify unpaid care or imply that women must absorb suffering. Sonya is a Russian literary figure whose religious frame should be named, not universalized.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/145/145-h/145-h.htm and https://books.google.com/books?id=jzcJAAAAQAAJ&pg=PA180. Editorial treatment: Exact complete sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; novel published 1871–1872.",
+      "assignedSpread": "witness",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-witness-closing-julian-revelations",
+      "exactQuotation": "He said not: Thou shalt not be tempested, thou shalt not be travailed, thou shalt not be distressed; but He said: Thou shalt not be overcome.",
+      "author": "Julian of Norwich",
+      "translator": "Grace Warrack",
+      "origin": {
+        "work": "Revelations of Divine Love",
+        "workType": "mystical theology",
+        "location": "Chapter LXVIII",
+        "publicationDetails": "Medieval work and 1901 Warrack translation are US public domain."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/52958/52958-h/52958-h.htm",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Revelations_of_Divine_Love/Chapter_68",
+      "context": "Compassion stays present to suffering while Detachment accepts the limit of control, preventing both rescue and abandonment. This closing quotation is assigned to witness for that mechanism; Do not sanctify unpaid care or imply that women must absorb suffering. Sonya is a Russian literary figure whose religious frame should be named, not universalized.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/52958/52958-h/52958-h.htm and https://en.wikisource.org/wiki/Revelations_of_Divine_Love/Chapter_68. Editorial treatment: Exact sentence; archaic wording retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: Medieval work and 1901 Warrack translation are US public domain.",
+      "assignedSpread": "witness",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-martyred-opening-wilde-happy-prince",
+      "exactQuotation": "“I am covered with fine gold,” said the Prince, “you must take it off, leaf by leaf, and give it to my poor; the living always think that gold can make them happy.”",
+      "author": "Oscar Wilde",
+      "origin": {
+        "work": "The Happy Prince",
+        "workType": "literary fairy tale",
+        "location": "The Happy Prince, instruction to the Swallow after the sapphires are gone",
+        "publicationDetails": "US public domain; story first published 1888."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/30120/30120-h/30120-h.htm",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/The_Happy_Prince_and_Other_Tales/The_Happy_Prince",
+      "context": "Compassion overruns Detachment: usefulness becomes identity, so the self keeps giving past consent, capacity, and the point at which presence becomes rescue. This opening quotation is assigned to martyred-healer for that mechanism; Avoid praising martyrdom or turning nursing language into a gendered duty. Andersen's tale is literary and should not be used to naturalize self-erasure.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/30120/30120-h/30120-h.htm and https://en.wikisource.org/wiki/The_Happy_Prince_and_Other_Tales/The_Happy_Prince. Editorial treatment: None; exact continuous dialogue sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; story first published 1888.",
+      "assignedSpread": "martyred-healer",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-martyred-closing-nightingale-nurses",
+      "exactQuotation": "A woman possessed with the idea that she is making a sacrifice will never do.",
+      "author": "Florence Nightingale",
+      "origin": {
+        "work": "Florence Nightingale to Her Nurses",
+        "workType": "address",
+        "location": "Section IV, London address of 26 May 1875, paragraph on the sentimental view of nursing",
+        "publicationDetails": "US public domain; author died 1910 and collected addresses were published 1914."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/49732/pg49732-images.html",
+      "corroboratingUrl": "https://bura.brunel.ac.uk/bitstream/2438/4389/4/FulltextThesis.pdf",
+      "context": "Compassion overruns Detachment: usefulness becomes identity, so the self keeps giving past consent, capacity, and the point at which presence becomes rescue. This closing quotation is assigned to martyred-healer for that mechanism; Avoid praising martyrdom or turning nursing language into a gendered duty. Andersen's tale is literary and should not be used to naturalize self-erasure.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/cache/epub/49732/pg49732-images.html and https://bura.brunel.ac.uk/bitstream/2438/4389/4/FulltextThesis.pdf. Editorial treatment: First independent clause extracted; source semicolon changed to a period.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; author died 1910 and collected addresses were published 1914.",
+      "assignedSpread": "martyred-healer",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-cynical-opening-dickens-christmas-carol",
+      "exactQuotation": "Are there no prisons?",
+      "author": "Charles Dickens",
+      "origin": {
+        "work": "A Christmas Carol",
+        "workType": "novella",
+        "location": "Stave One, Scrooge replying to the charitable collector",
+        "publicationDetails": "US public domain; novella first published 1843."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/46/46-h/46-h.htm",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/A_Christmas_Carol_(Dickens,_1843)/Stave_1",
+      "context": "Detachment overruns Compassion: disappointment is promoted into a total verdict that makes withdrawal feel like realism. This opening quotation is assigned to cynical-healer for that mechanism; Do not stigmatize burnout or require contact with unsafe people. Silas Marner is a Christian-inflected Victorian redemption plot; keep the analogy literary.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/46/46-h/46-h.htm and https://en.wikisource.org/wiki/A_Christmas_Carol_(Dickens,_1843)/Stave_1. Editorial treatment: Speech only; attribution 'asked Scrooge' omitted outside the quotation.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; novella first published 1843.",
+      "assignedSpread": "cynical-healer",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-cynical-closing-tolstoy-what-men-live-by",
+      "exactQuotation": "I have learnt that all men live not by care for themselves, but by love.",
+      "author": "Leo Tolstoy",
+      "translator": "Louise and Aylmer Maude",
+      "origin": {
+        "work": "What Men Live By",
+        "workType": "short story",
+        "location": "Section XII, Michael's third lesson",
+        "publicationDetails": "US public domain; story first published 1885 and Maude translation published 1912."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/6157/6157-h/6157-h.htm",
+      "corroboratingUrl": "https://ccel.org/ccel/t/tolstoy/23_tales/cache/23_tales.pdf",
+      "context": "Detachment overruns Compassion: disappointment is promoted into a total verdict that makes withdrawal feel like realism. This closing quotation is assigned to cynical-healer for that mechanism; Do not stigmatize burnout or require contact with unsafe people. Silas Marner is a Christian-inflected Victorian redemption plot; keep the analogy literary.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/6157/6157-h/6157-h.htm and https://ccel.org/ccel/t/tolstoy/23_tales/cache/23_tales.pdf. Editorial treatment: Speech extracted from dialogue; exact complete sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; story first published 1885 and Maude translation published 1912.",
+      "assignedSpread": "cynical-healer",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-seer-opening-browning-aurora-leigh",
+      "exactQuotation": "Earth’s crammed with heaven,\nAnd every common bush afire with God:",
+      "author": "Elizabeth Barrett Browning",
+      "origin": {
+        "work": "Aurora Leigh",
+        "workType": "verse novel",
+        "location": "Book VII, page 304 in the 1857 Chapman and Hall edition",
+        "publicationDetails": "US public domain; poem-novel first published 1856."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/56621/56621-h/56621-h.htm",
+      "corroboratingUrl": "https://digital.library.upenn.edu/women/barrett/aurora/aurora.html",
+      "context": "Vision perceives a consequential pattern while Timing governs when, how, and to whom it can be responsibly spoken. This opening quotation is assigned to seer for that mechanism; Do not claim supernatural authority or appropriate living divination traditions. The Sibyl is a classical literary figure and should remain source-specific.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/56621/56621-h/56621-h.htm and https://digital.library.upenn.edu/women/barrett/aurora/aurora.html. Editorial treatment: Line break inserted where the verse continues in the source HTML; terminal colon retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; poem-novel first published 1856.",
+      "assignedSpread": "seer",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-seer-closing-thoreau-walden",
+      "exactQuotation": "Only that day dawns to which we are awake. There is more day to dawn. The sun is but a morning star.",
+      "author": "Henry David Thoreau",
+      "origin": {
+        "work": "Walden",
+        "workType": "nonfiction book",
+        "location": "Conclusion, final paragraph",
+        "publicationDetails": "US public domain; first published 1854."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/205/205-h/205-h.htm",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Walden_(1854)_Thoreau/Conclusion",
+      "context": "Vision perceives a consequential pattern while Timing governs when, how, and to whom it can be responsibly spoken. This closing quotation is assigned to seer for that mechanism; Do not claim supernatural authority or appropriate living divination traditions. The Sibyl is a classical literary figure and should remain source-specific.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/205/205-h/205-h.htm and https://en.wikisource.org/wiki/Walden_(1854)_Thoreau/Conclusion. Editorial treatment: Exact continuous sentences.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; first published 1854.",
+      "assignedSpread": "seer",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-premature-opening-shakespeare-othello",
+      "exactQuotation": "Trifles light as air\nAre to the jealous confirmations strong\nAs proofs of holy writ.",
+      "author": "William Shakespeare",
+      "origin": {
+        "work": "Othello",
+        "workType": "play",
+        "location": "Act 3, scene 3, Iago speaking",
+        "publicationDetails": "US public domain."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/1531/1531-h/1531-h.htm",
+      "corroboratingUrl": "https://www.folger.edu/explore/shakespeares-works/othello/read/3/3/",
+      "context": "Vision outruns Timing: a pattern is announced before evidence, consent, readiness, or a useful next step can hold it. This opening quotation is assigned to premature-oracle for that mechanism; Avoid pathologizing intuition or disclosure under danger. The Weird Sisters are characters in an early modern play, not representatives of living witchcraft traditions.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/1531/1531-h/1531-h.htm and https://www.folger.edu/explore/shakespeares-works/othello/read/3/3/. Editorial treatment: Exact continuous verse; source sentence ends after 'writ.'",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain.",
+      "assignedSpread": "premature-oracle",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-premature-closing-dickinson-tell-all-truth",
+      "exactQuotation": "Tell all the truth but tell it slant —\nSuccess in Circuit lies",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "Tell all the truth but tell it slant — (1263)",
+        "workType": "poem",
+        "location": "lines 1–2",
+        "publicationDetails": "US public domain underlying manuscript text: Dickinson died in 1886, so any subsisting unpublished-work term expired no later than 2003; poem first published in 1945. Do not copy modern editorial apparatus or claim rights in a modern edition."
+      },
+      "sourceUrl": "https://www.emilydickinsonmuseum.org/events-news/tell-it-slant/",
+      "corroboratingUrl": "https://www.poetryfoundation.org/poems/56824/tell-all-the-truth-but-tell-it-slant-1263",
+      "context": "Vision outruns Timing: a pattern is announced before evidence, consent, readiness, or a useful next step can hold it. This closing quotation is assigned to premature-oracle for that mechanism; Avoid pathologizing intuition or disclosure under danger. The Weird Sisters are characters in an early modern play, not representatives of living witchcraft traditions.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.emilydickinsonmuseum.org/events-news/tell-it-slant/ and https://www.poetryfoundation.org/poems/56824/tell-all-the-truth-but-tell-it-slant-1263. Editorial treatment: None; edition's spacing around dash retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain underlying manuscript text: Dickinson died in 1886, so any subsisting unpublished-work term expired no later than 2003; poem first published in 1945. Do not copy modern editorial apparatus or claim rights in a modern edition.",
+      "assignedSpread": "premature-oracle",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-withholding-seer-opening-shakespeare-julius-caesar",
+      "exactQuotation": "There is a tide in the affairs of men,\nWhich, taken at the flood, leads on to fortune;",
+      "author": "William Shakespeare",
+      "origin": {
+        "work": "Julius Caesar",
+        "workType": "play",
+        "location": "Act 4, scene 3, Brutus speaking",
+        "publicationDetails": "US public domain."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/1522/1522-h/1522-h.htm",
+      "corroboratingUrl": "https://www.folger.edu/explore/shakespeares-works/julius-caesar/read/4/3/",
+      "context": "Timing overruns Vision: caution becomes indefinite delay, so necessary perception never enters a form that others can use. This opening quotation is assigned to withholding-seer for that mechanism; Do not demand disclosure where secrecy protects safety, confidentiality, or the vulnerable. Tiresias is a Greek dramatic figure; avoid treating blindness as a metaphor for ignorance.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/1522/1522-h/1522-h.htm and https://www.folger.edu/explore/shakespeares-works/julius-caesar/read/4/3/. Editorial treatment: Opening two lines of a longer sentence; terminal semicolon retained to signal continuation.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain.",
+      "assignedSpread": "withholding-seer",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-withholding-seer-closing-wollstonecraft-vindication",
+      "exactQuotation": "It is time to effect a revolution in female manners, time to restore to them their lost dignity, and make them, as a part of the human species, labour by reforming themselves to reform the world.",
+      "author": "Mary Wollstonecraft",
+      "origin": {
+        "work": "A Vindication of the Rights of Woman",
+        "workType": "political treatise",
+        "location": "Chapter III, paragraph beginning 'It is time to effect a revolution'",
+        "publicationDetails": "US public domain; first published 1792."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3420/pg3420.html",
+      "corroboratingUrl": "https://standardebooks.org/ebooks/mary-wollstonecraft/a-vindication-of-the-rights-of-woman/text/chapter-3",
+      "context": "Timing overruns Vision: caution becomes indefinite delay, so necessary perception never enters a form that others can use. This closing quotation is assigned to withholding-seer for that mechanism; Do not demand disclosure where secrecy protects safety, confidentiality, or the vulnerable. Tiresias is a Greek dramatic figure; avoid treating blindness as a metaphor for ignorance.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/cache/epub/3420/pg3420.html and https://standardebooks.org/ebooks/mary-wollstonecraft/a-vindication-of-the-rights-of-woman/text/chapter-3. Editorial treatment: Exact complete sentence; source spelling retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; first published 1792.",
+      "assignedSpread": "withholding-seer",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-rebel-opening-grimke-letters-beecher",
+      "exactQuotation": "I recognize no rights but human rights—I know nothing of men’s rights and women’s rights; for in Christ Jesus, there is neither male nor female.",
+      "author": "Angelina Emily Grimké",
+      "origin": {
+        "work": "Letters to Catherine E. Beecher",
+        "workType": "public letters",
+        "location": "Letter XII, Human Rights Not Founded on Sex",
+        "publicationDetails": "US public domain; pamphlet published 1838."
+      },
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Letters_to_Catherine_E._Beecher%2C_in_reply_to_An_essay_on_slavery_and_abolitionism%2C_addressed_to_A.E._Grimke_%28IA_letterstocatheri00grimrich%29.pdf",
+      "corroboratingUrl": "https://archive.org/details/letterstocatheri00grimrich/page/n7/mode/2up",
+      "context": "Liberation refuses an unjust constraint while Responsibility accepts the costs of replacement, coalition, repair, and what must be built next. This opening quotation is assigned to rebel for that mechanism; Do not flatten abolitionist struggle into generic self-help or treat resistance under oppression as a personality style. Preserve Grimké's explicitly Christian and abolitionist context and Douglass's anti-slavery context.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://upload.wikimedia.org/wikipedia/commons/6/68/Letters_to_Catherine_E._Beecher%2C_in_reply_to_An_essay_on_slavery_and_abolitionism%2C_addressed_to_A.E._Grimke_%28IA_letterstocatheri00grimrich%29.pdf and https://archive.org/details/letterstocatheri00grimrich/page/n7/mode/2up. Editorial treatment: Exact sentence; typographic apostrophe normalized.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; pamphlet published 1838.",
+      "assignedSpread": "rebel",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-rebel-closing-douglass-west-india-emancipation",
+      "exactQuotation": "If there is no struggle there is no progress.",
+      "author": "Frederick Douglass",
+      "origin": {
+        "work": "West India Emancipation",
+        "workType": "speech",
+        "location": "Speech delivered at Canandaigua, New York, 3 August 1857; reform paragraph",
+        "publicationDetails": "US public domain; speech delivered and printed in 1857; NPS reproduces the text."
+      },
+      "sourceUrl": "https://www.nps.gov/common/uploads/teachers/lessonplans/Abolition%20and%20Anti%20Slavery%20Texts%20in%20Hopedale%20-%20Primary%20Sources.pdf",
+      "corroboratingUrl": "https://home.nps.gov/frdo/learn/historyculture/thoughts-for-all-time.htm",
+      "context": "Liberation refuses an unjust constraint while Responsibility accepts the costs of replacement, coalition, repair, and what must be built next. This closing quotation is assigned to rebel for that mechanism; Do not flatten abolitionist struggle into generic self-help or treat resistance under oppression as a personality style. Preserve Grimké's explicitly Christian and abolitionist context and Douglass's anti-slavery context.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.nps.gov/common/uploads/teachers/lessonplans/Abolition%20and%20Anti%20Slavery%20Texts%20in%20Hopedale%20-%20Primary%20Sources.pdf and https://home.nps.gov/frdo/learn/historyculture/thoughts-for-all-time.htm. Editorial treatment: Exact sentence; the NPS historic-site page inserts a comma after 'struggle' while the primary-source transcription does not, so the earlier unpunctuated form is used.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; speech delivered and printed in 1857; NPS reproduces the text.",
+      "assignedSpread": "rebel",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-chaotic-opening-dickens-tale-two-cities",
+      "exactQuotation": "“Then tell Wind and Fire where to stop,” returned madame; “but don’t tell me.”",
+      "author": "Charles Dickens",
+      "origin": {
+        "work": "A Tale of Two Cities",
+        "workType": "novel",
+        "location": "Book III, Chapter XII, Madame Defarge speaking",
+        "publicationDetails": "US public domain; novel published 1859."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/98/98-h/98-h.htm",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/A_Tale_of_Two_Cities/Book_the_Third/Chapter_XII",
+      "context": "Liberation outruns Responsibility: rupture becomes proof of integrity while replacement, proportionality, and exported costs are disowned. This opening quotation is assigned to chaotic-rebel for that mechanism; Avoid delegitimizing civil resistance, labor action, or survival behavior. Jack Cade is Shakespeare's politically interested portrayal, not neutral history.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/98/98-h/98-h.htm and https://en.wikisource.org/wiki/A_Tale_of_Two_Cities/Book_the_Third/Chapter_XII. Editorial treatment: None; exact continuous dialogue sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; novel published 1859.",
+      "assignedSpread": "chaotic-rebel",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-chaotic-closing-ruskin-seven-lamps",
+      "exactQuotation": "Therefore, when we build, let us think that we build for ever.",
+      "author": "John Ruskin",
+      "origin": {
+        "work": "The Seven Lamps of Architecture",
+        "workType": "critical treatise",
+        "location": "Chapter VI, The Lamp of Memory, section X",
+        "publicationDetails": "US public domain; first published 1849."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/15200/15200-h/15200-h.htm",
+      "corroboratingUrl": "https://www.lancaster.ac.uk/fass/ruskin/eSoV/texts/vol08/vol08p233.html",
+      "context": "Liberation outruns Responsibility: rupture becomes proof of integrity while replacement, proportionality, and exported costs are disowned. This closing quotation is assigned to chaotic-rebel for that mechanism; Avoid delegitimizing civil resistance, labor action, or survival behavior. Jack Cade is Shakespeare's politically interested portrayal, not neutral history.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/15200/15200-h/15200-h.htm and https://www.lancaster.ac.uk/fass/ruskin/eSoV/texts/vol08/vol08p233.html. Editorial treatment: Exact complete sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; first published 1849.",
+      "assignedSpread": "chaotic-rebel",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-compliant-opening-mill-on-liberty",
+      "exactQuotation": "A person may cause evil to others not only by his actions but by his inaction, and in either case he is justly accountable to them for the injury.",
+      "author": "John Stuart Mill",
+      "origin": {
+        "work": "On Liberty",
+        "workType": "philosophical essay",
+        "location": "Chapter I, paragraph on accountability for inaction",
+        "publicationDetails": "US public domain; first published 1859."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/On_Liberty/Chapter_1",
+      "context": "Responsibility overruns Liberation: critique remains private or endlessly qualified because permission, safety, or perfect certainty is made a prerequisite for action. This opening quotation is assigned to compliant-critic for that mechanism; Do not blame people constrained by violence, employment dependence, disability, racism, or legal risk. Prufrock is a literary analogy for delay, not a diagnosis.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/34901/34901-h/34901-h.htm and https://en.wikisource.org/wiki/On_Liberty/Chapter_1. Editorial treatment: Exact complete sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; first published 1859.",
+      "assignedSpread": "compliant-critic",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-compliant-closing-stanton-solitude-self",
+      "exactQuotation": "Nothing strengthens the judgment and quickens the conscience like individual responsibility.",
+      "author": "Elizabeth Cady Stanton",
+      "origin": {
+        "work": "The Solitude of Self",
+        "workType": "speech",
+        "location": "Congressional hearing, 18 January 1892, paragraph following the ballot-box argument",
+        "publicationDetails": "US public domain; speech delivered and printed in 1892; Library of Congress scan."
+      },
+      "sourceUrl": "https://tile.loc.gov/storage-services/service/rbc/rbnawsa/n9898/n9898.pdf",
+      "corroboratingUrl": "https://www.nps.gov/wori/learn/historyculture/solitude-of-self.htm",
+      "context": "Responsibility overruns Liberation: critique remains private or endlessly qualified because permission, safety, or perfect certainty is made a prerequisite for action. This closing quotation is assigned to compliant-critic for that mechanism; Do not blame people constrained by violence, employment dependence, disability, racism, or legal risk. Prufrock is a literary analogy for delay, not a diagnosis.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://tile.loc.gov/storage-services/service/rbc/rbnawsa/n9898/n9898.pdf and https://www.nps.gov/wori/learn/historyculture/solitude-of-self.htm. Editorial treatment: Uses corrected transcript spelling rather than OCR errors in one LOC scan; exact sentence otherwise.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; speech delivered and printed in 1892; Library of Congress scan.",
+      "assignedSpread": "compliant-critic",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-sage-opening-bacon-advancement-learning",
+      "exactQuotation": "If a man will begin with certainties, he shall end in doubts; but if he will be content to begin with doubts, he shall end in certainties.",
+      "author": "Francis Bacon",
+      "origin": {
+        "work": "The Advancement of Learning",
+        "workType": "philosophical treatise",
+        "location": "Book I, section on errors in learning, contemplation paragraph",
+        "publicationDetails": "US public domain; first published 1605."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/5500/pg5500-images.html",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/The_Advancement_of_Learning/Book_I",
+      "context": "Clarity offers a usable judgment while Curiosity keeps its evidence, limits, and revision path visible. This opening quotation is assigned to sage for that mechanism; Avoid claiming timeless or indigenous wisdom without provenance. Athena is a Greek epic figure whose martial, political, and deceptive dimensions must not be erased into a generic goddess of wisdom.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/cache/epub/5500/pg5500-images.html and https://en.wikisource.org/wiki/The_Advancement_of_Learning/Book_I. Editorial treatment: Sentence begins after source lead-in 'So it is in contemplation:'; quotation itself exact.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; first published 1605.",
+      "assignedSpread": "sage",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-sage-closing-lovelace-analytical-engine",
+      "exactQuotation": "The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform.",
+      "author": "Ada Lovelace",
+      "origin": {
+        "work": "Notes by the Translator, Note G, in Sketch of the Analytical Engine invented by Charles Babbage",
+        "workType": "scientific commentary",
+        "location": "Note G, opening paragraph",
+        "publicationDetails": "US public domain; English article and notes published 1843."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/75107/75107-h/75107-h.htm",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Scientific_Memoirs/3/Sketch_of_the_Analytical_Engine_invented_by_Charles_Babbage,_Esq./Notes_by_the_Translator",
+      "context": "Clarity offers a usable judgment while Curiosity keeps its evidence, limits, and revision path visible. This closing quotation is assigned to sage for that mechanism; Avoid claiming timeless or indigenous wisdom without provenance. Athena is a Greek epic figure whose martial, political, and deceptive dimensions must not be erased into a generic goddess of wisdom.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/75107/75107-h/75107-h.htm and https://en.wikisource.org/wiki/Scientific_Memoirs/3/Sketch_of_the_Analytical_Engine_invented_by_Charles_Babbage,_Esq./Notes_by_the_Translator. Editorial treatment: Exact continuous sentences; historical spelling 'any thing' retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; English article and notes published 1843.",
+      "assignedSpread": "sage",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-arrogant-opening-pope-essay-criticism",
+      "exactQuotation": "A little Learning is a dang’rous Thing;\nDrink deep, or taste not the Pierian Spring:",
+      "author": "Alexander Pope",
+      "origin": {
+        "work": "An Essay on Criticism",
+        "workType": "poem",
+        "location": "Part II, lines 215–216 in the source edition",
+        "publicationDetails": "US public domain; poem first published 1711."
+      },
+      "sourceUrl": "https://en.wikisource.org/wiki/An_Essay_on_Criticism/Part_II",
+      "corroboratingUrl": "https://www.gutenberg.org/cache/epub/7409/pg7409-images.html",
+      "context": "Clarity overruns Curiosity: a provisional interpretation hardens into identity and status, so contradiction is treated as incompetence or threat. This opening quotation is assigned to arrogant-know-it-all for that mechanism; Do not equate confidence, expertise, autism, or direct speech with arrogance. Oedipus is a tragic literary figure, not a clinical case.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://en.wikisource.org/wiki/An_Essay_on_Criticism/Part_II and https://www.gutenberg.org/cache/epub/7409/pg7409-images.html. Editorial treatment: Typographic apostrophe substituted for the source's straight apostrophe; historical capitalization, contraction, punctuation, and line break retained. The independent modernized edition expands 'dang’rous' to 'dangerous'.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; poem first published 1711.",
+      "assignedSpread": "arrogant-know-it-all",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-arrogant-closing-austen-pride-prejudice",
+      "exactQuotation": "Till this moment, I never knew myself.",
+      "author": "Jane Austen",
+      "origin": {
+        "work": "Pride and Prejudice",
+        "workType": "novel",
+        "location": "Chapter XXXVI, Elizabeth Bennet after reading Darcy's letter",
+        "publicationDetails": "US public domain; novel first published 1813."
+      },
+      "sourceUrl": "https://www.gutenberg.org/files/1342/1342-h/1342-h.htm",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Pride_and_Prejudice/Chapter_36",
+      "context": "Clarity overruns Curiosity: a provisional interpretation hardens into identity and status, so contradiction is treated as incompetence or threat. This closing quotation is assigned to arrogant-know-it-all for that mechanism; Do not equate confidence, expertise, autism, or direct speech with arrogance. Oedipus is a tragic literary figure, not a clinical case.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/files/1342/1342-h/1342-h.htm and https://en.wikisource.org/wiki/Pride_and_Prejudice/Chapter_36. Editorial treatment: Exact complete sentence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; novel first published 1813.",
+      "assignedSpread": "arrogant-know-it-all",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-withholding-sage-opening-bradstreet-prologue",
+      "exactQuotation": "I am obnoxious to each carping tongue\nWho says my hand a needle better fits.",
+      "author": "Anne Bradstreet",
+      "origin": {
+        "work": "The Prologue",
+        "workType": "poem",
+        "location": "stanza 5, lines 25–26",
+        "publicationDetails": "US public domain; poem published 1650."
+      },
+      "sourceUrl": "https://poets.org/poem/prologue",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/The_Tenth_Muse_Lately_Sprung_Up_in_America/The_Prologue",
+      "context": "Curiosity overruns Clarity: inquiry and qualification remain open after enough evidence exists to offer a bounded, revisable judgment. This opening quotation is assigned to withholding-sage for that mechanism; Do not punish caution in high-risk or marginalized contexts. Casaubon is a Victorian literary figure; avoid ableist descriptions of his sterility or age.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://poets.org/poem/prologue and https://en.wikisource.org/wiki/The_Tenth_Muse_Lately_Sprung_Up_in_America/The_Prologue. Editorial treatment: Two opening lines of stanza extracted; line break retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; poem published 1650.",
+      "assignedSpread": "withholding-sage",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-withholding-sage-closing-astell-reflections-marriage",
+      "exactQuotation": "If all Men are born Free, how is it that all Women are born Slaves?",
+      "author": "Mary Astell",
+      "origin": {
+        "work": "Some Reflections upon Marriage",
+        "workType": "essay",
+        "location": "Third edition (1706), page 150 in the source pagination",
+        "publicationDetails": "US public domain; cited edition published 1706."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/61143/pg61143-images.html",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Some_Reflections_upon_Marriage",
+      "context": "Curiosity overruns Clarity: inquiry and qualification remain open after enough evidence exists to offer a bounded, revisable judgment. This closing quotation is assigned to withholding-sage for that mechanism; Do not punish caution in high-risk or marginalized contexts. Casaubon is a Victorian literary figure; avoid ableist descriptions of his sterility or age.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/cache/epub/61143/pg61143-images.html and https://en.wikisource.org/wiki/Some_Reflections_upon_Marriage. Editorial treatment: Exact sentence; historical capitalization retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; cited edition published 1706.",
+      "assignedSpread": "withholding-sage",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-storyteller-opening-tennyson-ulysses",
+      "exactQuotation": "I am a part of all that I have met;",
+      "author": "Alfred, Lord Tennyson",
+      "origin": {
+        "work": "Ulysses",
+        "workType": "poem",
+        "location": "line 18",
+        "publicationDetails": "US public domain; poem first published 1842; Academy of American Poets marks it public domain."
+      },
+      "sourceUrl": "https://poets.org/poem/ulysses",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Poems_(Tennyson,_1843)/Volume_2/Ulysses",
+      "context": "Narrative Imagination gives experience a form that can travel while Fidelity preserves material fact, provenance, consent, and the difference between memory and invention. This opening quotation is assigned to storyteller for that mechanism; Scheherazade belongs to a layered Arabic-Persian-South Asian literary transmission with colonial-era English translations; name the edition and never claim a single homogeneous tradition.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://poets.org/poem/ulysses and https://en.wikisource.org/wiki/Poems_(Tennyson,_1843)/Volume_2/Ulysses. Editorial treatment: Exact line; terminal semicolon retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; poem first published 1842; Academy of American Poets marks it public domain.",
+      "assignedSpread": "storyteller",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-storyteller-closing-eliot-adam-bede",
+      "exactQuotation": "Our deeds determine us, as much as we determine our deeds;",
+      "author": "George Eliot",
+      "origin": {
+        "work": "Adam Bede",
+        "workType": "novel",
+        "location": "Chapter XXIX, narrator's reflection",
+        "publicationDetails": "US public domain; novel first published 1859."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/507/pg507-images.html",
+      "corroboratingUrl": "https://books.google.com/books?id=bS_wmi0hFnYC&pg=PA59",
+      "context": "Narrative Imagination gives experience a form that can travel while Fidelity preserves material fact, provenance, consent, and the difference between memory and invention. This closing quotation is assigned to storyteller for that mechanism; Scheherazade belongs to a layered Arabic-Persian-South Asian literary transmission with colonial-era English translations; name the edition and never claim a single homogeneous tradition.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/cache/epub/507/pg507-images.html and https://books.google.com/books?id=bS_wmi0hFnYC&pg=PA59. Editorial treatment: Opening independent clause of a longer sentence; terminal semicolon retained to signal continuation.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; novel first published 1859.",
+      "assignedSpread": "storyteller",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-exaggerating-opening-byron-don-juan",
+      "exactQuotation": "’T is strange—but true; for truth is always strange—\nStranger than fiction.",
+      "author": "Lord Byron",
+      "origin": {
+        "work": "Don Juan",
+        "workType": "poem",
+        "location": "Canto XIV, stanza 101",
+        "publicationDetails": "US public domain; canto first published 1823."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/18762/pg18762-images.html",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Don_Juan_(Byron)/Canto_the_Fourteenth",
+      "context": "Narrative Imagination outruns Fidelity: embellishment secures attention or coherence until the teller can no longer distinguish heightened form from material fact. This opening quotation is assigned to exaggerating-dramatist for that mechanism; Do not equate fiction, oral variation, or trauma-fragmented memory with lying. Baron Munchausen is an authored European satire, not a clinical diagnosis.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/cache/epub/18762/pg18762-images.html and https://en.wikisource.org/wiki/Don_Juan_(Byron)/Canto_the_Fourteenth. Editorial treatment: First two lines of stanza extracted; source spelling and line break retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; canto first published 1823.",
+      "assignedSpread": "exaggerating-dramatist",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-exaggerating-closing-scott-marmion",
+      "exactQuotation": "Oh, what a tangled web we weave,\nWhen first we practise to deceive!",
+      "author": "Walter Scott",
+      "origin": {
+        "work": "Marmion",
+        "workType": "poem",
+        "location": "Canto VI, stanza XVII",
+        "publicationDetails": "US public domain; poem first published 1808."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/4010/pg4010-images.html",
+      "corroboratingUrl": "https://books.google.com/books?id=sqfKakmNN2YC&pg=PA142",
+      "context": "Narrative Imagination outruns Fidelity: embellishment secures attention or coherence until the teller can no longer distinguish heightened form from material fact. This closing quotation is assigned to exaggerating-dramatist for that mechanism; Do not equate fiction, oral variation, or trauma-fragmented memory with lying. Baron Munchausen is an authored European satire, not a clinical diagnosis.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.gutenberg.org/cache/epub/4010/pg4010-images.html and https://books.google.com/books?id=sqfKakmNN2YC&pg=PA142. Editorial treatment: Exact two lines; British spelling retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; poem first published 1808.",
+      "assignedSpread": "exaggerating-dramatist",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-silent-opening-gray-elegy",
+      "exactQuotation": "Full many a flower is born to blush unseen,\nAnd waste its sweetness on the desert air.",
+      "author": "Thomas Gray",
+      "origin": {
+        "work": "Elegy Written in a Country Churchyard",
+        "workType": "poem",
+        "location": "lines 55–56",
+        "publicationDetails": "US public domain; poem first published 1751."
+      },
+      "sourceUrl": "https://poets.org/poem/elegy-written-country-churchyard/print",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Elegy_Written_in_a_Country_Churchyard",
+      "context": "Fidelity overruns Narrative Imagination: fear of distortion, exposure, or betrayal prevents memory from taking any shareable form. This opening quotation is assigned to silent-keeper for that mechanism; Never coerce disclosure, testimony, family secrets, or trauma narratives. Lucy Snowe's reticence is a literary narrative strategy, not a pathology.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://poets.org/poem/elegy-written-country-churchyard/print and https://en.wikisource.org/wiki/Elegy_Written_in_a_Country_Churchyard. Editorial treatment: Exact two lines; indentation omitted.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; poem first published 1751.",
+      "assignedSpread": "silent-keeper",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-silent-closing-dickinson-letter-world",
+      "exactQuotation": "This is my letter to the World\nThat never wrote to Me—",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "This is my letter to the World (519)",
+        "workType": "poem",
+        "location": "lines 1–2",
+        "publicationDetails": "US public domain; poem first published 1891."
+      },
+      "sourceUrl": "https://www.emilydickinsonmuseum.org/the-world-writes-back-postcards-to-emily-dickinson/",
+      "corroboratingUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Poems_-_second_series_%28IA_poemssecondserie00dickrich%29.pdf",
+      "context": "Fidelity overruns Narrative Imagination: fear of distortion, exposure, or betrayal prevents memory from taking any shareable form. This closing quotation is assigned to silent-keeper for that mechanism; Never coerce disclosure, testimony, family secrets, or trauma narratives. Lucy Snowe's reticence is a literary narrative strategy, not a pathology.",
+      "verificationNotes": "Exact wording and attribution independently checked against https://www.emilydickinsonmuseum.org/the-world-writes-back-postcards-to-emily-dickinson/ and https://upload.wikimedia.org/wikipedia/commons/a/a0/Poems_-_second_series_%28IA_poemssecondserie00dickrich%29.pdf. Editorial treatment: Exact two lines; capitalization and terminal dash retained.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: US public domain; poem first published 1891.",
+      "assignedSpread": "silent-keeper",
+      "position": "closing",
+      "accessDate": "2026-08-02"
     }
   ]
 }

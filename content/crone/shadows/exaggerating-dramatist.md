@@ -12,11 +12,11 @@ legacyRoutes: /queen/storyteller/shadows/exaggerating-dramatist/
 legacyAnchors: exaggerating-dramatist
 image: assets/images/shadow/storyteller--exaggerating-dramatist.jpg
 keyQualities: Invents in memory gaps|Reports inference as fact|Erases doubt for drama|Recenters entrusted stories|Shares without consent|Chooses effect over accuracy
-quoteIds:
-mythicResonances:
-mythicSourceIds:
-researchStatus: pending
-sectionRoles: balanceBreakdown=Balance Breakdown|declarations=Declarations|psychologicalMechanics=Psychological Mechanics|hiddenEnergy=Hidden Energy|recognition=Recognition|practices=Practices|oppositeShadow=Opposite Shadow|transformation=Transformation|conclusion=Conclusion
+quoteIds: quote-exaggerating-opening-byron-don-juan|quote-exaggerating-closing-scott-marmion
+mythicResonances: Baron Munchausen
+mythicSourceIds: myth-exaggerating-baron-munchausen
+researchStatus: verified
+sectionRoles: balanceBreakdown=When Imagination Outruns Fidelity|declarations=Declarations|psychologicalMechanics=How Effect Replaces the Record|hiddenEnergy=The Art Inside the Shadow|recognition=Recognizing the Pattern|practices=Practices of Restored Fidelity|oppositeShadow=The Opposite Shadow|transformation=Repairing the Telling|conclusion=Returning to Trustworthy Story
 ---
 # Exaggerating Dramatist
 
@@ -26,74 +26,82 @@ Active Shadow
 
 ## Opening Quotation
 
+> “’T is strange—but true; for truth is always strange—
+> Stranger than fiction.”
+>
+> — Lord Byron, *Don Juan*
+
 ## Profile
 
 - Lifecycle stage: Crone
 - Core function: Narrative Imagination without Fidelity
-- Balanced qualities: Narrative Imagination + Fidelity
+- Balanced qualities: Mature Storyteller = Narrative Imagination + Fidelity
 - Active shadow: Exaggerating Dramatist
 - Passive shadow: Silent Keeper
-- Mythic resonances:
+- Mythic resonances: Baron Munchausen
 - Key qualities: Invents in memory gaps, Reports inference as fact, Erases doubt for drama, Recenters entrusted stories, Shares without consent, Chooses effect over accuracy
 
-## Balance Breakdown
+## When Imagination Outruns Fidelity
 
-Narrative Imagination dramatizes without Fidelity.
+The Exaggerating Dramatist appears when Narrative Imagination outruns Fidelity. She sharpens conflict, supplies missing motives, improves dialogue, or moves herself toward the center until the account produces the desired response. The altered version may feel emotionally true, but it is delivered as material fact. Source, uncertainty, and consent disappear behind the force of the telling.
+
+This shadow is not fiction, mythmaking, theatrical art, oral variation, or the fragmented memory that can accompany trauma. Those forms can be honest about convention, perspective, and uncertainty. The imbalance lies in concealing the intervention: invention is reported as memory, inference as observation, and another person’s experience as the teller’s property.
 
 ## Declarations
 
-- I improve the account when the lived details feel too quiet.
-- I turn inference into fact when it strengthens the arc.
-- I collapse uncertainty so the audience will stay with me.
-- I center my role in experience entrusted by someone else.
-- I repeat a compelling account before checking consent or context.
-- I defend the effect of the story instead of correcting its distortion.
+- I improve quiet details until the account commands attention.
+- I report inference as fact when it strengthens the arc.
+- I fill memory gaps without naming what I invented.
+- I erase uncertainty so the audience will not look away.
+- I recenter experience that another person entrusted to me.
+- I share before checking consent because momentum feels urgent.
+- I defend emotional effect when material facts are challenged.
+- I protect belonging or status by keeping the better story alive.
 
-## Psychological Mechanics
+## How Effect Replaces the Record
 
-The Exaggerating Dramatist begins with abundant Narrative Imagination: she can find an arc, vivid detail, emotional emphasis, and a form people will remember. Without Fidelity, those strengths detach from source. Remembered detail, inference, and invention blur; ambiguity is edited out; and another person's entrusted experience becomes material for the narrator's effect.
+The pattern begins with a real capacity to find meaning and make it memorable. Attention rewards the first embellishment: the room leans in, confusion resolves, and the teller gains status or belonging. Repetition then stabilizes the heightened version. Details added for coherence become “what happened,” while qualifications that might interrupt the performance fall away.
 
-The causal chain is visible in the telling. Narrative Imagination produces a compelling form, Fidelity checks are skipped, contextual limits disappear, and correction feels like a threat to the performance. Integration restores Fidelity to source, consent, uncertainty, context, and the record.
+Correction threatens more than a sentence. It threatens the social payoff and the teller’s identity as the one who makes experience meaningful. She may insist that critics are missing the larger truth or use a source’s emotional response as retroactive permission. The mechanism remains observable: imagination supplies effect, fidelity checks are skipped, and the story’s authority grows farther from its record.
 
-## Hidden Energy
+## The Art Inside the Shadow
 
-Her retained gift is vivid Narrative Imagination. Joined with Fidelity, it gives entrusted truth a memorable form without making effect more important than source.
+Inside the shadow is narrative abundance: an ear for rhythm, a sense of sequence, and the courage to make an audience feel. These are not defects. Joined with Fidelity, they can illuminate a documented event, animate clearly labeled fiction, or preserve an entrusted account in memorable form. Integration keeps the art and changes the contract with the audience.
 
-## Recognition
+## Recognizing the Pattern
 
-Adds connective detail that was not remembered
+We may be in this shadow when dialogue becomes more precise with every retelling, our role grows while the source-holder’s shrinks, or uncertainty disappears exactly where drama increases. We may rush to publish before consent is clear, borrow a communal story without provenance, or resist a factual correction because the altered version “works better.”
 
-Turns inference into stated fact
+The diagnostic question is simple: does the audience know which elements are documented, remembered, inferred, adapted, or invented? If not, vivid form may be borrowing credibility it has not earned.
 
-Removes uncertainty to strengthen the arc
+## Practices of Restored Fidelity
 
-Centers the narrator in another person's account
+- We label memory, inference, reconstruction, adaptation, and invention before sharing.
+- We verify consequential details against records or a second accountable source.
+- We ask the source-holder what may travel, to whom, and in what form.
+- We remove ourselves from the center when the experience belongs to someone else.
+- We preserve uncertainty even when it weakens the dramatic arc.
+- We pause publication when attention or status is driving urgency.
+- We correct the public version as visibly as we shared the inaccurate one.
+- We move invented material into an explicitly fictional form when that serves the work.
 
-Shares entrusted material without sufficient consent
+## The Opposite Shadow
 
-Protects a compelling version from correction
+The Silent Keeper lets Fidelity overrun Narrative Imagination and withholds a shareable form for fear of distortion or exposure. One shadow makes the story travel by severing its tether; the other preserves the tether but never lets the story move. Mature telling gives experience a bounded form whose provenance, permissions, uncertainties, and corrections travel with it.
 
-## Practices
+## Repairing the Telling
 
-- I label each detail as remembered, inferred, or invented.
-- I check the account against available sources before release.
-- I name uncertainty instead of resolving it for dramatic effect.
-- I preserve context that changes the meaning of a vivid moment.
-- I secure consent for experience entrusted by another person.
-- I remove details that serve the narrator more than the account.
-- I invite correction from people close to the source.
-- I correct the record as visibly as I released the distortion.
+Transformation begins by comparing the circulating version with the available record. We mark each intervention, restore missing context, and ask whose consent or authorship was overridden. Repair may require retracting an anecdote, crediting a source, notifying the audience, or offering the source-holder control over future use. Shame cannot be allowed to become another dramatic center.
 
-## Opposite Shadow
+Fidelity does not flatten art. It gives art an honest domain. A clearly signaled reconstruction can still move people; fiction can still carry insight. What changes is that emotional power no longer impersonates evidence.
 
-Silent Keeper is the opposite imbalance of Narrative Imagination + Fidelity.
+## Returning to Trustworthy Story
 
-## Transformation
-
-Integration restores Fidelity and the dynamic relationship between Narrative Imagination and Fidelity. Restore truth-accountable form; shape and release the entrusted story.
-
-## Conclusion
-
-When Fidelity again governs source, context, consent, uncertainty, and correction, Narrative Imagination returns to the Storyteller as memorable form rather than distortion.
+The Exaggerating Dramatist returns to the Storyteller when she values a trustworthy relationship more than a flawless effect. Her imagination remains vivid, but it works within a visible contract. She tells the audience what kind of account it is receiving, protects entrusted experience, and corrects distortion. The story can then be memorable without becoming a trap for teller, source, or listener.
 
 ## Closing Quotation
+
+> “Oh, what a tangled web we weave,
+> When first we practise to deceive!”
+>
+> — Walter Scott, *Marmion*
