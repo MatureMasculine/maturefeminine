@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "workAliases": {
+    "quote:charlotte brontë:jane eyre an autobiography": "quote:charlotte brontë:jane eyre",
+    "quote:mary wollstonecraft:a vindication of the rights of woman with strictures on political and moral subjects": "quote:mary wollstonecraft:a vindication of the rights of woman"
+  },
+  "sortKeyOverrides": {},
+  "sourceOverrides": {
+    "myth:ancient greek hymn conventionally attributed to homer cite the specific translation used in prose notes:homeric hymn to demeter": {
+      "displayCreator": "Anonymous; conventionally attributed to Homer",
+      "displayWork": "Homeric Hymn to Demeter",
+      "publications": [
+        {
+          "recordIds": ["myth-crone-demeter-homeric-hymn"],
+          "text": "Ancient Greek hymn; the ledger does not identify the specific translation used in the prose notes."
+        }
+      ]
+    },
+    "myth:charles dickens s 1861 novel identify the fictional source explicitly:great expectations": {
+      "displayCreator": "Charles Dickens",
+      "displayWork": "Great Expectations",
+      "publications": [
+        {
+          "recordIds": ["myth-relic-miss-havisham-great-expectations"],
+          "text": "Novel first published in 1861; the ledger identifies the fictional source but does not identify an edition or printed witness."
+        }
+      ]
+    },
+    "myth:charlotte brontë s 1853 novel identify lucy as a fictional narrator:villette": {
+      "displayCreator": "Charlotte Brontë",
+      "displayWork": "Villette",
+      "publications": [
+        {
+          "recordIds": ["myth-silent-lucy-snowe-villette"],
+          "text": "Novel first published in 1853; the ledger identifies Lucy as a fictional narrator but does not identify an edition or printed witness."
+        }
+      ]
+    },
+    "myth:dostoevsky s novel in constance garnett s 1914 translation:crime and punishment": {
+      "displayCreator": "Fyodor Dostoevsky; translated by Constance Garnett",
+      "displayWork": "Crime and Punishment",
+      "publications": [
+        {
+          "recordIds": ["myth-witness-sonya-crime-and-punishment"],
+          "text": "Constance Garnett's English translation was published in 1914; the ledger does not identify a printed witness."
+        }
+      ]
+    },
+    "myth:euripidean tragedy drawing on greek myth name the play rather than presenting hecuba as a universal archetype:hecuba": {
+      "displayCreator": "Euripides",
+      "displayWork": "Hecuba",
+      "publications": [
+        {
+          "recordIds": ["myth-scorched-hecuba-euripides"],
+          "text": "Euripidean tragedy drawing on Greek myth; the ledger names the play rather than presenting Hecuba as a universal archetype and does not identify a translation or printed witness."
+        }
+      ]
+    },
+    "myth:george eliot s 1861 novel identify the christian and communal frame as part of the source s world:silas marner": {
+      "displayCreator": "George Eliot",
+      "displayWork": "Silas Marner",
+      "publications": [
+        {
+          "recordIds": ["myth-cynical-silas-marner"],
+          "text": "Novel first published in 1861; the ledger identifies the Christian and communal frame but does not identify an edition or printed witness."
+        }
+      ]
+    },
+    "myth:george eliot s 1871 1872 novel identify casaubon as a fictional caution not a scholar stereotype:middlemarch": {
+      "displayCreator": "George Eliot",
+      "displayWork": "Middlemarch",
+      "publications": [
+        {
+          "recordIds": ["myth-withholding-casaubon-middlemarch"],
+          "text": "Novel first published in 1871–1872; the ledger identifies Casaubon as a fictional caution, not a scholar stereotype, and does not identify an edition or printed witness."
+        }
+      ]
+    },
+    "myth:hans christian andersen s authored 1837 tale specify the english translation used:the little mermaid": {
+      "displayCreator": "Hans Christian Andersen",
+      "displayWork": "The Little Mermaid",
+      "publications": [
+        {
+          "recordIds": ["myth-martyred-little-mermaid-andersen"],
+          "text": "Authored tale first published in 1837; the ledger does not identify the English translation used."
+        }
+      ]
+    },
+    "myth:homeric greek epic cite book and episode rather than an unsourced goddess summary:odyssey": {
+      "displayCreator": "Homer",
+      "displayWork": "Odyssey",
+      "publications": [
+        {
+          "recordIds": ["myth-sage-athena-odyssey"],
+          "text": "Homeric Greek epic; the ledger calls for citation by book and episode rather than an unsourced goddess summary and does not identify a translation or printed witness."
+        }
+      ]
+    },
+    "myth:multilingual accretive collection cited through richard f burton s 1885 english translation solely because it is traceable and public domain:the book of the thousand nights and a night volume i": {
+      "displayCreator": "Anonymous; translated by Richard F. Burton",
+      "displayWork": "The Book of the Thousand Nights and a Night, Volume I",
+      "publications": [
+        {
+          "recordIds": ["myth-storyteller-scheherazade-arabian-nights"],
+          "text": "Multilingual, accretive collection; cited through Richard F. Burton's 1885 English translation solely because it is traceable and public domain."
+        }
+      ]
+    },
+    "myth:ovid translated by henry thomas riley project gutenberg:ovid metamorphoses": {
+      "displayCreator": "Ovid; translated by Henry Thomas Riley; Project Gutenberg",
+      "displayWork": "Ovid, Metamorphoses",
+      "publications": [
+        {
+          "recordIds": ["myth-enmeshing-lover-echo-ovid"],
+          "text": "English translation by Henry Thomas Riley (1851), reprinted by George Bell & Sons in 1893 and David McKay around 1899; Project Gutenberg ebook 21765."
+        },
+        {
+          "recordIds": ["myth-blinding-star-narcissus-ovid-book-3"],
+          "text": "English translation by Henry Thomas Riley published in 1851; Project Gutenberg ebook 21765."
+        }
+      ]
+    },
+    "myth:rudolf erich raspe s 1785 english publication developed from stories about hieronymus von münchhausen:the surprising adventures of baron munchausen": {
+      "displayCreator": "Rudolf Erich Raspe",
+      "displayWork": "The Surprising Adventures of Baron Munchausen",
+      "publications": [
+        {
+          "recordIds": ["myth-exaggerating-baron-munchausen"],
+          "text": "English publication issued in 1785 and developed from stories about Hieronymus von Münchhausen."
+        }
+      ]
+    },
+    "myth:shakespeare s tragedy approximately 1606 chronicle derived literary figures:macbeth": {
+      "displayCreator": "William Shakespeare",
+      "displayWork": "Macbeth",
+      "publications": [
+        {
+          "recordIds": ["myth-premature-weird-sisters-macbeth"],
+          "text": "Tragedy written approximately 1606 with chronicle-derived literary figures; the ledger does not identify an edition or printed witness."
+        }
+      ]
+    },
+    "myth:shakespearean history play based partly on tudor chronicles historical figure heavily fictionalized:henry vi part 2": {
+      "displayCreator": "William Shakespeare",
+      "displayWork": "Henry VI, Part 2",
+      "publications": [
+        {
+          "recordIds": ["myth-chaotic-jack-cade-henry-vi-2"],
+          "text": "History play based partly on Tudor chronicles; the historical figure is heavily fictionalized, and the ledger does not identify an edition or printed witness."
+        }
+      ]
+    },
+    "myth:sophoclean tragedy drawing on theban myth cite play and line range:oedipus tyrannus": {
+      "displayCreator": "Sophocles",
+      "displayWork": "Oedipus Tyrannus",
+      "publications": [
+        {
+          "recordIds": ["myth-withholding-seer-tiresias-oedipus"],
+          "text": "Tragedy drawing on Theban myth; the ledger calls for citation by play and line range and does not identify a translation or printed witness."
+        }
+      ]
+    },
+    "myth:sophoclean tragedy drawing on theban myth cite the dramatic sequence not a generic oedipus complex:oedipus tyrannus": {
+      "displayCreator": "Sophocles",
+      "displayWork": "Oedipus Tyrannus",
+      "publications": [
+        {
+          "recordIds": ["myth-arrogant-oedipus"],
+          "text": "Tragedy drawing on Theban myth; the ledger cites the dramatic sequence rather than a generic Oedipus complex and does not identify a translation or printed witness."
+        }
+      ]
+    },
+    "myth:sophoclean tragedy drawing on theban myth name the play and competing obligations:antigone": {
+      "displayCreator": "Sophocles",
+      "displayWork": "Antigone",
+      "publications": [
+        {
+          "recordIds": ["myth-rebel-antigone-sophocles"],
+          "text": "Tragedy drawing on Theban myth; the ledger names the play and competing obligations but does not identify a translation or printed witness."
+        }
+      ]
+    },
+    "myth:t s eliot poem first published in poetry in 1915:the love song of j alfred prufrock": {
+      "displayCreator": "T. S. Eliot",
+      "displayWork": "The Love Song of J. Alfred Prufrock",
+      "publications": [
+        {
+          "recordIds": ["myth-compliant-prufrock"],
+          "text": "Poem first published in Poetry in 1915; the ledger does not identify a printed witness."
+        }
+      ]
+    },
+    "myth:virgil s roman epic cite book vi and the chosen translation:aeneid book vi": {
+      "displayCreator": "Virgil",
+      "displayWork": "Aeneid, Book VI",
+      "publications": [
+        {
+          "recordIds": ["myth-seer-cumaean-sibyl-aeneid"],
+          "text": "The ledger identifies Virgil's Roman epic, Book VI, but does not identify the chosen translation or printed witness."
+        }
+      ]
+    },
+    "quote:alexander pope:an essay on criticism": {
+      "displayCreator": "Alexander Pope",
+      "displayWork": "An Essay on Criticism",
+      "publications": [
+        {
+          "recordIds": ["quote-merciless-judge-closing-pope-forgive"],
+          "text": "First published anonymously in London in 1711; text checked through the Poetry Foundation's complete poem."
+        },
+        {
+          "recordIds": ["quote-arrogant-opening-pope-essay-criticism"],
+          "text": "US public domain; poem first published 1711."
+        }
+      ]
+    },
+    "quote:anna julia cooper:a voice from the south": {
+      "displayCreator": "Anna Julia Cooper",
+      "displayWork": "A Voice from the South",
+      "publications": [
+        {
+          "recordIds": ["quote-guardian-closing-cooper-defender", "quote-warrior-opening-cooper-cause-freedom"],
+          "text": "A Voice from the South (Xenia, Ohio: The Aldine Printing House, 1892)."
+        },
+        {
+          "recordIds": ["quote-hidden-light-closing-cooper-when-enter"],
+          "text": "Published in Xenia, Ohio, by the Aldine Printing House in 1892."
+        }
+      ]
+    },
+    "quote:charlotte brontë:jane eyre": {
+      "displayCreator": "Charlotte Brontë",
+      "displayWork": "Jane Eyre",
+      "publications": [
+        {
+          "recordIds": ["quote-adventurer-opening-bronte-jane-eyre"],
+          "text": "First published in London by Smith, Elder and Co. in 1847."
+        },
+        {
+          "recordIds": ["quote-disarmed-warrior-closing-bronte-resist-unjustly"],
+          "text": "Jane Eyre (London: Smith, Elder and Co., 1847)."
+        },
+        {
+          "recordIds": ["quote-peacemaker-opening-bronte-conventionality", "quote-resentful-bystander-closing-bronte-animosity"],
+          "text": "Jane Eyre was first published by Smith, Elder and Co. in 1847; cited from the Service & Paton 1897 text transcribed in Project Gutenberg ebook 1260."
+        },
+        {
+          "recordIds": ["quote-scorched-closing-bronte-jane-eyre"],
+          "text": "US public domain; novel first published 1847."
+        }
+      ]
+    },
+    "quote:emily brontë:wuthering heights": {
+      "displayCreator": "Emily Brontë",
+      "displayWork": "Wuthering Heights",
+      "publications": [
+        {
+          "recordIds": ["quote-rampaging-warrior-opening-bronte-no-pity"],
+          "text": "Wuthering Heights (London: Thomas Cautley Newby, 1847)."
+        },
+        {
+          "recordIds": ["quote-relic-opening-bronte-wuthering-heights"],
+          "text": "US public domain; novel first published 1847."
+        }
+      ]
+    },
+    "quote:george eliot:adam bede": {
+      "displayCreator": "George Eliot",
+      "displayWork": "Adam Bede",
+      "publications": [
+        {
+          "recordIds": ["quote-justice-opening-eliot-consequences"],
+          "text": "First published in Edinburgh and London by William Blackwood and Sons in 1859; Project Gutenberg ebook 507."
+        },
+        {
+          "recordIds": ["quote-storyteller-closing-eliot-adam-bede"],
+          "text": "US public domain; novel first published 1859."
+        }
+      ]
+    },
+    "quote:george eliot:middlemarch": {
+      "displayCreator": "George Eliot",
+      "displayWork": "Middlemarch",
+      "publications": [
+        {
+          "recordIds": ["quote-rescuing-healer-opening-eliot-less-difficult"],
+          "text": "Middlemarch (Edinburgh and London: William Blackwood and Sons, 1871–72)."
+        },
+        {
+          "recordIds": ["quote-resentful-bystander-opening-eliot-reticence"],
+          "text": "Middlemarch was first issued in 1871–72 by William Blackwood and Sons; Project Gutenberg ebook 145 follows an undated H. M. Caldwell New York/Boston edition."
+        },
+        {
+          "recordIds": ["quote-witness-opening-eliot-middlemarch"],
+          "text": "US public domain; novel published 1871–1872."
+        }
+      ]
+    },
+    "quote:henrik ibsen:a doll s house": {
+      "displayCreator": "Henrik Ibsen",
+      "displayWork": "A Doll's House",
+      "publications": [
+        {
+          "recordIds": ["quote-adventurer-closing-ibsen-dolls-house"],
+          "text": "First published in Copenhagen by Gyldendal in 1879; the cited public-domain English text is Project Gutenberg ebook 2542."
+        },
+        {
+          "recordIds": ["quote-controlling-sentinel-closing-ibsen-reasonable-human"],
+          "text": "Original play published in 1879; cited in R. Farquharson Sharp's English translation, Project Gutenberg ebook 2542."
+        },
+        {
+          "recordIds": ["quote-peace-enforcer-opening-ibsen-hushed"],
+          "text": "The play was first published in Copenhagen by Gyldendal in 1879; cited from R. Farquharson Sharp's English translation in Project Gutenberg ebook 2542, whose printed witness is not identified."
+        }
+      ]
+    },
+    "quote:henry david thoreau:walden": {
+      "displayCreator": "Henry David Thoreau",
+      "displayWork": "Walden",
+      "publications": [
+        {
+          "recordIds": ["quote-scattered-maker-closing-thoreau-foundations"],
+          "text": "Walden; or, Life in the Woods (Boston: Ticknor and Fields, 1854)."
+        },
+        {
+          "recordIds": ["quote-seer-closing-thoreau-walden"],
+          "text": "US public domain; first published 1854."
+        }
+      ]
+    },
+    "quote:jane addams:democracy and social ethics": {
+      "displayCreator": "Jane Addams",
+      "displayWork": "Democracy and Social Ethics",
+      "publications": [
+        {
+          "recordIds": ["quote-disarmed-warrior-opening-addams-action-ethics", "quote-isolated-helper-opening-addams-loneliness"],
+          "text": "Democracy and Social Ethics (New York: The Macmillan Company, 1902)."
+        },
+        {
+          "recordIds": ["quote-magician-closing-addams-social-morality"],
+          "text": "Published in New York by Macmillan in 1902; Project Gutenberg ebook 15487."
+        }
+      ]
+    },
+    "quote:jane austen:emma": {
+      "displayCreator": "Jane Austen",
+      "displayWork": "Emma",
+      "publications": [
+        {
+          "recordIds": ["quote-sheltered-dreamer-opening-austen-emma-worse-air", "quote-naive-enthusiast-opening-austen-emma-evils"],
+          "text": "First published in London by John Murray in 1815."
+        },
+        {
+          "recordIds": ["quote-enmeshing-networker-opening-austen-arrange-destiny"],
+          "text": "Emma (London: John Murray, 1816); Project Gutenberg ebook 158 does not identify its base copy."
+        }
+      ]
+    },
+    "quote:jane austen:pride and prejudice": {
+      "displayCreator": "Jane Austen",
+      "displayWork": "Pride and Prejudice",
+      "publications": [
+        {
+          "recordIds": ["quote-rampaging-warrior-closing-austen-angry-wise"],
+          "text": "Pride and Prejudice was first published in 1813; cited from Project Gutenberg ebook 1342."
+        },
+        {
+          "recordIds": ["quote-arrogant-closing-austen-pride-prejudice"],
+          "text": "US public domain; novel first published 1813."
+        }
+      ]
+    },
+    "quote:john stuart mill:on liberty": {
+      "displayCreator": "John Stuart Mill",
+      "displayWork": "On Liberty",
+      "publications": [
+        {
+          "recordIds": ["quote-guardian-opening-mill-harm"],
+          "text": "On Liberty was first published in 1859; Project Gutenberg ebook 34901 transcribes an undated Walter Scott Publishing Company edition."
+        },
+        {
+          "recordIds": ["quote-compliant-opening-mill-on-liberty"],
+          "text": "US public domain; first published 1859."
+        }
+      ]
+    },
+    "quote:louisa may alcott:little women": {
+      "displayCreator": "Louisa May Alcott",
+      "displayWork": "Little Women",
+      "publications": [
+        {
+          "recordIds": ["quote-frozen-beginner-closing-alcott-learning-sail"],
+          "text": "The second part was first published in Boston by Roberts Brothers in 1869."
+        },
+        {
+          "recordIds": ["quote-scattered-maker-opening-alcott-enthusiasm-inspiration"],
+          "text": "Part II first issued as Good Wives (Boston: Roberts Brothers, 1869) and later incorporated into Little Women."
+        }
+      ]
+    },
+    "quote:mary parker follett:the new state": {
+      "displayCreator": "Mary Parker Follett",
+      "displayWork": "The New State",
+      "publications": [
+        {
+          "recordIds": ["quote-peacemaker-closing-follett-agree", "quote-community-weaver-closing-follett-unity-variety"],
+          "text": "The New State: Group Organization the Solution of Popular Government (New York: Longmans, Green and Co., 1918)."
+        },
+        {
+          "recordIds": ["quote-queen-closing-follett-group-idea"],
+          "text": "Published in New York by Longmans, Green and Co. in 1918; Project Gutenberg ebook 73755."
+        }
+      ]
+    },
+    "quote:mary shelley:frankenstein or the modern prometheus": {
+      "displayCreator": "Mary Shelley",
+      "displayWork": "Frankenstein; or, The Modern Prometheus",
+      "publications": [
+        {
+          "recordIds": ["quote-visionary-opening-shelley-invention-chaos"],
+          "text": "Revised edition published in London by Henry Colburn and Richard Bentley in 1831."
+        },
+        {
+          "recordIds": ["quote-inflated-oracle-opening-shelley-life-death-bounds"],
+          "text": "First published in London by Lackington, Hughes, Harding, Mavor and Jones in 1818."
+        },
+        {
+          "recordIds": ["quote-absent-mother-closing-shelley-adam"],
+          "text": "Frankenstein was first published in 1818; the cited Project Gutenberg ebook 84 does not declare its underlying print witness."
+        },
+        {
+          "recordIds": ["quote-magician-opening-shelley-dangerous-knowledge"],
+          "text": "First published anonymously in London in 1818; Project Gutenberg ebook 84 follows the 1831 text."
+        }
+      ]
+    },
+    "quote:mary wollstonecraft:a vindication of the rights of woman": {
+      "displayCreator": "Mary Wollstonecraft",
+      "displayWork": "A Vindication of the Rights of Woman",
+      "publications": [
+        {
+          "recordIds": ["quote-enmeshing-lover-closing-wollstonecraft-vindication"],
+          "text": "First published in London for J. Johnson in 1792; a first American edition was published in Philadelphia by William Gibbons in 1792."
+        },
+        {
+          "recordIds": ["quote-naive-enthusiast-closing-wollstonecraft-unstable-mind"],
+          "text": "First published in London for J. Johnson in 1792."
+        },
+        {
+          "recordIds": ["quote-enmeshing-networker-closing-wollstonecraft-justice"],
+          "text": "A Vindication of the Rights of Woman (London: J. Johnson, 1792); Project Gutenberg ebook 3420 does not identify its base copy."
+        },
+        {
+          "recordIds": ["quote-permissive-witness-closing-wollstonecraft-moral-agents"],
+          "text": "First published in London by Joseph Johnson in 1792; Project Gutenberg ebook 3420."
+        },
+        {
+          "recordIds": ["quote-withholding-seer-closing-wollstonecraft-vindication"],
+          "text": "US public domain; first published 1792."
+        }
+      ]
+    }
+  }
+}

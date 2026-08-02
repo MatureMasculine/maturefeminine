@@ -7,6 +7,8 @@
     "test": "node --test",
     "dev": "eleventy --serve",
     "build": "npm run content:check && node scripts/clean_site_output.js && eleventy",
+    "bibliography:sync": "node scripts/bibliography_sources.js --write",
+    "bibliography:check": "node scripts/bibliography_sources.js --check",
     "content:sync": "node scripts/sync_archetypes.js",
     "content:check": "npm test && node scripts/validate_content.js",
     "content:publish-check": "npm test && node scripts/validate_content.js --publish",

@@ -5,6 +5,7 @@ const {
   validateBook,
   validateCanonicalBook,
 } = require("./content_markdown");
+const { checkRepositoryBibliography } = require("./bibliography_sources");
 
 const root = path.resolve(__dirname, "..");
 const dataDir = path.join(root, "src", "_data");
@@ -14,6 +15,7 @@ try {
   const book = loadBook();
   validateBook(book, { publish });
   validateCanonicalBook(book);
+  checkRepositoryBibliography({ book });
   checkGeneratedData(book, dataDir);
   const archetypeCount = book.entries.filter((entry) => entry.kind === "archetype").length;
   const shadowCount = book.entries.filter((entry) => entry.kind === "shadow").length;
