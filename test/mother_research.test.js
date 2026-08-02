@@ -135,6 +135,7 @@ test("Mother repair, belonging, and place records are complete and independent",
     assert.deepEqual(spreadQuotes.map((item) => item.position), ["opening", "closing"]);
     assert.equal(spreadMyths.length, 1);
     assert.equal(spreadMyths[0].verificationStatus, "verified");
+    assert.match(spreadMyths[0].rightsStatus, /public domain in the United States/i);
   }
 });
 
