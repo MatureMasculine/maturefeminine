@@ -10,7 +10,7 @@ qualityB: Detachment
 aliases:
 legacyRoutes: /crone/elder-healer-priestess/shadows/cynical-healer/
 legacyAnchors: cynical-healer
-image: assets/images/shadow/elder-healer-priestess--controlling-healer.jpg
+image: assets/images/shadow/cynical-healer.png
 keyQualities: Predicts failure at arrival|Turns patterns into verdicts|Uses realism as armor|Listens only for futility|Withholds care without cure|Calls numbness wisdom
 quoteIds:
 mythicResonances:

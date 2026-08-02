@@ -10,7 +10,7 @@ qualityB: Detachment
 aliases:
 legacyRoutes: /crone/elder-healer-priestess/shadows/martyred-healer/
 legacyAnchors: martyred-healer
-image: assets/images/shadow/elder-healer-priestess--burned-out-wise-woman.jpg
+image: assets/images/shadow/martyred-healer.png
 keyQualities: Answers every pain|Stays beyond useful witness|Makes love endless duty|Claims others' outcomes|Refuses limits and endings|Spends health to keep watch
 quoteIds:
 mythicResonances:

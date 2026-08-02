@@ -222,6 +222,45 @@
       "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a mature archetype field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray the Compliant Critic, the passive shadow of responsible liberation: Liberation has collapsed while Responsibility distorts into public obedience, private dissent, endless analysis, and waiting for action without risk\nScene/backdrop: a civic workshop or assembly hall viewed from behind a heavy curtain; a clear speaking place and an unlocked exit stand empty in the lit room, while stacks of private drafts, crossed-out plans, and carefully folded protest cloth remain hidden backstage\nSubject: one mature adult woman, fully clothed, incisive and observant, holding a prepared statement without stepping into the room; her critique is real, but she lets power define when she may act\nStyle/medium: richly detailed painterly fantasy realism, tactile cloth, paper, wood, brass, shadow, and restrained civic architecture\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, face, hands, curtain, hidden drafts, empty speaking place, and open exit readable in a narrow crop\nLighting/mood: cool backstage blue-gray against warm public light; intelligent, constrained, self-protective\nConstraints: no readable text, captions, labels, borders, logos, watermarks, deity names, cultural regalia, police, crowd, victim, or moralizing caricature\nAvoid: conformist-rebel label, coward caricature, masked revolutionary, propaganda poster, courtroom costume, photorealistic stock-photo look",
       "editorialRationale": "The prepared dissent remains behind the curtain while both podium and exit are available, depicting critique that never becomes responsible liberating action.",
       "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-witness-generated-2026-08-02",
+      "assignment": "witness",
+      "file": "assets/images/witness.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Create a print-ready vertical editorial illustration, 2:3 portrait composition, for a mature feminine archetype field guide. Archetype: WITNESS — mature expression of Compassion plus Detachment. Depict one dignified older woman in simple timeless clothing seated quietly beside an empty bedside chair at the edge of a rain-darkened room, holding a small steady lamp while keeping her hands open and at rest. Her presence accompanies suffering at the limit of cure and control: she neither intervenes compulsively nor turns away. The distant storm is visible through one window, while the lamp creates a restrained warm refuge. Emphasize calm attention, emotional steadiness, boundaries, and companionship without ownership of the outcome. Painterly realistic fine-art style, mature and psychologically precise, sophisticated muted charcoal, umber, deep blue, and warm gold palette, natural anatomy, expressive face and hands, strong vertical composition with the woman clearly readable in the upper two-thirds, subtle atmospheric depth. No healing ritual, no medical symbols, no deity, no halo, no vessel symbolism, no victim spectacle, no cultural or religious regalia, no readable text, no letters, no typography, no border, no frame, no watermark.",
+      "editorialRationale": "The empty chair, resting hands, and steady lamp make compassionate accompaniment visible without rescue, ownership, or withdrawal.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-martyred-healer-generated-2026-08-02",
+      "assignment": "martyred-healer",
+      "file": "assets/images/shadow/martyred-healer.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Create a print-ready vertical editorial illustration, 2:3 portrait composition, for a mature feminine archetype field guide. Shadow archetype: MARTYRED HEALER — Compassion without Detachment, taking ownership of every outcome until care becomes self-erasure. Depict one exhausted but still compelling older woman in simple timeless clothing carrying far too many glowing care-cords and small lamps that lead outward beyond the frame, while her own small anchor light near her heart is almost extinguished. Several unclaimed burdens hang from her arms; her posture shows self-sacrifice and overextension, not ordinary fatigue. The composition should make clear that she is trying to carry what belongs to everyone else. Painterly realistic fine-art style, psychologically precise and unsentimental, sophisticated smoke, rust, deep teal, and strained amber palette, natural anatomy, expressive face and hands, dramatic vertical composition with her face and burden clearly readable in the upper two-thirds. Avoid depicting patients as helpless victims; avoid generic burnout office imagery, sainthood, crucifixion, medical uniforms, deity imagery, cultural or religious regalia, readable text, letters, typography, border, frame, or watermark.",
+      "editorialRationale": "The overburdened body, outward-running care cords, and failing personal light depict compassion that has consumed detachment and selfhood.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-cynical-healer-generated-2026-08-02",
+      "assignment": "cynical-healer",
+      "file": "assets/images/shadow/cynical-healer.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Create a print-ready vertical editorial illustration, 2:3 portrait composition, for a mature feminine archetype field guide. Shadow archetype: CYNICAL HEALER — Compassion has collapsed while Detachment has distorted into withdrawal and contempt. Depict one older woman in simple timeless clothing standing behind a fogged glass partition, turning partly away from a still-lit lamp on the other side. Nearby instruments of care—folded cloth, a small bowl, simple bandages—are sealed behind glass and gathering dust, usable but deliberately withheld. Her expression is intelligent and wounded yet hardened, communicating contemptuous distance rather than fear or control. A narrow clear patch in the glass reveals that connection remains possible but refused. Painterly realistic fine-art style, mature psychological realism, restrained slate, ash, cold green, and one warm lamp palette, natural anatomy, expressive face and hands, strong vertical composition with the face and glass boundary legible in the upper two-thirds. Avoid medical drama, villain caricature, controlling-healer imagery, fantasy magic, deity imagery, cultural or religious regalia, readable text, letters, typography, border, frame, or watermark.",
+      "editorialRationale": "Usable care remains lit behind fogged glass while the healer turns away, distinguishing contemptuous withdrawal from control or simple exhaustion.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
     }
   ]
 }
