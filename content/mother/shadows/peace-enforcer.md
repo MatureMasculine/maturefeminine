@@ -10,7 +10,7 @@ qualityB: Confrontation
 aliases:
 legacyRoutes: /mother/peacemaker-peace-bringer/shadows/conflict-avoider/
 legacyAnchors: conflict-avoider
-image: assets/images/shadow/peacemaker-peace-bringer--conflict-avoider.jpg
+image: assets/images/shadow/peace-enforcer.png
 keyQualities: Mutes truth with calm|Dilutes unequal harm|Puts intent over impact|Makes anger the new offense|Rushes reunion|Protects insiders from costs
 quoteIds: quote-peace-enforcer-opening-ibsen-hushed|quote-peace-enforcer-closing-wells-know-act
 mythicResonances: Torvald Helmer (nineteenth-century Norwegian modern drama in English translation)
