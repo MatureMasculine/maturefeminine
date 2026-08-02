@@ -26,11 +26,8 @@ Passive Shadow
 
 ## Opening Quotation
 
-“Know that we have divided
-In three our kingdom: and ’tis our fast intent
-To shake all cares and business from our age;
-Conferring them on younger strengths, while we
-Unburden’d crawl toward death.”
+“To shake all cares and business from our age;
+Conferring them on younger strengths.”
 
 —William Shakespeare, *King Lear*, act I, scene 1
 

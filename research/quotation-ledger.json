@@ -1583,7 +1583,7 @@
     },
     {
       "id": "quote-abdicating-queen-opening-shakespeare-divided-kingdom",
-      "exactQuotation": "Know that we have divided\nIn three our kingdom: and ’tis our fast intent\nTo shake all cares and business from our age;\nConferring them on younger strengths, while we\nUnburden’d crawl toward death.",
+      "exactQuotation": "To shake all cares and business from our age;\nConferring them on younger strengths.",
       "author": "William Shakespeare",
       "origin": {
         "work": "King Lear",
@@ -1593,7 +1593,7 @@
       },
       "sourceUrl": "https://www.gutenberg.org/files/1532/1532-h/1532-h.htm",
       "context": "Lear announces that he will surrender rule and its burdens while retaining status and testing his daughters' love. The excerpt resonates with abdication of role-bound responsibility, not with retirement or delegation itself.",
-      "verificationNotes": "Exact five-line excerpt, lineation, colon, semicolon, apostrophes, and terminal period checked in the Gutenberg play text.",
+      "verificationNotes": "Exact contiguous two-line excerpt and lineation checked in the Gutenberg play text; the manuscript adds quotation marks but does not alter the excerpt.",
       "verificationStatus": "verified",
       "rightsStatus": "Public domain: first printed in 1608; William Shakespeare died in 1616.",
       "assignedSpread": "abdicating-queen",
