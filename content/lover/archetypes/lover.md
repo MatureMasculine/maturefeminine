@@ -38,9 +38,9 @@ I love thee purely, as they turn from Praise.”
 
 ## Wholehearted Without Self-Loss
 
-The Lover enters wholehearted intimacy and shared commitment while remaining a sovereign participant. She gives sustained attention to a person, purpose, place, or practice she truly values. She lets contact delight her, inconvenience her, and change her while keeping hold of her judgment, consent, bodily signals, other commitments, and right to leave. Love can reach her because a distinct self is there to be reached.
+The Lover gives sustained attention to a person, purpose, place, or practice she truly values. She lets contact delight, inconvenience, and change her while keeping hold of judgment, consent, bodily signals, other commitments, and the right to leave. Love can reach her because a distinct self is there to be reached.
 
-This capacity does not require romance, sex, marriage, or partnership. It can animate a friendship, a collaboration, a spiritual commitment, or the long care of a shared home. Sensuality belongs here as alert participation in the senses: the willingness to taste, touch, listen, play, and receive pleasure without turning another person into an instrument. Chosen surrender also belongs here. The Lover may place control in trustworthy hands for a time, yet the choice remains conscious, specific, and revocable.
+This capacity can animate romance, friendship, collaboration, spiritual commitment, or the long care of a shared home. Sensuality means alert participation in the senses without turning another person into an instrument. Chosen surrender belongs here too: the Lover may place control in trustworthy hands for a time, yet the choice remains conscious, specific, and revocable.
 
 ## The Lover's Inner Stance
 
@@ -57,11 +57,11 @@ This capacity does not require romance, sex, marriage, or partnership. It can an
 
 ## The Living Balance
 
-Devotion is the Lover's power to stay: to give attention, keep faith, accept mutual influence, and organize action around what she cherishes. It turns affection into remembered promises, time made available, skill offered, and pleasure shared. Without devotion, desire remains an episode. Nothing is allowed to become important enough to make a claim on her.
+Devotion is the Lover's power to stay: to give attention, keep faith, accept mutual influence, and organize action around what she cherishes. It turns affection into kept promises, offered time and skill, and shared pleasure. Without devotion, desire remains an episode that makes no claim on her.
 
-Sovereignty keeps devotion voluntary. It preserves agency, dignity, consent, and a life not wholly contained by the bond. It lets the Lover distinguish a generous compromise from self-betrayal and loyalty from obedience. Without sovereignty, devotion becomes over-attunement. She may anticipate needs no one voiced, offer sacrifices no one requested, or use surrender to avoid the risk of choosing for herself.
+Sovereignty keeps devotion voluntary. It preserves agency, consent, and a life not wholly contained by the bond. It distinguishes generous compromise from self-betrayal and loyalty from obedience. Without it, she may anticipate needs no one voiced, offer sacrifices no one requested, or use surrender to avoid choosing for herself.
 
-Devotion without sovereignty produces the Enmeshing Lover, whose effort to secure closeness erases the very difference intimacy needs. When devotion collapses and sovereignty becomes a refuge, the Armored Lover can remain impressive, desired, and untouched. Mature love moves between the two capacities: I am here with you, and I am still here within myself.
+Devotion without sovereignty produces the Enmeshing Lover, whose effort to secure closeness erases the difference intimacy needs. When devotion collapses and sovereignty becomes a refuge, the Armored Lover remains impressive and untouched. Mature love holds both capacities: I am here with you, and I am still here within myself.
 
 ## Where Devotion Takes Form
 
@@ -69,27 +69,27 @@ The Lover treats desire as information, neither an order nor an embarrassment.
 
 ### Inner Life
 
-She notices what draws her and asks whether it can be welcomed with integrity. A bodily yes does not cancel practical judgment; a bodily no is not something affection must overcome. Pleasure and reluctance both receive a hearing.
+She notices what draws her and asks whether it can be welcomed with integrity. A bodily yes does not cancel judgment; a bodily no is not something affection must overcome. Pleasure and reluctance both receive a hearing.
 
 ### Relationship
 
-In close relationship, she permits dependence without making it total. People may matter to one another enough to grieve, need, disappoint, and repair. She asks directly rather than arranging a test, and she can hear a boundary without translating it into rejection. Consent stays alive after the first yes. It can become more specific, change pace, or be withdrawn.
+In close relationship, she permits dependence without making it total. People may need, disappoint, and repair with one another. She asks directly rather than arranging a test and hears a boundary without translating it into rejection. Consent stays alive after the first yes: it can become more specific, change pace, or be withdrawn.
 
 ### Work and Shared Purpose
 
-The devoted-consort aspect of the Lover joins a common undertaking without handing over conscience. She can support another person's leadership, carry an unglamorous share, and remain loyal through difficulty. She also speaks when the mission departs from its stated values. Her judgment strengthens shared purpose.
+The devoted-consort aspect joins a common undertaking without handing over conscience. She can support another person's leadership, carry an unglamorous share, and remain loyal through difficulty. She speaks when the mission departs from its values; her judgment strengthens shared purpose.
 
 ### Community and Creation
 
-Her relational gift warms a team or community without demanding that everyone become intimate. In creative life, devotion helps her return to the work after novelty fades, while sovereignty keeps praise and criticism from becoming commands. She loves the work enough to serve it and enough to let it meet a world she cannot control.
+Her relational gift warms a community without demanding intimacy from everyone. In creative life, devotion returns her to the work after novelty fades, while sovereignty keeps praise and criticism from becoming commands. She serves the work and lets it meet a world she cannot control.
 
 ## What Love Asks of Her
 
-The Lover's gifts are warmth, erotic vitality, loyalty, delight, and the courage to be affected. As Beloved, she receives attention without turning admiration into rank. She lets care arrive and answers it freely rather than performing helplessness or perfection.
+The Lover's gifts are warmth, erotic vitality, loyalty, delight, and the courage to be affected. As Beloved, she receives attention without turning admiration into rank and lets care arrive without performing helplessness or perfection.
 
-These gifts carry responsibilities. She must keep consent renewable, make hidden expectations speakable, and protect obligations outside the bond. She must notice when sacrifice has become a bid for control, when loyalty conceals fear, or when sensuality is being used to avoid a necessary conversation. Her challenge is to remain available through ordinariness. Mature devotion survives laundry, deadlines, changed bodies, unequal seasons of capacity, and the discovery that no beloved can complete an unlived life.
+She must keep consent renewable, make hidden expectations speakable, and protect obligations outside the bond. She notices when sacrifice becomes a bid for control, loyalty conceals fear, or sensuality avoids a necessary conversation. Mature devotion survives laundry, deadlines, changed bodies, unequal seasons of capacity, and the discovery that no beloved can complete an unlived life.
 
-Love also brings grief within range. Sovereignty lets her meet loss without abandoning herself. The Lover learns that being changed is different from being erased and that a bond can end without making its meaning false.
+Love brings grief within range. Sovereignty lets her meet loss without abandoning herself. Being changed is different from being erased, and a bond can end without making its meaning false.
 
 ## Practices of Intimate Freedom
 

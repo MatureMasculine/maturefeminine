@@ -777,7 +777,7 @@
         "group": "Queen",
         "qualities": ["Truth","Mercy"],
         "balanceQualities": ["Truth","Mercy"],
-        "keyQualities": "Fixes identity to one act, Calls context an excuse, Punishes past protection, Turns exposure into theater, Uses blame to prove rigor, Closes paths to repair",
+        "keyQualities": "Fixes identity to one act, Calls context an excuse, Punishes beyond protection, Turns exposure into theater, Uses blame to prove rigor, Closes paths to repair",
         "href": "/queen/justice/shadows/merciless-judge/"
       }
 
@@ -921,7 +921,7 @@
         "group": "Crone",
         "qualities": ["Release","Remembrance"],
         "balanceQualities": ["Release","Remembrance"],
-        "keyQualities": "Keeps roles past use, Calls release erasure, Builds identity around loss, Keeps duties past use, Calls new bonds betrayal, Freezes the past in place",
+        "keyQualities": "Keeps roles past use, Calls release erasure, Builds identity around loss, Treats memory as command, Calls new bonds betrayal, Freezes the past in place",
         "href": "/crone/crone/shadows/relic-keeper/"
       }
 

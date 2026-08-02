@@ -51,7 +51,7 @@ Passed. The parent teaches one necessary relational function; both shadows deriv
 
 ### Gate
 
-Passed. Substantive body text measures approximately 984 words for Lover, 970 for Enmeshing Lover, and 978 for Armored Lover, excluding front matter, profile, quotation wrappers, and designation. Every paragraph adds a distinction, mechanism, domain, consequence, or practice.
+Passed. Substantive body text measures approximately 893 words for Lover, 1,165 for Enmeshing Lover, and 1,082 for Armored Lover, excluding front matter, profile, and quotation wrappers. Every paragraph adds a distinction, mechanism, domain, consequence, or practice.
 
 ## Pass 3: Line Edit
 
@@ -106,13 +106,42 @@ The final six quotations come from five women and one man across six distinct wo
 
 - JSON integrity passed for six quotation records and three mythic records; every record is unique and marked `verified`.
 - A cross-ledger check resolved all six manuscript quote IDs to exact displayed text and all three mythic source IDs to separate spread assignments.
-- `npm test` passed all 86 tests.
+- `npm test` passed all 116 tests.
 - `npm run content:sync` synchronized five lifecycle groups, 22 archetypes, and 44 shadows.
 - `npm run content:check` passed structural validation and confirmed generated data in sync.
 - `npm run build` passed and regenerated the site.
 - Rendered-page inspection found exactly seven profile fields and two quote blocks on each trio page, preserved poem lineation, semantic attribution lines, working parent/opposite links, no unsafe raw HTML, no leaked research metadata, and no trailing horizontal whitespace.
 - Publish diagnostics reported no failures for `lover`, `enmeshing-lover`, or `armored-lover`. The remaining 63 entries continue to report their expected pending-research state for later tasks.
 - `git diff --check` passed.
+
+## Masculine-Faithful Print Calibration
+
+Date: 2026-08-02
+
+The print renderer now follows the mature masculine LuaLaTeX chapter construction rather than approximating it in site CSS. The proof source is the sibling project's `book/print-pdf/generate_print_pdf_latex.py`; the feminine build carries local copies of every required font and ornament and never reads from the sibling project at build time.
+
+### Locked Geometry and Type
+
+- US Letter, mirrored margins: 0.75 inch inside, 0.65 inch outside, 0.75 inch top and bottom.
+- Two 3.40-inch columns with a 0.30-inch gutter.
+- Cinzel Decorative Bold chapter titles at 20/24 points; Palatino body at 9.5/11.4 points; Palatino italic quotation text at 10/12 points.
+- A centered full-width title and opening quotation precede the two-column body by the same 0.25-inch and 0.40-inch gaps used by the masculine generator.
+- The first-column rail is indivisible: a 5.25-inch center-cropped image meets a fixed 2.65-inch near-black profile panel with no white seam.
+- The profile panel retains the feminine seven-field schema, gray Font Awesome symbols, white labels, italic values, and the copied alternating white floral transition.
+- Shadow type remains in the profile data. The redundant `Active Shadow` or `Passive Shadow` line beneath the chapter title was removed because the masculine chapter generator does not place a designation there.
+- Opening folios are centered at the foot; continuation folios sit at the outer head. Each entry begins on an even physical page and ends on the facing odd page.
+
+### Calibration Evidence
+
+The standalone and compiled validators both pass the Lover trio. Each spread has exactly two nonblank pages, zero out-of-bound content blocks, first-page artwork and black panel, an opening quotation on the first page only, a closing quotation on the second page, and embedded Cinzel Decorative fonts.
+
+| Entry | Physical pages | Final-page fill | Overflow blocks |
+| --- | --- | ---: | ---: |
+| Lover | 2–3 | 0.8939 | 0 |
+| Enmeshing Lover | 4–5 | 0.9481 | 0 |
+| Armored Lover | 6–7 | 0.9262 | 0 |
+
+The deliberately narrow title allowance accepts only a centered first-page Cinzel block of at least 18 points in the chapter-title band. A same-position body-font block remains a hard overflow failure. The Python print suite passes all 43 tests. The six-page visual proof is stored at `book/print-pdf/contact-sheets/lover-design-proof.pdf` and `book/print-pdf/contact-sheets/lover-design-proof.png`.
 
 ## Independent-Review Remediation
 

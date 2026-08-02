@@ -45,9 +45,9 @@ Like costumes grandsires wore.”
 
 ## When Sovereignty Becomes Armor
 
-The Armored Lover is the passive shadow of the Lover. Devotion collapses while Sovereignty becomes a refuge and then a distortion. Self-possession hardens into impermeability. Choice becomes the refusal to be influenced, dignity becomes rank, and boundaries become a system for preventing anyone from mattering too much.
+In the Lover's passive shadow, Devotion collapses while Sovereignty hardens into impermeability. Choice becomes refusal to be influenced, dignity becomes rank, and boundaries prevent anyone from mattering too much.
 
-The missing quality is Devotion: the capacity to give sustained attention, keep faith, accept mutual influence, and let a bond make legitimate claims on time and action. Restoring it does not surrender Sovereignty. It gives sovereignty something worthy to protect: a chosen relationship between two free participants.
+The missing quality is Devotion: sustained attention, kept faith, mutual influence, and a bond's legitimate claim on time and action. Restoring it does not surrender Sovereignty; it gives sovereignty something worthy to protect—a chosen relationship between free participants.
 
 ## The Logic of Untouchability
 
@@ -66,15 +66,15 @@ This pattern can protect against coercion, engulfment, betrayal, or grief. She m
 
 Armor becomes a shadow when the old defense governs chosen, sufficiently safe contact. The Armored Lover may be poised, capable, sensually expressive, and skilled at discussing relationship. Yet she controls how deeply another person can affect her. She can negotiate the terms of closeness while withholding the unedited need, delight, grief, or uncertainty that would make the exchange mutual.
 
-The untouchable-beloved aspect receives attention from a protected height. Admiration is comfortable because it asks little of her interior life; being known is riskier. She may keep a lover, friend, or collaborator in the role of audience, pursuer, or applicant. If they stop pursuing, she reads their withdrawal as proof that dependence was foolish rather than as information about a one-sided arrangement.
+From a protected height, attention feels safe because admiration asks little of her interior life; being known is riskier. She may keep a lover, friend, or collaborator as audience or pursuer. If pursuit stops, she reads withdrawal as proof that dependence was foolish rather than evidence of a one-sided arrangement.
 
-At work, this can look like refusing help, keeping collaboration transactional, or abandoning a project when shared ownership limits control. In self-talk, competence is treated as the condition for worth and longing as an embarrassing lapse. The body may hold the strategy as a fixed chest, delayed tears, a quick joke over tenderness, or sexual presence that remains technically responsive while inwardly elsewhere.
+At work, she may refuse help, keep collaboration transactional, or abandon projects when shared ownership limits control. In self-talk, competence becomes the condition of worth and longing an embarrassing lapse. The body may hold the strategy as a fixed chest, delayed tears, a joke over tenderness, or responsive sexual presence that remains inwardly elsewhere.
 
 ## The Strength Inside the Armor
 
-Her defense contains discernment, self-command, patience, and a hard-won respect for limits. Those capacities belong in the mature Lover. They help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary. It is to make the boundary responsive to present evidence.
+Her defense contains discernment, self-command, patience, and respect for limits. These belong in mature love: they help her choose trustworthy people, pace disclosure, and leave relationships that demand self-betrayal. The task is not to dismantle every boundary but to make it responsive to present evidence.
 
-When Devotion returns, composure can support contact rather than replace it. Discernment can identify where a small risk is warranted. Independence can coexist with receiving. Her no remains intact, which allows her yes to carry warmth instead of performance.
+When Devotion returns, composure supports contact rather than replacing it. Discernment finds where a small risk is warranted; independence coexists with receiving. Her intact no lets her yes carry warmth instead of performance.
 
 ## Signs That Devotion Has Withdrawn
 
@@ -102,7 +102,7 @@ Holds the body composed when grief or affection asks it to soften
 
 ## The Swing Toward Enmeshment
 
-The Armored Lover may follow a period of enmeshment. After giving too much, she concludes that giving itself caused the injury and makes distance absolute. She can also swing the other way when the armor becomes lonely, fastening quickly to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.
+After enmeshment, the Armored Lover may conclude that giving caused the injury and make distance absolute. When the armor becomes lonely, she may fasten to the first bond that gets through. The Enmeshing Lover abandons Sovereignty to preserve Devotion; the Armored Lover abandons Devotion to preserve Sovereignty.
 
 Both shadows try to escape mutual dependence. One attempts to guarantee it by merging; the other attempts to eliminate it by withdrawing. The mature Lover permits measured reliance while keeping consent, judgment, and other sources of belonging alive.
 
@@ -110,13 +110,13 @@ Both shadows try to escape mutual dependence. One attempts to guarantee it by me
 
 Devotion grows through repeated evidence rather than a dramatic exposure. A kept appointment, an honest preference, or an unrepaid kindness can teach the body that contact and self-respect are able to coexist.
 
-Transformation begins with a limited, chosen promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without asking her to ignore evidence. If trust is answered with manipulation, Sovereignty can close the door. If trust is answered with steadiness, she can open it another degree.
+Transformation begins with a limited promise. She stays for the next conversation, tells one truth before it is polished, or lets another person's care alter the day. These acts restore Devotion without ignoring evidence; manipulation closes the door, while steadiness opens it another degree.
 
 As devotion becomes reliable, her dignity no longer depends on being the least affected person in the room. She can need and negotiate, receive and reciprocate, grieve and remain whole. Love gains consequence without gaining ownership.
 
 ## Where She Returns
 
-The Armored Lover returns when protection becomes a door rather than a wall: able to close, able to open, and responsive to who is actually present. She does not owe vulnerability to everyone. She practices availability where care, consent, and accountability make contact possible. Then sovereignty holds the self steady while devotion lets another life truly matter.
+The Armored Lover returns when protection becomes a door rather than a wall, responsive to who is present. She owes vulnerability to no one; she practices availability where care, consent, and accountability make contact possible. Sovereignty holds her steady while devotion lets another life matter.
 
 ## Closing Quotation
 
