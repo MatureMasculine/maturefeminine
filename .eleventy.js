@@ -14,6 +14,7 @@ function entryUrl(entry) {
 
 function renderSections(sections) {
   return (sections || []).map((section) => {
+    const content = markdown.render(section.content || "");
     const subsections = (section.subsections || []).map((subsection) => `
 <section class="entry-subsection">
   <h3 class="h5">${markdown.utils.escapeHtml(subsection.heading)}</h3>
@@ -22,7 +23,7 @@ function renderSections(sections) {
 
     return `<section class="mf-box entry-section mb-3">
   <h2 class="h4">${markdown.utils.escapeHtml(section.heading)}</h2>
-  ${markdown.render(section.content || "")}${subsections}
+${content}${subsections}
 </section>`;
   }).join("\n");
 }
