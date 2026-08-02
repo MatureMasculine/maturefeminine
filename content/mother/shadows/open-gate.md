@@ -10,7 +10,7 @@ qualityB: Trust
 aliases:
 legacyRoutes: /mother/guardian-buffalo-woman/shadows/naive-pushover/
 legacyAnchors: naive-pushover
-image: assets/images/shadow/unmatched--boundaryless-protector.jpg
+image: assets/images/commissioned/mother/open-gate.png
 keyQualities: Ignores repeated breaches|Calls sincerity safe|Restores trust unchanged|Calls access inclusion|Makes others carry risk|Keeps no response plan
 quoteIds: quote-open-gate-opening-johnson-integrity-knowledge|quote-open-gate-closing-aesop-try-trust
 mythicResonances: The Shepherd (Aesopic literary-fable tradition)

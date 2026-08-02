@@ -10,7 +10,7 @@ qualityB: Prudence
 aliases:
 legacyRoutes: /maiden/adventurer-storm-tempest/shadows/paralyzed-dreamer/
 legacyAnchors: paralyzed-dreamer
-image: assets/images/shadow/adventurer-storm-tempest--paralyzed-dreamer.jpg
+image: assets/images/commissioned/maiden/sheltered-dreamer.png
 keyQualities: Endless safety research|Demands certainty to begin|Magnifies remote dangers|Borrows courage from others|Waits to feel fully ready|Calls avoidance prudence
 quoteIds: quote-sheltered-dreamer-opening-austen-emma-worse-air|quote-sheltered-dreamer-closing-dickinson-called-rise
 mythicResonances: The Cowardly Lion (American literary fairy-tale tradition)

@@ -10,7 +10,7 @@ qualityB: Fidelity
 aliases:
 legacyRoutes: /queen/storyteller/shadows/exaggerating-dramatist/
 legacyAnchors: exaggerating-dramatist
-image: assets/images/shadow/storyteller--exaggerating-dramatist.jpg
+image: assets/images/commissioned/crone/exaggerating-dramatist.png
 keyQualities: Invents in memory gaps|Reports inference as fact|Erases doubt for drama|Recenters entrusted stories|Shares without consent|Chooses effect over accuracy
 quoteIds: quote-exaggerating-opening-byron-don-juan|quote-exaggerating-closing-scott-marmion
 mythicResonances: Baron Munchausen

@@ -10,7 +10,7 @@ qualityB: Service
 aliases:
 legacyRoutes: /queen/queen-hearth-keeper/shadows/tyrannical-empress/
 legacyAnchors: tyrannical-empress
-image: assets/images/shadow/queen-hearth-keeper--tyrannical-queen.jpg
+image: assets/images/commissioned/queen/tyrannical-queen.png
 keyQualities: Centralizes decisions|Calls dissent disloyal|Rewards proximity over truth|Makes herself essential|Calls obedience alignment|Uses order to serve ego
 quoteIds: quote-tyrannical-queen-opening-carroll-heads|quote-tyrannical-queen-closing-washington-responsibility
 mythicResonances: The Queen of Hearts (nineteenth-century English literary fantasy)

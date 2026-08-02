@@ -10,7 +10,7 @@ aliases: Sacred Lover|Love Goddess|Devoted Consort|Beloved
 legacyRoutes: /lover-creatrix/sacred-lover-love-goddess/|/lover-creatrix/devoted-consort-beloved/
 coreFunction: Enter wholehearted intimacy and shared commitment while remaining a sovereign participant.
 keyQualities: Wholehearted|Sensual|Loyal|Discerning|Self-possessed|Receptive|Boundaried|Playful|Faithful|Mutual|Present|Courageous
-image: assets/images/sacred-whore-love-goddess.jpeg
+image: assets/images/commissioned/lover/lover.png
 quoteIds: quote-lover-opening-browning-sonnet-43|quote-lover-closing-gibran-on-marriage
 mythicResonances: Psyche (Greco-Roman literary tradition)
 mythicSourceIds: myth-lover-psyche-apuleius-golden-ass

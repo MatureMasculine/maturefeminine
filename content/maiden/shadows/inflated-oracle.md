@@ -10,7 +10,7 @@ qualityB: Verification
 aliases:
 legacyRoutes: /maiden/young-visionary-oracle/shadows/fanatic-prophet/
 legacyAnchors: fanatic-prophet
-image: assets/images/shadow/young-visionary-oracle--fanatic-prophet.jpg
+image: assets/images/commissioned/maiden/inflated-oracle.png
 keyQualities: Makes impressions facts|Treats intensity as proof|Confuses sight with meaning|Makes dissent confirm it|Claims others' motives|Keeps claims unfalsifiable
 quoteIds: quote-inflated-oracle-opening-shelley-life-death-bounds|quote-inflated-oracle-closing-eliot-outside-determines
 mythicResonances: Macbeth (English literary tradition)

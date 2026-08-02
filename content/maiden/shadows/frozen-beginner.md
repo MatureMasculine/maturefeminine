@@ -10,7 +10,7 @@ qualityB: Discernment
 aliases:
 legacyRoutes: /maiden/maiden/shadows/fragile-maiden/
 legacyAnchors: fragile-maiden
-image: assets/images/shadow/maiden--fragile-maiden.jpg
+image: assets/images/commissioned/maiden/frozen-beginner.png
 keyQualities: Evaluates, never tries|Makes choices permanent|Needs skill before practice|Outsources first attempts|Protects untested potential|Calls curiosity frivolous
 quoteIds: quote-frozen-beginner-opening-dickinson-cocoon|quote-frozen-beginner-closing-alcott-learning-sail
 mythicResonances: J. Alfred Prufrock (Anglo-American literary tradition)

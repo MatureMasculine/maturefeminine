@@ -10,7 +10,7 @@ qualityB: Sovereignty
 aliases: Untouchable Beloved
 legacyRoutes: /lover-creatrix/sacred-lover-love-goddess/shadows/armored-heart/|/lover-creatrix/devoted-consort-beloved/shadows/aloof-sovereign/
 legacyAnchors: armored-heart|aloof-sovereign
-image: assets/images/shadow/sacred-lover-love-goddess--disconnected-performer.jpg
+image: assets/images/commissioned/lover/armored-lover.png
 keyQualities: Intellectualizes feeling|Performs tenderness|Hides need behind praise|Leaves before need is seen|Treats help as lost rank|Keeps one self unreachable
 quoteIds: quote-armored-lover-opening-dickinson-outgrow-love|quote-armored-lover-closing-austen-persuasion
 mythicResonances: The Snow Queen (Danish literary tradition)

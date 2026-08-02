@@ -10,7 +10,7 @@ aliases: Community Goddess
 legacyRoutes: /mother/weaver-community-goddess/
 coreFunction: Create reciprocal belonging whose ties remain truthful, consensual, and repairable.
 keyQualities: Collaborative|Relational|Generous|Inclusive|Reciprocal|Attentive|Harmonizing|Strategic|Resilient|Joyful
-image: assets/images/weaver-community-goddess.jpeg
+image: assets/images/commissioned/mother/community-weaver.png
 quoteIds: quote-community-weaver-opening-addams-side-by-side|quote-community-weaver-closing-follett-unity-variety
 mythicResonances: Margaret Hale (nineteenth-century English literary tradition)
 mythicSourceIds: myth-community-weaver-margaret-hale-north-south-37-42

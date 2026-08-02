@@ -10,7 +10,7 @@ qualityB: Service
 aliases:
 legacyRoutes: /queen/queen-hearth-keeper/shadows/abdicated-ruler/
 legacyAnchors: abdicated-ruler
-image: assets/images/shadow/queen-hearth-keeper--powerless-ruler.jpg
+image: assets/images/commissioned/queen/abdicating-queen.png
 keyQualities: Delays role-bound decisions|Accommodates without end|Uses consensus as cover|Apologizes for authority|Lets informal power rule|Puts herself last by reflex
 quoteIds: quote-abdicating-queen-opening-shakespeare-divided-kingdom|quote-abdicating-queen-closing-elizabeth-tilbury
 mythicResonances: Duke Vincentio (English Renaissance drama)

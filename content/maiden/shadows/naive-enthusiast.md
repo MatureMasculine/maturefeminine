@@ -10,7 +10,7 @@ qualityB: Discernment
 aliases:
 legacyRoutes: /maiden/maiden/shadows/manipulative-maiden/
 legacyAnchors: manipulative-maiden
-image: assets/images/shadow/maiden--manipulative-maiden.jpg
+image: assets/images/commissioned/maiden/naive-enthusiast.png
 keyQualities: Trusts first impressions|Agrees before clear terms|Invents unproven virtues|Calls resonance evidence|Dismisses sober warnings|Recruits others too soon
 quoteIds: quote-naive-enthusiast-opening-austen-emma-evils|quote-naive-enthusiast-closing-wollstonecraft-unstable-mind
 mythicResonances: Pinocchio (Italian literary fairy-tale tradition)

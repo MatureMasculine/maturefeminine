@@ -10,7 +10,7 @@ aliases:
 legacyRoutes: /queen/storyteller/
 coreFunction: Carry lived truth across people and time as memorable shared meaning.
 keyQualities: Meaningful|Vivid|Source-aware|Contextual|Memorable|Consent-aware|Precise|Integrative|Correctable|Transmissible
-image: assets/images/storyteller.jpeg
+image: assets/images/commissioned/crone/storyteller.png
 quoteIds: quote-storyteller-opening-tennyson-ulysses|quote-storyteller-closing-eliot-adam-bede
 mythicResonances: Scheherazade
 mythicSourceIds: myth-storyteller-scheherazade-arabian-nights

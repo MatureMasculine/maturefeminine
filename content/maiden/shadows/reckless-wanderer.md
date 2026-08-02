@@ -10,7 +10,7 @@ qualityB: Prudence
 aliases:
 legacyRoutes: /maiden/adventurer-storm-tempest/shadows/reckless-storm/
 legacyAnchors: reckless-storm
-image: assets/images/shadow/adventurer-storm-tempest--reckless-storm.jpg
+image: assets/images/commissioned/maiden/reckless-wanderer.png
 keyQualities: Motion warrants itself|Urgency becomes a promise|Spends without consent|Breaks promises for novelty|Plans after fallout|Transfers risk to others
 quoteIds: quote-reckless-wanderer-opening-millay-first-fig|quote-reckless-wanderer-closing-montgomery-look-before-leap
 mythicResonances: Phaëton (Roman literary tradition)

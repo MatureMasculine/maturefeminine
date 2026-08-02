@@ -10,7 +10,7 @@ aliases: Elder Visionary|Elder Oracle|Moon Seer
 legacyRoutes: /crone/elder-visionary-oracle-moon/
 coreFunction: Voice long-range, seasoned pattern at the time and in the form it can serve.
 keyQualities: Attuned|Seasoned|Far-seeing|Cyclic|Gentle|Exact|Listening|Guiding|Patient|Kind
-image: assets/images/elder-visionary-oracle-moon.jpeg
+image: assets/images/commissioned/crone/seer.png
 quoteIds: quote-seer-opening-browning-aurora-leigh|quote-seer-closing-thoreau-walden
 mythicResonances: Cumaean Sibyl (Roman epic drawing on Greek and Italic traditions)
 mythicSourceIds: myth-seer-cumaean-sibyl-aeneid

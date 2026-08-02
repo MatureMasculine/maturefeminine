@@ -10,7 +10,7 @@ qualityB: Accountability
 aliases:
 legacyRoutes: /mother/weaver-community-goddess/shadows/manipulative-networker/
 legacyAnchors: manipulative-networker
-image: assets/images/shadow/weaver-community-goddess--controlling-networker.png
+image: assets/images/commissioned/mother/enmeshing-networker.png
 keyQualities: Trades closeness for status|Circulates confidences|Shields insiders from repair|Makes herself the hub|Makes departure costly|Sets ties on her terms
 quoteIds: quote-enmeshing-networker-opening-austen-arrange-destiny|quote-enmeshing-networker-closing-wollstonecraft-justice
 mythicResonances: Madame Merle (nineteenth-century transatlantic literary tradition)

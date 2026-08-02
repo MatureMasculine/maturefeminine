@@ -10,7 +10,7 @@ qualityB: Mercy
 aliases:
 legacyRoutes: /queen/justice/shadows/enabler-saint/
 legacyAnchors: enabler-saint
-image: assets/images/shadow/justice--passive-bystander.jpg
+image: assets/images/commissioned/queen/permissive-witness.png
 keyQualities: Explains harm away|Centers intent over impact|Shields actors from results|Forgives unchanged conduct|Values ties over safety|Lets mercy erase the harmed
 quoteIds: quote-permissive-witness-opening-austen-selfishness|quote-permissive-witness-closing-wollstonecraft-moral-agents
 mythicResonances: Eli (Hebrew Bible in the King James English translation)

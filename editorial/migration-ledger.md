@@ -16,6 +16,10 @@ Operations describe identity changes:
 
 Current shadow URLs are fragment identifiers inside parent pages, not server-visible paths. Their legacy behavior must therefore be implemented as an anchor shim on the destination parent, plus a reserved old-slug alias for any standalone path encountered later. A server cannot issue a fragment-specific redirect.
 
+## Final artwork override
+
+The row-level image dispositions below preserve the historical migration decisions and candidate reviews made before final art production. They are not the current publication mapping. As of 2026-08-02, every one of the 66 canonical spreads maps to distinct, approved, project-commissioned artwork recorded in `research/artwork-ledger.json`; no legacy candidate remains assigned. The final technical, semantic, and rights-gate status is maintained in `editorial/artwork-readiness.md`.
+
 ## Current corpus: Maiden
 
 | # | Entry | Old slug / source | Canonical destination | Operation | Content disposition | Legacy URL behavior | Image disposition |

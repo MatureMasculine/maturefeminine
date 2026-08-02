@@ -10,7 +10,7 @@ qualityB: Humility
 aliases:
 legacyRoutes: /queen/sky-sun-star-goddess/shadows/hidden-star/
 legacyAnchors: hidden-star
-image: assets/images/shadow/sky-sun-star-goddess--disconnected-deity.jpg
+image: assets/images/commissioned/queen/hidden-light.png
 keyQualities: Hides visible expertise|Declines earned notice|Calls visibility vanity|Yields to weaker voices|Shrinks impact to avoid envy|Uses humility to disappear
 quoteIds: quote-hidden-light-opening-tennyson-mirror|quote-hidden-light-closing-cooper-when-enter
 mythicResonances: Lucy Snowe (nineteenth-century English literary tradition)

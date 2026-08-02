@@ -10,7 +10,7 @@ qualityB: Integrity
 aliases:
 legacyRoutes: /queen/magician-alchemist-witch-scribe/shadows/powerless-mystic/
 legacyAnchors: powerless-mystic
-image: assets/images/shadow/magician-alchemist-witch-scribe--powerless-mystic.jpg
+image: assets/images/commissioned/queen/powerless-mystic.png
 keyQualities: Requires certainty to act|Calls limited scope none|Reviews without deciding|Demands zero-risk action|Uses risk as excuse|Calls withdrawal integrity
 quoteIds: quote-powerless-mystic-opening-shakespeare-doubts|quote-powerless-mystic-closing-emerson-do-thing
 mythicResonances: The Mice in Council (European Aesopic fable tradition in an English collection)

@@ -10,7 +10,7 @@ aliases:
 legacyRoutes:
 coreFunction: Sustain legitimate dependence so it can develop toward autonomy.
 keyQualities: Attentive|Nourishing|Steady|Responsive|Patient|Empowering|Protective|Realistic|Generous|Adaptable|Trustworthy|Releasing
-image: assets/images/mother.jpeg
+image: assets/images/commissioned/mother/mother.png
 quoteIds: quote-mother-opening-montessori-individual-aims|quote-mother-closing-keller-possibilities
 mythicResonances: Marmee March (nineteenth-century American literary tradition)
 mythicSourceIds: myth-mother-marmee-march-little-women-8

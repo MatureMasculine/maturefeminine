@@ -10,7 +10,7 @@ aliases: Sky Goddess|Sun Goddess|Star Goddess
 legacyRoutes: /queen/sky-sun-star-goddess/
 coreFunction: Use visibility and radiance to reveal possibility beyond the self.
 keyQualities: Radiant|Visionary|Expansive|Humble|Noble|Illuminating|Uplifting|Grounded|Warm|Inspirational
-image: assets/images/sky-sun-star-goddess.jpeg
+image: assets/images/commissioned/queen/luminary.png
 quoteIds: quote-luminary-opening-keller-optimism|quote-luminary-closing-harper-bound-together
 mythicResonances: The Happy Prince (nineteenth-century Irish literary fairy tale)
 mythicSourceIds: myth-luminary-happy-prince-wilde

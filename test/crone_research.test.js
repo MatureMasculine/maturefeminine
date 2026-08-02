@@ -40,24 +40,24 @@ const expected = {
 };
 
 const images = {
-  crone: "assets/images/crone-underworld-queen.jpeg",
+  crone: "assets/images/commissioned/crone/crone.png",
   "scorched-earth-crone": "assets/images/shadow/scorched-earth-crone.png",
-  "relic-keeper": "assets/images/shadow/crone-underworld-queen--eternal-mourner.jpg",
+  "relic-keeper": "assets/images/commissioned/crone/relic-keeper.png",
   witness: "assets/images/witness.png",
   "martyred-healer": "assets/images/shadow/martyred-healer.png",
   "cynical-healer": "assets/images/shadow/cynical-healer.png",
-  seer: "assets/images/elder-visionary-oracle-moon.jpeg",
+  seer: "assets/images/commissioned/crone/seer.png",
   "premature-oracle": "assets/images/shadow/premature-oracle.png",
   "withholding-seer": "assets/images/shadow/withholding-seer.png",
-  rebel: "assets/images/rebel-revolutionary-trickster.jpeg",
-  "chaotic-rebel": "assets/images/shadow/rebel-revolutionary-trickster--chaotic-destroyer.jpg",
+  rebel: "assets/images/commissioned/crone/rebel.png",
+  "chaotic-rebel": "assets/images/commissioned/crone/chaotic-rebel.png",
   "compliant-critic": "assets/images/shadow/compliant-critic.png",
   sage: "assets/images/sage.png",
-  "arrogant-know-it-all": "assets/images/shadow/unmatched--arrogant-know-it-all.jpg",
-  "withholding-sage": "assets/images/shadow/sage-wisdom--withholding-sage.jpg",
-  storyteller: "assets/images/storyteller.jpeg",
-  "exaggerating-dramatist": "assets/images/shadow/storyteller--exaggerating-dramatist.jpg",
-  "silent-keeper": "assets/images/shadow/storyteller--silent-keeper.jpg",
+  "arrogant-know-it-all": "assets/images/commissioned/crone/arrogant-know-it-all.png",
+  "withholding-sage": "assets/images/commissioned/crone/withholding-sage.png",
+  storyteller: "assets/images/commissioned/crone/storyteller.png",
+  "exaggerating-dramatist": "assets/images/commissioned/crone/exaggerating-dramatist.png",
+  "silent-keeper": "assets/images/commissioned/crone/silent-keeper.png",
 };
 
 function sourcePath(slug) {
