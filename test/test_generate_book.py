@@ -80,10 +80,10 @@ class GenerateBookTests(unittest.TestCase):
         self.assertEqual(content.count("Lifecycle stage"), 1)
         self.assertNotIn("FeminineMist", content)
 
-    def test_shadow_designation_precedes_quote_and_profile_has_seven_rows(self) -> None:
+    def test_shadow_matches_masculine_title_quote_treatment_and_profile_has_seven_rows(self) -> None:
         content = generate_book.render_entry_content(self.normalized_entry("armored-lover"), "images/armored-lover.jpg", 1)
 
-        self.assertLess(content.index("Passive Shadow"), content.index(r"\OpeningQuote"))
+        self.assertNotIn(r"\EntryDesignation", content)
         for label in (
             "Lifecycle stage",
             "Core function",
@@ -107,6 +107,7 @@ class GenerateBookTests(unittest.TestCase):
         self.assertIn(r"\setmainfont{Palatino}", document)
         self.assertIn("CinzelDecorative-Bold.ttf", document)
         self.assertIn("ornaments/grasswide#1.png", document)
+        self.assertNotIn(r"\newcommand\EntryDesignation", document)
         self.assertNotIn("maturemasculinedeck", document)
         self.assertNotIn("http://", document)
         self.assertNotIn("https://", document)

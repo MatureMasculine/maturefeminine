@@ -264,11 +264,6 @@ def render_body_section(entry: dict[str, Any], section: dict[str, Any], *, drop_
 
 
 def render_entry_content(entry: dict[str, Any], image: str | None, variant_index: int = 0) -> str:
-    designation = ""
-    if entry["kind"] == "shadow":
-        fallback_designation = f"{entry.get('type', '').title()} Shadow"
-        designation_text = entry.get("sections", {}).get("designation", fallback_designation)
-        designation = f"\\EntryDesignation{{{tex(designation_text)}}}"
     hero = f"\\ArtworkRail{{{image}}}" if image else "\\MissingArtworkRail"
     body = "\n".join(
         render_body_section(entry, section, drop_cap=index == 0)
@@ -276,7 +271,6 @@ def render_entry_content(entry: dict[str, Any], image: str | None, variant_index
     )
     return f"""
 \\EntryTitle{{{tex(entry['name'])}}}
-{designation}
 {render_opening_quote(entry.get('quotes', {}).get('opening', 'Quotation pending.'))}
 \\QuoteBodyGap
 \\begin{{multicols}}{{2}}
@@ -358,7 +352,6 @@ def render_document(config: dict[str, Any], entries: list[dict[str, Any]], image
 \\newcommand\\QuoteBodyGap{{\\vspace{{{layout['quoteBodyGap']}}}}}
 \\newcommand\\MetaIcon[1]{{\\textcolor{{ProfileIcon}}{{\\faIcon{{#1}}}}}}
 \\newcommand\\EntryTitle[1]{{{{\\centering\\TitleFont\\bfseries\\fontsize{{{typography['chapterSize']}pt}}{{{typography['chapterLeading']}pt}}\\selectfont #1\\par}}}}
-\\newcommand\\EntryDesignation[1]{{\\vspace{{0.04in}}{{\\centering\\itshape #1\\par}}}}
 \\newcommand\\OpeningQuote[2]{{\\vspace{{{layout['titleQuoteGap']}}}{{\\centering{{\\QuoteFont #1}}\\if\\relax\\detokenize{{#2}}\\relax\\else\\par{{\\CiteFont #2}}\\fi\\par}}}}
 \\newcommand\\OpeningQuoteInline[2]{{\\vspace{{{layout['titleQuoteGap']}}}{{\\centering{{\\QuoteFont #1}}\\if\\relax\\detokenize{{#2}}\\relax\\else\\hspace{{0.5em}}{{\\CiteFont #2}}\\fi\\par}}}}
 \\newcommand\\ClosingQuote[2]{{\\par\\vspace{{0.20in}}{{\\centering{{\\QuoteFont #1}}\\if\\relax\\detokenize{{#2}}\\relax\\else\\hspace{{0.5em}}{{\\CiteFont #2}}\\fi\\par}}}}

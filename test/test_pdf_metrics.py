@@ -35,6 +35,8 @@ def add_page(
     horizontal: str | None = None,
     image_overflow: bool = False,
     parity_probe: bool = False,
+    chapter_title: bool = False,
+    arbitrary_top_text: bool = False,
     numeric_footer: bool = False,
     outer_folio: bool = False,
 ) -> None:
@@ -68,6 +70,11 @@ def add_page(
         page.insert_image(fitz.Rect(540, 300, 600, 370), pixmap=pixmap)
     if parity_probe:
         page.insert_image(fitz.Rect(47.5, 300, 52.5, 310), pixmap=pixmap)
+    if chapter_title:
+        page.insert_font(fontname="cinzel", fontfile=str(CINZEL))
+        page.insert_text((270, 68), "TITLE", fontname="cinzel", fontsize=20)
+    if arbitrary_top_text:
+        page.insert_text((270, 68), "BODY", fontsize=20)
     if numeric_footer:
         page.insert_text((303, 770), "2", fontsize=10)
     if outer_folio:
@@ -269,6 +276,18 @@ class PdfMetricsTests(unittest.TestCase):
 
         self.assertEqual(measure_pdf(path).overflow_blocks, 0)
         self.assertGreater(measure_pdf(path, physical_start_page=1).overflow_blocks, 0)
+
+    def test_centered_cinzel_chapter_title_ascenders_have_a_narrow_top_allowance(self) -> None:
+        measurement = measure_pdf(self.fixture("chapter-title.pdf", [{"chapter_title": True}, {}]))
+
+        self.assertEqual(measurement.overflow_blocks, 0)
+        self.assertTrue(measurement.passed)
+
+    def test_arbitrary_top_text_still_counts_as_real_body_overflow(self) -> None:
+        measurement = measure_pdf(self.fixture("top-body-overflow.pdf", [{"arbitrary_top_text": True}, {}]))
+
+        self.assertGreater(measurement.overflow_blocks, 0)
+        self.assertFalse(measurement.passed)
 
 
 if __name__ == "__main__":

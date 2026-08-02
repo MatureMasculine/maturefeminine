@@ -58,6 +58,15 @@ def load_metrics_config(config_path: Path = CONFIG_PATH) -> dict[str, Any]:
     visual = metrics["visual"]
     if float(visual["firstColumnRight"]) <= float(body_bounds["even"]["left"]):
         raise ValueError("metrics.visual.firstColumnRight must extend beyond the even-page left bound")
+    chapter_title = visual["chapterTitle"]
+    if not str(chapter_title["font"]).strip():
+        raise ValueError("metrics.visual.chapterTitle.font cannot be empty")
+    if float(chapter_title["minimumFontSize"]) <= 0:
+        raise ValueError("metrics.visual.chapterTitle.minimumFontSize must be positive")
+    if float(chapter_title["top"]) >= float(chapter_title["bottom"]):
+        raise ValueError("metrics.visual.chapterTitle must define a positive vertical region")
+    if float(chapter_title["centerTolerance"]) < 0:
+        raise ValueError("metrics.visual.chapterTitle.centerTolerance cannot be negative")
     if not visual["requiredFonts"]:
         raise ValueError("metrics.visual.requiredFonts cannot be empty")
     return metrics
@@ -87,6 +96,31 @@ def _is_numeric_folio(block: dict[str, Any], metrics: dict[str, Any], local_page
 
 def _outside_body(rect: fitz.Rect, bounds: fitz.Rect, tolerance: float) -> bool:
     return rect.x0 < bounds.x0 - tolerance or rect.x1 > bounds.x1 + tolerance or rect.y0 < bounds.y0 - tolerance or rect.y1 > bounds.y1 + tolerance
+
+
+def _is_chapter_title(block: dict[str, Any], page: fitz.Page, metrics: dict[str, Any], local_page: int) -> bool:
+    """Recognize only the centered Cinzel title that intentionally straddles the top bound."""
+    if local_page != 1 or block.get("type") != 0 or not _block_text(block):
+        return False
+    title = metrics["visual"]["chapterTitle"]
+    rect = fitz.Rect(block["bbox"])
+    if rect.y0 < float(title["top"]) or rect.y1 > float(title["bottom"]):
+        return False
+    page_center = page.rect.width / 2
+    if abs((rect.x0 + rect.x1) / 2 - page_center) > float(title["centerTolerance"]):
+        return False
+    spans = [
+        span
+        for line in block.get("lines", [])
+        for span in line.get("spans", [])
+        if span.get("text", "").strip()
+    ]
+    font_needle = re.sub(r"[^a-z0-9]", "", str(title["font"]).casefold())
+    return bool(spans) and all(
+        font_needle in re.sub(r"[^a-z0-9]", "", str(span.get("font", "")).casefold())
+        and float(span.get("size", 0)) >= float(title["minimumFontSize"])
+        for span in spans
+    )
 
 
 def _normalize_text(value: str) -> str:
@@ -169,7 +203,7 @@ def measure_pdf(
                 if block.get("type") not in (0, 1) or _is_numeric_folio(block, metrics, local_page, physical_page):
                     continue
                 rect = fitz.Rect(block["bbox"])
-                if _outside_body(rect, bounds, tolerance):
+                if _outside_body(rect, bounds, tolerance) and not _is_chapter_title(block, page, metrics, local_page):
                     overflow_blocks += 1
                 if rect.intersects(bounds):
                     blocks.append(rect & bounds)

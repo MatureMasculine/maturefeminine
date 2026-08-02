@@ -71,6 +71,13 @@
     },
     "visual": {
       "firstColumnRight": 291.6,
+      "chapterTitle": {
+        "font": "Cinzel Decorative",
+        "minimumFontSize": 18.0,
+        "top": 46.0,
+        "bottom": 78.0,
+        "centerTolerance": 18.0
+      },
       "artwork": {
         "minimumWidth": 200.0,
         "minimumHeight": 300.0
