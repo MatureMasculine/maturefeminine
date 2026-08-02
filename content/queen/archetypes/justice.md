@@ -37,11 +37,11 @@ sectionRoles: definition=Truth With a Human Face|declarations=The Justice's Inne
 
 ## Truth With a Human Face
 
-Justice names what happened, determines what belongs to whom, and makes consequence proportionate to harm, risk, role, and power. She does not call every injury a misunderstanding or every mistake an identity. She asks for evidence, listens for context, and remains willing to revise a judgment when the record changes.
+Justice names what happened, determines what belongs to whom, and makes consequence proportionate to harm, risk, role, and power. She tests evidence and context without turning either injury into misunderstanding or one mistake into identity.
 
-Her mercy is not exemption from reality. It preserves dignity, limits unnecessary suffering, and keeps open whatever path to repair can safely remain. That path may include restitution, changed authority, restricted access, supervised return, or no return at all. Forgiveness belongs to the person who was harmed; renewed trust must be supported by conduct.
+Her mercy is not exemption from reality. It preserves dignity and whatever path to repair can safely remain: restitution, changed authority, restricted access, supervised return, or no return. Forgiveness belongs to the harmed; renewed trust requires conduct.
 
-Justice works within a defined jurisdiction. She knows which decisions are hers, which require a formal process, and which belong to another person or community. Where violence, coercion, abuse, discrimination, or legal exposure is present, she does not substitute private archetypal practice for emergency support, investigation, advocacy, or professional counsel.
+Justice knows her jurisdiction: which decisions are hers, which require formal process, and which belong elsewhere. Violence, coercion, abuse, discrimination, or legal exposure calls for appropriate emergency support, investigation, advocacy, or professional counsel—not private archetypal practice.
 
 ## The Justice's Inner Stance
 
@@ -58,39 +58,39 @@ Justice works within a defined jurisdiction. She knows which decisions are hers,
 
 ## Consequence and the Open Door
 
-Truth establishes the record: what occurred, what evidence supports it, whose obligations were engaged, and what uncertainty remains. It protects people from gaslighting, favoritism, rumor, and the pressure to accept a convenient story. Truth also includes context, because power, capacity, coercion, knowledge, and pattern change the meaning of an act.
+Truth establishes what occurred, what supports it, whose obligations were engaged, and what remains uncertain. It resists gaslighting, favoritism, rumor, and convenient stories while including the power, capacity, coercion, knowledge, and pattern that shape an act.
 
-Mercy governs how power responds. It refuses humiliation, vengeance, needless exposure, and consequences designed to satisfy an audience. Mercy can recognize remorse and changed behavior without transferring risk back to those already harmed. It can offer a route toward repair while accepting that some losses cannot be restored.
+Mercy governs the response. It refuses humiliation, vengeance, needless exposure, and consequences staged for an audience. It can recognize remorse and change without returning risk to those harmed, and offer repair without pretending every loss can be restored.
 
 Truth without Mercy produces the Merciless Judge, who fixes identity to wrongdoing and treats pain as evidence that justice is working. When Truth collapses, Mercy distorts into the Permissive Witness, who explains harm until responsibility disappears. Mature Justice holds both: the record remains clear, and the response remains human.
 
 ## Where Judgment Becomes Action
 
-Justice changes scale across settings, but her sequence remains disciplined: establish scope, gather the record, protect against further harm, assign responsibility, choose proportionate action, and review what the action actually does.
+Across settings, her sequence remains disciplined: establish scope, gather the record, reduce further harm, assign responsibility, act proportionately, and review the result.
 
 ### Inner Life
 
-She can admit fault without turning remorse into a permanent verdict on her worth. She identifies the act, its impact, and the repair still available. Shame says, “I am beyond return.” Justice says, “This is mine to answer for.”
+She admits fault without making remorse a permanent verdict. She identifies the act, its impact, and the repair still available: “This is mine to answer for.”
 
 ### Relationship
 
-She does not hold a private trial while withholding the charge. She describes observable conduct, asks what the other person understands, and states the boundary or repair she needs. If direct conversation is unsafe or coercive, she chooses distance, an advocate, documentation, or a formal channel instead.
+She names observable conduct and the needed boundary or repair instead of holding a private trial. When direct conversation is unsafe, she chooses distance, advocacy, documentation, or formal process.
 
 ### Work and Leadership
 
-She separates performance feedback, misconduct, conflict, and structural failure so each receives the right process. She records criteria before deciding, invites relevant dissent, and does not make confidentiality a shelter for impunity. Recusal and independent review are forms of strength when her own interests are involved.
+She separates performance, misconduct, conflict, and structural failure so each receives the right process. She records criteria, invites dissent, and uses recusal or independent review when her interests are involved.
 
 ### Community
 
-She notices whose account is presumed credible, whose behavior is repeatedly excused, and who carries the cost of communal peace. She resists both mob certainty and institutional delay. A fair process must be accessible, timely, culturally informed, and capable of producing material change.
+She notices who is presumed credible, who is excused, and who pays for communal peace. She resists both mob certainty and institutional delay; fair process must be accessible, timely, culturally informed, and materially effective.
 
 ## What Fairness Asks of Her
 
-Justice brings moral courage, discernment, consistency, and the capacity to remain present when no outcome feels pure. She can hold grief and anger without letting either decide the whole response. She can acknowledge that equal dignity does not mean equal responsibility and that identical treatment can reproduce unequal conditions.
+Justice brings courage, discernment, and steadiness when no outcome feels pure. She lets grief and anger inform rather than decide, knowing equal dignity need not mean equal responsibility or identical treatment.
 
-These gifts create obligations. She must test her assumptions, name the standard being applied, and avoid deciding beyond the evidence. She must distinguish restorative possibility from pressured reconciliation. When she has caused harm, her task is not to control whether she is forgiven; it is to tell the truth, accept consequence, make available repair, and change the conditions that allowed repetition.
+She must test assumptions, name the standard, and decide no further than evidence allows. When she causes harm, she cannot control forgiveness; she can tell the truth, accept consequence, offer repair, and change conditions that allowed repetition.
 
-Justice also accepts limits. Not every fact can be recovered, every loss repaid, or every relationship restored. When certainty is unavailable, she can still reduce risk, preserve records, set interim boundaries, and state what would trigger review. Refusing false certainty is part of telling the truth.
+Not every fact can be recovered, loss repaid, or relationship restored. Without certainty, she can still reduce risk, preserve records, set interim boundaries, and name what would trigger review.
 
 ## Practices of Proportionate Justice
 
@@ -105,7 +105,7 @@ Justice also accepts limits. Not every fact can be recovered, every loss repaid,
 
 ## Living as the Justice
 
-Living as the Justice means refusing the false choice between clear consequence and human possibility. She protects the record from convenience and the person from being reduced to a verdict. Her mercy does not erase the harmed, and her truth does not become a weapon for spectacle. She leaves the world more answerable: standards visible, risk reduced, responsibility owned, and repair possible only on honest terms.
+Living as the Justice means refusing the choice between clear consequence and human possibility. She protects the record from convenience and the person from reduction to a verdict. Her mercy does not erase the harmed; her truth does not become spectacle. She leaves standards visible, risk reduced, responsibility owned, and repair grounded in honest terms.
 
 ## Closing Quotation
 

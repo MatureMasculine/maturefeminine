@@ -37,11 +37,11 @@ sectionRoles: definition=Radiance That Reveals More Than Itself|declarations=The
 
 ## Radiance That Reveals More Than Itself
 
-The Luminary consents to being visible when visibility can reveal possibility, orient attention, or enlarge another person's sense of what can be done. Her radiance may appear as beauty, clarity, public voice, craft, courage, celebration, or the capacity to hold hope when a group has lost direction.
+The Luminary consents to visibility when it reveals possibility or enlarges what others believe can be done. Her radiance may be beauty, clarity, public voice, craft, courage, celebration, or hope held when a group loses direction.
 
-She does not confuse brightness with constant performance. Radiance can be quiet and local; it can belong to a teacher making a pattern legible, a leader naming a horizon, an artist offering a truthful form, or a friend recognizing capacity before it is fully visible. The measure is not applause but what the light helps others perceive and enact.
+Brightness is not constant performance. Radiance can be quiet and local: a teacher clarifying a pattern, a leader naming a horizon, an artist offering truthful form, or a friend recognizing capacity. Its measure is what others can perceive and enact.
 
-Humility keeps visibility in right relationship to source, context, collaborators, audience, and consequence. It lets her receive recognition without pretending she worked alone and correct an error without extinguishing her gift.
+Humility relates visibility to source, collaborators, audience, and consequence. She receives recognition without pretending she worked alone and corrects error without extinguishing her gift.
 
 ## The Luminary's Inner Stance
 
@@ -58,9 +58,9 @@ Humility keeps visibility in right relationship to source, context, collaborator
 
 ## Brightness and Right Scale
 
-Radiance is the capacity to be perceived and to animate attention. It makes a value, possibility, beauty, or path vivid enough that others can orient toward it. Without Radiance, insight may remain private and needed leadership may never become available.
+Radiance makes a value, possibility, beauty, or path vivid enough to orient others. Without it, insight may remain private and needed leadership unavailable.
 
-Humility gives radiance accurate scale. It remembers interdependence, limitation, timing, and the difference between illuminating a field and occupying it. Humility is not self-belittlement. It permits an honest account of excellence while keeping excellence in relationship.
+Humility gives radiance accurate scale: interdependence, limits, timing, and the difference between illuminating a field and occupying it. It permits an honest account of excellence without self-belittlement.
 
 Radiance without Humility produces the Blinding Star, whose visibility crowds out the very world it might reveal. When Radiance collapses, Humility distorts into the Hidden Light, who calls disappearance virtue and withholds needed capacity. The Luminary holds both: she can shine fully without requiring everything else to dim.
 
@@ -86,11 +86,11 @@ She can serve as symbol without confusing symbol with whole community. She prote
 
 ## What Illumination Asks of Her
 
-The Luminary brings warmth, vision, confidence, aesthetic force, and the ability to awaken dormant courage. She can make a future emotionally imaginable before every route to it is known. Her presence can organize attention around what fear has obscured.
+The Luminary brings warmth, vision, confidence, aesthetic force, and courage. She makes a future imaginable before every route is known and organizes attention around what fear obscures.
 
 These gifts create responsibility. Visibility amplifies error as well as insight. She must correct publicly when the misleading claim was public, disclose sponsorship or interest, respect privacy, and refuse to turn another person's suffering into material for her radiance without consent.
 
-She also protects the person behind the image. Rest, privacy, ordinary relationships, and periods of obscurity are not failures of mission. Sustainable radiance has rhythm. It can leave the stage, replenish, and return without manufacturing crisis to remain memorable.
+She protects the person behind the image. Rest, privacy, ordinary relationships, and obscurity are not failures of mission. Sustainable radiance can leave the stage, replenish, and return without manufacturing crisis.
 
 ## Practices of Grounded Radiance
 
@@ -105,7 +105,7 @@ She also protects the person behind the image. Rest, privacy, ordinary relations
 
 ## Living as the Luminary
 
-Living as the Luminary means accepting that light is consequential. She neither hoards it nor apologizes for it. Her visibility points beyond self-display toward a truer pattern, a possible future, a neglected person, or work worth joining. Humility keeps the beam responsive; Radiance keeps it strong enough to reach. What shines around her becomes not merely impressed, but more able to see.
+Living as the Luminary means accepting that light is consequential. She neither hoards nor apologizes for it. Her visibility points toward a truer pattern, possible future, neglected person, or work worth joining. Humility keeps the beam responsive; Radiance makes it reach. Those around her become not merely impressed, but more able to see.
 
 ## Closing Quotation
 

@@ -37,11 +37,11 @@ sectionRoles: definition=Authority That Serves the Realm|declarations=The Queen'
 
 ## Authority That Serves the Realm
 
-The Queen occupies consequential authority without apology and directs it toward a realm larger than herself. A realm may be a household, organization, team, institution, community, body of work, or inner life. She clarifies purpose, allocates resources, sets boundaries, makes decisions, and accepts answerability for what her power enables.
+The Queen directs consequential authority toward a realm larger than herself: a household, organization, community, body of work, or inner life. She clarifies purpose, allocates resources, sets boundaries, decides, and answers for what her power enables.
 
-Her legitimacy does not come from grandeur, universal approval, or doing everything herself. It comes from a role with intelligible scope, consent or mandate appropriate to that role, competence, transparent standards, and willingness to be reviewed. She distinguishes what only she can decide from what others should own.
+Legitimacy comes not from grandeur or universal approval but from intelligible scope, an appropriate mandate, competence, transparent standards, and review. She distinguishes what only she can decide from what others should own.
 
-Service does not mean servitude. The Queen does not put herself last until no one can rely on her, nor does she perform care to secure obedience. She orders shared life so people can contribute, dissent, rest, develop, and know where responsibility lies.
+Service is not servitude or performed care that secures obedience. She orders shared life so people can contribute, dissent, rest, develop, and locate responsibility.
 
 ## The Queen's Inner Stance
 
@@ -58,27 +58,27 @@ Service does not mean servitude. The Queen does not put herself last until no on
 
 ## The Seat and the Stewardship
 
-Authority is the Queen's capacity to decide, bind resources, establish roles, and enforce boundaries within a legitimate domain. It prevents endless ambiguity and makes responsibility locatable. Authority can be shared or delegated, but it cannot be replaced by vague influence while consequences remain real.
+Authority decides, binds resources, establishes roles, and enforces boundaries within a legitimate domain. It can be shared or delegated, but not replaced by vague influence while consequences remain real.
 
-Service gives authority its purpose. It asks whose flourishing the system supports, whose labor is hidden, who bears risk, and whether the structure remains fit for its stated mission. Service includes stewardship of her own capacity; depleted leadership eventually transfers its costs to the realm.
+Service gives authority purpose by asking whose flourishing is supported, whose labor is hidden, and who bears risk. It includes stewardship of her capacity; depleted leadership transfers its costs to the realm.
 
 Authority without Service produces the Tyrannical Queen, who converts office into personal sovereignty and dissent into disloyalty. When Authority collapses, Service distorts into the Abdicating Queen, whose accommodation leaves consequential choices to informal power. Mature rule holds both: she takes the seat and remembers whom the seat is for.
 
 ## Where Sovereignty Becomes Structure
 
-The Queen turns values into durable arrangements. Her work can be seen in calendars, budgets, permissions, reporting lines, meeting rules, thresholds, records, and succession plans—not only in intention.
+The Queen turns values into calendars, budgets, permissions, reporting lines, thresholds, records, and succession plans—not intention alone.
 
 ### Inner Life
 
-She governs attention and energy as finite resources. She chooses priorities, protects recovery, and refuses to let the loudest impulse rule by default. Her internal council may include fear, desire, duty, and grief; no single voice becomes sovereign without deliberation.
+She governs finite attention and energy, choosing priorities and protecting recovery. Fear, desire, duty, and grief may advise; no single voice rules by default.
 
 ### Household and Relationship
 
-She makes invisible labor discussable and distributes responsibility rather than issuing favors. Authority over shared matters is not authority over another adult's body, conscience, friendships, money, or private thought. Care, consent, and autonomy remain distinct.
+She makes invisible labor discussable and distributes responsibility. Authority over shared matters does not extend to another adult's body, conscience, friendships, money, or private thought.
 
 ### Work and Leadership
 
-She defines decision rights before conflict. A delegate receives information, resources, and permission to act—not responsibility without power. She creates channels for bad news to travel upward and explains decisions without pretending every confidential detail can be shared.
+She defines decision rights before conflict. A delegate receives information, resources, and permission—not responsibility without power. Bad news can travel upward even when confidential details cannot travel down.
 
 ### Community and Institution
 
@@ -86,11 +86,11 @@ She examines who can enter, speak, appeal, and benefit. She does not confuse tra
 
 ## What Legitimate Rule Asks of Her
 
-The Queen brings orientation, courage, protection, generosity, and the ability to decide amid competing goods. She can create enough order for creativity and enough continuity for trust. By naming priorities, she frees others from guessing what the realm actually values.
+The Queen brings orientation, courage, protection, generosity, and decisions amid competing goods. By creating order and naming priorities, she frees others from guessing what the realm values.
 
-These gifts create responsibility. Every decision distributes benefit, burden, risk, attention, and voice. She must notice how charisma, race, class, wealth, gender, disability, citizenship, seniority, and proximity shape who is heard. Good intention cannot substitute for accessible process and material evidence.
+Every decision distributes benefit, burden, risk, attention, and voice. She notices how charisma, race, class, wealth, gender, disability, citizenship, seniority, and proximity shape who is heard. Good intention cannot replace accessible process and evidence.
 
-She must also tolerate being disliked. Service is not measured by immediate approval, and authority is not validated by fear. She can hear dissent, change course, and explain a necessary no. When she leaves a role, she transfers knowledge and authority cleanly instead of engineering either chaos or dependence.
+She tolerates being disliked: service is not approval, and fear does not validate authority. She hears dissent, changes course, explains a necessary no, and transfers knowledge cleanly when leaving a role.
 
 ## Practices of Accountable Authority
 
@@ -105,7 +105,7 @@ She must also tolerate being disliked. Service is not measured by immediate appr
 
 ## Living as the Queen
 
-Living as the Queen means becoming locatable inside power. She does not hide behind consensus, charisma, sacrifice, or the fiction that no one is deciding. She takes responsibility for the structure and keeps the structure in service of life. Her realm becomes more trustworthy because purpose is clear, dissent can travel, resources follow values, and authority can survive both scrutiny and succession.
+Living as the Queen means becoming locatable inside power rather than hiding behind consensus, charisma, or sacrifice. She keeps structure in service of life. Her realm grows trustworthy as purpose clarifies, dissent travels, resources follow values, and authority survives scrutiny and succession.
 
 ## Closing Quotation
 

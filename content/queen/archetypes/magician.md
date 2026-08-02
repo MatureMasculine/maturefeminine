@@ -37,11 +37,11 @@ sectionRoles: definition=Transformation With Clean Hands|declarations=The Magici
 
 ## Transformation With Clean Hands
 
-The Magician understands how a system changes and accepts responsibility for using that knowledge. Her instruments may be language, code, medicine, money, ritual, art, education, law, organization, or care. What makes the archetype mature is not mystery or exceptional talent. It is consequential agency joined to a disciplined account of means, limits, consent, and repair.
+The Magician understands how a system changes and accepts responsibility for using that knowledge. Her instruments may be language, code, medicine, money, ritual, art, education, law, organization, or care. Maturity is consequential agency joined to disciplined means, limits, consent, and repair.
 
-She identifies a domain in which she has both capacity and legitimate standing to act. She distinguishes experiment from intervention, influence from permission, and a compelling possibility from an ethical mandate. Before changing a living system, she asks who bears the uncertainty and who gets to refuse.
+She acts where she has both capacity and legitimate standing. She distinguishes experiment from intervention, influence from permission, and possibility from mandate, asking who bears uncertainty and who can refuse.
 
-Integrity does not promise purity or zero risk. It makes tradeoffs visible, protects meaningful choice, scales action to evidence, and keeps responsibility attached after the impressive moment has passed. Where medicine, law, finance, mental health, safeguarding, or physical danger is involved, archetypal reflection does not replace qualified professional care.
+Integrity promises neither purity nor zero risk. It makes tradeoffs visible, protects choice, scales action to evidence, and keeps responsibility attached. Archetypal reflection does not replace qualified medical, legal, financial, mental-health, safeguarding, or emergency support.
 
 ## The Magician's Inner Stance
 
@@ -58,39 +58,39 @@ Integrity does not promise purity or zero risk. It makes tradeoffs visible, prot
 
 ## Capacity and Constraint
 
-Agency is the capacity to move from perception to consequential action. It includes skill, decision, timing, resource, and willingness to become answerable for an outcome. Without Agency, knowledge can remain commentary while preventable conditions continue.
+Agency moves perception into consequential action through skill, decision, timing, resources, and answerability. Without it, knowledge can remain commentary while preventable conditions continue.
 
-Integrity gives action trustworthy form. It aligns means with stated purpose, keeps consent meaningful, recognizes power differences, and refuses success that depends on concealed cost. Integrity is not spotless self-image; it is a practice of disclosure, limit, monitoring, correction, and repair.
+Integrity aligns means with purpose, keeps consent meaningful, recognizes power differences, and refuses success built on concealed cost. It is a practice of disclosure, limits, monitoring, correction, and repair—not spotless self-image.
 
 Agency without Integrity produces the Manipulative Sorceress, whose effectiveness becomes permission to engineer another person's choice. When Agency collapses, Integrity distorts into the Powerless Mystic, who keeps insight pure by withholding it from consequence. The Magician holds both: she acts, and the action remains answerable.
 
 ## Where Knowledge Becomes Consequence
 
-The Magician works through explicit transformation. She names the present condition, desired condition, intervention, evidence, affected people, decision rights, risks, safeguards, and indicators that would trigger pause or reversal.
+She names the present and desired conditions, intervention, evidence, affected people, decision rights, risks, safeguards, and triggers for pause or reversal.
 
 ### Inner Life
 
-She converts insight into a bounded experiment. Rather than announcing a total reinvention, she changes one behavior, chooses an observation period, and reviews effects. She does not mistake intense symbolism, intuition, or emotion for proof about external events.
+She converts insight into a bounded experiment: one changed behavior, an observation period, and review. Intense symbolism, intuition, or emotion is not proof about external events.
 
 ### Relationship
 
-She asks before advising, interpreting, healing, coaching, disclosing, or arranging an outcome. Affection and expertise do not authorize covert influence. When power is unequal, she checks whether refusal would carry a penalty and whether an independent alternative exists.
+She asks before advising, interpreting, healing, coaching, disclosing, or arranging. Where power is unequal, she checks whether refusal carries a penalty and whether an independent alternative exists.
 
 ### Work and Technology
 
-She documents assumptions, data sources, failure modes, affected groups, and rollback conditions. A technically successful launch can still be a human failure. She monitors use in context and does not outsource moral judgment to metrics she selected.
+She documents assumptions, sources, failure modes, affected groups, and rollback conditions. Technical success can still be human failure, so she monitors use rather than outsourcing judgment to selected metrics.
 
 ### Community and Stewardship
 
-She respects cultural ownership, local knowledge, law, and the right not to be experimented upon. She shares power, compensates expertise, and does not extract a practice from a community while erasing the people who carry it.
+She respects cultural ownership, local knowledge, law, and the right not to be experimented upon. She shares power, compensates expertise, and does not extract a practice while erasing its community.
 
 ## What Ethical Agency Asks of Her
 
-The Magician brings pattern recognition, disciplined imagination, precision, timing, and the courage to intervene. She can translate between vision and mechanism, locate a leverage point, and make an abstract possibility operational. Her work can restore function, reveal a hidden relation, or create a path where none was visible.
+The Magician brings pattern recognition, disciplined imagination, precision, timing, and courage. She translates vision into mechanism, finds leverage, restores function, and makes an abstract possibility operational.
 
-These gifts create responsibility because leverage multiplies both benefit and harm. She must distinguish validation from fascination, informed consent from acquiescence, and confidentiality from secrecy that prevents accountability. She must anticipate misuse without pretending every consequence can be known.
+Because leverage multiplies benefit and harm, she distinguishes validation from fascination, consent from acquiescence, and confidentiality from secrecy. She anticipates misuse without pretending every consequence can be known.
 
-She also knows when not to act. A pause can protect consent, permit consultation, or prevent an irreversible change. But restraint remains active: she states why she is pausing, what information is needed, who decides next, and when the question returns. Integrity that never reaches a decision is incomplete.
+A pause can protect consent, permit consultation, or prevent irreversible change. Active restraint states why, what information is needed, who decides next, and when the question returns. Integrity that never reaches decision is incomplete.
 
 ## Practices of Accountable Transformation
 
@@ -105,7 +105,7 @@ She also knows when not to act. A pause can protect consent, permit consultation
 
 ## Living as the Magician
 
-Living as the Magician means allowing knowledge to enter consequence without letting consequence escape ethics. She can imagine boldly, test carefully, decide visibly, and revise without disguising failure. Her integrity is not distance from power; it is how power remains bounded, consented to, and repairable. The transformation she leaves behind is not merely an altered system, but a more capable and less dependent field.
+Living as the Magician means letting knowledge enter consequence without escaping ethics. She imagines boldly, tests carefully, decides visibly, and revises without disguising failure. Integrity is how power remains bounded, consented to, and repairable; transformation should leave a more capable, less dependent field.
 
 ## Closing Quotation
 
