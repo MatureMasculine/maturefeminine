@@ -26,9 +26,9 @@ Active Shadow
 
 ## Opening Quotation
 
-> “Then tell Wind and Fire where to stop,” returned madame; “but don’t tell me.”
+“Then tell Wind and Fire where to stop,” returned madame; “but don’t tell me.”
 
-> — Charles Dickens, *A Tale of Two Cities*, book III, chapter XII
+—Charles Dickens, *A Tale of Two Cities*, book III, chapter XII
 
 ## Profile
 

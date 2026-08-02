@@ -26,10 +26,10 @@ Passive Shadow
 
 ## Opening Quotation
 
-> “Full many a flower is born to blush unseen,
-> And waste its sweetness on the desert air.”
->
-> — Thomas Gray, “Elegy Written in a Country Churchyard”
+“Full many a flower is born to blush unseen,
+And waste its sweetness on the desert air.”
+
+—Thomas Gray, “Elegy Written in a Country Churchyard”
 
 ## Profile
 
@@ -101,7 +101,7 @@ The Silent Keeper returns to the Storyteller when she discovers that fidelity ca
 
 ## Closing Quotation
 
-> “This is my letter to the World
-> That never wrote to Me—”
->
-> — Emily Dickinson, “This is my letter to the World (519)”
+“This is my letter to the World
+That never wrote to Me—”
+
+—Emily Dickinson, “This is my letter to the World (519)”

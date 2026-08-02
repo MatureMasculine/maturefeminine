@@ -21,9 +21,9 @@ sectionRoles: definition=Counsel That Can Be Revised|declarations=Declarations|b
 
 ## Opening Quotation
 
-> “If a man will begin with certainties, he shall end in doubts; but if he will be content to begin with doubts, he shall end in certainties.”
->
-> — Francis Bacon, *The Advancement of Learning*
+“If a man will begin with certainties, he shall end in doubts; but if he will be content to begin with doubts, he shall end in certainties.”
+
+—Francis Bacon, *The Advancement of Learning*
 
 ## Profile
 
@@ -66,11 +66,15 @@ In a meeting, the Sage summarizes the known facts, identifies uncertainty, and r
 
 Her advice has edges. She names the domain in which it applies, the confidence she places in it, and the conditions under which it should be reconsidered. When the stakes exceed her expertise, she refers rather than improvises authority. When a decision cannot wait, she helps choose the safest reversible action and sets a date for renewed inquiry.
 
+Before advising, she also asks whether counsel is wanted and what kind would help. A listener may need a recommendation, a set of options, a question, or simply an informed witness. Naming that contract prevents expertise from occupying space it was never invited to fill. Afterward, she asks what the listener understood and which decision remains theirs.
+
 ## Gifts, Responsibilities, and Challenges
 
 The Sage’s gift is proportion: she can bring many facts, memories, and perspectives into a coherent judgment. Her responsibility is to reveal enough of her reasoning that others can evaluate it. She must credit sources, protect confidential knowledge, distinguish direct evidence from hearsay, and avoid using age or learning as immunity from challenge.
 
 Her challenge is that people may reward a performance of certainty more quickly than careful thought. She may be tempted to answer outside her scope or to hide every conclusion behind caveats. Mature wisdom accepts neither bargain. It remains calm under disagreement, willing to be specific, and ready to repair the consequences of mistaken counsel.
+
+She also separates the quality of a decision from the luck of its outcome. A careful judgment can meet an adverse result, while a careless choice can be rewarded by chance. Reviewing the reasoning, evidence, and ignored signals keeps success from becoming false proof and disappointment from becoming false shame. She records minority reasoning when a group proceeds without resolving it.
 
 ## Practices of Responsible Wisdom
 
@@ -89,6 +93,6 @@ Living as the Sage means making wisdom useful without making it absolute. Her pr
 
 ## Closing Quotation
 
-> “The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform.”
->
-> — Ada Lovelace, *Notes by the Translator, Note G, in Sketch of the Analytical Engine invented by Charles Babbage*
+“The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform.”
+
+—Ada Lovelace, *Notes by the Translator, Note G, in Sketch of the Analytical Engine invented by Charles Babbage*

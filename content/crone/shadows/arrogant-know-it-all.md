@@ -26,10 +26,10 @@ Active Shadow
 
 ## Opening Quotation
 
-> “A little Learning is a dang’rous Thing;
-> Drink deep, or taste not the Pierian Spring:”
->
-> — Alexander Pope, *An Essay on Criticism*
+“A little Learning is a dang’rous Thing;
+Drink deep, or taste not the Pierian Spring:”
+
+—Alexander Pope, *An Essay on Criticism*
 
 ## Profile
 
@@ -95,12 +95,14 @@ Transformation begins with a public change in method. We slow the verdict, ask d
 
 Curiosity restores relationship; Clarity preserves movement. Together they allow expertise to remain valuable without becoming sovereign.
 
+Repair requires more than saying that knowledge evolves. We identify the claim, the people who relied on it, and the consequences they carried. We replace the record where it still circulates and credit the evidence that changed our view. If authority silenced a dissenting voice, we restore that voice without asking its owner to reassure us. This turns correction from a private feeling into an observable act. The revised record names who is responsible for follow-through.
+
 ## Returning to Mature Counsel
 
 The Arrogant Know-It-All returns to the Sage when she values truth more than the appearance of always possessing it. Her voice can remain decisive and clear. What changes is its accountability: evidence is visible, scope is bounded, dissent is usable, and repair follows error. She no longer needs a final answer to prove her worth. She becomes trustworthy because her judgment can learn.
 
 ## Closing Quotation
 
-> “Till this moment, I never knew myself.”
->
-> — Jane Austen, *Pride and Prejudice*
+“Till this moment, I never knew myself.”
+
+—Jane Austen, *Pride and Prejudice*

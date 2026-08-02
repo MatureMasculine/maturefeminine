@@ -102,7 +102,7 @@ Her challenge is proportion. Ending can feel powerful after prolonged helplessne
 
 ## Living as the Crone
 
-Living as the Crone means allowing completion to alter the shape of life. She does not demand that the past return, and she does not burn away its evidence to escape feeling. She releases labor and claim from the finished form, keeps what can guide or protect the living, and leaves enough honest record for continuity without captivity. The space she opens is not empty. It is cleared ground with memory in the soil.
+Living as the Crone means allowing completion to alter the shape of life. She does not demand that the past return or burn away its evidence to escape feeling. She releases the finished form, keeps what can guide the living, and leaves an honest record without captivity.
 
 ## Closing Quotation
 

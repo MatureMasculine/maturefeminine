@@ -26,10 +26,10 @@ Passive Shadow
 
 ## Opening Quotation
 
-> “I am obnoxious to each carping tongue
-> Who says my hand a needle better fits.”
->
-> — Anne Bradstreet, “The Prologue”
+“I am obnoxious to each carping tongue
+Who says my hand a needle better fits.”
+
+—Anne Bradstreet, “The Prologue”
 
 ## Profile
 
@@ -101,6 +101,6 @@ The Withholding Sage returns to mature counsel when she lets her knowledge becom
 
 ## Closing Quotation
 
-> “If all Men are born Free, how is it that all Women are born Slaves?”
->
-> — Mary Astell, *Some Reflections upon Marriage*
+“If all Men are born Free, how is it that all Women are born Slaves?”
+
+—Mary Astell, *Some Reflections upon Marriage*

@@ -26,10 +26,10 @@ Active Shadow
 
 ## Opening Quotation
 
-> “’T is strange—but true; for truth is always strange—
-> Stranger than fiction.”
->
-> — Lord Byron, *Don Juan*
+“’T is strange—but true; for truth is always strange—
+Stranger than fiction.”
+
+—Lord Byron, *Don Juan*
 
 ## Profile
 
@@ -66,7 +66,7 @@ Correction threatens more than a sentence. It threatens the social payoff and th
 
 ## The Art Inside the Shadow
 
-Inside the shadow is narrative abundance: an ear for rhythm, a sense of sequence, and the courage to make an audience feel. These are not defects. Joined with Fidelity, they can illuminate a documented event, animate clearly labeled fiction, or preserve an entrusted account in memorable form. Integration keeps the art and changes the contract with the audience.
+Inside the shadow is narrative abundance: an ear for rhythm, a sense of sequence, and the courage to make an audience feel. These are not defects. Joined with Fidelity, they can illuminate a documented event, animate clearly labeled fiction, or preserve an entrusted account in memorable form. The teller can also signal when delight, satire, or symbolic truth is the chosen aim. Her audience then knows whether to evaluate accuracy, interpretation, or invention. Integration keeps the art and changes the contract with the audience.
 
 ## Recognizing the Pattern
 
@@ -101,7 +101,7 @@ The Exaggerating Dramatist returns to the Storyteller when she values a trustwor
 
 ## Closing Quotation
 
-> “Oh, what a tangled web we weave,
-> When first we practise to deceive!”
->
-> — Walter Scott, *Marmion*
+“Oh, what a tangled web we weave,
+When first we practise to deceive!”
+
+—Walter Scott, *Marmion*

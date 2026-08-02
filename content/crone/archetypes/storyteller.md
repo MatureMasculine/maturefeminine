@@ -21,9 +21,9 @@ sectionRoles: definition=Truth Given Memorable Form|declarations=Declarations|ba
 
 ## Opening Quotation
 
-> “I am a part of all that I have met;”
->
-> — Alfred, Lord Tennyson, “Ulysses”
+“I am a part of all that I have met;”
+
+—Alfred, Lord Tennyson, “Ulysses”
 
 ## Profile
 
@@ -66,11 +66,15 @@ In family history, she records who remembers an event, where accounts differ, an
 
 When confidentiality matters, she uses bounded redaction, changed identifying details, or an explicitly composite account—and states that intervention. When an inherited story crosses cultures, she researches its provenance and does not claim one translation as transparent access to a whole tradition. When a correction arrives, she updates both the archive and the version still circulating.
 
+She chooses a form by asking what must survive the journey. A chronology may protect accountability; a scene may preserve felt experience; an index may let future readers find the evidence beneath the narrative. She can pair these forms rather than forcing one to do every job. The story carries meaning, while the record preserves the path back to its sources.
+
 ## Gifts, Responsibilities, and Challenges
 
 The Storyteller’s gift is memorable integration. She can hold contradiction without flattening it and help people recognize how deeds, choices, and consequences shape one another. Her responsibility is not only accuracy in isolated facts, but honesty about framing: why this episode, whose voice, which omissions, and for what audience.
 
 Her challenge is that attention rewards simplification. A dramatic version travels faster than a qualified one, while fear of distortion can make any telling feel unsafe. She must tolerate both limits. She cannot include everything, and she may not invent certainty to close the gap. Trust grows through source labels, consent, contextual notes, and visible correction—not through a claim of perfect neutrality.
+
+Correction is part of transmission, not an embarrassment after it. She distinguishes a factual error, a changed interpretation, and a newly withdrawn permission, because each calls for a different response. A corrected edition, contextual note, or removal notice lets the audience understand what changed without silently rewriting the history of the telling.
 
 ## Practices of Trustworthy Telling
 
@@ -89,6 +93,6 @@ Living as the Storyteller means accepting responsibility for what a telling carr
 
 ## Closing Quotation
 
-> “Our deeds determine us, as much as we determine our deeds;”
->
-> — George Eliot, *Adam Bede*
+“Our deeds determine us, as much as we determine our deeds;”
+
+—George Eliot, *Adam Bede*
