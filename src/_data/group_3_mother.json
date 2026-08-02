@@ -23,7 +23,7 @@
         "Protection",
         "Trust"
       ],
-      "image": "assets/images/guardian-buffalo-woman.jpeg",
+      "image": "assets/images/guardian.png",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Protect vulnerable people, values, and thresholds while preserving trust and capacity.",
@@ -177,7 +177,7 @@
             "Protection",
             "Trust"
           ],
-          "image": "assets/images/shadow/guardian-buffalo-woman--rigid-gatekeeper.jpg",
+          "image": "assets/images/shadow/controlling-sentinel.png",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Protection without Trust",
@@ -1053,7 +1053,7 @@
             "Reconciliation",
             "Confrontation"
           ],
-          "image": "assets/images/shadow/peacemaker-peace-bringer--conflict-avoider.jpg",
+          "image": "assets/images/shadow/peace-enforcer.png",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Reconciliation without Confrontation",
@@ -1196,7 +1196,7 @@
             "Reconciliation",
             "Confrontation"
           ],
-          "image": "assets/images/shadow/peacemaker-peace-bringer--passive-enabler.jpg",
+          "image": "assets/images/shadow/resentful-bystander.png",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Reconciliation collapses while Confrontation distorts",
@@ -1496,7 +1496,7 @@
             "Ferocity",
             "Restraint"
           ],
-          "image": "assets/images/shadow/warrior-warrioress-huntress--aggressive-bully.jpg",
+          "image": "assets/images/shadow/rampaging-warrior.png",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Ferocity without Restraint",
@@ -2079,7 +2079,7 @@
             "Belonging",
             "Accountability"
           ],
-          "image": "assets/images/shadow/weaver-community-goddess--codependent-helper.jpg",
+          "image": "assets/images/shadow/isolated-helper-v2.png",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Belonging collapses while Accountability distorts",
@@ -2229,7 +2229,7 @@
         "Hospitality",
         "Privacy"
       ],
-      "image": "assets/images/wife-nurturer-hestia.jpeg",
+      "image": "assets/images/host.png",
       "profile": {
         "lifecycleStage": "Mother",
         "coreFunction": "Maintain bounded hospitality, domestic continuity, and a usable sanctuary.",
@@ -2381,7 +2381,7 @@
             "Hospitality",
             "Privacy"
           ],
-          "image": "assets/images/shadow/wife-nurturer-hearth-goddess--enabling-doormat.jpg",
+          "image": "assets/images/shadow/martyr-host.png",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Hospitality without Privacy",
@@ -2524,7 +2524,7 @@
             "Hospitality",
             "Privacy"
           ],
-          "image": "",
+          "image": "assets/images/shadow/closed-hearth.png",
           "profile": {
             "lifecycleStage": "Mother",
             "coreFunction": "Hospitality collapses while Privacy distorts",

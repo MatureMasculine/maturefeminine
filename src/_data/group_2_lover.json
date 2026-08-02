@@ -327,7 +327,7 @@
             "Structure",
             "Flow"
           ],
-          "image": "assets/images/shadow/creatrix-spider-weaver--blocked-artist.jpg",
+          "image": "assets/images/shadow/scattered-maker.png",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Structure collapses while Flow distorts",
@@ -631,7 +631,7 @@
             "Devotion",
             "Sovereignty"
           ],
-          "image": "assets/images/shadow/sacred-lover-love-goddess--seductive-enchantress.jpg",
+          "image": "assets/images/shadow/enmeshing-lover.png",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Devotion without Sovereignty",
@@ -1214,7 +1214,7 @@
             "Compassion",
             "Boundaries"
           ],
-          "image": "assets/images/shadow/young-healer-priestess--burned-out-healer.jpg",
+          "image": "assets/images/shadow/guarded-healer.png",
           "profile": {
             "lifecycleStage": "Lover",
             "coreFunction": "Compassion collapses while Boundaries distorts",

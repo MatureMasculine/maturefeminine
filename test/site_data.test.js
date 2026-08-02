@@ -198,7 +198,7 @@ test("Eleventy emits lifecycle, archetype, shadow, and legacy redirect pages", (
   }
 });
 
-test("pending archetype pages render the six populated profile fields and both shadows", () => {
+test("verified archetype pages render all seven profile fields and both shadows", () => {
   assert.ifError(buildError);
   const html = outputText("queen/justice/index.html");
   const approvedFields = [
@@ -207,6 +207,7 @@ test("pending archetype pages render the six populated profile fields and both s
     "balancedQualities",
     "activeShadow",
     "passiveShadow",
+    "mythicResonances",
     "keyQualities",
   ];
 
@@ -219,13 +220,17 @@ test("pending archetype pages render the six populated profile fields and both s
   assert.doesNotMatch(html, /quoteIds|mythicSourceIds|researchStatus/);
 });
 
-test("blank quotations do not render ornamental quotation blocks", () => {
+test("verified quotations render opening and closing ornamental blocks", () => {
   assert.ifError(buildError);
   const archetype = outputText("queen/justice/index.html");
   const shadow = outputText("queen/justice/shadows/merciless-judge/index.html");
 
-  assert.doesNotMatch(archetype, /entry-quote/);
-  assert.doesNotMatch(shadow, /entry-quote/);
+  assert.equal((mainContent(archetype).match(/<blockquote class="entry-quote/g) || []).length, 2);
+  assert.equal((mainContent(shadow).match(/<blockquote class="entry-quote/g) || []).length, 2);
+  assert.match(archetype, /entry-quote-opening/);
+  assert.match(archetype, /entry-quote-closing/);
+  assert.match(shadow, /entry-quote-opening/);
+  assert.match(shadow, /entry-quote-closing/);
 });
 
 test("shadow pages link to their parent and opposite shadow", () => {
