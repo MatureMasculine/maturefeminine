@@ -183,6 +183,45 @@
       "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a mature archetype field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray mature Justice, who joins Truth with Mercy: she names harm accurately, chooses proportionate consequence, protects those affected, and preserves a credible path to accountability and repair\nScene/backdrop: a dignified civic chamber with a plain evidence table, several differently weighted stones, a cracked vessel being repaired with visible joinery, and an open doorway beyond the judgment seat\nSubject: one mature adult woman, fully clothed, clear-eyed and grounded, studying the whole record; one hand rests on verified evidence while the other places a measured weight beside the repairable vessel\nStyle/medium: richly detailed painterly fantasy realism, tactile stone, wood, paper, ceramic, brass, and daylight; archetypal but not deity-specific\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, face, hands, evidence, measured weights, repaired vessel, and open path readable in a narrow print crop\nLighting/mood: balanced natural light, deep blue, warm stone, muted brass, and a quiet green note; steady, humane, resolute\nConstraints: no text or readable writing, captions, labels, borders, logos, watermarks, deity names, Ma'at imagery, Egyptian regalia, blindfold, sword, courtroom costume, victims, or moralizing caricature\nAvoid: goddess portrait, punitive judge, sentimental forgiveness, scales-of-justice cliché, photorealistic stock-photo look",
       "editorialRationale": "Verified evidence, varied weights, visible repair, and an open route beyond consequence join Truth with Mercy without deity-specific iconography.",
       "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-blinding-star-generated-2026-08-02",
+      "assignment": "blinding-star",
+      "file": "assets/images/shadow/blinding-star.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a mature archetype field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray the Blinding Star, the active shadow of visible leadership: Radiance expands without Humility until visibility becomes rank, every light is redirected toward the self, and emerging voices disappear in the glare\nScene/backdrop: a high observatory or performance chamber with many adjustable mirrors and small lamps; nearly every mirror has been turned toward one central brilliant light, while several distinct lamps at the edges are washed out rather than extinguished\nSubject: one mature adult woman, fully clothed and visibly charismatic, standing at the center as she turns another mirror toward herself; her genuine radiance is undeniable, but her attention has narrowed to admiration\nStyle/medium: richly detailed painterly fantasy realism, tactile brass, mirror glass, silk, stone, starlight, and atmospheric bloom\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, face, hands, mirrors, central radiance, and obscured side lamps clear in a narrow crop\nLighting/mood: brilliant gold-white and midnight blue with overexposed edges; magnificent, competitive, increasingly blinding\nConstraints: no text, captions, labels, borders, logos, watermarks, deity names, sacred or cultural regalia, nudity, audience figures, or moralizing caricature\nAvoid: prideful-dominator label, sun goddess, villain queen, sexualized celebrity, stage microphone, photorealistic stock-photo look",
+      "editorialRationale": "Redirected mirrors and washed-out side lamps show Radiance without Humility while keeping the subject's genuine visible gift intact.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-sage-generated-2026-08-02",
+      "assignment": "sage",
+      "file": "assets/images/sage.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "979x1606",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a mature archetype field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray the mature Sage, who joins Clarity with Curiosity: she forms practical, ethical, revisable counsel from evidence, experience, reflection, and questions that remain alive\nScene/backdrop: a quiet study opening onto a real landscape; a worktable holds several sources, observation tools, a hand lens, a small model, an erased-and-revised diagram without readable text, and one empty page reserved for new evidence\nSubject: one older adult woman, fully clothed, calm and attentive, comparing two pieces of evidence while keeping a third question open; grounded counselor rather than oracle or authority idol\nStyle/medium: richly detailed painterly fantasy realism, tactile paper, wood, stone, glass, ink, linen, and natural daylight; mature and practical\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, face, hands, multiple evidence sources, open landscape, and revisable work readable in a narrow crop\nLighting/mood: clear morning light, deep indigo, warm oak, parchment, and quiet green; discerning, curious, humane\nConstraints: no text or readable writing, captions, labels, borders, logos, watermarks, deity names, Athena imagery, helmet, owl, sacred or cultural regalia, crystal ball, or prophecy\nAvoid: goddess portrait, abstract wisdom icon, lecturer pose, mystical oracle, pile of decorative scrolls, photorealistic stock-photo look",
+      "editorialRationale": "Comparative evidence, observation tools, a real landscape, and a blank page for revision join Clarity with Curiosity without Athena-specific symbolism.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-compliant-critic-generated-2026-08-02",
+      "assignment": "compliant-critic",
+      "file": "assets/images/shadow/compliant-critic.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a mature archetype field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray the Compliant Critic, the passive shadow of responsible liberation: Liberation has collapsed while Responsibility distorts into public obedience, private dissent, endless analysis, and waiting for action without risk\nScene/backdrop: a civic workshop or assembly hall viewed from behind a heavy curtain; a clear speaking place and an unlocked exit stand empty in the lit room, while stacks of private drafts, crossed-out plans, and carefully folded protest cloth remain hidden backstage\nSubject: one mature adult woman, fully clothed, incisive and observant, holding a prepared statement without stepping into the room; her critique is real, but she lets power define when she may act\nStyle/medium: richly detailed painterly fantasy realism, tactile cloth, paper, wood, brass, shadow, and restrained civic architecture\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, face, hands, curtain, hidden drafts, empty speaking place, and open exit readable in a narrow crop\nLighting/mood: cool backstage blue-gray against warm public light; intelligent, constrained, self-protective\nConstraints: no readable text, captions, labels, borders, logos, watermarks, deity names, cultural regalia, police, crowd, victim, or moralizing caricature\nAvoid: conformist-rebel label, coward caricature, masked revolutionary, propaganda poster, courtroom costume, photorealistic stock-photo look",
+      "editorialRationale": "The prepared dissent remains behind the curtain while both podium and exit are available, depicting critique that never becomes responsible liberating action.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
     }
   ]
 }

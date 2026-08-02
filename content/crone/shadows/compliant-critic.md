@@ -10,7 +10,7 @@ qualityB: Responsibility
 aliases:
 legacyRoutes: /crone/rebel-revolutionary-trickster/shadows/conforming-complainer/
 legacyAnchors: conforming-complainer
-image: assets/images/shadow/rebel-revolutionary-trickster--conformist-rebel.jpg
+image: assets/images/shadow/compliant-critic.png
 keyQualities: Dissents only in safety|Obeys publicly, rebels alone|Waits for spotless action|Analyzes, never acts|Lets power define choices|Uses critique to stay pure
 quoteIds:
 mythicResonances:

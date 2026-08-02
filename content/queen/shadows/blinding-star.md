@@ -10,7 +10,7 @@ qualityB: Humility
 aliases:
 legacyRoutes: /queen/sky-sun-star-goddess/shadows/blinding-sun/
 legacyAnchors: blinding-sun
-image: assets/images/shadow/sky-sun-star-goddess--prideful-dominator.jpg
+image: assets/images/shadow/blinding-star.png
 keyQualities: Pulls attention to herself|Turns visibility into rank|Calls admiration agreement|Occupies every spotlight|Uses others as mirrors|Competes with new voices
 quoteIds:
 mythicResonances:

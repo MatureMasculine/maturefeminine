@@ -27,6 +27,9 @@ test("newly commissioned shadow artwork is local, distinct, and provenance-compl
     "isolated-helper",
     "rampaging-warrior",
     "justice",
+    "blinding-star",
+    "sage",
+    "compliant-critic",
   ];
   const records = assignments.map(record);
 
@@ -39,7 +42,7 @@ test("newly commissioned shadow artwork is local, distinct, and provenance-compl
     assert.match(item.generator, /OpenAI built-in image-generation tool/);
     assert.match(item.pixelDimensions, /^\d+x\d+$/);
     assert.match(item.prompt, /vertical 2:3 portrait/);
-    assert.match(item.prompt, /no text/i);
+    assert.match(item.prompt, /no (?:readable )?text/i);
     assert.match(item.rightsStatus, /Generated specifically for this project/);
     assert.ok(fs.existsSync(path.join("src", item.file)), `${item.file} must exist in the project`);
   }
@@ -61,6 +64,9 @@ test("commissioned artwork is mapped by its canonical manuscript", () => {
     "isolated-helper": "content/mother/shadows/isolated-helper.md",
     "rampaging-warrior": "content/mother/shadows/rampaging-warrior.md",
     justice: "content/queen/archetypes/justice.md",
+    "blinding-star": "content/queen/shadows/blinding-star.md",
+    sage: "content/crone/archetypes/sage.md",
+    "compliant-critic": "content/crone/shadows/compliant-critic.md",
   };
 
   for (const [assignment, sourcePath] of Object.entries(sources)) {
