@@ -148,6 +148,18 @@ def _artwork_rect_passes(rect: fitz.Rect, bounds: fitz.Rect, metrics: dict[str, 
     return visible.width >= float(artwork["minimumWidth"]) and visible.height >= float(artwork["minimumHeight"])
 
 
+def _is_clipped_artwork_cover(rect: fitz.Rect, bounds: fitz.Rect, metrics: dict[str, Any], tolerance: float) -> bool:
+    """Recognize a hero raster whose hidden horizontal overhang is clipped to the first-column rail."""
+    rail = fitz.Rect(bounds.x0, bounds.y0, float(metrics["visual"]["firstColumnRight"]), bounds.y1)
+    return (
+        _artwork_rect_passes(rect, bounds, metrics)
+        and rect.x0 <= rail.x0 + tolerance
+        and rect.x1 >= rail.x1 - tolerance
+        and rect.y0 >= bounds.y0 - tolerance
+        and rect.y1 <= bounds.y1 + tolerance
+    )
+
+
 def _font_evidence(document: fitz.Document) -> list[tuple[Any, ...]]:
     fonts: list[tuple[Any, ...]] = []
     for page in document:
@@ -203,7 +215,16 @@ def measure_pdf(
                 if block.get("type") not in (0, 1) or _is_numeric_folio(block, metrics, local_page, physical_page):
                     continue
                 rect = fitz.Rect(block["bbox"])
-                if _outside_body(rect, bounds, tolerance) and not _is_chapter_title(block, page, metrics, local_page):
+                clipped_artwork = (
+                    local_page == 1
+                    and block.get("type") == 1
+                    and _is_clipped_artwork_cover(rect, bounds, metrics, tolerance)
+                )
+                if (
+                    _outside_body(rect, bounds, tolerance)
+                    and not clipped_artwork
+                    and not _is_chapter_title(block, page, metrics, local_page)
+                ):
                     overflow_blocks += 1
                 if rect.intersects(bounds):
                     blocks.append(rect & bounds)

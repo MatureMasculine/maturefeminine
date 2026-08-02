@@ -103,6 +103,7 @@ class PdfMetricsTests(unittest.TestCase):
         name: str,
         *,
         artwork: bool = True,
+        artwork_overhang: bool = False,
         black_panel: bool = True,
         panel_outside: bool = False,
         repeat_opening: bool = False,
@@ -122,7 +123,8 @@ class PdfMetricsTests(unittest.TestCase):
                     page.insert_text((72, 72), "VISUAL FIXTURE", fontsize=12)
                 page.insert_text((72, 105), EXPECTED_ENTRY["quotes"]["opening"], fontsize=10)
                 if artwork:
-                    page.insert_image(fitz.Rect(60, 145, 290, 500), pixmap=pixmap)
+                    artwork_rect = fitz.Rect(43, 145, 295, 500) if artwork_overhang else fitz.Rect(60, 145, 290, 500)
+                    page.insert_image(artwork_rect, pixmap=pixmap)
                 if black_panel:
                     panel = fitz.Rect(10, 500, 240, 700) if panel_outside else fitz.Rect(60, 500, 290, 700)
                     page.draw_rect(panel, color=(0.02, 0.02, 0.02), fill=(0.02, 0.02, 0.02))
@@ -168,6 +170,16 @@ class PdfMetricsTests(unittest.TestCase):
         self.assertIn("missing artwork on first page", measurement.failure_reasons)
         self.assertIsInstance(measurement_dict(measurement)["failure_reasons"], list)
         self.assertFalse(measurement.passed)
+
+    def test_clipped_cover_artwork_does_not_count_hidden_horizontal_overhang(self) -> None:
+        measurement = measure_pdf(
+            self.visual_fixture("clipped-artwork.pdf", artwork_overhang=True),
+            expected_entry=EXPECTED_ENTRY,
+        )
+
+        self.assertTrue(measurement.artwork_on_first)
+        self.assertEqual(measurement.overflow_blocks, 0)
+        self.assertTrue(measurement.passed)
 
     def test_missing_black_panel_has_a_distinct_failure_reason(self) -> None:
         measurement = measure_pdf(self.visual_fixture("missing-panel.pdf", black_panel=False), expected_entry=EXPECTED_ENTRY)
