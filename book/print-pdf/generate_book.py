@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
 import shutil
 import subprocess
@@ -130,16 +131,41 @@ def copy_images(entries: Iterable[dict[str, Any]]) -> dict[str, str | None]:
     return copied
 
 
-def tex_paragraphs(value: str) -> str:
+def prepare_build_assets(assets: dict[str, Path]) -> None:
+    """Copy every runtime print asset into the self-contained LaTeX build tree."""
+    font_dir = BUILD_DIR / "fonts"
+    ornament_dir = BUILD_DIR / "ornaments"
+    font_dir.mkdir(parents=True, exist_ok=True)
+    ornament_dir.mkdir(parents=True, exist_ok=True)
+    for key in ("title_regular", "title_bold"):
+        shutil.copy2(assets[key], font_dir / assets[key].name)
+    for key in (*[f"grasswide{i}" for i in range(1, 6)], "end_ornament"):
+        shutil.copy2(assets[key], ornament_dir / assets[key].name)
+    shutil.copy2(assets["lettrine_config"], BUILD_DIR / "lettrine.cfl")
+
+
+def apply_drop_cap(paragraph: str) -> str:
+    """Render a safe three-line lettrine for an ordinary capitalized paragraph."""
+    match = re.match(r'^([“"\'‘]*)([A-Z])([A-Za-z]*)(.*)$', paragraph, flags=re.DOTALL)
+    if not match:
+        return tex(paragraph)
+    prefix, initial, rest_word, tail = match.groups()
+    return f"{tex(prefix)}\\lettrine[lines=3]{{{initial}}}{{{tex(rest_word)}}}{tex(tail)}"
+
+
+def tex_paragraphs(value: str, *, drop_cap: bool = False) -> str:
     lines: list[str] = []
+    drop_cap_pending = drop_cap
     for paragraph in value.split("\n\n"):
         paragraph = paragraph.strip()
         if not paragraph:
             continue
         if paragraph.startswith("### "):
-            lines.append(f"\\subsubsection*{{{tex(paragraph[4:])}}}")
+            lines.append(f"\\ChapterHThree{{{tex(paragraph[4:])}}}")
         else:
-            lines.append(f"{tex(paragraph)}\\par")
+            rendered = apply_drop_cap(paragraph) if drop_cap_pending else tex(paragraph)
+            lines.append(f"{rendered}\\par")
+            drop_cap_pending = False
     return "\n\n".join(lines)
 
 
@@ -159,22 +185,69 @@ def _tex_attribution(value: str) -> str:
     return "".join(f"\\emph{{{tex(part[1:-1])}}}" if part.startswith("*") and part.endswith("*") else tex(part) for part in parts)
 
 
-def render_profile(entry: dict[str, Any]) -> str:
+def _balance_quote_text(text: str, chars_per_line: int = 85, author_len: int = 0) -> str:
+    """Balance prose quotations while preserving source-authored verse breaks."""
+    if "\n" in text:
+        return text
+    num_lines = math.ceil(len(text) / chars_per_line)
+    if num_lines <= 1:
+        return text
+    base_target = len(text) / num_lines
+    author_total = author_len + 5 if author_len else 0
+    first_target = base_target + author_total / 2 if num_lines == 2 else base_target
+    last_target = base_target - author_total / 2
+    targets = [first_target, *([base_target] * max(0, num_lines - 2)), last_target]
+    words = text.split()
+    lines: list[str] = []
+    current: list[str] = []
+    for word in words:
+        candidate = " ".join([*current, word])
+        target = targets[min(len(lines), len(targets) - 1)]
+        if current and len(candidate) > target and len(lines) < num_lines - 1:
+            lines.append(" ".join(current))
+            current = [word]
+        else:
+            current.append(word)
+    if current:
+        lines.append(" ".join(current))
+    return "\n".join(lines)
+
+
+def render_opening_quote(value: str) -> str:
+    quote, separator, attribution = value.partition("\n\n")
+    attribution = attribution.strip() if separator else ""
+    balanced = _balance_quote_text(quote.strip(), author_len=len(attribution))
+    quote_tex = r"\\".join(tex(line) for line in balanced.splitlines())
+    macro = "OpeningQuoteInline" if len(quote) > 85 and attribution else "OpeningQuote"
+    return f"\\{macro}{{{quote_tex}}}{{{_tex_attribution(attribution)}}}"
+
+
+def render_closing_quote(value: str) -> str:
+    quote, separator, attribution = value.partition("\n\n")
+    quote_tex = r"\\".join(tex(line) for line in quote.strip().splitlines())
+    attribution_tex = _tex_attribution(attribution.strip() if separator else "")
+    return f"\\ClosingQuote{{{quote_tex}}}{{{attribution_tex}}}"
+
+
+def render_profile_panel(entry: dict[str, Any], variant_index: int) -> str:
     labels = (
-        ("Lifecycle stage", "lifecycleStage"),
-        ("Core function", "coreFunction"),
-        ("Balanced qualities", "balancedQualities"),
-        ("Active shadow", "activeShadow"),
-        ("Passive shadow", "passiveShadow"),
-        ("Mythic resonances", "mythicResonances"),
-        ("Key qualities", "keyQualities"),
+        ("clock", "Lifecycle stage", "lifecycleStage"),
+        ("bullseye", "Core function", "coreFunction"),
+        ("balance-scale", "Balanced qualities", "balancedQualities"),
+        ("fire", "Active shadow", "activeShadow"),
+        ("moon", "Passive shadow", "passiveShadow"),
+        ("book", "Mythic resonances", "mythicResonances"),
+        ("star", "Key qualities", "keyQualities"),
     )
     profile = entry.get("profile", {})
-    values = "\\par\\smallskip ".join(f"\\textbf{{{label}.}} {tex(profile.get(key, "Pending"))}" for label, key in labels)
-    return f"\\begin{{tcolorbox}}[profilebox]{values}\\end{{tcolorbox}}"
+    rows = "\n".join(
+        f"\\ProfileRow{{{icon}}}{{{label}:}}{{{tex(profile.get(key, 'Pending'))}}}"
+        for icon, label, key in labels
+    )
+    return f"\\ProfilePanel{{{variant_index % 5 + 1}}}{{{rows}}}"
 
 
-def render_body_section(entry: dict[str, Any], section: dict[str, Any]) -> str:
+def render_body_section(entry: dict[str, Any], section: dict[str, Any], *, drop_cap: bool = False) -> str:
     role = section.get("role")
     sections = entry.get("sections", {})
     if role == "declarations":
@@ -182,31 +255,41 @@ def render_body_section(entry: dict[str, Any], section: dict[str, Any]) -> str:
     elif role == "practices":
         content = tex_list(sections.get("practices", []))
     else:
-        content = tex_paragraphs(section.get("content", ""))
+        content = tex_paragraphs(section.get("content", ""), drop_cap=drop_cap)
     subsections = "\n".join(
-        f"\\subsubsection*{{{tex(subsection['heading'])}}}\n{tex_paragraphs(subsection['content'])}"
+        f"\\ChapterHThree{{{tex(subsection['heading'])}}}\n{tex_paragraphs(subsection['content'])}"
         for subsection in section.get("subsections", [])
     )
-    return f"\\subsection*{{{tex(section['heading'])}}}\n{content}\n{subsections}"
+    return f"\\ChapterHTwo{{{tex(section['heading'])}}}\n{content}\n{subsections}"
 
 
-def render_entry_content(entry: dict[str, Any], image: str | None) -> str:
+def render_entry_content(entry: dict[str, Any], image: str | None, variant_index: int = 0) -> str:
     designation = ""
     if entry["kind"] == "shadow":
         fallback_designation = f"{entry.get('type', '').title()} Shadow"
         designation_text = entry.get("sections", {}).get("designation", fallback_designation)
-        designation = f"\\textit{{{tex(designation_text)}}}\\par\\medskip"
-    hero = f"\\EntryImage{{{image}}}" if image else "\\begin{tcolorbox}[missingimage]Image pending.\\end{tcolorbox}"
-    body = "\n".join(render_body_section(entry, section) for section in entry.get("bodySections", []))
+        designation = f"\\EntryDesignation{{{tex(designation_text)}}}"
+    hero = f"\\ArtworkRail{{{image}}}" if image else "\\MissingArtworkRail"
+    body = "\n".join(
+        render_body_section(entry, section, drop_cap=index == 0)
+        for index, section in enumerate(entry.get("bodySections", []))
+    )
     return f"""
-\\section*{{{tex(entry['name'])}}}
+\\EntryTitle{{{tex(entry['name'])}}}
 {designation}
-{render_quote(entry.get('quotes', {}).get('opening', 'Quotation pending.'))}
-{hero}
-{render_profile(entry)}
+{render_opening_quote(entry.get('quotes', {}).get('opening', 'Quotation pending.'))}
+\\QuoteBodyGap
 \\begin{{multicols}}{{2}}
+\\begin{{minipage}}[t]{{\\linewidth}}
+{hero}
+{render_profile_panel(entry, variant_index)}
+\\end{{minipage}}
+\\columnbreak
+{{\\BodyFont
+\\setlength\\parskip{{\\EntryParagraphSkip}}
 {body}
-{render_quote(entry.get('quotes', {}).get('closing', 'Quotation pending.'))}
+{render_closing_quote(entry.get('quotes', {}).get('closing', 'Quotation pending.'))}
+}}
 \\end{{multicols}}
 """
 
@@ -215,6 +298,7 @@ def entry_start(slug: str) -> str:
     return f"""
 \\clearpage
 \\ifodd\\value{{page}}\\thispagestyle{{empty}}\\null\\clearpage\\fi
+\\thispagestyle{{chapter-start}}
 \\phantomsection\\label{{entry:{slug}:start}}
 """
 
@@ -225,9 +309,9 @@ def entry_end(slug: str) -> str:
 
 def render_entries(entries: Iterable[dict[str, Any]], images: dict[str, str | None], *, enforce_parity: bool) -> str:
     rendered = []
-    for entry in entries:
-        start = entry_start(entry["slug"]) if enforce_parity else f"\\phantomsection\\label{{entry:{entry['slug']}:start}}"
-        rendered.append(start + render_entry_content(entry, images[entry["slug"]]) + entry_end(entry["slug"]))
+    for variant_index, entry in enumerate(entries):
+        start = entry_start(entry["slug"]) if enforce_parity else f"\\thispagestyle{{chapter-start}}\\phantomsection\\label{{entry:{entry['slug']}:start}}"
+        rendered.append(start + render_entry_content(entry, images[entry["slug"]], variant_index) + entry_end(entry["slug"]))
     return "\n".join(rendered)
 
 
@@ -235,30 +319,57 @@ def render_document(config: dict[str, Any], entries: list[dict[str, Any]], image
     page = config["page"]
     layout = config["layout"]
     typography = config["type"]
-    initial = "\\setcounter{page}{1}" if not standalone else "\\setcounter{page}{1}"
+    initial = "\\setcounter{page}{1}" if not standalone else "\\setcounter{page}{2}"
     title_page = "" if standalone else "\\thispagestyle{empty}\\vspace*{3in}\\begin{center}{\\TitleFont\\fontsize{30pt}{36pt}\\selectfont The Mature Feminine}\\end{center}\\clearpage"
     return f"""\\documentclass[10pt,twoside,openany]{{book}}
 \\usepackage[paperwidth={page['width']},paperheight={page['height']},inner={page['insideMargin']},outer={page['outsideMargin']},top={page['topMargin']},bottom={page['bottomMargin']}]{{geometry}}
-\\usepackage{{fontspec,graphicx,multicol,tikz}}
+\\usepackage{{fontspec,graphicx,multicol,tikz,adjustbox}}
 \\usepackage[most]{{tcolorbox}}
-\\usepackage{{enumitem,fancyhdr,hyperref,microtype,setspace}}
-\\setmainfont{{TeX Gyre Pagella}}
-\\newfontfamily\\TitleFont{{TeX Gyre Chorus}}
-\\definecolor{{FemininePlum}}{{HTML}}{{512B4B}}
-\\definecolor{{FeminineRose}}{{HTML}}{{A55C7A}}
-\\definecolor{{FeminineMist}}{{HTML}}{{F6EFF2}}
+\\usepackage{{enumitem,fancyhdr,hyperref,setspace,lettrine,needspace,fontawesome5}}
+\\usepackage[protrusion=false,expansion=false]{{microtype}}
+\\renewcommand{{\\DefaultOptionsFile}}{{lettrine.cfl}}
+\\setmainfont{{Palatino}}
+\\newfontfamily\\TitleFont[Path=fonts/,UprightFont=CinzelDecorative-Regular.ttf,BoldFont=CinzelDecorative-Bold.ttf]{{Cinzel Decorative}}
+\\renewcommand\\LettrineFontHook{{\\TitleFont\\mdseries}}
+\\definecolor{{ProfileBlack}}{{HTML}}{{0D0D0D}}
+\\definecolor{{ProfileIcon}}{{HTML}}{{757575}}
 \\setlength\\columnsep{{{layout['columnGap']}}}
+\\setlength\\columnseprule{{0pt}}
+\\setlength\\premulticols{{0pt}}
+\\setlength\\postmulticols{{0pt}}
+\\setlength\\multicolsep{{0pt}}
 \\setlength\\parindent{{0pt}}
-\\setlength\\parskip{{3pt}}
+\\setlength\\parskip{{0pt}}
 \\setstretch{{1.0}}
 \\AtBeginDocument{{\\fontsize{{{typography['bodySize']}pt}}{{{typography['bodyLeading']}pt}}\\selectfont}}
 \\clubpenalty=10000
 \\widowpenalty=10000
 \\displaywidowpenalty=10000
-\\setlist[itemize]{{leftmargin=1.15em,itemsep=1pt,topsep=2pt,parsep=0pt}}
-\\tcbset{{profilebox/.style={{colback=FeminineMist,colframe=FeminineRose,boxrule=.35pt,arc=1pt,left=5pt,right=5pt,top=4pt,bottom=4pt}},missingimage/.style={{colback=FeminineMist,colframe=FeminineRose,boxrule=.35pt,arc=1pt,left=5pt,right=5pt,top=4pt,bottom=4pt}}}}
-\\newcommand{{\\EntryImage}}[1]{{\\begin{{center}}\\includegraphics[width=\\linewidth,height=1.45in,keepaspectratio]{{#1}}\\end{{center}}}}
-\\pagestyle{{fancy}}\\fancyhf{{}}\\fancyfoot[C]{{\\thepage}}\\renewcommand{{\\headrulewidth}}{{0pt}}
+\\brokenpenalty=10000
+\\setlist[itemize]{{label=\\raisebox{{0.25ex}}{{\\rule{{0.55ex}}{{0.55ex}}}},leftmargin=0pt,labelsep=0.06in,itemsep=0.05in,topsep=6pt,partopsep=0pt,parsep=0pt,before=\\setlength\\parskip{{0pt}},after=\\vspace{{0.2in}}\\setlength\\parskip{{{layout['paragraphSpacing']}}}}}
+\\newcommand\\BodyFont{{\\fontsize{{{typography['bodySize']}pt}}{{{typography['bodyLeading']}pt}}\\selectfont}}
+\\newcommand\\QuoteFont{{\\itshape\\fontsize{{{typography['quoteSize']}pt}}{{{typography['quoteLeading']}pt}}\\selectfont}}
+\\newcommand\\CiteFont{{\\textcolor[HTML]{{555555}}{{\\upshape\\fontsize{{9pt}}{{11pt}}\\selectfont}}}}
+\\newcommand\\ProfileFont{{\\color{{white}}\\fontsize{{{typography['profileSize']}pt}}{{{typography['profileLeading']}pt}}\\selectfont}}
+\\newlength\\EntryParagraphSkip
+\\setlength\\EntryParagraphSkip{{{layout['paragraphSpacing']}}}
+\\newcommand\\QuoteBodyGap{{\\vspace{{{layout['quoteBodyGap']}}}}}
+\\newcommand\\MetaIcon[1]{{\\textcolor{{ProfileIcon}}{{\\faIcon{{#1}}}}}}
+\\newcommand\\EntryTitle[1]{{{{\\centering\\TitleFont\\bfseries\\fontsize{{{typography['chapterSize']}pt}}{{{typography['chapterLeading']}pt}}\\selectfont #1\\par}}}}
+\\newcommand\\EntryDesignation[1]{{\\vspace{{0.04in}}{{\\centering\\itshape #1\\par}}}}
+\\newcommand\\OpeningQuote[2]{{\\vspace{{{layout['titleQuoteGap']}}}{{\\centering{{\\QuoteFont #1}}\\if\\relax\\detokenize{{#2}}\\relax\\else\\par{{\\CiteFont #2}}\\fi\\par}}}}
+\\newcommand\\OpeningQuoteInline[2]{{\\vspace{{{layout['titleQuoteGap']}}}{{\\centering{{\\QuoteFont #1}}\\if\\relax\\detokenize{{#2}}\\relax\\else\\hspace{{0.5em}}{{\\CiteFont #2}}\\fi\\par}}}}
+\\newcommand\\ClosingQuote[2]{{\\par\\vspace{{0.20in}}{{\\centering{{\\QuoteFont #1}}\\if\\relax\\detokenize{{#2}}\\relax\\else\\hspace{{0.5em}}{{\\CiteFont #2}}\\fi\\par}}}}
+\\newcommand\\ChapterHTwo[1]{{\\needspace{{2\\baselineskip}}\\par\\ifdim\\prevdepth=-1000pt\\relax\\else\\vspace{{14.25pt}}\\fi\\begingroup\\setlength\\parskip{{0pt}}\\noindent{{\\TitleFont\\bfseries\\fontsize{{{typography['sectionSize']}pt}}{{11.4pt}}\\selectfont #1}}\\par\\endgroup}}
+\\newcommand\\ChapterHThree[1]{{\\needspace{{2\\baselineskip}}\\par\\ifdim\\prevdepth=-1000pt\\relax\\else\\vspace{{10.5pt}}\\fi\\begingroup\\setlength\\parskip{{0pt}}\\noindent{{\\bfseries\\fontsize{{{typography['subsectionSize']}pt}}{{12.6pt}}\\selectfont #1}}\\par\\endgroup}}
+\\newcommand\\ArtworkRail[1]{{\\noindent\\begin{{tikzpicture}}[baseline=(current bounding box.south)]\\clip (0,0) rectangle (\\linewidth,{layout['artworkHeight']});\\node[anchor=center,inner sep=0pt] at (.5\\linewidth,2.625in){{\\adjustbox{{min height={layout['artworkHeight']}}}{{\\includegraphics[width=\\linewidth]{{#1}}}}}};\\end{{tikzpicture}}\\par\\vspace{{-3pt}}\\noindent}}
+\\newcommand\\MissingArtworkRail{{\\noindent\\begin{{tcolorbox}}[width=\\linewidth,height={layout['artworkHeight']},colback=ProfileBlack,colframe=ProfileBlack,boxrule=0pt,arc=0pt]\\centering\\color{{white}}Artwork pending.\\end{{tcolorbox}}\\vspace{{-3pt}}}}
+\\newcommand\\ProfileRow[3]{{\\noindent\\parbox[t]{{0.18in}}{{\\MetaIcon{{#1}}}}\\parbox[t]{{\\dimexpr\\linewidth-0.18in\\relax}}{{\\textbf{{#2}}\\ \\textit{{#3}}}}\\par\\vspace{{1pt}}}}
+\\newcommand\\ProfilePanel[2]{{\\begin{{tcolorbox}}[enhanced,width=\\linewidth,height={layout['profileHeight']},colback=ProfileBlack,colframe=ProfileBlack,boxrule=0pt,arc=0pt,left=0.15in,right=0.15in,top=0.12in,bottom=0.52in,before skip=0pt,after skip=0pt,valign=top,overlay={{\\node[anchor=south west,inner sep=0pt] at (frame.south west){{\\includegraphics[width=3.40in,height=0.52in]{{ornaments/grasswide#1.png}}}};}}]\\ProfileFont #2\\end{{tcolorbox}}}}
+\\fancypagestyle{{chapter-start}}{{\\fancyhf{{}}\\fancyfoot[C]{{\\fontsize{{{typography['folioSize']}pt}}{{{typography['folioSize']}pt}}\\selectfont\\thepage}}\\renewcommand\\headrulewidth{{0pt}}\\renewcommand\\footrulewidth{{0pt}}}}
+\\fancypagestyle{{chapter}}{{\\fancyhf{{}}\\fancyhead[LE]{{\\fontsize{{{typography['folioSize']}pt}}{{{typography['folioSize']}pt}}\\selectfont\\thepage}}\\fancyhead[RO]{{\\fontsize{{{typography['folioSize']}pt}}{{{typography['folioSize']}pt}}\\selectfont\\thepage}}\\renewcommand\\headrulewidth{{0pt}}\\renewcommand\\footrulewidth{{0pt}}}}
+\\pagestyle{{chapter}}
+\\hypersetup{{hidelinks}}
 \\begin{{document}}
 {initial}
 {title_page}
@@ -269,8 +380,9 @@ def render_document(config: dict[str, Any], entries: list[dict[str, Any]], image
 
 def write_tex(entries: list[dict[str, Any]], *, standalone: bool = False, name: str = "mature-feminine") -> Path:
     config = read_json(CONFIG_PATH)
-    required_print_assets(config)
+    assets = required_print_assets(config)
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
+    prepare_build_assets(assets)
     images = copy_images(entries)
     tex_path = BUILD_DIR / f"{name}.tex"
     tex_path.write_text(render_document(config, entries, images, standalone=standalone), encoding="utf-8")

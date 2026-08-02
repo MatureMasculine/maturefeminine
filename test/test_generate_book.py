@@ -17,6 +17,10 @@ import generate_book
 
 
 class GenerateBookTests(unittest.TestCase):
+    @staticmethod
+    def normalized_entry(slug: str) -> dict:
+        return next(entry for entry in generate_book.read_json(generate_book.DATA_PATH)["entries"] if entry["slug"] == slug)
+
     def test_required_print_assets_are_local_and_complete(self) -> None:
         assets = generate_book.required_print_assets(generate_book.read_json(generate_book.CONFIG_PATH))
 
@@ -53,10 +57,61 @@ class GenerateBookTests(unittest.TestCase):
             finally:
                 document.close()
 
-    def test_entry_content_contains_the_canonical_title(self) -> None:
-        content = generate_book.render_entry_content(generate_book.lookup_entry("lover"), None)
+    def test_entry_content_uses_the_masculine_faithful_opener(self) -> None:
+        content = generate_book.render_entry_content(self.normalized_entry("lover"), "images/lover.jpg", 0)
 
-        self.assertIn("\\section*{Lover}", content)
+        self.assertIn(r"\EntryTitle{Lover}", content)
+        self.assertIn(r"\OpeningQuote", content)
+        self.assertIn(r"\ArtworkRail", content)
+        self.assertIn(r"\columnbreak", content)
+        self.assertIn(r"\lettrine[lines=3]", content)
+        self.assertEqual(content.count("Lifecycle stage"), 1)
+        self.assertNotIn("FeminineMist", content)
+
+    def test_shadow_designation_precedes_quote_and_profile_has_seven_rows(self) -> None:
+        content = generate_book.render_entry_content(self.normalized_entry("armored-lover"), "images/armored-lover.jpg", 1)
+
+        self.assertLess(content.index("Passive Shadow"), content.index(r"\OpeningQuote"))
+        for label in (
+            "Lifecycle stage",
+            "Core function",
+            "Balanced qualities",
+            "Active shadow",
+            "Passive shadow",
+            "Mythic resonances",
+            "Key qualities",
+        ):
+            self.assertEqual(content.count(label), 1)
+
+    def test_document_uses_only_local_masculine_faithful_runtime_assets(self) -> None:
+        entry = self.normalized_entry("lover")
+        document = generate_book.render_document(
+            generate_book.read_json(generate_book.CONFIG_PATH),
+            [entry],
+            {"lover": "images/lover.jpg"},
+            standalone=True,
+        )
+
+        self.assertIn(r"\setmainfont{Palatino}", document)
+        self.assertIn("CinzelDecorative-Bold.ttf", document)
+        self.assertIn("ornaments/grasswide#1.png", document)
+        self.assertNotIn("maturemasculinedeck", document)
+        self.assertNotIn("http://", document)
+        self.assertNotIn("https://", document)
+
+    def test_quote_balancing_preserves_verse_and_balances_long_prose(self) -> None:
+        verse = "First line\nSecond line\nThird line"
+        prose = " ".join(["measured"] * 30)
+
+        self.assertEqual(generate_book._balance_quote_text(verse), verse)
+        self.assertIn("\n", generate_book._balance_quote_text(prose, chars_per_line=60, author_len=20))
+
+    def test_drop_cap_only_changes_an_ascii_capitalized_first_word(self) -> None:
+        self.assertEqual(
+            generate_book.apply_drop_cap("The Lover stays present."),
+            r"\lettrine[lines=3]{T}{he} Lover stays present.",
+        )
+        self.assertEqual(generate_book.apply_drop_cap("…and then she listens."), "…and then she listens.")
 
     def test_render_quote_preserves_verse_and_emphasizes_only_work_titles(self) -> None:
         rendered = generate_book.render_quote(
