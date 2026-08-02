@@ -261,6 +261,45 @@
       "prompt": "Create a print-ready vertical editorial illustration, 2:3 portrait composition, for a mature feminine archetype field guide. Shadow archetype: CYNICAL HEALER — Compassion has collapsed while Detachment has distorted into withdrawal and contempt. Depict one older woman in simple timeless clothing standing behind a fogged glass partition, turning partly away from a still-lit lamp on the other side. Nearby instruments of care—folded cloth, a small bowl, simple bandages—are sealed behind glass and gathering dust, usable but deliberately withheld. Her expression is intelligent and wounded yet hardened, communicating contemptuous distance rather than fear or control. A narrow clear patch in the glass reveals that connection remains possible but refused. Painterly realistic fine-art style, mature psychological realism, restrained slate, ash, cold green, and one warm lamp palette, natural anatomy, expressive face and hands, strong vertical composition with the face and glass boundary legible in the upper two-thirds. Avoid medical drama, villain caricature, controlling-healer imagery, fantasy magic, deity imagery, cultural or religious regalia, readable text, letters, typography, border, frame, or watermark.",
       "editorialRationale": "Usable care remains lit behind fogged glass while the healer turns away, distinguishing contemptuous withdrawal from control or simple exhaustion.",
       "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-premature-oracle-generated-2026-08-02",
+      "assignment": "premature-oracle",
+      "file": "assets/images/shadow/premature-oracle.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Create a print-ready vertical editorial illustration, 2:3 portrait composition, for a mature feminine archetype field guide. Shadow archetype: PREMATURE ORACLE — Insight without Timing, releasing a true perception before it can be received or responsibly used. Depict one older woman in simple timeless clothing opening a sealed seed-pod or message casket before its season in a wind-lashed orchard; luminous seeds, ink-like birds, and fragile fragments escape into an approaching storm while the intended listening place remains empty in the distance. Her expression shows urgency and certainty, not malice: the truth may be real, but the conditions for hearing it are absent. Painterly realistic fine-art style, psychologically precise, sophisticated storm blue, black plum, raw parchment, and electric gold palette, natural anatomy, expressive face and hands, strong vertical composition with the early opening and escaping contents legible in the upper two-thirds. Avoid generic prophecy, dogmatic preacher imagery, cats, crystal balls, zodiac symbols, deity imagery, cultural or religious regalia, readable text, letters, typography, border, frame, or watermark.",
+      "editorialRationale": "The true content escapes into a storm before the listening place is occupied, making mistimed disclosure—not falsehood or dogma—the mechanism.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-withholding-seer-generated-2026-08-02",
+      "assignment": "withholding-seer",
+      "file": "assets/images/shadow/withholding-seer.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Create a print-ready vertical editorial illustration, 2:3 portrait composition, for a mature feminine archetype field guide. Shadow archetype: WITHHOLDING SEER — Insight remains clear while Timing distorts into indefinite delay, so needed truth is kept past the moment when it could serve. Depict one older woman in simple timeless clothing holding a brightly lit lantern and an unopened message behind a heavy closed curtain while dawn visibly passes outside. Beyond the curtain, several open but empty windows and a cleared listening place show that the conditions for speaking have already arrived. Her expression is watchful and self-protective; she keeps waiting for impossible certainty. A long shadow and wilting night flower suggest the useful moment is closing. Painterly realistic fine-art style, mature psychological realism, sophisticated indigo, silver dawn, faded violet, and contained amber palette, natural anatomy, expressive face and hands, strong vertical composition with the withheld light, closed curtain, and passing dawn readable in the upper two-thirds. Avoid mystical dream-cloud imagery, coward caricature, clocks with numerals, prophecy clichés, crystal balls, deity imagery, cultural or religious regalia, readable text, letters, typography, border, frame, or watermark.",
+      "editorialRationale": "The listening room and dawn are already open while the illuminated message stays curtained, depicting timing distorted into endless postponement.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-scorched-earth-crone-generated-2026-08-02",
+      "assignment": "scorched-earth-crone",
+      "file": "assets/images/shadow/scorched-earth-crone.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Create a print-ready vertical editorial illustration, 2:3 portrait composition, for a mature feminine archetype field guide. Shadow archetype: SCORCHED-EARTH CRONE — Release without Remembrance, destroying far beyond what must end until living inheritance, seeds, and records are erased with the obsolete structure. Depict one formidable older woman in simple timeless clothing at the edge of an old archive-garden, directing a controlled fire that has broken beyond the dead brambles and is now reaching labeled-but-unreadable seed drawers, blank family ledgers, young green shoots, and a still-living fruit tree. In one hand she holds the tool that began a necessary clearing; the other hand hesitates as she recognizes the fire has crossed its rightful boundary. Emphasize indiscriminate erasure rather than horror or personal vengeance. Painterly realistic fine-art style, grave and psychologically precise, sophisticated charcoal, bone, ember red, deep olive, and ash-gold palette, natural anatomy, expressive face and hands, dramatic vertical composition with the crossed firebreak, endangered seeds and records, and mature face readable in the upper two-thirds. No corpses, gore, victims, apocalyptic spectacle, death-goddess imagery, weapons, cultural or religious regalia, readable text, letters, typography, border, frame, or watermark.",
+      "editorialRationale": "The fire has left dead brambles and entered the seed archive and living tree, showing Release that has abandoned Remembrance without making death itself the villain.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
     }
   ]
 }

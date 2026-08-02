@@ -33,6 +33,9 @@ test("newly commissioned shadow artwork is local, distinct, and provenance-compl
     "witness",
     "martyred-healer",
     "cynical-healer",
+    "premature-oracle",
+    "withholding-seer",
+    "scorched-earth-crone",
   ];
   const records = assignments.map(record);
 
@@ -73,6 +76,9 @@ test("commissioned artwork is mapped by its canonical manuscript", () => {
     witness: "content/crone/archetypes/witness.md",
     "martyred-healer": "content/crone/shadows/martyred-healer.md",
     "cynical-healer": "content/crone/shadows/cynical-healer.md",
+    "premature-oracle": "content/crone/shadows/premature-oracle.md",
+    "withholding-seer": "content/crone/shadows/withholding-seer.md",
+    "scorched-earth-crone": "content/crone/shadows/scorched-earth-crone.md",
   };
 
   for (const [assignment, sourcePath] of Object.entries(sources)) {

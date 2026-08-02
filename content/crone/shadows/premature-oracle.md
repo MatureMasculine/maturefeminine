@@ -10,7 +10,7 @@ qualityB: Timing
 aliases:
 legacyRoutes: /crone/elder-visionary-oracle-moon/shadows/cryptic-oracle/
 legacyAnchors: cryptic-oracle
-image: assets/images/shadow/elder-visionary-oracle-moon--dogmatic-prophet.jpg
+image: assets/images/shadow/premature-oracle.png
 keyQualities: Speaks before trust|Predicts, does not receive|Overloads present choices|Calls unreadiness resistance|Mystifies her authority|Makes vision create urgency
 quoteIds:
 mythicResonances:

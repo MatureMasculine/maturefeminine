@@ -10,7 +10,7 @@ qualityB: Remembrance
 aliases:
 legacyRoutes: /crone/crone-underworld-queen/shadows/destroying-angel/
 legacyAnchors: destroying-angel
-image: assets/images/shadow/crone-underworld-queen--destructive-death-bringer.jpg
+image: assets/images/shadow/scorched-earth-crone.png
 keyQualities: Chooses severance first|Erases a mixed past|Destroys needed supports|Calls reflection weakness|Ends bonds to avoid grief|Leaves nothing to compost
 quoteIds:
 mythicResonances:
