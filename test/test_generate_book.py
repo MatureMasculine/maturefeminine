@@ -57,6 +57,18 @@ class GenerateBookTests(unittest.TestCase):
             finally:
                 document.close()
 
+    def test_full_second_page_does_not_create_a_folio_only_trailing_page(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "armored-lover.pdf"
+            generate_book.render_entry("armored-lover", output)
+
+            document = fitz.open(output)
+            try:
+                self.assertEqual(len(document), 2)
+                self.assertIn("Jane Austen", document[1].get_text())
+            finally:
+                document.close()
+
     def test_entry_content_uses_the_masculine_faithful_opener(self) -> None:
         content = generate_book.render_entry_content(self.normalized_entry("lover"), "images/lover.jpg", 0)
 

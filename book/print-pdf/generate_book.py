@@ -289,6 +289,7 @@ def render_entry_content(entry: dict[str, Any], image: str | None, variant_index
 \\setlength\\parskip{{\\EntryParagraphSkip}}
 {body}
 {render_closing_quote(entry.get('quotes', {}).get('closing', 'Quotation pending.'))}
+\\phantomsection\\label{{entry:{entry['slug']}:end}}
 }}
 \\end{{multicols}}
 """
@@ -304,7 +305,8 @@ def entry_start(slug: str) -> str:
 
 
 def entry_end(slug: str) -> str:
-    return f"\\par\\mbox{{}}\\phantomsection\\label{{entry:{slug}:end}}\\clearpage"
+    del slug
+    return "\\clearpage"
 
 
 def render_entries(entries: Iterable[dict[str, Any]], images: dict[str, str | None], *, enforce_parity: bool) -> str:
