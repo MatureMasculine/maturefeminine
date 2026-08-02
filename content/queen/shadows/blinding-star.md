@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/sky-sun-star-goddess/shadows/blinding-sun/
 legacyAnchors: blinding-sun
 image: assets/images/shadow/sky-sun-star-goddess--prideful-dominator.jpg
+keyQualities: Pulls attention to herself|Turns visibility into rank|Calls admiration agreement|Occupies every spotlight|Uses others as mirrors|Competes with new voices
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Blinding Star
 - Passive shadow: Hidden Light
 - Mythic resonances:
-- Key qualities: Redirects attention to herself, Treats admiration as agreement, Competes with emerging voices
+- Key qualities: Pulls attention to herself, Turns visibility into rank, Calls admiration agreement, Occupies every spotlight, Uses others as mirrors, Competes with new voices
 
 ## Balance Breakdown
 

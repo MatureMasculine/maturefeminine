@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /crone/elder-healer-priestess/shadows/martyred-healer/
 legacyAnchors: martyred-healer
 image: assets/images/shadow/elder-healer-priestess--burned-out-wise-woman.jpg
+keyQualities: Answers every pain|Stays beyond useful witness|Makes love endless duty|Claims others' outcomes|Refuses limits and endings|Spends health to keep watch
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Martyred Healer
 - Passive shadow: Cynical Healer
 - Mythic resonances:
-- Key qualities: Cannot conclude care, Makes outcomes personal, Sacrifices health to preserve a healer identity
+- Key qualities: Answers every pain, Stays beyond useful witness, Makes love endless duty, Claims others' outcomes, Refuses limits and endings, Spends health to keep watch
 
 ## Balance Breakdown
 

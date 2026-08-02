@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /lover-creatrix/young-healer-priestess/shadows/savior-priestess/
 legacyAnchors: savior-priestess
 image: assets/images/shadow/young-healer-priestess--savior-complex.jpg
-keyQualities: Gives unsolicited help|Takes responsibility for outcomes|Overpromises availability|Exceeds role or competence|Makes need a source of identity|Ignores fatigue and refusal
+keyQualities: Turns pain into her mandate|Intervenes before consent|Turns requests into missions|Owns another's outcome|Promises beyond capacity|Crosses role limits
 quoteIds: quote-rescuing-healer-opening-eliot-less-difficult|quote-rescuing-healer-closing-nightingale-not-everything
 mythicResonances: The Swallow (nineteenth-century Irish literary tradition)
 mythicSourceIds: myth-rescuing-healer-swallow-wilde-happy-prince
@@ -38,7 +38,7 @@ Active Shadow
 - Active shadow: Rescuing Healer
 - Passive shadow: Guarded Healer
 - Mythic resonances: The Swallow (nineteenth-century Irish literary tradition)
-- Key qualities: Gives unsolicited help, Takes responsibility for outcomes, Overpromises availability, Exceeds role or competence, Makes need a source of identity, Ignores fatigue and refusal
+- Key qualities: Turns pain into her mandate, Intervenes before consent, Turns requests into missions, Owns another's outcome, Promises beyond capacity, Crosses role limits
 
 ## When Compassion Claims the Outcome
 

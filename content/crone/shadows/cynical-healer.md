@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /crone/elder-healer-priestess/shadows/cynical-healer/
 legacyAnchors: cynical-healer
 image: assets/images/shadow/elder-healer-priestess--controlling-healer.jpg
+keyQualities: Predicts failure at arrival|Turns patterns into verdicts|Uses realism as armor|Listens only for futility|Withholds care without cure|Calls numbness wisdom
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Martyred Healer
 - Passive shadow: Cynical Healer
 - Mythic resonances:
-- Key qualities: Reduces people to diagnoses, Withholds warmth as realism, Uses experience to foreclose possibility
+- Key qualities: Predicts failure at arrival, Turns patterns into verdicts, Uses realism as armor, Listens only for futility, Withholds care without cure, Calls numbness wisdom
 
 ## Balance Breakdown
 

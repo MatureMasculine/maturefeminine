@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /crone/rebel-revolutionary-trickster/shadows/conforming-complainer/
 legacyAnchors: conforming-complainer
 image: assets/images/shadow/rebel-revolutionary-trickster--conformist-rebel.jpg
+keyQualities: Dissents only in safety|Obeys publicly, rebels alone|Waits for spotless action|Analyzes, never acts|Lets power define choices|Uses critique to stay pure
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Chaotic Rebel
 - Passive shadow: Compliant Critic
 - Mythic resonances:
-- Key qualities: Complains without organizing, Waits for moral certainty, Complies publicly and rebels privately
+- Key qualities: Dissents only in safety, Obeys publicly, rebels alone, Waits for spotless action, Analyzes, never acts, Lets power define choices, Uses critique to stay pure
 
 ## Balance Breakdown
 

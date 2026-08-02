@@ -11,7 +11,7 @@ aliases: Flooding Muse
 legacyRoutes: /lover-creatrix/creatrix-spider-weaver/shadows/scattered-creator/|/lover-creatrix/muse-song-goddess/shadows/chaotic-inspiration/
 legacyAnchors: scattered-creator|chaotic-inspiration
 image: assets/images/shadow/creatrix-spider-weaver--blocked-artist.jpg
-keyQualities: Accumulates unfinished projects|Changes direction at ordinary friction|Depends on mood to work|Broadcasts unfinished impulses|Abandons work after the first excitement|Overruns collaborators
+keyQualities: Starts, never continues|Switches at normal friction|Lets mood gatekeep work|Broadcasts raw impulses|Changes shared scope alone|Avoids every finish
 quoteIds: quote-scattered-maker-opening-alcott-enthusiasm-inspiration|quote-scattered-maker-closing-thoreau-foundations
 mythicResonances: The Sorcerer's Apprentice (German literary tradition)
 mythicSourceIds: myth-scattered-maker-sorcerers-apprentice-goethe
@@ -38,7 +38,7 @@ Passive Shadow
 - Active shadow: Compulsive Perfecter
 - Passive shadow: Scattered Maker
 - Mythic resonances: The Sorcerer's Apprentice (German literary tradition)
-- Key qualities: Accumulates unfinished projects, Changes direction at ordinary friction, Depends on mood to work, Broadcasts unfinished impulses, Abandons work after the first excitement, Overruns collaborators
+- Key qualities: Starts, never continues, Switches at normal friction, Lets mood gatekeep work, Broadcasts raw impulses, Changes shared scope alone, Avoids every finish
 
 ## When Possibility Cannot Hold a Shape
 

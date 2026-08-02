@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/storyteller/shadows/exaggerating-dramatist/
 legacyAnchors: exaggerating-dramatist
 image: assets/images/shadow/storyteller--exaggerating-dramatist.jpg
+keyQualities: Invents in memory gaps|Reports inference as fact|Erases doubt for drama|Recenters entrusted stories|Shares without consent|Chooses effect over accuracy
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Exaggerating Dramatist
 - Passive shadow: Silent Keeper
 - Mythic resonances:
-- Key qualities: Adds connective detail that was not remembered, Turns inference into stated fact, Removes uncertainty to strengthen the arc, Centers the narrator in another person's account, Shares entrusted material without sufficient consent, Protects a compelling version from correction
+- Key qualities: Invents in memory gaps, Reports inference as fact, Erases doubt for drama, Recenters entrusted stories, Shares without consent, Chooses effect over accuracy
 
 ## Balance Breakdown
 

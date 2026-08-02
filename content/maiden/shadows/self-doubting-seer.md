@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /maiden/young-visionary-oracle/shadows/lost-dreamer/
 legacyAnchors: lost-dreamer
 image: assets/images/shadow/young-visionary-oracle--lost-dreamer.jpg
+keyQualities: Rejects untested impressions|Privileges others' dismissal|Demands proof to speak|Defers sight to experts|Explains away body signals|Waits for consensus
 quoteIds: quote-self-doubting-seer-opening-dickinson-much-madness|quote-self-doubting-seer-closing-leavitt-brighter-variables
 mythicResonances: Romola (nineteenth-century English literary tradition)
 mythicSourceIds: myth-self-doubting-seer-romola-eliot-chapter-40
@@ -44,7 +45,7 @@ And handled with a chain.”
 - Active shadow: Inflated Oracle
 - Passive shadow: Self-Doubting Seer
 - Mythic resonances: Romola (nineteenth-century English literary tradition)
-- Key qualities: Edits an impression out of speech before deciding whether it is testable, Waits for proof no emerging pattern could initially provide, Outsources direct perception to credentials, consensus, or a more confident voice, Explains away recurring bodily signals without recording their conditions, Offers the insight only after someone else has made it socially safe, Confuses humility with having no legitimate observation to contribute
+- Key qualities: Rejects untested impressions, Privileges others' dismissal, Demands proof to speak, Defers sight to experts, Explains away body signals, Waits for consensus
 
 ## When Proof Silences Perception
 

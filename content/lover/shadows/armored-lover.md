@@ -11,6 +11,7 @@ aliases: Untouchable Beloved
 legacyRoutes: /lover-creatrix/sacred-lover-love-goddess/shadows/armored-heart/|/lover-creatrix/devoted-consort-beloved/shadows/aloof-sovereign/
 legacyAnchors: armored-heart|aloof-sovereign
 image: assets/images/shadow/sacred-lover-love-goddess--disconnected-performer.jpg
+keyQualities: Intellectualizes feeling|Performs tenderness|Hides need behind praise|Leaves before need is seen|Treats help as lost rank|Keeps one self unreachable
 quoteIds: quote-armored-lover-opening-dickinson-outgrow-love|quote-armored-lover-closing-austen-persuasion
 mythicResonances: The Snow Queen (Danish literary tradition)
 mythicSourceIds: myth-armored-lover-snow-queen-andersen
@@ -40,7 +41,7 @@ Like costumes grandsires wore.”
 - Active shadow: Enmeshing Lover
 - Passive shadow: Armored Lover
 - Mythic resonances: The Snow Queen (Danish literary tradition)
-- Key qualities: Keeps intimacy articulate but emotionally negotiated, Turns tenderness into analysis, humor, or sexual performance, Leaves when another person matters enough to disappoint her, Receives admiration while concealing ordinary need, Treats help as debt and influence as loss of rank, Holds the body composed when grief or affection asks it to soften
+- Key qualities: Intellectualizes feeling, Performs tenderness, Hides need behind praise, Leaves before need is seen, Treats help as lost rank, Keeps one self unreachable
 
 ## When Sovereignty Becomes Armor
 

@@ -280,6 +280,7 @@ function parseShadowFile(file) {
     ...common,
     parent: required(data, "parent", file),
     type,
+    keyQualities: pipeList(required(data, "keyQualities", file)),
     oppositeShadowSlug: required(data, "oppositeShadowSlug", file),
     bodySections: normalizedBodySections(sections, roles, ["Designation", "Opening Quotation", "Profile", "Closing Quotation"]),
     sections: {
@@ -406,12 +407,7 @@ function validateBook(book, { publish = false } = {}) {
     if (entry.kind === "archetype" && entry.profile.keyQualities !== entry.keyQualities.join(", ")) failures.push(`${label} profile key qualities drift`);
 
     if (entry.kind === "shadow") {
-      const expectedKeyQualities = entry.sections.recognition
-        .split(/\n\s*\n/)
-        .map((quality) => quality.trim())
-        .filter(Boolean)
-        .join(", ");
-      if (entry.profile.keyQualities !== expectedKeyQualities) failures.push(`${label} profile key qualities drift from Recognition`);
+      if (entry.profile.keyQualities !== entry.keyQualities.join(", ")) failures.push(`${label} profile key qualities drift`);
       if (!parentEntry) {
         failures.push(`${label} missing parent ${entry.parent}`);
       } else {
@@ -432,6 +428,9 @@ function validateBook(book, { publish = false } = {}) {
     if (!entry.research.mythicResonances.length || !entry.research.mythicSourceIds.length) failures.push(`${label} missing verified mythic assignments or source IDs`);
     if (!entry.image) failures.push(`${label} missing image path`);
     if (!entry.quotes.opening || !entry.quotes.closing) failures.push(`${label} has empty required quotation sections`);
+    if (entry.kind === "shadow" && (entry.keyQualities.length < 5 || entry.keyQualities.length > 8)) failures.push(`${label} shadow key qualities must contain 5–8 items`);
+    if (entry.kind === "shadow" && entry.keyQualities.some((quality) => quality.length > 28)) failures.push(`${label} shadow key quality must be at most 28 characters`);
+    if (entry.kind === "shadow" && entry.keyQualities.join(", ").length > 160) failures.push(`${label} shadow key qualities must be at most 160 characters joined`);
     const declarationCount = entry.sections.declarations.length;
     const [minimum, maximum] = entry.kind === "archetype" ? [8, 12] : [6, 9];
     if (declarationCount < minimum || declarationCount > maximum) failures.push(`${label} declaration count must be ${minimum}–${maximum}`);

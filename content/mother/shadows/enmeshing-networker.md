@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/weaver-community-goddess/shadows/manipulative-networker/
 legacyAnchors: manipulative-networker
 image: assets/images/shadow/weaver-community-goddess--controlling-networker.png
-keyQualities: Triangulates through private information|Protects insiders from consequence|Makes herself the relational hub|Treats access as loyalty|Arranges lives without consent|Confuses influence with care
+keyQualities: Trades closeness for status|Circulates confidences|Shields insiders from repair|Makes herself the hub|Makes departure costly|Sets ties on her terms
 quoteIds: quote-enmeshing-networker-opening-austen-arrange-destiny|quote-enmeshing-networker-closing-wollstonecraft-justice
 mythicResonances: Madame Merle (nineteenth-century transatlantic literary tradition)
 mythicSourceIds: myth-enmeshing-networker-madame-merle-portrait-lady-24-52
@@ -38,7 +38,7 @@ Active Shadow
 - Active shadow: Enmeshing Networker
 - Passive shadow: Isolated Helper
 - Mythic resonances: Madame Merle (nineteenth-century transatlantic literary tradition)
-- Key qualities: Triangulates through private information, Protects insiders from consequence, Makes herself the relational hub, Treats access as loyalty, Arranges lives without consent, Confuses influence with care
+- Key qualities: Trades closeness for status, Circulates confidences, Shields insiders from repair, Makes herself the hub, Makes departure costly, Sets ties on her terms
 
 ## When Belonging Becomes an Arrangement
 

@@ -11,6 +11,7 @@ aliases: Enmeshing Enchantress|Self-Erasing Worshipper
 legacyRoutes: /lover-creatrix/sacred-lover-love-goddess/shadows/intoxicating-siren/|/lover-creatrix/devoted-consort-beloved/shadows/enmeshing-worshipper/
 legacyAnchors: intoxicating-siren|enmeshing-worshipper
 image: assets/images/shadow/sacred-lover-love-goddess--seductive-enchantress.jpg
+keyQualities: Rushes intimacy for safety|Monitors mood, hides needs|Turns service into debt|Uses crisis for closeness|Reads distance as refusal|Shrinks life to one bond
 quoteIds: quote-enmeshing-lover-opening-teasdale-not-yours|quote-enmeshing-lover-closing-wollstonecraft-vindication
 mythicResonances: Echo (Roman literary tradition)
 mythicSourceIds: myth-enmeshing-lover-echo-ovid
@@ -40,7 +41,7 @@ Lost as a light is lost in light.”
 - Active shadow: Enmeshing Lover
 - Passive shadow: Armored Lover
 - Mythic resonances: Echo (Roman literary tradition)
-- Key qualities: Accelerates intimacy and treats a pause as rejection, Volunteers at work and reads limits as disloyalty, Rehearses another person's mood before naming her own, Overrides hunger, fatigue, pain, or reluctance to stay pleasing, Uses gifts, sex, service, or crisis to obtain reassurance indirectly, Shrinks friendships, projects, and privacy around one bond
+- Key qualities: Rushes intimacy for safety, Monitors mood, hides needs, Turns service into debt, Uses crisis for closeness, Reads distance as refusal, Shrinks life to one bond
 
 ## When Devotion Takes Over
 

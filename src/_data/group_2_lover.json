@@ -189,7 +189,7 @@
             "activeShadow": "Compulsive Perfecter",
             "passiveShadow": "Scattered Maker",
             "mythicResonances": "Frenhofer (nineteenth-century French literary tradition)",
-            "keyQualities": "Reworks settled details, Confuses polish with value, Delays exposure indefinitely, Controls the process before making, Edits her own voice out, Treats criticism as invalidation, Expands scope whenever completion approaches"
+            "keyQualities": "Moves the finish line, Revises to delay exposure, Controls against discovery, Polishes trivial details, Edits out distinctive voice, Calls feedback rejection"
           },
           "quotes": {
             "opening": "“An artist should create beautiful things, but should put nothing of his own life into them.”\n\n—Basil Hallward in Oscar Wilde's *The Picture of Dorian Gray*, chapter 1",
@@ -211,6 +211,14 @@
           "sourceFile": "lover/shadows/compulsive-perfecter.md",
           "parent": "creator",
           "type": "active",
+          "keyQualities": [
+            "Moves the finish line",
+            "Revises to delay exposure",
+            "Controls against discovery",
+            "Polishes trivial details",
+            "Edits out distinctive voice",
+            "Calls feedback rejection"
+          ],
           "oppositeShadowSlug": "scattered-maker",
           "bodySections": [
             {
@@ -327,7 +335,7 @@
             "activeShadow": "Compulsive Perfecter",
             "passiveShadow": "Scattered Maker",
             "mythicResonances": "The Sorcerer's Apprentice (German literary tradition)",
-            "keyQualities": "Accumulates unfinished projects, Changes direction at ordinary friction, Depends on mood to work, Broadcasts unfinished impulses, Abandons work after the first excitement, Overruns collaborators"
+            "keyQualities": "Starts, never continues, Switches at normal friction, Lets mood gatekeep work, Broadcasts raw impulses, Changes shared scope alone, Avoids every finish"
           },
           "quotes": {
             "opening": "“Amy was learning this distinction through much tribulation, for mistaking enthusiasm for inspiration, she attempted every branch of art with youthful audacity.”\n\n—Louisa May Alcott, *Little Women*, chapter 26, “Artistic Attempts”",
@@ -349,6 +357,14 @@
           "sourceFile": "lover/shadows/scattered-maker.md",
           "parent": "creator",
           "type": "passive",
+          "keyQualities": [
+            "Starts, never continues",
+            "Switches at normal friction",
+            "Lets mood gatekeep work",
+            "Broadcasts raw impulses",
+            "Changes shared scope alone",
+            "Avoids every finish"
+          ],
           "oppositeShadowSlug": "compulsive-perfecter",
           "bodySections": [
             {
@@ -623,7 +639,7 @@
             "activeShadow": "Enmeshing Lover",
             "passiveShadow": "Armored Lover",
             "mythicResonances": "Echo (Roman literary tradition)",
-            "keyQualities": "Accelerates intimacy and treats a pause as rejection, Volunteers at work and reads limits as disloyalty, Rehearses another person's mood before naming her own, Overrides hunger, fatigue, pain, or reluctance to stay pleasing, Uses gifts, sex, service, or crisis to obtain reassurance indirectly, Shrinks friendships, projects, and privacy around one bond"
+            "keyQualities": "Rushes intimacy for safety, Monitors mood, hides needs, Turns service into debt, Uses crisis for closeness, Reads distance as refusal, Shrinks life to one bond"
           },
           "quotes": {
             "opening": "“You love me, and I find you still\nA spirit beautiful and bright,\nYet I am I, who long to be\nLost as a light is lost in light.”\n\n—Sara Teasdale, “I Am Not Yours,” stanza 2",
@@ -645,6 +661,14 @@
           "sourceFile": "lover/shadows/enmeshing-lover.md",
           "parent": "lover",
           "type": "active",
+          "keyQualities": [
+            "Rushes intimacy for safety",
+            "Monitors mood, hides needs",
+            "Turns service into debt",
+            "Uses crisis for closeness",
+            "Reads distance as refusal",
+            "Shrinks life to one bond"
+          ],
           "oppositeShadowSlug": "armored-lover",
           "bodySections": [
             {
@@ -761,7 +785,7 @@
             "activeShadow": "Enmeshing Lover",
             "passiveShadow": "Armored Lover",
             "mythicResonances": "The Snow Queen (Danish literary tradition)",
-            "keyQualities": "Keeps intimacy articulate but emotionally negotiated, Turns tenderness into analysis, humor, or sexual performance, Leaves when another person matters enough to disappoint her, Receives admiration while concealing ordinary need, Treats help as debt and influence as loss of rank, Holds the body composed when grief or affection asks it to soften"
+            "keyQualities": "Intellectualizes feeling, Performs tenderness, Hides need behind praise, Leaves before need is seen, Treats help as lost rank, Keeps one self unreachable"
           },
           "quotes": {
             "opening": "“We outgrow love like other things\nAnd put it in the drawer,\nTill it an antique fashion shows\nLike costumes grandsires wore.”\n\n—Emily Dickinson, “We outgrow love like other things,” Franklin 1094",
@@ -783,6 +807,14 @@
           "sourceFile": "lover/shadows/armored-lover.md",
           "parent": "lover",
           "type": "passive",
+          "keyQualities": [
+            "Intellectualizes feeling",
+            "Performs tenderness",
+            "Hides need behind praise",
+            "Leaves before need is seen",
+            "Treats help as lost rank",
+            "Keeps one self unreachable"
+          ],
           "oppositeShadowSlug": "enmeshing-lover",
           "bodySections": [
             {
@@ -1048,7 +1080,7 @@
             "activeShadow": "Rescuing Healer",
             "passiveShadow": "Guarded Healer",
             "mythicResonances": "The Swallow (nineteenth-century Irish literary tradition)",
-            "keyQualities": "Gives unsolicited help, Takes responsibility for outcomes, Overpromises availability, Exceeds role or competence, Makes need a source of identity, Ignores fatigue and refusal"
+            "keyQualities": "Turns pain into her mandate, Intervenes before consent, Turns requests into missions, Owns another's outcome, Promises beyond capacity, Crosses role limits"
           },
           "quotes": {
             "opening": "“What do we live for, if it is not to make life less difficult to each other?”\n\n—George Eliot, *Middlemarch*, book VIII, chapter 72",
@@ -1070,6 +1102,14 @@
           "sourceFile": "lover/shadows/rescuing-healer.md",
           "parent": "healer",
           "type": "active",
+          "keyQualities": [
+            "Turns pain into her mandate",
+            "Intervenes before consent",
+            "Turns requests into missions",
+            "Owns another's outcome",
+            "Promises beyond capacity",
+            "Crosses role limits"
+          ],
           "oppositeShadowSlug": "guarded-healer",
           "bodySections": [
             {
@@ -1182,7 +1222,7 @@
             "activeShadow": "Rescuing Healer",
             "passiveShadow": "Guarded Healer",
             "mythicResonances": "Silas Marner (nineteenth-century English literary tradition)",
-            "keyQualities": "Uses policy to avoid contact, Withdraws at visible need, Anticipates engulfment, Intellectualizes distress, Refuses finite care, Confuses non-rescue with non-care"
+            "keyQualities": "Expects an invoice in need, Uses rules to avoid contact, Analyzes instead of caring, Fears finite care, Generalizes one danger, Calls non-rescue non-care"
           },
           "quotes": {
             "opening": "“My own garden is my own garden,” said the Giant; “any one can understand that, and I will allow nobody to play in it but myself.”\n\n—the Giant in Oscar Wilde's “The Selfish Giant”",
@@ -1204,6 +1244,14 @@
           "sourceFile": "lover/shadows/guarded-healer.md",
           "parent": "healer",
           "type": "passive",
+          "keyQualities": [
+            "Expects an invoice in need",
+            "Uses rules to avoid contact",
+            "Analyzes instead of caring",
+            "Fears finite care",
+            "Generalizes one danger",
+            "Calls non-rescue non-care"
+          ],
           "oppositeShadowSlug": "rescuing-healer",
           "bodySections": [
             {

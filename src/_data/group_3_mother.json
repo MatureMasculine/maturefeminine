@@ -185,7 +185,7 @@
             "activeShadow": "Controlling Sentinel",
             "passiveShadow": "Open Gate",
             "mythicResonances": "Dame Gothel (German literary fairy-tale tradition)",
-            "keyQualities": "Polices ordinary choices, Treats uncertainty as danger, Moves boundaries without consent, Demands access while denying it, Ignores demonstrated capacity, Cannot stand down"
+            "keyQualities": "Polices ordinary choices, Treats novelty as danger, Moves boundaries alone, Demands one-way access, Ignores proven capacity, Cannot stand down"
           },
           "quotes": {
             "opening": "“He is very careful and loving, and hardly lets me stir without special direction.”\n\n—Charlotte Perkins Gilman, *The Yellow Wallpaper*",
@@ -207,6 +207,14 @@
           "sourceFile": "mother/shadows/controlling-sentinel.md",
           "parent": "guardian",
           "type": "active",
+          "keyQualities": [
+            "Polices ordinary choices",
+            "Treats novelty as danger",
+            "Moves boundaries alone",
+            "Demands one-way access",
+            "Ignores proven capacity",
+            "Cannot stand down"
+          ],
           "oppositeShadowSlug": "open-gate",
           "bodySections": [
             {
@@ -320,7 +328,7 @@
             "activeShadow": "Controlling Sentinel",
             "passiveShadow": "Open Gate",
             "mythicResonances": "The Shepherd (Aesopic literary-fable tradition)",
-            "keyQualities": "Ignores repeated breaches, Delegates safety to hope, Confuses access with inclusion, Avoids necessary exclusion, Makes vulnerable people absorb risk, Has no response plan"
+            "keyQualities": "Ignores repeated breaches, Calls sincerity safe, Restores trust unchanged, Calls access inclusion, Makes others carry risk, Keeps no response plan"
           },
           "quotes": {
             "opening": "“Integrity without knowledge is weak and useless, and knowledge without integrity is dangerous and dreadful.”\n\n—Samuel Johnson, *Rasselas, Prince of Abyssinia*, chapter XLI",
@@ -342,6 +350,14 @@
           "sourceFile": "mother/shadows/open-gate.md",
           "parent": "guardian",
           "type": "passive",
+          "keyQualities": [
+            "Ignores repeated breaches",
+            "Calls sincerity safe",
+            "Restores trust unchanged",
+            "Calls access inclusion",
+            "Makes others carry risk",
+            "Keeps no response plan"
+          ],
           "oppositeShadowSlug": "controlling-sentinel",
           "bodySections": [
             {
@@ -607,7 +623,7 @@
             "activeShadow": "Engulfing Mother",
             "passiveShadow": "Unavailable Mother",
             "mythicResonances": "Mrs. Morel (early twentieth-century English literary tradition)",
-            "keyQualities": "Anticipates every need, Solves before being asked, Treats separation as disloyalty, Uses worry as authority, Undermines competence, Makes sacrifice an invoice"
+            "keyQualities": "Anticipates every need, Solves before being asked, Makes separation betrayal, Uses worry as authority, Undermines growing skill, Makes sacrifice an invoice"
           },
           "quotes": {
             "opening": "“Somebody had always been explaining things to Elizabeth Ann so industriously that she had never found out a single thing for herself before.”\n\n—Dorothy Canfield Fisher, *Understood Betsy*, chapter II",
@@ -629,6 +645,14 @@
           "sourceFile": "mother/shadows/engulfing-mother.md",
           "parent": "mother",
           "type": "active",
+          "keyQualities": [
+            "Anticipates every need",
+            "Solves before being asked",
+            "Makes separation betrayal",
+            "Uses worry as authority",
+            "Undermines growing skill",
+            "Makes sacrifice an invoice"
+          ],
           "oppositeShadowSlug": "absent-mother",
           "bodySections": [
             {
@@ -740,7 +764,7 @@
             "activeShadow": "Engulfing Mother",
             "passiveShadow": "Unavailable Mother",
             "mythicResonances": "Victor Frankenstein (English Gothic literary tradition)",
-            "keyQualities": "Minimizes legitimate dependency, Withdraws during distress, Confuses neglect with freedom, Delegates without accountability, Shames ordinary need, Returns only after crisis"
+            "keyQualities": "Minimizes ordinary need, Withdraws during distress, Calls neglect freedom, Delegates without a handoff, Shames dependency, Returns only after crisis"
           },
           "quotes": {
             "opening": "“She had not wanted a little girl at all, and when Mary was born she handed her over to the care of an Ayah, who was made to understand that if she wished to please the Mem Sahib she must keep the child out of sight as much as possible.”\n\n—Frances Hodgson Burnett, *The Secret Garden*, chapter I",
@@ -762,6 +786,14 @@
           "sourceFile": "mother/shadows/absent-mother.md",
           "parent": "mother",
           "type": "passive",
+          "keyQualities": [
+            "Minimizes ordinary need",
+            "Withdraws during distress",
+            "Calls neglect freedom",
+            "Delegates without a handoff",
+            "Shames dependency",
+            "Returns only after crisis"
+          ],
           "oppositeShadowSlug": "engulfing-mother",
           "bodySections": [
             {
@@ -1029,7 +1061,7 @@
             "activeShadow": "Peace Enforcer",
             "passiveShadow": "Resentful Bystander",
             "mythicResonances": "Torvald Helmer (nineteenth-century Norwegian modern drama in English translation)",
-            "keyQualities": "Rushes forgiveness, Neutralizes legitimate anger, Equates calm with safety, Balances unequal harm, Protects appearances, Rewards quick compliance"
+            "keyQualities": "Mutes truth with calm, Dilutes unequal harm, Puts intent over impact, Makes anger the new offense, Rushes reunion, Protects insiders from costs"
           },
           "quotes": {
             "opening": "“The matter must be hushed up at any cost.”\n\n—Henrik Ibsen, *A Doll’s House*, act III",
@@ -1051,6 +1083,14 @@
           "sourceFile": "mother/shadows/peace-enforcer.md",
           "parent": "peacemaker",
           "type": "active",
+          "keyQualities": [
+            "Mutes truth with calm",
+            "Dilutes unequal harm",
+            "Puts intent over impact",
+            "Makes anger the new offense",
+            "Rushes reunion",
+            "Protects insiders from costs"
+          ],
           "oppositeShadowSlug": "resentful-bystander",
           "bodySections": [
             {
@@ -1164,7 +1204,7 @@
             "activeShadow": "Peace Enforcer",
             "passiveShadow": "Resentful Bystander",
             "mythicResonances": "Edward Casaubon (nineteenth-century English literary tradition)",
-            "keyQualities": "Withholds grievances, Punishes through distance, Waits for mind-reading, Collects private evidence, Rehearses imagined trials, Treats repair as surrender"
+            "keyQualities": "Keeps private grievance logs, Expects mind-reading, Uses distance to punish, Rehearses imagined trials, Lets silence mimic peace, Makes repair feel surrender"
           },
           "quotes": {
             "opening": "“And on the most delicate of all personal subjects, the habit of proud suspicious reticence told doubly.”\n\n—George Eliot, *Middlemarch*, book IV, chapter XXXVII",
@@ -1186,6 +1226,14 @@
           "sourceFile": "mother/shadows/resentful-bystander.md",
           "parent": "peacemaker",
           "type": "passive",
+          "keyQualities": [
+            "Keeps private grievance logs",
+            "Expects mind-reading",
+            "Uses distance to punish",
+            "Rehearses imagined trials",
+            "Lets silence mimic peace",
+            "Makes repair feel surrender"
+          ],
           "oppositeShadowSlug": "peace-enforcer",
           "bodySections": [
             {
@@ -1456,7 +1504,7 @@
             "activeShadow": "Rampaging Warrior",
             "passiveShadow": "Disarmed Warrior",
             "mythicResonances": "Achilles (archaic Greek epic literary tradition)",
-            "keyQualities": "Escalates after the threat ends, Dehumanizes opponents, Treats intensity as moral proof, Broadens the target, Rejects surrender or repair, Makes conflict an identity"
+            "keyQualities": "Broadens the target, Calls criticism betrayal, Makes escalation self-proof, Moves the stopping condition, Punishes after safety, Dehumanizes to mute cost"
           },
           "quotes": {
             "opening": "“I have no pity! I have no pity! The more the worms writhe, the more I yearn to crush out their entrails! It is a moral teething; and I grind with greater energy in proportion to the increase of pain.”\n\n—Heathcliff, Emily Brontë, *Wuthering Heights*, chapter XIV",
@@ -1478,6 +1526,14 @@
           "sourceFile": "mother/shadows/rampaging-warrior.md",
           "parent": "warrior",
           "type": "active",
+          "keyQualities": [
+            "Broadens the target",
+            "Calls criticism betrayal",
+            "Makes escalation self-proof",
+            "Moves the stopping condition",
+            "Punishes after safety",
+            "Dehumanizes to mute cost"
+          ],
           "oppositeShadowSlug": "disarmed-warrior",
           "bodySections": [
             {
@@ -1591,7 +1647,7 @@
             "activeShadow": "Rampaging Warrior",
             "passiveShadow": "Disarmed Warrior",
             "mythicResonances": "Hamlet (English Renaissance revenge-tragedy tradition)",
-            "keyQualities": "Freezes under violation, Apologizes for firm limits, Abandons aims at resistance, Turns anger inward, Waits for certainty, Confuses inhibition with goodness"
+            "keyQualities": "Waits for airtight proof, Softens every firm limit, Calls anger proof of guilt, Turns anger against herself, Resists only indirectly, Calls inhibition restraint"
           },
           "quotes": {
             "opening": "“For action is indeed the sole medium of expression for ethics.”\n\n—Jane Addams, *Democracy and Social Ethics*, chapter VII",
@@ -1613,6 +1669,14 @@
           "sourceFile": "mother/shadows/disarmed-warrior.md",
           "parent": "warrior",
           "type": "passive",
+          "keyQualities": [
+            "Waits for airtight proof",
+            "Softens every firm limit",
+            "Calls anger proof of guilt",
+            "Turns anger against herself",
+            "Resists only indirectly",
+            "Calls inhibition restraint"
+          ],
           "oppositeShadowSlug": "rampaging-warrior",
           "bodySections": [
             {
@@ -1880,7 +1944,7 @@
             "activeShadow": "Enmeshing Networker",
             "passiveShadow": "Isolated Helper",
             "mythicResonances": "Madame Merle (nineteenth-century transatlantic literary tradition)",
-            "keyQualities": "Triangulates through private information, Protects insiders from consequence, Makes herself the relational hub, Treats access as loyalty, Arranges lives without consent, Confuses influence with care"
+            "keyQualities": "Trades closeness for status, Circulates confidences, Shields insiders from repair, Makes herself the hub, Makes departure costly, Sets ties on her terms"
           },
           "quotes": {
             "opening": "“With insufferable vanity had she believed herself in the secret of every body’s feelings; with unpardonable arrogance proposed to arrange every body’s destiny.”\n\n—Jane Austen, *Emma*, volume III, chapter XI",
@@ -1902,6 +1966,14 @@
           "sourceFile": "mother/shadows/enmeshing-networker.md",
           "parent": "community-weaver",
           "type": "active",
+          "keyQualities": [
+            "Trades closeness for status",
+            "Circulates confidences",
+            "Shields insiders from repair",
+            "Makes herself the hub",
+            "Makes departure costly",
+            "Sets ties on her terms"
+          ],
           "oppositeShadowSlug": "isolated-helper",
           "bodySections": [
             {
@@ -2015,7 +2087,7 @@
             "activeShadow": "Enmeshing Networker",
             "passiveShadow": "Isolated Helper",
             "mythicResonances": "Amy Dorrit (nineteenth-century English literary tradition)",
-            "keyQualities": "Serves without receiving, Leaves at ordinary conflict, Uses critique to remain outside, Hides need behind competence, Accepts invisible responsibility, Belongs only through usefulness"
+            "keyQualities": "Works instead of belonging, Gives labor, hides need, Judges from the margins, Leaves at normal conflict, Refuses mutual support, Uses critique to avoid stake"
           },
           "quotes": {
             "opening": "“There is nothing more devastating to the inventive faculty, nor fatal to a flow of mind and spirit, than the constant feeling of loneliness and the absence of that fellowship which makes our public opinion.”\n\n—Jane Addams, *Democracy and Social Ethics*, chapter IV, “Household Adjustment”",
@@ -2037,6 +2109,14 @@
           "sourceFile": "mother/shadows/isolated-helper.md",
           "parent": "community-weaver",
           "type": "passive",
+          "keyQualities": [
+            "Works instead of belonging",
+            "Gives labor, hides need",
+            "Judges from the margins",
+            "Leaves at normal conflict",
+            "Refuses mutual support",
+            "Uses critique to avoid stake"
+          ],
           "oppositeShadowSlug": "enmeshing-networker",
           "bodySections": [
             {
@@ -2309,7 +2389,7 @@
             "activeShadow": "Martyr Host",
             "passiveShadow": "Closed Hearth",
             "mythicResonances": "Mrs. Ramsay (twentieth-century English modernist literary tradition)",
-            "keyQualities": "Overfunctions and keeps score, Makes unspoken sacrifices, Treats privacy as selfishness, Anticipates every preference, Hides the cost of welcome, Resents needs she invited"
+            "keyQualities": "Monitors all but herself, Makes welcome cost service, Hides needs until resentful, Tallies unasked sacrifice, Calls rest selfish, Erases herself as host"
           },
           "quotes": {
             "opening": "“I would fain teach women that self-development is a higher duty than self-sacrifice.”\n\n—Elizabeth Cady Stanton, *The Woman’s Bible*, part I, “The Book of Exodus,” chapter VII",
@@ -2331,6 +2411,14 @@
           "sourceFile": "mother/shadows/martyr-host.md",
           "parent": "host",
           "type": "active",
+          "keyQualities": [
+            "Monitors all but herself",
+            "Makes welcome cost service",
+            "Hides needs until resentful",
+            "Tallies unasked sacrifice",
+            "Calls rest selfish",
+            "Erases herself as host"
+          ],
           "oppositeShadowSlug": "closed-hearth",
           "bodySections": [
             {
@@ -2444,7 +2532,7 @@
             "activeShadow": "Martyr Host",
             "passiveShadow": "Closed Hearth",
             "mythicResonances": "Miss Havisham (nineteenth-century English literary tradition)",
-            "keyQualities": "Makes belonging conditional on tidiness, Withholds ordinary welcome, Uses the home to avoid relationship, Treats every request as intrusion, Controls access through silence, Freezes the place around old injury"
+            "keyQualities": "Calls people intrusions, Makes welcome conditional, Keeps sanctuary unusable, Uses home to avoid contact, Withholds basic comfort, Turns privacy into exclusion"
           },
           "quotes": {
             "opening": "“The Soul selects her own Society –\nThen – shuts the Door –\nTo her divine Majority –\nPresent no more –”\n\n—Emily Dickinson, “The Soul selects her own Society –,” Franklin 409 / Johnson 303, first stanza",
@@ -2466,6 +2554,14 @@
           "sourceFile": "mother/shadows/closed-hearth.md",
           "parent": "host",
           "type": "passive",
+          "keyQualities": [
+            "Calls people intrusions",
+            "Makes welcome conditional",
+            "Keeps sanctuary unusable",
+            "Uses home to avoid contact",
+            "Withholds basic comfort",
+            "Turns privacy into exclusion"
+          ],
           "oppositeShadowSlug": "martyr-host",
           "bodySections": [
             {

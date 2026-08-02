@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/guardian-buffalo-woman/shadows/naive-pushover/
 legacyAnchors: naive-pushover
 image: assets/images/shadow/unmatched--boundaryless-protector.jpg
-keyQualities: Ignores repeated breaches|Delegates safety to hope|Confuses access with inclusion|Avoids necessary exclusion|Makes vulnerable people absorb risk|Has no response plan
+keyQualities: Ignores repeated breaches|Calls sincerity safe|Restores trust unchanged|Calls access inclusion|Makes others carry risk|Keeps no response plan
 quoteIds: quote-open-gate-opening-johnson-integrity-knowledge|quote-open-gate-closing-aesop-try-trust
 mythicResonances: The Shepherd (Aesopic literary-fable tradition)
 mythicSourceIds: myth-open-gate-shepherd-wolf-aesop
@@ -38,7 +38,7 @@ Passive Shadow
 - Active shadow: Controlling Sentinel
 - Passive shadow: Open Gate
 - Mythic resonances: The Shepherd (Aesopic literary-fable tradition)
-- Key qualities: Ignores repeated breaches, Delegates safety to hope, Confuses access with inclusion, Avoids necessary exclusion, Makes vulnerable people absorb risk, Has no response plan
+- Key qualities: Ignores repeated breaches, Calls sincerity safe, Restores trust unchanged, Calls access inclusion, Makes others carry risk, Keeps no response plan
 
 ## When Trust Leaves the Threshold Unkept
 

@@ -11,6 +11,7 @@ aliases:
 legacyRoutes:
 legacyAnchors: merciless-judge
 image: assets/images/shadow/justice--harsh-judge.jpg
+keyQualities: Fixes identity to one act|Calls context an excuse|Punishes past protection|Turns exposure into theater|Uses blame to prove rigor|Closes paths to repair
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Merciless Judge
 - Passive shadow: Permissive Witness
 - Mythic resonances:
-- Key qualities: Globalizes a single failure, Punishes beyond protection, Uses exposure as moral theater
+- Key qualities: Fixes identity to one act, Calls context an excuse, Punishes past protection, Turns exposure into theater, Uses blame to prove rigor, Closes paths to repair
 
 ## Balance Breakdown
 

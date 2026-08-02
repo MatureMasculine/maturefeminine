@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/storyteller/shadows/silent-keeper/
 legacyAnchors: silent-keeper
 image: assets/images/shadow/storyteller--silent-keeper.jpg
+keyQualities: Demands total certainty|Calls selection betrayal|Archives, never transmits|Lets privacy forbid telling|Keeps context too long|Lets memory vanish unused
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Exaggerating Dramatist
 - Passive shadow: Silent Keeper
 - Mythic resonances:
-- Key qualities: Requires exhaustive certainty before telling, Treats every finite selection as betrayal, Archives entrusted experience without transmission, Confuses privacy with a ban on responsible redaction, Preserves so much context that meaning cannot travel, Calls silence Fidelity despite the loss of memory
+- Key qualities: Demands total certainty, Calls selection betrayal, Archives, never transmits, Lets privacy forbid telling, Keeps context too long, Lets memory vanish unused
 
 ## Balance Breakdown
 

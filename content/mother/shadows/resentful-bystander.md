@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/peacemaker-peace-bringer/shadows/righteous-judge/
 legacyAnchors: righteous-judge
 image: assets/images/shadow/peacemaker-peace-bringer--passive-enabler.jpg
-keyQualities: Withholds grievances|Punishes through distance|Waits for mind-reading|Collects private evidence|Rehearses imagined trials|Treats repair as surrender
+keyQualities: Keeps private grievance logs|Expects mind-reading|Uses distance to punish|Rehearses imagined trials|Lets silence mimic peace|Makes repair feel surrender
 quoteIds: quote-resentful-bystander-opening-eliot-reticence|quote-resentful-bystander-closing-bronte-animosity
 mythicResonances: Edward Casaubon (nineteenth-century English literary tradition)
 mythicSourceIds: myth-resentful-bystander-edward-casaubon-middlemarch-37-50
@@ -38,7 +38,7 @@ Passive Shadow
 - Active shadow: Peace Enforcer
 - Passive shadow: Resentful Bystander
 - Mythic resonances: Edward Casaubon (nineteenth-century English literary tradition)
-- Key qualities: Withholds grievances, Punishes through distance, Waits for mind-reading, Collects private evidence, Rehearses imagined trials, Treats repair as surrender
+- Key qualities: Keeps private grievance logs, Expects mind-reading, Uses distance to punish, Rehearses imagined trials, Lets silence mimic peace, Makes repair feel surrender
 
 ## When Reconciliation Leaves the Room
 

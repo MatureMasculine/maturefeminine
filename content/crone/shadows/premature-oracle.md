@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /crone/elder-visionary-oracle-moon/shadows/cryptic-oracle/
 legacyAnchors: cryptic-oracle
 image: assets/images/shadow/elder-visionary-oracle-moon--dogmatic-prophet.jpg
+keyQualities: Speaks before trust|Predicts, does not receive|Overloads present choices|Calls unreadiness resistance|Mystifies her authority|Makes vision create urgency
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Premature Oracle
 - Passive shadow: Withholding Seer
 - Mythic resonances:
-- Key qualities: Predicts instead of listening, Overloads people with distant implications, Uses mystery to claim authority
+- Key qualities: Speaks before trust, Predicts, does not receive, Overloads present choices, Calls unreadiness resistance, Mystifies her authority, Makes vision create urgency
 
 ## Balance Breakdown
 

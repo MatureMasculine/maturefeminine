@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/warrior-warrioress-huntress/shadows/destructive-berserker/
 legacyAnchors: destructive-berserker
 image: assets/images/shadow/warrior-warrioress-huntress--aggressive-bully.jpg
-keyQualities: Escalates after the threat ends|Dehumanizes opponents|Treats intensity as moral proof|Broadens the target|Rejects surrender or repair|Makes conflict an identity
+keyQualities: Broadens the target|Calls criticism betrayal|Makes escalation self-proof|Moves the stopping condition|Punishes after safety|Dehumanizes to mute cost
 quoteIds: quote-rampaging-warrior-opening-bronte-no-pity|quote-rampaging-warrior-closing-austen-angry-wise
 mythicResonances: Achilles (archaic Greek epic literary tradition)
 mythicSourceIds: myth-rampaging-warrior-achilles-iliad-22-24
@@ -38,7 +38,7 @@ Active Shadow
 - Active shadow: Rampaging Warrior
 - Passive shadow: Disarmed Warrior
 - Mythic resonances: Achilles (archaic Greek epic literary tradition)
-- Key qualities: Escalates after the threat ends, Dehumanizes opponents, Treats intensity as moral proof, Broadens the target, Rejects surrender or repair, Makes conflict an identity
+- Key qualities: Broadens the target, Calls criticism betrayal, Makes escalation self-proof, Moves the stopping condition, Punishes after safety, Dehumanizes to mute cost
 
 ## When Ferocity Forgets Its Purpose
 

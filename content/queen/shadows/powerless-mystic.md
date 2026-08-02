@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/magician-alchemist-witch-scribe/shadows/powerless-mystic/
 legacyAnchors: powerless-mystic
 image: assets/images/shadow/magician-alchemist-witch-scribe--powerless-mystic.jpg
+keyQualities: Requires certainty to act|Calls limited scope none|Reviews without deciding|Demands zero-risk action|Uses risk as excuse|Calls withdrawal integrity
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Manipulative Sorceress
 - Passive shadow: Powerless Mystic
 - Mythic resonances:
-- Key qualities: Requires certainty before a bounded intervention, Treats limited jurisdiction as no jurisdiction, Expands ethical review without a decision point, Uses possible harm to excuse ongoing inaction, Calls nonintervention principled despite consequences, Transfers responsibility while continuing to object
+- Key qualities: Requires certainty to act, Calls limited scope none, Reviews without deciding, Demands zero-risk action, Uses risk as excuse, Calls withdrawal integrity
 
 ## Balance Breakdown
 

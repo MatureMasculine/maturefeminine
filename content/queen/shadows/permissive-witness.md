@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/justice/shadows/enabler-saint/
 legacyAnchors: enabler-saint
 image: assets/images/shadow/justice--passive-bystander.jpg
+keyQualities: Explains harm away|Centers intent over impact|Shields actors from results|Forgives unchanged conduct|Values ties over safety|Lets mercy erase the harmed
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Merciless Judge
 - Passive shadow: Permissive Witness
 - Mythic resonances:
-- Key qualities: Excuses repeated harm, Centers intent over impact, Offers forgiveness without change
+- Key qualities: Explains harm away, Centers intent over impact, Shields actors from results, Forgives unchanged conduct, Values ties over safety, Lets mercy erase the harmed
 
 ## Balance Breakdown
 

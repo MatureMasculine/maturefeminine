@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/sky-sun-star-goddess/shadows/hidden-star/
 legacyAnchors: hidden-star
 image: assets/images/shadow/sky-sun-star-goddess--disconnected-deity.jpg
+keyQualities: Hides visible expertise|Declines earned notice|Calls visibility vanity|Yields to weaker voices|Shrinks impact to avoid envy|Uses humility to disappear
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Blinding Star
 - Passive shadow: Hidden Light
 - Mythic resonances:
-- Key qualities: Declines appropriate recognition, Hides expertise, Apologizes for impact
+- Key qualities: Hides visible expertise, Declines earned notice, Calls visibility vanity, Yields to weaker voices, Shrinks impact to avoid envy, Uses humility to disappear
 
 ## Balance Breakdown
 

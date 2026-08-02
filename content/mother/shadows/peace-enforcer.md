@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/peacemaker-peace-bringer/shadows/conflict-avoider/
 legacyAnchors: conflict-avoider
 image: assets/images/shadow/peacemaker-peace-bringer--conflict-avoider.jpg
-keyQualities: Rushes forgiveness|Neutralizes legitimate anger|Equates calm with safety|Balances unequal harm|Protects appearances|Rewards quick compliance
+keyQualities: Mutes truth with calm|Dilutes unequal harm|Puts intent over impact|Makes anger the new offense|Rushes reunion|Protects insiders from costs
 quoteIds: quote-peace-enforcer-opening-ibsen-hushed|quote-peace-enforcer-closing-wells-know-act
 mythicResonances: Torvald Helmer (nineteenth-century Norwegian modern drama in English translation)
 mythicSourceIds: myth-peace-enforcer-torvald-helmer-dolls-house-3
@@ -38,7 +38,7 @@ Active Shadow
 - Active shadow: Peace Enforcer
 - Passive shadow: Resentful Bystander
 - Mythic resonances: Torvald Helmer (nineteenth-century Norwegian modern drama in English translation)
-- Key qualities: Rushes forgiveness, Neutralizes legitimate anger, Equates calm with safety, Balances unequal harm, Protects appearances, Rewards quick compliance
+- Key qualities: Mutes truth with calm, Dilutes unequal harm, Puts intent over impact, Makes anger the new offense, Rushes reunion, Protects insiders from costs
 
 ## When Reconciliation Silences the Conflict
 

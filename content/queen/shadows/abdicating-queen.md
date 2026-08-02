@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/queen-hearth-keeper/shadows/abdicated-ruler/
 legacyAnchors: abdicated-ruler
 image: assets/images/shadow/queen-hearth-keeper--powerless-ruler.jpg
+keyQualities: Delays role-bound decisions|Accommodates without end|Uses consensus as cover|Apologizes for authority|Lets informal power rule|Puts herself last by reflex
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Tyrannical Queen
 - Passive shadow: Abdicating Queen
 - Mythic resonances:
-- Key qualities: Defers necessary decisions, Lets informal power dominate, Apologizes for role authority
+- Key qualities: Delays role-bound decisions, Accommodates without end, Uses consensus as cover, Apologizes for authority, Lets informal power rule, Puts herself last by reflex
 
 ## Balance Breakdown
 

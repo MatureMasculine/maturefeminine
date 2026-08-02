@@ -115,6 +115,7 @@ function shadow(type, overrides = {}) {
       : "/maiden/adventurer-storm-tempest/shadows/paralyzed-dreamer/",
     legacyAnchors: active ? "reckless-storm" : "paralyzed-dreamer",
     image: active ? "assets/images/shadow/reckless.jpg" : "assets/images/shadow/sheltered.jpg",
+    keyQualities: "Controlling|Hypervigilant|Intrusive|Distrustful|Preemptive",
     quoteIds: active ? "quote-active-open|quote-active-close" : "quote-passive-open|quote-passive-close",
     mythicResonances: active ? "Phaethon (Greek)" : "Sleeping Beauty (literary)",
     mythicSourceIds: active ? "myth-active-1" : "myth-passive-1",
@@ -142,7 +143,7 @@ Opening quotation text.
 - Active shadow: Reckless Wanderer
 - Passive shadow: Sheltered Dreamer
 - Mythic resonances: ${active ? "Phaethon (Greek)" : "Sleeping Beauty (literary)"}
-- Key qualities: The pattern appears in choices, work, and relationship.
+- Key qualities: Controlling, Hypervigilant, Intrusive, Distrustful, Preemptive
 
 ## Balance Breakdown
 
@@ -301,6 +302,8 @@ test("parseShadowFile preserves explicit parent, type, opposite shadow, and stru
   assert.equal(active.parent, "adventurer");
   assert.equal(active.type, "active");
   assert.equal(active.oppositeShadowSlug, "sheltered-dreamer");
+  assert.deepEqual(active.keyQualities, ["Controlling", "Hypervigilant", "Intrusive", "Distrustful", "Preemptive"]);
+  assert.equal(active.profile.keyQualities, active.keyQualities.join(", "));
   assert.equal(active.sections.practices[0], "Restore Prudence through one concrete act.");
   assert.equal(passive.parent, "adventurer");
   assert.equal(passive.type, "passive");
@@ -436,6 +439,33 @@ test("publish validation rejects pending research", () => {
 
   book.entries[0].research.status = "pending";
   assert.throws(() => validateBook(book, { publish: true }), /pending research/i);
+});
+
+test("publish validation requires five to eight shadow key qualities", () => {
+  const book = loadBook(fixture());
+  const shadowEntry = book.entries.find((entry) => entry.kind === "shadow");
+  shadowEntry.keyQualities = ["Controlling", "Hypervigilant", "Intrusive", "Distrustful"];
+  shadowEntry.profile.keyQualities = shadowEntry.keyQualities.join(", ");
+
+  assert.throws(() => validateBook(book, { publish: true }), /shadow key qualities must contain 5–8 items/i);
+});
+
+test("publish validation limits each shadow key-quality phrase to 28 characters", () => {
+  const book = loadBook(fixture());
+  const shadowEntry = book.entries.find((entry) => entry.kind === "shadow");
+  shadowEntry.keyQualities = ["A".repeat(29), "Hypervigilant", "Intrusive", "Distrustful", "Preemptive"];
+  shadowEntry.profile.keyQualities = shadowEntry.keyQualities.join(", ");
+
+  assert.throws(() => validateBook(book, { publish: true }), /shadow key quality must be at most 28 characters/i);
+});
+
+test("publish validation limits joined shadow key qualities to 160 characters", () => {
+  const book = loadBook(fixture());
+  const shadowEntry = book.entries.find((entry) => entry.kind === "shadow");
+  shadowEntry.keyQualities = ["A".repeat(28), "B".repeat(28), "C".repeat(28), "D".repeat(28), "E".repeat(28), "F".repeat(11)];
+  shadowEntry.profile.keyQualities = shadowEntry.keyQualities.join(", ");
+
+  assert.throws(() => validateBook(book, { publish: true }), /shadow key qualities must be at most 160 characters joined/i);
 });
 
 test("publish validation independently rejects a quotation ID count other than two", () => {
@@ -652,12 +682,12 @@ test("calibrated Lover trio practices use shared we/our invitations", () => {
   }
 });
 
-test("structural validation rejects shadow profile key qualities that drift from Recognition", () => {
+test("structural validation rejects shadow profile key qualities that drift from canonical metadata", () => {
   const book = loadBook(contentDir);
   const shadowEntry = book.entries.find((entry) => entry.slug === "reckless-wanderer");
   shadowEntry.profile.keyQualities = "Copied generic traits";
 
-  assert.throws(() => validateBook(book), /profile key qualities drift from Recognition/i);
+  assert.throws(() => validateBook(book), /profile key qualities drift/i);
 });
 
 test("structural validation rejects duplicate lifecycle groups", () => {

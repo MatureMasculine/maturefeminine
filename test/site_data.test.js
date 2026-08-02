@@ -277,7 +277,7 @@ test("search emits one unique canonical record per lifecycle and entry", () => {
       parent: "Adventurer",
       parentSlug: "adventurer",
       balanceQualities: ["Daring", "Prudence"],
-      keyQualities: "Creates preventable emergencies and treats recovery as triumph, Breaks agreements when a more vivid option appears, Commits shared money, labor, time, or exposure without consent, Confuses bodily activation with evidence that a choice is right, Changes jobs, projects, places, or partners to outrun an unresolved consequence, Expects companions to supply the margin she refused to build",
+      keyQualities: "Motion warrants itself, Urgency becomes a promise, Spends without consent, Breaks promises for novelty, Plans after fallout, Transfers risk to others",
       href: "/maiden/adventurer/shadows/reckless-wanderer/",
     },
   );

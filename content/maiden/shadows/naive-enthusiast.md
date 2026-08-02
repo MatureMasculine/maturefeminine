@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /maiden/maiden/shadows/manipulative-maiden/
 legacyAnchors: manipulative-maiden
 image: assets/images/shadow/maiden--manipulative-maiden.jpg
+keyQualities: Trusts first impressions|Agrees before clear terms|Invents unproven virtues|Calls resonance evidence|Dismisses sober warnings|Recruits others too soon
 quoteIds: quote-naive-enthusiast-opening-austen-emma-evils|quote-naive-enthusiast-closing-wollstonecraft-unstable-mind
 mythicResonances: Pinocchio (Italian literary fairy-tale tradition)
 mythicSourceIds: myth-naive-enthusiast-pinocchio-collodi-field-miracles
@@ -37,7 +38,7 @@ Active Shadow
 - Active shadow: Naive Enthusiast
 - Passive shadow: Frozen Beginner
 - Mythic resonances: Pinocchio (Italian literary fairy-tale tradition)
-- Key qualities: Commits before reading the terms or understanding the role, Treats excitement, synchronicity, or familiarity as proof, Grants trust before observing how someone handles limits, Idealizes unfamiliar people, groups, methods, or places, Minimizes warnings because they interrupt a desired story, Leaves preventable financial, relational, or practical consequences to others
+- Key qualities: Trusts first impressions, Agrees before clear terms, Invents unproven virtues, Calls resonance evidence, Dismisses sober warnings, Recruits others too soon
 
 ## When Delight Makes the Decision
 

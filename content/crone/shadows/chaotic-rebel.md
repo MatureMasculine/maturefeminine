@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /crone/rebel-revolutionary-trickster/shadows/chaotic-destroyer/
 legacyAnchors: chaotic-destroyer
 image: assets/images/shadow/rebel-revolutionary-trickster--chaotic-destroyer.jpg
+keyQualities: Opposes limits by reflex|Purges imperfect allies|Escalates without strategy|Makes disruption the goal|Exports rupture's costs|Destroys without rebuilding
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Chaotic Rebel
 - Passive shadow: Compliant Critic
 - Mythic resonances:
-- Key qualities: Breaks alliances for purity, Escalates without strategy, Leaves others to absorb fallout
+- Key qualities: Opposes limits by reflex, Purges imperfect allies, Escalates without strategy, Makes disruption the goal, Exports rupture's costs, Destroys without rebuilding
 
 ## Balance Breakdown
 

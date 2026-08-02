@@ -147,7 +147,7 @@
             "activeShadow": "Scorched-Earth Crone",
             "passiveShadow": "Relic Keeper",
             "mythicResonances": "",
-            "keyQualities": "Uses total severance as first response, Rewrites the past as worthless, Destroys supports needed for transition"
+            "keyQualities": "Chooses severance first, Erases a mixed past, Destroys needed supports, Calls reflection weakness, Ends bonds to avoid grief, Leaves nothing to compost"
           },
           "quotes": {
             "opening": "",
@@ -162,6 +162,14 @@
           "sourceFile": "crone/shadows/scorched-earth-crone.md",
           "parent": "crone",
           "type": "active",
+          "keyQualities": [
+            "Chooses severance first",
+            "Erases a mixed past",
+            "Destroys needed supports",
+            "Calls reflection weakness",
+            "Ends bonds to avoid grief",
+            "Leaves nothing to compost"
+          ],
           "oppositeShadowSlug": "relic-keeper",
           "bodySections": [
             {
@@ -265,7 +273,7 @@
             "activeShadow": "Scorched-Earth Crone",
             "passiveShadow": "Relic Keeper",
             "mythicResonances": "",
-            "keyQualities": "Keeps expired commitments, Organizes identity around loss, Resists new life as betrayal"
+            "keyQualities": "Keeps roles past use, Calls release erasure, Builds identity around loss, Keeps duties past use, Calls new bonds betrayal, Freezes the past in place"
           },
           "quotes": {
             "opening": "",
@@ -280,6 +288,14 @@
           "sourceFile": "crone/shadows/relic-keeper.md",
           "parent": "crone",
           "type": "passive",
+          "keyQualities": [
+            "Keeps roles past use",
+            "Calls release erasure",
+            "Builds identity around loss",
+            "Keeps duties past use",
+            "Calls new bonds betrayal",
+            "Freezes the past in place"
+          ],
           "oppositeShadowSlug": "scorched-earth-crone",
           "bodySections": [
             {
@@ -502,7 +518,7 @@
             "activeShadow": "Martyred Healer",
             "passiveShadow": "Cynical Healer",
             "mythicResonances": "",
-            "keyQualities": "Cannot conclude care, Makes outcomes personal, Sacrifices health to preserve a healer identity"
+            "keyQualities": "Answers every pain, Stays beyond useful witness, Makes love endless duty, Claims others' outcomes, Refuses limits and endings, Spends health to keep watch"
           },
           "quotes": {
             "opening": "",
@@ -517,6 +533,14 @@
           "sourceFile": "crone/shadows/martyred-healer.md",
           "parent": "witness",
           "type": "active",
+          "keyQualities": [
+            "Answers every pain",
+            "Stays beyond useful witness",
+            "Makes love endless duty",
+            "Claims others' outcomes",
+            "Refuses limits and endings",
+            "Spends health to keep watch"
+          ],
           "oppositeShadowSlug": "cynical-healer",
           "bodySections": [
             {
@@ -620,7 +644,7 @@
             "activeShadow": "Martyred Healer",
             "passiveShadow": "Cynical Healer",
             "mythicResonances": "",
-            "keyQualities": "Reduces people to diagnoses, Withholds warmth as realism, Uses experience to foreclose possibility"
+            "keyQualities": "Predicts failure at arrival, Turns patterns into verdicts, Uses realism as armor, Listens only for futility, Withholds care without cure, Calls numbness wisdom"
           },
           "quotes": {
             "opening": "",
@@ -635,6 +659,14 @@
           "sourceFile": "crone/shadows/cynical-healer.md",
           "parent": "witness",
           "type": "passive",
+          "keyQualities": [
+            "Predicts failure at arrival",
+            "Turns patterns into verdicts",
+            "Uses realism as armor",
+            "Listens only for futility",
+            "Withholds care without cure",
+            "Calls numbness wisdom"
+          ],
           "oppositeShadowSlug": "martyred-healer",
           "bodySections": [
             {
@@ -857,7 +889,7 @@
             "activeShadow": "Premature Oracle",
             "passiveShadow": "Withholding Seer",
             "mythicResonances": "",
-            "keyQualities": "Predicts instead of listening, Overloads people with distant implications, Uses mystery to claim authority"
+            "keyQualities": "Speaks before trust, Predicts, does not receive, Overloads present choices, Calls unreadiness resistance, Mystifies her authority, Makes vision create urgency"
           },
           "quotes": {
             "opening": "",
@@ -872,6 +904,14 @@
           "sourceFile": "crone/shadows/premature-oracle.md",
           "parent": "seer",
           "type": "active",
+          "keyQualities": [
+            "Speaks before trust",
+            "Predicts, does not receive",
+            "Overloads present choices",
+            "Calls unreadiness resistance",
+            "Mystifies her authority",
+            "Makes vision create urgency"
+          ],
           "oppositeShadowSlug": "withholding-seer",
           "bodySections": [
             {
@@ -975,7 +1015,7 @@
             "activeShadow": "Premature Oracle",
             "passiveShadow": "Withholding Seer",
             "mythicResonances": "",
-            "keyQualities": "Speaks only after outcomes are obvious, Hides clarity behind riddles, Confuses noninterference with wisdom"
+            "keyQualities": "Delays clear speech, Waits until all can see it, Hides guidance in riddles, Calls silence wisdom, Avoids early exposure, Misses the useful moment"
           },
           "quotes": {
             "opening": "",
@@ -990,6 +1030,14 @@
           "sourceFile": "crone/shadows/withholding-seer.md",
           "parent": "seer",
           "type": "passive",
+          "keyQualities": [
+            "Delays clear speech",
+            "Waits until all can see it",
+            "Hides guidance in riddles",
+            "Calls silence wisdom",
+            "Avoids early exposure",
+            "Misses the useful moment"
+          ],
           "oppositeShadowSlug": "premature-oracle",
           "bodySections": [
             {
@@ -1211,7 +1259,7 @@
             "activeShadow": "Chaotic Rebel",
             "passiveShadow": "Compliant Critic",
             "mythicResonances": "",
-            "keyQualities": "Breaks alliances for purity, Escalates without strategy, Leaves others to absorb fallout"
+            "keyQualities": "Opposes limits by reflex, Purges imperfect allies, Escalates without strategy, Makes disruption the goal, Exports rupture's costs, Destroys without rebuilding"
           },
           "quotes": {
             "opening": "",
@@ -1226,6 +1274,14 @@
           "sourceFile": "crone/shadows/chaotic-rebel.md",
           "parent": "rebel",
           "type": "active",
+          "keyQualities": [
+            "Opposes limits by reflex",
+            "Purges imperfect allies",
+            "Escalates without strategy",
+            "Makes disruption the goal",
+            "Exports rupture's costs",
+            "Destroys without rebuilding"
+          ],
           "oppositeShadowSlug": "compliant-critic",
           "bodySections": [
             {
@@ -1329,7 +1385,7 @@
             "activeShadow": "Chaotic Rebel",
             "passiveShadow": "Compliant Critic",
             "mythicResonances": "",
-            "keyQualities": "Complains without organizing, Waits for moral certainty, Complies publicly and rebels privately"
+            "keyQualities": "Dissents only in safety, Obeys publicly, rebels alone, Waits for spotless action, Analyzes, never acts, Lets power define choices, Uses critique to stay pure"
           },
           "quotes": {
             "opening": "",
@@ -1344,6 +1400,14 @@
           "sourceFile": "crone/shadows/compliant-critic.md",
           "parent": "rebel",
           "type": "passive",
+          "keyQualities": [
+            "Dissents only in safety",
+            "Obeys publicly, rebels alone",
+            "Waits for spotless action",
+            "Analyzes, never acts",
+            "Lets power define choices",
+            "Uses critique to stay pure"
+          ],
           "oppositeShadowSlug": "chaotic-rebel",
           "bodySections": [
             {
@@ -1568,7 +1632,7 @@
             "activeShadow": "Arrogant Know-It-All",
             "passiveShadow": "Withholding Sage",
             "mythicResonances": "",
-            "keyQualities": "Oversteps boundaries; decides for others, Mistakes speed for effectiveness, Performs care or genius to avoid vulnerability, Micromanages; cannot rest, Seeks admiration or control over connection, Ignores feedback, doubles down under stress"
+            "keyQualities": "Declares conclusions final, Answers before inquiry, Treats dissent as ignorance, Advises beyond her scope, Uses speed to guard status, Doubles down on error"
           },
           "quotes": {
             "opening": "",
@@ -1583,6 +1647,14 @@
           "sourceFile": "crone/shadows/arrogant-know-it-all.md",
           "parent": "sage",
           "type": "active",
+          "keyQualities": [
+            "Declares conclusions final",
+            "Answers before inquiry",
+            "Treats dissent as ignorance",
+            "Advises beyond her scope",
+            "Uses speed to guard status",
+            "Doubles down on error"
+          ],
           "oppositeShadowSlug": "withholding-sage",
           "bodySections": [
             {
@@ -1694,7 +1766,7 @@
             "activeShadow": "Arrogant Know-It-All",
             "passiveShadow": "Withholding Sage",
             "mythicResonances": "",
-            "keyQualities": "Defers decisions; waits for perfect certainty, Disengages from body and relationships, People-pleases to avoid conflict, Lets others set terms then resents them, Creativity stalled by perfectionism and fear, Self-doubt presented as humility"
+            "keyQualities": "Waits for impossible proof, Turns inquiry into delay, Defers to loud authority, Qualifies counsel away, Resents choices she ceded, Calls self-erasure humility"
           },
           "quotes": {
             "opening": "",
@@ -1709,6 +1781,14 @@
           "sourceFile": "crone/shadows/withholding-sage.md",
           "parent": "sage",
           "type": "passive",
+          "keyQualities": [
+            "Waits for impossible proof",
+            "Turns inquiry into delay",
+            "Defers to loud authority",
+            "Qualifies counsel away",
+            "Resents choices she ceded",
+            "Calls self-erasure humility"
+          ],
           "oppositeShadowSlug": "arrogant-know-it-all",
           "bodySections": [
             {
@@ -1939,7 +2019,7 @@
             "activeShadow": "Exaggerating Dramatist",
             "passiveShadow": "Silent Keeper",
             "mythicResonances": "",
-            "keyQualities": "Adds connective detail that was not remembered, Turns inference into stated fact, Removes uncertainty to strengthen the arc, Centers the narrator in another person's account, Shares entrusted material without sufficient consent, Protects a compelling version from correction"
+            "keyQualities": "Invents in memory gaps, Reports inference as fact, Erases doubt for drama, Recenters entrusted stories, Shares without consent, Chooses effect over accuracy"
           },
           "quotes": {
             "opening": "",
@@ -1954,6 +2034,14 @@
           "sourceFile": "crone/shadows/exaggerating-dramatist.md",
           "parent": "storyteller",
           "type": "active",
+          "keyQualities": [
+            "Invents in memory gaps",
+            "Reports inference as fact",
+            "Erases doubt for drama",
+            "Recenters entrusted stories",
+            "Shares without consent",
+            "Chooses effect over accuracy"
+          ],
           "oppositeShadowSlug": "silent-keeper",
           "bodySections": [
             {
@@ -2065,7 +2153,7 @@
             "activeShadow": "Exaggerating Dramatist",
             "passiveShadow": "Silent Keeper",
             "mythicResonances": "",
-            "keyQualities": "Requires exhaustive certainty before telling, Treats every finite selection as betrayal, Archives entrusted experience without transmission, Confuses privacy with a ban on responsible redaction, Preserves so much context that meaning cannot travel, Calls silence Fidelity despite the loss of memory"
+            "keyQualities": "Demands total certainty, Calls selection betrayal, Archives, never transmits, Lets privacy forbid telling, Keeps context too long, Lets memory vanish unused"
           },
           "quotes": {
             "opening": "",
@@ -2080,6 +2168,14 @@
           "sourceFile": "crone/shadows/silent-keeper.md",
           "parent": "storyteller",
           "type": "passive",
+          "keyQualities": [
+            "Demands total certainty",
+            "Calls selection betrayal",
+            "Archives, never transmits",
+            "Lets privacy forbid telling",
+            "Keeps context too long",
+            "Lets memory vanish unused"
+          ],
           "oppositeShadowSlug": "exaggerating-dramatist",
           "bodySections": [
             {

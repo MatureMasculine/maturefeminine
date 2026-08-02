@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /maiden/young-visionary-oracle/shadows/fanatic-prophet/
 legacyAnchors: fanatic-prophet
 image: assets/images/shadow/young-visionary-oracle--fanatic-prophet.jpg
+keyQualities: Makes impressions facts|Treats intensity as proof|Confuses sight with meaning|Makes dissent confirm it|Claims others' motives|Keeps claims unfalsifiable
 quoteIds: quote-inflated-oracle-opening-shelley-life-death-bounds|quote-inflated-oracle-closing-eliot-outside-determines
 mythicResonances: Macbeth (English literary tradition)
 mythicSourceIds: myth-inflated-oracle-macbeth-shakespeare-equivocation
@@ -37,7 +38,7 @@ Active Shadow
 - Active shadow: Inflated Oracle
 - Passive shadow: Self-Doubting Seer
 - Mythic resonances: Macbeth (English literary tradition)
-- Key qualities: Speaks uncertain futures, diagnoses, or motives as settled facts, Treats coincidence, intensity, or repetition as sufficient confirmation, Claims privileged access that places her interpretation above another person's account, Reframes disagreement as fear, blindness, disloyalty, or spiritual failure, Makes predictions vague enough that every result can confirm them, Pressures others to risk money, health, work, or relationship on private certainty
+- Key qualities: Makes impressions facts, Treats intensity as proof, Confuses sight with meaning, Makes dissent confirm it, Claims others' motives, Keeps claims unfalsifiable
 
 ## When an Impression Claims Authority
 

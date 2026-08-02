@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /lover-creatrix/young-healer-priestess/shadows/wounded-healer/
 legacyAnchors: wounded-healer
 image: assets/images/shadow/young-healer-priestess--burned-out-healer.jpg
-keyQualities: Uses policy to avoid contact|Withdraws at visible need|Anticipates engulfment|Intellectualizes distress|Refuses finite care|Confuses non-rescue with non-care
+keyQualities: Expects an invoice in need|Uses rules to avoid contact|Analyzes instead of caring|Fears finite care|Generalizes one danger|Calls non-rescue non-care
 quoteIds: quote-guarded-healer-opening-wilde-selfish-garden|quote-guarded-healer-closing-addams-common-life
 mythicResonances: Silas Marner (nineteenth-century English literary tradition)
 mythicSourceIds: myth-guarded-healer-silas-marner-eliot
@@ -38,7 +38,7 @@ Passive Shadow
 - Active shadow: Rescuing Healer
 - Passive shadow: Guarded Healer
 - Mythic resonances: Silas Marner (nineteenth-century English literary tradition)
-- Key qualities: Uses policy to avoid contact, Withdraws at visible need, Anticipates engulfment, Intellectualizes distress, Refuses finite care, Confuses non-rescue with non-care
+- Key qualities: Expects an invoice in need, Uses rules to avoid contact, Analyzes instead of caring, Fears finite care, Generalizes one danger, Calls non-rescue non-care
 
 ## When the Boundary Becomes a Wall
 

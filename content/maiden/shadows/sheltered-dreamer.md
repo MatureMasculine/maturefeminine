@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /maiden/adventurer-storm-tempest/shadows/paralyzed-dreamer/
 legacyAnchors: paralyzed-dreamer
 image: assets/images/shadow/adventurer-storm-tempest--paralyzed-dreamer.jpg
+keyQualities: Endless safety research|Demands certainty to begin|Magnifies remote dangers|Borrows courage from others|Waits to feel fully ready|Calls avoidance prudence
 quoteIds: quote-sheltered-dreamer-opening-austen-emma-worse-air|quote-sheltered-dreamer-closing-dickinson-called-rise
 mythicResonances: The Cowardly Lion (American literary fairy-tale tradition)
 mythicSourceIds: myth-sheltered-dreamer-cowardly-lion-baum-wizard-oz
@@ -37,7 +38,7 @@ Passive Shadow
 - Active shadow: Reckless Wanderer
 - Passive shadow: Sheltered Dreamer
 - Mythic resonances: The Cowardly Lion (American literary fairy-tale tradition)
-- Key qualities: Plans, trains, or researches without setting a departure, Inflates rare dangers while ignoring the cost of continued confinement, Waits for confidence that only participation could build, Consumes stories of other people's courage instead of testing her own range, Calls avoidance responsibility after the practical requirements have been met, Lets an imagined worst case outweigh available, direct evidence
+- Key qualities: Endless safety research, Demands certainty to begin, Magnifies remote dangers, Borrows courage from others, Waits to feel fully ready, Calls avoidance prudence
 
 ## When Preparation Becomes a Refuge
 

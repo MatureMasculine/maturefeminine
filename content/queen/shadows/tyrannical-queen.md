@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/queen-hearth-keeper/shadows/tyrannical-empress/
 legacyAnchors: tyrannical-empress
 image: assets/images/shadow/queen-hearth-keeper--tyrannical-queen.jpg
+keyQualities: Centralizes decisions|Calls dissent disloyal|Rewards proximity over truth|Makes herself essential|Calls obedience alignment|Uses order to serve ego
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Tyrannical Queen
 - Passive shadow: Abdicating Queen
 - Mythic resonances:
-- Key qualities: Hoards decisions, Rewards personal loyalty, Confuses obedience with alignment
+- Key qualities: Centralizes decisions, Calls dissent disloyal, Rewards proximity over truth, Makes herself essential, Calls obedience alignment, Uses order to serve ego
 
 ## Balance Breakdown
 

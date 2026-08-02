@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /crone/crone-underworld-queen/shadows/eternal-mourner/
 legacyAnchors: eternal-mourner
 image: assets/images/shadow/crone-underworld-queen--eternal-mourner.jpg
+keyQualities: Keeps roles past use|Calls release erasure|Builds identity around loss|Keeps duties past use|Calls new bonds betrayal|Freezes the past in place
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Scorched-Earth Crone
 - Passive shadow: Relic Keeper
 - Mythic resonances:
-- Key qualities: Keeps expired commitments, Organizes identity around loss, Resists new life as betrayal
+- Key qualities: Keeps roles past use, Calls release erasure, Builds identity around loss, Keeps duties past use, Calls new bonds betrayal, Freezes the past in place
 
 ## Balance Breakdown
 

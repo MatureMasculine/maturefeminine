@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /crone/elder-visionary-oracle-moon/shadows/disconnected-hermit/
 legacyAnchors: disconnected-hermit
 image: assets/images/shadow/elder-visionary-oracle-moon--escapist-dreamer.jpg
+keyQualities: Delays clear speech|Waits until all can see it|Hides guidance in riddles|Calls silence wisdom|Avoids early exposure|Misses the useful moment
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Premature Oracle
 - Passive shadow: Withholding Seer
 - Mythic resonances:
-- Key qualities: Speaks only after outcomes are obvious, Hides clarity behind riddles, Confuses noninterference with wisdom
+- Key qualities: Delays clear speech, Waits until all can see it, Hides guidance in riddles, Calls silence wisdom, Avoids early exposure, Misses the useful moment
 
 ## Balance Breakdown
 

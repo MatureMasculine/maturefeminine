@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/weaver-community-goddess/shadows/isolated-helper/
 legacyAnchors: isolated-helper
 image: assets/images/shadow/weaver-community-goddess--codependent-helper.jpg
-keyQualities: Serves without receiving|Leaves at ordinary conflict|Uses critique to remain outside|Hides need behind competence|Accepts invisible responsibility|Belongs only through usefulness
+keyQualities: Works instead of belonging|Gives labor, hides need|Judges from the margins|Leaves at normal conflict|Refuses mutual support|Uses critique to avoid stake
 quoteIds: quote-isolated-helper-opening-addams-loneliness|quote-isolated-helper-closing-levy-social-intercourse
 mythicResonances: Amy Dorrit (nineteenth-century English literary tradition)
 mythicSourceIds: myth-isolated-helper-amy-dorrit-little-dorrit-1-7
@@ -38,7 +38,7 @@ Passive Shadow
 - Active shadow: Enmeshing Networker
 - Passive shadow: Isolated Helper
 - Mythic resonances: Amy Dorrit (nineteenth-century English literary tradition)
-- Key qualities: Serves without receiving, Leaves at ordinary conflict, Uses critique to remain outside, Hides need behind competence, Accepts invisible responsibility, Belongs only through usefulness
+- Key qualities: Works instead of belonging, Gives labor, hides need, Judges from the margins, Leaves at normal conflict, Refuses mutual support, Uses critique to avoid stake
 
 ## When Belonging Collapses Into Usefulness
 

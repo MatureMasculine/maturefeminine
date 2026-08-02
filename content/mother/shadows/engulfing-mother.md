@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/mother/shadows/devouring-mother/
 legacyAnchors: devouring-mother
 image: assets/images/shadow/mother--smothering-mother.jpg
-keyQualities: Anticipates every need|Solves before being asked|Treats separation as disloyalty|Uses worry as authority|Undermines competence|Makes sacrifice an invoice
+keyQualities: Anticipates every need|Solves before being asked|Makes separation betrayal|Uses worry as authority|Undermines growing skill|Makes sacrifice an invoice
 quoteIds: quote-engulfing-mother-opening-fisher-explaining|quote-engulfing-mother-closing-chopin-give-myself
 mythicResonances: Mrs. Morel (early twentieth-century English literary tradition)
 mythicSourceIds: myth-engulfing-mother-mrs-morel-sons-lovers
@@ -38,7 +38,7 @@ Active Shadow
 - Active shadow: Engulfing Mother
 - Passive shadow: Unavailable Mother
 - Mythic resonances: Mrs. Morel (early twentieth-century English literary tradition)
-- Key qualities: Anticipates every need, Solves before being asked, Treats separation as disloyalty, Uses worry as authority, Undermines competence, Makes sacrifice an invoice
+- Key qualities: Anticipates every need, Solves before being asked, Makes separation betrayal, Uses worry as authority, Undermines growing skill, Makes sacrifice an invoice
 
 ## When Nurture Occupies the Other's Life
 

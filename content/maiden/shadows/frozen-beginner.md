@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /maiden/maiden/shadows/fragile-maiden/
 legacyAnchors: fragile-maiden
 image: assets/images/shadow/maiden--fragile-maiden.jpg
+keyQualities: Evaluates, never tries|Makes choices permanent|Needs skill before practice|Outsources first attempts|Protects untested potential|Calls curiosity frivolous
 quoteIds: quote-frozen-beginner-opening-dickinson-cocoon|quote-frozen-beginner-closing-alcott-learning-sail
 mythicResonances: J. Alfred Prufrock (Anglo-American literary tradition)
 mythicSourceIds: myth-frozen-beginner-prufrock-eliot-poetry-1915
@@ -40,7 +41,7 @@ Degrades the dress I wear.”
 - Active shadow: Naive Enthusiast
 - Passive shadow: Frozen Beginner
 - Mythic resonances: J. Alfred Prufrock (Anglo-American literary tradition)
-- Key qualities: Researches methods, teachers, or tools after enough information exists to try, Defers ordinary reversible choices as though they were permanent, Waits to feel qualified before entering the setting that teaches beginners, Imagines evaluation more vividly than the possible experience itself, Outsources a personal first decision to experts, tests, or group consensus, Dismisses an unproven curiosity as childish, impractical, or not part of her identity
+- Key qualities: Evaluates, never tries, Makes choices permanent, Needs skill before practice, Outsources first attempts, Protects untested potential, Calls curiosity frivolous
 
 ## When Judgment Prevents Experience
 

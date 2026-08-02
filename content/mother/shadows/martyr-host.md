@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/wife-nurturer-hearth-goddess/shadows/martyr-homemaker/
 legacyAnchors: martyr-homemaker
 image: assets/images/shadow/wife-nurturer-hearth-goddess--enabling-doormat.jpg
-keyQualities: Overfunctions and keeps score|Makes unspoken sacrifices|Treats privacy as selfishness|Anticipates every preference|Hides the cost of welcome|Resents needs she invited
+keyQualities: Monitors all but herself|Makes welcome cost service|Hides needs until resentful|Tallies unasked sacrifice|Calls rest selfish|Erases herself as host
 quoteIds: quote-martyr-host-opening-stanton-self-development|quote-martyr-host-closing-nightingale-half-hour
 mythicResonances: Mrs. Ramsay (twentieth-century English modernist literary tradition)
 mythicSourceIds: myth-martyr-host-mrs-ramsay-lighthouse-window-1-17
@@ -38,7 +38,7 @@ Active Shadow
 - Active shadow: Martyr Host
 - Passive shadow: Closed Hearth
 - Mythic resonances: Mrs. Ramsay (twentieth-century English modernist literary tradition)
-- Key qualities: Overfunctions and keeps score, Makes unspoken sacrifices, Treats privacy as selfishness, Anticipates every preference, Hides the cost of welcome, Resents needs she invited
+- Key qualities: Monitors all but herself, Makes welcome cost service, Hides needs until resentful, Tallies unasked sacrifice, Calls rest selfish, Erases herself as host
 
 ## When Hospitality Consumes the Sanctuary
 

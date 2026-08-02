@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/guardian-buffalo-woman/shadows/rigid-sentinel/
 legacyAnchors: rigid-sentinel
 image: assets/images/shadow/guardian-buffalo-woman--rigid-gatekeeper.jpg
-keyQualities: Polices ordinary choices|Treats uncertainty as danger|Moves boundaries without consent|Demands access while denying it|Ignores demonstrated capacity|Cannot stand down
+keyQualities: Polices ordinary choices|Treats novelty as danger|Moves boundaries alone|Demands one-way access|Ignores proven capacity|Cannot stand down
 quoteIds: quote-controlling-sentinel-opening-gilman-special-direction|quote-controlling-sentinel-closing-ibsen-reasonable-human
 mythicResonances: Dame Gothel (German literary fairy-tale tradition)
 mythicSourceIds: myth-controlling-sentinel-dame-gothel-rapunzel-grimm
@@ -38,7 +38,7 @@ Active Shadow
 - Active shadow: Controlling Sentinel
 - Passive shadow: Open Gate
 - Mythic resonances: Dame Gothel (German literary fairy-tale tradition)
-- Key qualities: Polices ordinary choices, Treats uncertainty as danger, Moves boundaries without consent, Demands access while denying it, Ignores demonstrated capacity, Cannot stand down
+- Key qualities: Polices ordinary choices, Treats novelty as danger, Moves boundaries alone, Demands one-way access, Ignores proven capacity, Cannot stand down
 
 ## When Protection Becomes Jurisdiction
 

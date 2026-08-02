@@ -177,7 +177,7 @@
             "activeShadow": "Reckless Wanderer",
             "passiveShadow": "Sheltered Dreamer",
             "mythicResonances": "Phaëton (Roman literary tradition)",
-            "keyQualities": "Creates preventable emergencies and treats recovery as triumph, Breaks agreements when a more vivid option appears, Commits shared money, labor, time, or exposure without consent, Confuses bodily activation with evidence that a choice is right, Changes jobs, projects, places, or partners to outrun an unresolved consequence, Expects companions to supply the margin she refused to build"
+            "keyQualities": "Motion warrants itself, Urgency becomes a promise, Spends without consent, Breaks promises for novelty, Plans after fallout, Transfers risk to others"
           },
           "quotes": {
             "opening": "“My candle burns at both ends;\nIt will not last the night;\nBut ah, my foes, and oh, my friends—\nIt gives a lovely light!”\n\n—Edna St. Vincent Millay, “First Fig,” complete poem",
@@ -199,6 +199,14 @@
           "sourceFile": "maiden/shadows/reckless-wanderer.md",
           "parent": "adventurer",
           "type": "active",
+          "keyQualities": [
+            "Motion warrants itself",
+            "Urgency becomes a promise",
+            "Spends without consent",
+            "Breaks promises for novelty",
+            "Plans after fallout",
+            "Transfers risk to others"
+          ],
           "oppositeShadowSlug": "sheltered-dreamer",
           "bodySections": [
             {
@@ -311,7 +319,7 @@
             "activeShadow": "Reckless Wanderer",
             "passiveShadow": "Sheltered Dreamer",
             "mythicResonances": "The Cowardly Lion (American literary fairy-tale tradition)",
-            "keyQualities": "Plans, trains, or researches without setting a departure, Inflates rare dangers while ignoring the cost of continued confinement, Waits for confidence that only participation could build, Consumes stories of other people's courage instead of testing her own range, Calls avoidance responsibility after the practical requirements have been met, Lets an imagined worst case outweigh available, direct evidence"
+            "keyQualities": "Endless safety research, Demands certainty to begin, Magnifies remote dangers, Borrows courage from others, Waits to feel fully ready, Calls avoidance prudence"
           },
           "quotes": {
             "opening": "“Better not move at all, better stay in London altogether than travel forty miles to get into a worse air.”\n\n—Jane Austen, *Emma*, volume I, chapter 12",
@@ -333,6 +341,14 @@
           "sourceFile": "maiden/shadows/sheltered-dreamer.md",
           "parent": "adventurer",
           "type": "passive",
+          "keyQualities": [
+            "Endless safety research",
+            "Demands certainty to begin",
+            "Magnifies remote dangers",
+            "Borrows courage from others",
+            "Waits to feel fully ready",
+            "Calls avoidance prudence"
+          ],
           "oppositeShadowSlug": "reckless-wanderer",
           "bodySections": [
             {
@@ -592,7 +608,7 @@
             "activeShadow": "Naive Enthusiast",
             "passiveShadow": "Frozen Beginner",
             "mythicResonances": "Pinocchio (Italian literary fairy-tale tradition)",
-            "keyQualities": "Commits before reading the terms or understanding the role, Treats excitement, synchronicity, or familiarity as proof, Grants trust before observing how someone handles limits, Idealizes unfamiliar people, groups, methods, or places, Minimizes warnings because they interrupt a desired story, Leaves preventable financial, relational, or practical consequences to others"
+            "keyQualities": "Trusts first impressions, Agrees before clear terms, Invents unproven virtues, Calls resonance evidence, Dismisses sober warnings, Recruits others too soon"
           },
           "quotes": {
             "opening": "“The real evils, indeed, of Emma’s situation were the power of having rather too much her own way, and a disposition to think a little too well of herself; these were the disadvantages which threatened alloy to her many enjoyments.”\n\n—Jane Austen, *Emma*, volume I, chapter 1",
@@ -614,6 +630,14 @@
           "sourceFile": "maiden/shadows/naive-enthusiast.md",
           "parent": "maiden",
           "type": "active",
+          "keyQualities": [
+            "Trusts first impressions",
+            "Agrees before clear terms",
+            "Invents unproven virtues",
+            "Calls resonance evidence",
+            "Dismisses sober warnings",
+            "Recruits others too soon"
+          ],
           "oppositeShadowSlug": "frozen-beginner",
           "bodySections": [
             {
@@ -726,7 +750,7 @@
             "activeShadow": "Naive Enthusiast",
             "passiveShadow": "Frozen Beginner",
             "mythicResonances": "J. Alfred Prufrock (Anglo-American literary tradition)",
-            "keyQualities": "Researches methods, teachers, or tools after enough information exists to try, Defers ordinary reversible choices as though they were permanent, Waits to feel qualified before entering the setting that teaches beginners, Imagines evaluation more vividly than the possible experience itself, Outsources a personal first decision to experts, tests, or group consensus, Dismisses an unproven curiosity as childish, impractical, or not part of her identity"
+            "keyQualities": "Evaluates, never tries, Makes choices permanent, Needs skill before practice, Outsources first attempts, Protects untested potential, Calls curiosity frivolous"
           },
           "quotes": {
             "opening": "“My cocoon tightens, colors tease,\nI’m feeling for the air;\nA dim capacity for wings\nDegrades the dress I wear.”\n\n—Emily Dickinson, “From the Chrysalis,” stanza 1",
@@ -748,6 +772,14 @@
           "sourceFile": "maiden/shadows/frozen-beginner.md",
           "parent": "maiden",
           "type": "passive",
+          "keyQualities": [
+            "Evaluates, never tries",
+            "Makes choices permanent",
+            "Needs skill before practice",
+            "Outsources first attempts",
+            "Protects untested potential",
+            "Calls curiosity frivolous"
+          ],
           "oppositeShadowSlug": "naive-enthusiast",
           "bodySections": [
             {
@@ -1012,7 +1044,7 @@
             "activeShadow": "Inflated Oracle",
             "passiveShadow": "Self-Doubting Seer",
             "mythicResonances": "Macbeth (English literary tradition)",
-            "keyQualities": "Speaks uncertain futures, diagnoses, or motives as settled facts, Treats coincidence, intensity, or repetition as sufficient confirmation, Claims privileged access that places her interpretation above another person's account, Reframes disagreement as fear, blindness, disloyalty, or spiritual failure, Makes predictions vague enough that every result can confirm them, Pressures others to risk money, health, work, or relationship on private certainty"
+            "keyQualities": "Makes impressions facts, Treats intensity as proof, Confuses sight with meaning, Makes dissent confirm it, Claims others' motives, Keeps claims unfalsifiable"
           },
           "quotes": {
             "opening": "“Life and death appeared to me ideal bounds, which I should first break through, and pour a torrent of light into our dark world.”\n\n—Mary Shelley, *Frankenstein*, chapter 4",
@@ -1034,6 +1066,14 @@
           "sourceFile": "maiden/shadows/inflated-oracle.md",
           "parent": "visionary",
           "type": "active",
+          "keyQualities": [
+            "Makes impressions facts",
+            "Treats intensity as proof",
+            "Confuses sight with meaning",
+            "Makes dissent confirm it",
+            "Claims others' motives",
+            "Keeps claims unfalsifiable"
+          ],
           "oppositeShadowSlug": "self-doubting-seer",
           "bodySections": [
             {
@@ -1146,7 +1186,7 @@
             "activeShadow": "Inflated Oracle",
             "passiveShadow": "Self-Doubting Seer",
             "mythicResonances": "Romola (nineteenth-century English literary tradition)",
-            "keyQualities": "Edits an impression out of speech before deciding whether it is testable, Waits for proof no emerging pattern could initially provide, Outsources direct perception to credentials, consensus, or a more confident voice, Explains away recurring bodily signals without recording their conditions, Offers the insight only after someone else has made it socially safe, Confuses humility with having no legitimate observation to contribute"
+            "keyQualities": "Rejects untested impressions, Privileges others' dismissal, Demands proof to speak, Defers sight to experts, Explains away body signals, Waits for consensus"
           },
           "quotes": {
             "opening": "“Much madness is divinest sense\nTo a discerning eye;\nMuch sense the starkest madness.\n’T is the majority\nIn this, as all, prevails.\nAssent, and you are sane;\nDemur,—you’re straightway dangerous,\nAnd handled with a chain.”\n\n—Emily Dickinson, “Much madness is divinest sense,” complete poem",
@@ -1168,6 +1208,14 @@
           "sourceFile": "maiden/shadows/self-doubting-seer.md",
           "parent": "visionary",
           "type": "passive",
+          "keyQualities": [
+            "Rejects untested impressions",
+            "Privileges others' dismissal",
+            "Demands proof to speak",
+            "Defers sight to experts",
+            "Explains away body signals",
+            "Waits for consensus"
+          ],
           "oppositeShadowSlug": "inflated-oracle",
           "bodySections": [
             {

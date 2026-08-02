@@ -11,7 +11,7 @@ aliases:
 legacyRoutes:
 legacyAnchors: absent-mother
 image: assets/images/shadow/mother--absent-mother.jpg
-keyQualities: Minimizes legitimate dependency|Withdraws during distress|Confuses neglect with freedom|Delegates without accountability|Shames ordinary need|Returns only after crisis
+keyQualities: Minimizes ordinary need|Withdraws during distress|Calls neglect freedom|Delegates without a handoff|Shames dependency|Returns only after crisis
 quoteIds: quote-absent-mother-opening-burnett-out-of-sight|quote-absent-mother-closing-shelley-adam
 mythicResonances: Victor Frankenstein (English Gothic literary tradition)
 mythicSourceIds: myth-absent-mother-victor-frankenstein-chapter-5
@@ -38,7 +38,7 @@ Passive Shadow
 - Active shadow: Engulfing Mother
 - Passive shadow: Unavailable Mother
 - Mythic resonances: Victor Frankenstein (English Gothic literary tradition)
-- Key qualities: Minimizes legitimate dependency, Withdraws during distress, Confuses neglect with freedom, Delegates without accountability, Shames ordinary need, Returns only after crisis
+- Key qualities: Minimizes ordinary need, Withdraws during distress, Calls neglect freedom, Delegates without a handoff, Shames dependency, Returns only after crisis
 
 ## When Autonomy Is Used to Abandon
 

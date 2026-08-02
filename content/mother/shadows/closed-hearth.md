@@ -11,7 +11,7 @@ aliases:
 legacyRoutes: /mother/wife-nurturer-hearth-goddess/shadows/withholding-hostess/
 legacyAnchors: withholding-hostess
 image:
-keyQualities: Makes belonging conditional on tidiness|Withholds ordinary welcome|Uses the home to avoid relationship|Treats every request as intrusion|Controls access through silence|Freezes the place around old injury
+keyQualities: Calls people intrusions|Makes welcome conditional|Keeps sanctuary unusable|Uses home to avoid contact|Withholds basic comfort|Turns privacy into exclusion
 quoteIds: quote-closed-hearth-opening-dickinson-selects-society|quote-closed-hearth-closing-dickens-looking-glass
 mythicResonances: Miss Havisham (nineteenth-century English literary tradition)
 mythicSourceIds: myth-closed-hearth-miss-havisham-great-expectations-8-49
@@ -41,7 +41,7 @@ Present no more –”
 - Active shadow: Martyr Host
 - Passive shadow: Closed Hearth
 - Mythic resonances: Miss Havisham (nineteenth-century English literary tradition)
-- Key qualities: Makes belonging conditional on tidiness, Withholds ordinary welcome, Uses the home to avoid relationship, Treats every request as intrusion, Controls access through silence, Freezes the place around old injury
+- Key qualities: Calls people intrusions, Makes welcome conditional, Keeps sanctuary unusable, Uses home to avoid contact, Withholds basic comfort, Turns privacy into exclusion
 
 ## When Privacy Seals the Door
 

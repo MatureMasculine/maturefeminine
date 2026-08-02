@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/sage-wisdom/shadows/arrogant-know-it-all/
 legacyAnchors: arrogant-know-it-all
 image: assets/images/shadow/unmatched--arrogant-know-it-all.jpg
+keyQualities: Declares conclusions final|Answers before inquiry|Treats dissent as ignorance|Advises beyond her scope|Uses speed to guard status|Doubles down on error
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Arrogant Know-It-All
 - Passive shadow: Withholding Sage
 - Mythic resonances:
-- Key qualities: Oversteps boundaries; decides for others, Mistakes speed for effectiveness, Performs care or genius to avoid vulnerability, Micromanages; cannot rest, Seeks admiration or control over connection, Ignores feedback, doubles down under stress
+- Key qualities: Declares conclusions final, Answers before inquiry, Treats dissent as ignorance, Advises beyond her scope, Uses speed to guard status, Doubles down on error
 
 ## Balance Breakdown
 

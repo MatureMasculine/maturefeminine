@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /maiden/adventurer-storm-tempest/shadows/reckless-storm/
 legacyAnchors: reckless-storm
 image: assets/images/shadow/adventurer-storm-tempest--reckless-storm.jpg
+keyQualities: Motion warrants itself|Urgency becomes a promise|Spends without consent|Breaks promises for novelty|Plans after fallout|Transfers risk to others
 quoteIds: quote-reckless-wanderer-opening-millay-first-fig|quote-reckless-wanderer-closing-montgomery-look-before-leap
 mythicResonances: Phaëton (Roman literary tradition)
 mythicSourceIds: myth-reckless-wanderer-phaethon-ovid-metamorphoses-2
@@ -40,7 +41,7 @@ It gives a lovely light!”
 - Active shadow: Reckless Wanderer
 - Passive shadow: Sheltered Dreamer
 - Mythic resonances: Phaëton (Roman literary tradition)
-- Key qualities: Creates preventable emergencies and treats recovery as triumph, Breaks agreements when a more vivid option appears, Commits shared money, labor, time, or exposure without consent, Confuses bodily activation with evidence that a choice is right, Changes jobs, projects, places, or partners to outrun an unresolved consequence, Expects companions to supply the margin she refused to build
+- Key qualities: Motion warrants itself, Urgency becomes a promise, Spends without consent, Breaks promises for novelty, Plans after fallout, Transfers risk to others
 
 ## When Motion Outruns Judgment
 

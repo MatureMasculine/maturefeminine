@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/sage-wisdom/shadows/withholding-sage/
 legacyAnchors: withholding-sage
 image: assets/images/shadow/sage-wisdom--withholding-sage.jpg
+keyQualities: Waits for impossible proof|Turns inquiry into delay|Defers to loud authority|Qualifies counsel away|Resents choices she ceded|Calls self-erasure humility
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Passive Shadow
 - Active shadow: Arrogant Know-It-All
 - Passive shadow: Withholding Sage
 - Mythic resonances:
-- Key qualities: Defers decisions; waits for perfect certainty, Disengages from body and relationships, People-pleases to avoid conflict, Lets others set terms then resents them, Creativity stalled by perfectionism and fear, Self-doubt presented as humility
+- Key qualities: Waits for impossible proof, Turns inquiry into delay, Defers to loud authority, Qualifies counsel away, Resents choices she ceded, Calls self-erasure humility
 
 ## Balance Breakdown
 

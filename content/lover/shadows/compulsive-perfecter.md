@@ -11,7 +11,7 @@ aliases: Silenced Muse
 legacyRoutes: /lover-creatrix/creatrix-spider-weaver/shadows/obsessive-perfectionist/|/lover-creatrix/muse-song-goddess/shadows/silent-songbird/
 legacyAnchors: obsessive-perfectionist|silent-songbird
 image: assets/images/shadow/creatrix-spider-weaver--perfectionist-creator.jpg
-keyQualities: Reworks settled details|Confuses polish with value|Delays exposure indefinitely|Controls the process before making|Edits her own voice out|Treats criticism as invalidation|Expands scope whenever completion approaches
+keyQualities: Moves the finish line|Revises to delay exposure|Controls against discovery|Polishes trivial details|Edits out distinctive voice|Calls feedback rejection
 quoteIds: quote-compulsive-perfecter-opening-wilde-conceal-life|quote-compulsive-perfecter-closing-dickinson-word-lives
 mythicResonances: Frenhofer (nineteenth-century French literary tradition)
 mythicSourceIds: myth-compulsive-perfecter-frenhofer-balzac-masterpiece
@@ -38,7 +38,7 @@ Active Shadow
 - Active shadow: Compulsive Perfecter
 - Passive shadow: Scattered Maker
 - Mythic resonances: Frenhofer (nineteenth-century French literary tradition)
-- Key qualities: Reworks settled details, Confuses polish with value, Delays exposure indefinitely, Controls the process before making, Edits her own voice out, Treats criticism as invalidation, Expands scope whenever completion approaches
+- Key qualities: Moves the finish line, Revises to delay exposure, Controls against discovery, Polishes trivial details, Edits out distinctive voice, Calls feedback rejection
 
 ## When Craft Becomes Concealment
 

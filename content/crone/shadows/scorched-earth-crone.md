@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /crone/crone-underworld-queen/shadows/destroying-angel/
 legacyAnchors: destroying-angel
 image: assets/images/shadow/crone-underworld-queen--destructive-death-bringer.jpg
+keyQualities: Chooses severance first|Erases a mixed past|Destroys needed supports|Calls reflection weakness|Ends bonds to avoid grief|Leaves nothing to compost
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Scorched-Earth Crone
 - Passive shadow: Relic Keeper
 - Mythic resonances:
-- Key qualities: Uses total severance as first response, Rewrites the past as worthless, Destroys supports needed for transition
+- Key qualities: Chooses severance first, Erases a mixed past, Destroys needed supports, Calls reflection weakness, Ends bonds to avoid grief, Leaves nothing to compost
 
 ## Balance Breakdown
 

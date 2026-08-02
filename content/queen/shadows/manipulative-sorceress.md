@@ -11,6 +11,7 @@ aliases:
 legacyRoutes: /queen/magician-alchemist-witch-scribe/shadows/manipulative-sorceress/
 legacyAnchors: manipulative-sorceress
 image:
+keyQualities: Claims ability as mandate|Leverages without consent|Hides costs and tradeoffs|Defines others' benefit|Calls resistance ignorance|Calls compliance success
 quoteIds:
 mythicResonances:
 mythicSourceIds:
@@ -33,7 +34,7 @@ Active Shadow
 - Active shadow: Manipulative Sorceress
 - Passive shadow: Powerless Mystic
 - Mythic resonances:
-- Key qualities: Treats capability as authorization, Bypasses consent to preserve momentum, Hides means, risks, or tradeoffs, Defines the end without affected parties, Dismisses feedback that challenges the intervention, Counts compliance as evidence of benefit
+- Key qualities: Claims ability as mandate, Leverages without consent, Hides costs and tradeoffs, Defines others' benefit, Calls resistance ignorance, Calls compliance success
 
 ## Balance Breakdown
 
