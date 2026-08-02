@@ -649,7 +649,7 @@
         "group": "Mother",
         "qualities": ["Reconciliation","Confrontation"],
         "balanceQualities": ["Reconciliation","Confrontation"],
-        "keyQualities": "Rushes forgiveness, Neutralizes legitimate anger, Equates calm with safety",
+        "keyQualities": "Rushes forgiveness, Neutralizes legitimate anger, Equates calm with safety, Balances unequal harm, Protects appearances, Rewards quick compliance",
         "href": "/mother/peacemaker/shadows/peace-enforcer/"
       }
 
@@ -665,7 +665,7 @@
         "group": "Mother",
         "qualities": ["Reconciliation","Confrontation"],
         "balanceQualities": ["Reconciliation","Confrontation"],
-        "keyQualities": "Withholds grievances, Punishes through distance, Waits for mind-reading",
+        "keyQualities": "Withholds grievances, Punishes through distance, Waits for mind-reading, Collects private evidence, Rehearses imagined trials, Treats repair as surrender",
         "href": "/mother/peacemaker/shadows/resentful-bystander/"
       }
 
@@ -713,7 +713,7 @@
         "group": "Mother",
         "qualities": ["Belonging","Accountability"],
         "balanceQualities": ["Belonging","Accountability"],
-        "keyQualities": "Triangulates through private information, Protects insiders from consequence, Makes herself the relational hub",
+        "keyQualities": "Triangulates through private information, Protects insiders from consequence, Makes herself the relational hub, Treats access as loyalty, Arranges lives without consent, Confuses influence with care",
         "href": "/mother/community-weaver/shadows/enmeshing-networker/"
       }
 
@@ -729,7 +729,7 @@
         "group": "Mother",
         "qualities": ["Belonging","Accountability"],
         "balanceQualities": ["Belonging","Accountability"],
-        "keyQualities": "Serves without receiving, Leaves at ordinary conflict, Uses critique to remain outside",
+        "keyQualities": "Serves without receiving, Leaves at ordinary conflict, Uses critique to remain outside, Hides need behind competence, Accepts invisible responsibility, Belongs only through usefulness",
         "href": "/mother/community-weaver/shadows/isolated-helper/"
       }
 
@@ -745,7 +745,7 @@
         "group": "Mother",
         "qualities": ["Hospitality","Privacy"],
         "balanceQualities": ["Hospitality","Privacy"],
-        "keyQualities": "Overfunctions and keeps score, Makes unspoken sacrifices, Treats privacy as selfishness",
+        "keyQualities": "Overfunctions and keeps score, Makes unspoken sacrifices, Treats privacy as selfishness, Anticipates every preference, Hides the cost of welcome, Resents needs she invited",
         "href": "/mother/host/shadows/martyr-host/"
       }
 
@@ -761,7 +761,7 @@
         "group": "Mother",
         "qualities": ["Hospitality","Privacy"],
         "balanceQualities": ["Hospitality","Privacy"],
-        "keyQualities": "Makes belonging conditional on tidiness, Withholds ordinary welcome, Uses the home to avoid relationship",
+        "keyQualities": "Makes belonging conditional on tidiness, Withholds ordinary welcome, Uses the home to avoid relationship, Treats every request as intrusion, Controls access through silence, Freezes the place around old injury",
         "href": "/mother/host/shadows/closed-hearth/"
       }
 

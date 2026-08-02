@@ -1039,6 +1039,355 @@
       "assignedSpread": "disarmed-warrior",
       "position": "closing",
       "accessDate": "2026-08-01"
+    },
+    {
+      "id": "quote-peacemaker-opening-bronte-conventionality",
+      "exactQuotation": "Conventionality is not morality. Self-righteousness is not religion. To attack the first is not to assail the last.",
+      "author": "Charlotte Brontë",
+      "origin": {
+        "work": "Jane Eyre",
+        "workType": "novel",
+        "location": "preface to the second edition",
+        "publicationDetails": "Jane Eyre was first published by Smith, Elder and Co. in 1847; cited from the Service & Paton 1897 text transcribed in Project Gutenberg ebook 1260."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1260/pg1260.txt",
+      "context": "Brontë distinguishes external convention and self-righteousness from morality and religion in a specifically Christian preface. The passage supports questioning imposed calm without turning the preface into a general theory of mediation.",
+      "verificationNotes": "Exact complete three-sentence sequence, capitalization, hyphenation, and punctuation checked in the nonempty Project Gutenberg transcription. Its religious argument remains part of the record rather than being converted into secular conflict-resolution advice.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1847; Charlotte Brontë died in 1855.",
+      "assignedSpread": "peacemaker",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-peacemaker-closing-follett-agree",
+      "exactQuotation": "We don’t want to avoid our adversary but to “agree with him quickly”; we must, however, learn the technique of agreeing.",
+      "author": "Mary Parker Follett",
+      "origin": {
+        "work": "The New State",
+        "workType": "political and social theory",
+        "location": "chapter III, ‘The Group Process: The Collective Idea (continued),’ printed p. 40",
+        "publicationDetails": "The New State: Group Organization the Solution of Popular Government (New York: Longmans, Green and Co., 1918)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/73755/pg73755.txt",
+      "context": "The surrounding paragraph argues for integrating difference rather than annihilating or absorbing it. The sentence supports encounter with an adversary while leaving the technique and conditions of agreement open.",
+      "verificationNotes": "Exact wording, curly quotation marks, semicolon, and punctuation checked at printed page 40 in the nonempty Project Gutenberg text and page-image HTML. Early pluralist group theory can understate unequal power; agreement here never supersedes consent, safety, consequence, or justice.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1918.",
+      "assignedSpread": "peacemaker",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-peace-enforcer-opening-ibsen-hushed",
+      "exactQuotation": "The matter must be hushed up at any cost.",
+      "author": "Henrik Ibsen",
+      "origin": {
+        "work": "A Doll's House",
+        "workType": "play in English translation",
+        "location": "act III; spoken by Torvald Helmer",
+        "publicationDetails": "The play was first published in Copenhagen by Gyldendal in 1879; cited from R. Farquharson Sharp's English translation in Project Gutenberg ebook 2542, whose printed witness is not identified."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/2542/pg2542.txt",
+      "context": "The speaker demands outward normality after a coercive denunciation, financial secrecy, and blackmail, while restricting his wife's freedom and access to her children. The sentence is characterization, not advice.",
+      "verificationNotes": "Exact complete sentence and punctuation checked in act III of the nonempty Project Gutenberg transcription. Translation choice is explicit. The coercive and controlling marriage is not equated with ordinary disagreement or diagnosed through an archetype.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: the play was published in 1879 and Sharp's translation in 1911; both authors died more than seventy years ago.",
+      "assignedSpread": "peace-enforcer",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-peace-enforcer-closing-wells-know-act",
+      "exactQuotation": "The people must know before they can act, and there is no educator to compare with the press.",
+      "author": "Ida B. Wells",
+      "origin": {
+        "work": "Southern Horrors: Lynch Law in All Its Phases",
+        "workType": "anti-lynching pamphlet",
+        "location": "section 6, ‘Self-Help,’ printed p. 23",
+        "publicationDetails": "Southern Horrors (New York: New York Age Print, 1892). Quotation controlled against the digitized New York Public Library copy."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/14975/pg14975.txt",
+      "corroboratingUrls": [
+        "https://commons.wikimedia.org/wiki/File:Ida_B._Wells_-_Southern_Horrors_(1892).djvu",
+        "https://digitalcollections.nypl.org/items/8c910130-486e-0134-39e4-00505686a51c"
+      ],
+      "context": "Wells is writing about racist lynching, white-press suppression and distortion, Black newspapers, and anti-lynching action. The historical scale is racial terror, not ordinary interpersonal conflict.",
+      "verificationNotes": "Exact sentence controlled against scan page 25, printed page 23, in the 1892 NYPL copy and matched in the nonempty Project Gutenberg transcription. Gutenberg warns that its text follows an unidentified later reprint, so the scan governs. The excerpt is not used to imply shared responsibility, flatten racial terror, or analogize lynching to everyday disagreement.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1892; Ida B. Wells died in 1931.",
+      "assignedSpread": "peace-enforcer",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-resentful-bystander-opening-eliot-reticence",
+      "exactQuotation": "And on the most delicate of all personal subjects, the habit of proud suspicious reticence told doubly.",
+      "author": "George Eliot",
+      "origin": {
+        "work": "Middlemarch",
+        "workType": "novel",
+        "location": "book IV, chapter XXXVII; narrator on Edward Casaubon",
+        "publicationDetails": "Middlemarch was first issued in 1871–72 by William Blackwood and Sons; Project Gutenberg ebook 145 follows an undated H. M. Caldwell New York/Boston edition."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/145/pg145.txt",
+      "context": "The narrator describes jealousy and reticence within a Victorian marriage shaped by unequal property and marital power. The sentence makes unspoken suspicion relationally consequential.",
+      "verificationNotes": "Exact complete sentence and punctuation checked in book IV, chapter XXXVII of the nonempty Gutenberg transcription. The record does not adopt the narrator's medicalizing moral language or treat illness, age, disability, or introversion as the cause.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first issued in 1871–72; George Eliot died in 1880.",
+      "assignedSpread": "resentful-bystander",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-resentful-bystander-closing-bronte-animosity",
+      "exactQuotation": "Life appears to me too short to be spent in nursing animosity or registering wrongs.",
+      "author": "Charlotte Brontë",
+      "origin": {
+        "work": "Jane Eyre",
+        "workType": "novel",
+        "location": "chapter VI; spoken by Helen Burns",
+        "publicationDetails": "Jane Eyre was first published by Smith, Elder and Co. in 1847; cited from the Service & Paton 1897 text transcribed in Project Gutenberg ebook 1260."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1260/pg1260.txt",
+      "context": "The speaker expresses a specifically Christian forgiveness theology while enduring abuse at Lowood. The sentence opens a possibility of release without making forgiveness, reunion, trust, access, or relinquished protection compulsory.",
+      "verificationNotes": "Exact complete sentence and punctuation checked in chapter VI of the nonempty Project Gutenberg transcription. The abusive institutional context is retained; the line is never prescribed to survivors or used to override safety and consequence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1847; Charlotte Brontë died in 1855.",
+      "assignedSpread": "resentful-bystander",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-community-weaver-opening-addams-side-by-side",
+      "exactQuotation": "They must be content to live quietly side by side with their neighbors, until they grow into a sense of relationship and mutual interests.",
+      "author": "Jane Addams",
+      "origin": {
+        "work": "Twenty Years at Hull-House",
+        "workType": "memoir and social reform history",
+        "location": "chapter VI, ‘The Subjective Necessity for Social Settlements,’ pp. 113–128 in the 1912 printing",
+        "publicationDetails": "Twenty Years at Hull-House (New York: The Macmillan Company, 1910); cited source identifies a 1912 printing."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1325/pg1325.txt",
+      "context": "Settlement residents are the grammatical subject: they must live beside their neighbors until relationship and mutual interest grow. The passage is not a claim that residents should manage or save the neighborhood.",
+      "verificationNotes": "Exact complete sentence checked in the nonempty Project Gutenberg text and page-image HTML. The Progressive settlement movement's class hierarchy, immigrant-assimilation pressure, and paternalism remain explicit; neighbors are not cast as objects of benevolence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1910.",
+      "assignedSpread": "community-weaver",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-community-weaver-closing-follett-unity-variety",
+      "exactQuotation": "Unity, not uniformity, must be our aim. We attain unity only through variety.",
+      "author": "Mary Parker Follett",
+      "origin": {
+        "work": "The New State",
+        "workType": "political and social theory",
+        "location": "chapter III, ‘The Group Process: The Collective Idea (continued),’ printed p. 40",
+        "publicationDetails": "The New State: Group Organization the Solution of Popular Government (New York: Longmans, Green and Co., 1918)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/73755/pg73755.txt",
+      "context": "The immediate continuation says differences must be integrated rather than annihilated or absorbed. The quotation supports belonging across difference, not coercive unity or immunity from structural conflict.",
+      "verificationNotes": "Exact contiguous two-sentence sequence and punctuation checked at printed page 40 in the nonempty Project Gutenberg transcription. Unity here does not require reconciliation across coercion or permit erasure of dissent, access limits, or consequence.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1918.",
+      "assignedSpread": "community-weaver",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-enmeshing-networker-opening-austen-arrange-destiny",
+      "exactQuotation": "With insufferable vanity had she believed herself in the secret of every body’s feelings; with unpardonable arrogance proposed to arrange every body’s destiny.",
+      "author": "Jane Austen",
+      "origin": {
+        "work": "Emma",
+        "workType": "novel",
+        "location": "volume III, chapter XI (continuous chapter 47); narrator on Emma Woodhouse",
+        "publicationDetails": "Emma (London: John Murray, 1816); Project Gutenberg ebook 158 does not identify its base copy."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/158/pg158.txt",
+      "context": "The narrator criticizes interference and social power within a classed marriage economy. The sentence concerns arranging other people's lives without adequate knowledge; it does not condemn networking, care, or introduction itself.",
+      "verificationNotes": "Exact complete sentence, semicolon, and the witness's two-word ‘every body’s’ spelling in both occurrences checked in the nonempty Project Gutenberg text. The novel's class-bound treatment of Harriet remains material context.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1816; Jane Austen died in 1817.",
+      "assignedSpread": "enmeshing-networker",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-enmeshing-networker-closing-wollstonecraft-justice",
+      "exactQuotation": "It is justice, not charity, that is wanting in the world!",
+      "author": "Mary Wollstonecraft",
+      "origin": {
+        "work": "A Vindication of the Rights of Woman",
+        "workType": "political philosophy",
+        "location": "chapter IV, ‘Observations on the State of Degradation to Which Woman Is Reduced by Various Causes’",
+        "publicationDetails": "A Vindication of the Rights of Woman (London: J. Johnson, 1792); Project Gutenberg ebook 3420 does not identify its base copy."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/3420/pg3420.txt",
+      "context": "The paragraph concerns women ostracized and driven into prostitution by gendered injustice. Its structural distinction between justice and charity is retained without importing the period's sexual morality as a present standard.",
+      "verificationNotes": "Exact complete sentence and terminal exclamation mark checked in chapter IV of the nonempty Project Gutenberg transcription. The source's dated and reductive sexual morality, class assumptions, and Eurocentric universalism are not endorsed.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1792; Mary Wollstonecraft died in 1797.",
+      "assignedSpread": "enmeshing-networker",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-isolated-helper-opening-addams-loneliness",
+      "exactQuotation": "There is nothing more devastating to the inventive faculty, nor fatal to a flow of mind and spirit, than the constant feeling of loneliness and the absence of that fellowship which makes our public opinion.",
+      "author": "Jane Addams",
+      "origin": {
+        "work": "Democracy and Social Ethics",
+        "workType": "social ethics treatise",
+        "location": "chapter IV, ‘Household Adjustment’",
+        "publicationDetails": "Democracy and Social Ethics (New York: The Macmillan Company, 1902)."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/15487/pg15487.txt",
+      "context": "Addams is discussing isolated household employees and domestic workers, often immigrant working women, under employer power. The quotation names structural labor isolation rather than an individual's generic burnout or pathology.",
+      "verificationNotes": "Exact complete sentence and punctuation checked in chapter IV of the nonempty Project Gutenberg text. Class, migration, labor, and employer power remain explicit; the reader is not blamed for exploitation or told that social contact alone repairs material conditions.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1902.",
+      "assignedSpread": "isolated-helper",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-isolated-helper-closing-levy-social-intercourse",
+      "exactQuotation": "She was beginning, for the first time, to find her own level; to taste the sweets of genuine work and genuine social intercourse.",
+      "author": "Amy Levy",
+      "origin": {
+        "work": "The Romance of a Shop",
+        "workType": "novel",
+        "location": "chapter XII, ‘Gertrude Is Anxious’",
+        "publicationDetails": "First published in London by T. Fisher Unwin in 1888; cited from the 1889 Boston Cupples and Hurd / Algonquin Press witness transcribed in Project Gutenberg ebook 57447."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/57447/pg57447.txt",
+      "context": "Gertrude's photography-shop work brings her into a wider professional and social world. Paid work and social access are enabling in this specific late-Victorian, classed setting, not offered as a universal cure.",
+      "verificationNotes": "Exact complete sentence, semicolon, and punctuation checked in chapter XII of the nonempty Project Gutenberg transcription. The excerpt names one character's opening possibilities without prescribing employment or sociability to every reader.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1888; Amy Levy died in 1889.",
+      "assignedSpread": "isolated-helper",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-host-opening-addams-hospitable-house",
+      "exactQuotation": "[T]he mere foothold of a house, easily accessible, ample in space, hospitable and tolerant in spirit … would be in itself a serviceable thing for Chicago.",
+      "author": "Jane Addams",
+      "origin": {
+        "work": "Twenty Years at Hull-House",
+        "workType": "memoir and social reform history",
+        "location": "chapter V, ‘First Days at Hull-House,’ pp. 89–112 in the 1912 printing",
+        "publicationDetails": "Twenty Years at Hull-House (New York: The Macmillan Company, 1910); cited source identifies a 1912 printing."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1325/pg1325.txt",
+      "context": "Addams describes the early settlement-house claim that a physically accessible, hospitable place could serve Chicago. The statement arises inside the Progressive settlement movement and is not a neutral modern doctrine of hospitality.",
+      "verificationNotes": "The source sentence begins ‘I think that time has also justified our early contention that the mere foothold...’. The bracket transparently capitalizes the excerpt's lowercase ‘the.’ The ellipsis omits the substantive clause ‘situated in the midst of the large foreign colonies which so easily isolate themselves in American cities,’ which is reproduced here so the excerpt does not sanitize the source's classed, paternalistic, and assimilationist framing.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1910.",
+      "assignedSpread": "host",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-host-closing-woolf-fortress-sanctuary",
+      "exactQuotation": "Among the promises which Mrs. Ambrose had made her niece should she stay was a room cut off from the rest of the house, large, private—a room in which she could play, read, think, defy the world, a fortress as well as a sanctuary.",
+      "author": "Virginia Woolf",
+      "origin": {
+        "work": "The Voyage Out",
+        "workType": "novel",
+        "location": "chapter X",
+        "publicationDetails": "The Voyage Out (London: Duckworth and Co., 1915); Project Gutenberg ebook 144 does not identify its base copy."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/144/pg144.txt",
+      "context": "The sentence records a specific aunt's promise to her niece: welcome includes a private room that can be both sanctuary and fortress. It is not presented as a general host doctrine.",
+      "verificationNotes": "Exact complete source sentence, wording, comma sequence, and em dash checked in chapter X of the nonempty Project Gutenberg text. No bracket or ellipsis is used. The novel's British imperial-tourist, racial, and class setting remains relevant context.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain in the United States: published in 1915.",
+      "assignedSpread": "host",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-martyr-host-opening-stanton-self-development",
+      "exactQuotation": "I would fain teach women that self-development is a higher duty than self-sacrifice.",
+      "author": "Elizabeth Cady Stanton",
+      "origin": {
+        "work": "The Woman's Bible",
+        "workType": "feminist biblical commentary",
+        "location": "part I, ‘The Book of Exodus,’ chapter VII, commentary following Exodus 32:1–7",
+        "publicationDetails": "The Woman's Bible, part I (New York: European Publishing Company, 1895); Project Gutenberg ebook 9880 presents the complete two-part work."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/9880/pg9880.txt",
+      "context": "Stanton argues that men repeatedly create opportunities for women to demonstrate self-sacrifice and answers with a duty of self-development. The sentence comes from a radical nineteenth-century biblical commentary, not a universal account of gender.",
+      "verificationNotes": "Exact complete sentence, wording, hyphenation, and punctuation checked in the nonempty Project Gutenberg text, part I, Book of Exodus, chapter VII. The surrounding commentary contains reductive generalizations and appropriative biblical interpretation; those claims are not imported into the Host framework.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: published in 1895; Elizabeth Cady Stanton died in 1902.",
+      "assignedSpread": "martyr-host",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-martyr-host-closing-nightingale-half-hour",
+      "exactQuotation": "Women never have half an hour in all their lives (excepting before or after anybody is up in the house) that they can call their own, without fear of offending or of hurting some one.",
+      "author": "Florence Nightingale",
+      "origin": {
+        "work": "Suggestions for Thought to the Searchers after Truth among the Artizans of England, volume II",
+        "workType": "privately printed theological and social treatise",
+        "location": "‘Cassandra,’ printed p. 384",
+        "publicationDetails": "Privately printed in London by George E. Eyre and William Spottiswoode in 1860; ‘Cassandra’ was not widely published until 1928."
+      },
+      "sourceUrl": "https://openscholar.uga.edu/record/9719/files/ellisor_sarah_p_200508_ma.pdf",
+      "corroboratingUrl": "https://books.google.com/books?id=mUiOWpUajIkC&pg=PA384",
+      "context": "Nightingale criticizes the commandeering of Victorian women's time. Her argument primarily concerns middle- and upper-class women in households that often depended on servants' labor; it cannot be universalized across class or reduced to an individual martyr pattern.",
+      "verificationNotes": "Exact wording, parenthesis, comma, and two-word ‘some one’ spelling controlled against the original British Library scan at volume II, printed page 384 and corroborated by the searchable University of Georgia scholarly transcription. Page 213 belongs to a 1992 modern edition and is not used as original pagination.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: privately printed in 1860; Florence Nightingale died in 1910.",
+      "assignedSpread": "martyr-host",
+      "position": "closing",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-closed-hearth-opening-dickinson-selects-society",
+      "exactQuotation": "The Soul selects her own Society –\nThen – shuts the Door –\nTo her divine Majority –\nPresent no more –",
+      "author": "Emily Dickinson",
+      "origin": {
+        "work": "‘The Soul selects her own Society –’",
+        "workType": "poem",
+        "location": "Franklin 409 / Johnson 303, Packet XIII, first stanza, circa 1862",
+        "publicationDetails": "Manuscript composed circa 1862; first published in Poems by Emily Dickinson (Boston: Roberts Brothers, 1890), p. 26, under the editorial title ‘Exclusion.’ The quotation follows a modern manuscript-based transcription rather than the normalized 1890 witness."
+      },
+      "sourceUrl": "https://journeys.dartmouth.edu/whiteheat/the-soul-selects-f409/",
+      "corroboratingUrl": "https://www.edickinson.org/editions/1/image_sets/235698",
+      "context": "The poem stages sovereign selection and a closed door. It can support chosen privacy as readily as exclusion, so the first stanza is used as a tension rather than proof of pathological withdrawal.",
+      "verificationNotes": "Exact four-line lineation, capitalization, and Dartmouth's spaced-en-dash manuscript transcription checked against its scholarly variants/provenance page and the Houghton Library manuscript images. The en dashes are a diplomatic editorial convention for Dickinson's strokes, not literal Unicode marks in the manuscript. The 1890 editors instead printed ‘Then shuts the door’ and ‘Obtrude no more,’ so that normalized witness is not claimed.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: composed circa 1862 and first published in 1890; Emily Dickinson died in 1886.",
+      "assignedSpread": "closed-hearth",
+      "position": "opening",
+      "accessDate": "2026-08-02"
+    },
+    {
+      "id": "quote-closed-hearth-closing-dickens-looking-glass",
+      "exactQuotation": "Until you spoke to her the other day, and until I saw in you a looking-glass that showed me what I once felt myself, I did not know what I had done.",
+      "author": "Charles Dickens",
+      "origin": {
+        "work": "Great Expectations",
+        "workType": "novel",
+        "location": "continuous chapter XLIX (1861 first edition volume III, chapter X); spoken by Miss Havisham",
+        "publicationDetails": "Great Expectations (London: Chapman and Hall, 1861); Project Gutenberg ebook 1400 explicitly follows an 1867 edition and continuous chapter numbering."
+      },
+      "sourceUrl": "https://www.gutenberg.org/cache/epub/1400/pg1400.txt",
+      "corroboratingUrl": "https://en.wikisource.org/wiki/Great_Expectations_(1st_edition)/Volume_3/Chapter_10",
+      "context": "The speaker recognizes damage after seeing her earlier feeling reflected in another person. Recognition matters but does not itself complete repair, and one person's forgiveness does not belong to another person who was harmed.",
+      "verificationNotes": "Exact complete sentence, commas, and hyphen in ‘looking-glass’ checked in continuous chapter XLIX of the nonempty Gutenberg text and mapped to volume III, chapter X in the scan-backed first edition. The later fire and injury are not treated as divine punishment, purification, or earned redemption; Gothic ageist, misogynistic, and medicalizing narration is not adopted.",
+      "verificationStatus": "verified",
+      "rightsStatus": "Public domain: first published in 1860–61; Charles Dickens died in 1870.",
+      "assignedSpread": "closed-hearth",
+      "position": "closing",
+      "accessDate": "2026-08-02"
     }
   ]
 }

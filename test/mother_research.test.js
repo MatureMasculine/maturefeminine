@@ -17,6 +17,18 @@ const spreads = [
   "disarmed-warrior",
 ];
 
+const repairBelongingPlaceSpreads = [
+  "peacemaker",
+  "peace-enforcer",
+  "resentful-bystander",
+  "community-weaver",
+  "enmeshing-networker",
+  "isolated-helper",
+  "host",
+  "martyr-host",
+  "closed-hearth",
+];
+
 function record(records, id) {
   const match = records.find((item) => item.id === id);
   assert.ok(match, `${id} must resolve`);
@@ -104,4 +116,78 @@ test("reviewed Mother manuscripts print canonical titles and source assignments"
   assert.match(guardian, /myth-guardian-scylding-coastguard-beowulf-4/);
   assert.match(warrior, /myth-warrior-mulan-ballad/);
   assert.doesNotMatch(warrior, /The Mature Warrioress|The Huntress archetype/);
+});
+
+test("Mother repair, belonging, and place records are complete and independent", () => {
+  const assignedQuotes = quotations.filter((item) => repairBelongingPlaceSpreads.includes(item.assignedSpread));
+  const assignedMyths = myths.filter((item) => repairBelongingPlaceSpreads.includes(item.assignedSpread));
+
+  assert.equal(assignedQuotes.length, 18);
+  assert.equal(new Set(assignedQuotes.map((item) => item.id)).size, 18);
+  assert.equal(new Set(assignedQuotes.map((item) => item.exactQuotation)).size, 18);
+  assert.equal(assignedMyths.length, 9);
+  assert.equal(new Set(assignedMyths.map((item) => item.id)).size, 9);
+  assert.equal(new Set(assignedMyths.map((item) => item.figure)).size, 9);
+
+  for (const spread of repairBelongingPlaceSpreads) {
+    const spreadQuotes = assignedQuotes.filter((item) => item.assignedSpread === spread);
+    const spreadMyths = assignedMyths.filter((item) => item.assignedSpread === spread);
+    assert.deepEqual(spreadQuotes.map((item) => item.position), ["opening", "closing"]);
+    assert.equal(spreadMyths.length, 1);
+    assert.equal(spreadMyths[0].verificationStatus, "verified");
+  }
+});
+
+test("Mother hospitality excerpts document every editorial intervention", () => {
+  const addams = record(quotations, "quote-host-opening-addams-hospitable-house");
+  assert.match(addams.exactQuotation, /^\[T\]he mere foothold of a house/);
+  assert.match(addams.exactQuotation, / … /);
+  assert.match(addams.verificationNotes, /source sentence begins.*time has also justified/i);
+  assert.match(addams.verificationNotes, /ellipsis/i);
+
+  const woolf = record(quotations, "quote-host-closing-woolf-fortress-sanctuary");
+  assert.match(woolf.exactQuotation, /^Among the promises which Mrs\. Ambrose had made her niece/);
+  assert.doesNotMatch(woolf.exactQuotation, /\[|…/);
+  assert.match(woolf.verificationNotes, /complete source sentence/i);
+
+  const stanton = record(quotations, "quote-martyr-host-opening-stanton-self-development");
+  assert.equal(stanton.exactQuotation, "I would fain teach women that self-development is a higher duty than self-sacrifice.");
+  assert.equal(stanton.origin.work, "The Woman's Bible");
+
+  const dickinson = record(quotations, "quote-closed-hearth-opening-dickinson-selects-society");
+  assert.equal(dickinson.exactQuotation.split("\n").length, 4);
+  assert.match(dickinson.verificationNotes, /lineation/i);
+});
+
+test("Mother repair and community resonances retain safety and material context", () => {
+  const torvald = record(myths, "myth-peace-enforcer-torvald-helmer-dolls-house-3");
+  assert.match(torvald.relevantFunction, /appearance|outward/i);
+  assert.match(torvald.culturalContextNote, /coercive|controlling|abusive/i);
+  assert.match(torvald.culturalContextNote, /not.*ordinary conflict/i);
+
+  const dorrit = record(myths, "myth-isolated-helper-amy-dorrit-little-dorrit-1-7");
+  assert.match(dorrit.culturalContextNote, /poverty|debtor/i);
+  assert.match(dorrit.culturalContextNote, /exploit|recruit/i);
+  assert.match(dorrit.culturalContextNote, /not blame/i);
+
+  const havisham = record(myths, "myth-closed-hearth-miss-havisham-great-expectations-8-49");
+  assert.match(havisham.culturalContextNote, /trauma|abandonment/i);
+  assert.match(havisham.culturalContextNote, /fire.*not.*punishment/i);
+  assert.match(havisham.culturalContextNote, /solitude|seclusion/i);
+});
+
+test("reviewed repair, belonging, and place manuscripts print canonical mechanics", () => {
+  const peacemaker = fs.readFileSync("content/mother/archetypes/peacemaker.md", "utf8");
+  const community = fs.readFileSync("content/mother/archetypes/community-weaver.md", "utf8");
+  const host = fs.readFileSync("content/mother/archetypes/host.md", "utf8");
+  const peaceEnforcer = fs.readFileSync("content/mother/shadows/peace-enforcer.md", "utf8");
+  const isolated = fs.readFileSync("content/mother/shadows/isolated-helper.md", "utf8");
+  const closed = fs.readFileSync("content/mother/shadows/closed-hearth.md", "utf8");
+
+  assert.match(peacemaker, /Mature Peacemaker = Reconciliation \+ Confrontation/);
+  assert.match(community, /Mature Community Weaver = Belonging \+ Accountability/);
+  assert.match(host, /Mature Host = Hospitality \+ Privacy/);
+  assert.match(peaceEnforcer, /myth-peace-enforcer-torvald-helmer-dolls-house-3/);
+  assert.match(isolated, /myth-isolated-helper-amy-dorrit-little-dorrit-1-7/);
+  assert.match(closed, /myth-closed-hearth-miss-havisham-great-expectations-8-49/);
 });

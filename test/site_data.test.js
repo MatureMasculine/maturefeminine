@@ -200,7 +200,7 @@ test("Eleventy emits lifecycle, archetype, shadow, and legacy redirect pages", (
 
 test("pending archetype pages render the six populated profile fields and both shadows", () => {
   assert.ifError(buildError);
-  const html = outputText("mother/peacemaker/index.html");
+  const html = outputText("queen/justice/index.html");
   const approvedFields = [
     "lifecycleStage",
     "coreFunction",
@@ -214,15 +214,15 @@ test("pending archetype pages render the six populated profile fields and both s
   for (const field of approvedFields) {
     assert.match(html, new RegExp(`data-profile-field="${field}"`));
   }
-  assert.match(html, /href="\/mother\/peacemaker\/shadows\/peace-enforcer\/"/);
-  assert.match(html, /href="\/mother\/peacemaker\/shadows\/resentful-bystander\/"/);
+  assert.match(html, /href="\/queen\/justice\/shadows\/merciless-judge\/"/);
+  assert.match(html, /href="\/queen\/justice\/shadows\/permissive-witness\/"/);
   assert.doesNotMatch(html, /quoteIds|mythicSourceIds|researchStatus/);
 });
 
 test("blank quotations do not render ornamental quotation blocks", () => {
   assert.ifError(buildError);
-  const archetype = outputText("mother/peacemaker/index.html");
-  const shadow = outputText("mother/peacemaker/shadows/peace-enforcer/index.html");
+  const archetype = outputText("queen/justice/index.html");
+  const shadow = outputText("queen/justice/shadows/merciless-judge/index.html");
 
   assert.doesNotMatch(archetype, /entry-quote/);
   assert.doesNotMatch(shadow, /entry-quote/);

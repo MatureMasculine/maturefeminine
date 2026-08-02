@@ -276,3 +276,90 @@ An independent audit re-resolved all 27 sources, reread all nine manuscripts, an
 - Mother and Unavailable Mother closing locations use compact `ch. VII` and `ch. X` attributions so no Roman numeral sits alone on a line; full locations remain in the research ledger.
 
 The focused source tests were tightened before the records changed, then returned green. The full 109-test Node suite, structural sync, site build, 24 Python print tests, all three exact-spread validations, and a fresh page-image inspection passed after the final reflow.
+
+## Mother — Repair, Belonging, and Place
+
+Date: 2026-08-02
+
+Scope: `peacemaker`, `peace-enforcer`, `resentful-bystander`, `community-weaver`, `enmeshing-networker`, `isolated-helper`, `host`, `martyr-host`, and `closed-hearth`
+
+Authority: `editorial/canonical-taxonomy.md`, `editorial/style-sheet.md`, and `.superpowers/sdd/task-6-mother-b-brief.md`
+
+### Lifecycle Frame and Trio Mechanics
+
+Mother remains revisitable psychological territory rather than a biological, reproductive, chronological, domestic, marital, or parenting identity. Repair, community building, and hosting are available across genders, family arrangements, property status, cultural roles, and kinds of work. Material capacity, disability, housing, money, labor, safety, and institutional responsibility remain part of every application.
+
+- Printed `Mature Peacemaker = Reconciliation + Confrontation` in all three profiles. Peacemaker brings rupture into truthful, voluntary contact without predetermining closeness. Peace Enforcer expands Reconciliation without Confrontation and restores Confrontation through accurate events, asymmetric responsibility, voluntary process, observable repair, and consequence. Resentful Bystander collapses Reconciliation while Confrontation becomes private prosecution and restores Reconciliation through a direct request, explicit boundary, supported process, chosen distance, or nonpunitive ending.
+- Printed `Mature Community Weaver = Belonging + Accountability` in all three profiles. Community Weaver builds reciprocal relational infrastructure that can survive difference, dissent, consequence, and succession. Enmeshing Networker expands Belonging without Accountability and restores Accountability through consent, disclosed interests, independent relationship, direct contact, equal standards, and external review. Isolated Helper collapses Belonging while Accountability becomes solitary usefulness and critique; it restores Belonging through visible roles, requested support, shared authority, received care, and material access.
+- Printed `Mature Host = Hospitality + Privacy` in all three profiles. Host maintains a usable sanctuary and a welcome with explicit limits. Martyr Host expands Hospitality without Privacy and restores Privacy through finite offers, protected time and space, visible labor, household consent, shared responsibility, and structural remedy. Closed Hearth collapses Hospitality while Privacy becomes enclosure and restores Hospitality through one specific, wanted, reviewable threshold that does not require unsafe access.
+
+Reconciliation may result in closeness, changed terms, restitution without intimacy, distance, or an ending. Belonging does not mean conformity, compulsory disclosure, permanent participation, or immunity from consequence. Hospitality does not mean feminized service, domestic perfection, unlimited availability, or admission of an unsafe person.
+
+### Lifecycle-Wide Mother Distinction Review
+
+The six Mother parents now hold separate objects and decisions:
+
+- Mother sustains a dependent person's life and developing or continuing agency. Host sustains a place and its welcome. Community Weaver sustains reciprocal ties among members. A meal may involve all three, but their tests differ: whose capacity is developing, whether the place remains usable, and whether participation and responsibility travel fairly.
+- Guardian decides access at a safety threshold from evidence, role, proportionality, and Trust. Host decides what a place can offer while preserving Privacy. Community Weaver decides how people can participate and answer to one another. Neither inclusion nor hospitality cancels the Guardian's responsibility to restrict credible danger.
+- Warrior mobilizes bounded force against a defined threat and stops when the protective purpose is served. Peacemaker works after or around rupture to determine what truthful contact is possible. Peacemaking does not substitute for defense during danger, and force does not decide the later terms of relationship.
+- Peacemaker repairs contact; Justice determines standards, fair process, responsibility, and consequence. A restorative conversation cannot replace investigation, legal protection, or formal remedy when those are required. Justice may impose a fair consequence even when relationship cannot or should not be restored.
+- Community Weaver builds the channels, roles, consent practices, and handoffs through which a network functions. Storyteller shapes and transmits shared memory. A community needs narrative, but control of the story is not control of membership, access, resources, or accountability.
+- Host sustains a place; Community Weaver sustains relationships that can move among places. A gathering may create contact, but repeated belonging requires decision rights, reciprocal labor, repair routes, and continuity beyond one host's availability.
+
+Neighbor functions remain distinct:
+
+- Healer organizes relief, treatment, repair, or increased capacity in response to suffering. Mother sustains legitimate dependency; Host sustains a setting in which care may occur. Warmth, nurture, and treatment are not interchangeable.
+- Witness accompanies experience that cannot presently be fixed or controlled. Peacemaker seeks a workable relational next form only when contact is voluntary and possible. Witnessing may be the complete ethical response where reconciliation would be unsafe, unwanted, or false.
+- Rebel contests stale or illegitimate authority. Warrior answers a defined threat with force; Peacemaker addresses rupture; Community Weaver builds an accountable alternative relation. Opposition alone does not perform any of those later functions.
+- Justice remains the reference point where informal relational power, unequal responsibility, labor, access, or structural harm exceeds the proper scope of private care, mediation, community goodwill, or hospitality.
+
+Gate: passed. Each function has a distinct object, decision, and failure mode. No entry makes repair, belonging, or welcome a substitute for safety, consequence, public obligation, or material capacity.
+
+### Pass 1: Developmental and Safety Edit
+
+- Replaced placeholder equations and one-line applications with full causal mechanics, domain-specific choices, retained energy, opposite swings, and practices tied to the missing quality.
+- Distinguished truthful Confrontation from aggression, humiliation, forced disclosure, and unsafe direct contact. Mediation, advocacy, formal process, written exchange, distance, and no contact remain legitimate containers.
+- Distinguished Reconciliation from forgiveness, reunion, trust, access, and relieved tension. Repair is measured by accurate responsibility and changed conduct rather than a quiet room.
+- Distinguished Accountability from punishment, surveillance, secrecy, public shaming, and control by the most connected person. The Community Weaver gives dissent and consequence a route that does not erase membership or dignity.
+- Distinguished solitude and Privacy from isolation and secrecy. Closed doors, low social capacity, disability access, cultural protocols, confidential work, and refuge from danger are not shadows. The Closed Hearth mechanism is coercive or instrumental closure that prevents wanted life from entering.
+- Located invisible service inside gender, race, class, migration, disability, family role, employment, and institutional abandonment. The Isolated Helper and Martyr Host do not blame a person whose labor is coerced, exploited, or naturalized; their practices make work visible and return duty to the structure that owns it.
+- Stated that no private home, individual caregiver, volunteer network, or informal reconciliation process should cover abandoned obligations in housing, healthcare, labor protection, disability access, public safety, or legal remedy.
+
+Gate: passed. The manuscripts do not prescribe forgiveness, confrontation, belonging, hosting, renewed contact, or disclosure where any is unsafe, unwanted, impossible, or inequitable.
+
+### Pass 2: Anti-Fluff, Redundancy, and Overlap Edit
+
+- Removed inherited “peace-bringer,” “community-goddess,” and “hearth-goddess” current slogans from body explanations while preserving approved aliases and migration routes in metadata.
+- Replaced generic harmony language with observable distinctions among event, impact, disputed fact, power, role, request, agreement, review, and consequence.
+- Replaced generic community uplift with consent before introduction, information ownership, decision routes, labor distribution, material access, succession, and the right to leave.
+- Replaced decorative domesticity with concrete thresholds: arrival and departure, private rooms and hours, household consent, safety, access, food, labor, budget, recovery, and handoff.
+- Kept assigned literary names exclusively in the seven-row profile. No resonance supplies psychological proof, decoration, diagnosis, or a title.
+- After content sync, all 312 declaration strings and all 272 practice strings across 36 verified entries are unique; exact reuse is zero.
+- Compared 131 eligible batch paragraphs against 510 Maiden, Lover, and full-Mother paragraphs across 66,679 pairs. None reached Jaccard `0.55`; the maximum was `0.3684`, between the two required opposite-shadow explanations in the Community Weaver trio.
+
+Gate: passed. Every paragraph adds mechanism, distinction, material context, safety boundary, consequence, or practice; repeated framework language remains only where the paired architecture requires it.
+
+### Pass 3: Line and Copy Edit
+
+- Kept every parent at ten first-person declarations and nine `we/our` practices; kept every shadow at eight first-person declarations and eight `we/our` practices.
+- Tailored headings to each actual relationship: contact and friction, calm becoming control, grievance becoming distance, web becoming net, service replacing membership, welcome with a door, sanctuary consumed, and privacy sealing the threshold.
+- Preserved canonical slugs, lifecycle and order, parent/opposite links, aliases, legacy routes/anchors, functions, quality order, reader-facing titles, and existing image fields. `closed-hearth` remains intentionally without a replacement image because artwork is outside this content checkpoint.
+- Confirmed exact seven-row profile order and literal balance equations in all nine manuscripts. All shadow practices restore the missing quality and then rejoin the pair.
+- Used direct first-person declarations, shared-practice invitations, terminal punctuation, and citation-light body prose. Named source speakers appear only in quotation attribution; assigned resonance figures appear only in the profile field.
+
+### Pass 4: Research Record and Independent Source Review
+
+- Assigned 18 unique verified public-domain quotations and nine unique, noninherited literary resonances. The quote slate uses Charlotte Brontë, Mary Parker Follett, Henrik Ibsen in R. Farquharson Sharp's translation, Ida B. Wells, George Eliot, Jane Addams, Jane Austen, Mary Wollstonecraft, Amy Levy, Virginia Woolf, Elizabeth Cady Stanton, Florence Nightingale, Emily Dickinson, and Charles Dickens. Repeated authors use different exact passages; no ID or text is reused.
+- Corrected source locations during independent review: both Follett excerpts are chapter III, printed p. 40; Eliot's reticence sentence is book IV, chapter XXXVII; Wells is section 6, “Self-Help,” printed p. 23; Wollstonecraft is chapter IV and ends with an exclamation mark.
+- Preserved source-witness detail: Austen's Gutenberg witness reads `every body’s` twice; the Nightingale original is volume II, printed p. 384 rather than modern-edition p. 213; the Dickinson stanza follows a manuscript-based Franklin 409 / Johnson 303 transcription and its spaced-en-dash convention rather than the normalized 1890 “Exclusion” text; *Great Expectations* continuous chapter XLIX maps to first-edition volume III, chapter X.
+- Kept the Addams Host excerpt transparent. The bracket identifies the mid-sentence capital, and the ledger reproduces the omitted “large foreign colonies” clause so the ellipsis cannot sanitize settlement paternalism and assimilation.
+- Controlled Wells's exact sentence against the 1892 NYPL scan rather than relying on Gutenberg's unidentified later reprint. The record forbids reducing racist lynching and white-press distortion to an analogy for ordinary disagreement.
+- Selected nine source-strong literary figures: Dorothea Brooke, Torvald Helmer, Edward Casaubon, Margaret Hale, Madame Merle, Amy Dorrit, Betsey Trotwood, Mrs. Ramsay, and Miss Havisham. Each assignment is limited to cited chapters and includes counterevidence, version limits, structural context, and safety risks.
+- Treated the two most ambivalent assignments narrowly. Amy Dorrit shows indispensable labor naturalized under poverty, debtor imprisonment, parentification, and family exploitation, not chosen antisocial detachment. Mrs. Ramsay shows gendered hospitality and depletion while also preserving inward solitude; she is not reduced to a one-note type or blamed for another person's demands.
+- The Miss Havisham record distinguishes coercive, instrumental use of access from privacy, age, childlessness, trauma, solitude, and seclusion. Fire and injury are not punishment, purification, or earned redemption, and one person's forgiveness cannot stand in for another's.
+
+Gate: passed. The focused RED tests now pass with exact assignment cardinality, excerpt transparency, witness lineation, and high-risk cultural limits enforced.
+
+### Production Status
+
+Pagination, exact two-page fitting, and visual spread inspection are deliberately deferred. During this checkpoint the previous PDF layout became obsolete and a replacement renderer was approved in parallel. No prose was padded or cut to fit the superseded renderer, and no print renderer, print test, or artwork file is part of this source-completion change. Final pagination, parity, overflow, image/profile hierarchy, and all-page visual inspection remain required when the approved renderer is integrated and stable.
