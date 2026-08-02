@@ -24,6 +24,9 @@ test("newly commissioned shadow artwork is local, distinct, and provenance-compl
     "martyr-host",
     "peace-enforcer",
     "resentful-bystander",
+    "isolated-helper",
+    "rampaging-warrior",
+    "justice",
   ];
   const records = assignments.map(record);
 
@@ -55,6 +58,9 @@ test("commissioned artwork is mapped by its canonical manuscript", () => {
     "martyr-host": "content/mother/shadows/martyr-host.md",
     "peace-enforcer": "content/mother/shadows/peace-enforcer.md",
     "resentful-bystander": "content/mother/shadows/resentful-bystander.md",
+    "isolated-helper": "content/mother/shadows/isolated-helper.md",
+    "rampaging-warrior": "content/mother/shadows/rampaging-warrior.md",
+    justice: "content/queen/archetypes/justice.md",
   };
 
   for (const [assignment, sourcePath] of Object.entries(sources)) {

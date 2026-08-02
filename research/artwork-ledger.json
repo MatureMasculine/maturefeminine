@@ -144,6 +144,45 @@
       "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a mature archetype field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray the Resentful Bystander, the passive shadow of peacemaking: Reconciliation has collapsed while Confrontation retreats into private grievance, punitive distance, imagined trials, and silence that pretends to be peace\nScene/backdrop: a divided interior after a gathering; an untouched chair faces a distant doorway; private notebooks, sealed letters, and carefully stacked black stones accumulate on one side while a small repair table remains unused across the room\nSubject: one adult woman, fully clothed, turned partly away, recording another grievance but glancing toward the unused path to direct repair; intelligent and hurt, not passive or helpless\nStyle/medium: richly detailed painterly fantasy realism, tactile paper, ink, stone, wood, cooled tea, rain-streaked glass, and restrained shadow\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, face, notebook, accumulated tokens, distance, and unused repair path readable in a narrow crop\nLighting/mood: cool blue-gray and umber with one restrained warm light across the room; quiet, prosecutorial, lonely\nConstraints: no text or readable writing, captions, labels, borders, logos, watermarks, deity names, cultural regalia, victims, explicit conflict, or moralizing caricature\nAvoid: generalized passivity, passive-enabler stereotype, courtroom costume, sulking child, horror, photorealistic stock-photo look",
       "editorialRationale": "The private ledger, accumulated stones, and unused repair path show Confrontation displaced into grievance after Reconciliation has left the room.",
       "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-isolated-helper-generated-2026-08-02",
+      "assignment": "isolated-helper",
+      "file": "assets/images/shadow/isolated-helper-v2.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a mature archetype field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray the Isolated Helper, the passive shadow of reciprocal belonging: Belonging has collapsed while Accountability becomes solitary usefulness, critique from the margins, and refusal of mutual support\nScene/backdrop: just outside a warm communal workshop, one woman repairs tools, carries supplies, and completes necessary tasks alone; through an open doorway a circle of distinct empty work chairs waits, including one place clearly meant for her\nSubject: one adult woman, fully clothed, competent and burdened, focused on being useful while keeping herself outside the shared room; her own need remains packed away with her tools\nStyle/medium: richly detailed painterly fantasy realism, tactile wood, thread, metal, baskets, worktables, lamplight, and restrained woven motifs\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, hands, solitary labor, open communal doorway, and unused place readable in a narrow crop\nLighting/mood: cool exterior blue and umber contrasted with a restrained amber communal interior; capable, detached, quietly lonely\nConstraints: no text or readable writing, captions, labels, borders, logos, watermarks, deity names, cultural regalia, children, helplessness, or moralizing caricature\nAvoid: dense group-web composition, codependent helper, charity scene, exhausted servant, photorealistic stock-photo look",
+      "editorialRationale": "The solitary useful work and visible unused place inside the group show Accountability detached from reciprocal Belonging.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-rampaging-warrior-generated-2026-08-02",
+      "assignment": "rampaging-warrior",
+      "file": "assets/images/shadow/rampaging-warrior.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a mature archetype field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray the Rampaging Warrior, the active shadow of proportionate defense: Ferocity continues without Restraint after safety has been restored, broadening the target and moving the stopping condition\nScene/backdrop: a breached defensive boundary after the immediate threat has passed; one contained red protective flame or storm has escaped its circle and is racing beyond the marked boundary into an undamaged landscape\nSubject: one adult woman, fully clothed in non-culture-specific practical armor, powerful and battle-ready, directing force past the point of protection; a lowered shield and the intact people-free sanctuary behind her show the original protective purpose\nStyle/medium: richly detailed painterly fantasy realism, tactile leather, metal, stone, ash, wind, and controlled symbolic fire; grave and consequential\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, face, lowered shield, crossed boundary marker, intact sanctuary, and runaway force readable in a narrow crop\nLighting/mood: fierce ember red and iron gray with cool dawn behind; kinetic, costly, not triumphant\nConstraints: no text, captions, labels, borders, logos, watermarks, deity names, sacred or living-tradition regalia, gore, bodies, victims, racialized enemies, or moralizing caricature\nAvoid: aggressive-bully label, berserker stereotype, bloodlust, domination glamour, horned helmet, comic-book superhero, photorealistic stock-photo look",
+      "editorialRationale": "The original sanctuary is already safe while the force crosses its marked boundary, making Ferocity without Restraint legible without depicting a victim.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-justice-generated-2026-08-02",
+      "assignment": "justice",
+      "file": "assets/images/justice.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "979x1606",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a mature archetype field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray mature Justice, who joins Truth with Mercy: she names harm accurately, chooses proportionate consequence, protects those affected, and preserves a credible path to accountability and repair\nScene/backdrop: a dignified civic chamber with a plain evidence table, several differently weighted stones, a cracked vessel being repaired with visible joinery, and an open doorway beyond the judgment seat\nSubject: one mature adult woman, fully clothed, clear-eyed and grounded, studying the whole record; one hand rests on verified evidence while the other places a measured weight beside the repairable vessel\nStyle/medium: richly detailed painterly fantasy realism, tactile stone, wood, paper, ceramic, brass, and daylight; archetypal but not deity-specific\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, face, hands, evidence, measured weights, repaired vessel, and open path readable in a narrow print crop\nLighting/mood: balanced natural light, deep blue, warm stone, muted brass, and a quiet green note; steady, humane, resolute\nConstraints: no text or readable writing, captions, labels, borders, logos, watermarks, deity names, Ma'at imagery, Egyptian regalia, blindfold, sword, courtroom costume, victims, or moralizing caricature\nAvoid: goddess portrait, punitive judge, sentimental forgiveness, scales-of-justice cliché, photorealistic stock-photo look",
+      "editorialRationale": "Verified evidence, varied weights, visible repair, and an open route beyond consequence join Truth with Mercy without deity-specific iconography.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
     }
   ]
 }
