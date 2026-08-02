@@ -141,7 +141,7 @@ The standalone and compiled validators both pass the Lover trio. Each spread has
 | Enmeshing Lover | 4–5 | 0.9481 | 0 |
 | Armored Lover | 6–7 | 0.9262 | 0 |
 
-The deliberately narrow title allowance accepts only a centered first-page Cinzel block of at least 18 points in the chapter-title band. A same-position body-font block remains a hard overflow failure. The Python print suite passes all 43 tests. The six-page visual proof is stored at `book/print-pdf/contact-sheets/lover-design-proof.pdf` and `book/print-pdf/contact-sheets/lover-design-proof.png`.
+The deliberately narrow title allowance accepts only a centered first-page Cinzel block of at least 18 points in the chapter-title band. A same-position body-font block remains a hard overflow failure. The Python print suite passes all 43 tests. The six-page visual proof was rasterized at 150 DPI and is stored at `book/print-pdf/contact-sheets/lover-design.pdf` and `book/print-pdf/contact-sheets/lover-design.png`.
 
 ## Independent-Review Remediation
 
