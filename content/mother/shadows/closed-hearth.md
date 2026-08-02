@@ -45,7 +45,7 @@ Present no more –”
 
 ## When Privacy Seals the Door
 
-The Closed Hearth is the passive shadow of the Host. Hospitality collapses while Privacy distorts. The place no longer supports chosen encounter; it protects order, memory, injury, or self-sufficiency from the unpredictability of another person. Access may be rare, conditional, instrumental, or governed by rules that no guest can know until she violates them.
+The Closed Hearth is the passive shadow of the Host: Hospitality collapses while Privacy distorts. The place protects order, memory, injury, or self-sufficiency from another person's unpredictability. Access becomes rare, instrumental, or governed by rules no guest knows until she violates them.
 
 The missing quality is Hospitality: a voluntary opening through which relationship can enter without possessing the sanctuary. Restoring it does not require unsafe admission, domestic performance, or unlimited availability. It asks whether one real threshold can open under terms that protect everyone affected.
 
@@ -62,21 +62,21 @@ The missing quality is Hospitality: a voluntary opening through which relationsh
 
 ## How Sanctuary Becomes Enclosure
 
-This pattern may have formed after intrusion, domestic chaos, abuse, stalking, displacement, poverty, sensory overload, or a period when other people's needs consumed every available room. A protected place may have been necessary for survival. The shadow does not name seclusion, solitude, quiet, or a closed door as pathology. It appears when protection becomes the permanent use of the place and no voluntary relationship can be received there.
+This pattern may have formed after intrusion, chaos, abuse, stalking, displacement, poverty, sensory overload, or demands that consumed every room. Protection may have been necessary. Seclusion, quiet, and closed doors are not pathology; shadow begins when protection becomes the place's permanent use and receives no voluntary relationship.
 
-She may experience an invitation as the beginning of uncontrollable demand. One visitor implies food, cleaning, conversation, explanation, access to private history, and a future obligation to repeat the welcome. Because the imagined cost is total, even a bounded request receives a total no. She avoids negotiating the actual scale.
+An invitation can feel like uncontrollable demand: food, cleaning, conversation, private history, and an obligation to repeat the welcome. Because the imagined cost is total, even a bounded request receives a total no.
 
-Order can become a gate. The room, meal, schedule, or mood must be ready before anyone enters, yet readiness continually recedes. A shared household may learn that belonging depends on leaving no trace, needing nothing, and preserving one person's preferred atmosphere. Privacy then stops protecting each resident and becomes authority over common life.
+Order becomes a gate. The room, meal, schedule, or mood must be ready, but readiness recedes. A household learns that belonging means leaving no trace and preserving one person's atmosphere. Privacy becomes authority over common life.
 
-In relationship, she may permit contact only at a distance or for a task. She gives information without self-revelation, receives help without companionship, or invites people into a role designed around an old grievance. Access becomes instrumental: another person is present to witness, distract, reassure, or carry a message, not to participate as a distinct guest.
+In relationship, she permits contact only at a distance or for a task. She gives information without self-revelation, receives help without companionship, or recruits people around an old grievance. The other person witnesses, reassures, or carries a message rather than participating as a distinct guest.
 
-At work and in community, the closed hearth can appear as a team, office, tradition, or institution that claims a welcoming identity while requiring newcomers to decode private norms. Knowledge stays with insiders; questions are treated as disruption; unused rooms, resources, or authority remain protected because sharing would change the established order.
+At work or in community, a supposedly welcoming institution makes newcomers decode private norms. Knowledge stays with insiders, questions become disruption, and unused resources remain protected because sharing would change the order.
 
-Some doors should remain closed. Privacy, disability needs, cultural protocols, confidential work, household consent, limited money, and credible danger all justify boundaries. No one owes access to an abuser, stalker, coercive relative, unsafe colleague, or public audience. The question is not whether the door closes, but whether closure is proportionate, chosen, reviewable, and still leaves room for wanted life.
+Some doors should remain closed. Disability needs, cultural protocols, confidential work, household consent, limited money, and danger justify boundaries. No one owes access to an abuser, stalker, coercive relative, unsafe colleague, or public audience. The question is whether closure is proportionate, chosen, reviewable, and leaves room for wanted life.
 
 ## The Sovereignty Inside the Wall
 
-The Closed Hearth carries discernment, self-possession, respect for quiet, and refusal to make private life public property. She understands that access changes a place and that sanctuary can be damaged by entitlement. Her caution may protect people and histories that a culture expects to remain available.
+The Closed Hearth carries discernment, self-possession, respect for quiet, and refusal to make private life public property. Her caution may protect people and histories a culture expects to remain available.
 
 With Hospitality restored, sovereignty becomes the power to choose a form of welcome. She can offer one room instead of the whole house, one hour instead of indefinite availability, one conversation without disclosing everything, or a meeting in neutral space. The threshold becomes specific rather than sealed.
 
@@ -96,30 +96,30 @@ Freezes the place around old injury
 
 ## Opening One Chosen Threshold
 
-- We identify what a request actually asks for—time, room, food, attention, information, or access—and separate it from the total claim we fear.
+- We name what a request actually asks—time, room, food, attention, information, or access—and separate it from the total claim we fear.
 - We choose one bounded form of contact with a named beginning, ending, place, and private limit.
 - We tell a guest or household member the relevant norms in advance instead of making belonging depend on hidden tests.
-- We invite contribution to a shared space while protecting clearly designated private rooms, objects, records, and hours.
+- We invite contribution while protecting designated private rooms, objects, records, and hours.
 - We make one place usable before it is perfect and notice whether connection truly damages what matters.
 - We meet in neutral, public, digital, or supported space when opening the home is unwanted or unsafe.
-- We review a boundary after a defined interval and keep, widen, narrow, or end it from present evidence rather than old urgency alone.
+- We review a boundary on a set date and keep, widen, narrow, or end it from present evidence.
 - We distinguish a person who is disappointed by our limit from a person who ignores, contests, or retaliates against it, and we adjust access accordingly.
 
 ## The Swing Toward Self-Erasure
 
-When loneliness, crisis, guilt, or fear of seeming cold finally breaks the enclosure, the Closed Hearth may swing toward the Martyr Host. She opens too far, promises more than she can sustain, and tries to compensate for distance through complete availability. The predictable exhaustion then confirms that welcome is dangerous.
+When loneliness, guilt, or crisis breaks the enclosure, she may open too far and compensate through complete availability. Exhaustion then confirms that welcome is dangerous.
 
-Both shadows turn the threshold into an absolute. Hospitality without Privacy consumes the sanctuary; collapsed Hospitality lets Privacy exclude all encounter. The Host opens and closes in proportion to desire, capacity, consent, and safety.
+Both shadows turn the threshold into an absolute. Hospitality without Privacy consumes sanctuary; collapsed Hospitality excludes encounter. The Host opens and closes in proportion to desire, capacity, consent, and safety.
 
 ## A Sanctuary That Can Receive Life
 
-Transformation begins when she stops asking privacy to guarantee that nothing will disturb her. Sanctuary need not remain untouched to remain hers. She can let one chosen relationship leave a cup on the table, alter the schedule, or know something true without surrendering the whole interior.
+Transformation stops asking privacy to guarantee no disturbance. Sanctuary can remain hers after one chosen relationship leaves a cup, alters a schedule, or knows something true.
 
-She also separates past injury from present admission. Recognition and remorse do not automatically repair damage, and accident, illness, or fire is never moral punishment, purification, or earned redemption. Repair requires action toward the people affected, while renewed access remains theirs to choose.
+She separates past injury from present admission. Recognition and remorse do not repair damage automatically, and accident, illness, or fire is never moral punishment. Repair requires action; renewed access remains the affected person's choice.
 
 ## Where She Returns
 
-The Closed Hearth returns to the Host when Privacy protects a life capable of chosen encounter. Hospitality restores movement at the door: an invitation can be finite, a guest can remain distinct, and a boundary can be spoken before resentment. The sanctuary is no longer a museum of what must never happen again. It becomes a living place that can receive what is wanted and close against what is not.
+She returns when Privacy protects a life capable of chosen encounter. Hospitality restores movement: invitations are finite, guests remain distinct, and boundaries precede resentment. Sanctuary receives what is wanted and closes against what is not.
 
 ## Closing Quotation
 

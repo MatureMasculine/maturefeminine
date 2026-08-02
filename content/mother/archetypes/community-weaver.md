@@ -37,11 +37,11 @@ sectionRoles: definition=A Web Strong Enough for Difference|declarations=The Com
 
 ## A Web Strong Enough for Difference
 
-The Community Weaver creates reciprocal belonging whose ties remain truthful, consensual, and repairable. She notices where people, skills, resources, and needs could meet, then builds forms that let those relationships continue without her permanent management. Her work can be as small as introducing two neighbors or as structural as designing a membership process, mutual-aid system, association, workplace practice, or civic coalition.
+The Community Weaver creates reciprocal belonging whose ties remain truthful, consensual, and repairable. She connects people, skills, resources, and needs, then builds forms that can continue without her permanent management. Her scale ranges from two neighbors to a mutual-aid system, workplace practice, or civic coalition.
 
-Belonging, in her hands, is not sameness. Members can disagree, refuse intimacy, protect private lives, enter at different levels, and remain accountable for impact. A sturdy community does not demand unlimited access or loyalty to an insider's version of events. It makes expectations visible, distributes voice and labor, and creates a route for concern, repair, consequence, and departure.
+Belonging is not sameness. Members may disagree, refuse intimacy, protect privacy, participate at different levels, and remain accountable for impact. A sturdy community makes expectations visible, distributes voice and labor, and provides routes for concern, repair, consequence, and departure.
 
-The Community Weaver builds relational infrastructure. The Storyteller shapes shared memory; the Host sustains a place and its welcome; the Mother develops capacity within care. She may draw on all three, but her particular craft is the web itself: who can participate, how information travels, where responsibility rests, and whether ties can survive truth.
+The Storyteller shapes shared memory, the Host sustains a place, and the Mother develops capacity within care. The Community Weaver's craft is the web itself: who participates, how information travels, where responsibility rests, and whether ties can survive truth.
 
 ## The Community Weaver's Inner Stance
 
@@ -58,11 +58,11 @@ The Community Weaver builds relational infrastructure. The Storyteller shapes sh
 
 ## Membership With Consequence
 
-Belonging is the felt and practical experience of having a legitimate place. It grows through recognition, contribution, shared purpose, reliable contact, ritual, mutual aid, and the knowledge that one's difference need not be hidden to remain a member. Belonging is not compulsory intimacy. A person can be deeply included while choosing limited disclosure, quiet participation, or clear boundaries.
+Belonging is the felt and practical experience of a legitimate place. It grows through recognition, contribution, shared purpose, reliable contact, and knowledge that difference need not be hidden. It never requires intimacy, disclosure, or constant participation.
 
-Accountability makes the web answerable to its values and effects. It clarifies roles, follows through on commitments, names harm, corrects unequal burdens, and establishes consequences that protect participation. Accountability is not punishment, surveillance, public shaming, or control by the most connected person. Its aim is trustworthy relationship and function.
+Accountability makes the web answerable to its values and effects. It clarifies roles, commitments, harm, unequal burdens, and consequences that protect participation. Its aim is trustworthy relationship, not punishment, surveillance, shaming, or control by the most connected person.
 
-Belonging without Accountability produces the Enmeshing Networker, who treats access, loyalty, and private information as relational currency while protecting insiders from consequence. When Belonging collapses, Accountability distorts in the Isolated Helper: usefulness and critique replace membership, and need is carried alone. Belonging keeps accountability relational; accountability keeps belonging from becoming immunity or conformity.
+Without Accountability, Belonging turns access, loyalty, and private information into currency while shielding insiders. When Belonging collapses, Accountability becomes solitary usefulness and critique. Belonging keeps accountability relational; accountability keeps belonging from becoming immunity or conformity.
 
 ## Where Belonging Becomes Infrastructure
 
@@ -70,27 +70,27 @@ A web becomes mature when its values can be seen in ordinary arrangements, not o
 
 ### Inner Life
 
-She notices the roles she adopts to earn a place: organizer, expert, listener, provider, agreeable member, or permanent newcomer. She asks which contributions are freely chosen and what part of her remains unrepresented. She practices receiving recognition without immediately converting it into another task.
+She notices the roles she adopts to earn a place and asks which contributions are freely chosen. She receives recognition without converting it immediately into another task.
 
 ### Relationship
 
-She introduces people with consent and lets them form an independent bond. She does not disclose one friend's confidence to accelerate another friendship or use closeness with each person to become the sole interpreter between them. When tension arises, she supports direct, safe contact rather than carrying messages indefinitely.
+She introduces people with consent and releases the bond. She neither trades confidences nor becomes the sole interpreter between two people. Tension returns to direct, safe contact rather than indefinite message carrying.
 
 ### Work and Leadership
 
-She builds onboarding, decision rights, feedback routes, documentation, and handoffs so informal familiarity does not become the real constitution. She identifies who is invited after decisions are already made, whose labor remains invisible, and which standards are enforced selectively. Inclusion gains substance through authority, access, compensation, and consequence.
+She builds onboarding, decision rights, feedback routes, documentation, and handoffs so familiarity does not become the real constitution. She tracks late invitations, invisible labor, and selective standards. Inclusion gains substance through authority, access, compensation, and consequence.
 
 ### Community and Stewardship
 
-She creates multiple paths to participation and attends to language, disability, money, transport, caregiving, safety, and digital access. She protects confidential information, documents stewardship of shared resources, and plans succession. A healthy network can redistribute load, survive leadership change, and let a member step back without disappearing from care.
+She creates several paths to participation, attentive to language, disability, money, transport, caregiving, safety, and digital access. She protects confidences, documents shared resources, and plans succession so load can move and members can step back without disappearing from care.
 
 ## What the Web Asks of Her
 
-The Community Weaver carries social perception, generosity, memory for people's gifts, and confidence that difference can become cooperation. She can help isolated efforts discover one another and turn a repeated need into shared capacity. She often senses when a room lacks a voice or when someone has become the unacknowledged bridge.
+The Community Weaver carries social perception, generosity, memory for people's gifts, and confidence that difference can become cooperation. She joins isolated efforts and notices absent voices or unacknowledged bridges.
 
-These gifts create responsibility. Informal connection is power. She must not mistake being trusted with owning information, deciding who belongs, or speaking for people whose consent she has not sought. She must make her own interests visible and create independent routes for complaint, decision, and relationship.
+Informal connection is power. She does not mistake trust for ownership of information, membership, or another person's voice. She makes her interests visible and creates independent routes for complaint, decision, and relationship.
 
-She also accepts limits. Some groups are incompatible; some conduct requires removal; some people do not want membership. Community cannot substitute for housing, healthcare, labor rights, public services, or professional support. She can strengthen collective response without turning private generosity into a cover for abandoned institutions.
+She accepts that some groups are incompatible, some conduct requires removal, and some people do not want membership. Community cannot substitute for housing, healthcare, labor rights, public services, or professional support.
 
 ## Practices of Reciprocal Belonging
 
@@ -106,7 +106,7 @@ She also accepts limits. Some groups are incompatible; some conduct requires rem
 
 ## Living as the Community Weaver
 
-Living as the Community Weaver means making a place in the web without turning the web into a net. She welcomes difference, clarifies responsibility, and lets relationships grow beyond her authorship. Her communities are not defined by the absence of conflict but by their ability to bring conflict into an honest process without erasing membership or consequence. Belonging becomes credible because people can consent, dissent, repair, depart, and return under terms larger than one person's influence.
+Living as the Community Weaver means making a place in the web without turning it into a net. She welcomes difference, clarifies responsibility, and lets relationships outgrow her authorship. Belonging becomes credible because people can consent, dissent, repair, depart, and return under terms larger than one person's influence.
 
 ## Closing Quotation
 

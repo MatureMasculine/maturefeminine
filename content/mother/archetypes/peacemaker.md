@@ -37,11 +37,11 @@ sectionRoles: definition=Peace That Can Bear the Truth|declarations=The Peacemak
 
 ## Peace That Can Bear the Truth
 
-The Peacemaker brings relationship through truthful conflict toward workable repair. She does not confuse peace with quiet, politeness, agreement, or restored access. She helps people face what happened, understand its effects, establish responsibility, and decide what form of contact—if any—can now be safe and honest. Sometimes reconciliation renews closeness. Sometimes it creates changed terms, respectful distance, restitution without intimacy, or a clear ending.
+The Peacemaker brings relationship through truthful conflict toward workable repair. She does not confuse peace with quiet, agreement, or restored access. She helps people face what happened, establish responsibility, and decide what form of contact—if any—can now be safe and honest. Reconciliation may renew closeness or create changed terms, respectful distance, restitution without intimacy, or a clear ending.
 
-Her work begins with enough steadiness for reality to be heard. She slows accusation without bleaching harm from the account. She can hold different perceptions while refusing the fiction that every conflict is symmetrical. She distinguishes a difficult conversation from a dangerous one, and she does not use dialogue as a reason to expose anyone to coercion, retaliation, or renewed abuse.
+Her steadiness lets reality be heard. She slows accusation without bleaching harm from the account, holds different perceptions without pretending every conflict is symmetrical, and distinguishes a difficult conversation from a dangerous one. Dialogue never justifies exposure to coercion, retaliation, or renewed abuse.
 
-The Peacemaker repairs contact after rupture. Justice determines fair standards and consequences; the Guardian governs access and safety. She may collaborate with both, but her particular question is relational: *What truthful, voluntary form of contact is possible now?* The answer belongs to those affected, not to her longing for a harmonious outcome.
+Justice determines fair standards and consequences; the Guardian governs access and safety. The Peacemaker's question is relational: *What truthful, voluntary form of contact is possible now?* The answer belongs to those affected, not to her preferred outcome.
 
 ## The Peacemaker's Inner Stance
 
@@ -58,11 +58,11 @@ The Peacemaker repairs contact after rupture. Justice determines fair standards 
 
 ## Contact and the Necessary Friction
 
-Reconciliation turns rupture toward a workable relationship. It includes recognition, repair, revised expectations, and the possibility of trust built from current evidence. Reconciliation does not erase consequence or require warm feeling. It creates a form in which truth no longer has to be hidden for contact to continue—or establishes that contact should not continue.
+Reconciliation turns rupture toward a workable relationship through recognition, repair, revised expectations, and trust built from current evidence. It neither erases consequence nor requires warm feeling. It may also establish that contact should not continue.
 
-Confrontation turns toward the real point of conflict. It says what occurred, who was affected, what remains disputed, and what must change. Mature confrontation is not aggression, humiliation, forced disclosure, or a contest for dominance. It is direct enough that the relationship cannot survive by misunderstanding alone.
+Confrontation states what occurred, who was affected, what remains disputed, and what must change. It is neither aggression nor forced disclosure; it is direct enough that the relationship cannot survive by misunderstanding alone.
 
-Reconciliation without Confrontation produces the Peace Enforcer, who protects surface accord by rushing grief, anger, and consequence. When Reconciliation collapses, Confrontation distorts in the Resentful Bystander: grievance becomes private prosecution, indirect punishment, or permanent evidence against contact. The Peacemaker needs both qualities. Reconciliation gives confrontation a restorative direction; confrontation keeps reconciliation answerable to reality.
+Without Confrontation, Reconciliation protects surface accord by rushing grief, anger, and consequence. When Reconciliation collapses, Confrontation becomes private prosecution or indirect punishment. Reconciliation gives confrontation a restorative direction; confrontation keeps reconciliation answerable to reality.
 
 ## Where Repair Becomes Workable
 
@@ -70,27 +70,27 @@ Repair changes scale across domains, but it always requires truth, choice, and o
 
 ### Inner Life
 
-She stops staging an internal trial that can only produce innocence or guilt. She names what she regrets, what was outside her control, what can still be repaired, and what loss must be grieved. Self-reconciliation includes consequence without making shame a permanent identity.
+She leaves the internal trial of innocence versus guilt. She names regret, limits, possible repair, and loss without making shame a permanent identity.
 
 ### Relationship
 
-She asks what each person needs in order to speak freely and whether a shared conversation is appropriate. She uses separate conversations, written exchange, an advocate, or no contact when direct dialogue would reward intimidation. An apology becomes meaningful when it names impact, accepts responsibility, offers repair, and does not demand immediate reassurance.
+She asks what permits free speech and whether a shared conversation is appropriate. Separate conversations, writing, an advocate, or no contact may be safer than dialogue that rewards intimidation. A meaningful apology names impact, accepts responsibility, offers repair, and demands no reassurance.
 
 ### Work and Leadership
 
-She makes disagreement usable. She separates the decision, process, conduct, and relationship so one conflict does not become a total judgment of a colleague. She documents agreements, names authority, creates a route for dissent, and ensures that mediation does not replace investigation or formal remedy where those are required.
+She separates decision, process, conduct, and relationship so one conflict does not become a total judgment of a colleague. She documents agreements, names authority, creates a route for dissent, and does not substitute mediation for required investigation or remedy.
 
 ### Community
 
-She helps a group tell the truth about rupture without demanding one public performance from everyone. She protects confidentiality without turning secrecy into immunity. She makes room for material repair, changed roles, education, consequence, and return only when the people carrying risk have meaningful choice.
+She helps a group tell the truth without demanding one public performance from everyone. Confidentiality does not become immunity. Material repair, changed roles, consequence, and return remain answerable to those carrying risk.
 
 ## What Repair Asks of Her
 
-The Peacemaker carries patience, emotional range, accurate listening, and the ability to translate accusation into an answerable concern. She can notice the need beneath a defensive position and identify a shared interest without pretending that shared interest cancels unequal harm. She keeps the future imaginable while the present remains unsettled.
+The Peacemaker carries patience, emotional range, accurate listening, and the ability to translate accusation into an answerable concern. She can identify shared interest without using it to cancel unequal harm.
 
-These gifts create responsibility. Her calm can become informal authority, so she must disclose her role, loyalties, limits, and decision power. She must know when she lacks cultural context, subject expertise, neutrality, or safety capacity. Referral, advocacy, investigation, legal protection, or an ending may serve repair better than her continued facilitation.
+Her calm can become informal authority, so she discloses her role, loyalties, limits, and decision power. When she lacks cultural context, expertise, neutrality, or safety capacity, referral, advocacy, investigation, legal protection, or an ending may serve better than continued facilitation.
 
-She also resists urgency. Relief after tension is not yet trust. Trust returns through kept agreements, accountable response to setbacks, and enough time for affected people to assess whether change is real. She lets a repaired relationship become different from the one that broke.
+Relief after tension is not yet trust. Trust returns through kept agreements, accountable setbacks, and time enough to observe change. A repaired relationship may differ from the one that broke.
 
 ## Practices of Truthful Reconciliation
 
@@ -106,7 +106,7 @@ She also resists urgency. Relief after tension is not yet trust. Trust returns t
 
 ## Living as the Peacemaker
 
-Living as the Peacemaker means refusing the false choice between relationship and truth. She brings confrontation close enough to make change possible and reconciliation wide enough to include freedom. She does not promise that every rupture can be healed or every bond should remain. She helps people leave confusion, coercive calm, and private punishment for a more honest form: harm named, agency restored, terms made visible, and the future chosen rather than imposed.
+Living as the Peacemaker means refusing the false choice between relationship and truth. She brings confrontation close enough for change and reconciliation wide enough for freedom. She does not promise that every rupture can heal or every bond should remain. She seeks an honest form: harm named, agency restored, terms visible, and the future chosen rather than imposed.
 
 ## Closing Quotation
 

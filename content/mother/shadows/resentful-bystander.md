@@ -42,7 +42,7 @@ Passive Shadow
 
 ## When Reconciliation Leaves the Room
 
-The Resentful Bystander is the passive shadow of the Peacemaker. Reconciliation collapses while Confrontation distorts. She does not bring the grievance into an answerable exchange. She prosecutes it privately—through rehearsed arguments, cold distance, delayed replies, coded remarks, strategic absence, or an archive of offenses whose charges the other person may never hear.
+The Resentful Bystander is the passive shadow of the Peacemaker: Reconciliation collapses while Confrontation distorts. She prosecutes grievance privately through rehearsed arguments, cold distance, coded remarks, strategic absence, or charges the other person may never hear.
 
 The missing quality is Reconciliation: willingness to test whether honest, bounded contact can create a more workable relation. Restoring it does not require forgiveness, closeness, or renewed access. It means giving truth a clear form and choosing the next relationship deliberately rather than letting unspoken grievance choose it by erosion.
 
@@ -59,19 +59,19 @@ The missing quality is Reconciliation: willingness to test whether honest, bound
 
 ## How Grievance Becomes Distance
 
-This pattern may have formed where direct speech was punished, mocked, denied, or used against her. Silence may have been intelligent in a coercive home, unsafe workplace, discriminatory institution, or relationship where dissent triggered retaliation. She may also have learned that her role was to absorb conflict while others retained the freedom to create it. The shadow appears when protective non-disclosure persists in settings where some bounded, supported form of truth could now restore choice.
+This pattern may have formed where direct speech was punished, mocked, or used against her. Silence may have been intelligent in a coercive home, unsafe workplace, discriminatory institution, or relationship where dissent triggered retaliation. Shadow begins when protective non-disclosure persists where a bounded, supported form of truth could now restore choice.
 
-Her first move is often self-containment. She says the incident is fine, too small, or not worth discussing. Yet Confrontation continues internally. She reconstructs tone, motive, pattern, and verdict. Each new interaction is admitted as evidence; ambiguous behavior is read through the existing case. Because the other person cannot answer an unspoken charge, the private account becomes increasingly certain.
+She says the incident is fine or too small to discuss, while Confrontation continues internally. She reconstructs tone, motive, pattern, and verdict; each new interaction becomes evidence. Because no one can answer an unspoken charge, the private account grows certain.
 
-Indirect punishment can feel like the only proportionate power available. She withholds ordinary warmth, makes herself unavailable at a meaningful moment, completes an obligation with conspicuous coldness, or offers a joke whose target is expected to recognize herself. She may recruit third parties as witnesses while refusing direct or formal process. The grievance gains an audience but no route toward repair.
+Indirect punishment can feel like the only power available. She withholds warmth, disappears at a meaningful moment, fulfills an obligation coldly, or makes a coded joke. She may recruit witnesses while refusing direct or formal process. The grievance gains an audience but no route toward repair.
 
-At work, she may comply outwardly while allowing preventable failure to demonstrate that she was right. In friendship, she may demote someone without naming the changed terms. In community, critique can become a permanent observer position: she sees every compromise and hypocrisy but risks none of the accountable contact required to build something different. In her body, the pattern may appear as jaw tension, rehearsed speech, vigilance before messages, and relief followed by shame after another missed chance to speak.
+At work, she complies while allowing preventable failure to prove her right. In friendship, she demotes someone without naming changed terms. In community, critique becomes a permanent observer position that risks none of the contact required to build differently. Her body may hold jaw tension, rehearsed speech, message vigilance, and shame after another missed chance to speak.
 
-Estrangement is not itself a shadow. Ending contact can be a mature response to abuse, stalking, coercion, repeated betrayal, or an unsafe power structure. A survivor does not owe confrontation, explanation, mediation, or forgiveness. The question is whether distance is a chosen protection with clear terms—or a covert instrument meant to punish, test, or produce mind-reading.
+Estrangement is not itself a shadow. Ending contact can be mature after abuse, stalking, coercion, repeated betrayal, or unsafe power. No survivor owes confrontation, mediation, or forgiveness. The question is whether distance is chosen protection or a covert instrument meant to punish, test, or produce mind-reading.
 
 ## The Truth Waiting Under Silence
 
-The Resentful Bystander often carries moral memory, sensitivity to contradiction, and refusal to erase harm for social ease. She notices what a group has normalized and may preserve a truth others would rather forget. Her anger contains standards and a wish that relationship be capable of more.
+The Resentful Bystander carries moral memory, sensitivity to contradiction, and refusal to erase harm for social ease. Her anger contains standards and a wish that relationship be capable of more.
 
 With Reconciliation restored, she can translate the private indictment into an observable event, impact, need, request, or boundary. She can choose a recipient and container capable of answering it. Her memory then supports accountability instead of maintaining an endless trial.
 
@@ -102,19 +102,19 @@ Treats repair as surrender
 
 ## The Swing Toward Forced Harmony
 
-When isolation, guilt, or the burden of carrying the private case becomes intolerable, the Resentful Bystander may swing toward the Peace Enforcer. She announces that everything is resolved, accepts an inadequate apology, or pressures herself and others into closeness before her grievance has received a truthful answer. The old resentment then remains underneath the reunion.
+When carrying the private case becomes intolerable, she may announce that everything is resolved, accept an inadequate apology, or force closeness before the grievance receives an answer. Resentment remains beneath the reunion.
 
 Both shadows fear the open-ended encounter. One forces Reconciliation before Confrontation; the other lets Reconciliation disappear while Confrontation operates from concealment. The Peacemaker holds both: truth enters contact, and the outcome remains voluntary.
 
 ## A Grievance Given a Door
 
-Transformation begins when she separates vulnerability from surrender. Speaking does not guarantee agreement, remorse, or repair, but it ends the demand that another person discover the charge unaided. She can make her position knowable and keep a boundary if the response is dismissive, manipulative, or unsafe.
+Transformation begins when she separates vulnerability from surrender. Speaking does not guarantee repair, but it ends the demand that another person discover the charge unaided. She can make her position knowable and keep a boundary against a dismissive, manipulative, or unsafe response.
 
 She also learns to finish a conflict. Completion may be a kept agreement, a formal consequence, a redefined relationship, or grief for an answer that will never come. She does not have to call harm acceptable in order to stop organizing her attention around the offender.
 
 ## Where She Returns
 
-The Resentful Bystander returns to the Peacemaker when her clear perception of harm is joined by a chosen form of contact—or by a clear, nonpunitive ending. Reconciliation restores direction to Confrontation. Her truth no longer lives only in rehearsal. It becomes a request, boundary, record, consequence, or release that lets her life move again.
+The Resentful Bystander returns when clear perception joins chosen contact or a nonpunitive ending. Reconciliation restores direction to Confrontation. Her truth becomes a request, boundary, record, consequence, or release that lets her life move again.
 
 ## Closing Quotation
 

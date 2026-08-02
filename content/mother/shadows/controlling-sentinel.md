@@ -42,9 +42,9 @@ Active Shadow
 
 ## When Protection Becomes Jurisdiction
 
-The Controlling Sentinel is the active shadow of the Guardian. Protection expands without Trust. A real or imagined danger becomes permission to govern another person's movement, information, relationships, expression, or ordinary choices. The protected threshold widens until her authority has no clear edge and safety can never be demonstrated.
+The Controlling Sentinel is the active shadow of the Guardian. Protection expands without Trust. Danger becomes permission to govern another person's movement, information, relationships, expression, or ordinary choices until authority has no edge and safety can never be demonstrated.
 
-The missing quality is Trust: not blind optimism, but the capacity to recognize evidence, agency, and changing conditions. Restoring Trust does not remove necessary safeguards. It makes every restriction answerable to a defined risk, a proportionate purpose, and a credible path toward review.
+The missing quality is Trust: recognition of evidence, agency, and changing conditions. It does not remove safeguards; it makes each restriction answerable to defined risk, proportionate purpose, and review.
 
 ## The Sentinel's Rules
 
@@ -59,11 +59,11 @@ The missing quality is Trust: not blind optimism, but the capacity to recognize 
 
 ## How Safety Becomes Control
 
-This pattern may form after betrayal, violence, chaos, or responsibility for protecting others without adequate authority or help. Tight control can be adaptive during acute danger. The shadow emerges when the emergency structure survives its evidence, spreads to unrelated domains, or treats the protector's relief as more important than the protected person's agency.
+This pattern may follow betrayal, violence, chaos, or unsupported responsibility. Acute control can be adaptive; shadow begins when emergency structure outlives evidence, spreads domains, or values the protector's relief over another's agency.
 
-The Controlling Sentinel often speaks the language of care. She checks devices, dictates friendships, controls money, withholds information, or imposes routines “for your own good.” She may require detailed disclosure while keeping her own judgments opaque. Because the motive is protection, disagreement becomes evidence that the other person lacks insight rather than evidence that the boundary needs negotiation.
+She may check devices, dictate friendships, control money, withhold information, or impose routines “for your own good,” demanding disclosure while keeping judgment opaque. Disagreement then proves supposed lack of insight rather than a need to negotiate.
 
-Risk categories broaden under anxiety. Discomfort becomes danger; novelty becomes recklessness; privacy becomes deception. A single breach can be made to justify permanent surveillance. Demonstrated reliability has no cumulative weight, while every mistake resets the account. No behavior can earn more trust because the system is organized to preserve control, not evaluate capacity.
+Under anxiety, discomfort becomes danger, novelty recklessness, and privacy deception. One breach justifies permanent surveillance; reliability carries no weight, while every mistake resets the account. The system preserves control rather than evaluating capacity.
 
 In families, the pattern delays development and trains secrecy. In organizations, it produces accumulating permissions, opaque decisions, and gatekeepers with unchecked authority. In communities, protection language can legitimate bans.
 

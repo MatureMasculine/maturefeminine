@@ -42,9 +42,9 @@ Active Shadow
 
 ## When Nurture Occupies the Other's Life
 
-The Engulfing Mother is the active shadow of the Mother. Nurture expands without Autonomy. Care crosses from responsive support into management of another person's choices, feelings, risks, time, and relationships. She may be generous, vigilant, and tirelessly available, yet her help leaves too little room for the recipient to discover strength, preference, or consequence.
+The Engulfing Mother is the active shadow of the Mother. Nurture expands without Autonomy. Care becomes management of another person's choices, feelings, risks, time, and relationships. Generous vigilance leaves too little room to discover strength, preference, or consequence.
 
-The missing quality is Autonomy: the recognition that the cared-for person is a distinct subject, not a project, possession, or proof of her goodness. Restoring Autonomy does not require coldness. It allows nurture to answer genuine need without keeping another life organized around her fear.
+The missing quality is Autonomy: recognition of a distinct subject, not a project, possession, or proof of goodness. It lets nurture answer need without organizing another life around fear.
 
 ## The Engulfing Contract
 
@@ -59,9 +59,9 @@ The missing quality is Autonomy: the recognition that the cared-for person is a 
 
 ## How Care Becomes Control
 
-This pattern may have formed where love arrived through usefulness, where separation threatened belonging, or where the caregiver was made responsible for outcomes beyond her power. Vigilance may once have protected someone in a dangerous or chaotic environment. The shadow appears when emergency closeness becomes the permanent rule and another person's increasing capacity does not reduce her jurisdiction.
+This pattern may form where love arrived through usefulness, separation threatened belonging, or responsibility exceeded power. Vigilance may have protected acute danger; shadow appears when emergency closeness becomes permanent and growing capacity does not reduce jurisdiction.
 
-She often moves before a request can be made. She answers questions directed to someone else, completes tasks whose difficulty would teach, gives advice as instruction, or monitors details unrelated to immediate safety. When resisted, she may cite sacrifice: all she has done, all she has given up, all that could go wrong. Care becomes an invisible contract in which the recipient owes disclosure, compliance, emotional reassurance, and continued need.
+She answers for others, completes tasks whose difficulty would teach, gives advice as instruction, or monitors beyond safety. Citing sacrifice makes care an invisible contract for disclosure, compliance, reassurance, and continued need.
 
 Anxiety can masquerade as intuition. Because she can imagine harm, she treats harm as imminent; because she loves, she treats access as consent. Ordinary privacy feels like concealment. A different preference feels like rejection. She may be wounded by friends, partners, teachers, clinicians, or communities that give the person additional sources of support and perspective.
 

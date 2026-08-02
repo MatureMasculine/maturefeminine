@@ -37,11 +37,11 @@ sectionRoles: definition=A Secure Base and an Open Gate|declarations=The Mother'
 
 ## A Secure Base and an Open Gate
 
-The Mother sustains legitimate dependence so it can develop toward autonomy. She recognizes that every life begins in need and that need returns through illness, grief, disability, upheaval, and age. She provides food, shelter, attention, instruction, advocacy, and comfort in proportion to what the moment actually requires. Her care says, *You do not have to become capable before you deserve support.*
+The Mother sustains legitimate dependence so it can develop toward autonomy. Need begins life and returns through illness, grief, disability, upheaval, and age. She provides food, shelter, attention, instruction, advocacy, and comfort in proportion to the moment. Her care says, *You do not have to become capable before you deserve support.*
 
-Yet care is not custody. The Mother serves a life whose purpose is not to remain an extension of hers. She studies emerging capacity, transfers responsibility gradually, and permits manageable effort, frustration, and consequence. When continuing support is needed, autonomy still matters: it may mean meaningful choice, accessible communication, privacy, consent, or authority over the pace and form of assistance rather than unsupported independence.
+Care is not custody. She studies emerging capacity, transfers responsibility gradually, and permits manageable effort and consequence. With continuing support, autonomy may mean choice, accessible communication, privacy, consent, or authority over assistance rather than unsupported independence.
 
-Mothering is a human function, not a destiny assigned by sex, pregnancy, or family role. It may be embodied by a parent, elder, teacher, clinician, organizer, friend, or institution. It may also be directed inward when a woman learns to give her own frightened or unfinished parts the structure in which they can grow.
+Mothering is a human function, not a destiny assigned by sex, pregnancy, or family role. Parent, elder, teacher, clinician, organizer, friend, institution, or inner practice can give unfinished life structure in which to grow.
 
 ## The Mother's Inner Stance
 
@@ -58,39 +58,39 @@ Mothering is a human function, not a destiny assigned by sex, pregnancy, or fami
 
 ## The Living Balance
 
-Nurture is the power to notice dependency and answer it. It supplies warmth, protection, resources, repetition, and reliable return. Nurture makes growth possible because it prevents vulnerability from becoming abandonment. Without it, calls for independence can conceal neglect, unequal access, or the demand that a person perform capacity she has not yet had the conditions to build.
+Nurture notices dependency and answers with warmth, protection, resources, repetition, and reliable return. Without it, calls for independence can conceal neglect, unequal access, or demands for capacity a person has lacked conditions to build.
 
-Autonomy recognizes the recipient as a distinct center of experience and choice. It preserves consent, experimentation, privacy, competence, and the right to develop differently from the caregiver's hopes. Autonomy does not deny relationship; it gives relationship two participants. Without it, nurture becomes possession and assistance quietly organizes the other person's life around the helper's anxiety.
+Autonomy recognizes a distinct center of experience and choice. It preserves consent, privacy, competence, and development beyond the caregiver's hopes. Without it, nurture becomes possession and assistance organizes another life around the helper's anxiety.
 
 Nurture without Autonomy produces the Engulfing Mother, who keeps helping after help has become interference. When Nurture collapses and Autonomy becomes premature self-reliance, the Unavailable Mother leaves legitimate need unanswered. Mature mothering continually asks two questions: *What support is truly needed? What choice or capacity can remain in the other person's hands?*
 
 ## Where Care Takes Form
 
-The form changes with the kind of dependency, but the measure remains the same: enough care to sustain participation, enough room for a distinct life to act.
+The measure is enough care to sustain participation and enough room for a distinct life to act.
 
 ### Inner Life
 
-She responds to her own body before depletion becomes crisis. Rest, nourishment, medical attention, and emotional accompaniment are not rewards for perfect productivity. She also refuses to treat every fear as proof that she is incapable. Self-comfort prepares action rather than replacing it.
+She responds before depletion becomes crisis. Rest, nourishment, medical attention, and accompaniment are not rewards for productivity; self-comfort prepares action rather than replacing it.
 
 ### Family and Relationship
 
-She learns the person in front of her rather than applying one fixed measure of care. With a child, she adjusts responsibility as development changes. With an adult, she does not confuse intimacy with permission to manage. With illness or disability, she asks which supports expand participation and which choices must remain protected.
+She learns the person rather than applying one measure of care. She adjusts responsibility with development, does not confuse adult intimacy with permission to manage, and asks which illness or disability supports expand participation.
 
 ### Work and Leadership
 
-The Mother creates conditions in which others can learn without hiding every mistake. She gives context, tools, feedback, and a credible route for help, then leaves meaningful ownership with the learner. She does not rescue a failing system through invisible personal sacrifice; she makes needs and capacity visible so care can be shared.
+She creates conditions for learning without hidden mistakes: context, tools, feedback, help, and meaningful ownership. Instead of rescuing a failing system through invisible sacrifice, she makes need and capacity visible so care can be shared.
 
 ### Community
 
-Her nurture becomes infrastructure: meals, childcare, access, mentoring, safe shelter, patient teaching, and mutual aid. Mature collective care does not require gratitude, sameness, or permanent dependency. It increases people's practical ability to participate in decisions that shape their lives.
+Her nurture becomes meals, childcare, access, mentoring, shelter, teaching, and mutual aid. Collective care asks neither gratitude nor permanent dependency; it increases participation in consequential decisions.
 
 ## What Nurture Asks of Her
 
-The Mother's gifts are attunement, steadiness, patience, and faith in unfinished life. She can tolerate repetition and offer a calm presence while another person learns what she already knows. She sees capacities before they are fully reliable and protects the conditions in which they can strengthen.
+The Mother brings attunement, steadiness, patience, and faith in unfinished life. She tolerates repetition, sees emerging capacity, and protects conditions in which it can strengthen.
 
-These gifts carry responsibility. She must tell the difference between the recipient's need and her own need to be necessary. She must notice unequal labor, seek support, and refuse the fantasy that love makes exhaustion harmless. She must also calibrate risk: too much challenge can overwhelm; too little can communicate that competence is not expected.
+She distinguishes the recipient's need from her need to be necessary, notices unequal labor, seeks support, and refuses the fantasy that love makes exhaustion harmless. Too much challenge can overwhelm; too little can communicate that competence is not expected.
 
-Release brings a particular grief. A role may become smaller just as care succeeds. The Mother lets sorrow be sorrow rather than turning it into guilt, surveillance, or a new emergency. Her bond can change form without becoming meaningless.
+Release brings grief as a role shrinks when care succeeds. She lets sorrow remain sorrow rather than turning it into guilt, surveillance, or emergency.
 
 ## Practices of Care That Develops Capacity
 
@@ -106,7 +106,7 @@ Release brings a particular grief. A role may become smaller just as care succee
 
 ## Living as the Mother
 
-Living as the Mother means becoming trustworthy to need and loyal to growth. She stays near enough for vulnerability to be held and far enough back for agency to take shape. Her nurture does not demand permanent smallness; her respect for autonomy does not abandon anyone to prove strength alone. She gives what life requires, revises as life changes, and lets care fulfill itself by making fuller participation possible.
+Living as the Mother means becoming trustworthy to need and loyal to growth: near enough to hold vulnerability, far enough back for agency. Nurture does not demand smallness; autonomy does not abandon anyone to prove strength. She revises care as life changes so fuller participation becomes possible.
 
 ## Closing Quotation
 

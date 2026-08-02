@@ -42,9 +42,9 @@ Passive Shadow
 
 ## When Autonomy Is Used to Abandon
 
-The Unavailable Mother is the passive shadow of the Mother. Nurture collapses while Autonomy is distorted into compulsory self-sufficiency. She provides too little presence, structure, advocacy, or repair for the actual dependency before her, then interprets the resulting struggle as weakness, intrusion, or proof that the person should need even less.
+The Unavailable Mother is the passive shadow of the Mother. Nurture collapses while Autonomy becomes compulsory self-sufficiency. Too little presence, structure, advocacy, or repair leaves struggle that she interprets as weakness, intrusion, or proof that less care is needed.
 
-The missing quality is Nurture: a responsive investment of attention and resources that makes development possible. Restoring Nurture does not erase limits or require one person to meet every need. It establishes reliable contact, names what can be offered, and ensures that delegation includes accountability rather than disappearance.
+The missing quality is Nurture: responsive attention and resources that enable development. It does not erase limits; it establishes reliable contact, names the offer, and makes delegation accountable.
 
 ## The Unavailable Contract
 
@@ -61,17 +61,17 @@ The missing quality is Nurture: a responsive investment of attention and resourc
 
 This pattern may have formed through deprivation, overload, depression, trauma, coercion, illness, or a family culture that treated need as shameful. She may never have received responsive care herself. She may also be carrying labor without material support. These conditions matter: limited capacity and systemic deprivation are not character defects. Shadow language must not turn an absent safety net into an accusation against the person left holding impossible demands.
 
-The pattern is visible in what happens next. Rather than name incapacity, seek a handoff, or repair a missed response, she makes distance into a principle. She forgets recurring needs, leaves instructions unclear, becomes unreachable during predictable strain, or delegates care without checking whether it occurred. She may offer material provision while remaining emotionally inaccessible, or offer verbal affection without the practical follow-through dependency requires.
+Rather than name incapacity, secure a handoff, or repair, she makes distance a principle. She forgets recurring needs, leaves instructions unclear, disappears during predictable strain, or delegates without checking. Material provision may lack emotional access; verbal affection may lack practical follow-through.
 
-Autonomy becomes a defense against being claimed. She praises toughness when reassurance is needed, calls a request manipulation before assessing it, or insists that premature responsibility builds character. The recipient learns to mute signals, overfunction, or escalate every need because ordinary bids receive no answer. Apparent independence can therefore conceal despair, underdevelopment, or the belief that care only arrives after catastrophe.
+Autonomy becomes defense against being claimed. She praises toughness instead of reassurance, calls requests manipulation, or says premature responsibility builds character. The recipient mutes signals, overfunctions, or escalates because ordinary bids go unanswered; apparent independence can conceal despair or underdevelopment.
 
-Absence is not always neglect. Adults may choose distance, caregivers need rest, and no relationship grants unlimited access. A calm boundary communicated in advance differs from unexplained disappearance. Delegation to competent, resourced care can be responsible; abandonment transfers a duty without securing that it can be carried. The distinction lies in the reality of dependency, the clarity of role, and whether a reliable response or handoff exists.
+Absence is not always neglect. Adults may choose distance, caregivers need rest, and no relationship grants unlimited access. A communicated boundary differs from disappearance; responsible delegation secures competent, resourced care. Dependency, role clarity, and a reliable handoff mark the distinction.
 
 The colonial household described in the opening quotation requires care in interpretation. The racialized servant named there performs the daily care while authority and rejection remain elsewhere. Responsibility should not be displaced onto the worker whose labor is commanded within that system.
 
 ## The Respect for Freedom Inside Withdrawal
 
-The Unavailable Mother may carry respect for privacy, confidence in resilience, and refusal to make another person permanently dependent. She may know that overprotection can suffocate initiative. Integration does not ask her to invade, infantilize, or promise what she cannot sustain.
+She may carry respect for privacy, resilience, and initiative. Integration asks her neither to invade nor to promise what she cannot sustain.
 
 With Nurture restored, freedom gains a secure base. She can make a finite promise and keep it, arrange shared support, remain reachable through difficulty, and offer comfort without interpreting it as a contract for control.
 
@@ -102,15 +102,15 @@ Returns only after crisis
 
 ## The Swing Toward Engulfment
 
-When guilt breaks through or a crisis exposes the cost of absence, the Unavailable Mother may rush into engulfment. She monitors constantly, promises unlimited access, or takes over decisions in an attempt to erase the past. The sudden intensity may serve her need for absolution more than the recipient's present need.
+When guilt or crisis exposes absence, she may rush into engulfment: constant monitoring, unlimited promises, or takeover. Intensity may serve absolution more than present need.
 
 Both shadows avoid calibrated care. Unavailability withholds Nurture; engulfment withholds Autonomy. The mature return begins with a proportionate, dependable offer that can survive ordinary time.
 
 ## Presence Without Capture
 
-Transformation begins with tolerating the fact that another person's need can matter without becoming limitless. She learns to stay for the conversation she wants to escape, to ask for practical support before collapse, and to make capacity visible without making the dependent person responsible for her shame.
+Transformation begins when another's need can matter without becoming limitless. She stays for the difficult conversation, seeks support before collapse, and names capacity without making a dependent person carry her shame.
 
-She also recognizes that autonomy develops through relationship. Reliable help does not necessarily weaken competence; timely shelter can preserve the energy from which competence grows. Where continuing assistance is legitimate, mature care protects choice within support rather than withholding support in the name of independence.
+Autonomy develops through relationship. Reliable help can preserve energy for competence; continuing assistance can protect choice within support rather than withhold support in independence's name.
 
 ## Where She Returns
 

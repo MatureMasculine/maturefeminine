@@ -42,7 +42,7 @@ Active Shadow
 
 ## When Reconciliation Silences the Conflict
 
-The Peace Enforcer is the active shadow of the Peacemaker. Reconciliation expands without Confrontation. She tries to restore togetherness before the conflict has been named, understood, or answered. Her language may sound generous—grace, perspective, unity, moving forward—but its timing protects the comfort and continuity of the group more than the person carrying the injury.
+The Peace Enforcer is the active shadow of the Peacemaker: Reconciliation expands without Confrontation. She restores togetherness before the conflict has been named or answered. Her language may sound generous—grace, perspective, unity—but its timing protects group comfort more than the person carrying the injury.
 
 The missing quality is Confrontation: direct contact with what occurred, its unequal effects, and the changes required. Restoring Confrontation does not make aggression mature. It gives reconciliation something truthful to reconcile.
 
@@ -59,19 +59,19 @@ The missing quality is Confrontation: direct contact with what occurred, its une
 
 ## How Calm Becomes Control
 
-This pattern may have formed where conflict brought violence, abandonment, humiliation, or chaotic escalation. Reading a room, softening a voice, and restoring routine may once have protected her or people she loved. It may also reflect a role in which she was expected to keep a family, team, or community functioning without authority to address the conditions causing its conflict. The shadow appears when an old emergency strategy becomes a rule that truth must never disturb belonging.
+This pattern may have formed where conflict brought violence, abandonment, humiliation, or chaotic escalation. Reading a room and restoring routine may once have protected her or people she loved. She may also have been expected to keep a group functioning without authority to address the conflict's cause. Shadow begins when an emergency strategy becomes a rule that truth must never disturb belonging.
 
-She often intervenes at the first sign of heat. She reframes a specific harm as a communication problem, asks everyone to examine her contribution, or moves immediately toward shared values. These moves can be useful later. Used too soon, they dilute responsibility and make the injured person perform balance before the accountable person has faced impact.
+At the first heat, she reframes specific harm as a communication problem, asks everyone to examine her contribution, or moves toward shared values. Useful later, these moves now dilute responsibility and make the injured person perform balance before the accountable person faces impact.
 
 The Peace Enforcer prefers intentions to consequences. She may explain that someone meant well, has suffered too, or is already ashamed. She can mistake an explanation for repair and empathy for exoneration. If anger persists, she treats its persistence as the new problem. The person who names harm becomes “negative,” “unforgiving,” or a threat to the whole.
 
-In families and friendships, she may pressure reunion around a holiday, illness, or milestone. At work, she may substitute a harmony meeting for a complaint process or ask a person with less power to accept an informal conversation. In communities, she may protect leaders, donors, elders, or insiders because consequence feels like fracture. Confidentiality becomes secrecy; mercy becomes immunity.
+In families, she pressures reunion around a milestone. At work, she substitutes a harmony meeting for a complaint process or asks the person with less power to accept informality. In communities, she protects insiders because consequence feels like fracture. Confidentiality becomes secrecy; mercy becomes immunity.
 
 Not every pause is avoidance. In acute danger, a ceasefire, separation, or temporary agreement can be necessary before facts are examined. Confrontation should not be prescribed where it would expose someone to retaliation, coercion, or renewed abuse. The distinction is whether the pause protects a later truthful process and preserves choice—or quietly becomes the final settlement.
 
 ## The Longing Beneath the Rush
 
-The Peace Enforcer carries sensitivity to escalation, a gift for shared language, and a real longing for people to remain human to one another. She may find a point of contact when everyone else sees only opposition. Her hope is not false; it is premature.
+The Peace Enforcer carries sensitivity to escalation, shared language, and a real longing for people to remain human to one another. Her hope is not false; it is premature.
 
 With Confrontation restored, she can use calm to increase the room's capacity for truth. She can slow contempt, clarify the disputed event, and protect the conditions for each person to speak without deciding that closeness must follow. Her skill becomes credible because discomfort is no longer evidence that repair has failed.
 
@@ -102,13 +102,13 @@ Rewards quick compliance
 
 ## The Swing Toward Private Prosecution
 
-When forced calm finally becomes intolerable, the Peace Enforcer may swing toward the Resentful Bystander. She stops speaking, stores evidence, withdraws warmth, and waits for others to recognize a grievance she once helped suppress. What looked like harmony becomes an abrupt or punitive distance.
+When forced calm becomes intolerable, she may stop speaking, store evidence, withdraw warmth, and wait for others to recognize the grievance she once helped suppress. Harmony becomes punitive distance.
 
 Both shadows avoid the living balance. One imposes Reconciliation without Confrontation; the other lets Reconciliation collapse while Confrontation continues in private and distorted form. The mature return permits direct truth and leaves the outcome open.
 
 ## Repair After Reality
 
-Transformation begins when she stops treating tension as proof of danger. She can say, “I want this resolved quickly because conflict frightens me,” without making that fear the timetable for everyone else. She learns to recognize the difference between a regulated room and a controlled narrative.
+Transformation begins when she stops treating tension as proof of danger. She can name her wish for speed without making fear everyone else's timetable, and distinguish a regulated room from a controlled narrative.
 
 She also lets consequence support relationship. A boundary, role change, investigation, restitution, or period of distance may be part of reconciliation rather than its defeat. When continued contact is unsafe or unwanted, she respects the ending and refuses to call access the measure of a good heart.
 
