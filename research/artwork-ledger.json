@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "description": "Provenance and publication-status records for artwork commissioned or selected for the Mature Feminine field guide.",
+  "records": [
+    {
+      "id": "art-closed-hearth-generated-2026-08-02",
+      "assignment": "closed-hearth",
+      "file": "assets/images/shadow/closed-hearth.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "1024x1536",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a print field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray the Closed Hearth, the passive shadow of bounded hospitality: privacy has hardened into exclusion, while a real capacity for chosen welcome remains recoverable\nScene/backdrop: an immaculate but unused interior sanctuary at twilight; a heavy closed door; a cold stone hearth with one faint coal; one empty chair near a carefully set but untouched place; a narrow warm line of light visible around the threshold\nSubject: one adult woman, fully clothed, self-possessed and watchful rather than villainous, standing within the protected room; her posture conveys practiced withdrawal and guarded sovereignty\nStyle/medium: richly detailed painterly fantasy realism consistent with a mature archetype book; tactile stone, wood, wool, ash, and subtle floral motifs; elegant, psychologically symbolic, serious rather than melodramatic\nComposition/framing: vertical 2:3 portrait, crop-safe central subject, visually strong from top to bottom, no important elements at extreme side edges; the doorway and hearth should read clearly in a narrow portrait crop\nLighting/mood: cool indigo and charcoal interior with restrained ember-gold at the threshold; quiet, sealed, lonely, dignified\nConstraints: no text, captions, labels, borders, logos, watermarks, typography, deity names, sacred regalia, identifiable living-tradition cultural dress, children, visible abuse, or moralizing caricature\nAvoid: glamorous seductress imagery, horror, witch clichés, locked-prison imagery, ruined or filthy domestic space, excessive blackness, photorealistic stock-photo look",
+      "editorialRationale": "The closed threshold, cold hearth, unused place setting, and retained line of warm light show Privacy becoming enclosure without treating solitude or boundaries as pathology.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    },
+    {
+      "id": "art-manipulative-sorceress-generated-2026-08-02",
+      "assignment": "manipulative-sorceress",
+      "file": "assets/images/shadow/manipulative-sorceress.png",
+      "status": "approved",
+      "created": "2026-08-02",
+      "generator": "OpenAI built-in image-generation tool",
+      "inputImages": [],
+      "pixelDimensions": "979x1606",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait illustration for a print field-guide spread, cropped to a 3.40 x 5.25 inch vertical frame\nPrimary request: portray the Manipulative Sorceress, the active shadow of accountable transformation: formidable agency is being used without integrity, through hidden leverage, undisclosed costs, and influence without consent\nScene/backdrop: a refined transformation workshop or observatory at night; luminous mechanisms, glass vessels, maps, and fine threads connect several small moving parts behind a translucent screen, suggesting that outcomes are being arranged where affected people cannot see the means\nSubject: one mature adult woman, fully clothed, intelligent, composed, and highly capable rather than cartoonishly evil; one hand openly shapes a clear sphere of light while the other quietly pulls concealed threads behind the screen; her expression is focused and certain, not seductive\nStyle/medium: richly detailed painterly fantasy realism consistent with a mature archetype book; elegant symbolic machinery, subtle alchemical geometry without readable glyphs, layered silk, brass, glass, ink, and shadow\nComposition/framing: vertical 2:3 portrait, crop-safe central figure, face and both hands visible, strong visual depth from top to bottom, no essential information at extreme side edges\nLighting/mood: midnight blue, charcoal, muted plum, brass, and controlled amber light; beautiful, consequential, ethically uneasy\nConstraints: no text, captions, labels, borders, logos, watermarks, readable runes, deity names, identifiable living-tradition cultural dress, nudity, victim figures, or explicit harm\nAvoid: witch hat, broom, cauldron cliché, glamorous seductress, horror villain, green magic, domination pose, fortune-teller stereotype, photorealistic stock-photo look",
+      "editorialRationale": "The open sphere and concealed control threads distinguish real transformative capacity from undisclosed leverage, depicting Agency operating without transparent Integrity.",
+      "rightsStatus": "Generated specifically for this project with no external source image supplied; publication use remains subject to the account holder's applicable OpenAI terms."
+    }
+  ]
+}

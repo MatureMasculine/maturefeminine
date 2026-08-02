@@ -10,7 +10,7 @@ qualityB: Privacy
 aliases:
 legacyRoutes: /mother/wife-nurturer-hearth-goddess/shadows/withholding-hostess/
 legacyAnchors: withholding-hostess
-image:
+image: assets/images/shadow/closed-hearth.png
 keyQualities: Calls people intrusions|Makes welcome conditional|Keeps sanctuary unusable|Uses home to avoid contact|Withholds basic comfort|Turns privacy into exclusion
 quoteIds: quote-closed-hearth-opening-dickinson-selects-society|quote-closed-hearth-closing-dickens-looking-glass
 mythicResonances: Miss Havisham (nineteenth-century English literary tradition)
