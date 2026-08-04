@@ -562,7 +562,7 @@ def render_document(config: dict[str, Any], entries: list[dict[str, Any]], image
 \\newcommand\\QuoteBodyGap{{\\vspace{{{layout['quoteBodyGap']}}}}}
 \\newcommand\\MetaIcon[1]{{\\textcolor{{ProfileIcon}}{{\\faIcon{{#1}}}}}}
 \\newcommand\\EntryTitle[1]{{{{\\centering\\TitleFont\\bfseries\\fontsize{{{typography['chapterSize']}pt}}{{{typography['chapterLeading']}pt}}\\selectfont #1\\par}}}}
-\\newcommand\\SpecialTitle[1]{{{{\\parbox{{\\linewidth}}{{\\centering\\TitleFont\\bfseries\\fontsize{{18pt}}{{22pt}}\\selectfont #1\\par}}}}}}
+\\newcommand\\SpecialTitle[1]{{{{\\parbox{{\\linewidth}}{{\\centering\\TitleFont\\bfseries\\fontsize{{18pt}}{{22pt}}\\selectfont #1\\par}}\\par}}}}
 \\newcommand\\SpecialTitlePage[1]{{{{\\centering\\TitleFont\\bfseries\\fontsize{{30pt}}{{36pt}}\\selectfont #1\\par}}}}
 \\newcommand\\SpecialTitlePageBody{{\\fontsize{{14pt}}{{19pt}}\\selectfont}}
 \\makeatletter

@@ -247,6 +247,30 @@ class GenerateBookTests(unittest.TestCase):
                 self.assertEqual(entry_end - entry_start + 1, 2)
                 self.assertTrue(document[entry_index].get_text().strip())
                 self.assertTrue(document[entry_index + 1].get_text().strip())
+
+                for title in ("Conclusion", "Bibliography and Further Reading"):
+                    page, spans = next(
+                        (page, spans)
+                        for page in document
+                        for spans in [[
+                            span
+                            for block in page.get_text("dict")["blocks"]
+                            for line in block.get("lines", [])
+                            for span in line.get("spans", [])
+                            if span["text"].strip()
+                        ]]
+                        if any(
+                            span["text"].strip() == title and span["font"] == "CinzelDecorative-Bold"
+                            for span in spans
+                        )
+                    )
+                    title_span = next(span for span in spans if span["text"].strip() == title)
+                    first_body_span = next(span for span in spans if span["font"].startswith("Palatino"))
+                    self.assertGreaterEqual(
+                        first_body_span["bbox"][1] - title_span["bbox"][3],
+                        20,
+                        f"{title} body must begin below the title band",
+                    )
             finally:
                 document.close()
 
